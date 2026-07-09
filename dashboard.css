@@ -7,7 +7,7 @@
   --ink-blue: #1e3a8a;
   --ink-black: #1e293b;
   --ink-red: #c2255c;
-  --margin-line: rgba(239, 68, 68, 0.4);
+  --margin-line: rgba(239, 68, 68, 0);
   --note-line: rgba(59, 130, 246, 0.08);
 
   --hl-yellow: linear-gradient(100deg, rgba(254, 240, 138, 0.7) 0%, rgba(253, 224, 71, 0.9) 70%, rgba(254, 240, 138, 0.4) 100%);
@@ -54,13 +54,13 @@ body {
     10px 10px 0px #fffcf5,
     10px 10px 4px rgba(0, 0, 0, 0.02);
 
-  padding: 60px 50px 60px 115px;
+  padding: 50px 50px 50px 50px;
   min-height: 700px;
   box-sizing: border-box;
 }
 
 /* Spiral Binding Binder Holes */
-.paper-page::before {
+/* .paper-page::before {
   content: '';
   position: absolute;
   top: 40px;
@@ -74,10 +74,10 @@ body {
   opacity: 0.8;
   mix-blend-mode: multiply;
   z-index: 10;
-}
+} */
 
 /* Metal Spiral Rings */
-.paper-page::after {
+/* .paper-page::after {
   content: '';
   position: absolute;
   top: 36px;
@@ -99,7 +99,7 @@ body {
   background-position: 0 12px;
   z-index: 11;
   filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.18));
-}
+} */
 
 h1 {
   font-family: 'Kalam', cursive;
@@ -177,7 +177,8 @@ p {
 .subject-card.active:hover {
   transform: translateY(-4px);
   border-color: var(--ink-blue);
-  background: rgba(254, 240, 138, 0.3); /* sticky yellow highlights */
+  background: rgba(254, 240, 138, 0.3);
+  /* sticky yellow highlights */
 }
 
 .subject-card.disabled {
@@ -213,7 +214,8 @@ p {
 
 /* Quote display */
 .quote-banner {
-  background: #fef08a; /* sticky yellow */
+  background: #fef08a;
+  /* sticky yellow */
   padding: 20px 24px;
   margin: 32px 0;
   border-radius: 3px 15px 5px 20px/20px 5px 15px 3px;
@@ -263,7 +265,7 @@ p {
   }
 
   .paper-page {
-    padding: 40px 20px 40px 60px;
+    padding: 20px 20px 20px 20px;
     background-image:
       linear-gradient(90deg, transparent 49px, var(--margin-line) 49px, var(--margin-line) 51px, transparent 51px),
       linear-gradient(var(--note-line) 96%, transparent 96%);
@@ -271,7 +273,7 @@ p {
     background-position: 0 0, 0 12px;
   }
 
-  .paper-page::before {
+  /* .paper-page::before {
     left: 8px;
     top: 20px;
     bottom: 20px;
@@ -281,7 +283,7 @@ p {
     left: -2px;
     top: 16px;
     bottom: 24px;
-  }
+  } */
 
   h1 {
     font-size: 28px;
@@ -329,7 +331,7 @@ p {
   padding: 30px;
   width: 320px;
   text-align: center;
-  box-shadow: 5px 15px 30px rgba(0,0,0,0.15);
+  box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.15);
   position: relative;
   transform: rotate(-1deg);
 }
@@ -347,7 +349,8 @@ p {
   left: 20px;
   width: 60px;
   height: 50px;
-  background: #f59e0b; /* Amber clay cup look */
+  background: #f59e0b;
+  /* Amber clay cup look */
   border: 2px solid #4b5563;
   border-radius: 0 0 30px 30px;
 }
@@ -404,10 +407,12 @@ p {
     transform: translateY(0) scaleY(1);
     opacity: 0;
   }
+
   50% {
     transform: translateY(-8px) scaleY(1.2);
     opacity: 0.6;
   }
+
   100% {
     transform: translateY(-16px) scaleY(0.8);
     opacity: 0;
@@ -426,6 +431,7 @@ p {
   margin-top: 16px;
   box-shadow: 2px 2px 0px #4b5563;
 }
+
 .chai-btn-close:hover {
   background: #a61c4c;
   transform: translate(1px, 1px);
@@ -442,4 +448,3 @@ p {
 .summon-chai-link:hover {
   color: var(--ink-red);
 }
-
