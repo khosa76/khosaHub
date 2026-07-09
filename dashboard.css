@@ -1,0 +1,445 @@
+/* dashboard.css - Premium Lined Notebook Theme for KHOSA Aspirant Hub Dashboard */
+
+:root {
+  --desk-bg: #f3f4f6;
+  --desk-grid: rgba(209, 213, 219, 0.6);
+  --paper-bg: #fffdf8;
+  --ink-blue: #1e3a8a;
+  --ink-black: #1e293b;
+  --ink-red: #c2255c;
+  --margin-line: rgba(239, 68, 68, 0.4);
+  --note-line: rgba(59, 130, 246, 0.08);
+
+  --hl-yellow: linear-gradient(100deg, rgba(254, 240, 138, 0.7) 0%, rgba(253, 224, 71, 0.9) 70%, rgba(254, 240, 138, 0.4) 100%);
+  --hl-pink: linear-gradient(100deg, rgba(251, 207, 232, 0.7) 0%, rgba(244, 114, 182, 0.8) 70%, rgba(251, 207, 232, 0.4) 100%);
+  --hl-blue: linear-gradient(100deg, rgba(191, 219, 254, 0.7) 0%, rgba(96, 165, 250, 0.8) 70%, rgba(191, 219, 254, 0.4) 100%);
+  --hl-green: linear-gradient(100deg, rgba(187, 247, 208, 0.7) 0%, rgba(74, 222, 128, 0.8) 70%, rgba(187, 247, 208, 0.4) 100%);
+}
+
+body {
+  background-color: var(--desk-bg);
+  background-image: radial-gradient(var(--desk-grid) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+  margin: 0;
+  padding: 40px 20px;
+  font-family: 'Patrick Hand', cursive;
+  color: var(--ink-black);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.notebook-container {
+  width: 100%;
+  max-width: 1100px;
+}
+
+/* Individual Paper Page */
+.paper-page {
+  position: relative;
+  background-color: var(--paper-bg);
+  background-image:
+    linear-gradient(90deg, transparent 79px, var(--margin-line) 79px, var(--margin-line) 81px, transparent 81px),
+    linear-gradient(var(--note-line) 96%, transparent 96%);
+  background-size: 100% 100%, 100% 32px;
+  background-position: 0 0, 0 12px;
+
+  border-radius: 4px 16px 16px 4px;
+  box-shadow:
+    0 15px 35px rgba(0, 0, 0, 0.05),
+    0 5px 15px rgba(0, 0, 0, 0.03),
+    0 0 0 1px rgba(0, 0, 0, 0.04),
+    5px 5px 0px #fffdf8,
+    5px 5px 2px rgba(0, 0, 0, 0.02),
+    10px 10px 0px #fffcf5,
+    10px 10px 4px rgba(0, 0, 0, 0.02);
+
+  padding: 60px 50px 60px 115px;
+  min-height: 700px;
+  box-sizing: border-box;
+}
+
+/* Spiral Binding Binder Holes */
+.paper-page::before {
+  content: '';
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  left: 20px;
+  width: 14px;
+  background-image: radial-gradient(circle, #374151 55%, transparent 63%);
+  background-size: 14px 32px;
+  background-repeat: repeat-y;
+  background-position: 0 12px;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
+  z-index: 10;
+}
+
+/* Metal Spiral Rings */
+.paper-page::after {
+  content: '';
+  position: absolute;
+  top: 36px;
+  bottom: 44px;
+  left: 6px;
+  width: 32px;
+  background-image: linear-gradient(180deg,
+      transparent 0px,
+      transparent 4px,
+      #9ca3af 4px,
+      #e5e7eb 8px,
+      #ffffff 10px,
+      #d1d5db 12px,
+      #4b5563 16px,
+      transparent 16px,
+      transparent 32px);
+  background-size: 32px 32px;
+  background-repeat: repeat-y;
+  background-position: 0 12px;
+  z-index: 11;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.18));
+}
+
+h1 {
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: var(--ink-blue);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 22px;
+  color: var(--ink-black);
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: var(--ink-blue);
+  margin-top: 32px;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 6px;
+  background: rgba(59, 130, 246, 0.2);
+  border-radius: 4px;
+  margin-top: 2px;
+  transform: rotate(-0.5deg);
+}
+
+p {
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+/* Subject Grid */
+.subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.subject-card {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.4);
+  border: 2px solid #4b5563;
+  border-radius: 12px 6px 15px 5px/6px 15px 5px 12px;
+  box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.02);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  position: relative;
+}
+
+.subject-card.active:hover {
+  transform: translateY(-4px);
+  border-color: var(--ink-blue);
+  background: rgba(254, 240, 138, 0.3); /* sticky yellow highlights */
+}
+
+.subject-card.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.subject-card.disabled::after {
+  content: 'Coming Soon';
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 14px;
+  font-family: 'Kalam', cursive;
+  background: var(--hl-pink);
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: #1e293b;
+}
+
+.subject-card h3 {
+  font-family: 'Kalam', cursive;
+  font-size: 24px;
+  color: var(--ink-blue);
+  margin-bottom: 12px;
+}
+
+.subject-card p {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+/* Quote display */
+.quote-banner {
+  background: #fef08a; /* sticky yellow */
+  padding: 20px 24px;
+  margin: 32px 0;
+  border-radius: 3px 15px 5px 20px/20px 5px 15px 3px;
+  box-shadow:
+    3px 12px 18px rgba(0, 0, 0, 0.04),
+    0px 1px 3px rgba(0, 0, 0, 0.02);
+  transform: rotate(-0.5deg);
+  border-left: 5px solid #facc15;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* Sticky notes */
+.sticky-note {
+  background: #fef08a;
+  padding: 24px;
+  margin: 36px 0;
+  border-radius: 3px 15px 5px 20px/20px 5px 15px 3px;
+  box-shadow: 3px 12px 18px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #facc15;
+}
+
+.sticky-note p {
+  margin-bottom: 12px;
+}
+
+.date-widget {
+  font-family: 'Kalam', cursive;
+  font-size: 22px;
+  color: var(--ink-red);
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.time-widget {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 18px;
+  color: var(--ink-blue);
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .paper-page {
+    padding: 40px 20px 40px 60px;
+    background-image:
+      linear-gradient(90deg, transparent 49px, var(--margin-line) 49px, var(--margin-line) 51px, transparent 51px),
+      linear-gradient(var(--note-line) 96%, transparent 96%);
+    background-size: 100% 100%, 100% 32px;
+    background-position: 0 0, 0 12px;
+  }
+
+  .paper-page::before {
+    left: 8px;
+    top: 20px;
+    bottom: 20px;
+  }
+
+  .paper-page::after {
+    left: -2px;
+    top: 16px;
+    bottom: 24px;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  .subject-card {
+    padding: 16px;
+  }
+
+  .subject-card h3 {
+    font-size: 20px;
+  }
+
+  .subject-card p {
+    font-size: 16px;
+  }
+}
+
+/* --- Easter Egg Steaming Teacup Styles --- */
+.chai-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Kalam', cursive;
+}
+
+.chai-cup-card {
+  background: var(--paper-bg);
+  border: 2px solid #4b5563;
+  border-radius: 12px;
+  padding: 30px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 5px 15px 30px rgba(0,0,0,0.15);
+  position: relative;
+  transform: rotate(-1deg);
+}
+
+.cup-container {
+  position: relative;
+  width: 100px;
+  height: 80px;
+  margin: 0 auto 20px;
+}
+
+.cup {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  width: 60px;
+  height: 50px;
+  background: #f59e0b; /* Amber clay cup look */
+  border: 2px solid #4b5563;
+  border-radius: 0 0 30px 30px;
+}
+
+.cup-handle {
+  position: absolute;
+  bottom: 22px;
+  left: 76px;
+  width: 12px;
+  height: 22px;
+  border: 2px solid #4b5563;
+  border-left: none;
+  border-radius: 0 12px 12px 0;
+}
+
+.cup-saucer {
+  position: absolute;
+  bottom: 4px;
+  left: 10px;
+  width: 80px;
+  height: 8px;
+  background: #d97706;
+  border: 2px solid #4b5563;
+  border-radius: 4px;
+}
+
+.steam-lines {
+  position: absolute;
+  top: 10px;
+  left: 35px;
+  display: flex;
+  gap: 8px;
+}
+
+.steam {
+  width: 4px;
+  height: 25px;
+  background: rgba(75, 85, 99, 0.4);
+  border-radius: 2px;
+  animation: floatSteam 2s infinite ease-in-out;
+}
+
+.steam:nth-child(2) {
+  animation-delay: 0.4s;
+  height: 32px;
+}
+
+.steam:nth-child(3) {
+  animation-delay: 0.8s;
+}
+
+@keyframes floatSteam {
+  0% {
+    transform: translateY(0) scaleY(1);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-8px) scaleY(1.2);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-16px) scaleY(0.8);
+    opacity: 0;
+  }
+}
+
+.chai-btn-close {
+  background: var(--ink-red);
+  color: white;
+  border: 2px solid #4b5563;
+  font-family: inherit;
+  font-size: 18px;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 16px;
+  box-shadow: 2px 2px 0px #4b5563;
+}
+.chai-btn-close:hover {
+  background: #a61c4c;
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #4b5563;
+}
+
+.summon-chai-link {
+  color: var(--ink-blue);
+  text-decoration: underline dotted;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.summon-chai-link:hover {
+  color: var(--ink-red);
+}
+

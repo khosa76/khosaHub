@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KHOSA Aspirant Hub - UPSC study Vault</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+    <div class="notebook-container">
+        <div class="paper-page">
+
+            <!-- Clock/Date Widget at Top -->
+            <div class="date-widget" id="current-date">--/--/----</div>
+            <div class="time-widget" id="current-time">00:00:00</div>
+
+            <h1>KHOSA Aspirant Hub</h1>
+            <div class="subtitle">Personal study Vault & Notes Directory</div>
+
+            <div class="quote-banner">
+                <span style="font-weight: bold;">💡 Revision Quote: </span>
+                <span id="quote-display">"The only limit to our realization of tomorrow will be our doubts of today." —
+                    Franklin D. Roosevelt</span>
+            </div>
+
+            <h2>Subject Notes Vault</h2>
+            <p>Select a subject to open its detailed chapter index and study files:</p>
+
+            <div class="subjects-grid">
+                <a href="subjects/polity/index.html" class="subject-card active">
+                    <h3>Indian Polity</h3>
+                    <p>Sovereignty, Preamble, Articles 1-4, Reorganisation of States, Citizenship, Federalism, and
+                        Amendments of the Constitution.</p>
+                </a>
+                <div class="subject-card disabled">
+                    <h3>Modern Indian History</h3>
+                    <p>National movement, socio-religious reforms, constitutional developments under British rule, and
+                        tribal/peasant movements.</p>
+                </div>
+                <div class="subject-card disabled">
+                    <h3>Geography & Mapping</h3>
+                    <p>Physical geography, climate systems, resources, map-pointing, and environmental ecosystems.</p>
+                </div>
+                <div class="subject-card disabled">
+                    <h3>Indian Economy</h3>
+                    <p>Macroeconomics, banking and finance, agriculture subsidies, fiscal policies, and economic
+                        surveys.</p>
+                </div>
+            </div>
+
+            <!-- Root Index shows funny aspirant house rules -->
+            <div class="sticky-note yellow-note" style="margin-top: 36px;">
+                <p><strong>Aspirant's Daily House Rules:</strong></p>
+                <p style="font-size: 18px; line-height: 28px;">1. 📅 <strong>Rule 1 (Productive Planning):</strong>Spend
+                    3 hours creating the perfect study timetable. Begin studying tomorrow, because today was clearly
+                    reserved for planning.</p>
+                <p style="font-size: 18px; line-height: 28px;">2. 📖 <strong>Rule 2 (Knowledge Transfer):</strong>Place
+                    the textbook within 2 meters of your head and hope Bluetooth learning has finally been invented.</p>
+                <p style="font-size: 18px; line-height: 28px;">3. ☕ <strong>Rule 3 (Caffeine Protocol):</strong> Need a
+                    tea break? Click here to <span class="summon-chai-link" onclick="summonChai()">request virtual
+                        cutting chai break permit</span>. (Warning: Break may trigger intense daydreams of clearing the
+                    exam in the first attempt).</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Steaming Chai Easter Egg Overlay -->
+    <div class="chai-overlay" id="chai-overlay" onclick="closeChai()">
+        <div class="chai-cup-card" onclick="event.stopPropagation()">
+            <div class="cup-container">
+                <div class="steam-lines">
+                    <div class="steam"></div>
+                    <div class="steam"></div>
+                    <div class="steam"></div>
+                </div>
+                <div class="cup"></div>
+                <div class="cup-handle"></div>
+                <div class="cup-saucer"></div>
+            </div>
+            <h3 style="font-size: 26px; color: var(--ink-blue); margin-bottom: 8px; font-family: 'Kalam', cursive;">Chai
+                Served! ☕</h3>
+            <p id="chai-wisdom"
+                style="font-size: 20px; line-height: 26px; margin-bottom: 12px; font-style: italic; color: var(--ink-black);">
+                "Laxmikanth size: 📚. Your brain right now: ☕. Take a 5-minute deep breath. You got this!"
+            </p>
+            <button class="chai-btn-close" onclick="closeChai()">Back to study</button>
+        </div>
+    </div>
+
+    <script>
+        // --- Quotes of the Day ---
+        const quotes = [
+            '"The only limit to our realization of tomorrow will be our doubts of today." — Franklin D. Roosevelt',
+            '"Success is not final, failure is not fatal: it is the courage to continue that counts." — Winston Churchill',
+            '"It is not the mountain we conquer, but ourselves." — Edmund Hillary',
+            '"The secret of getting ahead is getting started." — Mark Twain',
+            '"Quality is not an act, it is a habit." — Aristotle',
+            '"Sovereignty of character is the true freedom." — Aspirant Quote',
+            '"Arise, awake, and stop not until the goal is reached." — Swami Vivekananda'
+        ];
+
+        function rotateQuote() {
+            const index = Math.floor(Math.random() * quotes.length);
+            document.getElementById('quote-display').innerText = quotes[index];
+        }
+        rotateQuote();
+        setInterval(rotateQuote, 30000); // rotate quote every 30 seconds
+
+        // --- Clock and Date Widget ---
+        function updateClock() {
+            const now = new Date();
+
+            // Format time
+            let hrs = now.getHours().toString().padStart(2, '0');
+            let mins = now.getMinutes().toString().padStart(2, '0');
+            let secs = now.getSeconds().toString().padStart(2, '0');
+            document.getElementById('current-time').innerText = `${hrs}:${mins}:${secs}`;
+
+            // Format date
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            document.getElementById('current-date').innerText = now.toLocaleDateString('en-US', options);
+        }
+        updateClock();
+        setInterval(updateClock, 1000);
+
+        // --- Easter Egg: Cutting Chai summoner (Funny/Humorous Quotes) ---
+        const wisdomList = [
+            '"Laxmikanth has 80 chapters, but your attention span lasts exactly 80 seconds. Take a sip and start again! ☕"',
+            '"UPSC syllabus is like the universe — ever-expanding. But this cutting chai is finite. Drink up before it gets cold! ☕"',
+            '"Breaking News: Local aspirant seen studying for 15 minutes straight. MHA orders high-level probe into this sudden burst of efficiency! 😂"',
+            '"Virtual tea served. Side effects may include: temporary delusion of clearing UPSC in your first attempt, sudden urge to read random NCERTs, and extreme sleepiness."',
+            '"Did you know? The word \"Sovereign\" means you are completely independent. But right now, you are 100% dependent on caffeine. Drink up!"',
+            '"Aspirant\'s Dilemma: Sleep for 10 minutes or read Laxmikanth for 10 minutes? *Sleeps for 4 hours instead* 💤"',
+            '"Chai break duration: 5 minutes. Actual time spent staring blankly at the wall: 45 minutes. A classic, time-tested aspirant revision method!"',
+            '"Congratulations! You have completed 0.003% of the syllabus today. Reward yourself with a virtual biscuit to go with this tea! 🍪"'
+        ];
+
+        function summonChai() {
+            const index = Math.floor(Math.random() * wisdomList.length);
+            document.getElementById('chai-wisdom').innerText = wisdomList[index];
+            document.getElementById('chai-overlay').style.display = 'flex';
+            playChirpSound();
+        }
+
+        function closeChai() {
+            document.getElementById('chai-overlay').style.display = 'none';
+        }
+
+        function playChirpSound() {
+            try {
+                const ctx = new (window.AudioContext || window.webkitAudioContext)();
+                const now = ctx.currentTime;
+                for (let i = 0; i < 5; i++) {
+                    const osc = ctx.createOscillator();
+                    const gain = ctx.createGain();
+                    osc.connect(gain);
+                    gain.connect(ctx.destination);
+                    osc.type = 'sine';
+                    const pitch = 300 + (i * 120);
+                    const time = now + (i * 0.08);
+                    osc.frequency.setValueAtTime(pitch, time);
+                    gain.gain.setValueAtTime(0.08, time);
+                    gain.gain.exponentialRampToValueAtTime(0.001, time + 0.12);
+                    osc.start(time);
+                    osc.stop(time + 0.15);
+                }
+            } catch (e) {
+                console.error(e);
+            }
+        }
+    </script>
+</body>
+
+</html>

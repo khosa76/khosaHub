@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Indian Polity - Notes Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Extra styles specific to the Table of Contents search and inputs */
+        .search-container {
+            margin-bottom: 28px;
+            display: flex;
+            gap: 12px;
+        }
+
+        .search-input {
+            font-family: 'Patrick Hand', cursive;
+            font-size: 20px;
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.6);
+            border: 1px dashed rgba(30, 58, 138, 0.3);
+            border-radius: 8px;
+            outline: none;
+            color: var(--ink-black);
+            width: 100%;
+        }
+
+        .search-input:focus {
+            border-color: var(--ink-blue);
+            background: #fff;
+        }
+
+        .back-home-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            font-family: 'Kalam', cursive;
+            font-size: 16px;
+            color: var(--ink-blue);
+            border: 1px solid rgba(30, 58, 138, 0.3);
+            background: rgba(255, 255, 255, 0.4);
+            padding: 4px 12px;
+            border-radius: 6px;
+            margin-bottom: 24px;
+            transition: all 0.2s ease;
+        }
+
+        .back-home-btn:hover {
+            background: rgba(30, 58, 138, 0.08);
+            transform: translateX(-3px);
+        }
+
+        .status-checkbox {
+            cursor: pointer;
+            width: 18px;
+            height: 18px;
+            accent-color: var(--ink-blue);
+        }
+
+        .chapter-link {
+            text-decoration: none;
+            color: var(--ink-blue);
+            font-weight: bold;
+            border-bottom: 1px dotted var(--ink-blue);
+        }
+
+        .chapter-link:hover {
+            color: var(--ink-red);
+            border-bottom-color: var(--ink-red);
+        }
+
+        .no-results {
+            display: none;
+            text-align: center;
+            font-size: 22px;
+            color: var(--ink-red);
+            padding: 24px;
+        }
+
+        /* Bookshelf Styles inside the Notebook */
+        .library-shelf {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 20px;
+            margin-top: 16px;
+        }
+
+        .book-card {
+            background: rgba(255, 255, 255, 0.5);
+            border: 2px dashed #4b5563;
+            border-radius: 8px;
+            padding: 16px 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            min-height: 150px;
+            justify-content: space-between;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.02);
+        }
+
+        .book-card:hover {
+            border-color: var(--ink-blue);
+            background: rgba(254, 240, 138, 0.3);
+            /* yellow post-it style hover */
+            transform: translateY(-3px);
+        }
+
+        .book-icon {
+            font-size: 36px;
+            margin-bottom: 8px;
+        }
+
+        .book-title {
+            font-family: 'Kalam', cursive;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 1.3;
+            color: var(--ink-blue);
+        }
+
+        .book-type {
+            font-size: 12px;
+            color: var(--ink-red);
+            font-style: italic;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="notebook-container">
+        <div class="paper-page">
+            <a href="../../index.html" class="back-home-btn">
+                &larr; Back to Main Dashboard
+            </a>
+
+            <h1>INDIAN POLITY NOTES</h1>
+
+            <h2>Syllabus Chapter Checklist</h2>
+            <p>Welcome to the Polity module. Below is the list of completed revision chapters. You can use the search
+                bar to filter concepts and check boxes to mark chapters as <strong>Read</strong> to sync your progress
+                dashboard.</p>
+
+            <div class="search-container">
+                <input type="text" id="search-input" class="search-input"
+                    placeholder="Search chapters or topics (e.g. basic structure, CAA, Fazl Ali)..."
+                    oninput="filterChapters()">
+            </div>
+
+            <table id="chapters-table">
+                <thead>
+                    <tr>
+                        <th style="width: 8%;">No.</th>
+                        <th style="width: 25%;">Chapter</th>
+                        <th style="width: 52%;">Syllabus Focus & Keywords</th>
+                        <th style="width: 15%; text-align: center;">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="chapter-row"
+                        data-search="preamble we the people sovereign socialist secular democratic republic kesavananda bharti popular sovereignty non-enforceable non-justiciable horoscope km munshi">
+                        <td>1.</td>
+                        <td><a href="preamble.html" class="chapter-link">The Preamble</a></td>
+                        <td>Core ideals, Preamble ingredients, Sovereignty, Socialism, Secularism, Democracy, Republic,
+                            Kesavananda Bharati case, LIC case.</td>
+                        <td style="text-align: center;">
+                            <label>
+                                <input type="checkbox" class="status-checkbox" id="chk-preamble"
+                                    onchange="toggleStatus('preamble')">
+                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr class="chapter-row"
+                        data-search="amendment of the constitution part xx article 368 bare act parliamentary power majorities simple special ratification 24th amendment informal methods judicial review article 137 basic structure golaknath case 42nd act 39th act">
+                        <td>2.</td>
+                        <td><a href="amendment.html" class="chapter-link">Amendment of Constitution</a></td>
+                        <td>Part XX Article 368 procedure, types of majorities (simple, special, federal), Formal vs
+                            Informal methods, Judicial review, major amendments, Basic Structure doctrine origins.</td>
+                        <td style="text-align: center;">
+                            <label>
+                                <input type="checkbox" class="status-checkbox" id="chk-amendment"
+                                    onchange="toggleStatus('amendment')">
+                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr class="chapter-row"
+                        data-search="reorganisation of states language basis post independence Nagpur session 1920 dhar commission jvp committee fazl ali commission states reorganisation act 1956 smaller states debate autonomous councils dev boards">
+                        <td>3.</td>
+                        <td><a href="reorganisation.html" class="chapter-link">Reorganisation of States</a></td>
+                        <td>Post-independence state creation on linguistic basis, Nagpur Session 1920, S.K. Dhar, JVP
+                            Committee, Fazl Ali Commission, Smaller States arguments, Presidential Vetoes.</td>
+                        <td style="text-align: center;">
+                            <label>
+                                <input type="checkbox" class="status-checkbox" id="chk-reorganisation"
+                                    onchange="toggleStatus('reorganisation')">
+                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr class="chapter-row"
+                        data-search="federalism local self-government foedus power division delegation devolution decentralization holding coming together asymmetric federalism core features dual polity supremacy rigidity quasi federal kc wheare co-operative bargaining competitive centralizing">
+                        <td>4.</td>
+                        <td><a href="federalism.html" class="chapter-link">Federalism</a></td>
+                        <td>Conceptual terms (Delegation, Devolution, Decentralization), Types of federations, Essential
+                            federal features, Unitary vs Federal features, Quasi-federalism, Cooperative, Bargaining and
+                            Competitive modes.</td>
+                        <td style="text-align: center;">
+                            <label>
+                                <input type="checkbox" class="status-checkbox" id="chk-federalism"
+                                    onchange="toggleStatus('federalism')">
+                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr class="chapter-row"
+                        data-search="articles 1 to 4 union and its territory identity of india bharat destruction of states acquired territories admission of new states domestic reorganization article 368 exemption simple majority">
+                        <td>5.</td>
+                        <td><a href="article1to4.html" class="chapter-link">Articles 1 to 4</a></td>
+                        <td>Part I: The Union and its Territory, Admission or establishment of new states, boundary
+                            alteration, Article 368 exemption (Simple Majority), USA vs India comparison.</td>
+                        <td style="text-align: center;">
+                            <label>
+                                <input type="checkbox" class="status-checkbox" id="chk-article1to4"
+                                    onchange="toggleStatus('article1to4')">
+                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr class="chapter-row"
+                        data-search="citizenship part II core terms immigration emigration domicile enemy alien nri oci jus soli descent registration naturalisation dual citizenship Pravasi bharatiya divas caa 2019 aatish taseer">
+                        <td>6.</td>
+                        <td><a href="citizenship.html" class="chapter-link">Articles 5 to 11 | Citizenship</a></td>
+                        <td>Part II: Core terminology, Acquisition (Birth, Descent, Registration, Naturalisation), Loss
+                            of Citizenship, NRI & OCI schemes, Citizenship Amendment Act (CAA) 2019.</td>
+                        <td style="text-align: center;">
+                            <label>
+                                <input type="checkbox" class="status-checkbox" id="chk-citizenship"
+                                    onchange="toggleStatus('citizenship')">
+                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
+                            </label>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <div id="no-results-msg" class="no-results">
+                No matching topics found in current syllabus notes.
+            </div>
+
+            <!-- Subject-Wise PDF Scanned Notes Section -->
+            <h2>Polity Scanned Reference Library</h2>
+            <p>Access the original handwritten notes scan sheets for each chapter:</p>
+            <div class="library-shelf">
+                <a class="book-card" href="pdf/Preamble.pdf" target="_blank">
+                    <div class="book-icon">📚</div>
+                    <div class="book-title">1. Preamble</div>
+                    <div class="book-type">PDF Scan</div>
+                </a>
+                <a class="book-card" href="pdf/Article 1 to 4.pdf" target="_blank">
+                    <div class="book-icon">📚</div>
+                    <div class="book-title">2. Articles 1-4</div>
+                    <div class="book-type">PDF Scan</div>
+                </a>
+                <a class="book-card" href="pdf/Reorganisation.pdf" target="_blank">
+                    <div class="book-icon">📚</div>
+                    <div class="book-title">3. Reorganisation</div>
+                    <div class="book-type">PDF Scan</div>
+                </a>
+                <a class="book-card" href="pdf/Citizenship.pdf" target="_blank">
+                    <div class="book-icon">📚</div>
+                    <div class="book-title">4. Citizenship</div>
+                    <div class="book-type">PDF Scan</div>
+                </a>
+                <a class="book-card" href="pdf/Federalism.pdf" target="_blank">
+                    <div class="book-icon">📚</div>
+                    <div class="book-title">5. Federalism</div>
+                    <div class="book-type">PDF Scan</div>
+                </a>
+                <a class="book-card" href="pdf/Amendment of constitution.pdf" target="_blank">
+                    <div class="book-icon">📚</div>
+                    <div class="book-title">6. Amendments</div>
+                    <div class="book-type">PDF Scan</div>
+                </a>
+            </div>
+
+            <!-- Polity Index shows funny study checklist note -->
+            <div class="sticky-note yellow-note" style="margin-top: 36px; position: relative;">
+                <p><strong>Aspirant's Survival Checklist:</strong></p>
+                <ul
+                    style="margin-top: 8px; margin-bottom: 8px; font-size: 18px; line-height: 28px; padding-left: 20px;">
+                    <li>📝 <strong>Highlighter Abuse:</strong> Highlight 99% of Laxmikanth so the pages glow in the
+                        dark.</li>
+                    <li>⏱️ <strong>Time Management:</strong> Spend 3 hours making a daily study schedule, follow it for
+                        exactly 3 minutes.</li>
+                    <li>☕ <strong>Caffeine Protocol:</strong> Consume more cups of cutting chai than the total number of
+                        Articles in the Constitution.</li>
+                    <li>👁️ <strong>Active Revision:</strong> Stare blankly at a single page of Preamble for 45 minutes
+                        while contemplating dinner plans.</li>
+                    <li>🏛️ <strong>Constitutional Crisis:</strong> Argue with friends whether reorganising your bedroom
+                        requires a Special Majority.</li>
+                </ul>
+            </div>
+
+            <!-- Fun margin doodle easter egg trigger -->
+            <p
+                style="font-family: 'Caveat', cursive; font-size: 22px; color: var(--ink-red); text-align: right; margin-top: 8px; transform: rotate(-1deg); margin-bottom: 0;">
+                * brain melting? tap the cup &rarr; <span style="cursor: pointer; font-size: 26px;"
+                    onclick="summonChai()" title="Click for Chai Break">☕</span>
+            </p>
+        </div>
+    </div>
+
+    <!-- Steaming Chai Easter Egg Overlay -->
+    <div class="chai-overlay" id="chai-overlay" onclick="closeChai()">
+        <div class="chai-cup-card" onclick="event.stopPropagation()">
+            <div class="cup-container">
+                <div class="steam-lines">
+                    <div class="steam"></div>
+                    <div class="steam"></div>
+                    <div class="steam"></div>
+                </div>
+                <div class="cup"></div>
+                <div class="cup-handle"></div>
+                <div class="cup-saucer"></div>
+            </div>
+            <h3 style="font-size: 26px; color: var(--ink-blue); margin-bottom: 8px; font-family: 'Kalam', cursive;">Chai
+                Served! ☕</h3>
+            <p id="chai-wisdom"
+                style="font-size: 20px; line-height: 26px; margin-bottom: 12px; font-style: italic; color: var(--ink-black);">
+                "Laxmikanth size: 📚. Your brain right now: ☕. Take a 5-minute deep breath. You got this!"
+            </p>
+            <button class="chai-btn-close" onclick="closeChai()">Back to study</button>
+        </div>
+    </div>
+
+    <script>
+        const chapters = ['preamble', 'article1to4', 'reorganisation', 'citizenship', 'federalism', 'amendment'];
+
+        // Load statuses from localStorage
+        function loadStatuses() {
+            chapters.forEach(ch => {
+                const status = localStorage.getItem(`polity_chapter_${ch}`);
+                const checkbox = document.getElementById(`chk-${ch}`);
+                if (checkbox) {
+                    checkbox.checked = (status === 'read');
+                }
+            });
+        }
+
+        // Save status change to localStorage
+        function toggleStatus(ch) {
+            const checkbox = document.getElementById(`chk-${ch}`);
+            if (checkbox) {
+                const newStatus = checkbox.checked ? 'read' : 'unread';
+                localStorage.setItem(`polity_chapter_${ch}`, newStatus);
+            }
+        }
+
+        // Live Fuzzy Search / filter chapters
+        function filterChapters() {
+            const query = document.getElementById('search-input').value.toLowerCase().trim();
+            const rows = document.querySelectorAll('.chapter-row');
+            let visibleCount = 0;
+
+            rows.forEach(row => {
+                const searchText = row.getAttribute('data-search') + " " + row.textContent.toLowerCase();
+                if (searchText.includes(query)) {
+                    row.style.display = 'table-row';
+                    visibleCount++;
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+
+            const noResults = document.getElementById('no-results-msg');
+            const table = document.getElementById('chapters-table');
+
+            if (visibleCount === 0) {
+                noResults.style.display = 'block';
+                table.style.display = 'none';
+            } else {
+                noResults.style.display = 'none';
+                table.style.display = 'table';
+            }
+        }
+
+        // --- Easter Egg: Cutting Chai summoner (Funny/Humorous Quotes) ---
+        const wisdomList = [
+            '"Laxmikanth has 80 chapters, but your attention span lasts exactly 80 seconds. Take a sip and start again! ☕"',
+            '"UPSC syllabus is like the universe — ever-expanding. But this cutting chai is finite. Drink up before it gets cold! ☕"',
+            '"Breaking News: Local aspirant seen studying for 15 minutes straight. MHA orders high-level probe into this sudden burst of efficiency! 😂"',
+            '"Virtual tea served. Side effects may include: temporary delusion of clearing UPSC in your first attempt, sudden urge to read random NCERTs, and extreme sleepiness."',
+            '"Did you know? The word \"Sovereign\" means you are completely independent. But right now, you are 100% dependent on caffeine. Drink up!"',
+            '"Aspirant\'s Dilemma: Sleep for 10 minutes or read Laxmikanth for 10 minutes? *Sleeps for 4 hours instead* 💤"',
+            '"Chai break duration: 5 minutes. Actual time spent staring blankly at the wall: 45 minutes. A classic, time-tested aspirant revision method!"',
+            '"Congratulations! You have completed 0.003% of the syllabus today. Reward yourself with a virtual biscuit to go with this tea! 🍪"'
+        ];
+
+        function summonChai() {
+            const index = Math.floor(Math.random() * wisdomList.length);
+            document.getElementById('chai-wisdom').innerText = wisdomList[index];
+            document.getElementById('chai-overlay').style.display = 'flex';
+            playChirpSound();
+        }
+
+        function closeChai() {
+            document.getElementById('chai-overlay').style.display = 'none';
+        }
+
+        function playChirpSound() {
+            try {
+                const ctx = new (window.AudioContext || window.webkitAudioContext)();
+                const now = ctx.currentTime;
+                for (let i = 0; i < 5; i++) {
+                    const osc = ctx.createOscillator();
+                    const gain = ctx.createGain();
+                    osc.connect(gain);
+                    gain.connect(ctx.destination);
+                    osc.type = 'sine';
+                    const pitch = 300 + (i * 120);
+                    const time = now + (i * 0.08);
+                    osc.frequency.setValueAtTime(pitch, time);
+                    gain.gain.setValueAtTime(0.08, time);
+                    gain.gain.exponentialRampToValueAtTime(0.001, time + 0.12);
+                    osc.start(time);
+                    osc.stop(time + 0.15);
+                }
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        window.onload = loadStatuses;
+    </script>
+</body>
+
+</html>
