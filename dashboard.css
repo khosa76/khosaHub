@@ -21,7 +21,7 @@ body {
   background-image: radial-gradient(var(--desk-grid) 1.5px, transparent 1.5px);
   background-size: 24px 24px;
   margin: 0;
-  padding: 40px 20px;
+  padding: 40px 1px;
   font-family: 'Patrick Hand', cursive;
   color: var(--ink-black);
   display: flex;
@@ -261,7 +261,7 @@ p {
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   body {
-    padding: 10px;
+    padding: 1px;
   }
 
   .paper-page {
