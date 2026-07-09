@@ -117,16 +117,20 @@
         // --- Clock and Date Widget ---
         function updateClock() {
             const now = new Date();
+            const timeEl = document.getElementById('current-time');
+            const dateEl = document.getElementById('current-date');
 
-            // Format time
-            let hrs = now.getHours().toString().padStart(2, '0');
-            let mins = now.getMinutes().toString().padStart(2, '0');
-            let secs = now.getSeconds().toString().padStart(2, '0');
-            document.getElementById('current-time').innerText = `${hrs}:${mins}:${secs}`;
+            if (timeEl) {
+                let hrs = now.getHours().toString().padStart(2, '0');
+                let mins = now.getMinutes().toString().padStart(2, '0');
+                let secs = now.getSeconds().toString().padStart(2, '0');
+                timeEl.innerText = `${hrs}:${mins}:${secs}`;
+            }
 
-            // Format date
-            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-            document.getElementById('current-date').innerText = now.toLocaleDateString('en-US', options);
+            if (dateEl) {
+                const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+                dateEl.innerText = now.toLocaleDateString('en-US', options);
+            }
         }
         updateClock();
         setInterval(updateClock, 1000);
