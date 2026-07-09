@@ -25,7 +25,7 @@ body {
   background-image: radial-gradient(var(--desk-grid) 1.5px, transparent 1.5px);
   background-size: 24px 24px;
   margin: 0;
-  padding: 40px 20px;
+  padding: 40px 1px;
   font-family: 'Patrick Hand', cursive;
   color: var(--ink-black);
   display: flex;
@@ -49,7 +49,7 @@ body {
   background-color: var(--paper-bg);
   /* Lined paper effect + red margin line */
   background-image:
-    linear-gradient(90deg, transparent 79px, var(--margin-line) 79px, var(--margin-line) 81px, transparent 81px),
+    linear-gradient(90deg, transparent 66px, var(--margin-line) 66px, var(--margin-line) 68px, transparent 68px),
     linear-gradient(var(--note-line) 96%, transparent 96%);
   background-size: 100% 100%, 100% 32px;
   background-position: 0 0, 0 12px;
@@ -66,7 +66,7 @@ body {
     10px 10px 0px #fffcf5,
     10px 10px 4px rgba(0, 0, 0, 0.02);
 
-  padding: 60px 50px 60px 115px;
+  padding: 60px 50px 60px 90px;
   /* Offset for red line and binding */
   min-height: 500px;
   box-sizing: border-box;
@@ -474,7 +474,8 @@ th {
 }
 
 .nav-trigger:hover {
-  background: #fef08a; /* post-it yellow hover */
+  background: #fef08a;
+  /* post-it yellow hover */
   transform: scale(1.05);
 }
 
@@ -500,7 +501,7 @@ th {
   z-index: 1001;
 }
 
-#nav-checkbox:checked ~ .nav-drawer {
+#nav-checkbox:checked~.nav-drawer {
   display: flex;
 }
 
@@ -531,7 +532,8 @@ th {
 }
 
 .nav-drawer-link.active {
-  background: rgba(254, 240, 138, 0.5); /* highlighted */
+  background: rgba(254, 240, 138, 0.5);
+  /* highlighted */
   font-weight: bold;
 }
 
@@ -555,14 +557,15 @@ th {
   font-family: 'Kalam', cursive;
   font-size: 16px;
   transition: top 0.3s ease;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   display: inline-flex;
   align-items: center;
   gap: 6px;
 }
 
 .back-to-hub-btn:hover {
-  background: #fef08a; /* post-it yellow hover */
+  background: #fef08a;
+  /* post-it yellow hover */
   color: var(--ink-red);
 }
 
@@ -593,7 +596,7 @@ th {
   padding: 30px;
   width: 320px;
   text-align: center;
-  box-shadow: 5px 15px 30px rgba(0,0,0,0.15);
+  box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.15);
   position: relative;
   transform: rotate(-1deg);
 }
@@ -611,7 +614,8 @@ th {
   left: 20px;
   width: 60px;
   height: 50px;
-  background: #f59e0b; /* Amber clay cup look */
+  background: #f59e0b;
+  /* Amber clay cup look */
   border: 2px solid #4b5563;
   border-radius: 0 0 30px 30px;
 }
@@ -668,10 +672,12 @@ th {
     transform: translateY(0) scaleY(1);
     opacity: 0;
   }
+
   50% {
     transform: translateY(-8px) scaleY(1.2);
     opacity: 0.6;
   }
+
   100% {
     transform: translateY(-16px) scaleY(0.8);
     opacity: 0;
@@ -690,6 +696,7 @@ th {
   margin-top: 16px;
   box-shadow: 2px 2px 0px #4b5563;
 }
+
 .chai-btn-close:hover {
   background: #a61c4c;
   transform: translate(1px, 1px);
