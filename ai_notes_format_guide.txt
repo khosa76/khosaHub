@@ -1,0 +1,110 @@
+================================================================================
+LLM AI PROMPT: FORMATTING NOTES TO ALIGN WITH COGNITIVE HANDWRITTEN DESIGN SYSTEM
+================================================================================
+
+Role: Act as a premium, highly structured educational content architect and coder.
+Task: Format the provided raw study notes into a beautiful, styled HTML document.
+Styling Rules: It MUST strictly use the existing CSS classes from 'style.css' to align perfectly with the notebook-styled design. Do not add custom inline styles unless specified.
+
+--------------------------------------------------------------------------------
+1. HTML BOILERPLATE & LIBS
+--------------------------------------------------------------------------------
+Every file must connect to Google Fonts and reference 'style.css' relative to its path:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Indian Polity - [Topic Name]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="notebook-container">
+        <div class="paper-page">
+            <!-- Content goes here -->
+        </div>
+    </div>
+</body>
+</html>
+```
+
+--------------------------------------------------------------------------------
+2. HEADING HIERARCHY & FLOW
+--------------------------------------------------------------------------------
+- <h1> : Main Title (Only ONE per page, e.g. PART-II: CITIZENSHIP)
+- <h2> : Primary Topics (Numbered, e.g., 2. Constitutional Provisions)
+- <h3> : Subtopics (Uses branching arrow indicator '↳ ' prefixing title text)
+  Example: <h3>↳ Rights Exclusive to Indian Citizens</h3>
+
+--------------------------------------------------------------------------------
+3. QUESTION & ANSWER (Q&A) CARDS
+--------------------------------------------------------------------------------
+Use the dedicated bordered card format for all Q&As. Standardize questions to use 'Kalam' font with a badge, and answers to use 'Patrick Hand' font.
+```html
+<div class="qa-block">
+    <p class="q-text">
+        <span class="badge q-badge">Q</span> <strong>[Write Question Here]</strong>
+    </p>
+    <p class="ans-text">
+        [Write Answer Here]
+    </p>
+</div>
+```
+
+--------------------------------------------------------------------------------
+4. THEMED CONTEXTUAL HIGHLIGHTS
+--------------------------------------------------------------------------------
+Never apply yellow highlight to standard headers or generic bold text. Bold labels must be clean blue ink (using standard <strong>). Only highlight core learning terms, dates, acts, and numbers:
+- <strong class="hl-yellow"> : International agreements, bodies, panels (e.g. UNHCR, L.M. Singhvi).
+- <strong class="hl-pink"> : Restrictions, domestic penal acts, cut-offs (e.g. Foreigners Act, 1946, March 24, 1971).
+- <strong class="hl-green"> : Mandatory criteria, constitutional articles, rights (e.g. Article 21, 5 years, Oath of Allegiance).
+- <strong class="hl-blue"> : Registries, databases, government organizations (e.g. Aadhaar, UIDAI, 182 days).
+
+--------------------------------------------------------------------------------
+5. KEY POINT LISTS & NOTE CARDS
+--------------------------------------------------------------------------------
+- Bullet Points / Lists: Always wrap lists (ul/ol) inside a div with class 'key-points' for proper notebook margins.
+  ```html
+  <div class="key-points">
+      <strong>[List Subheading]:</strong>
+      <ul style="margin-top: 8px; margin-bottom: 0;">
+          <li>Point 1...</li>
+          <li>Point 2...</li>
+      </ul>
+  </div>
+  ```
+- Sticky Note Blocks: Use cards to call out summaries, case studies, or warnings.
+  Available classes: 'yellow-note', 'pink-note', 'blue-note'.
+  ```html
+  <div class="sticky-note blue-note">
+      <p><strong>[Header]:</strong></p>
+      <p>[Details...]</p>
+  </div>
+  ```
+
+--------------------------------------------------------------------------------
+6. DIAGRAMS & ILLUSTRATIONS
+--------------------------------------------------------------------------------
+Wrap note illustrations/diagrams in a figure block to center them:
+```html
+<figure class="diagram-container-wide">
+    <img src="images/[subfolder]/[filename].JPG" alt="Diagram Description" class="diagram-image-wide">
+    <figcaption class="diagram-caption">Figure: [Short Description]</figcaption>
+</figure>
+```
+
+--------------------------------------------------------------------------------
+7. ACTION STAMP & EXPORT
+--------------------------------------------------------------------------------
+Add the PDF print-trigger button at the absolute bottom of the '.paper-page' wrapper:
+```html
+            <!-- Print / PDF Export Button -->
+            <div class="print-btn-container">
+                <button onclick="window.print()" class="print-pdf-btn">
+                    &#128196; Export to A4 PDF
+                </button>
+            </div>
+```
