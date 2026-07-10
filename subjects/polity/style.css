@@ -192,15 +192,10 @@ li {
   margin-bottom: 8px;
 }
 
-/* Standard Highlight */
+/* Standard Highlight (No background by default) */
 strong {
   font-weight: bold;
-  background: var(--hl-yellow);
-  padding: 1px 6px;
-  border-radius: 4px 8px 3px 6px;
-  margin: 0 -2px;
-  display: inline;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.01);
+  color: var(--ink-blue);
 }
 
 /* Red annotations / cursive notes */
@@ -213,20 +208,40 @@ em {
   padding: 0 4px;
 }
 
-/* Custom Highlight colors */
+/* Custom Highlight colors with padding */
+.hl-yellow,
+.hl-pink,
+.hl-blue,
+.hl-green {
+  padding: 1px 6px;
+  margin: 0 -2px;
+  display: inline;
+  font-weight: bold;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.01);
+}
+
+.hl-yellow {
+  background: var(--hl-yellow);
+  border-radius: 4px 8px 3px 6px;
+  color: var(--ink-black);
+}
+
 .hl-pink {
   background: var(--hl-pink);
   border-radius: 6px 3px 8px 4px;
+  color: var(--ink-black);
 }
 
 .hl-blue {
   background: var(--hl-blue);
   border-radius: 4px 6px 3px 8px;
+  color: var(--ink-black);
 }
 
 .hl-green {
   background: var(--hl-green);
   border-radius: 8px 4px 6px 3px;
+  color: var(--ink-black);
 }
 
 /* Sticky Note (Post-it) Block */
