@@ -97,14 +97,19 @@ Wrap note illustrations/diagrams in a figure block to center them:
 ```
 
 --------------------------------------------------------------------------------
-7. ACTION STAMP & EXPORT
+7. A4 PRINT & PDF ALIGNMENT GUIDELINES
 --------------------------------------------------------------------------------
-Add the PDF print-trigger button at the absolute bottom of the '.paper-page' wrapper:
-```html
-            <!-- Print / PDF Export Button -->
-            <div class="print-btn-container">
-                <button onclick="window.print()" class="print-pdf-btn">
-                    &#128196; Export to A4 PDF
-                </button>
-            </div>
-```
+To ensure notes render beautifully on A4 paper prints and PDF exports without content cutting or leaving awkward white spaces:
+- Modular Content Blocks: Keep 'qa-block' cards, 'sticky-note' boxes, and 'table' grids small and modular (avoid massive, page-long cards). These containers are styled to stay together in print (break-inside: avoid). If a card is too long, it will be pushed to the next page, leaving a large empty gap on the previous page.
+- Lists Division: Break extremely long bullet lists into smaller lists or separate subheadings. While individual list items (li) will not split in half, the parent '.key-points' container can split between bullet points to flow naturally across pages.
+- H2 Page Breaks: Always use '<h2>' tags for major topics. The stylesheet is configured to automatically push every new '<h2>' section to a fresh A4 page (except the first heading of the document).
+- Adjacent Sibling Alignment: Always place the intro paragraph or table immediately below its heading. Sibling elements directly following headings are styled to prevent page breaks between them and the heading (break-before: avoid), keeping headings from getting stranded alone at the bottom of pages.
+- Action Stamp: Include the PDF export button at the absolute end of the page:
+  ```html
+  <!-- Print / PDF Export Button -->
+  <div class="print-btn-container">
+      <button onclick="window.print()" class="print-pdf-btn">
+          &#128196; Export to A4 PDF
+      </button>
+  </div>
+  ```
