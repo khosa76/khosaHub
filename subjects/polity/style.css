@@ -501,9 +501,15 @@ th {
   }
 
   /* Avoid cutting headers or key components across pages */
-  h2, h3, h1 {
-    page-break-after: avoid;
-    break-after: avoid;
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+
+  /* Force the element immediately following a heading to stay on the same page as the heading */
+  h1 + *, h2 + *, h3 + *, h4 + *, h5 + *, h6 + * {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
   }
 
   /* Force fresh page start for major h2 sections, except the first section of the document */
