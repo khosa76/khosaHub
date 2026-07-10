@@ -298,12 +298,15 @@ em {
 
 /* Handwritten Q&A Block */
 .qa-block {
-  border-left: 3px solid rgba(30, 58, 138, 0.15);
-  padding-left: 20px;
+  background-color: rgba(30, 58, 138, 0.02);
+  border: 1.5px solid rgba(30, 58, 138, 0.15);
+  border-radius: 12px;
+  padding: 18px 22px;
   margin: 28px 0;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
+  box-shadow: 2px 4px 12px rgba(30, 58, 138, 0.02);
 }
 
 .q-text {
@@ -420,7 +423,7 @@ th {
   margin: 24px auto;
   padding: 16px;
   /* background-color: rgba(255, 255, 255, 0.5); */
-  border: 2px dashed #d1d5db;
+  /* border: 2px dashed #d1d5db; */
   /* Subtle dashed line for a sketched feel */
   border-radius: 8px;
   text-align: center;
@@ -432,7 +435,7 @@ th {
   margin: 24px auto;
   padding: 16px;
   /* background-color: rgba(255, 255, 255, 0.5); */
-  border: 2px dashed #d1d5db;
+  /* border: 2px dashed #d1d5db; */
   /* Subtle dashed line for a sketched feel */
   border-radius: 8px;
   text-align: center;
