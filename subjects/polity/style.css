@@ -135,8 +135,8 @@ h2 {
   font-size: 32px;
   line-height: 38px;
   color: var(--ink-blue);
-  margin-top: 54px;
-  margin-bottom: 20px;
+  margin-top: 64px;
+  margin-bottom: 24px;
   position: relative;
   display: inline-block;
 }
@@ -158,9 +158,16 @@ h3 {
   font-weight: 700;
   font-size: 25px;
   line-height: 32px;
-  color: var(--ink-blue);
-  margin-top: 42px;
+  color: var(--ink-red);
+  margin-top: 40px;
   margin-bottom: 12px;
+}
+
+h3::before {
+  content: '↳ ';
+  color: var(--ink-red);
+  margin-right: 6px;
+  font-weight: normal;
 }
 
 /* Paragraphs & Lists */
