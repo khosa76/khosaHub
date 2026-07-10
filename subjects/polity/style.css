@@ -300,13 +300,28 @@ em {
 .qa-block {
   border-left: 3px solid rgba(30, 58, 138, 0.15);
   padding-left: 20px;
-  margin: 24px 0;
+  margin: 28px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.q-text {
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 28px;
+  color: var(--ink-blue);
+  margin: 0;
 }
 
 .ans-text {
+  font-family: 'Patrick Hand', cursive;
   font-size: 19px;
   line-height: 28px;
   color: var(--ink-black);
+  margin: 0;
+  padding-left: 6px;
 }
 
 .key-points {
