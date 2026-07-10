@@ -506,12 +506,28 @@ th {
     break-after: avoid;
   }
 
+  /* Force fresh page start for major h2 sections, except the first section of the document */
+  h2 {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  h1 ~ h2:first-of-type {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+  }
+
   .qa-block,
   .key-points,
   table,
   .sticky-note,
   figure,
-  tr {
+  tr,
+  td,
+  th,
+  p,
+  li,
+  img {
     page-break-inside: avoid;
     break-inside: avoid;
   }
@@ -520,6 +536,8 @@ th {
   p, li, td {
     font-size: 15px !important;
     line-height: 22px !important;
+    orphans: 3 !important;
+    widows: 3 !important;
   }
 
   h2 {
