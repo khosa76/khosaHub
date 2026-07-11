@@ -4,28 +4,28 @@
   --desk-bg: #f3f4f6;
   --desk-grid: rgba(209, 213, 219, 0.6);
   --paper-bg: #fffdf8;
-  
+
   --ink-blue: #1e3a8a;
   --ink-blue-hover: #111827;
   --ink-blue-light: rgba(59, 130, 246, 0.08);
   --ink-black: #1e293b;
   --ink-red: #c2255c;
   --ink-red-light: rgba(194, 37, 92, 0.08);
-  
+
   --margin-line: rgba(239, 68, 68, 0.4);
   --note-line: rgba(59, 130, 246, 0.08);
-  
+
   /* Highlighter Colors */
   --hl-yellow: linear-gradient(100deg, rgba(254, 240, 138, 0.7) 0%, rgba(253, 224, 71, 0.9) 70%, rgba(254, 240, 138, 0.4) 100%);
   --hl-pink: linear-gradient(100deg, rgba(251, 207, 232, 0.7) 0%, rgba(244, 114, 182, 0.8) 70%, rgba(251, 207, 232, 0.4) 100%);
   --hl-blue: linear-gradient(100deg, rgba(191, 219, 254, 0.7) 0%, rgba(96, 165, 250, 0.8) 70%, rgba(191, 219, 254, 0.4) 100%);
   --hl-green: linear-gradient(100deg, rgba(187, 247, 208, 0.7) 0%, rgba(74, 222, 128, 0.8) 70%, rgba(187, 247, 208, 0.4) 100%);
-  
+
   --radius-notebook: 12px;
   --radius-pill: 980px;
   --radius-option: 8px;
   --radius-nav: 6px;
-  
+
   --transition-fast: all 0.15s ease;
   --transition-normal: all 0.25s ease;
 }
@@ -46,7 +46,7 @@ body {
   font-size: 20px;
   line-height: 1.4;
   margin: 0;
-  padding: 40px 10px;
+  padding: 40px 1px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -54,9 +54,9 @@ body {
 
 .app-container {
   width: 100%;
-  max-width: 1100px;
+  max-width: 100%;
   margin: 0 auto;
-  padding-top: 50px; /* clear top navbar spacing */
+  /* padding-top: 50px; */
 }
 
 /* Notebook Container & Paper Page */
@@ -124,6 +124,7 @@ body {
 
 /* Premium Top Navbar styled like a notebook divider header */
 .app-navbar {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -131,7 +132,7 @@ body {
   height: 50px;
   background: var(--paper-bg);
   border-bottom: 2px dashed rgba(30, 58, 138, 0.18);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
   z-index: 100;
   display: flex;
   justify-content: center;
@@ -139,6 +140,7 @@ body {
 }
 
 .nav-content {
+  display: none;
   width: 100%;
   max-width: 1100px;
   padding: 0 24px;
@@ -590,9 +592,11 @@ body {
 .question-nav-matrix::-webkit-scrollbar {
   height: 5px;
 }
+
 .question-nav-matrix::-webkit-scrollbar-track {
   background: transparent;
 }
+
 .question-nav-matrix::-webkit-scrollbar-thumb {
   background: rgba(30, 58, 138, 0.15);
   border-radius: 4px;
@@ -683,7 +687,8 @@ body {
   gap: 4px;
 }
 
-.bookmark-action-btn:hover, .bookmark-action-btn.active {
+.bookmark-action-btn:hover,
+.bookmark-action-btn.active {
   opacity: 1;
   color: #d97706;
 }
@@ -821,7 +826,8 @@ body {
 .explanation-panel {
   display: none;
   margin-top: 24px;
-  background: #fef08a; /* post-it yellow */
+  background: #fef08a;
+  /* post-it yellow */
   border: 1px dashed rgba(180, 83, 9, 0.35);
   border-radius: 4px;
   padding: 16px 20px;
@@ -1185,7 +1191,8 @@ body {
 }
 
 .review-rationale {
-  background: #fef08a; /* post-it yellow */
+  background: #fef08a;
+  /* post-it yellow */
   border-left: 3.5px dashed #eab308;
   padding: 8px 12px;
   font-size: 15.5px;

@@ -75,9 +75,11 @@ const backDashBtn = document.getElementById('back-dash-btn');
 
 // --- Initialization ---
 document.addEventListener('DOMContentLoaded', () => {
-    // Set current date in navbar status
-    const dateOptions = { month: 'short', day: 'numeric', year: 'numeric' };
-    document.getElementById('header-date').innerText = new Date().toLocaleDateString('en-US', dateOptions);
+    const headerDate = document.getElementById('header-date');
+    if (headerDate) {
+        const dateOptions = { month: 'short', day: 'numeric', year: 'numeric' };
+        headerDate.innerText = new Date().toLocaleDateString('en-US', dateOptions);
+    }
 
     // Initial catalog load
     loadCatalog();
@@ -150,7 +152,7 @@ function setupEventListeners() {
     retestAllBtn.addEventListener('click', retestAll);
     retestIncorrectBtn.addEventListener('click', retestIncorrectOnly);
     backDashBtn.addEventListener('click', () => {
-        navbarTopicTitle.innerText = "Subject Directory";
+        if (navbarTopicTitle) navbarTopicTitle.innerText = "Subject Directory";
         switchView('dashboard');
         loadCatalog(); // Refresh scores on return
     });
@@ -316,7 +318,7 @@ function startQuiz(questions) {
     }
 
     // Set topic name in top navbar
-    navbarTopicTitle.innerText = currentTopicName;
+    if (navbarTopicTitle) navbarTopicTitle.innerText = currentTopicName;
 
     // Reset status trackers
     currentIndex = 0;
@@ -639,7 +641,7 @@ function toggleBookmark() {
 
 function confirmQuit() {
     clearInterval(timerInterval);
-    navbarTopicTitle.innerText = "Subject Directory";
+    if (navbarTopicTitle) navbarTopicTitle.innerText = "Subject Directory";
     switchView('dashboard');
     loadCatalog();
 }
