@@ -205,14 +205,20 @@ function renderDashboardCatalog() {
         const wrapper = document.createElement('div');
         wrapper.className = 'subject-wrapper';
         
-        // Auto-expand first subject
-        if (subIndex === 0) wrapper.classList.add('expanded');
+        // Auto-expand Indian Polity by default
+        if (subject.id === 'polity') wrapper.classList.add('expanded');
 
         const headerBtn = document.createElement('button');
         headerBtn.className = 'subject-accordion-btn';
         headerBtn.type = 'button';
+        
+        let badgeHtml = '';
+        if (subject.id !== 'polity') {
+            badgeHtml = `<span class="badge-pill badge-gray" style="margin-left: 8px; font-size: 11px; font-weight: 500;">Coming Soon</span>`;
+        }
+
         headerBtn.innerHTML = `
-            <h4>📖 ${subject.name}</h4>
+            <h4 style="display: flex; align-items: center;">📖 ${subject.name} ${badgeHtml}</h4>
             <span class="chevron">▶</span>
         `;
         headerBtn.addEventListener('click', () => {
@@ -222,38 +228,51 @@ function renderDashboardCatalog() {
         const topicsList = document.createElement('div');
         topicsList.className = 'subject-topics-list';
 
-        // Render topics as vertical rows in list format
-        subject.topics.forEach(topic => {
-            const topicRow = document.createElement('div');
-            topicRow.className = 'topic-list-row';
-            
-            // Retrieve high score from localStorage
-            const localKey = `khosa_mcq_highscore_${topic.id}`;
-            const localDataStr = localStorage.getItem(localKey);
-            let scoreMetaHtml = '';
-            if (localDataStr) {
-                const meta = JSON.parse(localDataStr);
-                scoreMetaHtml = `<span class="badge-pill badge-blue">${meta.score}/${meta.total} (${meta.percent}%)</span>`;
-            }
+        if (subject.id !== 'polity') {
+            // Render a styled Coming Soon placeholder
+            const comingSoonRow = document.createElement('div');
+            comingSoonRow.className = 'coming-soon-row';
+            comingSoonRow.style.padding = '18px';
+            comingSoonRow.style.color = 'var(--text-secondary)';
+            comingSoonRow.style.fontSize = '13.5px';
+            comingSoonRow.style.textAlign = 'center';
+            comingSoonRow.style.fontStyle = 'italic';
+            comingSoonRow.innerText = 'Revision modules for this subject are coming soon!';
+            topicsList.appendChild(comingSoonRow);
+        } else {
+            // Render topics normally for active subjects (Polity)
+            subject.topics.forEach(topic => {
+                const topicRow = document.createElement('div');
+                topicRow.className = 'topic-list-row';
+                
+                // Retrieve high score from localStorage
+                const localKey = `khosa_mcq_highscore_${topic.id}`;
+                const localDataStr = localStorage.getItem(localKey);
+                let scoreMetaHtml = '';
+                if (localDataStr) {
+                    const meta = JSON.parse(localDataStr);
+                    scoreMetaHtml = `<span class="badge-pill badge-blue">${meta.score}/${meta.total} (${meta.percent}%)</span>`;
+                }
 
-            topicRow.innerHTML = `
-                <div class="topic-info-side">
-                    <h5 class="topic-row-title">${topic.name}</h5>
-                    <p class="topic-row-desc">${topic.description}</p>
-                </div>
-                <div class="topic-badges-side">
-                    <span class="badge-pill badge-gray">${topic.questionCount} Qs</span>
-                    ${scoreMetaHtml}
-                    <span class="list-chevron">›</span>
-                </div>
-            `;
+                topicRow.innerHTML = `
+                    <div class="topic-info-side">
+                        <h5 class="topic-row-title">${topic.name}</h5>
+                        <p class="topic-row-desc">${topic.description}</p>
+                    </div>
+                    <div class="topic-badges-side">
+                        <span class="badge-pill badge-gray">${topic.questionCount} Qs</span>
+                        ${scoreMetaHtml}
+                        <span class="list-chevron">›</span>
+                    </div>
+                `;
 
-            topicRow.addEventListener('click', () => {
-                loadQuizFromPath(topic.path, topic.id, topic.name);
+                topicRow.addEventListener('click', () => {
+                    loadQuizFromPath(topic.path, topic.id, topic.name);
+                });
+
+                topicsList.appendChild(topicRow);
             });
-
-            topicsList.appendChild(topicRow);
-        });
+        }
 
         wrapper.appendChild(headerBtn);
         wrapper.appendChild(topicsList);
