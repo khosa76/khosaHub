@@ -490,7 +490,12 @@ function showQuestion(index) {
         const btn = document.createElement('button');
         btn.className = 'option-row-btn';
         btn.type = 'button';
-        btn.innerHTML = `<span>${opt.text}</span>`;
+        
+        const letter = String.fromCharCode(65 + optIdx);
+        btn.innerHTML = `
+            <span class="option-circle">${letter}</span>
+            <span class="option-text">${opt.text}</span>
+        `;
         
         // Sync states if already answered
         const answeredIndex = userAnswers[index];
