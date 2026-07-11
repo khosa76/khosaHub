@@ -113,3 +113,10 @@ To ensure notes render beautifully on A4 paper prints and PDF exports without co
       </button>
   </div>
   ```
+
+
+--------------------------------------------------------------------------------
+8. PROMPT
+--------------------------------------------------------------------------------
+
+check scanned images in this pdf and convert to text perfectly formated in html want whole notes in html did not want anything to missed from all pages  so act as OCR make make my notes to digital text and also if there incpmlete sentence, incorrect spelling, incorrect fact fix it and make it in this structure

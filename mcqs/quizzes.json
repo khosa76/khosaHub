@@ -1,0 +1,78 @@
+{
+  "subjects": [
+    {
+      "id": "general_studies",
+      "name": "General Studies",
+      "topics": [
+        {
+          "id": "mixed_topics",
+          "name": "Mixed Revision Set",
+          "path": "mcqs/general_studies/mixed_topics.json",
+          "description": "Includes urban flooding, space technology (Vikram-1), economic classifications, and naval defense (Project 17A).",
+          "questionCount": 12
+        }
+      ]
+    },
+    {
+      "id": "polity",
+      "name": "Indian Polity",
+      "topics": [
+        {
+          "id": "preamble",
+          "name": "1. The Preamble",
+          "path": "mcqs/polity/preamble.json",
+          "description": "Sovereignty, socialist, secular, democratic republic nature, justice, liberty, and equality.",
+          "questionCount": 27
+        },
+        {
+          "id": "amendment",
+          "name": "2. Amendment of Constitution",
+          "path": "mcqs/polity/amendment.json",
+          "description": "Procedure for amendment under Article 368, types of amendments, and significance.",
+          "questionCount": 27
+        },
+        {
+          "id": "reorganisation",
+          "name": "3. Reorganisation of States",
+          "path": "mcqs/polity/reorganisation.json",
+          "description": "Integration of princely states, Dhar Commission, JVP Committee, State Reorganisation Act 1956, and evolution of states.",
+          "questionCount": 27
+        },
+        {
+          "id": "federalism",
+          "name": "4. Federalism",
+          "path": "mcqs/polity/federalism.json",
+          "description": "Federal and unitary features, distribution of legislative, administrative, and financial powers.",
+          "questionCount": 27
+        },
+        {
+          "id": "article1to4",
+          "name": "5. Articles 1 to 4",
+          "path": "mcqs/polity/article1to4.json",
+          "description": "Territorial jurisdiction of India, formation of new states, and alteration of areas, boundaries, or names.",
+          "questionCount": 27
+        },
+        {
+          "id": "citizenship",
+          "name": "6. Articles 5 to 11 | Citizenship",
+          "path": "mcqs/polity/citizenship.json",
+          "description": "Articles 5-11 of the Constitution, dual citizenship, and the Citizenship Act.",
+          "questionCount": 27
+        }
+      ]
+    },
+    {
+      "id": "geography",
+      "name": "Geography & Environment",
+      "topics": [
+        {
+          "id": "physical_geography",
+          "name": "Physical Geography & Mapping",
+          "path": "mcqs/geography/physical_geography.json",
+          "description": "Southernmost points of India, channels (Ten Degree, Six Degree), and physical landmarks.",
+          "questionCount": 5
+        }
+      ]
+    }
+  ]
+}

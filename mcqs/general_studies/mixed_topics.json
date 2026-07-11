@@ -1,0 +1,122 @@
+[
+  {
+    "question": "According to the source material, why does the concretisation of urban surfaces significantly increase the risk of flooding during heavy rainfall?",
+    "options": [
+      { "text": "It prevents rainwater from infiltrating the ground and increases surface runoff.", "isCorrect": true, "rationale": "Impermeable surfaces like concrete stop natural drainage into the soil, forcing water to accumulate and flow rapidly over the surface." },
+      { "text": "It causes a chemical reaction with rainwater that creates excess liquid volume.", "isCorrect": false, "rationale": "There is no scientific evidence in the material suggesting that concrete creates more water through chemical reactions." },
+      { "text": "It reduces the total area available for scientific urban zoning.", "isCorrect": false, "rationale": "While zoning is important, the immediate cause of flooding is the physical barrier concrete poses to water absorption." },
+      { "text": "It increases the temperature of the city, leading to more frequent localized storms.", "isCorrect": false, "rationale": "Although urban heat islands exist, the source specifically identifies the prevention of water seepage as the cause of flooding." }
+    ],
+    "hint": "Consider the physical properties of concrete compared to natural soil regarding water absorption."
+  },
+  {
+    "question": "The Vikram-1 rocket, developed by Skyroot Aerospace, uses a specific fuel type for its fourth (upper) stage. Which fuel is used and why?",
+    "options": [
+      { "text": "Solid fuel to provide maximum thrust for exiting the atmosphere.", "isCorrect": false, "rationale": "Solid fuel is used in the first three stages for thrust, but the fourth stage requires more control." },
+      { "text": "Hypergolic liquid fuel to allow for precise orbital manoeuvres.", "isCorrect": true, "rationale": "Liquid fuel in the final stage allows the rocket to accurately place payloads into their intended orbits." },
+      { "text": "Cryogenic fuel to ensure high efficiency in deep space travel.", "isCorrect": false, "rationale": "While common in heavy-lift rockets like the GSLV, the Vikram-1 specifically utilizes hypergolic liquid fuel for its final stage." },
+      { "text": "Pressurised oxygen and kerosene for reusable engine capabilities.", "isCorrect": false, "rationale": "The source material indicates a four-stage design where the final stage is hypergolic liquid, not a kerosene-based reusable system." }
+    ],
+    "hint": "Think about the different requirements for initial launch power versus the fine-tuning needed once in space."
+  },
+  {
+    "question": "Based on the World Bank's income classifications for Fiscal Year 2027, in which category was India placed?",
+    "options": [
+      { "text": "Low-Income", "isCorrect": false, "rationale": "India moved out of the Low-Income category in 2009 and has maintained a higher status since then." },
+      { "text": "Lower-Middle-Income", "isCorrect": true, "rationale": "India has remained in this category since 2009, with a 2025 GNI per capita of USD 2,760." },
+      { "text": "Upper-Middle-Income", "isCorrect": false, "rationale": "Countries like Sri Lanka and Vietnam were upgraded to this category, but India remains in the lower tier." },
+      { "text": "High-Income", "isCorrect": false, "rationale": "High-income status requires a GNI per capita exceeding USD 14,375, which is significantly above India's current levels." }
+    ],
+    "hint": "The classification is based on Gross National Income per capita and India has been in this same bracket since 2009."
+  },
+  {
+    "question": "What significant geographical change occurred at Indira Point as a result of the 2004 Indian Ocean tsunami?",
+    "options": [
+      { "text": "The entire island was submerged and is no longer visible.", "isCorrect": false, "rationale": "The lighthouse and land still exist, though the sea is much closer than it was previously." },
+      { "text": "The southern shoreline of Great Nicobar Island sank by approximately 4.25 metres.", "isCorrect": true, "rationale": "The earthquake and tsunami caused the land to subside, bringing the sea much closer to the lighthouse structure." },
+      { "text": "The Ten Degree Channel widened, separating the island further from Sumatra.", "isCorrect": false, "rationale": "The Ten Degree Channel separates the Andaman and Nicobar groups, not Great Nicobar from Sumatra." },
+      { "text": "The Indira Point lighthouse was completely destroyed and had to be rebuilt in 1972.", "isCorrect": false, "rationale": "The lighthouse was built in 1972, which was decades before the 2004 tsunami occurred." }
+    ],
+    "hint": "Focus on the effect the seismic activity had on the elevation of the coastline."
+  },
+  {
+    "question": "How does the construction methodology of Project 17A (Nilgiri-class) differ from the previous Project 17 (Shivalik-class) frigates?",
+    "options": [
+      { "text": "Project 17A uses modular construction, whereas Project 17 used conventional methods.", "isCorrect": true, "rationale": "Modular construction is a key advancement in Project 17A, allowing for faster and more efficient shipbuilding." },
+      { "text": "Project 17 ships are built entirely of cast iron to reduce radar signatures.", "isCorrect": false, "rationale": "Cast iron was mentioned in the context of the Indira Point lighthouse, not modern stealth frigates." },
+      { "text": "Project 17 used a combination of diesel and gas (CODOG), while Project 17A uses nuclear propulsion.", "isCorrect": false, "rationale": "Both projects use advanced conventional propulsion; there is no mention of nuclear power for these frigates." },
+      { "text": "Project 17 frigates were built by both MDL and GRSE, while Project 17A is built only by MDL.", "isCorrect": false, "rationale": "It is the opposite; Project 17 was built only by MDL, while Project 17A involves both MDL and GRSE." }
+    ],
+    "hint": "Look for a term that describes building a ship in pre-fabricated sections rather than all at once."
+  },
+  {
+    "question": "Which body of water separates the Great Nicobar Island from the Indonesian island of Sumatra?",
+    "options": [
+      { "text": "The Ten Degree Channel", "isCorrect": false, "rationale": "The Ten Degree Channel separates the Andaman Islands from the Nicobar Islands." },
+      { "text": "The Six Degree Channel", "isCorrect": true, "rationale": "This channel is the international maritime boundary between India's southernmost island and Indonesia." },
+      { "text": "The Galathea Bay", "isCorrect": false, "rationale": "Galathea Bay is a location on Great Nicobar Island itself, not a channel between countries." },
+      { "text": "The Palk Strait", "isCorrect": false, "rationale": "The Palk Strait separates India from Sri Lanka, not Indonesia." }
+    ],
+    "hint": "The name of this channel includes a specific number related to its latitudinal position."
+  },
+  {
+    "question": "In the context of the World Bank's income classification for 2025, what was the minimum GNI per capita required to be considered a 'High-Income' country?",
+    "options": [
+      { "text": "More than USD 14,375", "isCorrect": true, "rationale": "This threshold represents the entry point into the highest tier of the World Bank's economic classifications." },
+      { "text": "More than USD 4,635", "isCorrect": false, "rationale": "This value is the upper limit for the Lower-Middle-Income category, not the start of the High-Income bracket." },
+      { "text": "Exactly USD 2,760", "isCorrect": false, "rationale": "This was India's specific GNI per capita in 2025, which falls within the Lower-Middle-Income range." },
+      { "text": "Between USD 1,176 and USD 4,635", "isCorrect": false, "rationale": "This range defines the Lower-Middle-Income category." }
+    ],
+    "hint": "This threshold is the highest figure mentioned in the classification table provided in the text."
+  },
+  {
+    "question": "The INS Mahendragiri, the sixth stealth frigate of Project 17A, is named after a mountain range located in which region?",
+    "options": [
+      { "text": "The Western Ghats", "isCorrect": false, "rationale": "While a major mountain range, the Mahendragiri range specifically belongs to the opposite coast of India." },
+      { "text": "The Eastern Ghats", "isCorrect": true, "rationale": "The ship follows the naval tradition of naming frigates after significant mountain ranges in India, specifically those in the Eastern Ghats." },
+      { "text": "The Himalayas", "isCorrect": false, "rationale": "Mountain peaks in the Himalayas are often used for other classes of ships, but Mahendragiri is in the Eastern Ghats." },
+      { "text": "The Andaman and Nicobar Ridge", "isCorrect": false, "rationale": "Mahendragiri is a mainland mountain range and is not part of the island ridge system." }
+    ],
+    "hint": "This range runs along the eastern coast of the Indian peninsula."
+  },
+  {
+    "question": "According to the source, what is the primary purpose of a 'Stealth Frigate' such as the INS Mahendragiri?",
+    "options": [
+      { "text": "To travel at supersonic speeds to avoid torpedoes.", "isCorrect": false, "rationale": "While fast, stealth refers to detection rather than pure speed." },
+      { "text": "To reduce detection by enemy radar and sensors.", "isCorrect": true, "rationale": "Stealth technology involves design and materials that minimise the ship's signature, making it harder for enemies to track." },
+      { "text": "To operate exclusively underwater like a submarine.", "isCorrect": false, "rationale": "A frigate is a surface vessel; submarines are classified separately in the source material." },
+      { "text": "To serve as a mobile landing strip for heavy transport aircraft.", "isCorrect": false, "rationale": "Aircraft carriers serve this role; frigates are multi-role escort warships with smaller decks." }
+    ],
+    "hint": "Consider the meaning of the word 'stealth' in a military and surveillance context."
+  },
+  {
+    "question": "Vikram-1 can carry different payload masses depending on the target orbit. Which of the following statements is correct regarding its capacity?",
+    "options": [
+      { "text": "It can carry a heavier payload to Sun-Synchronous Orbit (SSO) than to Low Earth Orbit (LEO).", "isCorrect": false, "rationale": "The energy required to reach the specific orientation of SSO usually limits the payload compared to the lower altitude of LEO." },
+      { "text": "It can carry up to 350 kg to Low Earth Orbit (LEO).", "isCorrect": true, "rationale": "LEO is the orbit where the rocket reaches its maximum payload capacity of 350 kg." },
+      { "text": "It has an equal capacity of 260 kg for both LEO and SSO.", "isCorrect": false, "rationale": "The capacity for SSO is indeed 260 kg, but the LEO capacity is higher at 350 kg." },
+      { "text": "It is designed only for Sun-Synchronous Orbit (SSO) and cannot reach LEO.", "isCorrect": false, "rationale": "The source explicitly lists capacities for both types of Earth orbits." }
+    ],
+    "hint": "Check the specific weight limits mentioned for LEO and SSO in the 'Vikram-1' section."
+  },
+  {
+    "question": "Which country was upgraded from the 'Low-Income' category to the 'Lower-Middle-Income' category in the FY 2027 classification?",
+    "options": [
+      { "text": "Jordan", "isCorrect": false, "rationale": "Jordan was upgraded from Lower-Middle to Upper-Middle income status." },
+      { "text": "Togo", "isCorrect": true, "rationale": "Togo is specifically highlighted as the country moving up from the lowest income tier to the lower-middle tier." },
+      { "text": "Vietnam", "isCorrect": false, "rationale": "Vietnam moved from Lower-Middle to Upper-Middle income status." },
+      { "text": "The Philippines", "isCorrect": false, "rationale": "The Philippines also moved into the Upper-Middle category, not out of the Low-Income tier." }
+    ],
+    "hint": "Look at the list of 'Countries Upgraded' and identify the one moving out of the lowest category."
+  },
+  {
+    "question": "In the context of urban flood management, why is the regular desilting of drains considered a critical solution?",
+    "options": [
+      { "text": "It ensures an uninterrupted flow of rainwater through the drainage system.", "isCorrect": true, "rationale": "Silt and waste block drains; removing them ensures that the infrastructure can carry water away at its intended capacity." },
+      { "text": "It converts rainwater into groundwater through a process of natural filtration.", "isCorrect": false, "rationale": "Desilting keeps channels clear for surface flow; infiltration happens through permeable surfaces or rainwater harvesting." },
+      { "text": "It reduces the need for emergency pumping infrastructure in low-lying areas.", "isCorrect": false, "rationale": "While it helps, the text lists 'Enhance pumping infrastructure' as a separate, complementary solution." },
+      { "text": "It prevents the deforestation of urban catchments.", "isCorrect": false, "rationale": "Desilting is a maintenance task for pipes and channels; it does not directly affect forest cover in catchment areas." }
+    ],
+    "hint": "Think about what happens to the capacity of a pipe or channel when it is partially filled with mud or rubbish."
+  }
+]

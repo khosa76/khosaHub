@@ -1,0 +1,704 @@
+[
+  {
+    "question": "Regarding the legal status of individuals in India, which of the following best distinguishes 'Domicile' from 'Residence' according to the provided material?",
+    "options": [
+      {
+        "text": "Residence is based on a mathematical calculation of physical presence, while domicile requires both physical presence and a fixed intention to stay permanently.",
+        "isCorrect": true,
+        "rationale": "Domicile involves the combination of 'Factum' (physical presence) and 'Animus Manendi' (intent to reside indefinitely), whereas residency is purely based on the number of days spent in the country."
+      },
+      {
+        "text": "Domicile is a physical and geographical status, whereas residence is strictly an economic and welfare concept.",
+        "isCorrect": false,
+        "rationale": "The source material identifies residence as the physical/geographical status and domicile as the economic/welfare concept."
+      },
+      {
+        "text": "A person can only have one residence at a time, but they can maintain multiple legal domiciles simultaneously for tax purposes.",
+        "isCorrect": false,
+        "rationale": "The material suggests domicile is a permanent legal home, while residence can be temporary and is calculated per financial year; it does not support multiple legal domiciles."
+      },
+      {
+        "text": "Residence is determined by the Ministry of Home Affairs, while domicile is determined strictly by the Ministry of Finance.",
+        "isCorrect": false,
+        "rationale": "The material does not attribute the determination of domicile specifically to the Ministry of Finance, but rather defines it by its legal elements: Factum and Animus Manendi."
+      }
+    ],
+    "hint": "Consider the dual requirements of physical presence and the intent to remain."
+  },
+  {
+    "question": "Which specific constitutional article serves as the 'legislative bridge' allowing Parliament to regulate the acquisition and termination of citizenship after 1950?",
+    "options": [
+      {
+        "text": "Article 11",
+        "isCorrect": true,
+        "rationale": "Article 11 explicitly grants Parliament the absolute power to regulate all matters relating to citizenship, leading to the enactment of the Citizenship Act, 1955."
+      },
+      {
+        "text": "Article 5",
+        "isCorrect": false,
+        "rationale": "Article 5 deals specifically with citizenship at the commencement of the Constitution for those domiciled in India."
+      },
+      {
+        "text": "Article 10",
+        "isCorrect": false,
+        "rationale": "Article 10 ensures the continuance of citizenship rights subject to parliamentary law, but Article 11 is the empowering clause for future legislation."
+      },
+      {
+        "text": "Article 368",
+        "isCorrect": false,
+        "rationale": "Article 368 relates to the general power to amend the Constitution, but the specific power for citizenship legislation is derived from Article 11."
+      }
+    ],
+    "hint": "This article provides the Parliament with the authority to enact the Citizenship Act of 1955."
+  },
+  {
+    "question": "A person born in the territory of India on 15 August 1980 is considered a citizen by birth under which of the following criteria?",
+    "options": [
+      {
+        "text": "They are a citizen regardless of the nationality of their parents.",
+        "isCorrect": true,
+        "rationale": "For those born between 26 January 1950 and 1 July 1987, Indian citizenship is granted by birth irrespective of parental nationality."
+      },
+      {
+        "text": "They are a citizen only if at least one parent was an Indian citizen at the time of birth.",
+        "isCorrect": false,
+        "rationale": "The requirement for at least one parent to be an Indian citizen only applies to those born between 1 July 1987 and 3 December 2004."
+      },
+      {
+        "text": "They must have resided in India for at least five years preceding the birth to claim citizenship.",
+        "isCorrect": false,
+        "rationale": "The five-year residency rule was a condition for citizenship at commencement under Article 5, not for birth-based acquisition under the 1955 Act."
+      },
+      {
+        "text": "They are a citizen only if both parents were Indian citizens and not illegal migrants.",
+        "isCorrect": false,
+        "rationale": "This strict dual-parentage requirement applies to those born on or after 3 December 2004."
+      }
+    ],
+    "hint": "Check the specific date brackets defined for 'Citizenship by Birth' in the 1955 Act."
+  },
+  {
+    "question": "In the context of 'Naturalisation', what is the minimum total residency requirement within the 14 years preceding the application date?",
+    "options": [
+      {
+        "text": "11 years",
+        "isCorrect": true,
+        "rationale": "The Citizenship Act requires an applicant for naturalisation to have resided in India for at least 11 years out of the preceding 14 years, plus the 12 months immediately preceding the application."
+      },
+      {
+        "text": "7 years",
+        "isCorrect": false,
+        "rationale": "Seven years is the residency requirement for Persons of Indian Origin (PIOs) or spouses of Indian citizens seeking registration, not naturalisation."
+      },
+      {
+        "text": "5 years",
+        "isCorrect": false,
+        "rationale": "Five years is the reduced naturalisation requirement specifically introduced by the CAA 2019 for certain persecuted minorities."
+      },
+      {
+        "text": "12 years",
+        "isCorrect": false,
+        "rationale": "While the total time including the final year is 12 years, the statutory requirement for the aggregate period is 11 years out of 14."
+      }
+    ],
+    "hint": "The standard naturalisation process requires a significant aggregate period of residence before the final 12-month continuous stay."
+  },
+  {
+    "question": "Which of the following Fundamental Rights is available to both Indian citizens and 'Friendly Aliens'?",
+    "options": [
+      {
+        "text": "Article 21 (Right to Life)",
+        "isCorrect": true,
+        "rationale": "The material states that Articles 21 and 14 apply to 'persons', which includes non-citizens, unlike Articles 15, 16, and 19 which are exclusive to citizens."
+      },
+      {
+        "text": "Article 15 (Prohibition of discrimination)",
+        "isCorrect": false,
+        "rationale": "Article 15 is explicitly listed as a right exclusive to Indian citizens and denied to aliens."
+      },
+      {
+        "text": "Article 19 (Freedom of speech and assembly)",
+        "isCorrect": false,
+        "rationale": "The material confirms that the six freedoms under Article 19 are reserved solely for citizens of India."
+      },
+      {
+        "text": "Article 16 (Equality of opportunity in public employment)",
+        "isCorrect": false,
+        "rationale": "Public employment rights under Article 16 are denied to aliens and are exclusive to Indian citizens."
+      }
+    ],
+    "hint": "Look for the rights that apply to 'persons' rather than just 'citizens'."
+  },
+  {
+    "question": "According to Article 9 of the Constitution, what was the consequence for an individual who voluntarily acquired foreign citizenship before 26 January 1950?",
+    "options": [
+      {
+        "text": "They were barred from claiming Indian citizenship under Articles 5, 6, or 8.",
+        "isCorrect": true,
+        "rationale": "Article 9 acted as an instant bar to Indian citizenship for anyone who had voluntarily acquired foreign citizenship at or before the Constitution's commencement."
+      },
+      {
+        "text": "They could retain Indian citizenship provided they renounced the foreign one within six months.",
+        "isCorrect": false,
+        "rationale": "Article 9 provided no such grace period for renunciation; the acquisition of foreign citizenship resulted in an immediate bar."
+      },
+      {
+        "text": "Their Indian citizenship was suspended only during times of war.",
+        "isCorrect": false,
+        "rationale": "The suspension of termination provisions during war is a feature of the Citizenship Act 1955, not Article 9 of the Constitution."
+      },
+      {
+        "text": "They were allowed to maintain dual citizenship until the Citizenship Act of 1955 was passed.",
+        "isCorrect": false,
+        "rationale": "India does not permit dual citizenship; Article 9 specifically prohibited it at the constitutional level from the outset."
+      }
+    ],
+    "hint": "This article dealt with the 'snapshot' of citizenship eligibility on the day the Constitution commenced."
+  },
+  {
+    "question": "Under the Citizenship (Amendment) Act 2019, which of the following areas is EXEMPTED from the act's provisions to protect local tribal demographics?",
+    "options": [
+      {
+        "text": "Tribal areas of Meghalaya included in the Sixth Schedule.",
+        "isCorrect": true,
+        "rationale": "The CAA 2019 does not apply to tribal areas of Assam, Meghalaya, Tripura, and Mizoram under the Sixth Schedule, nor to states under the Inner Line Permit system."
+      },
+      {
+        "text": "The entire state of West Bengal.",
+        "isCorrect": false,
+        "rationale": "West Bengal is not exempted from the CAA; exemptions are limited to specific Sixth Schedule tribal areas and ILP states."
+      },
+      {
+        "text": "All border districts of Punjab and Rajasthan.",
+        "isCorrect": false,
+        "rationale": "There are no blanket exemptions for the border districts of Punjab or Rajasthan under the CAA 2019."
+      },
+      {
+        "text": "The Union Territory of Ladakh.",
+        "isCorrect": false,
+        "rationale": "While Ladakh has tribal populations, it is not listed among the specific Sixth Schedule or ILP exemptions mentioned in the source material for the CAA."
+      }
+    ],
+    "hint": "Focus on the specific schedules or permit systems mentioned for tribal protection."
+  },
+  {
+    "question": "In the case of citizenship by 'Descent', what is the specific requirement for a child born outside India on or after 3 December 2004?",
+    "options": [
+      {
+        "text": "The birth must be registered at an Indian consulate within one year and parents must declare the child holds no other passport.",
+        "isCorrect": true,
+        "rationale": "Post-2004, descent is not automatic; it requires consular registration within a year and an undertaking regarding the lack of a foreign passport."
+      },
+      {
+        "text": "The child automatically becomes a citizen if at least one parent is an Indian citizen.",
+        "isCorrect": false,
+        "rationale": "This automatic provision applied to births between 1992 and 2004; after 2004, registration is a mandatory requirement."
+      },
+      {
+        "text": "Citizenship is only granted if the child moves to India within six months of birth.",
+        "isCorrect": false,
+        "rationale": "Residency in India is not a requirement for citizenship by descent; registration at a consulate is the primary condition."
+      },
+      {
+        "text": "The father must have been an Indian citizen at the time of the child's birth.",
+        "isCorrect": false,
+        "rationale": "The requirement for only the father to be a citizen applied to births before 10 December 1992."
+      }
+    ],
+    "hint": "Think about the administrative steps required at an Indian consulate abroad."
+  },
+  {
+    "question": "What distinguishes an Overseas Citizen of India (OCI) from a Non-Resident Indian (NRI) regarding political rights in India?",
+    "options": [
+      {
+        "text": "NRIs retain the right to vote in Indian elections, whereas OCIs have no voting rights.",
+        "isCorrect": true,
+        "rationale": "NRIs are Indian citizens holding Indian passports and thus retain political rights like voting; OCIs are foreign nationals and are strictly denied voting rights."
+      },
+      {
+        "text": "OCIs can contest elections for the Lok Sabha, while NRIs are restricted to State Assemblies.",
+        "isCorrect": false,
+        "rationale": "OCIs cannot contest any elections, whereas NRIs, as citizens, can theoretically contest elections if they meet other criteria."
+      },
+      {
+        "text": "Both NRIs and OCIs are eligible for appointment to high constitutional offices like the Vice-President.",
+        "isCorrect": false,
+        "rationale": "Only Indian citizens (including NRIs) are eligible for constitutional offices; OCIs are expressly barred from them."
+      },
+      {
+        "text": "NRIs lose their voting rights after staying abroad for more than five years, unlike OCIs.",
+        "isCorrect": false,
+        "rationale": "NRIs retain their voting rights as long as they remain Indian citizens; OCIs never possess them."
+      }
+    ],
+    "hint": "Consider which group remains a 'citizen' of India and which group holds a 'cardholder' status as a foreign national."
+  },
+  {
+    "question": "The Supreme Court struck down the Illegal Migrants (Determination by Tribunal) Act, 1983 (IMDT Act), primarily on which grounds?",
+    "options": [
+      {
+        "text": "It created a geographically-based classification that violated the Right to Equality under Article 14.",
+        "isCorrect": true,
+        "rationale": "The Court ruled in 2005 that applying a different set of rules for identifying foreigners only in Assam was unconstitutional."
+      },
+      {
+        "text": "It illegally transferred the burden of proof from the individual to the state.",
+        "isCorrect": false,
+        "rationale": "While the burden of proof is a key issue in the Foreigners Act, the specific reason for striking down the IMDT was the discriminatory application to one state."
+      },
+      {
+        "text": "The Act was found to be in direct violation of the 1951 UN Refugee Convention.",
+        "isCorrect": false,
+        "rationale": "India is not a signatory to the 1951 Convention, so the Act could not be struck down for violating it."
+      },
+      {
+        "text": "The Act failed to include a provision for the detention of 'Doubtful Voters'.",
+        "isCorrect": false,
+        "rationale": "The IMDT was struck down for constitutional inequality, not specifically because of its handling of 'D-Voters'."
+      }
+    ],
+    "hint": "Think about why applying a law to only one state (Assam) might be legally problematic."
+  },
+  {
+    "question": "Under the Foreigners Act 1946, who bears the burden of proving that a person is not a foreigner?",
+    "options": [
+      {
+        "text": "The individual applicant or accused.",
+        "isCorrect": true,
+        "rationale": "Section 9 of the Foreigners Act, 1946, explicitly places the burden of proof on the individual to demonstrate they are a citizen."
+      },
+      {
+        "text": "The Ministry of Home Affairs.",
+        "isCorrect": false,
+        "rationale": "Unlike standard criminal law where the state proves guilt, under the Foreigners Act, the individual must prove their status."
+      },
+      {
+        "text": "The Election Commission of India.",
+        "isCorrect": false,
+        "rationale": "The Election Commission may identify 'D-Voters', but the legal burden of proof remains with the individual in the tribunals."
+      },
+      {
+        "text": "The local Registration Officer.",
+        "isCorrect": false,
+        "rationale": "Registration officers maintain records, but the legal obligation to prove citizenship status lies with the person in question."
+      }
+    ],
+    "hint": "This is a reversal of the standard 'innocent until proven guilty' principle found in general criminal law."
+  },
+  {
+    "question": "Which document is mandatory for filing Income Tax Returns (ITR) and linking with a PAN card, but is NOT required for school admissions according to current regulations?",
+    "options": [
+      {
+        "text": "Aadhaar Card",
+        "isCorrect": true,
+        "rationale": "Aadhaar is mandatory for ITR and PAN linking but, following legal and administrative guidelines, is not required for school admissions."
+      },
+      {
+        "text": "Voter ID",
+        "isCorrect": false,
+        "rationale": "Voter ID is proof of citizenship/voting rights and is not the specific document mandated for ITR filing in the way Aadhaar is."
+      },
+      {
+        "text": "Indian Passport",
+        "isCorrect": false,
+        "rationale": "A passport is a travel document; it is not the primary identification required for linking with a PAN card for domestic tax purposes."
+      },
+      {
+        "text": "Ration Card",
+        "isCorrect": false,
+        "rationale": "A ration card is used for the Public Distribution System (PDS) but is not mandated for ITR or PAN linking."
+      }
+    ],
+    "hint": "This 12-digit identification number is issued by the UIDAI."
+  },
+  {
+    "question": "Which of the following describes the 'Single Citizenship' principle in India correctly, including its exceptions?",
+    "options": [
+      {
+        "text": "India has single citizenship to promote national integration, but Parliament can prescribe residence as a condition for certain public employments.",
+        "isCorrect": true,
+        "rationale": "Despite the federal structure, India has single citizenship, with exceptions like Article 16(3) allowing residence-based requirements for employment in specific regions."
+      },
+      {
+        "text": "India follows a dual citizenship model similar to the USA, where individuals are citizens of both the Union and their State.",
+        "isCorrect": false,
+        "rationale": "The material explicitly states that India, unlike the USA, provides for only a single citizenship to foster unity."
+      },
+      {
+        "text": "The principle of single citizenship prohibits states from ever giving educational fee concessions to their own residents.",
+        "isCorrect": false,
+        "rationale": "The material notes that states can grant fee concessions to residents as Article 15 does not prohibit discrimination based on residence."
+      },
+      {
+        "text": "Single citizenship was abolished in 2019 following the revocation of Article 35A.",
+        "isCorrect": false,
+        "rationale": "The revocation of Article 35A actually furthered the principle of single citizenship by removing special 'permanent resident' status in Jammu \\& Kashmir."
+      }
+    ],
+    "hint": "Think about the balance between national unity and regional employment safeguards."
+  },
+  {
+    "question": "If an Indian citizen is sentenced to imprisonment for two years in a foreign country within five years of their registration as a citizen, what is the likely legal outcome regarding their citizenship?",
+    "options": [
+      {
+        "text": "The Central Government may compulsorily deprive them of their citizenship.",
+        "isCorrect": true,
+        "rationale": "Under Section 10 of the Citizenship Act, 1955, imprisonment for 2+ years within 5 years of registration/naturalisation is a ground for compulsory deprivation."
+      },
+      {
+        "text": "Their citizenship is automatically terminated without any government action.",
+        "isCorrect": false,
+        "rationale": "Automatic termination occurs only upon the voluntary acquisition of another country's citizenship, not due to criminal sentencing."
+      },
+      {
+        "text": "They lose their citizenship only if the crime was committed against the Indian state.",
+        "isCorrect": false,
+        "rationale": "The provision for deprivation based on imprisonment applies regardless of which country issued the sentence."
+      },
+      {
+        "text": "They retain citizenship but lose the right to hold a passport for ten years.",
+        "isCorrect": false,
+        "rationale": "The statutory ground mentioned in the Act specifically allows for the deprivation of citizenship itself."
+      }
+    ],
+    "hint": "This is one of the three ways citizenship can be lost, specifically under the 'Deprivation' category."
+  },
+  {
+    "question": "What is the significance of the date 'July 19, 1948' in the context of Article 6 of the Indian Constitution?",
+    "options": [
+      {
+        "text": "It was the date the permit system for migration between India and Pakistan was introduced.",
+        "isCorrect": true,
+        "rationale": "Article 6 uses this cut-off date to differentiate between migrants who became citizens automatically and those who had to register."
+      },
+      {
+        "text": "It marks the day the Citizenship Act of 1955 received presidential assent.",
+        "isCorrect": false,
+        "rationale": "The 1955 Act was enacted much later; Article 6 deals with the status of migrants at the time of the Constitution's commencement."
+      },
+      {
+        "text": "It is the date when the 'Enemy Alien' classification was first legally defined.",
+        "isCorrect": false,
+        "rationale": "The date is specifically linked to the permit system for partition-era migrants, not the definition of enemy aliens."
+      },
+      {
+        "text": "It was the deadline for all residents to apply for the first National Population Register.",
+        "isCorrect": false,
+        "rationale": "The NPR was established much later under the 1955 Act and 2003 Rules; the 1948 date is strictly constitutional."
+      }
+    ],
+    "hint": "This date serves as a 'cut-off' for migrants coming from Pakistan to India."
+  },
+  {
+    "question": "Which of the following groups is strictly ineligible for the Overseas Citizen of India (OCI) status?",
+    "options": [
+      {
+        "text": "Any person who has ever been a citizen of Pakistan or Bangladesh.",
+        "isCorrect": true,
+        "rationale": "The OCI exclusion clause specifically bars anyone with past or present citizenship in Pakistan or Bangladesh from the scheme."
+      },
+      {
+        "text": "Minor children whose parents are both Indian citizens.",
+        "isCorrect": false,
+        "rationale": "Minor children of Indian citizens are actually eligible for registration as citizens, and wouldn't typically need OCI unless they were foreign nationals."
+      },
+      {
+        "text": "Foreign nationals who have lived in India for more than 11 years.",
+        "isCorrect": false,
+        "rationale": "Long-term residence doesn't make one ineligible for OCI; eligibility is based on Indian lineage or marriage."
+      },
+      {
+        "text": "Citizens of Commonwealth countries who moved to India after 1950.",
+        "isCorrect": false,
+        "rationale": "Eligibility depends on Indian origin; being a Commonwealth citizen does not inherently bar someone from OCI status."
+      }
+    ],
+    "hint": "There is a specific 'Exclusion Clause' targeting two neighbouring countries."
+  },
+  {
+    "question": "According to the 2022 CAG Audit Report mentioned in the source, what is a critical flaw in the Aadhaar issuance process?",
+    "options": [
+      {
+        "text": "There is no robust system to verify claims of residency, often relying on casual self-declarations.",
+        "isCorrect": true,
+        "rationale": "The CAG found that although the Act mandates a 182-day residency, the verification process for these claims was flawed and lacked rigour."
+      },
+      {
+        "text": "The UIDAI is completely exempted from the Right to Information Act, preventing public scrutiny.",
+        "isCorrect": false,
+        "rationale": "The source material states that UIDAI is NOT exempted from the RTI Act of 2005, though some security restrictions apply."
+      },
+      {
+        "text": "The biometric data of children under 5 is frequently leaked to private companies.",
+        "isCorrect": false,
+        "rationale": "The source notes that 'Blue Aadhaar' for children under 5 captures NO biometrics, making this claim incorrect."
+      },
+      {
+        "text": "The system fails to capture iris scans, making it less secure than international standards.",
+        "isCorrect": false,
+        "rationale": "The source explicitly states that two iris scans are part of the biometric data captured by Aadhaar."
+      }
+    ],
+    "hint": "The flaw relates to the 'Resident' requirement and how it is (or isn't) verified."
+  },
+  {
+    "question": "What happens to the citizenship of a minor child when their parent voluntarily renounces Indian citizenship?",
+    "options": [
+      {
+        "text": "The minor child also loses their Indian citizenship.",
+        "isCorrect": true,
+        "rationale": "Under the 'Renunciation' provision of the Citizenship Act 1955, the minor children of a person who renounces citizenship also lose their citizenship."
+      },
+      {
+        "text": "The minor child retains their Indian citizenship until they reach the age of 21.",
+        "isCorrect": false,
+        "rationale": "The child loses citizenship immediately upon the registration of the parent's declaration, though they have an option to resume it later."
+      },
+      {
+        "text": "The minor child's citizenship is converted into OCI status automatically.",
+        "isCorrect": false,
+        "rationale": "There is no automatic conversion to OCI; loss of citizenship is a distinct legal process."
+      },
+      {
+        "text": "The child retains citizenship as long as the other parent remains an Indian citizen.",
+        "isCorrect": false,
+        "rationale": "The Act specifies that upon the parent's renunciation, their minor children also cease to be citizens."
+      }
+    ],
+    "hint": "Consider the secondary impact of a parent's voluntary declaration of renunciation."
+  },
+  {
+    "question": "Which specific provision was inserted into the Citizenship Act, 1955, following the historic 1985 Assam Accord to deal with migrants from Bangladesh?",
+    "options": [
+      {
+        "text": "Section 6A",
+        "isCorrect": true,
+        "rationale": "Section 6A was added to implement the terms of the Assam Accord, setting specific dates for citizenship eligibility for migrants into Assam."
+      },
+      {
+        "text": "Article 371D",
+        "isCorrect": false,
+        "rationale": "Article 371D relates to special provisions for Andhra Pradesh and Telangana, not the Assam Accord or Bangladesh migrants."
+      },
+      {
+        "text": "Section 14A",
+        "isCorrect": false,
+        "rationale": "Section 14A relates to the issue of national identity cards and the registration of citizens, but Section 6A is the one specific to the Assam Accord."
+      },
+      {
+        "text": "Article 35A",
+        "isCorrect": false,
+        "rationale": "Article 35A was related to Jammu \\& Kashmir and has since been revoked; it was not part of the 1955 Act amendments for Assam."
+      }
+    ],
+    "hint": "This section was upheld as constitutionally valid by a Supreme Court bench in 2024."
+  },
+  {
+    "question": "For 'Enemy Aliens' in India, which constitutional protection is specifically reduced or denied compared to other individuals?",
+    "options": [
+      {
+        "text": "Protection against arrest and detention under Article 22.",
+        "isCorrect": true,
+        "rationale": "Article 22 provides less protection to enemy aliens, meaning they can be arrested or detained without the standard protections afforded to others."
+      },
+      {
+        "text": "The Right to Equality under Article 14.",
+        "isCorrect": false,
+        "rationale": "While certain rights are limited, Article 14 (Right to Equality) generally applies to all persons; the specific reduction mentioned is under Article 22."
+      },
+      {
+        "text": "The right to marry an Indian citizen.",
+        "isCorrect": false,
+        "rationale": "The restriction on enemy aliens highlighted in the material specifically concerns detention protections, not marriage."
+      },
+      {
+        "text": "The right to practice their own religion under Article 25.",
+        "isCorrect": false,
+        "rationale": "Religious freedom is generally protected for all persons; the source emphasises the lack of protection under Article 22."
+      }
+    ],
+    "hint": "This relates to the legal safeguards available when one is taken into custody."
+  },
+  {
+    "question": "Which body is responsible for maintaining the 'Central Adverse List' that blocks entry visas for individuals with terrorist links?",
+    "options": [
+      {
+        "text": "The Ministry of Home Affairs (MHA).",
+        "isCorrect": true,
+        "rationale": "The MHA maintains the Central Adverse List to prevent individuals involved in serious crimes or terrorism from entering India."
+      },
+      {
+        "text": "The Ministry of External Affairs (MEA).",
+        "isCorrect": false,
+        "rationale": "While the MEA handles visas through consulates, the Adverse List itself is maintained by the Ministry of Home Affairs."
+      },
+      {
+        "text": "The Intelligence Bureau (IB).",
+        "isCorrect": false,
+        "rationale": "The IB provides intelligence, but the statutory responsibility for the list and citizenship/foreigner matters lies with the MHA."
+      },
+      {
+        "text": "The National Investigation Agency (NIA).",
+        "isCorrect": false,
+        "rationale": "The NIA investigates terrorism, but the administrative control of entry lists and citizenship falls under the MHA."
+      }
+    ],
+    "hint": "This is the same ministry that oversees the Registrar General and the Census Commissioner."
+  },
+  {
+    "question": "What is the primary difference between the 'National Population Register (NPR)' and the 'Decennial Census' according to the source?",
+    "options": [
+      {
+        "text": "The Census collects aggregated macro-data without individual documents, whereas the NPR collects specific demographic and biometric details for identifying residents.",
+        "isCorrect": true,
+        "rationale": "The NPR is a database of 'usual residents' used as a base list for the NRIC, while the Census is for policy framing and statistical data."
+      },
+      {
+        "text": "The Census is compulsory for all residents, while registration in the NPR is strictly voluntary.",
+        "isCorrect": false,
+        "rationale": "According to the material, both the Census and the NPR are compulsory for residents; only Aadhaar is voluntary."
+      },
+      {
+        "text": "The NPR is conducted every five years, while the Census is conducted every ten years.",
+        "isCorrect": false,
+        "rationale": "The material describes the Census as 'decennial' (every 10 years), but does not specify a 5-year cycle for the NPR; it describes them by their purpose and data types."
+      },
+      {
+        "text": "The Census serves as proof of citizenship, while the NPR is used only for welfare distribution.",
+        "isCorrect": false,
+        "rationale": "Neither the Census nor the NPR serves as proof of citizenship; the NPR identifies 'usual residents'."
+      }
+    ],
+    "hint": "Consider the level of data collected (aggregated vs individual) and the purpose (statistical vs residential status)."
+  },
+  {
+    "question": "Under the Citizenship Act 1955, how can a person who previously renounced their Indian citizenship as a minor resume it later?",
+    "options": [
+      {
+        "text": "By making a declaration within one year of attaining the age of 18.",
+        "isCorrect": true,
+        "rationale": "Children who lose citizenship due to their parents' renunciation can resume it by making a declaration within a year of turning 18."
+      },
+      {
+        "text": "By residing in India for a continuous period of 7 years after turning 18.",
+        "isCorrect": false,
+        "rationale": "The seven-year residency is for registration of PIOs, not for the resumption of citizenship by former minor citizens."
+      },
+      {
+        "text": "By applying for an OCI card first and then waiting five years.",
+        "isCorrect": false,
+        "rationale": "The OCI route is a separate pathway for foreign nationals; former citizens have a direct resumption clause."
+      },
+      {
+        "text": "Citizenship is automatically restored on their 18th birthday if they are living in India.",
+        "isCorrect": false,
+        "rationale": "Restoration is not automatic; it requires a voluntary declaration by the individual within the specified timeframe."
+      }
+    ],
+    "hint": "There is a specific one-year window for action after the individual reaches the 'age of majority'."
+  },
+  {
+    "question": "India's 'Single Citizenship' principle is most heavily inspired by the model of which other country?",
+    "options": [
+      {
+        "text": "Canada",
+        "isCorrect": true,
+        "rationale": "The material explicitly states that India's single citizenship principle is heavily inspired by the Canadian model."
+      },
+      {
+        "text": "The United States of America",
+        "isCorrect": false,
+        "rationale": "The USA is used as a contrast because it follows a dual citizenship (State and Federal) model."
+      },
+      {
+        "text": "The United Kingdom",
+        "isCorrect": false,
+        "rationale": "While many Indian legal concepts come from the UK, the source specifically identifies Canada as the inspiration for the single citizenship principle."
+      },
+      {
+        "text": "Pakistan",
+        "isCorrect": false,
+        "rationale": "Pakistan is mentioned in the context of migration and eligibility restrictions, not as a model for India's citizenship structure."
+      }
+    ],
+    "hint": "This Commonwealth nation provides the model for India's approach to national unity through citizenship."
+  },
+  {
+    "question": "Which of the following describes 'Non-Refoulement' in the context of India's refugee policy?",
+    "options": [
+      {
+        "text": "An international principle preventing states from deporting refugees to life-threatening places, which some argue binds India despite it not signing the 1951 Convention.",
+        "isCorrect": true,
+        "rationale": "Non-refoulement is a customary international law principle that proponents argue should apply to India even without a formal treaty signature."
+      },
+      {
+        "text": "A domestic Indian law passed in 1946 that mandates the immediate deportation of all illegal migrants.",
+        "isCorrect": false,
+        "rationale": "Non-refoulement is an international principle, not a domestic Indian act; the 1946 Act is the Foreigners Act."
+      },
+      {
+        "text": "A treaty signed between India and the UNHCR in 1967 to manage Rohingya refugees.",
+        "isCorrect": false,
+        "rationale": "India has not signed the 1951 Convention or the 1967 Protocol, according to the source."
+      },
+      {
+        "text": "A constitutional provision under Article 5 that protects migrants from Pakistan.",
+        "isCorrect": false,
+        "rationale": "Article 5 deals with domicile-based citizenship at commencement, not the international principle of non-refoulement."
+      }
+    ],
+    "hint": "This is a 'customary international law' principle regarding the safety of deportees."
+  },
+  {
+    "question": "What are the requirements for 'Permanent Residency Status (PRS)' introduced for foreign investors via the FDI route?",
+    "options": [
+      {
+        "text": "A minimum investment of $\\₹10$ Crores and the creation of at least 20 jobs.",
+        "isCorrect": true,
+        "rationale": "The PRS scheme for foreign investors requires a 10-crore investment and job creation, granting a renewable 10-year visa."
+      },
+      {
+        "text": "Marriage to an Indian citizen and a minimum investment of $\\₹1$ Crore.",
+        "isCorrect": false,
+        "rationale": "PRS for investors is distinct from marriage-based registration and has a much higher financial threshold ($\\₹10$ Crores)."
+      },
+      {
+        "text": "Renouncing foreign citizenship and living in India for 11 years.",
+        "isCorrect": false,
+        "rationale": "These are requirements for Naturalisation, not the specific Permanent Residency Status for investors."
+      },
+      {
+        "text": "Investing $\\₹5$ Crores in agricultural land and holding it for 5 years.",
+        "isCorrect": false,
+        "rationale": "OCIs and foreign investors are generally restricted from purchasing agricultural land; the PRS requires a $\\₹10$ Crore investment."
+      }
+    ],
+    "hint": "Focus on the specific financial and employment targets mentioned in the 'PRS' section."
+  },
+  {
+    "question": "Under the 1985 Assam Accord, what happened to the voting rights of migrants who entered Assam between 1 January 1966 and 24 March 1971?",
+    "options": [
+      {
+        "text": "Their voting rights were suspended for 10 years from the date of their detection as foreigners.",
+        "isCorrect": true,
+        "rationale": "Migrants in this middle bracket were granted citizenship, but their political right to vote was deferred for a decade."
+      },
+      {
+        "text": "They were immediately granted full voting rights as Indian citizens.",
+        "isCorrect": false,
+        "rationale": "Full immediate rights were only for those who entered before 1 January 1966."
+      },
+      {
+        "text": "They were permanently barred from voting in State Legislative Assembly elections.",
+        "isCorrect": false,
+        "rationale": "The bar was temporary (10 years), not permanent."
+      },
+      {
+        "text": "They were only allowed to vote in local panchayat elections but not for the Lok Sabha.",
+        "isCorrect": false,
+        "rationale": "The suspension applied to all voting rights for the specified 10-year period."
+      }
+    ],
+    "hint": "This group received 'citizenship' but with a specific temporary political restriction."
+  }
+]
