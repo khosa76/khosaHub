@@ -459,19 +459,9 @@ p {
   }
   
   .paper-page {
-    /* Reduce padding and hide metal spirals to maximize mobile reading width */
-    padding: 40px 15px 40px 45px;
-    background-image:
-      linear-gradient(90deg, transparent 35px, var(--margin-line) 35px, var(--margin-line) 37px, transparent 37px),
-      linear-gradient(var(--note-line) 96%, transparent 96%);
-    background-size: 100% 100%, 100% 32px;
-    background-position: 0 0, 0 12px;
+    /* Keep left padding 90px for spirals and red margin line, reduce right padding */
+    padding: 40px 16px 40px 90px;
     border-radius: 8px;
-  }
-  
-  .paper-page::before,
-  .paper-page::after {
-    display: none; /* Hide spirals and holes on small screens */
   }
 
   .subjects-grid {
