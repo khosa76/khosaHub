@@ -28,56 +28,13 @@
         <main class="main-content notebook-container">
             <div class="paper-page">
 
-                <!-- <a href="../../index.html" class="back-home-btn">
-                    &larr; Back to Main Dashboard
-                </a> -->
-
-                <a href="index.html" class="nav-back-link">
-                    <span class="nav-arrow">‹</span> Study Hub
-                </a>
-                <br>
-
                 <!-- VIEW 1: SUBJECT DIRECTORY DASHBOARD -->
                 <section id="dashboard-view" class="view-panel active">
                     <div class="view-header">
                         <h1 class="view-title">MCQ Revision Lab</h1>
-                        <p class="view-subtitle">Select a subject and sub-topic to start practicing. Choose a mode
-                            depending on your revision goal.</p>
+                        <p class="view-subtitle">Select a subject and sub-topic to start practicing.</p>
                     </div>
 
-                    <!-- Redesigned Apple Settings Row -->
-                    <div class="settings-container">
-                        <div class="settings-section">
-                            <h2 class="settings-title">1. Revision Mode</h2>
-                            <div class="mode-selector-group">
-                                <label class="mode-pill-option active" id="mode-study-label">
-                                    <input type="radio" name="quiz-mode" value="study" checked>
-                                    <div class="pill-content">
-                                        <span class="mode-name">Study Mode</span>
-                                        <span class="mode-hint">Get real-time answers, hints & explanations</span>
-                                    </div>
-                                </label>
-                                <label class="mode-pill-option" id="mode-exam-label">
-                                    <input type="radio" name="quiz-mode" value="exam">
-                                    <div class="pill-content">
-                                        <span class="mode-name">Exam Mode</span>
-                                        <span class="mode-hint">Simulate real tests under a countdown timer</span>
-                                    </div>
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="settings-section" id="timer-settings-box">
-                            <h2 class="settings-title">2. Timer Limits (Exam Mode only)</h2>
-                            <div class="timer-pills-list">
-                                <button type="button" class="timer-pill-btn active" data-time="0">No Limit</button>
-                                <button type="button" class="timer-pill-btn" data-time="30">30s / Question</button>
-                                <button type="button" class="timer-pill-btn" data-time="60">1m / Question</button>
-                                <button type="button" class="timer-pill-btn" data-time="300">5 Mins Total</button>
-                                <button type="button" class="timer-pill-btn" data-time="600">10 Mins Total</button>
-                            </div>
-                        </div>
-                    </div>
 
                     <!-- Subjects Accordion & Compact Vertical Lists -->
                     <div class="catalog-section">
@@ -95,16 +52,6 @@
                     <!-- Compact Header Stats -->
                     <div class="quiz-topbar">
                         <button class="action-link-btn text-danger" id="quit-test-btn">✕ Quit Practice</button>
-
-                        <div class="quiz-stats-group">
-                            <span class="stat-pill mode-badge" id="mode-pill-display">Study Mode</span>
-                            <span class="stat-pill bookmark-badge" id="bookmark-counter">
-                                <span class="badge-icon">★</span> Bookmarked: <span id="bookmark-count">0</span>
-                            </span>
-                            <span class="stat-pill timer-badge" id="timer-display">
-                                <span class="badge-icon">⏱</span> <span id="timer-value">00:00</span>
-                            </span>
-                        </div>
                     </div>
 
                     <!-- Visual Apple Progress Bar -->
@@ -128,9 +75,6 @@
                     <div class="question-container">
                         <div class="question-card-header">
                             <span class="q-badge">Question</span>
-                            <button class="bookmark-action-btn" id="bookmark-toggle" title="Bookmark this question">
-                                <span class="star-shape">☆</span> Bookmark
-                            </button>
                         </div>
 
                         <h2 class="question-heading" id="question-text">Loading question content...</h2>
@@ -163,8 +107,6 @@
                     <!-- Navigation Footer Buttons -->
                     <div class="quiz-nav-footer">
                         <button class="apple-pill-btn secondary-btn" id="prev-btn">Previous</button>
-                        <button class="apple-pill-btn accent-btn" id="submit-exam-btn" style="display: none;">Submit
-                            Quiz</button>
                         <button class="apple-pill-btn primary-btn" id="next-btn">Next Question</button>
                     </div>
                 </section>
@@ -200,14 +142,7 @@
                                     <span class="row-label">Topic</span>
                                     <span class="row-value" id="metric-topic">General Studies</span>
                                 </div>
-                                <div class="table-row">
-                                    <span class="row-label">Mode</span>
-                                    <span class="row-value" id="metric-mode">Study Mode</span>
-                                </div>
-                                <div class="table-row">
-                                    <span class="row-label">Duration</span>
-                                    <span class="row-value" id="metric-time">0m 00s</span>
-                                </div>
+
                                 <div class="table-row">
                                     <span class="row-label">Accuracy Rate</span>
                                     <span class="row-value font-weight-bold color-primary"
@@ -217,10 +152,7 @@
                                     <span class="row-label">Completed Items</span>
                                     <span class="row-value" id="metric-attempted">0 of 0</span>
                                 </div>
-                                <div class="table-row">
-                                    <span class="row-label">Bookmarks Saved</span>
-                                    <span class="row-value" id="metric-bookmarks">0</span>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -244,8 +176,6 @@
                                         id="filter-cnt-correct">0</span>)</button>
                                 <button class="segment-btn" data-filter="incorrect">Incorrect (<span
                                         id="filter-cnt-incorrect">0</span>)</button>
-                                <button class="segment-btn" data-filter="bookmarked">Starred (<span
-                                        id="filter-cnt-bookmarked">0</span>)</button>
                             </div>
                         </div>
 

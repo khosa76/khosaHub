@@ -6,14 +6,8 @@ let quizData = [];           // Current active quiz questions list
 let originalQuizData = [];   // Unfiltered quiz questions list (for retries)
 let currentTopicId = '';     // Topic identifier
 let currentTopicName = '';   // Topic title
-let quizMode = 'study';      // 'study' or 'exam'
-let timerDuration = 0;       // Selected timer duration in seconds (0 = unlimited)
-let timerInterval = null;    // Timer loop reference
-let timeElapsed = 0;         // Seconds spent in current practice run
-let timeLeft = 0;            // Countdown seconds remaining (for exam mode)
 let currentIndex = 0;        // Current question index (0-based)
 let userAnswers = [];        // User selections (indices, null for unanswered)
-let bookmarkedStates = [];   // Boolean flags for bookmarked questions
 let incorrectOnlyMode = false; // Retesting only wrong answers
 let filteredIndicesMap = []; // Maps filtered indices to original indices
 
@@ -27,10 +21,6 @@ const views = {
 // UI Widgets
 const navbarTopicTitle = document.getElementById('navbar-topic-title');
 const subjectsContainer = document.getElementById('subjects-container');
-const timerDisplay = document.getElementById('timer-display');
-const timerValue = document.getElementById('timer-value');
-const bookmarkCountEl = document.getElementById('bookmark-count');
-const modePillDisplay = document.getElementById('mode-pill-display');
 const progressBar = document.getElementById('progress-bar');
 const progressPercentage = document.getElementById('progress-percentage');
 const currentQNum = document.getElementById('current-q-num');
@@ -38,7 +28,6 @@ const totalQNum = document.getElementById('total-q-num');
 const qNavGrid = document.getElementById('question-nav-grid');
 
 // Question Display Cards
-const bookmarkToggle = document.getElementById('bookmark-toggle');
 const questionText = document.getElementById('question-text');
 const hintContainer = document.getElementById('hint-container');
 const hintToggleBtn = document.getElementById('hint-toggle-btn');
@@ -52,7 +41,6 @@ const feedbackBadge = document.getElementById('feedback-badge');
 // Navigation Buttons
 const prevBtn = document.getElementById('prev-btn');
 const nextBtn = document.getElementById('next-btn');
-const submitExamBtn = document.getElementById('submit-exam-btn');
 const quitTestBtn = document.getElementById('quit-test-btn');
 
 // Results Widgets
@@ -61,11 +49,8 @@ const scoreFraction = document.getElementById('score-fraction');
 const gaugeCircle = document.getElementById('gauge-circle');
 const scoreBadgeEarned = document.getElementById('score-badge-earned');
 const metricTopic = document.getElementById('metric-topic');
-const metricMode = document.getElementById('metric-mode');
-const metricTime = document.getElementById('metric-time');
 const metricAccuracy = document.getElementById('metric-accuracy');
 const metricAttempted = document.getElementById('metric-attempted');
-const metricBookmarks = document.getElementById('metric-bookmarks');
 const reviewQuestionsList = document.getElementById('review-questions-list');
 
 // Results Action Buttons
@@ -88,59 +73,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // --- Event Listeners Setup ---
 function setupEventListeners() {
-    // Mode toggle pill controllers
-    const modeStudy = document.getElementById('mode-study-label');
-    const modeExam = document.getElementById('mode-exam-label');
-    const timerBox = document.getElementById('timer-settings-box');
-    
-    document.getElementsByName('quiz-mode').forEach(radio => {
-        radio.addEventListener('change', (e) => {
-            quizMode = e.target.value;
-            if (quizMode === 'study') {
-                modeStudy.classList.add('active');
-                modeExam.classList.remove('active');
-                timerBox.style.opacity = '0.4';
-                timerBox.style.pointerEvents = 'none';
-            } else {
-                modeStudy.classList.remove('active');
-                modeExam.classList.add('active');
-                timerBox.style.opacity = '1';
-                timerBox.style.pointerEvents = 'auto';
-            }
-        });
-    });
-
-    // Disable timer selection initially since study mode is checked by default
-    timerBox.style.opacity = '0.4';
-    timerBox.style.pointerEvents = 'none';
-
-    // Timer Preset Buttons click
-    document.querySelectorAll('.timer-pill-btn').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            document.querySelectorAll('.timer-pill-btn').forEach(b => b.classList.remove('active'));
-            e.target.classList.add('active');
-            timerDuration = parseInt(e.target.dataset.time, 10);
-        });
-    });
-
     // Quiz Navigation Buttons
     prevBtn.addEventListener('click', () => navigateQuestion(currentIndex - 1));
     nextBtn.addEventListener('click', () => {
         if (currentIndex < quizData.length - 1) {
             navigateQuestion(currentIndex + 1);
-        } else if (quizMode === 'study') {
+        } else {
             // In study mode, clicking next on final question submits results
             finishQuiz();
         }
     });
 
-    submitExamBtn.addEventListener('click', () => {
-        if (confirm("Are you sure you want to finish the exam and view results?")) {
-            finishQuiz();
-        }
-    });
-
-    bookmarkToggle.addEventListener('click', toggleBookmark);
     quitTestBtn.addEventListener('click', confirmQuit);
 
     // Hint Toggle
@@ -323,41 +266,9 @@ function startQuiz(questions) {
     // Reset status trackers
     currentIndex = 0;
     userAnswers = new Array(quizData.length).fill(null);
-    bookmarkedStates = new Array(quizData.length).fill(false);
-    
-    // Clear and start timers
-    clearInterval(timerInterval);
-    timeElapsed = 0;
-    
-    if (quizMode === 'exam') {
-        modePillDisplay.innerText = "Exam Mode";
-        modePillDisplay.className = "stat-pill mode-badge";
-        
-        if (timerDuration > 0) {
-            // Calculate exam limit (either per-question preset or absolute total)
-            if (timerDuration === 30 || timerDuration === 60) {
-                timeLeft = quizData.length * timerDuration;
-            } else {
-                timeLeft = timerDuration;
-            }
-            startExamCountdown();
-        } else {
-            timeLeft = 0;
-            timerValue.innerText = "Unlimited";
-            startStopwatch();
-        }
-    } else {
-        // Study Mode stopwatch
-        modePillDisplay.innerText = "Study Mode";
-        modePillDisplay.className = "stat-pill mode-badge";
-        timerValue.innerText = "00:00";
-        timeLeft = 0;
-        startStopwatch();
-    }
 
     // Sync UI elements counts
     totalQNum.innerText = quizData.length;
-    bookmarkCountEl.innerText = "0";
 
     // Build question nav numbers matrix
     renderNavGrid();
@@ -393,63 +304,13 @@ function updateNavGridButtons() {
         }
         
         if (userAnswers[idx] !== null) {
-            if (quizMode === 'study') {
-                // Color code based on correctness in Study Mode
-                const isCorrect = quizData[idx].options[userAnswers[idx]].isCorrect;
-                btn.classList.add(isCorrect ? 'correct-ans' : 'wrong-ans');
-            } else {
-                // Simple answered marker in Exam Mode
-                btn.classList.add('answered');
-            }
-        }
-        
-        if (bookmarkedStates[idx]) {
-            btn.classList.add('bookmarked');
+            // Color code based on correctness in Study Mode
+            const isCorrect = quizData[idx].options[userAnswers[idx]].isCorrect;
+            btn.classList.add(isCorrect ? 'correct-ans' : 'wrong-ans');
         }
     });
 }
 
-// --- Timers Setup ---
-function startStopwatch() {
-    timerDisplay.className = "stat-pill timer-badge";
-    timerInterval = setInterval(() => {
-        timeElapsed++;
-        const mins = Math.floor(timeElapsed / 60).toString().padStart(2, '0');
-        const secs = (timeElapsed % 60).toString().padStart(2, '0');
-        timerValue.innerText = `${mins}:${secs}`;
-    }, 1000);
-}
-
-function startExamCountdown() {
-    timerDisplay.className = "stat-pill timer-badge";
-    
-    const updateCountdownUI = () => {
-        const mins = Math.floor(timeLeft / 60).toString().padStart(2, '0');
-        const secs = (timeLeft % 60).toString().padStart(2, '0');
-        timerValue.innerText = `${mins}:${secs}`;
-        
-        // Timer warnings
-        if (timeLeft <= 10) {
-            timerDisplay.className = "stat-pill timer-badge critical-timer";
-        } else if (timeLeft <= 60) {
-            timerDisplay.className = "stat-pill timer-badge warning-timer";
-        }
-    };
-    
-    updateCountdownUI();
-    
-    timerInterval = setInterval(() => {
-        timeElapsed++;
-        timeLeft--;
-        updateCountdownUI();
-        
-        if (timeLeft <= 0) {
-            clearInterval(timerInterval);
-            alert("⏰ Time's up! The exam is submitting automatically.");
-            finishQuiz();
-        }
-    }, 1000);
-}
 
 // --- Question Renderer ---
 function showQuestion(index) {
@@ -475,14 +336,7 @@ function showQuestion(index) {
         hintContainer.style.display = 'none';
     }
 
-    // Bookmark/Starred button sync
-    if (bookmarkedStates[index]) {
-        bookmarkToggle.classList.add('active');
-        bookmarkToggle.innerHTML = `<span class="star-shape">★</span> Starred`;
-    } else {
-        bookmarkToggle.classList.remove('active');
-        bookmarkToggle.innerHTML = `<span class="star-shape">☆</span> Star`;
-    }
+
 
     // Clean dynamic options
     optionsContainer.innerHTML = '';
@@ -503,30 +357,22 @@ function showQuestion(index) {
         const answeredIndex = userAnswers[index];
         const hasBeenAnswered = answeredIndex !== null;
 
-        if (quizMode === 'study') {
-            if (hasBeenAnswered) {
-                btn.disabled = true;
-                if (opt.isCorrect) {
-                    btn.classList.add('correct-choice');
-                } else if (optIdx === answeredIndex) {
-                    btn.classList.add('wrong-choice');
-                }
-            } else {
-                btn.addEventListener('click', () => selectOptionStudy(optIdx));
+        if (hasBeenAnswered) {
+            btn.disabled = true;
+            if (opt.isCorrect) {
+                btn.classList.add('correct-choice');
+            } else if (optIdx === answeredIndex) {
+                btn.classList.add('wrong-choice');
             }
         } else {
-            // Exam Mode: select toggle
-            if (hasBeenAnswered && optIdx === answeredIndex) {
-                btn.classList.add('selected');
-            }
-            btn.addEventListener('click', () => selectOptionExam(optIdx));
+            btn.addEventListener('click', () => selectOptionStudy(optIdx));
         }
 
         optionsContainer.appendChild(btn);
     });
 
-    // Show rationale immediately in study mode if already answered
-    if (quizMode === 'study' && userAnswers[index] !== null) {
+    // Show rationale immediately if already answered
+    if (userAnswers[index] !== null) {
         revealRationale(index);
     }
 
@@ -534,17 +380,11 @@ function showQuestion(index) {
     prevBtn.disabled = index === 0;
     
     if (index === quizData.length - 1) {
-        if (quizMode === 'exam') {
-            nextBtn.style.display = 'none';
-            submitExamBtn.style.display = 'block';
-        } else {
-            nextBtn.style.display = 'block';
-            nextBtn.innerText = "Finish Quiz";
-        }
+        nextBtn.style.display = 'block';
+        nextBtn.innerText = "Finish Quiz";
     } else {
         nextBtn.style.display = 'block';
         nextBtn.innerText = "Next Question";
-        submitExamBtn.style.display = 'none';
     }
 
     updateNavGridButtons();
@@ -620,27 +460,7 @@ function revealRationale(index) {
     }
 }
 
-function toggleBookmark() {
-    bookmarkedStates[currentIndex] = !bookmarkedStates[currentIndex];
-    
-    // Count bookmarks
-    const totalBookmarks = bookmarkedStates.filter(Boolean).length;
-    bookmarkCountEl.innerText = totalBookmarks;
-    
-    // Sync current button UI
-    if (bookmarkedStates[currentIndex]) {
-        bookmarkToggle.classList.add('active');
-        bookmarkToggle.innerHTML = `<span class="star-shape">★</span> Starred`;
-    } else {
-        bookmarkToggle.classList.remove('active');
-        bookmarkToggle.innerHTML = `<span class="star-shape">☆</span> Star`;
-    }
-    
-    updateNavGridButtons();
-}
-
 function confirmQuit() {
-    clearInterval(timerInterval);
     if (navbarTopicTitle) navbarTopicTitle.innerText = "Subject Directory";
     switchView('dashboard');
     loadCatalog();
@@ -648,7 +468,6 @@ function confirmQuit() {
 
 // --- Finish Quiz & Render Results Dashboard ---
 function finishQuiz() {
-    clearInterval(timerInterval);
     
     // Calculate results metrics
     let correctCount = 0;
@@ -686,18 +505,10 @@ function finishQuiz() {
     }
     scoreBadgeEarned.innerText = badgeText;
 
-    // Time formatting
-    const finalMins = Math.floor(timeElapsed / 60);
-    const finalSecs = timeElapsed % 60;
-    const timeTakenStr = `${finalMins}m ${finalSecs}s`;
-
     // Metrics table row updates
     metricTopic.innerText = currentTopicName;
-    metricMode.innerText = quizMode === 'study' ? "Study Mode" : "Exam Mode";
-    metricTime.innerText = timeTakenStr;
     metricAccuracy.innerText = `${percentage}%`;
     metricAttempted.innerText = `${attemptedCount} of ${totalQuestions}`;
-    metricBookmarks.innerText = bookmarkedStates.filter(Boolean).length;
 
     // Save to localStorage if not in retest-incorrect-only mode
     if (!incorrectOnlyMode) {
@@ -749,13 +560,11 @@ function renderReviewQuestionsList(filterMode) {
     let allCnt = quizData.length;
     let correctCnt = 0;
     let incorrectCnt = 0;
-    let bookmarkedCnt = 0;
 
     const itemsToRender = [];
 
     quizData.forEach((q, idx) => {
         const userSelection = userAnswers[idx];
-        const isBookmarked = bookmarkedStates[idx];
         
         let status = 'unanswered';
         let isCorrect = false;
@@ -767,18 +576,15 @@ function renderReviewQuestionsList(filterMode) {
         } else {
             incorrectCnt++; // unanswered items count as incorrect
         }
-        
-        if (isBookmarked) bookmarkedCnt++;
 
         // Filter checks
         let matchesFilter = false;
         if (filterMode === 'all') matchesFilter = true;
         else if (filterMode === 'correct' && status === 'correct') matchesFilter = true;
         else if (filterMode === 'incorrect' && (status === 'incorrect' || status === 'unanswered')) matchesFilter = true;
-        else if (filterMode === 'bookmarked' && isBookmarked) matchesFilter = true;
 
         if (matchesFilter) {
-            itemsToRender.push({ q, idx, status, userSelection, isBookmarked });
+            itemsToRender.push({ q, idx, status, userSelection });
         }
     });
 
@@ -786,7 +592,6 @@ function renderReviewQuestionsList(filterMode) {
     document.getElementById('filter-cnt-all').innerText = allCnt;
     document.getElementById('filter-cnt-correct').innerText = correctCnt;
     document.getElementById('filter-cnt-incorrect').innerText = incorrectCnt;
-    document.getElementById('filter-cnt-bookmarked').innerText = bookmarkedCnt;
 
     if (itemsToRender.length === 0) {
         reviewQuestionsList.innerHTML = `<div class="catalog-loading">No questions match this review filter.</div>`;
@@ -801,8 +606,6 @@ function renderReviewQuestionsList(filterMode) {
         if (item.status === 'incorrect') borderClass = 'wrong-item-border';
         
         itemCard.className = `review-item-card ${borderClass}`;
-
-        let starredIcon = item.isBookmarked ? `<span class="starred-review-icon" title="Starred">★</span>` : '';
 
         // Options lists
         let optionsHtml = '';
@@ -829,7 +632,6 @@ function renderReviewQuestionsList(filterMode) {
         }
 
         itemCard.innerHTML = `
-            ${starredIcon}
             <div class="review-q-header">
                 <span class="review-q-prefix">Q${item.idx + 1}.</span>
                 <h4 class="review-q-text">${item.q.question}</h4>
