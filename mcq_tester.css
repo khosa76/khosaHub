@@ -589,20 +589,26 @@ body {
   margin-bottom: 24px;
   padding-bottom: 8px;
   scrollbar-width: thin;
+  scrollbar-color: var(--ink-blue) rgba(30, 58, 138, 0.05);
   -webkit-overflow-scrolling: touch;
 }
 
 .question-nav-matrix::-webkit-scrollbar {
-  height: 5px;
+  height: 6px;
 }
 
 .question-nav-matrix::-webkit-scrollbar-track {
-  background: transparent;
+  background: rgba(30, 58, 138, 0.05);
+  border-radius: 3px;
 }
 
 .question-nav-matrix::-webkit-scrollbar-thumb {
-  background: rgba(30, 58, 138, 0.15);
-  border-radius: 4px;
+  background: var(--ink-blue);
+  border-radius: 3px;
+}
+
+.question-nav-matrix::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-red);
 }
 
 .q-matrix-btn {
