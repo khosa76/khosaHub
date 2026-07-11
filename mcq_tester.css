@@ -122,86 +122,8 @@ body {
   filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.18));
 }
 
-/* Premium Top Navbar styled like a notebook divider header */
-.app-navbar {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50px;
-  background: var(--paper-bg);
-  border-bottom: 2px dashed rgba(30, 58, 138, 0.18);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
-  z-index: 100;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.nav-content {
-  display: none;
-  width: 100%;
-  max-width: 1100px;
-  padding: 0 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.nav-back-link {
-  color: var(--ink-blue);
-  text-decoration: none;
-  font-family: 'Kalam', cursive;
-  font-size: 18px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  transition: var(--transition-fast);
-  border-bottom: 1px dotted var(--ink-blue);
-}
-
-.nav-back-link:hover {
-  color: var(--ink-red);
-  border-bottom-color: var(--ink-red);
-}
-
-.nav-arrow {
-  font-size: 22px;
-}
-
-.nav-title-group {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-family: 'Kalam', cursive;
-  font-size: 18px;
-}
-
-.nav-badge {
-  font-weight: 700;
-  color: var(--ink-blue);
-}
-
-.nav-slash {
-  color: var(--ink-red);
-}
-
-.nav-page-title {
-  color: var(--ink-black);
-  max-width: 250px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.nav-status-widget {
-  font-size: 14px;
-  color: var(--ink-black);
-  opacity: 0.8;
-  font-family: 'JetBrains Mono', monospace;
-}
 
 /* Common View Headers */
 .view-header {
@@ -244,11 +166,7 @@ body {
   margin-bottom: 32px;
 }
 
-@media (max-width: 768px) {
-  .settings-container {
-    grid-template-columns: 1fr;
-  }
-}
+
 
 .settings-section {
   background: rgba(255, 255, 255, 0.4);
@@ -950,11 +868,7 @@ body {
   margin-bottom: 32px;
 }
 
-@media (max-width: 768px) {
-  .results-layout-grid {
-    grid-template-columns: 1fr;
-  }
-}
+
 
 .result-card-box {
   background: rgba(255, 255, 255, 0.4);
@@ -1210,85 +1124,354 @@ body {
 }
 
 /* Mobile Responsive Overrides for Lined Notebook layout */
-@media (max-width: 768px) {
+/* =============================================
+   RESPONSIVE SYSTEM — Tablet (≤1024px)
+   ============================================= */
+@media (max-width: 1024px) {
   body {
-    padding: 20px 4px;
-  }
-  
-  .paper-page {
-    /* Scale down spirals and padding for mobile screens */
-    padding: 40px 15px 40px 55px;
-    background-image:
-      linear-gradient(90deg, transparent 40px, var(--margin-line) 40px, var(--margin-line) 42px, transparent 42px),
-      linear-gradient(var(--note-line) 96%, transparent 96%);
-    background-size: 100% 100%, 100% 28px;
-    background-position: 0 0, 0 8px;
-    border-radius: 8px;
-  }
-  
-  .paper-page::before {
-    left: 12px;
-    width: 9px;
-    background-size: 9px 20px;
-    background-position: 0 6px;
+    padding: 24px 6px;
+    font-size: 18px;
   }
 
-  .paper-page::after {
-    left: 4px;
-    width: 20px;
-    background-size: 100% 20px;
+  .paper-page {
+    padding: 50px 30px 50px 80px;
+  }
+
+  .view-title {
+    font-size: 32px;
+  }
+
+  .question-heading {
+    font-size: 21px;
+  }
+
+  .option-text {
+    font-size: 18px;
   }
 
   .settings-container {
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 18px;
   }
 
   .results-layout-grid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-  
-  .view-title {
-    font-size: 28px;
-  }
-  
-  .view-subtitle {
+}
+
+/* =============================================
+   RESPONSIVE SYSTEM — Phone (≤600px)
+   ============================================= */
+@media (max-width: 600px) {
+  body {
+    padding: 10px 2px;
     font-size: 16px;
   }
 
-  /* Scale down MCQ text sizes for phone viewports */
-  .question-heading {
-    font-size: 18.5px;
+  .paper-page {
+    padding: 30px 14px 30px 50px;
+    background-image:
+      linear-gradient(90deg, transparent 36px, var(--margin-line) 36px, var(--margin-line) 38px, transparent 38px),
+      linear-gradient(var(--note-line) 96%, transparent 96%);
+    background-size: 100% 100%, 100% 24px;
+    background-position: 0 0, 0 6px;
+    border-radius: 6px;
+    min-height: auto;
+    box-shadow:
+      0 8px 20px rgba(0, 0, 0, 0.04),
+      0 2px 6px rgba(0, 0, 0, 0.02);
+  }
+
+  /* Scale down spiral rings and punch holes */
+  .paper-page::before {
+    left: 10px;
+    width: 8px;
+    background-size: 8px 18px;
+    background-position: 0 4px;
+    top: 20px;
+    bottom: 20px;
+  }
+
+  .paper-page::after {
+    left: 3px;
+    width: 18px;
+    background-size: 100% 18px;
+    top: 18px;
+    bottom: 22px;
+  }
+
+  /* View Headers */
+  .view-header {
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+  }
+
+  .view-title {
+    font-size: 26px;
+  }
+
+  .view-subtitle {
+    font-size: 15px;
+  }
+
+  /* Quiz topbar: stack vertically on narrow screens */
+  .quiz-topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-bottom: 10px;
     margin-bottom: 14px;
   }
-  
-  .option-text {
-    font-size: 16px;
+
+  .quiz-stats-group {
+    flex-wrap: wrap;
+    gap: 6px;
+    width: 100%;
   }
 
-  .option-circle {
-    width: 22px;
-    height: 22px;
-    font-size: 11px;
+  .stat-pill {
+    font-size: 13px;
+    padding: 3px 8px;
   }
 
-  .option-row-btn {
-    padding: 10px 14px;
-    gap: 8px;
+  .action-link-btn {
+    font-size: 15px;
   }
 
-  /* Scale down Results breakdown items */
-  .review-q-text {
-    font-size: 17px;
+  /* Progress bar */
+  .progress-wrapper {
+    margin-bottom: 16px;
   }
 
-  .review-opt-line {
-    font-size: 14.5px;
+  .progress-label-row {
+    font-size: 13px;
+  }
+
+  /* Question nav slider */
+  .question-nav-matrix {
+    gap: 6px;
+    margin-bottom: 16px;
+    padding-bottom: 6px;
+  }
+
+  .q-matrix-btn {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+
+  /* Question card */
+  .question-heading {
+    font-size: 17.5px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+  }
+
+  .q-badge {
+    font-size: 14px;
+  }
+
+  .bookmark-action-btn {
+    font-size: 14px;
+  }
+
+  /* Hint block */
+  .hint-accordion-trigger {
+    font-size: 14px;
+  }
+
+  #hint-text {
+    font-size: 14px;
     padding: 6px 10px;
   }
 
-  .review-rationale {
+  /* Option items */
+  .options-vertical-list {
+    gap: 10px;
+  }
+
+  .option-row-btn {
+    padding: 10px 12px;
+    gap: 8px;
+  }
+
+  .option-circle {
+    width: 20px;
+    height: 20px;
+    font-size: 10.5px;
+  }
+
+  .option-text {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  /* Explanation post-it */
+  .explanation-panel {
+    padding: 12px 14px;
+    margin-top: 16px;
+  }
+
+  .explanation-title {
+    font-size: 16px;
+  }
+
+  .explanation-body {
+    font-size: 15px;
+  }
+
+  /* Navigation footer */
+  .quiz-nav-footer {
+    padding-top: 14px;
+    gap: 8px;
+  }
+
+  .apple-pill-btn {
+    font-size: 15px;
+    padding: 7px 16px;
+  }
+
+  /* Settings panels */
+  .settings-container {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .settings-section {
+    padding: 14px;
+  }
+
+  .settings-title {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .mode-pill-option {
+    padding: 10px 14px;
+  }
+
+  .mode-name {
+    font-size: 15px;
+  }
+
+  .mode-hint {
+    font-size: 12.5px;
+  }
+
+  .timer-pill-btn {
     font-size: 14px;
+    padding: 4px 10px;
+  }
+
+  /* Catalog directory */
+  .catalog-section-title {
+    font-size: 20px;
+  }
+
+  .subject-accordion-btn {
+    padding: 12px 14px;
+  }
+
+  .subject-accordion-btn h4 {
+    font-size: 17px;
+  }
+
+  .topic-list-row {
+    padding: 10px 14px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .topic-info-side {
+    padding-right: 0;
+  }
+
+  .topic-row-title {
+    font-size: 15px;
+  }
+
+  .topic-row-desc {
+    font-size: 13px;
+  }
+
+  .topic-badges-side {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .badge-pill {
+    font-size: 11.5px;
+  }
+
+  /* Results page */
+  .results-layout-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .result-card-box {
+    padding: 16px;
+  }
+
+  .apple-gauge-circle {
+    width: 110px;
+    height: 110px;
+    border-width: 3px;
+  }
+
+  .gauge-percentage {
+    font-size: 26px;
+  }
+
+  .results-action-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+
+  .results-action-row .apple-pill-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Review filter controls */
+  .review-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .apple-segment-control {
+    width: 100%;
+  }
+
+  .segment-btn {
+    font-size: 13.5px;
+    padding: 5px 8px;
+    flex: 1;
+    text-align: center;
+  }
+
+  /* Review items */
+  .review-card {
+    padding: 12px;
+  }
+
+  .review-q-text {
+    font-size: 16px;
+  }
+
+  .review-opt-line {
+    font-size: 14px;
+    padding: 5px 8px;
+  }
+
+  .review-rationale {
+    font-size: 13.5px;
+    padding: 6px 10px;
   }
 }
