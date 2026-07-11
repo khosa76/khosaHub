@@ -227,6 +227,9 @@ body {
 /* Dashboard View Panels */
 .view-panel {
   display: none;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .view-panel.active {
