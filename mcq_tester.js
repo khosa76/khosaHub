@@ -213,17 +213,24 @@ function renderDashboardCatalog() {
         headerBtn.type = 'button';
         
         let badgeHtml = '';
+        let chevronHtml = '<span class="chevron">▶</span>';
         if (subject.id !== 'polity') {
             badgeHtml = `<span class="badge-pill badge-gray" style="margin-left: 8px; font-size: 11px; font-weight: 500;">Coming Soon</span>`;
+            chevronHtml = ''; // No chevron for locked coming soon subjects
+            headerBtn.classList.add('disabled-accordion');
         }
 
         headerBtn.innerHTML = `
             <h4 style="display: flex; align-items: center;">📖 ${subject.name} ${badgeHtml}</h4>
-            <span class="chevron">▶</span>
+            ${chevronHtml}
         `;
-        headerBtn.addEventListener('click', () => {
-            wrapper.classList.toggle('expanded');
-        });
+        
+        // Only allow toggling/expansion for active subjects (Polity)
+        if (subject.id === 'polity') {
+            headerBtn.addEventListener('click', () => {
+                wrapper.classList.toggle('expanded');
+            });
+        }
 
         const topicsList = document.createElement('div');
         topicsList.className = 'subject-topics-list';

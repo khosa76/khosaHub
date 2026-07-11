@@ -1,19 +1,6 @@
 {
   "subjects": [
     {
-      "id": "general_studies",
-      "name": "General Studies",
-      "topics": [
-        {
-          "id": "mixed_topics",
-          "name": "Mixed Revision Set",
-          "path": "mcqs/general_studies/mixed_topics.json",
-          "description": "Includes urban flooding, space technology (Vikram-1), economic classifications, and naval defense (Project 17A).",
-          "questionCount": 12
-        }
-      ]
-    },
-    {
       "id": "polity",
       "name": "Indian Polity",
       "topics": [
@@ -58,6 +45,19 @@
           "path": "mcqs/polity/citizenship.json",
           "description": "Articles 5-11 of the Constitution, dual citizenship, and the Citizenship Act.",
           "questionCount": 27
+        }
+      ]
+    },
+    {
+      "id": "general_studies",
+      "name": "General Studies",
+      "topics": [
+        {
+          "id": "mixed_topics",
+          "name": "Mixed Revision Set",
+          "path": "mcqs/general_studies/mixed_topics.json",
+          "description": "Includes urban flooding, space technology (Vikram-1), economic classifications, and naval defense (Project 17A).",
+          "questionCount": 12
         }
       ]
     },

@@ -332,6 +332,13 @@ body {
   background: #fafafa;
 }
 
+.subject-accordion-btn.disabled-accordion {
+  cursor: default;
+}
+.subject-accordion-btn.disabled-accordion:hover {
+  background: var(--card-bg);
+}
+
 .subject-accordion-btn h4 {
   font-size: 19px;
   font-weight: 600;
