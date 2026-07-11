@@ -1208,3 +1208,44 @@ body {
   color: #78350f;
   border-radius: 0 4px 4px 0;
 }
+
+/* Mobile Responsive Overrides for Lined Notebook layout */
+@media (max-width: 768px) {
+  body {
+    padding: 20px 4px;
+  }
+  
+  .paper-page {
+    /* Reduce padding and hide metal spirals to maximize mobile reading width */
+    padding: 40px 15px 40px 45px;
+    background-image:
+      linear-gradient(90deg, transparent 35px, var(--margin-line) 35px, var(--margin-line) 37px, transparent 37px),
+      linear-gradient(var(--note-line) 96%, transparent 96%);
+    background-size: 100% 100%, 100% 32px;
+    background-position: 0 0, 0 12px;
+    border-radius: 8px;
+  }
+  
+  .paper-page::before,
+  .paper-page::after {
+    display: none; /* Hide spirals and holes on small screens */
+  }
+
+  .settings-container {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .results-layout-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .view-title {
+    font-size: 28px;
+  }
+  
+  .view-subtitle {
+    font-size: 16px;
+  }
+}

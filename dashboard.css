@@ -451,3 +451,45 @@ p {
 .summon-chai-link:hover {
   color: var(--ink-red);
 }
+
+/* Mobile Responsive Overrides for Lined Notebook layout */
+@media (max-width: 768px) {
+  body {
+    padding: 20px 4px;
+  }
+  
+  .paper-page {
+    /* Reduce padding and hide metal spirals to maximize mobile reading width */
+    padding: 40px 15px 40px 45px;
+    background-image:
+      linear-gradient(90deg, transparent 35px, var(--margin-line) 35px, var(--margin-line) 37px, transparent 37px),
+      linear-gradient(var(--note-line) 96%, transparent 96%);
+    background-size: 100% 100%, 100% 32px;
+    background-position: 0 0, 0 12px;
+    border-radius: 8px;
+  }
+  
+  .paper-page::before,
+  .paper-page::after {
+    display: none; /* Hide spirals and holes on small screens */
+  }
+
+  .subjects-grid {
+    grid-template-columns: 1fr; /* Stack cards vertically */
+    gap: 16px;
+  }
+  
+  .subject-card {
+    padding: 16px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
