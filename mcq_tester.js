@@ -252,7 +252,19 @@ async function loadQuizFromPath(path, topicId, topicName) {
 
 // --- Start Quiz Runtime ---
 function startQuiz(questions) {
-    quizData = [...questions];
+    // Deep copy and shuffle options
+    quizData = questions.map(q => {
+        // Create a copy of the options array and shuffle it
+        let shuffledOptions = [...q.options];
+        for (let i = shuffledOptions.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+        }
+        return {
+            ...q,
+            options: shuffledOptions
+        };
+    });
     
     if (!incorrectOnlyMode) {
         originalQuizData = [...questions];
