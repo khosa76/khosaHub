@@ -170,6 +170,26 @@ h3::before {
   font-weight: normal;
 }
 
+h4 {
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: var(--ink-blue);
+  margin-top: 36px;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--ink-black);
+  margin-top: 28px;
+  margin-bottom: 8px;
+}
+
 /* Paragraphs & Lists */
 p {
   font-size: 19px;
@@ -903,6 +923,32 @@ th {
 
 .summon-chai-link:hover {
   color: var(--ink-red);
+}
+
+/* Mermaid Diagrams Scaling & Styling */
+.mermaid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 36px 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 2px dashed rgba(30, 58, 138, 0.2);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.01);
+}
+
+.mermaid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mermaid svg {
+  width: 100% !important;
+  max-width: 900px !important;
+  height: auto !important;
+  min-height: 220px;
 }
 
 /* =============================================

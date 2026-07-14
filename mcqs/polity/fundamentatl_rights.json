@@ -1,0 +1,782 @@
+[
+  {
+    "question": "In the context of the Indian Constitution, how are 'Negative Rights' distinct from 'Positive Rights'?",
+    "options": [
+      {
+        "text": "Negative rights establish limitations on State authority to protect individual liberty, whereas positive rights require active State measures.",
+        "isCorrect": true,
+        "rationale": "Negative rights (like Article 19) carve out a sphere where the State cannot interfere, while positive rights (like Article 17) demand the State take proactive steps to ensure equality."
+      },
+      {
+        "text": "Negative rights are those that can be suspended during an emergency, while positive rights are absolute and sacrosanct.",
+        "isCorrect": false,
+        "rationale": "The classification of negative and positive rights is based on the State's duty to abstain or act, not on their susceptibility to suspension."
+      },
+      {
+        "text": "Negative rights are enforceable against the State, while positive rights are only enforceable against private individuals.",
+        "isCorrect": false,
+        "rationale": "Both types of rights are primarily enforceable against the State, though some specific rights have horizontal application against private citizens."
+      },
+      {
+        "text": "Negative rights are listed in Part IV (DPSPs), whereas positive rights are restricted to Part III of the Constitution.",
+        "isCorrect": false,
+        "rationale": "Both negative and positive rights are found within Part III of the Constitution as Fundamental Rights."
+      }
+    ],
+    "hint": "Consider the difference between a prohibition on State action versus a mandate for State intervention."
+  },
+  {
+    "question": "The concept of 'Third Generation Rights' as discussed in the evolution of rights refers specifically to which of the following?",
+    "options": [
+      {
+        "text": "Civil and political rights focused on individual security and the right to life.",
+        "isCorrect": false,
+        "rationale": "These belong to the First Generation of rights which emerged in early modern democratic thought."
+      },
+      {
+        "text": "Socio-economic rights such as the right to education, work, and social welfare.",
+        "isCorrect": false,
+        "rationale": "Socio-economic equity is the hallmark of Second Generation rights."
+      },
+      {
+        "text": "Collective or fraternal rights, such as environmental protection and the rights of minorities.",
+        "isCorrect": true,
+        "rationale": "Third Generation rights shift the focus from the individual to the collective and group interests."
+      },
+      {
+        "text": "Technological rights including net neutrality and the right to internet access.",
+        "isCorrect": false,
+        "rationale": "Future-oriented and technology-based rights are classified as the Fourth Generation of rights."
+      }
+    ],
+    "hint": "Think about rights that belong to groups rather than just individual persons."
+  },
+  {
+    "question": "According to the Supreme Court's ruling in M. Nagraj v. Union of India, what is the source of Fundamental Rights?",
+    "options": [
+      {
+        "text": "They are a gift from the State to its citizens provided through the Constitution.",
+        "isCorrect": false,
+        "rationale": "The court explicitly stated that these rights are not a gift from the State."
+      },
+      {
+        "text": "They are inherent human rights possessed by individuals by virtue of being part of the human race.",
+        "isCorrect": true,
+        "rationale": "The court held that individuals possess these basic human rights independently of the Constitution."
+      },
+      {
+        "text": "They are created by the Parliament and can be withdrawn through ordinary legislation.",
+        "isCorrect": false,
+        "rationale": "Fundamental rights are enshrined in the Constitution and require a special amendment process to be curtailed."
+      },
+      {
+        "text": "They are derived solely from international treaties and the UN Charter.",
+        "isCorrect": false,
+        "rationale": "While inspired by global documents, the source material clarifies they are seen as inherent to humanity in the Indian judicial outlook."
+      }
+    ],
+    "hint": "Consider whether these rights exist before or after a legal document is written."
+  },
+  {
+    "question": "Following the 44th Constitutional Amendment Act of 1978, which of the following statements accurately describes the 'Right to Property'?",
+    "options": [
+      {
+        "text": "It remains a Fundamental Right but is now subject to reasonable restrictions by the State.",
+        "isCorrect": false,
+        "rationale": "The 44th Amendment specifically removed it from the list of Fundamental Rights in Part III."
+      },
+      {
+        "text": "It was completely abolished from the Constitution and no longer has legal standing.",
+        "isCorrect": false,
+        "rationale": "It was not abolished but rather relocated to Article 300-A."
+      },
+      {
+        "text": "It is a legal or constitutional right under Article 300-A in Part XII of the Constitution.",
+        "isCorrect": true,
+        "rationale": "The amendment transformed it from a Fundamental Right into a constitutional right, meaning it can be regulated by ordinary law."
+      },
+      {
+        "text": "It is part of the Basic Structure of the Constitution and cannot be modified by Parliament.",
+        "isCorrect": false,
+        "rationale": "Unlike certain Fundamental Rights, the Right to Property is not considered a part of the Basic Structure."
+      }
+    ],
+    "hint": "Recall the transition of this right from Part III to Part XII."
+  },
+  {
+    "question": "Under Article 19, the six democratic freedoms can be suspended during a National Emergency under which specific circumstance?",
+    "options": [
+      {
+        "text": "An internal emergency declared on the grounds of armed rebellion.",
+        "isCorrect": false,
+        "rationale": "The 44th Amendment Act of 1978 prohibited the suspension of Article 19 rights during an internal emergency."
+      },
+      {
+        "text": "An external emergency declared on the grounds of war or external aggression.",
+        "isCorrect": true,
+        "rationale": "The six freedoms under Article 19 are only susceptible to suspension when the emergency is due to external threats."
+      },
+      {
+        "text": "Any emergency, provided the President specifically mentions Article 19 in the order.",
+        "isCorrect": false,
+        "rationale": "There are constitutional limits based on the type of emergency (internal vs. external) specifically for Article 19."
+      },
+      {
+        "text": "Never; Article 19 rights are as inviolable as Articles 20 and 21 during an emergency.",
+        "isCorrect": false,
+        "rationale": "Only Articles 20 and 21 have the status of being unsuspended under any circumstances."
+      }
+    ],
+    "hint": "Focus on the distinction between threats originating inside the country versus outside."
+  },
+  {
+    "question": "Which of the following bodies is NOT considered 'the State' under Article 12, according to various judicial interpretations?",
+    "options": [
+      {
+        "text": "A private body acting as an instrument or agent of the Government.",
+        "isCorrect": false,
+        "rationale": "The Supreme Court has interpreted Article 12 to include private agencies working as State instruments."
+      },
+      {
+        "text": "Statutory bodies like LIC, ONGC, and SAIL.",
+        "isCorrect": false,
+        "rationale": "These are considered 'other authorities' under the control of the Government of India."
+      },
+      {
+        "text": "The Judiciary, when it is performing its judicial functions in the courtroom.",
+        "isCorrect": true,
+        "rationale": "While the administrative side of the judiciary is 'State', its judicial functions are excluded from this definition."
+      },
+      {
+        "text": "Municipalities, Panchayats, and District Boards.",
+        "isCorrect": false,
+        "rationale": "Local authorities are explicitly listed in Article 12 as part of 'the State'."
+      }
+    ],
+    "hint": "Identify the specific role of the courts that differentiates them from administrative bodies."
+  },
+  {
+    "question": "In the Indra Sawhney (Mandal) case, what was the Supreme Court's ruling regarding reservations in promotions?",
+    "options": [
+      {
+        "text": "Reservation is valid in both recruitment and all subsequent promotions.",
+        "isCorrect": false,
+        "rationale": "The court initially ruled that reservation should be confined to initial appointments only."
+      },
+      {
+        "text": "Reservation is confined to initial appointments and not applicable to promotions.",
+        "isCorrect": true,
+        "rationale": "The 1992 judgment restricted quotas to recruitment, though this was later modified by constitutional amendments."
+      },
+      {
+        "text": "Promotion quotas are mandatory for all backward classes including the Creamy Layer.",
+        "isCorrect": false,
+        "rationale": "The court specifically required the exclusion of the Creamy Layer from any reservation benefits."
+      },
+      {
+        "text": "Reservations in promotions are only allowed if the 50% ceiling is not breached.",
+        "isCorrect": false,
+        "rationale": "The primary ruling of the case was a total bar on promotion quotas, regardless of the ceiling."
+      }
+    ],
+    "hint": "Think about the stage of employment where the court initially deemed quotas applicable."
+  },
+  {
+    "question": "Which Fundamental Right is characterized by the 'Doctrine of Harmonious Construction'?",
+    "options": [
+      {
+        "text": "The interpretation of Article 14 to allow for reasonable classification.",
+        "isCorrect": false,
+        "rationale": "The reasonable classification test is a distinct legal tool for Article 14, not the Doctrine of Harmonious Construction."
+      },
+      {
+        "text": "The balancing act between individual rights and public interest under Article 21.",
+        "isCorrect": false,
+        "rationale": "While balancing occurs in Article 21, it is usually based on the 'greater community interest' principle."
+      },
+      {
+        "text": "The effort by the courts to give effect to both Fundamental Rights and Directive Principles without conflict.",
+        "isCorrect": true,
+        "rationale": "This doctrine was propounded in the Kerala Education Bill case to ensure Parts III and IV of the Constitution work together."
+      },
+      {
+        "text": "The method used to determine if a private company falls under the definition of 'State'.",
+        "isCorrect": false,
+        "rationale": "The 'Instrumentality' test (Ajay Hasia case) is used for defining State under Article 12."
+      }
+    ],
+    "hint": "This doctrine resolves the tension between enforceable rights and the State's policy goals."
+  },
+  {
+    "question": "Article 15 prohibits discrimination on grounds 'only' of religion, race, caste, sex, or place of birth. Which of the following is an additional ground included in Article 16 but absent in Article 15?",
+    "options": [
+      {
+        "text": "Language",
+        "isCorrect": false,
+        "rationale": "Language is not listed as a prohibited ground of discrimination in either Article 15 or 16."
+      },
+      {
+        "text": "Descent",
+        "isCorrect": true,
+        "rationale": "Article 16(2) adds 'descent' and 'residence' to the list of grounds on which discrimination in public employment is barred."
+      },
+      {
+        "text": "Economic Status",
+        "isCorrect": false,
+        "rationale": "Neither article originally listed economic status, although EWS reservations were added later through separate clauses."
+      },
+      {
+        "text": "Education level",
+        "isCorrect": false,
+        "rationale": "Educational qualifications are permitted criteria for classification and are not listed as prohibited grounds."
+      }
+    ],
+    "hint": "Look for the ground related to one's ancestry or lineage."
+  },
+  {
+    "question": "Which Constitutional Amendment Act added Article 21A, making elementary education a Fundamental Right?",
+    "options": [
+      {
+        "text": "42nd Amendment Act, 1976",
+        "isCorrect": false,
+        "rationale": "This amendment added various DPSPs and the Fundamental Duties, but not the Right to Education."
+      },
+      {
+        "text": "44th Amendment Act, 1978",
+        "isCorrect": false,
+        "rationale": "This amendment focused on emergency provisions and the Right to Property."
+      },
+      {
+        "text": "86th Amendment Act, 2002",
+        "isCorrect": true,
+        "rationale": "The 86th CAA inserted Article 21A and made corresponding changes to Article 45 and Article 51A."
+      },
+      {
+        "text": "93rd Amendment Act, 2005",
+        "isCorrect": false,
+        "rationale": "This amendment dealt with reservations in educational institutions under Article 15(5)."
+      }
+    ],
+    "hint": "This amendment was described as the 'dawn of the second revolution' for citizens' rights."
+  },
+  {
+    "question": "The 'Rule of Law' concept, which forms part of the Basic Structure of the Constitution, is derived from which article?",
+    "options": [
+      {
+        "text": "Article 12",
+        "isCorrect": false,
+        "rationale": "Article 12 is merely the definition of the State for the purpose of Fundamental Rights."
+      },
+      {
+        "text": "Article 13",
+        "isCorrect": false,
+        "rationale": "Article 13 deals with judicial review and the validity of inconsistent laws."
+      },
+      {
+        "text": "Article 14",
+        "isCorrect": true,
+        "rationale": "Article 14, through 'Equality Before Law', incorporates A.V. Dicey's concept of the Rule of Law into the Indian Constitution."
+      },
+      {
+        "text": "Article 21",
+        "isCorrect": false,
+        "rationale": "Article 21 deals with Personal Liberty, which is supported by the Rule of Law but is not its primary constitutional source."
+      }
+    ],
+    "hint": "Look for the article that mandates equal subjection of all persons to the ordinary law."
+  },
+  {
+    "question": "Which of the following Fundamental Rights is available ONLY to the citizens of India?",
+    "options": [
+      {
+        "text": "Protection in respect of conviction for offences (Article 20).",
+        "isCorrect": false,
+        "rationale": "Article 20 is available to everyone, including foreigners and legal entities."
+      },
+      {
+        "text": "Equality before law and equal protection of laws (Article 14).",
+        "isCorrect": false,
+        "rationale": "This right is guaranteed to all persons within the territory of India, regardless of citizenship."
+      },
+      {
+        "text": "Protection of language, script, and culture of minorities (Article 29).",
+        "isCorrect": true,
+        "rationale": "Articles 15, 16, 19, 29, and 30 are specifically reserved for citizens."
+      },
+      {
+        "text": "Freedom of conscience and right to practice religion (Article 25).",
+        "isCorrect": false,
+        "rationale": "Religious freedom under Article 25 is granted to all persons."
+      }
+    ],
+    "hint": "Identify the right that deals with the cultural and educational interests of specific groups."
+  },
+  {
+    "question": "What is the primary difference between the writ of Prohibition and the writ of Certiorari?",
+    "options": [
+      {
+        "text": "Prohibition is issued against private individuals, while Certiorari is only against the State.",
+        "isCorrect": false,
+        "rationale": "Both are issued against inferior courts or quasi-judicial bodies, not private individuals."
+      },
+      {
+        "text": "Prohibition is preventive and issued during the pendency of proceedings, whereas Certiorari is curative and issued after a final order.",
+        "isCorrect": true,
+        "rationale": "Prohibition stops a court from usurping jurisdiction, while Certiorari quashes an order already made without jurisdiction."
+      },
+      {
+        "text": "Prohibition can be sought by any public-minded person, while Certiorari requires an aggrieved party.",
+        "isCorrect": false,
+        "rationale": "Locus standi rules differ, but the primary distinction is the stage of the legal proceedings at which they are issued."
+      },
+      {
+        "text": "Prohibition is a Fundamental Right under Article 32, while Certiorari is only a legal right under Article 226.",
+        "isCorrect": false,
+        "rationale": "Both are available as remedies under Article 32 (SC) and Article 226 (HC)."
+      }
+    ],
+    "hint": "Consider the timing of the court's intervention: before vs. after a decision is rendered."
+  },
+  {
+    "question": "Under the Protection of Civil Rights Act (1955), 'Untouchability' as abolished by Article 17 is defined as:",
+    "options": [
+      {
+        "text": "A social boycott of any individual based on personal grievances.",
+        "isCorrect": false,
+        "rationale": "The courts have ruled that untouchability does not cover individual social boycotts."
+      },
+      {
+        "text": "The historical practice of imposing disabilities on certain classes of persons by reason of their birth in certain castes.",
+        "isCorrect": true,
+        "rationale": "The term is not defined in the Constitution, but judicial interpretation (Mysore HC) links it to specific historical caste-based practices."
+      },
+      {
+        "text": "Refusal to allow any person into a private religious ceremony in a family home.",
+        "isCorrect": false,
+        "rationale": "Untouchability specifically excludes exclusion from private religious services."
+      },
+      {
+        "text": "The exclusion of any person from a job based on their lack of academic qualifications.",
+        "isCorrect": false,
+        "rationale": "Academic requirements are valid classifications and not related to the social practice of untouchability."
+      }
+    ],
+    "hint": "It refers to a specific social disability rooted in the Indian caste system."
+  },
+  {
+    "question": "In the context of Article 20(3), which of the following actions is NOT protected by the right against self-incrimination?",
+    "options": [
+      {
+        "text": "Being compelled to give a blood sample for DNA testing.",
+        "isCorrect": true,
+        "rationale": "The Supreme Court has clarified that Article 20(3) does not cover material evidence like thumb impressions, signatures, or blood samples."
+      },
+      {
+        "text": "Being forced to give oral testimony that may implicate oneself in a crime.",
+        "isCorrect": false,
+        "rationale": "This is the core protection offered by the right against self-incrimination."
+      },
+      {
+        "text": "Being compelled to produce a private diary that contains incriminating evidence.",
+        "isCorrect": false,
+        "rationale": "The protection covers both oral and documentary evidence if they serve as witness testimony against oneself."
+      },
+      {
+        "text": "Being interrogated in a manner that forces a confession of guilt.",
+        "isCorrect": false,
+        "rationale": "Compulsory confession is the primary target of Article 20(3) protections."
+      }
+    ],
+    "hint": "Differentiate between 'testimony' (speaking/writing as a witness) and providing 'physical material'."
+  },
+  {
+    "question": "According to the source material, which case established that National Awards like the Bharat Ratna are not 'titles' under Article 18?",
+    "options": [
+      {
+        "text": "A.R. Antulay v. R.S. Nayak",
+        "isCorrect": false,
+        "rationale": "This case dealt with whether the judicial side of the court falls under the definition of 'State'."
+      },
+      {
+        "text": "Balaji Raghavan v. Union of India",
+        "isCorrect": true,
+        "rationale": "The Supreme Court upheld the awards in 1995, noting they recognize merit, provided they are not used as prefixes or suffixes."
+      },
+      {
+        "text": "Indra Sawhney v. Union of India",
+        "isCorrect": false,
+        "rationale": "This is the famous 'Mandal case' regarding OBC reservations."
+      },
+      {
+        "text": "Kesavananda Bharati v. State of Kerala",
+        "isCorrect": false,
+        "rationale": "This landmark case established the Basic Structure Doctrine."
+      }
+    ],
+    "hint": "This case clarified the distinction between hereditary nobility and state honors for merit."
+  },
+  {
+    "question": "The 'Essential Religious Practices' test is a judicial tool used primarily to:",
+    "options": [
+      {
+        "text": "Encourage the State to provide subsidies for all religious pilgrimages.",
+        "isCorrect": false,
+        "rationale": "The State is prohibited from using taxes to promote religion under Article 27."
+      },
+      {
+        "text": "Determine which religious traditions can be completely banned by the State for being non-Hindu.",
+        "isCorrect": false,
+        "rationale": "Article 25 protects the religious rights of all persons, not just Hindus."
+      },
+      {
+        "text": "Decide which practices are central to a religion and thus immune from State regulation under Articles 25 and 26.",
+        "isCorrect": true,
+        "rationale": "This test allows the court to distinguish between protected religious core beliefs and secular/peripheral activities."
+      },
+      {
+        "text": "Identify which religious denominations are eligible to receive State aid for their schools.",
+        "isCorrect": false,
+        "rationale": "Article 30 governs the aid and establishment of minority institutions, regardless of the 'essentiality' of their religious practices."
+      }
+    ],
+    "hint": "It helps courts separate what is truly religious from what is merely secular or social activity."
+  },
+  {
+    "question": "Which specific writ is issued by a court to inquire into the legality of the claim of a person to a public office?",
+    "options": [
+      {
+        "text": "Mandamus",
+        "isCorrect": false,
+        "rationale": "Mandamus commands a public official to perform a duty, it doesn't question their right to the office itself."
+      },
+      {
+        "text": "Quo Warranto",
+        "isCorrect": true,
+        "rationale": "Literally meaning 'By what authority', it prevents the illegal usurpation of a public office."
+      },
+      {
+        "text": "Habeas Corpus",
+        "isCorrect": false,
+        "rationale": "Habeas Corpus is used to challenge the legality of physical detention."
+      },
+      {
+        "text": "Certiorari",
+        "isCorrect": false,
+        "rationale": "Certiorari is used to quash judicial or quasi-judicial orders."
+      }
+    ],
+    "hint": "The name of the writ in Latin translates to 'by what warrant' or 'by what authority'."
+  },
+  {
+    "question": "Under Article 22, a person arrested under a preventive detention law can be detained for a maximum of 3 months. What is required to extend this period?",
+    "options": [
+      {
+        "text": "The personal approval of the President or the State Governor.",
+        "isCorrect": false,
+        "rationale": "Executive approval is not sufficient for extension beyond the constitutional limit."
+      },
+      {
+        "text": "A report from an Advisory Board consisting of persons qualified to be High Court Judges.",
+        "isCorrect": true,
+        "rationale": "Article 22(4) mandates that an Advisory Board must find sufficient cause for detention exceeding 3 months."
+      },
+      {
+        "text": "An ordinary resolution passed by the State Legislature.",
+        "isCorrect": false,
+        "rationale": "Legislatures can make the laws, but specific individual extensions require judicial/board review."
+      },
+      {
+        "text": "A certificate issued by the Director General of Police.",
+        "isCorrect": false,
+        "rationale": "Police officials cannot authorize extensions of detention beyond the initial constitutional limit."
+      }
+    ],
+    "hint": "Look for a safeguard involving a semi-judicial body."
+  },
+  {
+    "question": "The 'Creamy Layer' exclusion principle, as directed by the Supreme Court in 2008, applies to which category of reservations?",
+    "options": [
+      {
+        "text": "Scheduled Castes (SC)",
+        "isCorrect": false,
+        "rationale": "The Creamy Layer principle was specifically mandated for OBCs, not SCs or STs."
+      },
+      {
+        "text": "Scheduled Tribes (ST)",
+        "isCorrect": false,
+        "rationale": "Reservation for STs is currently not subject to the Creamy Layer income criteria mentioned in the source."
+      },
+      {
+        "text": "Other Backward Classes (OBC)",
+        "isCorrect": true,
+        "rationale": "The court directed the government to exclude the advanced sections among OBCs to ensure benefits reach the truly needy."
+      },
+      {
+        "text": "Economically Weaker Sections (EWS)",
+        "isCorrect": false,
+        "rationale": "EWS reservations are defined by income from the start, so a separate 'creamy layer' exclusion is redundant."
+      }
+    ],
+    "hint": "This group was the focus of the Mandal Commission's recommendations."
+  },
+  {
+    "question": "Which article of the Constitution empowers the Parliament to restrict the Fundamental Rights of the members of the armed forces and police?",
+    "options": [
+      {
+        "text": "Article 32",
+        "isCorrect": false,
+        "rationale": "Article 32 is the Right to Constitutional Remedies for the enforcement of rights."
+      },
+      {
+        "text": "Article 33",
+        "isCorrect": true,
+        "rationale": "Article 33 gives Parliament the exclusive power to modify the application of Part III for forces to maintain discipline."
+      },
+      {
+        "text": "Article 34",
+        "isCorrect": false,
+        "rationale": "Article 34 deals with restrictions on rights specifically when Martial Law is in force."
+      },
+      {
+        "text": "Article 35",
+        "isCorrect": false,
+        "rationale": "Article 35 provides Parliament with the power to legislate to give effect to provisions of Part III."
+      }
+    ],
+    "hint": "It is the first of the three 'special' articles at the end of Part III."
+  },
+  {
+    "question": "What was the significance of the I.R. Coelho v. State of Tamil Nadu (2007) judgment regarding the Ninth Schedule?",
+    "options": [
+      {
+        "text": "It granted absolute immunity to all laws placed in the Ninth Schedule from judicial review.",
+        "isCorrect": false,
+        "rationale": "This judgment actually ended the era of absolute immunity for laws added after a certain date."
+      },
+      {
+        "text": "It ruled that laws placed in the Ninth Schedule after 24 April 1973 can be challenged if they violate the Basic Structure.",
+        "isCorrect": true,
+        "rationale": "The court held that no law is beyond judicial review if it infringes upon fundamental constitutional principles."
+      },
+      {
+        "text": "It struck down the Ninth Schedule as being unconstitutional and void.",
+        "isCorrect": false,
+        "rationale": "The Ninth Schedule still exists; the case merely defined the limits of its protection."
+      },
+      {
+        "text": "It mandated that only the Parliament, and not State Legislatures, can add laws to the Ninth Schedule.",
+        "isCorrect": false,
+        "rationale": "The case focused on judicial reviewability rather than the legislative authority to add laws."
+      }
+    ],
+    "hint": "This case established that even the 'protected' schedule must respect the Basic Structure."
+  },
+  {
+    "question": "Which of the following is an example of 'Horizontal Operation' of Fundamental Rights?",
+    "options": [
+      {
+        "text": "A citizen suing the Government for a violation of the Right to Freedom of Speech.",
+        "isCorrect": false,
+        "rationale": "This is a vertical operation, as it is a claim by an individual against the State."
+      },
+      {
+        "text": "An individual enforcing the prohibition of untouchability against another private citizen.",
+        "isCorrect": true,
+        "rationale": "Article 17 is enforceable against both the State and private individuals, making it horizontal."
+      },
+      {
+        "text": "The Supreme Court quashing an unconstitutional law passed by the Parliament.",
+        "isCorrect": false,
+        "rationale": "This is the exercise of judicial review over State action, which is a vertical check."
+      },
+      {
+        "text": "A foreigner claiming the Right to Equality in a public employment exam.",
+        "isCorrect": false,
+        "rationale": "This is incorrect because Article 16 is reserved for citizens, and employment is with the State."
+      }
+    ],
+    "hint": "Look for a scenario where a right is enforced by one private individual against another."
+  },
+  {
+    "question": "Under the Child and Adolescent Labour (Amendment) Act, 2016, children below 14 years are permitted to work in which of the following?",
+    "options": [
+      {
+        "text": "Non-hazardous factories and mines during school vacations.",
+        "isCorrect": false,
+        "rationale": "The 2016 Act prohibits children under 14 from working in ALL occupations and processes."
+      },
+      {
+        "text": "Family enterprises or the audio-visual entertainment industry, provided education is not affected.",
+        "isCorrect": true,
+        "rationale": "These are the two narrow exceptions provided for children under 14 in the amended Act."
+      },
+      {
+        "text": "Agricultural fields as long as they are not using hazardous machinery.",
+        "isCorrect": false,
+        "rationale": "Agriculture is not a specifically listed exception unless it falls under a 'family enterprise'."
+      },
+      {
+        "text": "They are absolutely prohibited from any form of work without exception.",
+        "isCorrect": false,
+        "rationale": "While the ban is broad, the Act does specify exceptions for family work and artistry."
+      }
+    ],
+    "hint": "Consider the specific exceptions allowed for family support and the arts."
+  },
+  {
+    "question": "What does the 'Doctrine of Severability' imply regarding Article 13?",
+    "options": [
+      {
+        "text": "The State can sever any Fundamental Right it finds inconvenient during a crisis.",
+        "isCorrect": false,
+        "rationale": "Rights can only be suspended under specific Emergency provisions, not through severability."
+      },
+      {
+        "text": "If a portion of a law is unconstitutional, only that specific part is void while the rest remains valid.",
+        "isCorrect": true,
+        "rationale": "This doctrine allows the court to save the valid parts of a statute if they can be separated from the invalid ones."
+      },
+      {
+        "text": "Judges can sever their ties to the State if they believe their independence is compromised.",
+        "isCorrect": false,
+        "rationale": "Severability is a rule of statutory interpretation, not a principle of judicial career paths."
+      },
+      {
+        "text": "Parliament can sever the Supreme Court's power of judicial review via a constitutional amendment.",
+        "isCorrect": false,
+        "rationale": "Judicial review is part of the Basic Structure and cannot be taken away."
+      }
+    ],
+    "hint": "It relates to 'separating' the good parts of a law from the unconstitutional ones."
+  },
+  {
+    "question": "Article 27 protects individuals from being compelled to pay 'taxes' for the promotion of a particular religion. How does the Supreme Court distinguish a 'fee' from a 'tax' in this context?",
+    "options": [
+      {
+        "text": "There is no distinction; both are prohibited under Article 27.",
+        "isCorrect": false,
+        "rationale": "The source material clearly states that fees are not prohibited by Article 27."
+      },
+      {
+        "text": "A fee is permitted because it is charged for providing specific services or regulations to pilgrims.",
+        "isCorrect": true,
+        "rationale": "Unlike taxes which go to general revenue, fees are seen as charges for safety, sanitation, or specific facilities provided to the worshippers."
+      },
+      {
+        "text": "A tax is voluntary, whereas a fee is a mandatory contribution to a religious trust.",
+        "isCorrect": false,
+        "rationale": "Taxes are mandatory State levies, while the distinction in Article 27 is based on the purpose of the collection."
+      },
+      {
+        "text": "Only foreigners can be charged fees, while citizens are exempt from both taxes and fees for religion.",
+        "isCorrect": false,
+        "rationale": "Article 27 applies to 'persons', which includes both citizens and foreigners."
+      }
+    ],
+    "hint": "One is for general promotion of a faith, the other is for specific services rendered."
+  },
+  {
+    "question": "In which case did the Supreme Court restore the balance between Fundamental Rights and Directive Principles by striking down an over-broad extension of Article 31C?",
+    "options": [
+      {
+        "text": "Golak Nath v. State of Punjab",
+        "isCorrect": false,
+        "rationale": "This case held that Fundamental Rights were completely unamendable."
+      },
+      {
+        "text": "Minerva Mills v. Union of India",
+        "isCorrect": true,
+        "rationale": "The court held that the Constitution is founded on the bedrock of the balance between Parts III and IV."
+      },
+      {
+        "text": "A.K. Gopalan v. State of Madras",
+        "isCorrect": false,
+        "rationale": "This case dealt with early interpretations of Article 21 and the Preventive Detention Act."
+      },
+      {
+        "text": "Champakam Dorairajan v. State of Madras",
+        "isCorrect": false,
+        "rationale": "This early case ruled that FRs were superior to DPSPs before the balance was later harmonised."
+      }
+    ],
+    "hint": "The judgment in this case mentioned the 'bedrock of the balance' within the Constitution."
+  },
+  {
+    "question": "Which of the following is NOT a ground for the dismissal of a writ petition under Article 32?",
+    "options": [
+      {
+        "text": "Res Judicata, except in the case of Habeas Corpus.",
+        "isCorrect": false,
+        "rationale": "Res Judicata is a valid ground for dismissal if the High Court has already decided the matter on merits."
+      },
+      {
+        "text": "Inordinate delay or 'Laches' without a satisfactory explanation.",
+        "isCorrect": false,
+        "rationale": "Courts can dismiss petitions if there is an unreasonable delay in filing."
+      },
+      {
+        "text": "The fact that the petitioner is a foreigner rather than a citizen.",
+        "isCorrect": true,
+        "rationale": "Article 32 is available for the enforcement of any Fundamental Right, and since many rights apply to foreigners, they can also move the court."
+      },
+      {
+        "text": "Misrepresentation or concealment of material facts by the petitioner.",
+        "isCorrect": false,
+        "rationale": "Concealing key information is a ground for the court to refuse to entertain a petition."
+      }
+    ],
+    "hint": "Consider which of these factors is irrelevant to one's eligibility to seek a constitutional remedy for a right they possess."
+  },
+  {
+    "question": "What is the specific age group covered under the Right to Education as a Fundamental Right under Article 21A?",
+    "options": [
+      {
+        "text": "0 to 14 years",
+        "isCorrect": false,
+        "rationale": "Article 45 (DPSP) covers early childhood care until 6 years; the FR only begins at age 6."
+      },
+      {
+        "text": "6 to 14 years",
+        "isCorrect": true,
+        "rationale": "Article 21A specifically mandates free and compulsory education for children in this age bracket."
+      },
+      {
+        "text": "6 to 18 years",
+        "isCorrect": false,
+        "rationale": "While education up to 18 is often discussed, the constitutional Fundamental Right is limited to 14 years."
+      },
+      {
+        "text": "Primary school age only (approx. 5 to 11 years)",
+        "isCorrect": false,
+        "rationale": "The right covers the full span of elementary education until the age of 14."
+      }
+    ],
+    "hint": "The bracket starts after early childhood care and ends at the completion of elementary school."
+  },
+  {
+    "question": "Article 29(1) grants 'any section of citizens' the right to conserve their distinct language, script, or culture. How has the Supreme Court interpreted the term 'section of citizens'?",
+    "options": [
+      {
+        "text": "It refers exclusively to religious and linguistic minorities.",
+        "isCorrect": false,
+        "rationale": "This is a common misconception, but the court has broadened the scope of the term."
+      },
+      {
+        "text": "It includes both minorities and the majority community.",
+        "isCorrect": true,
+        "rationale": "The court clarified that any group, whether minority or majority, has the right to conserve its language and culture under Article 29(1)."
+      },
+      {
+        "text": "It refers only to the Scheduled Tribes and Scheduled Castes.",
+        "isCorrect": false,
+        "rationale": "While they are sections of citizens, the article is not restricted to them."
+      },
+      {
+        "text": "It applies only to citizens living in rural or tribal areas.",
+        "isCorrect": false,
+        "rationale": "Geography is not a limiting factor for the application of Article 29(1)."
+      }
+    ],
+    "hint": "Consider whether a right to 'conserve culture' should logically be denied to the larger population."
+  }
+]

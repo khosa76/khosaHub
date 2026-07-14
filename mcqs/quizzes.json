@@ -45,6 +45,13 @@
           "path": "mcqs/polity/citizenship.json",
           "description": "Articles 5-11 of the Constitution, dual citizenship, and the Citizenship Act.",
           "questionCount": 27
+        },
+        {
+          "id": "fundamental_rights",
+          "name": "7. Articles 12 to 35 | Fundamental Rights",
+          "path": "mcqs/polity/fundamentatl_rights.json",
+          "description": "Definition of State, judicial review, equality, freedom, exploitation protection, religion, cultural & educational rights, and writs.",
+          "questionCount": 30
         }
       ]
     },
