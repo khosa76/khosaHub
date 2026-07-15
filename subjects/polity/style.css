@@ -471,6 +471,11 @@ th {
 }
 
 /* Print Optimization */
+@page {
+  size: A4;
+  margin: 15mm;
+}
+
 @media print {
 
   /* Hide UI/Interactive elements */
@@ -540,18 +545,13 @@ th {
   h3+*,
   h4+*,
   h5+*,
-  h6+* {
-    page-break-before: avoid !important;
-    break-before: avoid !important;
-  }
-
-  /* Force fresh page start for major h2 sections, except the first section of the document */
-  h2 {
-    page-break-before: always;
-    break-before: page;
-  }
-
-  h1~h2:first-of-type {
+  h6+*,
+  h1+br+*,
+  h2+br+*,
+  h3+br+*,
+  h4+br+*,
+  h5+br+*,
+  h6+br+* {
     page-break-before: avoid !important;
     break-before: avoid !important;
   }
@@ -561,11 +561,10 @@ th {
   .sticky-note,
   figure,
   tr,
-  td,
-  th,
-  p,
-  li,
-  img {
+  img,
+  .diagram-container,
+  .diagram-container-wide,
+  .mermaid-container {
     page-break-inside: avoid;
     break-inside: avoid;
   }
@@ -701,6 +700,8 @@ th {
   bottom: 60px;
   right: 0;
   width: 260px;
+  max-height: 60vh;
+  overflow-y: auto;
   background: var(--paper-bg);
   border: 2px solid #4b5563;
   border-radius: 12px;
