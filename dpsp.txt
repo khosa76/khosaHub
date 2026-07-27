@@ -1,0 +1,1022 @@
+The following is a comprehensive extraction of the text from the source **"DPSP.pdf"**, organized by its original sections and slides:
+
+### **Introduction and Overview**
+*   **Directive Principles of State Policy (DPSPs)** by Prashant Tiwari.
+*   **Enumeration:** Enumerated in **Part IV** of the Constitution from **Articles 36 to 51**.
+*   **Origin:** Borrowed from the **Irish Constitution of 1937** (which drew from the Spanish Constitution).
+*   **Key Descriptions:**
+    *   **Dr. B.R. Ambedkar:** Described them as **“novel features”** of the Constitution.
+    *   **Granville Austin:** Called Fundamental Rights and Directive Principles together as the **“Conscience of the Constitution”**.
+    *   **Soul of the Constitution:** Together they represent the philosophy and soul of the Constitution.
+
+### **Features of Directive Principles**
+*   **Meaning & Scope:**
+    *   DPSPs are **ideals/goals** to guide the State in policy-making and law-making.
+    *   They are constitutional instructions/recommendations to the legislature, executive, and administration.
+    *   **Article 36:** "State" in Part IV has the same meaning as in Part III (Fundamental Rights), including Union and State governments, legislatures, executive bodies, local authorities, and all public authorities.
+*   **Resemblance to Instrument of Instructions:**
+    *   Similar to guidelines issued by the British Government to the Governor-General and Governors under the **Government of India Act, 1935**.
+    *   Dr. Ambedkar viewed them as an **“Instrument of Instructions”** addressed to the legislature and executive instead of Governors.
+*   **Programme for a Welfare State:**
+    *   A comprehensive economic, social, and political programme for a modern democratic state.
+    *   **Aim:** Realise the Preamble's ideals of justice, liberty, equality, and fraternity.
+    *   **Objective:** Establish a **Welfare State**, not a "Police State" as under colonial rule.
+    *   Promote economic and social democracy alongside political democracy.
+*   **Non-Justiciable Nature (Article 37):**
+    *   Not legally enforceable in courts; the government cannot be compelled to implement them.
+    *   However, they are **fundamental in governance**, and the State is duty-bound to apply them when making laws.
+*   **Aid to Judicial Interpretation:**
+    *   DPSPs guide courts in interpreting laws.
+    *   Supreme Court rulings state that if a law seeks to implement a DPSP, courts may uphold it as “reasonable” under **Article 14** (equality) or **Article 19** (freedoms) to defend its constitutionality.
+
+### **Classification of Directive Principles**
+The Constitution does not classify them, but they are usually divided into three categories based on content:
+1.  **Socialistic Principles:** Reflect the ideology of democratic socialism to achieve social and economic justice.
+    *   **Article 38:** Promotion of welfare by securing a social order permeated by justice (social, economic, political) and minimising inequalities.
+    *   **Article 39:** Securing the right to livelihood, equitable distribution of resources, prevention of wealth concentration, equal pay for equal work, and protection of workers/children.
+    *   **Article 39A:** Equal justice and free legal aid for the poor.
+    *   **Article 41:** Right to work, education, and public assistance in cases of unemployment, old age, or disability.
+    *   **Article 42:** Just and humane conditions of work and maternity relief.
+    *   **Article 43:** Living wage and decent standard of life for workers.
+    *   **Article 43A:** Participation of workers in management of industries.
+    *   **Article 47:** Raising nutrition levels and public health; prohibiting intoxicating drinks/drugs.
+2.  **Gandhian Principles:** Based on Gandhi’s vision of rural upliftment and self-sufficient villages.
+    *   **Article 40:** Organising village panchayats as units of self-government.
+    *   **Article 43:** Promoting cottage industries in rural areas.
+    *   **Article 43B:** Encouraging co-operative societies.
+    *   **Article 46:** Promoting educational and economic interests of SCs, STs, and weaker sections.
+    *   **Article 47:** Prohibition of intoxicating drinks and drugs.
+    *   **Article 48:** Prohibiting the slaughter of cows, calves, and milch cattle.
+3.  **Liberal-Intellectual Principles:** Focus on civil liberties, environment, and international peace.
+    *   **Article 44:** Uniform Civil Code (UCC) for all citizens.
+    *   **Article 45:** Early childhood care and education for children below 6 years.
+    *   **Article 48:** Organising agriculture and animal husbandry on scientific lines.
+    *   **Article 48A:** Environmental protection and safeguarding forests/wildlife.
+    *   **Article 49:** Protection of monuments and heritage of national importance.
+    *   **Article 50:** Separation of judiciary from executive in public services.
+    *   **Article 51:** Promotion of international peace and security.
+
+### **Amendments and New DPSPs**
+*   **42nd Amendment Act (1976):** Added four new DPSPs: **Article 39(f)** (child development), **Article 39A** (legal aid), **Article 43A** (worker participation), and **Article 48A** (environment).
+*   **44th Amendment Act (1978):** Added **Article 38(2)**, directing the State to minimise inequalities in income, status, and opportunities.
+*   **86th Amendment Act (2002):** Changed **Article 45** to provide early childhood care/education until age 6 (linked with Article 21A).
+*   **97th Amendment Act (2011):** Added **Article 43B** regarding co-operative societies.
+
+### **Sanction and Rationale**
+*   **Constitutional Advice:** Sir B.N. Rau recommended dividing rights into **justiciable** (Fundamental Rights) and **non-justiciable** (Directive Principles).
+*   **Practical Force:** While non-justiciable legally, they are **politically binding** through public opinion and elections.
+*   **Reasons for Non-Justiciability:**
+    *   Lack of financial resources at Independence.
+    *   Practicality issues due to vast diversity and backwardness.
+    *   Risk of overburdening the newly independent State's administrative capacity.
+    *   A pragmatic view to leave implementation to progressive public opinion.
+
+### **Criticisms of DPSPs**
+*   **No Legal Force:** Described as “pious superfluities” (K.T. Shah), “New Year’s resolutions” (Nasiruddin Ahmad), a “veritable dustbin of sentiments” (T.T. Krishnamachari), and “pious aspirations” (Sir Ivor Jennings).
+*   **Illogically Arranged:** Critics like N. Srinivasan argue they mix vital economic questions with unimportant issues.
+*   **Conservative Nature:** Sir Ivor Jennings argued they reflected 19th-century English political philosophy (Fabian Socialism) and were outdated.
+*   **Constitutional Conflict:** Potential for deadlocks between Centre-States (K. Santhanam), President-PM, or Governor-CM.
+
+### **Conflict Between Fundamental Rights (FRs) and DPSPs**
+*   **Champakam Dorairajan Case (1951):** FRs prevail over DPSPs; DPSPs are subsidiary to FRs.
+*   **Golaknath Case (1967):** FRs are sacrosanct and cannot be abridged for DPSPs.
+*   **25th Amendment Act (1971):** Inserted **Article 31C**, giving Article 39(b) and (c) primacy over Articles 14, 19, and 31.
+*   **Kesavananda Bharati Case (1973):** Established Basic Structure; upheld primacy of Article 39(b) and (c) over certain FRs.
+*   **42nd Amendment (1976):** Attempted to give all DPSPs primacy over FRs.
+*   **Minerva Mills Case (1980):** Struck down the extension of primacy; restored balance, noting FRs and DPSPs are "complementary like two wheels of a chariot".
+*   **Present Position:** FRs generally enjoy supremacy, except for **Article 39(b) and (c)** overriding **Articles 14 and 19**.
+
+### **Directives Outside Part IV**
+*   **Article 335 (Part XVI):** Claims of SCs and STs to services.
+*   **Article 350-A (Part XVII):** Instruction in mother tongue at the primary stage for linguistic minorities.
+*   **Article 351 (Part XVII):** Development and promotion of the Hindi language.
+
+
+
+2nd file
+
+The following is a complete extraction of the text from the source **"DPSPs by Jatin Gill sir.pdf"**, organized by topic and sections as presented in the material.
+
+### **I. Basics and Background**
+*   **Enumeration:** Part IV, spanning from **Art. 36 - 51** of the Constitution.
+*   **Origin:** Borrowed from the **Irish Constitution (1937)**.
+*   **Recommendation:** Its non-justiciable nature was based on the recommendations of the **Tej Bahadur Sapru Committee Report (1944)**.
+*   **Core Concepts:**
+    *   **Positive Connotation:** Establishes social and economic democracy.
+    *   **Welfare State:** Promotes the concept of a "Welfare State" and "Inclusive Growth".
+    *   **Precursors:** Serves as the precursor to **Panchayati Raj Institutions** (Art. 40).
+    *   **Fundamental in Governance:** According to **Article 37**, these principles are fundamental in the governance of the country and must be applied in making laws.
+
+### **II. Key Perspectives and Definitions**
+*   **Dr. B.R. Ambedkar:** Described DPSPs as **"Novel features"** and the **"Soul of the Constitution"**; he also noted they aim for **"economic democracy"** as distinguished from political democracy.
+*   **Granville Austin:** Called DPSP the **"Conscience of the Constitution"**.
+*   **Instruments of Instruction:** Resembles the "Instruments of Instruction" found in the **Government of India Act, 1935**.
+*   **B.N. Rau:** The Constitutional Advisor recommended the division of rights into **Justiciable (FR)** and **Non-justiciable (DPSP)**.
+
+### **III. Nature and Purpose**
+*   **Nature:** A blend of **Socialist, Gandhian, and Liberal principles**.
+*   **Enforceability:** Non-justiciable, non-self-executory, and non-enforceable by a court of law; however, they are **fundamental guidelines** in governance.
+*   **Goal:** To achieve the Preamble's ideals of social, economic, and political justice.
+*   **Reasons for Non-Justiciability:**
+    *   Administrative and financial limitations at the time of independence.
+    *   Vast diversity, illiteracy, poverty, and backwardness of the country.
+    *   Some principles have moral rather than legal connotations.
+
+### **IV. Classification of Directive Principles**
+While not formally classified in the Constitution, they are categorized based on their philosophy:
+
+#### **1. Socialistic Principles**
+Framework for a democratic socialist state to provide social and economic justice:
+*   **Art. 38:** Secure a social order for people's welfare (e.g., Nationalisation of banks).
+*   **Art. 39:** Principles of policy; 39(b) and (c) are exceptions to Art. 14 and 19.
+*   **Art. 41:** Right to work, education, and public assistance (e.g., MGNREGA).
+*   **Art. 42:** Just and humane conditions of work and maternity relief (e.g., Maternity Benefit Act).
+*   **Art. 43:** Living wage for workers (e.g., Minimum Wages Act).
+*   **Art. 43A:** Participation of workers in management of industries.
+*   **Art. 47 (Part 1):** Raise nutrition levels and public health (e.g., Mid-Day Meal).
+
+#### **2. Gandhian Principles**
+Based on Gandhi's programme of reconstruction:
+*   **Art. 40:** Organisation of village panchayats.
+*   **Art. 43 (Part 2):** Promote cottage industries.
+*   **Art. 43B:** Promotion of co-operative societies (97th CAA 2011).
+*   **Art. 46:** Promote interests of SCs, STs, and weaker sections.
+*   **Art. 47 (Part 2):** Prohibition of intoxicating drinks and drugs.
+*   **Art. 48 (Part 1):** Prohibit slaughter of cows and calves.
+
+#### **3. Liberal-Intellectual Principles**
+Ideology of liberalism:
+*   **Art. 44:** Uniform Civil Code.
+*   **Art. 45:** Childhood care and education for children below six.
+*   **Art. 48 (Part 2):** Organize agriculture and animal husbandry on scientific lines.
+*   **Art. 48A:** Protection of environment, forests, and wildlife.
+*   **Art. 49:** Protection of monuments and places of national importance.
+*   **Art. 50:** Separation of judiciary from executive.
+*   **Art. 51:** Promotion of international peace and security.
+
+### **V. Conflict and Comparison: FR vs. DPSP**
+| Feature | Fundamental Rights (FR) | Directive Principles (DPSP) |
+| :--- | :--- | :--- |
+| **Source** | USA | Ireland |
+| **Part** | Part III (Art. 12-35) | Part IV (Art. 36-51) |
+| **Nature** | Negative (Prohibitive) | Positive (Enabling) |
+| **Enforceability**| Justiciable | Non-justiciable |
+| **Democracy** | Political Democracy | Social & Economic Democracy |
+| **Focus** | Individual welfare | Community welfare |
+
+**Legal Evolution of Conflict:**
+*   **Champakam Dorairajan Case (1952):** FRs are superior; DPSPs are subsidiary.
+*   **Kerala Education Bill (1957):** Propounded the **Doctrine of Harmonious Construction**.
+*   **Golak Nath Case (1967):** FRs are sacrosanct and cannot be diluted.
+*   **Kesavananda Bharati Case (1973):** Parliament can amend any part subject to the **Basic Structure**.
+*   **Minerva Mills Case (1980):** Primacy of Art 39(b) and (c) over Art 14 and 19; established balance between FR and DPSP.
+*   **Current Position:** FRs hold supremacy, but can be amended to implement DPSPs as long as the Basic Structure is not destroyed.
+
+### **VI. Case Studies in Implementation**
+#### **1. Maternity Benefit (Amendment) Act 2017**
+*   **Bearing:** Implements **Art. 42**.
+*   **Key Changes:** Paid maternity leave increased from **12 to 26 weeks** for the first two children.
+*   **Provisions:** Includes 12 weeks for adoptive/commissioning mothers, mandatory crèche facilities for establishments with 50+ employees, and "work from home" options.
+
+#### **2. MGNREGA**
+*   **Bearing:** Implements **Art. 41**.
+*   **Objective:** Guaranteed **100 days** of unskilled wage employment to rural households.
+*   **Features:** Demand-driven approach, funded primarily by the Central Government, and managed by Gram Panchayats.
+
+#### **3. Liquor Prohibition (Art. 47)**
+*   **State Subject:** Entry 51 of the State List.
+*   **Enforcement:** Complete prohibition in **Gujarat, Bihar, Nagaland, and Lakshadweep**.
+*   **Highway Ban:** The Supreme Court banned liquor sales within **500 metres** of National/State highways to counter drunken driving.
+
+#### **4. Uniform Civil Code (Art. 44)**
+*   **Implementation:** **Uttarakhand** became the first state to implement it (Jan 2025), exempting Scheduled Tribes.
+*   **Current Status:** Goa follows the **Portuguese Civil Code 1867**.
+*   **Judicial Push:** Cases like **Shah Bano (1985)** and **Shayara Bano (2017)** (Triple Talaq) have highlighted the need for UCC.
+*   **Conflict:** Pits Art. 25 & 26 (Religious freedom) against Art. 14 & 15 (Equality).
+
+### **VII. Criticisms and Significance**
+*   **Criticisms:** Described as a **"veritable dustbin of sentiments"** (T.T. Krishnamachari), a **"cheque on a bank payable only when resources permit"** (K.T. Shah), and **"Fabian Socialism without the socialism"** (Sir Ivor Jennings).
+*   **Significance:**
+    *   Serves as a **"Common Minimum Programme"** for any government.
+    *   Acts as a **"Guiding Light"** for the judiciary to determine constitutional validity.
+    *   Provides stability and continuity in policies despite changes in government.
+    *   Serves as a benchmark for citizens to gauge government performance.
+
+### **VIII. Directives Outside Part IV**
+*   **Art. 335:** Claims of SCs and STs to services.
+*   **Art. 350-A:** Instruction in mother tongue at the primary stage for linguistic minorities.
+*   **Art. 351:** Development and promotion of the Hindi language.
+
+3rd 
+
+8. Directive principles of state policy
+Part 4, Art 36- 51- Ideals for state for policy making- Irish Constitution ( Spanish consti )
+Art 36- State definition
+Art 37- Says these principles are fundamental to governance and it shall be duty of state to apply these principles in making laws- Used to Determine constitutional validity
+Welfare state- Constitute Economic, social and political program. Realise high ideals- justice, liberty, equality, fraternity.
+Non justiciable- not legally enforceable by the courts.
+Ambedkar - Novel features of constitution
+Granville austin- DPSPs are the conscience of the constitution.
+Instrument of instructions (GoI act 1935)
+Category
+DPSPs
+Content
+Socialist Principles
+Article 38(1)
+Promote welfare state by securing social order through justice (social, economic, political).
+Article 38(2)
+Minimize inequalities in facilities, income, status, and opportunities. 
+(FOSI) 44th CAA, 1978)
+Article 39(a)
+Right to adequate means of livelihood for all citizens. 
+(LDC goes to PWC)
+Article 39(b)
+Equal distribution of material resources to subserve the common good.
+​​In an 8:1 majority decision, the Supreme Court ruled that not all private property can be deemed a "material resource of the community" under Article 39(b). 
+Article 39(c)
+Prevention of concentration of wealth and means of production.
+Article 39(d)
+Equal pay for equal work for men and women.
+Article 39(e)
+Protection of Health & strength of workers, especially children and women, from abuse and exploitation.
+Article 39(f)
+Protection of children and youth against exploitation and opportunities for healthy development. (42nd CAA, 1976)
+Article 41
+Right to work, education, and public assistance in cases of unemployment, old age, sickness, and disablement.(DOSU)
+Article 42
+Just and humane conditions of work and maternity relief.
+Article 43
+Living wage, decent std of life, and social and cultural opp for workers.
+Article 43A
+Participation of workers in the management of industries. ( 42nd CAA, 1976)
+Article 47
+Duty of the state to raise the level of nutrition and improve public health.
+Gandhian Principles
+Article 40
+Organization of village panchayats and self-government .
+Article 43
+Promotion of cottage industries in rural areas.
+Article 43B
+Promotion of cooperative societies. (97th CAA, 2011)
+Article 46
+Promotion of educational and economic interests of SCs, STs, and other weaker sections.
+Article 47
+Prohibition of intoxicating drinks and drugs injurious to health.
+Article 48
+Promotion of agriculture and animal husbandry based on scientific methods and prohibition of slaughter of cows and other milch animals.
+Liberal-
+Intellectual Principles
+
+
+
+
+Article 44
+Uniform Civil Code (UCC) for all citizens.
+Article 45
+Early childhood care and education for children below 6 years. (86th CAA, 2002)
+Article 48
+Organization of agriculture and animal husbandry on modern and scientific lines.
+Article 48A
+Protection and improvement of the environment, forests, and wildlife. (42nd CAA, 1976)
+Article 49
+Protection of monuments and places of artistic or historic interest.
+Article 50
+Separation of judiciary from the executive in the public services of state.
+Article 51
+Promotion of international peace and security.
+Maintain just & honourable relations between nations
+Foster respect for international law & treaty obligations 
+Encourage settlement of intl disputes by arbitration. 
+
+Summary of Key Amendments:
+42nd CAA, 1976: Added Articles 39(f), 43A, and 48A.
+44th CAA, 1978: Added Article 38(2).
+86th CAA, 2002: Amended Article 45 to focus on early childhood education.
+97th CAA, 2011: Added Article 43B for cooperative societies.
+Hussainara khatoon v So Bihar (1979) Held that every prisoner has FR to speedy trial under Article 21. 
+Criticisms
+No legal force
+Pious superfluity (post dated cheque)
+TT krishnamachari = veritable dustbin of sentiments.
+Illogically arranged
+Mix imp issues + socio-eco decisions
+Conservative / obsolete philosophical foundation
+Ivor Jennings= based on pol philosophy of 19 Cen England, deemed suitable in 12th Century. 
+Cause Constitutional conflict b/w Centre & states
+Reactionary nature
+Party use - selfish ends (Revri culture in garb of DPSP).
+Mere promises- Only impression about just power exercise to secure support of the people. 
+Utility
+Proper implementation = heaven ( demo + welfare state )
+Beacon of light to the  courts, executive & legislature
+Ensures Stability & policy continuity in domestic & foreign policies. 
+Supplement FR ( pol rights )  &  DPSP ( socio-eco rights )
+Enables opposition to influence + control govt operations. Hence the performance test of the government. 
+
+
+Conflicts bw FR & DP- Evolution
+Case
+Judgment
+Impact
+Champakam Dorairajan (1951)
+DPSPs are subsidiary to FRs but FRs can be amended.
+Led to 1st  (1951), 4th (1955), & 17th (1964) Amendments to implement some DPSPs.
+(art 31A and 9th schedule)
+Golak Nath (1967)
+FRs are sacrosanct.
+Parliament cannot amend FRs to imple DPSPs. 
+Parliament reacted with: 
+24th CAA (1971) → Gave power to amend FRs. 25th CAA (1971) inserted art 31 © → Laws implementing Article 39(b) & (c) DPSPs cannot be challenged for violating FRs (Art 14, 19). Courts cannot question such laws.
+Kesavananda bharati case 1973
+Declaring 2nd provision of art 31 C unconstitutional on grounds Judicial review is a basic feature of the constitution.
+Parliament reacted with 42nd CAA accorded primacy to DPSPs.
+Minerva Mills (1980)
+Struck down restrictions on FRs. Indian consti is founded on the bedrock of balance between FR + DPSP = Constitution’s conscience.
+Declared that FRs are not absolute but also not fully subordinate to DPSPs.
+IR Coelho (2007)
+Balanced FR & DPSPs. Judicial review of 9th Schedule allowed.
+Nothing in the 9th Schedule can abrogate FRs. Currently, FRs hold primacy over DPSPs but parlia can amend FRs to give effect to DPSPs w/o damaging basic structure doctrine.
+
+
+Distinction bw FR, DPSPs
+
+
+FR
+DPSPs
+-ve
++ve
+Pol demo
+Socio-eco demo
+Justiciable
+Non- justiciable
+Legal sanctions
+Moral & pol sanctions
+Indiv welfare
+Community welfare
+No legislation reqd to implement
+Req to implement
+
+
+Implementation of DPSP
+Modernize agri - Land reform laws
+Labour welfare -
+Min wages/ payment of wages act 1948 
+Govt (Central/State) empowered to fix/revise minimum wages for scheduled employments.
+Floor wage- centre
+No uniform national wage; states set rates based on local conditions.
+Wages can vary by skill level (skilled > unskilled).
+Wages can be set on hourly/daily/monthly basis.
+Revision mandatory every 5 years to keep pace with inflation.
+Allows wages in kind, where applicable.
+Employers must maintain wage records/registers.
+Trade union act, factory act
+Maternity benefit act 1961, equal remuneration act
+KHADI & village indus board
+WPA 1972, Forest conservation act 1982 - A. 48A
+73, 74 CAA
+Seat reservation for SC/ ST
+Directives outside part 4
+Article 335- claims of SC/ST in Services → Claims considered while maintaining administrative efficiency.
+Mother Tongue Instruction (Art 350A) → States & local bodies to ensure facilities at the primary education level.
+Hindi Development (Art 351) → Union to promote Hindi as a medium for expressing India's composite culture.
+
+
+new file
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+DIRECTIVE PRINCIPLES OF STATE
+POLICY (DPSP)
+BASICS AND BACKGROUND
+▪ Part IV, spanning from Art. 36 - 51 of constitution.
+▪ Non-justiciable nature on recommendations of Tej Bahadur committee Report
+▪ Borrowed from Ireland - Irish constitution (1937).
+▪ Positive Connotation - Establishes social and economic democracy.
+▪ Promote concept of “Welfare State” and “Inclusive Growth.”
+▪ Precursors of “Panchayat Raj Institution” (Art. 40- Village Panchayat)
+▪ “Fundamental in governance” and apply in policy makings - Art. 37
+▪ “Novel features” and “Soul of constitution” of constitution - B.R Ambedkar
+▪ DPSP is the "Conscience of constitution” - Granville Austin
+▪ Constitutional instructions to - Legislature, executive and administrative of state.
+▪ Enabling in nature - Enables government for comprehensive programme of social and economic
+justice unlike FR.
+▪ Non-justiciable, Non-self-executory, non-enforceable by court of law.
+▪ Government can implement provisions of DPSP by legislative actions.
+▪ “Instruments of instruction” resembles in GOI 1935.
+INFLUENCES ON CONSTITUTION MAKERS BEHIND SANCTIONS OF DPSPs
+▪Idea of Instruments of instruction from GoI 1935.
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+▪Division of Rights of an individual into two categories – Justiciable (FR) and Non justiciable (DPSPs) -
+Recommended by B.N. Rau (Constitutional Advisor)
+▪Irish constitution
+▪Socialistic and Gandhian philosophies
+▪Sapru committee Report 1944 - Division of Justiciable and Non- justiciable rights.
+▪To fill the vacuum created by Fundamental rights (part III)- Restrictive nature.
+OBJECT AND PURPOSE BEHIND THE DIRECTIVE PRINCIPLES
+▪The founding fathers were aware of the drawbacks; the country had been suffering from such as
+poverty unemployment, lack of education, social, economic, and political backwardness.
+▪They, in order to eradicate these evils, set forth in the very preamble, the ideals and objectives to be
+achieved. The intention of the constitution framers was to establish in India a democracy political,
+economic and social.
+▪To achieve this cherished goal, the framers were unanimous to secure to the people practically all the
+prevailing political social and economic rights. These rights were broadly speaking divided into two
+categories.
+o Political and Civil Rights
+o Social and Economic Rights
+▪The Political and Civil rights which were in opinion, with the reach of the individual were provisional as
+fundamental rights and the latter being considered beyond individual’s reach under the prevailing
+circumstances, were titled as Directive Principles of State Policy.
+NATURE OF DPSPs
+▪Admixture and healthy blend of Socialist, Gandhian and Liberal principles.
+▪Fundamental guidelines in governance of country.
+▪They are fundamental principles as opposed to FR.
+▪Non justiciable, Non self-executory, non-enforceable by court of law.
+REASONS FOR NON-JUSTICIABILITY OF DPSPs
+Justiciable nature of rights entails that citizen can move to the courts for enforcement of the particular
+right. Fundamental rights have justiciable nature. However, DPSPs kept as non-justiciable in nature
+attributed to following reasons -
+▪Administrative and financial limitations at that time.
+▪Some principles have moral connotations.
+▪Inadequacy of Social development (Art. 40)
+▪Presence of vast diversity, illiteracy, poverty and backwardness in the country
+RELEVANCE OF NON-JUSTICIABLE NATURE OF DPSPs IN PRESENT CONTEXT
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+▪DPSPs are very broad in their content and spirit.
+▪Different states have varying and limited resources to fulfill the aspirations of the citizens and mandates
+of constitution.
+▪DPSPs are complementary to the fundamental rights. So, although DPSPs are non-justiciable in nature,
+they fulfill their goals in greater way.
+▪However, states are also taking proactive legislative and executive measures to fulfill the goals enshrined
+in the DPSPs and ensuring the vision of welfare state.
+CLASSIFICATION OF DPSPs
+▪Directive Principles are not classified in constitution as per their underlying philosophies.
+▪However, they can be classified into - socialistic, Gandhian and liberal-intellectual.
+▪Socialistic principles –These principles contemplate the ideology of socialism and lay down the
+framework of a democratic socialist state. The concept envisages providing social and economic
+justice, so that state should achieve the optimum norms of welfare state.
+▪Gandhian Principles – These principles reflect the programme of reconstruction enunciated by
+Gandhi during the national movement. In order to fulfil the dreams and aspirations of Gandhi, some of
+his ideas were included in DPSP.
+▪Liberal- Intellectual principles - These principles inclined towards the ideology of liberalism.
+Socialistic principles Gandhian principles Liberal- Intellectual principles
+Art. 38 - State to secure a
+social order for the
+promotion of welfare of the
+people (Added by 44th CAA
+1978) e.g. Nationalisation of
+life insurance (1956), the
+nationalisation of fourteen
+leading commercial banks
+(1969).
+Art. 39 - Certain principles of
+policy to be followed by the
+state. Art. 39 (b) and (c) are
+exceptions to Art. 14 and 19
+Art. 41 - Right to work,
+education and public
+Art. 40- Organisation of
+village panchayats. This
+provision was precursor of
+Panchayat Raj institution in
+India. e.g. 73rd and 74th
+CAA 1992
+Art. 43- (Second part only)-
+To promote cottage
+industries on an individual or
+co- operation basis in rural
+areas. e.g. Khadi and Village
+Industries Commission
+(KVIC), National Small
+Industries Corporation.
+Art. 43 B- Promotion of
+Art. 44- Uniform civil code for the
+citizens.
+Art. 45- childhood care and
+education to children below the age
+of six years.(42nd CAA 1976
+changed subject matter of Art 45
+and added Art.21A to FR) e.g. Right
+to education act 2009
+Art. 48- (Part two only)- To
+organize agriculture and animal
+husbandry on modern and scientific
+lines. e.g. providing improved
+agricultural inputs, seeds, fertilisers
+and irrigation facilities.
+Art. 48A-Protection and
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+assistance in certain cases.
+e.g. National Rural
+Employment Guarantee
+Programme (2006),
+Swarnajayanti Gram
+Swarozgar Yojana.
+Art. 42- Provision for just
+and humane conditions of
+work and maternity relief.
+e.g. maternity benefits act
+and Equal Remuneration Act
+Art. 43 (First part only)-
+Living wage for workers.
+(Living wage includes
+education, health and
+insurance etc.) e.g. Minimum
+wages act
+Art. 43A- Participation of
+workers in management of
+industries.(Added by 42nd
+CAA 1976) E.g. Industrial
+disputes act,1947
+Art. 47 (First part only) -
+Duty of the State to raise the
+level of nutrition, standard of
+living and improve public
+health. e.g. Primary health
+centres, special programmes
+to eradicate various diseases,
+ICDS, Mid-Day Meal
+schemes.
+cooperative societies.
+(Added by 97th CAA 2011)
+e.g. Multi-State cooperative
+societies act 2002.
+Art.46- Promotion of
+educational and economic
+interests of SC, ST and other
+weaker sections (Remember
+Harijan) e.g. Protection of
+Civil Rights Act in 1976 and
+the Scheduled Castes and
+Scheduled Tribes (Prevention
+of Atrocities) Act 1989,
+NCSC, NCST, National
+Commission for Backward
+Classes (NCBC), 10%
+reservation to the
+Economically Weaker
+Sections (EWSs).
+Art. 47 (Second part only)-
+To prohibit the consumption
+of intoxicating drinks and
+drugs which are injurious to
+health e.g. FSSAI regulation,
+Narcotics and psychotropic
+substances act 1985.
+Art. 48 (Part one only)-
+Organisation of agriculture
+and animal husbandry by
+state. e.g. providing
+improved agricultural inputs,
+seeds, fertilisers and
+irrigation facilities, Laws to
+prohibit the slaughter of
+cows
+improvement of environment and
+safeguarding of forests and wildlife.
+(Added by 42nd CAA 1976) e.g.
+Wildlife (Protection) Act, 1972 and
+the Forest (Conservation) Act 1980,
+Air act, Water act.
+Art.49- Protection of monuments
+and places and objects of national
+importance. e.g. Ancient and
+Historical Monument and
+Archaeological Sites and Remains
+Act (1951), formation of
+Archaeological Survey of India
+(ASI).
+Art. 50- Separation of judiciary
+from executive. e.g. Criminal
+Procedure Code (1973)
+Art.51- Promotion of international
+peace and security e.g. policy of
+non-alignment and panchsheel to
+promote international peace and
+security
+CRITICISM OF PART-IV
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+▪Non-Justiciable in nature - Non-enforceable by court of law
+▪Some principles are reactionary - subject to interpretation (E.g. cow slaughter)
+▪Unsystematic enumerations and lots of overlapping.
+▪Lack of clarity led to different interpretations by different govt. according to prevailing circumstances.
+▪Non-accountability of government for non-implementation of DPSP.
+▪Directives are not arranged in a logical manner based on a consistent philosophy-Jennings.
+▪Part IV of the Constitution expresses “Fabian Socialism without the socialism” which is less relevant
+in contemporary world.
+▪Directives are like “a veritable dustbin of sentiments”- T.T. Krishnamachari.
+▪Directives are “Manifesto of aims and aspirations” - K C Wheare
+▪“A cheque on a bank, payable only when the resources of the bank permit”- K.T Shah.
+Article 39 (b) and 39 (c)
+▪Article 39(b) - The State shall, in particular, direct its policy towards securing: that the ownership and
+control of the material resources of the community are so distributed as best to subserve the common
+good.
+▪Article 39(c) - The State shall, in particular, direct its policy towards securing: that the operation of the
+economic system does not result in the concentration of wealth and means of production to the common
+detriment.
+DPSPs COULD INVOKE CONFLICT IN FOLLOWING WAYS:
+▪Governor could reserve the bill of state on the pretext of violation of provisions of the DPSPs.
+▪President and Union Council of ministers on reservation of the bill or giving directions.
+▪Union and State governments - Over implementation of provisions.
+▪Could invoke conflict on giving directions to the states for implementation of provisions. However,
+non implementation and non-observance could result into imposition of President's rule.
+▪Directions from centre to the state could also strain the fiscal position of the state which have lesser
+economic resources for implementation of schemes an programmes to give practical shape to DPSP.
+SIMILARITIES BETWEEN FR AND DPSP
+▪Both are borrowed features of constitution.
+▪Both are directed to achieve inclusive and equitable growth of nation.
+▪Both are backed by broader constitutional provisions.
+▪Both are critical for strengthening democratic setup in India.
+▪Both acts as guiding light for judiciary to determine the constitutionality of act or order.
+▪The genesis and objectives underlying part III and part IV have common desideratum in responding to
+the social consciousness rest with the constitution making force
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+FUNDAMENTAL RIGHTS DPSPs
+FR borrowed from constitution of USA
+Covered in Part III spanning Art. 12 - 35
+DPSPs borrowed from constitution of
+Ireland.
+Covered in Part IV spanning Art. 36 - 51
+Justiciable and legally enforceable by the
+courts of law.
+Non-justiciable and not legally enforceable
+by the courts.
+Negative connotation- Prohibit the state
+from doing certain things.
+Positive connotation - Enables the state to
+do certain things.
+Entails establishing political democracy in
+the country.
+Entails establishing social and economic
+democracy in the country.
+Driving force - Legal sanctions. Driving force - Moral and political sanctions.
+Focus - Welfare of the individual. personal
+and individualistic in spirit.
+Focus - welfare of the
+community;societarian and socialistic in
+spirit.
+Automatically enforced- Legislation not
+require for enforcement. (Exception-Art.17)
+Automatically not enforced- Legislation
+require for enforcement of provisions.
+Violation of FR could amount to
+invalidation of any law by Judiciary. Such
+law becomes null and void.
+Violative of any of the Directive Principles
+not amount to invalidation of such law.
+Moreover, judiciary can uphold the validity
+of a law on the ground that it was enacted to
+give effect to a directive
+DISTINCTION BETWEEN FR AND DPSP
+CONFLICT BETWEEN FR AND DPSP - PRIMACY FOR FR or DPSP?
+▪Champakam Dorairajan Case (1952)- Court asserted that all Fundamental Rights are superior over
+DPSP. FR can be amended to give effect to DPSP.
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+▪Kerala Education Bill (1957)- Supreme Court had propounded the Doctrine of Harmonious
+Construction to avoid a situation of conflict while enforcing DPSPs and the FR.
+▪Golak Nath Case (1967)- Court asserted that FR cannot be abridged or diluted. FR are sacrosanct and
+absolute in nature.
+▪Kesavananda Bharathi Case (1973)- Court asserted that Parliament can amend any part of constitution,
+subject to Basic Structure of the Constitution. This led to evolution of Doctrine of Basic Structure of
+the Constitution.
+▪Minerva Mill Case (1980)- Court asserted that a law made Parliament by under Article 31C would be
+protected only if it is made to implement directives in Art 39(b) and 39 (c) and not any other DPSPs.
+Current position: Fundamental Rights hold supremacy over the Directive Principles.
+However, the Directive Principles can be implemented by amending the Fundamental Rights, so long as
+the amendment does not destroy the basic structure of the Constitution.
+EXCEPTIONS TO DPSPs (GOLAKHNATH CASE 1967)
+▪Laws giving effect to Art 39(b) and (c) of DPSPs should not be declared as unconstitutional and
+void on ground of violation or contravention of Art 14 and 19.
+▪Any such law which gives effect to provisions of Art 39(b) and (c) of DPSPs shall not be questioned in
+a court of law.
+▪NOTE - Art.39 (b) and (c) can be given precedence over Art.14 (Right to Equality), Art.19 (Freedom of
+Speech and Expression) and not all the Directive Principles.
+DIRECTIVE OUTSIDE DPSPs
+▪Art. 335- Claims of SCs and STs to services in consistently with the maintenance of efficiency.
+▪Art. 350-A - Instruction in mother tongue at the primary stage of education to children belonging to
+linguistic minority groups.
+▪Art. 351 - Development of the Hindi Language by Union to promote the spread of the Hindi language
+and to develop it so that it may serve as a medium of expression for all the elements of the composite
+culture of India.
+IMPORTANCE OF DPSP FOR CITIZEN
+▪Helps citizen to assess the work done and policies implemented by incumbent government.
+▪Ensures welfare of the citizens in particular and society at large.
+▪Ensures inclusive, equitable growth and helps in reducing inequality among citizens.
+▪Provides framework for enactment of various legislations which benefits citizens in various ways.
+E.g. MGNREGA, Panchayati raj system, Maternity Benefit Act.
+▪It ensures progressive development and fulfilment of aspirations of the citizens.
+SIGNIFICANCE OF DPSP
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+▪Helps courts as Guiding Light in determining and examining constitutional validity of
+act/rules/regulation.
+▪Symbolizes idea of welfare state and amplifies social and economic justice as entailed in Preamble.
+▪They impose a moral obligation on the state authorities for their application, however, public opinion is
+real force behind them.
+▪Serves as moral precepts for - Legislature, executive and administrative of state
+▪They serve as Common Minimum Programme for every government irrespective of their manifestos
+and political ideologies.
+▪The Directives are the life-giving provisions of the Constitution. They constitute the stuff of the
+Constitution and its philosophy of social justice. - L. M Singhvi
+▪Directives lay down that the goal of Indian polity is ‘economic democracy’ as distinguished from
+‘political democracy’ (Fundamental rights) - B.R. Ambedkar
+▪Provides stability and continuity in policies despite change in governments.
+▪Supplements and complements Fundamental Rights (Part III).
+▪Serves as benchmarks and yardstick for peoples to gauge performance of govt.
+▪DPSPs are intended to be a guide, friend and philosopher of ruling party in legislative and executive
+acts.
+▪Serves as important tool for opposition parties to ensure accountability of executive and exercise
+influence and control over the government.
+MATERNITY BENEFIT ACT 2017
+▪The Maternity Benefit (Amendment) Act 2017 had received Presidential assent on 27 March 2017
+after being passed by the Parliament. The Act has made amendments to the Maternity Benefits Act,
+1961.
+▪This act has bearing upon Art. 42 in DPSP - Provision for just and humane conditions of work and
+maternity relief.
+Aim – To regulate the employment of women during the period of child birth. It has amended the
+provisions related to the duration and applicability of maternity leave, and other facilities.
+MAJOR CHANGES IN MATERNITY BENEFITS ACT 1961
+▪The Maternity Benefit (Amendment) Act 2017 has increased the duration of paid maternity leave
+available for women employees to 26 weeks from 12 weeks.
+▪However, for those women who are expecting after having 2 children, the duration of the leave
+remains unaltered at 12 weeks.
+▪The paid maternity leave can be availed 8 weeks before the expected date of delivery. Before the
+amendment, it was 6 weeks.
+▪The Maternity Benefit (Amendment) Act 2017 has extended the benefits applicable to the adoptive
+and commissioning mothers and provides that woman who adopts a child will
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+be given 12 weeks of maternity leave from the date of adoption.
+▪The Act has introduced an enabling provision relating to “work from home” that can be exercised after
+the expiry of 26 weeks leave period.
+▪The amended Act has mandated crèche facility for every establishment employing 50 or more
+employees. The women employees should be permitted to visit the facility 4 times during the day.
+▪The amended act makes it compulsory for the employers to educate women about the
+maternity benefits available to them at the time of their appointment.
+▪The act is applicable to all those women employed in factories, mines and shops or commercial
+establishments employing 10 or more employees.
+MGNREGA
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+▪The Mahatma Gandhi National Rural Employment Guarantee Act, earlier known as the National Rural
+Employment Guarantee Act was passed on 7th September 2005 to augment employment generation
+and social security in India.
+▪It covers all districts of India except the ones with 100% urban population.
+▪This act envisage to give shape to Art. 41 (DPSP) - Right to work, education and public assistance in
+certain cases.
+▪Recently, Finance Minister announced on March 26th, 2020, the workers under the MGNREGA would
+get a hike of Rs. 2000 each on an average. This announcement was made as an initiative towards the
+loss caused by the Covid-19 outbreak.
+MGNREGA BACKGROUND
+▪In 1991, the P.V Narasimha Rao government proposed a pilot scheme for generating employment in
+rural areas with the following goals:
+o Employment Generation for agricultural labour during the lean season.
+o Infrastructure Development
+o Enhanced Food Security
+▪This scheme was called the Employment Assurance Scheme which later evolved and shaped into the
+MGNREGA after the merger with the Food for Work Programme in the early 2000s.
+OBJECTIVES OF MGNREGA:
+• Provide 100 days of guaranteed wage employment to rural unskilled labour
+• Increase economic security
+• Decrease migration of labour from rural to urban areas
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+▪MGNREGA differentiates itself from earlier welfare schemes by taking a grassroot - driven
+approach to employment generation.
+▪The programmes under the act are demand driven and provide legal provisions for appeal in case,
+work is not provided or payments are delayed.
+▪The scheme is funded by the central government which bears the full cost of unskilled labour and
+75% of the cost of material for works undertaken under this law.
+▪The central and state governments audit the works undertaken under this act through annual reports
+prepared by CEGC (Central Employment Guarantee Council) and the SEGC (State Employment
+Guarantee Councils).
+▪These reports have to be presented by the incumbent government in the legislature.
+A FEW SALIENT FEATURES OF THE SCHEME ARE:
+▪It gives a significant amount of control to the Gram Panchayats for managing public works, thus
+strengthening Panchayati Raj Institutions.
+▪Gram Sabha’s are free to accept or reject recommendations from Intermediate and District
+Panchayats.
+▪It incorporates accountability in its operational guidelines and ensures compliance and transparency at
+all levels.
+LIQUOR PROHIBITION – CRITICAL ANALYSIS
+Prohibition
+▪Prohibition is the illegality of the manufacturing, storage in barrels or bottles, transportation, sale,
+possession, and consumption of alcohol including alcoholic beverages, or
+a period of time during which such illegality was enforced.
+▪In India, Alcohol consumption has always been overshadowed by a sense of moral judgment that has
+driven the demands for prohibition.
+▪Consequently, policies related to the consumption of alcohol
+are generally shaped by this moral ambiguity rather than a
+comprehensive liquor policy.
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+CONSTITUTIONAL PROVISIONS
+▪In the aftermath of Independence, the Indian government did not impose a centralized regulation
+regarding alcohol consumption.
+▪Under 7 th schedule it is a subject of state list (entry 51) - “Alcohol for human consumption” a subject
+matter of states. This provides states the power to make laws and charge duties on alcoholic liquors
+for human consumption.
+▪Art. 47 under DPSP directs the states to take measures to raise the level of nutrition and the standard
+of living and to improve public health.
+▪Art. 47 directs that the state shall endeavour to bring about prohibition of the consumption except for
+medicinal purposes of intoxicating drinks and of drugs which are injurious to health.
+▪Most liquor ban policies are justified on the basis of this article.
+PROHIBITION IN INDIA
+▪At the moment, complete prohibition is enforced in the states of Gujarat, Bihar, Nagaland, and the
+union territory of Lakshadweep.
+▪In Gujarat, prohibition is implemented since its formation in 1960.
+▪In Nagaland, Nagaland Liquor Total Prohibition Act (NLTP) banned the sale and consumption of
+alcohol in 1989.
+▪Bihar government has put a complete prohibition of alcohol in the state in 2016
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+▪Gujarat and Bihar are the states that prescribe death penalty for manufacturers, suppliers and sellers
+of hooch in cases of death due to spurious liquor consumption.
+▪Kerala currently allows alcohol to be served in three star hotels and above, bars and airports.
+▪In 2014, congress government in Kerala advocate for total prohibition in phased manner.
+▪But, ban was eased when left government came in power in 2016 citing loss in revenue and tourism
+Industry.
+▪In Manipur there is a partial ban in a few districts.
+▪Andhra Pradesh, Haryana, Tamil Nadu, and Mizoram are states that have experimented with partial or
+complete ban on liquor.
+▪In 2016, Supreme Court banned the sale of all liquor within 500m of highways to counter drunken
+driving.
+▪However, SC later clarified that high way liquor ban imposed by it is not applicable to licensed bars and
+beverages outlets within municipal area.
+ARGUMENTS IN FAVOUR OF PROHIBITION
+▪To reduce crime and corruption - ADRI report on prohibition in Bihar noted there was a 66.6% dip in
+cases of kidnapping for ransom, followed by 28.3% dip in murder cases and 2.3% in dacoity.
+▪To reduce the state’s expenditure otherwise spend on public health and law & order.
+▪To improve health and hygiene - ADRI report finds an impressive rise in sale of honey (380%),
+cheeses (200%), butter milk (40%), flavoured milk (28.4%) and lassi (19.7%)
+▪To bring positive impact on women and families - ADRI report observed that 58% women feel they
+were given more respect and played a better role in making household decisions
+▪Prohibition helps money to get directed towards health and education in family. It paves way for
+development - ADRI study on Prohibition in Bihar pointed out that 19% of households acquired new
+assets from the money they earlier splurged on alcohol.
+▪In India, the common mass is generally occasional drinker. Curtailing alcohol supply will in hand
+curtail their drinking behaviour.
+▪According to NCRB data, 15 people die every day – or one every 96 minutes – from the effects of
+drinking alcohol.
+▪Many accidents are fuelled by alcohol.
+▪Many a times it leads to sexual harassment of women and robberies.
+ARGUMENTS AGAINST PROHIBITION
+▪Revenue from excise meant for welfare schemes to vulnerable sections is reduced.
+▪Prohibition is contrary to fundamental right of freedom of choice and right to privacy as well.
+▪It is against the customary culture and tradition of many societies.
+▪It impacted the tourism and hospitality industry.
+▪It may lead to loss of business & investment opportunities from the states - Carlsberg which had agreed
+to setup breweries plant in Patna had to relocate owing to Bihar liquor prohibition law.
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+▪It causes unemployment and adversely affects livelihoods of many.
+▪Instead of decreasing corruption, prohibition became a basis for corruption and black marketing in
+public life.
+▪The problem of adulterated and methanol related consumption of liquor increases.
+▪It may lead to consumption of other unregulated drinks and drugs like taadi and mahua.
+▪An additional expenditure in terms of investment in the personnel required to implement prohibition.
+ASPECTS THAT NEED TO BE CONSIDERED WHILE FRAMING A LIQUOR POLICY
+▪The principal reason why many prohibition strategy fail is because they seem to be based on the
+simplistic assumption that cutting off the supply impacts effective demand for alcohol.
+▪Increase legal age of drinking and bring about uniformity in the same across all the states.
+▪Ban marketing and advertisement of all kinds so as to contain its reach and spread.
+▪De-addiction and rehabilitation centers should be made easily and widely accessible and be fully
+functional before any decision on prohibition is taken.
+▪A stronger rule to monitor the use of methanol and frame policies that award a severe penalty for its
+diversion towards uses other than those for which it was acquired. Governments could consider linking
+de-addiction centers with primary health centers in rural areas.
+▪Invest in creating better awareness among citizens about the negative impact of alcohol consumption.
+▪Document good practices tried and tested by NGOs and other institutions for managing alcohol
+problems not only within the country but also outside the country.
+▪Community based approach should be adopted to tackle the problem of alcoholism.
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+▪A pragmatic approach that accepts drinking as part of the social culture and aims to regulate it is
+likely to be a more effective stance rather than taking a moralistic or emotional view that views drinking
+as the purveyor of all evils.
+BAN ON LIQUOR VENDORS ON HIGHWAYS
+▪In December 2016, the Supreme Court banned States and UTs from granting licences for the sale of
+liquor along National and State highways across the country.
+▪The judgment ordered that the prohibition on sale of liquor alongside highways would extend to stretches
+of such highways that fall within limits of municipal corporations, city towns and local authorities.
+▪It also ordered that no shop for sale of liquor should be visible from the National and State highways
+and noted that the visibility is the first temptation.
+▪Neither should they be directly accessible from the highways nor should they be situated within a
+distance of 500 metres from the outer edge of the highways or service lanes.
+▪It gave the Chief Secretaries and the State police chiefs a month’s time to chalk out a plan for
+enforcement of the judgment.
+▪India being a signatory to the Brasilia Declaration on Road Safety, it is imperative that policy
+guidelines are framed to control road accidents. Also, the excise policies of Indian states and UTs should
+be amended to conform to the spirit of Art. 47 & Art. 21 of the Constitution of India.
+COURT’S RATIONALE BEHIND MOVE
+▪SC noted that drunken driving was the main culprit behind a large number of road accidents in the
+country - 400 deaths take place every day on Indian roads due to accidents.
+▪The judgment is a result of the deep concern the court had expressed recently on the 1.5 lakh fatalities
+annually in road accidents and about 15,000-16,000 deaths were caused because of driving under the
+influence of alcohol.
+▪The court said revenue generation could not be a “valid reason” for a state or a UTs to give licence
+for liquor shops on highways.
+UNIFORM CIVIL CODE (UCC) – CRITICAL ANALYSIS AND WAY AHEAD
+Uttarakhand Becomes First State to Implement Uniform Civil Code (UCC) - Uttarakhand
+government officially implemented the Uniform Civil Code (UCC) on January 27, 2025. Scheduled
+Tribes, as defined under Article 342 of the Constitution, have been exempted from the UCC to
+protect their rights.
+Uniform Civil Code seeks to replace personal laws based on the scriptures and customs of each major
+religious community in India with a common set of rules governing every citizen.
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+Goa has a common civil code called Portuguese civil code 1867, whereby:
+▪A Muslim man whose marriage is registered in the State cannot practice polygamy.
+▪A married couple share property equally, pre-nuptial agreements are the order of the day and
+assets are divided equally between the man and woman on divorce.
+STATUS OF PERSONAL LAW IN INDIA
+▪Personal law subjects like marriage, divorce, inheritance come under Concurrent list.
+▪Hindu personal laws have been by and large secularized and modernized by statutory
+enactments.
+▪Hindu personal laws (that apply also to the Sikhs, Jains and Buddhists) have been codified by the
+Parliament in 1956.
+▪This Code Bill has been split into four parts:
+1. The Hindu Marriage Act, 1955
+2. The Hindu Succession Act, 1956
+3. The Hindu Minority and Guardianship Act, 1956
+4. The Hindu Adoption and Maintenance Act, 1956
+▪On the other hand, Muslim personal laws are still primarily unmodified and traditional in their
+content and approach.
+▪The Shariat law of 1937 governs the personal matters of all Indian Muslims in India.
+▪It clearly states that in matters of personal disputes, the State shall not interfere and a religious
+authority would pass a declaration based on his interpretations of the Quran and the Hadith.
+▪Apart from it, Christians and Jews are also governed by different personal laws
+NEED FOR A UNIFORM CIVIL CODE IN INDIA
+▪Different personal laws promote communalism and it leads to discrimination between people of
+different religions and between the two sexes.
+▪UCC will provide women with the right to equality and justice in courts of law
+irrespective of their religion in matters pertaining to marriage, divorce, maintenance, custody
+of children, inheritance rights, adoption, etc.
+▪The Supreme Court for the first time directed the Parliament to frame a UCC in the year 1985 in the
+case of Mohammad Ahmed Khan v. Shah Bano Begum , popularly known as the Shah Bano case.
+▪However, government overturned the Shah Bano case decision by way of Muslim Women (Right to
+Protection on Divorce) Act, 1986 which curtailed the right of a Muslim woman for maintenance under
+Section 125 of the Code of criminal Procedure.
+▪The Supreme Court in Shayara Bano case (2017) had declared the practise of Triple Talaq (talaq-ebiddat) as unconstitutional and void.
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+CHALLENGES ASSOCIATED WITH UCC
+1. Constitutional challenges
+▪Freedom of religion gets into conflict with the right to equality.
+o Art. 25 - lays down an individual’s fundamental right to religion.
+o Art. 26(b) - upholds the right of each religious denomination or any section thereof to “manage its own
+affairs in matters of religion”
+o Art. 29 - defines the right to conserve distinctive culture.
+o These rights gets into conflict with the equality before law enshrined under Art. 14 and 15.
+▪Moreover, an individual’s freedom of religion under Art. 25 is subject to “public order, health,
+morality”.
+▪In 2018, a report by the Law Commission of India stated that the UCC is “neither necessary nor
+desirable at this stage” in the country.
+▪The Commission also said “secularism cannot contradict the plurality” prevalent in the country.
+2. Social-political challenges
+▪In the name of uniformity, the minorities fears that the culture of the majority is being imposed over
+them.
+▪Given vast cultural diversity in India, bringing uniformity among all such people will be a huge
+challenge.
+▪Patriarchal mindset of Indian society poses a big challenge in implementation of UCC.
+MERITS OF UNIFORM CIVIL CODE
+1 National Integration
+• A unified code is imperative, both for the protection of the vulnerable sections in Indian
+society (women and religious minorities) and for the promotion of national unity and solidarity.
+2 Simplification of laws
+• Presence of so many laws creates confusion, complexity and inconsistencies in the
+adjudication of personal matters, at times leading to delayed justice or no justice.
+• UCC will eliminate this overlapping of laws.
+3. Simplification of Indian legal system:
+• UCC will lead to reduction in litigation emanating from multiple personal laws.
+4. Establishing a secular society:
+• UCC will de-link law from religion which is a very desirable objective to achieve in a secular and
+socialist pattern of society.
+• Moreover, it fulfils constitutional mandates under Art. 44 of DPSP.
+PUNJAB PCS by JATIN SIR
+https://t.me/jatingillsir
+5. Gender justice:
+• The rights of women are usually limited under the patriarchal discourse through religious laws.
+• UCC will liberate women from patriarchal domination and provide them with right to equality
+and liberty.
+• In the long term, UCC would lead to the defeat of the communal and the divisionist forces.
+WAY FORWARD
+▪The social transformation from diverse civil code to uniformity shall be gradual and progressive.
+Therefore, the government must adopt a “Piecemeal” approach.
+▪Government must emulate Goa practice of a common civil code, which has been the law since 1867,
+when the state was under the Portuguese colonial rule.
+▪Moreover, when constitution espouses the cause of UCC in its Art. 44, it shouldn’t be misconstrued to
+be a “common law” -
+▪The word uniform here means that all communities must be governed by uniform principles of gender
+justice and human justice.
+▪It will mean modernization and humanization of each personal law.
+▪It would mean, not a common law, but different personal laws based on principles of equality, liberty
+and justice.
+▪Government has to take steps towards increasing the awareness among the public, especially
+minorities, about the importance of having a UCC.
+▪The UCC must carve a balance between the protection of fundamental rights and religious dogmas
+of individuals.
