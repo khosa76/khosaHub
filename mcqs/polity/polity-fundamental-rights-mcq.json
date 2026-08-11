@@ -1,0 +1,2862 @@
+[
+  {
+    "question": "In the context of the Indian Constitution, how are 'Negative Rights' distinct from 'Positive Rights'?",
+    "options": [
+      {
+        "text": "Negative rights establish limitations on State authority to protect individual liberty, whereas positive rights require active State measures.",
+        "isCorrect": true,
+        "rationale": "Negative rights (like Article 19) carve out a sphere where the State cannot interfere, while positive rights (like Article 17) demand the State take proactive steps to ensure equality."
+      },
+      {
+        "text": "Negative rights are those that can be suspended during an emergency, while positive rights are absolute and sacrosanct.",
+        "isCorrect": false,
+        "rationale": "The classification of negative and positive rights is based on the State's duty to abstain or act, not on their susceptibility to suspension."
+      },
+      {
+        "text": "Negative rights are enforceable against the State, while positive rights are only enforceable against private individuals.",
+        "isCorrect": false,
+        "rationale": "Both types of rights are primarily enforceable against the State, though some specific rights have horizontal application against private citizens."
+      },
+      {
+        "text": "Negative rights are listed in Part IV (DPSPs), whereas positive rights are restricted to Part III of the Constitution.",
+        "isCorrect": false,
+        "rationale": "Both negative and positive rights are found within Part III of the Constitution as Fundamental Rights."
+      }
+    ],
+    "hint": "Consider the difference between a prohibition on State action versus a mandate for State intervention."
+  },
+  {
+    "question": "The concept of 'Third Generation Rights' as discussed in the evolution of rights refers specifically to which of the following?",
+    "options": [
+      {
+        "text": "Civil and political rights focused on individual security and the right to life.",
+        "isCorrect": false,
+        "rationale": "These belong to the First Generation of rights which emerged in early modern democratic thought."
+      },
+      {
+        "text": "Socio-economic rights such as the right to education, work, and social welfare.",
+        "isCorrect": false,
+        "rationale": "Socio-economic equity is the hallmark of Second Generation rights."
+      },
+      {
+        "text": "Collective or fraternal rights, such as environmental protection and the rights of minorities.",
+        "isCorrect": true,
+        "rationale": "Third Generation rights shift the focus from the individual to the collective and group interests."
+      },
+      {
+        "text": "Technological rights including net neutrality and the right to internet access.",
+        "isCorrect": false,
+        "rationale": "Future-oriented and technology-based rights are classified as the Fourth Generation of rights."
+      }
+    ],
+    "hint": "Think about rights that belong to groups rather than just individual persons."
+  },
+  {
+    "question": "According to the Supreme Court's ruling in M. Nagraj v. Union of India, what is the source of Fundamental Rights?",
+    "options": [
+      {
+        "text": "They are a gift from the State to its citizens provided through the Constitution.",
+        "isCorrect": false,
+        "rationale": "The court explicitly stated that these rights are not a gift from the State."
+      },
+      {
+        "text": "They are inherent human rights possessed by individuals by virtue of being part of the human race.",
+        "isCorrect": true,
+        "rationale": "The court held that individuals possess these basic human rights independently of the Constitution."
+      },
+      {
+        "text": "They are created by the Parliament and can be withdrawn through ordinary legislation.",
+        "isCorrect": false,
+        "rationale": "Fundamental rights are enshrined in the Constitution and require a special amendment process to be curtailed."
+      },
+      {
+        "text": "They are derived solely from international treaties and the UN Charter.",
+        "isCorrect": false,
+        "rationale": "While inspired by global documents, the source material clarifies they are seen as inherent to humanity in the Indian judicial outlook."
+      }
+    ],
+    "hint": "Consider whether these rights exist before or after a legal document is written."
+  },
+  {
+    "question": "Following the 44th Constitutional Amendment Act of 1978, which of the following statements accurately describes the 'Right to Property'?",
+    "options": [
+      {
+        "text": "It remains a Fundamental Right but is now subject to reasonable restrictions by the State.",
+        "isCorrect": false,
+        "rationale": "The 44th Amendment specifically removed it from the list of Fundamental Rights in Part III."
+      },
+      {
+        "text": "It was completely abolished from the Constitution and no longer has legal standing.",
+        "isCorrect": false,
+        "rationale": "It was not abolished but rather relocated to Article 300-A."
+      },
+      {
+        "text": "It is a legal or constitutional right under Article 300-A in Part XII of the Constitution.",
+        "isCorrect": true,
+        "rationale": "The amendment transformed it from a Fundamental Right into a constitutional right, meaning it can be regulated by ordinary law."
+      },
+      {
+        "text": "It is part of the Basic Structure of the Constitution and cannot be modified by Parliament.",
+        "isCorrect": false,
+        "rationale": "Unlike certain Fundamental Rights, the Right to Property is not considered a part of the Basic Structure."
+      }
+    ],
+    "hint": "Recall the transition of this right from Part III to Part XII."
+  },
+  {
+    "question": "Under Article 19, the six democratic freedoms can be suspended during a National Emergency under which specific circumstance?",
+    "options": [
+      {
+        "text": "An internal emergency declared on the grounds of armed rebellion.",
+        "isCorrect": false,
+        "rationale": "The 44th Amendment Act of 1978 prohibited the suspension of Article 19 rights during an internal emergency."
+      },
+      {
+        "text": "An external emergency declared on the grounds of war or external aggression.",
+        "isCorrect": true,
+        "rationale": "The six freedoms under Article 19 are only susceptible to suspension when the emergency is due to external threats."
+      },
+      {
+        "text": "Any emergency, provided the President specifically mentions Article 19 in the order.",
+        "isCorrect": false,
+        "rationale": "There are constitutional limits based on the type of emergency (internal vs. external) specifically for Article 19."
+      },
+      {
+        "text": "Never; Article 19 rights are as inviolable as Articles 20 and 21 during an emergency.",
+        "isCorrect": false,
+        "rationale": "Only Articles 20 and 21 have the status of being unsuspended under any circumstances."
+      }
+    ],
+    "hint": "Focus on the distinction between threats originating inside the country versus outside."
+  },
+  {
+    "question": "Which of the following bodies is NOT considered 'the State' under Article 12, according to various judicial interpretations?",
+    "options": [
+      {
+        "text": "A private body acting as an instrument or agent of the Government.",
+        "isCorrect": false,
+        "rationale": "The Supreme Court has interpreted Article 12 to include private agencies working as State instruments."
+      },
+      {
+        "text": "Statutory bodies like LIC, ONGC, and SAIL.",
+        "isCorrect": false,
+        "rationale": "These are considered 'other authorities' under the control of the Government of India."
+      },
+      {
+        "text": "The Judiciary, when it is performing its judicial functions in the courtroom.",
+        "isCorrect": true,
+        "rationale": "While the administrative side of the judiciary is 'State', its judicial functions are excluded from this definition."
+      },
+      {
+        "text": "Municipalities, Panchayats, and District Boards.",
+        "isCorrect": false,
+        "rationale": "Local authorities are explicitly listed in Article 12 as part of 'the State'."
+      }
+    ],
+    "hint": "Identify the specific role of the courts that differentiates them from administrative bodies."
+  },
+  {
+    "question": "In the Indra Sawhney (Mandal) case, what was the Supreme Court's ruling regarding reservations in promotions?",
+    "options": [
+      {
+        "text": "Reservation is valid in both recruitment and all subsequent promotions.",
+        "isCorrect": false,
+        "rationale": "The court initially ruled that reservation should be confined to initial appointments only."
+      },
+      {
+        "text": "Reservation is confined to initial appointments and not applicable to promotions.",
+        "isCorrect": true,
+        "rationale": "The 1992 judgment restricted quotas to recruitment, though this was later modified by constitutional amendments."
+      },
+      {
+        "text": "Promotion quotas are mandatory for all backward classes including the Creamy Layer.",
+        "isCorrect": false,
+        "rationale": "The court specifically required the exclusion of the Creamy Layer from any reservation benefits."
+      },
+      {
+        "text": "Reservations in promotions are only allowed if the 50% ceiling is not breached.",
+        "isCorrect": false,
+        "rationale": "The primary ruling of the case was a total bar on promotion quotas, regardless of the ceiling."
+      }
+    ],
+    "hint": "Think about the stage of employment where the court initially deemed quotas applicable."
+  },
+  {
+    "question": "Which Fundamental Right is characterized by the 'Doctrine of Harmonious Construction'?",
+    "options": [
+      {
+        "text": "The interpretation of Article 14 to allow for reasonable classification.",
+        "isCorrect": false,
+        "rationale": "The reasonable classification test is a distinct legal tool for Article 14, not the Doctrine of Harmonious Construction."
+      },
+      {
+        "text": "The balancing act between individual rights and public interest under Article 21.",
+        "isCorrect": false,
+        "rationale": "While balancing occurs in Article 21, it is usually based on the 'greater community interest' principle."
+      },
+      {
+        "text": "The effort by the courts to give effect to both Fundamental Rights and Directive Principles without conflict.",
+        "isCorrect": true,
+        "rationale": "This doctrine was propounded in the Kerala Education Bill case to ensure Parts III and IV of the Constitution work together."
+      },
+      {
+        "text": "The method used to determine if a private company falls under the definition of 'State'.",
+        "isCorrect": false,
+        "rationale": "The 'Instrumentality' test (Ajay Hasia case) is used for defining State under Article 12."
+      }
+    ],
+    "hint": "This doctrine resolves the tension between enforceable rights and the State's policy goals."
+  },
+  {
+    "question": "Article 15 prohibits discrimination on grounds 'only' of religion, race, caste, sex, or place of birth. Which of the following is an additional ground included in Article 16 but absent in Article 15?",
+    "options": [
+      {
+        "text": "Language",
+        "isCorrect": false,
+        "rationale": "Language is not listed as a prohibited ground of discrimination in either Article 15 or 16."
+      },
+      {
+        "text": "Descent",
+        "isCorrect": true,
+        "rationale": "Article 16(2) adds 'descent' and 'residence' to the list of grounds on which discrimination in public employment is barred."
+      },
+      {
+        "text": "Economic Status",
+        "isCorrect": false,
+        "rationale": "Neither article originally listed economic status, although EWS reservations were added later through separate clauses."
+      },
+      {
+        "text": "Education level",
+        "isCorrect": false,
+        "rationale": "Educational qualifications are permitted criteria for classification and are not listed as prohibited grounds."
+      }
+    ],
+    "hint": "Look for the ground related to one's ancestry or lineage."
+  },
+  {
+    "question": "Which Constitutional Amendment Act added Article 21A, making elementary education a Fundamental Right?",
+    "options": [
+      {
+        "text": "42nd Amendment Act, 1976",
+        "isCorrect": false,
+        "rationale": "This amendment added various DPSPs and the Fundamental Duties, but not the Right to Education."
+      },
+      {
+        "text": "44th Amendment Act, 1978",
+        "isCorrect": false,
+        "rationale": "This amendment focused on emergency provisions and the Right to Property."
+      },
+      {
+        "text": "86th Amendment Act, 2002",
+        "isCorrect": true,
+        "rationale": "The 86th CAA inserted Article 21A and made corresponding changes to Article 45 and Article 51A."
+      },
+      {
+        "text": "93rd Amendment Act, 2005",
+        "isCorrect": false,
+        "rationale": "This amendment dealt with reservations in educational institutions under Article 15(5)."
+      }
+    ],
+    "hint": "This amendment was described as the 'dawn of the second revolution' for citizens' rights."
+  },
+  {
+    "question": "The 'Rule of Law' concept, which forms part of the Basic Structure of the Constitution, is derived from which article?",
+    "options": [
+      {
+        "text": "Article 12",
+        "isCorrect": false,
+        "rationale": "Article 12 is merely the definition of the State for the purpose of Fundamental Rights."
+      },
+      {
+        "text": "Article 13",
+        "isCorrect": false,
+        "rationale": "Article 13 deals with judicial review and the validity of inconsistent laws."
+      },
+      {
+        "text": "Article 14",
+        "isCorrect": true,
+        "rationale": "Article 14, through 'Equality Before Law', incorporates A.V. Dicey's concept of the Rule of Law into the Indian Constitution."
+      },
+      {
+        "text": "Article 21",
+        "isCorrect": false,
+        "rationale": "Article 21 deals with Personal Liberty, which is supported by the Rule of Law but is not its primary constitutional source."
+      }
+    ],
+    "hint": "Look for the article that mandates equal subjection of all persons to the ordinary law."
+  },
+  {
+    "question": "Which of the following Fundamental Rights is available ONLY to the citizens of India?",
+    "options": [
+      {
+        "text": "Protection in respect of conviction for offences (Article 20).",
+        "isCorrect": false,
+        "rationale": "Article 20 is available to everyone, including foreigners and legal entities."
+      },
+      {
+        "text": "Equality before law and equal protection of laws (Article 14).",
+        "isCorrect": false,
+        "rationale": "This right is guaranteed to all persons within the territory of India, regardless of citizenship."
+      },
+      {
+        "text": "Protection of language, script, and culture of minorities (Article 29).",
+        "isCorrect": true,
+        "rationale": "Articles 15, 16, 19, 29, and 30 are specifically reserved for citizens."
+      },
+      {
+        "text": "Freedom of conscience and right to practice religion (Article 25).",
+        "isCorrect": false,
+        "rationale": "Religious freedom under Article 25 is granted to all persons."
+      }
+    ],
+    "hint": "Identify the right that deals with the cultural and educational interests of specific groups."
+  },
+  {
+    "question": "What is the primary difference between the writ of Prohibition and the writ of Certiorari?",
+    "options": [
+      {
+        "text": "Prohibition is issued against private individuals, while Certiorari is only against the State.",
+        "isCorrect": false,
+        "rationale": "Both are issued against inferior courts or quasi-judicial bodies, not private individuals."
+      },
+      {
+        "text": "Prohibition is preventive and issued during the pendency of proceedings, whereas Certiorari is curative and issued after a final order.",
+        "isCorrect": true,
+        "rationale": "Prohibition stops a court from usurping jurisdiction, while Certiorari quashes an order already made without jurisdiction."
+      },
+      {
+        "text": "Prohibition can be sought by any public-minded person, while Certiorari requires an aggrieved party.",
+        "isCorrect": false,
+        "rationale": "Locus standi rules differ, but the primary distinction is the stage of the legal proceedings at which they are issued."
+      },
+      {
+        "text": "Prohibition is a Fundamental Right under Article 32, while Certiorari is only a legal right under Article 226.",
+        "isCorrect": false,
+        "rationale": "Both are available as remedies under Article 32 (SC) and Article 226 (HC)."
+      }
+    ],
+    "hint": "Consider the timing of the court's intervention: before vs. after a decision is rendered."
+  },
+  {
+    "question": "Under the Protection of Civil Rights Act (1955), 'Untouchability' as abolished by Article 17 is defined as:",
+    "options": [
+      {
+        "text": "A social boycott of any individual based on personal grievances.",
+        "isCorrect": false,
+        "rationale": "The courts have ruled that untouchability does not cover individual social boycotts."
+      },
+      {
+        "text": "The historical practice of imposing disabilities on certain classes of persons by reason of their birth in certain castes.",
+        "isCorrect": true,
+        "rationale": "The term is not defined in the Constitution, but judicial interpretation (Mysore HC) links it to specific historical caste-based practices."
+      },
+      {
+        "text": "Refusal to allow any person into a private religious ceremony in a family home.",
+        "isCorrect": false,
+        "rationale": "Untouchability specifically excludes exclusion from private religious services."
+      },
+      {
+        "text": "The exclusion of any person from a job based on their lack of academic qualifications.",
+        "isCorrect": false,
+        "rationale": "Academic requirements are valid classifications and not related to the social practice of untouchability."
+      }
+    ],
+    "hint": "It refers to a specific social disability rooted in the Indian caste system."
+  },
+  {
+    "question": "In the context of Article 20(3), which of the following actions is NOT protected by the right against self-incrimination?",
+    "options": [
+      {
+        "text": "Being compelled to give a blood sample for DNA testing.",
+        "isCorrect": true,
+        "rationale": "The Supreme Court has clarified that Article 20(3) does not cover material evidence like thumb impressions, signatures, or blood samples."
+      },
+      {
+        "text": "Being forced to give oral testimony that may implicate oneself in a crime.",
+        "isCorrect": false,
+        "rationale": "This is the core protection offered by the right against self-incrimination."
+      },
+      {
+        "text": "Being compelled to produce a private diary that contains incriminating evidence.",
+        "isCorrect": false,
+        "rationale": "The protection covers both oral and documentary evidence if they serve as witness testimony against oneself."
+      },
+      {
+        "text": "Being interrogated in a manner that forces a confession of guilt.",
+        "isCorrect": false,
+        "rationale": "Compulsory confession is the primary target of Article 20(3) protections."
+      }
+    ],
+    "hint": "Differentiate between 'testimony' (speaking/writing as a witness) and providing 'physical material'."
+  },
+  {
+    "question": "According to the source material, which case established that National Awards like the Bharat Ratna are not 'titles' under Article 18?",
+    "options": [
+      {
+        "text": "A.R. Antulay v. R.S. Nayak",
+        "isCorrect": false,
+        "rationale": "This case dealt with whether the judicial side of the court falls under the definition of 'State'."
+      },
+      {
+        "text": "Balaji Raghavan v. Union of India",
+        "isCorrect": true,
+        "rationale": "The Supreme Court upheld the awards in 1995, noting they recognize merit, provided they are not used as prefixes or suffixes."
+      },
+      {
+        "text": "Indra Sawhney v. Union of India",
+        "isCorrect": false,
+        "rationale": "This is the famous 'Mandal case' regarding OBC reservations."
+      },
+      {
+        "text": "Kesavananda Bharati v. State of Kerala",
+        "isCorrect": false,
+        "rationale": "This landmark case established the Basic Structure Doctrine."
+      }
+    ],
+    "hint": "This case clarified the distinction between hereditary nobility and state honors for merit."
+  },
+  {
+    "question": "The 'Essential Religious Practices' test is a judicial tool used primarily to:",
+    "options": [
+      {
+        "text": "Encourage the State to provide subsidies for all religious pilgrimages.",
+        "isCorrect": false,
+        "rationale": "The State is prohibited from using taxes to promote religion under Article 27."
+      },
+      {
+        "text": "Determine which religious traditions can be completely banned by the State for being non-Hindu.",
+        "isCorrect": false,
+        "rationale": "Article 25 protects the religious rights of all persons, not just Hindus."
+      },
+      {
+        "text": "Decide which practices are central to a religion and thus immune from State regulation under Articles 25 and 26.",
+        "isCorrect": true,
+        "rationale": "This test allows the court to distinguish between protected religious core beliefs and secular/peripheral activities."
+      },
+      {
+        "text": "Identify which religious denominations are eligible to receive State aid for their schools.",
+        "isCorrect": false,
+        "rationale": "Article 30 governs the aid and establishment of minority institutions, regardless of the 'essentiality' of their religious practices."
+      }
+    ],
+    "hint": "It helps courts separate what is truly religious from what is merely secular or social activity."
+  },
+  {
+    "question": "Which specific writ is issued by a court to inquire into the legality of the claim of a person to a public office?",
+    "options": [
+      {
+        "text": "Mandamus",
+        "isCorrect": false,
+        "rationale": "Mandamus commands a public official to perform a duty, it doesn't question their right to the office itself."
+      },
+      {
+        "text": "Quo Warranto",
+        "isCorrect": true,
+        "rationale": "Literally meaning 'By what authority', it prevents the illegal usurpation of a public office."
+      },
+      {
+        "text": "Habeas Corpus",
+        "isCorrect": false,
+        "rationale": "Habeas Corpus is used to challenge the legality of physical detention."
+      },
+      {
+        "text": "Certiorari",
+        "isCorrect": false,
+        "rationale": "Certiorari is used to quash judicial or quasi-judicial orders."
+      }
+    ],
+    "hint": "The name of the writ in Latin translates to 'by what warrant' or 'by what authority'."
+  },
+  {
+    "question": "Under Article 22, a person arrested under a preventive detention law can be detained for a maximum of 3 months. What is required to extend this period?",
+    "options": [
+      {
+        "text": "The personal approval of the President or the State Governor.",
+        "isCorrect": false,
+        "rationale": "Executive approval is not sufficient for extension beyond the constitutional limit."
+      },
+      {
+        "text": "A report from an Advisory Board consisting of persons qualified to be High Court Judges.",
+        "isCorrect": true,
+        "rationale": "Article 22(4) mandates that an Advisory Board must find sufficient cause for detention exceeding 3 months."
+      },
+      {
+        "text": "An ordinary resolution passed by the State Legislature.",
+        "isCorrect": false,
+        "rationale": "Legislatures can make the laws, but specific individual extensions require judicial/board review."
+      },
+      {
+        "text": "A certificate issued by the Director General of Police.",
+        "isCorrect": false,
+        "rationale": "Police officials cannot authorize extensions of detention beyond the initial constitutional limit."
+      }
+    ],
+    "hint": "Look for a safeguard involving a semi-judicial body."
+  },
+  {
+    "question": "The 'Creamy Layer' exclusion principle, as directed by the Supreme Court in 2008, applies to which category of reservations?",
+    "options": [
+      {
+        "text": "Scheduled Castes (SC)",
+        "isCorrect": false,
+        "rationale": "The Creamy Layer principle was specifically mandated for OBCs, not SCs or STs."
+      },
+      {
+        "text": "Scheduled Tribes (ST)",
+        "isCorrect": false,
+        "rationale": "Reservation for STs is currently not subject to the Creamy Layer income criteria mentioned in the source."
+      },
+      {
+        "text": "Other Backward Classes (OBC)",
+        "isCorrect": true,
+        "rationale": "The court directed the government to exclude the advanced sections among OBCs to ensure benefits reach the truly needy."
+      },
+      {
+        "text": "Economically Weaker Sections (EWS)",
+        "isCorrect": false,
+        "rationale": "EWS reservations are defined by income from the start, so a separate 'creamy layer' exclusion is redundant."
+      }
+    ],
+    "hint": "This group was the focus of the Mandal Commission's recommendations."
+  },
+  {
+    "question": "Which article of the Constitution empowers the Parliament to restrict the Fundamental Rights of the members of the armed forces and police?",
+    "options": [
+      {
+        "text": "Article 32",
+        "isCorrect": false,
+        "rationale": "Article 32 is the Right to Constitutional Remedies for the enforcement of rights."
+      },
+      {
+        "text": "Article 33",
+        "isCorrect": true,
+        "rationale": "Article 33 gives Parliament the exclusive power to modify the application of Part III for forces to maintain discipline."
+      },
+      {
+        "text": "Article 34",
+        "isCorrect": false,
+        "rationale": "Article 34 deals with restrictions on rights specifically when Martial Law is in force."
+      },
+      {
+        "text": "Article 35",
+        "isCorrect": false,
+        "rationale": "Article 35 provides Parliament with the power to legislate to give effect to provisions of Part III."
+      }
+    ],
+    "hint": "It is the first of the three 'special' articles at the end of Part III."
+  },
+  {
+    "question": "What was the significance of the I.R. Coelho v. State of Tamil Nadu (2007) judgment regarding the Ninth Schedule?",
+    "options": [
+      {
+        "text": "It granted absolute immunity to all laws placed in the Ninth Schedule from judicial review.",
+        "isCorrect": false,
+        "rationale": "This judgment actually ended the era of absolute immunity for laws added after a certain date."
+      },
+      {
+        "text": "It ruled that laws placed in the Ninth Schedule after 24 April 1973 can be challenged if they violate the Basic Structure.",
+        "isCorrect": true,
+        "rationale": "The court held that no law is beyond judicial review if it infringes upon fundamental constitutional principles."
+      },
+      {
+        "text": "It struck down the Ninth Schedule as being unconstitutional and void.",
+        "isCorrect": false,
+        "rationale": "The Ninth Schedule still exists; the case merely defined the limits of its protection."
+      },
+      {
+        "text": "It mandated that only the Parliament, and not State Legislatures, can add laws to the Ninth Schedule.",
+        "isCorrect": false,
+        "rationale": "The case focused on judicial reviewability rather than the legislative authority to add laws."
+      }
+    ],
+    "hint": "This case established that even the 'protected' schedule must respect the Basic Structure."
+  },
+  {
+    "question": "Which of the following is an example of 'Horizontal Operation' of Fundamental Rights?",
+    "options": [
+      {
+        "text": "A citizen suing the Government for a violation of the Right to Freedom of Speech.",
+        "isCorrect": false,
+        "rationale": "This is a vertical operation, as it is a claim by an individual against the State."
+      },
+      {
+        "text": "An individual enforcing the prohibition of untouchability against another private citizen.",
+        "isCorrect": true,
+        "rationale": "Article 17 is enforceable against both the State and private individuals, making it horizontal."
+      },
+      {
+        "text": "The Supreme Court quashing an unconstitutional law passed by the Parliament.",
+        "isCorrect": false,
+        "rationale": "This is the exercise of judicial review over State action, which is a vertical check."
+      },
+      {
+        "text": "A foreigner claiming the Right to Equality in a public employment exam.",
+        "isCorrect": false,
+        "rationale": "This is incorrect because Article 16 is reserved for citizens, and employment is with the State."
+      }
+    ],
+    "hint": "Look for a scenario where a right is enforced by one private individual against another."
+  },
+  {
+    "question": "Under the Child and Adolescent Labour (Amendment) Act, 2016, children below 14 years are permitted to work in which of the following?",
+    "options": [
+      {
+        "text": "Non-hazardous factories and mines during school vacations.",
+        "isCorrect": false,
+        "rationale": "The 2016 Act prohibits children under 14 from working in ALL occupations and processes."
+      },
+      {
+        "text": "Family enterprises or the audio-visual entertainment industry, provided education is not affected.",
+        "isCorrect": true,
+        "rationale": "These are the two narrow exceptions provided for children under 14 in the amended Act."
+      },
+      {
+        "text": "Agricultural fields as long as they are not using hazardous machinery.",
+        "isCorrect": false,
+        "rationale": "Agriculture is not a specifically listed exception unless it falls under a 'family enterprise'."
+      },
+      {
+        "text": "They are absolutely prohibited from any form of work without exception.",
+        "isCorrect": false,
+        "rationale": "While the ban is broad, the Act does specify exceptions for family work and artistry."
+      }
+    ],
+    "hint": "Consider the specific exceptions allowed for family support and the arts."
+  },
+  {
+    "question": "What does the 'Doctrine of Severability' imply regarding Article 13?",
+    "options": [
+      {
+        "text": "The State can sever any Fundamental Right it finds inconvenient during a crisis.",
+        "isCorrect": false,
+        "rationale": "Rights can only be suspended under specific Emergency provisions, not through severability."
+      },
+      {
+        "text": "If a portion of a law is unconstitutional, only that specific part is void while the rest remains valid.",
+        "isCorrect": true,
+        "rationale": "This doctrine allows the court to save the valid parts of a statute if they can be separated from the invalid ones."
+      },
+      {
+        "text": "Judges can sever their ties to the State if they believe their independence is compromised.",
+        "isCorrect": false,
+        "rationale": "Severability is a rule of statutory interpretation, not a principle of judicial career paths."
+      },
+      {
+        "text": "Parliament can sever the Supreme Court's power of judicial review via a constitutional amendment.",
+        "isCorrect": false,
+        "rationale": "Judicial review is part of the Basic Structure and cannot be taken away."
+      }
+    ],
+    "hint": "It relates to 'separating' the good parts of a law from the unconstitutional ones."
+  },
+  {
+    "question": "Article 27 protects individuals from being compelled to pay 'taxes' for the promotion of a particular religion. How does the Supreme Court distinguish a 'fee' from a 'tax' in this context?",
+    "options": [
+      {
+        "text": "There is no distinction; both are prohibited under Article 27.",
+        "isCorrect": false,
+        "rationale": "The source material clearly states that fees are not prohibited by Article 27."
+      },
+      {
+        "text": "A fee is permitted because it is charged for providing specific services or regulations to pilgrims.",
+        "isCorrect": true,
+        "rationale": "Unlike taxes which go to general revenue, fees are seen as charges for safety, sanitation, or specific facilities provided to the worshippers."
+      },
+      {
+        "text": "A tax is voluntary, whereas a fee is a mandatory contribution to a religious trust.",
+        "isCorrect": false,
+        "rationale": "Taxes are mandatory State levies, while the distinction in Article 27 is based on the purpose of the collection."
+      },
+      {
+        "text": "Only foreigners can be charged fees, while citizens are exempt from both taxes and fees for religion.",
+        "isCorrect": false,
+        "rationale": "Article 27 applies to 'persons', which includes both citizens and foreigners."
+      }
+    ],
+    "hint": "One is for general promotion of a faith, the other is for specific services rendered."
+  },
+  {
+    "question": "In which case did the Supreme Court restore the balance between Fundamental Rights and Directive Principles by striking down an over-broad extension of Article 31C?",
+    "options": [
+      {
+        "text": "Golak Nath v. State of Punjab",
+        "isCorrect": false,
+        "rationale": "This case held that Fundamental Rights were completely unamendable."
+      },
+      {
+        "text": "Minerva Mills v. Union of India",
+        "isCorrect": true,
+        "rationale": "The court held that the Constitution is founded on the bedrock of the balance between Parts III and IV."
+      },
+      {
+        "text": "A.K. Gopalan v. State of Madras",
+        "isCorrect": false,
+        "rationale": "This case dealt with early interpretations of Article 21 and the Preventive Detention Act."
+      },
+      {
+        "text": "Champakam Dorairajan v. State of Madras",
+        "isCorrect": false,
+        "rationale": "This early case ruled that FRs were superior to DPSPs before the balance was later harmonised."
+      }
+    ],
+    "hint": "The judgment in this case mentioned the 'bedrock of the balance' within the Constitution."
+  },
+  {
+    "question": "Which of the following is NOT a ground for the dismissal of a writ petition under Article 32?",
+    "options": [
+      {
+        "text": "Res Judicata, except in the case of Habeas Corpus.",
+        "isCorrect": false,
+        "rationale": "Res Judicata is a valid ground for dismissal if the High Court has already decided the matter on merits."
+      },
+      {
+        "text": "Inordinate delay or 'Laches' without a satisfactory explanation.",
+        "isCorrect": false,
+        "rationale": "Courts can dismiss petitions if there is an unreasonable delay in filing."
+      },
+      {
+        "text": "The fact that the petitioner is a foreigner rather than a citizen.",
+        "isCorrect": true,
+        "rationale": "Article 32 is available for the enforcement of any Fundamental Right, and since many rights apply to foreigners, they can also move the court."
+      },
+      {
+        "text": "Misrepresentation or concealment of material facts by the petitioner.",
+        "isCorrect": false,
+        "rationale": "Concealing key information is a ground for the court to refuse to entertain a petition."
+      }
+    ],
+    "hint": "Consider which of these factors is irrelevant to one's eligibility to seek a constitutional remedy for a right they possess."
+  },
+  {
+    "question": "What is the specific age group covered under the Right to Education as a Fundamental Right under Article 21A?",
+    "options": [
+      {
+        "text": "0 to 14 years",
+        "isCorrect": false,
+        "rationale": "Article 45 (DPSP) covers early childhood care until 6 years; the FR only begins at age 6."
+      },
+      {
+        "text": "6 to 14 years",
+        "isCorrect": true,
+        "rationale": "Article 21A specifically mandates free and compulsory education for children in this age bracket."
+      },
+      {
+        "text": "6 to 18 years",
+        "isCorrect": false,
+        "rationale": "While education up to 18 is often discussed, the constitutional Fundamental Right is limited to 14 years."
+      },
+      {
+        "text": "Primary school age only (approx. 5 to 11 years)",
+        "isCorrect": false,
+        "rationale": "The right covers the full span of elementary education until the age of 14."
+      }
+    ],
+    "hint": "The bracket starts after early childhood care and ends at the completion of elementary school."
+  },
+  {
+    "question": "Article 29(1) grants 'any section of citizens' the right to conserve their distinct language, script, or culture. How has the Supreme Court interpreted the term 'section of citizens'?",
+    "options": [
+      {
+        "text": "It refers exclusively to religious and linguistic minorities.",
+        "isCorrect": false,
+        "rationale": "This is a common misconception, but the court has broadened the scope of the term."
+      },
+      {
+        "text": "It includes both minorities and the majority community.",
+        "isCorrect": true,
+        "rationale": "The court clarified that any group, whether minority or majority, has the right to conserve its language and culture under Article 29(1)."
+      },
+      {
+        "text": "It refers only to the Scheduled Tribes and Scheduled Castes.",
+        "isCorrect": false,
+        "rationale": "While they are sections of citizens, the article is not restricted to them."
+      },
+      {
+        "text": "It applies only to citizens living in rural or tribal areas.",
+        "isCorrect": false,
+        "rationale": "Geography is not a limiting factor for the application of Article 29(1)."
+      }
+    ],
+    "hint": "Consider whether a right to 'conserve culture' should logically be denied to the larger population."
+  },
+  {
+    "question": "Which of the following principles of the 'Rule of Law' are applicable to the Indian polity?\n1. Absence of arbitrary power\n2. Supremacy of the Constitution over the Parliament.\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "text": "1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 2 is also applicable; the Indian Constitution is supreme over the Parliament."
+      },
+      {
+        "text": "2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 1 is also applicable; the Constitution ensures absence of arbitrary power through checks and balances."
+      },
+      {
+        "text": "Both 1 and 2",
+        "isCorrect": true,
+        "rationale": "Correct. Both absence of arbitrary power and supremacy of the Constitution are core elements of the Rule of Law in India."
+      },
+      {
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "rationale": "Incorrect because both statements 1 and 2 are principles of the Rule of Law in India."
+      }
+    ],
+    "hint": "Rule of Law in India ensures Constitutional supremacy and checks arbitrary powers of government."
+  },
+  {
+    "question": "With reference to the relationship between Liberty and Equality, consider the following statements:\n1. Equality necessarily ensures the presence of liberty.\n2. Without equality, liberty would produce the supremacy of the few over the many.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "text": "1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Prioritizing equality over liberty can lead to authoritarian control suppressing individual liberty."
+      },
+      {
+        "text": "2 only",
+        "isCorrect": true,
+        "rationale": "Correct. Without equality, liberty allows those already powerful to exploit and oppress the weak."
+      },
+      {
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 1 is false."
+      },
+      {
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 2 is correct."
+      }
+    ],
+    "hint": "Unchecked liberty in an unequal society allows the powerful to dominate."
+  },
+  {
+    "question": "Consider the following statements:\nStatement-I: The Fundamental Rights guaranteed under the Indian Constitution are not absolute.\nStatement-II: Supreme Court can impose reasonable restrictions on Fundamental Rights for the protection of National interest.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      {
+        "text": "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement-II is incorrect (the State, not the Supreme Court, imposes reasonable restrictions)."
+      },
+      {
+        "text": "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement-II is incorrect."
+      },
+      {
+        "text": "Statement-I is correct, but Statement-II is incorrect",
+        "isCorrect": true,
+        "rationale": "Correct. Fundamental Rights are qualified, but reasonable restrictions are imposed by the State/Parliament, not directly by the Supreme Court."
+      },
+      {
+        "text": "Statement-I is incorrect, but Statement-II is correct",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement-I is correct and Statement-II is incorrect."
+      }
+    ],
+    "hint": "Reasonable restrictions are legislative/state measures, while the Supreme Court reviews their reasonableness."
+  },
+  {
+    "question": "In the context of Indian polity, which one of the following statements is correct?",
+    "options": [
+      {
+        "text": "Rights are conditional and suspensive.",
+        "isCorrect": false,
+        "rationale": "Incorrect. Rights are enforceable and guaranteed under normal circumstances."
+      },
+      {
+        "text": "Rights are privileges granted by Parliament to citizens.",
+        "isCorrect": false,
+        "rationale": "Incorrect. Fundamental Rights are guaranteed by the Constitution, not arbitrarily granted by Parliament."
+      },
+      {
+        "text": "Rights are absolute and cannot be restricted by the State.",
+        "isCorrect": false,
+        "rationale": "Incorrect. Fundamental Rights are subject to reasonable restrictions."
+      },
+      {
+        "text": "Rights are limitations on the authority of the State.",
+        "isCorrect": true,
+        "rationale": "Correct. Fundamental Rights act as constitutional checks and limitations on executive and legislative power."
+      }
+    ],
+    "hint": "Fundamental Rights protect individual liberty against state overreach."
+  },
+  {
+    "question": "With respect to Indian Polity, consider the following statements:\n1. Affirmative actions are constitutionally mandated.\n2. Affirmative actions are not subject to judicial review.\n3. Affirmative actions are only based on caste.\n4. Affirmative actions are not permanent.\n5. Reservation quotas are the only form of affirmative action in India.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "text": "1, 2, 3, and 4 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statements 2 and 3 are incorrect."
+      },
+      {
+        "text": "2, 3, and 5 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statements 2, 3, and 5 are incorrect."
+      },
+      {
+        "text": "1 and 4 only",
+        "isCorrect": true,
+        "rationale": "Correct. Affirmative action is constitutionally mandated (Articles 15, 16) and non-permanent (can be modified/repealed). Statements 2, 3, and 5 are false."
+      },
+      {
+        "text": "1, 4 and 5 only",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 5 is incorrect (scholarships, coaching, etc. also exist)."
+      }
+    ],
+    "hint": "Affirmative actions extend beyond caste and reservations, and are subject to judicial review."
+  },
+  {
+    "question": "Consider the following statements:\n1. Rights and duties are interdependent.\n2. Duties primarily exist to limit the exercise of rights.\nWhich of the statements given above is/are not correct?",
+    "options": [
+      {
+        "text": "1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 2 is also not correct."
+      },
+      {
+        "text": "2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 1 is also not correct."
+      },
+      {
+        "text": "Both 1 and 2",
+        "isCorrect": true,
+        "rationale": "Correct. Rights and duties are correlative, not strictly interdependent in Part III/IV-A, nor do duties exist primarily to limit rights."
+      },
+      {
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "rationale": "Incorrect because both statements 1 and 2 are not correct."
+      }
+    ],
+    "hint": "Duties complement rights to maintain social balance rather than restrict them."
+  },
+  {
+    "question": "Consider the following statements:\n1. Both the parliament and state legislatures are empowered to make laws for the enforcement of fundamental rights.\n2. The Supreme Court has exclusive jurisdiction for the enforcement of fundamental rights.\n3. Article 32 provides the right to directly approach the Supreme Court for enforcement of fundamental rights.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "1 and 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Parliament alone (under Article 35) makes laws to enforce FRs, and High Courts also enforce FRs under Article 226."
+      },
+      {
+        "text": "2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Supreme Court jurisdiction is original but not exclusive."
+      },
+      {
+        "text": "3 only",
+        "isCorrect": true,
+        "rationale": "Correct. Article 32 empowers citizens to directly approach the Supreme Court for FR enforcement."
+      },
+      {
+        "text": "1, 2, and 3",
+        "isCorrect": false,
+        "rationale": "Incorrect because statements 1 and 2 are false."
+      }
+    ],
+    "hint": "High Courts also possess writ jurisdiction under Article 226."
+  },
+  {
+    "question": "Which of the following rights reflects the idea of social justice?\n1. Abolition of untouchability\n2. Equality of opportunity in public employment\n3. Prohibition of discrimination against any citizen\n4. Protection of interests of minorities\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "text": "1, 2, and 3",
+        "isCorrect": false,
+        "rationale": "Incorrect because 4 also reflects social justice."
+      },
+      {
+        "text": "1, 3, and 4",
+        "isCorrect": false,
+        "rationale": "Incorrect because 2 also reflects social justice."
+      },
+      {
+        "text": "2, 3, and 4",
+        "isCorrect": false,
+        "rationale": "Incorrect because 1 also reflects social justice."
+      },
+      {
+        "text": "1, 2, 3, and 4",
+        "isCorrect": true,
+        "rationale": "Correct. Articles 17, 16, 15, and 29 all aim to eliminate inequalities and promote social justice."
+      }
+    ],
+    "hint": "Social justice encompasses non-discrimination, minority protection, and equal opportunity."
+  },
+  {
+    "question": "Consider the following statements:\nStatement-I: The EWS reservation under Article 15(6) is an exception to the principle of equality under Article 14.\nStatement-II: The 103rd Constitutional Amendment allows for reservations based on social and educational backwardness.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      {
+        "text": "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement-II is false."
+      },
+      {
+        "text": "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement-II is false."
+      },
+      {
+        "text": "Statement-I is correct, but Statement-II is incorrect",
+        "isCorrect": true,
+        "rationale": "Correct. Article 15(6) provides EWS reservation, but 103rd Amendment introduced reservation based specifically on economic backwardness, not social/educational backwardness."
+      },
+      {
+        "text": "Statement-I is incorrect, but Statement-II is correct",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement-I is correct and Statement-II is false."
+      }
+    ],
+    "hint": "The 103rd Amendment introduced EWS reservation based on economic status."
+  },
+  {
+    "question": "In the context of Indian polity, Consider the following statements:\n1. Right to privacy\n2. Right to education\n3. Right to free speech\n4. Right to form an association\nHow many of the above can be considered as negative rights?",
+    "options": [
+      {
+        "text": "Only one",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Only three",
+        "isCorrect": true,
+        "rationale": "Correct. Privacy, free speech, and forming associations require state non-interference (negative rights). Right to Education requires positive state action (positive right)."
+      },
+      {
+        "text": "All four",
+        "isCorrect": false,
+        "rationale": "Incorrect because Right to Education is a positive right."
+      }
+    ],
+    "hint": "Negative rights require the state to refrain from interference."
+  },
+  {
+    "question": "Consider the following statements:\n1. The right to education is a fundamental right under the right to equality.\n2. The original Constitution did not recognize the right to education as a fundamental right.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Right to Education (Article 21A) falls under Right to Life and Personal Liberty, not Right to Equality."
+      },
+      {
+        "text": "2 only",
+        "isCorrect": true,
+        "rationale": "Correct. The original Constitution contained education under DPSPs (Article 45); Article 21A was inserted by the 86th Amendment in 2002."
+      },
+      {
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 1 is false."
+      },
+      {
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 2 is correct."
+      }
+    ],
+    "hint": "Article 21A was added by the 86th Amendment Act of 2002."
+  },
+  {
+    "question": "With reference to Indian polity, Consider the following statements:\n1. The concept of Equality before Law is borrowed from the American Constitution.\n2. Under the 'Equal Protection of Laws', unequal cannot be treated equally.\n3. The Constitution provides for both 'Equality Before Law' and 'Equal Protection of Laws' in India.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "text": "1 and 2",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 1 is wrong ('Equality before Law' is of British origin)."
+      },
+      {
+        "text": "1 and 3",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 1 is wrong."
+      },
+      {
+        "text": "2 and 3",
+        "isCorrect": true,
+        "rationale": "Correct. Statements 2 and 3 are correct. 'Equal Protection of Laws' allows reasonable classification, and both concepts are under Article 14."
+      },
+      {
+        "text": "1, 2, and 3",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 1 is wrong."
+      }
+    ],
+    "hint": "'Equality before Law' is British; 'Equal Protection of Laws' is American."
+  },
+  {
+    "question": "The principle of 'equal protection of the laws,' enshrined in the Indian Constitution, draws its origin from which source?",
+    "options": [
+      {
+        "text": "The United Nations Universal Declaration of Human Rights (1948)",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "The British Common Law",
+        "isCorrect": false,
+        "rationale": "Incorrect. British Law inspired 'Equality before Law'."
+      },
+      {
+        "text": "The French Revolution (1789)",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "The American Constitution",
+        "isCorrect": true,
+        "rationale": "Correct. The 14th Amendment of the US Constitution inspired 'Equal Protection of Laws'."
+      }
+    ],
+    "hint": "It originates from the 14th Amendment of the US Constitution."
+  },
+  {
+    "question": "Consider the following statements:\n1. The right to reservation is a Fundamental Right under the Indian Constitution.\n2. The Supreme Court has set a cap of 50% on the total reservation in India, with certain exceptions.\n3. The Supreme Court allowed the sub-classification of Scheduled Castes for reservation purposes.\n4. Reservations in India can be provided based on economic reasons.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "text": "1, 2, 3, and 4",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 1 is false (there is no Fundamental Right to reservation)."
+      },
+      {
+        "text": "1, 2, and 3",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 1 is false."
+      },
+      {
+        "text": "1, 3, and 4",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 1 is false."
+      },
+      {
+        "text": "2, 3, and 4",
+        "isCorrect": true,
+        "rationale": "Correct. Reservation is an enabling provision, not a Fundamental Right. Statements 2, 3, and 4 are correct."
+      }
+    ],
+    "hint": "Reservation is an enabling constitutional power, not a claimable fundamental right."
+  },
+  {
+    "question": "Consider the following statement:\n1. Fundamental Rights to abolish untouchability as a form of discrimination are incorporated under the provisions of right to life.\n2. The term 'untouchability' is defined in the constitution.\nWhich of the statements given above are not correct?",
+    "options": [
+      {
+        "text": "1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 2 is also wrong."
+      },
+      {
+        "text": "2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement 1 is also wrong."
+      },
+      {
+        "text": "Both 1 and 2",
+        "isCorrect": true,
+        "rationale": "Correct. Abolition of untouchability is under Right to Equality (Article 17), and 'untouchability' is not defined in the Constitution."
+      },
+      {
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "rationale": "Incorrect because both statements are not correct."
+      }
+    ],
+    "hint": "Article 17 falls under Right to Equality, and the word 'untouchability' remains undefined in the text."
+  },
+  {
+    "question": "Consider the following statements:\n1. No citizen of India can accept any title from any foreign state.\n2. Article 18 prohibits the state from conferring any title on citizens of India.\n3. A foreigner holding any office of profit or trust under the state can accept a title from a foreign state without the consent of the President.\n4. National Awards can be used as suffixes or prefixes to the names of awardees.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "Only one",
+        "isCorrect": true,
+        "rationale": "Correct. Only Statement 1 is correct. State can confer military/academic titles (Statement 2 wrong); President's consent is mandatory for foreigners (Statement 3 wrong); National awards cannot be used as prefixes/suffixes (Statement 4 wrong)."
+      },
+      {
+        "text": "Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Only three",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "All four",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Military and academic distinctions are exceptions to title prohibitions."
+  },
+  {
+    "question": "Consider the following statements:\nStatement-I: Private individuals can be held liable for violating the fundamental rights of others, even if they are not acting on behalf of the state.\nStatement-II: According to Article 12, fundamental rights are enforced against both the State and private individuals.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      {
+        "text": "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement-II is false."
+      },
+      {
+        "text": "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "isCorrect": false,
+        "rationale": "Incorrect because Statement-II is false."
+      },
+      {
+        "text": "Statement-I is correct, but Statement-II is incorrect",
+        "isCorrect": true,
+        "rationale": "Correct. Certain FRs apply horizontally against private persons (e.g. Art 17, 23, 21), but Article 12 defines 'State' for vertical enforceability."
+      },
+      {
+        "text": "Statement-I is incorrect, but Statement-II is correct",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Article 12 defines only 'the State'."
+  },
+  {
+    "question": "Which of the following Fundamental Rights are protected under Article 19 of the Constitution of India?\n1. Right to assemble peacefully and without arms\n2. Freedom to travel abroad\n3. Right to form associations\n4. Right to reside in any part of the territory of India\n5. Right to property\nSelect the correct answer using the code given below",
+    "options": [
+      {
+        "text": "1, 3, and 4",
+        "isCorrect": true,
+        "rationale": "Correct. Right to travel abroad is under Article 21 (Maneka Gandhi case), and Right to Property was deleted from FRs by the 44th Amendment."
+      },
+      {
+        "text": "1, 2, 3, and 4",
+        "isCorrect": false,
+        "rationale": "Incorrect because 2 is under Article 21."
+      },
+      {
+        "text": "2, 3, and 5",
+        "isCorrect": false,
+        "rationale": "Incorrect because 2 is under Article 21 and 5 is a legal right (Article 300A)."
+      },
+      {
+        "text": "1, 2, 3, 4, and 5",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Foreign travel falls under Article 21, and property right was moved to Article 300A."
+  },
+  {
+    "question": "Consider the following statements:\n1. Same-sex couples have the right to form civil unions under the Special Marriage Act, 1954.\n2. The right to marry is a fundamental right under the Indian Constitution.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Supreme Court declined to extend SMA to same-sex civil unions."
+      },
+      {
+        "text": "2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Supreme Court ruled in Supriyo case (2023) that right to marry is not a fundamental right."
+      },
+      {
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Neither 1 nor 2",
+        "isCorrect": true,
+        "rationale": "Correct. Both statements are incorrect according to Supreme Court rulings."
+      }
+    ],
+    "hint": "Supreme Court held that marriage is not an absolute fundamental right."
+  },
+  {
+    "question": "Which of the following provisions in the Indian Constitution ensure protection against self-incrimination?\n1. No person accused of an offence shall be compelled to be a witness against themselves.\n2. No person accused of an offence can refuse to give a specimen signature and blood specimens.\n3. The protection against self-incrimination extends to both civil and criminal proceedings.\nHow many of the above statements are correct?",
+    "options": [
+      {
+        "text": "Only one",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 1 is correct (Article 20(3)). Statement 2 is wrong (giving signatures/blood is compulsory/allowed exemption) and Statement 3 is wrong (applies only to criminal proceedings)."
+      },
+      {
+        "text": "Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "All three",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "None",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Self-incrimination immunity under Article 20(3) applies only to criminal cases and excludes physical samples."
+  },
+  {
+    "question": "'Right to be forgotten' is protected under which Article of the Constitution of India?",
+    "options": [
+      {
+        "text": "Article 21",
+        "isCorrect": true,
+        "rationale": "Correct. It is interpreted as an intrinsic part of the Right to Privacy under Article 21."
+      },
+      {
+        "text": "Article 14",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Article 19",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "None of the above",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "It is tied to privacy established in the Puttaswamy judgement."
+  },
+  {
+    "question": "Consider the following Statements:\n1. Internet shutdowns in India are governed by section 144 of the Criminal Procedure Code (CrPC).\n2. The right to have the Internet is a fundamental right.\n3. Internet shutdown orders must be approved by the Prime Minister's office of India.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "text": "1 and 2",
+        "isCorrect": false,
+        "rationale": "Incorrect. Shutdowns are governed by Telecom Suspension Rules 2017."
+      },
+      {
+        "text": "2 only",
+        "isCorrect": true,
+        "rationale": "Correct. In Anuradha Bhasin case, SC held internet access is protected under Article 19(1)(a) & 19(1)(g)."
+      },
+      {
+        "text": "3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. PMO approval is not required."
+      },
+      {
+        "text": "2, and 3",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Anuradha Bhasin ruling linked internet access to freedom of speech and trade under Article 19."
+  },
+  {
+    "question": "Which of the following Rights are not granted under Article 21 of the Indian constitution?",
+    "options": [
+      {
+        "text": "Right to have a healthy environment.",
+        "isCorrect": false,
+        "rationale": "Incorrect. Environment rights fall under Article 21."
+      },
+      {
+        "text": "Right to sleep",
+        "isCorrect": false,
+        "rationale": "Incorrect. Right to sleep is recognized under Article 21."
+      },
+      {
+        "text": "Right to travel abroad",
+        "isCorrect": false,
+        "rationale": "Incorrect. Foreign travel is part of Article 21."
+      },
+      {
+        "text": "Right to adopt a child",
+        "isCorrect": true,
+        "rationale": "Correct. Adoption rights are governed by statutory acts (HAMA 1956, JJ Act 2015), not directly under Article 21."
+      }
+    ],
+    "hint": "Adoption in India is regulated by personal laws and statutory legislation."
+  },
+  {
+    "question": "Consider the following statements:\nStatement-I: Foreigners in India do not have the freedom of speech and expression as a fundamental right.\nStatement-II: Article 21 applies universally to all persons within the territory of India.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      {
+        "text": "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement-II does not explain Statement-I."
+      },
+      {
+        "text": "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "isCorrect": true,
+        "rationale": "Correct. Article 19 rights (speech) apply only to citizens, whereas Article 21 applies to all persons."
+      },
+      {
+        "text": "Statement-I is correct, but Statement-II is incorrect",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Statement-I is incorrect, but Statement-II is correct",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Article 19 is reserved exclusively for Indian citizens."
+  },
+  {
+    "question": "Consider the following statements:\n1. The Parliament of India can place a particular law in the Ninth Schedule of the Constitution of India.\n2. The validity of a law placed in the Ninth Schedule cannot be examined by any court and no judgement can be made on it.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "1 only",
+        "isCorrect": true,
+        "rationale": "Correct. Parliament can place laws in the Ninth Schedule, but post-1973 laws in Ninth Schedule are subject to judicial review (I.R. Coelho case)."
+      },
+      {
+        "text": "2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Post-1973 Ninth Schedule laws can be judicially reviewed for basic structure violations."
+  },
+  {
+    "question": "Right to vote and to be elected in India is a:",
+    "options": [
+      {
+        "text": "Fundamental Right",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Natural Right",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Constitutional Right",
+        "isCorrect": true,
+        "rationale": "Correct. Enshrined under Article 326 of the Constitution."
+      },
+      {
+        "text": "Legal Right",
+        "isCorrect": false,
+        "rationale": "Incorrect (it is primarily constitutional under Article 326)."
+      }
+    ],
+    "hint": "Articles 325 and 326 provide for adult suffrage."
+  },
+  {
+    "question": "Which of the following is the most appropriate definition of the Right to Equality?",
+    "options": [
+      {
+        "text": "Giving everyone the same treatment irrespective of their status in the society.",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "To do away with all sorts of distinctions in the society.",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Providing an atmosphere where everyone has the same rights and duties.",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Enabling everyone to have an equal opportunity to achieve whatever one is capable of.",
+        "isCorrect": true,
+        "rationale": "Correct. Right to Equality empowers individuals through equal opportunity."
+      }
+    ],
+    "hint": "True equality treats equals equally and provides equal opportunity."
+  },
+  {
+    "question": "Which of the following is an instance of an exercise of a Fundamental Right?\n1. An Indian from one state may travel freely throughout the territory of India and may settle in part until not limited.\n2. Any Indian citizen may choose to own land in any part of the country to start a business until not limited.\n3. A citizen of India who is accused of any offence, may choose not to provide his/her biometric details until not limited.\nSelect the correct answer using the codes given below:",
+    "options": [
+      {
+        "text": "1 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "1 and 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "1, 2 and 3",
+        "isCorrect": true,
+        "rationale": "Correct as per the official answer key provided in the assessment document."
+      }
+    ],
+    "hint": "Movement and settlement freedoms stem from Article 19."
+  },
+  {
+    "question": "The Constitution has provided different 'Rights to ensure Fair trial'. Which of the following are Such Rights?\n1. No person would be punished for the Same Offence more than once.\n2. No Law shall declare any action as illegal retrospectively.\n3. No Person shall be asked to give evidence against himself.\nChoose the correct code:",
+    "options": [
+      {
+        "text": "1 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "All of these",
+        "isCorrect": true,
+        "rationale": "Correct. Article 20 protects against double jeopardy, ex-post-facto laws, and self-incrimination."
+      },
+      {
+        "text": "None of these",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Article 20 covers ex-post-facto laws, double jeopardy, and self-incrimination."
+  },
+  {
+    "question": "Which of the following statements validate the objective of 'Fundamental Rights':\n1. These Rights are the consequence of the Declaration contained in the Preamble.\n2. These rights are guarantees of the way of life.\n3. An act of State, whether legislative or executive, if inconsistent with fundamental rights will be considered null and void.\nChoose the correct code:",
+    "options": [
+      {
+        "text": "1 and 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "2 only",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 2 directly reflects the primary objective of guarantees of democratic way of life."
+      },
+      {
+        "text": "2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "All of these",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Fundamental Rights guarantee democratic living and personal freedom."
+  },
+  {
+    "question": "Which of the following Fundamental rights are available against 'Private Individuals only'?\n1. Article 15(2)\n2. Article 17\n3. Article 23\n4. Article 16\nChoose the correct code:",
+    "options": [
+      {
+        "text": "1, 2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Articles 15(2), 17, and 23 are available against both State and private individuals, not ONLY private individuals."
+      },
+      {
+        "text": "2, 3 and 4 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "None of these",
+        "isCorrect": true,
+        "rationale": "Correct. None of these rights are available against private individuals 'only'."
+      },
+      {
+        "text": "All of these",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Check whether these rights apply against both State and private actors simultaneously."
+  },
+  {
+    "question": "Which of the following constitutes the part of 'Freedom of Speech and Expression'?\n1. Right to know Information\n2. Right to maintain silence\n3. Right to choose the medium of Instruction\n4. No pre censorship of the press\nChoose the correct code:",
+    "options": [
+      {
+        "text": "1 and 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "1, 2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "1, 3 and 4 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "All of these",
+        "isCorrect": true,
+        "rationale": "Correct. Article 19(1)(a) includes RTI, freedom of silence, choice of medium, and press protection."
+      }
+    ],
+    "hint": "Article 19(1)(a) has a broad scope covering silent expression, information, and press."
+  },
+  {
+    "question": "Which of the following is correct with respect to 'Freedom of Conscience':\n1. It has no necessary connection with any particular religion or any faith in God.\n2. It implies the right not to be converted into another religion and to belong to any religion at all.\nChoose the correct code:",
+    "options": [
+      {
+        "text": "1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Both 1 and 2",
+        "isCorrect": true,
+        "rationale": "Correct. Freedom of conscience deals with inner freedom independent of external religious beliefs."
+      },
+      {
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Conscience is an individual's inner freedom of belief or non-belief."
+  },
+  {
+    "question": "Consider the following statements with respect to 'Preventive Detention':\n1. It is the right of detenu to be informed of the ground of detention.\n2. The first law relating to Preventive detention was enforced in 1950.\n3. One can't be detained beyond three months without the approval of the Advisory Committee.\nChoose the correct code:",
+    "options": [
+      {
+        "text": "1 and 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "All of these",
+        "isCorrect": true,
+        "rationale": "Correct. Article 22 provides grounds disclosure, advisory committee approval for >3 months, and Preventive Detention Act was enacted in 1950."
+      }
+    ],
+    "hint": "Article 22 mandates communication of grounds and advisory committee approval."
+  },
+  {
+    "question": "With reference to the Fundamental Rights, consider the following statements:\n1. Reasonable restrictions can be imposed on them only by the State.\n2. They are sacrosanct and cannot be repealed by the Parliament.\n3. All of them are available only against the arbitrary action of the state.\nHow many of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "Only one",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 1 is correct. Parliament can alter/curtail FRs via Constitutional Amendments (Statement 2 wrong); Some FRs apply against private individuals (Statement 3 wrong)."
+      },
+      {
+        "text": "Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "All three",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "None",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Parliament can amend FRs without altering the basic structure."
+  },
+  {
+    "question": "Consider the following:\n1. Right against tapping of telephonic conversation.\n2. Right to know about government activities.\n3. Right to answer the criticism.\n4. Right against handcuffing.\n5. Right to demonstration or picketing and strike.\nHow many of the above comes under the ambit of Freedom of Speech and Expression granted by Article 19 of the Indian Constitution?",
+    "options": [
+      {
+        "text": "Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Only three",
+        "isCorrect": true,
+        "rationale": "Correct. Statements 1, 2, and 3 fall under Article 19. Handcuffing comes under Article 21, and there is no fundamental right to strike."
+      },
+      {
+        "text": "Only four",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "All five",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Handcuffing falls under Article 21 and the right to strike is not fundamental."
+  },
+  {
+    "question": "With reference to the Protection in respect of conviction for offences, consider the following statements:\n1. No penalties can be imposed for both criminal and civil offence retrospectively.\n2. The protection under Article 20 extends to the preventive detention cases.\n3. The protection against double jeopardy is available only in proceedings before a court of law.\n4. No person shall be compelled to give his/her thumb impression and blood specimens.\nHow many of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "Only one",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 3 is correct. Civil/tax laws can apply retrospectively (Statement 1 wrong); Art 20 doesn't protect preventive detention (Statement 2 wrong); bodily/fingerprint samples are allowed (Statement 4 wrong)."
+      },
+      {
+        "text": "Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Only three",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "All four",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Retrospective penalties apply strictly to criminal, not civil laws."
+  },
+  {
+    "question": "Consider the following with respect to the Fundamental Rights granted by the Constitution of India:\n1. Prohibition of Traffic in Human Beings and Forced Labour protects the individual only against the State.\n2. No person shall be compelled to pay any taxes or fee for the promotion or maintenance of any particular religion or religious denomination.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Article 23 protects against private persons too."
+      },
+      {
+        "text": "2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Article 27 prohibits levy of 'taxes', not 'fees'."
+      },
+      {
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Neither 1 nor 2",
+        "isCorrect": true,
+        "rationale": "Correct. Both statements 1 and 2 are incorrect."
+      }
+    ],
+    "hint": "Article 27 prohibits tax levies, but permits fee collection for secular services."
+  },
+  {
+    "question": "Which of the following comes under the meaning of State for the purpose of Part III of the Constitution?\n1. National Council of Educational Research and Training\n2. Central Board of Secondary Education\n3. Ramkrishna Mission\n4. Cooperatives\nHow many of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "Only one",
+        "isCorrect": true,
+        "rationale": "Correct. Only CBSE fits the criteria of 'State' under Article 12, whereas NCERT is autonomous, Ramkrishna Mission lacks state control, and cooperatives are tested case-by-case."
+      },
+      {
+        "text": "Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Only three",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "All four",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Check statutory origin and extent of government control."
+  },
+  {
+    "question": "Which of the following comes under the meaning of Law according to Article 13 in Part III of the Constitution?\n1. Bye Laws of Statutory body\n2. Regulations made by LIC\n3. Personal Laws\n4. Administrative instruction\nHow many of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "Only one",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "Only two",
+        "isCorrect": true,
+        "rationale": "Correct. Statutory bye-laws and LIC regulations (1 and 2) fall under Article 13. Personal laws and administrative instructions do not."
+      },
+      {
+        "text": "Only three",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "All four",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Statutory rules and notifications are law under Article 13."
+  },
+  {
+    "question": "Consider the following Statements regarding Right to Equality:\n1. Rule of Law is the part of Equality before law.\n2. Equal protection of the law is incurred from the 14th Amendment Act of the US constitution.\n3. The laws enacted by the Parliament to enforce any of the directive Principles cannot be challenged on the ground that it violates Article 14.\nHow many of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "Only one",
+        "isCorrect": true,
+        "rationale": "Correct as per the solution key answer."
+      },
+      {
+        "text": "Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "All three",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "None",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Article 31C protects laws implementing Articles 39(b) and 39(c) specifically."
+  },
+  {
+    "question": "Consider the following statements regarding Right to Freedom:\n1. Freedom of Assembly can be limited on the ground of sovereignty and integrity of India and Public Morality.\n2. Freedom of Trade and Business can be limited on the ground of Public order.\n3. Freedom of Movement can be restricted on the ground of public interest.\nChoose the correct code:",
+    "options": [
+      {
+        "text": "1 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "2 Only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "3 only",
+        "isCorrect": true,
+        "rationale": "Correct. Movement can be restricted in public interest or protection of STs. Assembly is limited by sovereignty, integrity, and public order (not morality). Trade is limited by technical qualifications or state monopoly."
+      }
+    ],
+    "hint": "Check specific grounds for restriction under Article 19 clauses."
+  },
+  {
+    "question": "Consider the following statements with respect to Freedom of Speech and Expression:\n1. It is available only to the citizens of India and not to foreign nationals.\n2. Freedom of speech and expression can be limited only by the law, not by the executive action.\n3. Right to Freedom of Speech and Expression is exercisable only in India.\nChoose the correct code:",
+    "options": [
+      {
+        "text": "1 and 3 only",
+        "isCorrect": true,
+        "rationale": "Correct as designated in the answer key."
+      },
+      {
+        "text": "1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "1 and 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      }
+    ],
+    "hint": "Article 19 rights are citizen-exclusive."
+  },
+  {
+    "question": "With reference to Article 23 of the Indian Constitution, consider the following statements:\n1. It prohibits traffic in human beings as well as the employment of children below the age of 14 years in any hazardous activities.\n2. This right is available to both citizens and non-citizens.\n3. It does not provide what constitutes 'traffic in human beings'.\n4. It prohibits 'begar' but does not prohibit other 'similar forms of forced labour'.\n\nHow many of the statements given above are not correct?",
+    "options": [
+      {
+        "text": "(a) Only one",
+        "isCorrect": false,
+        "rationale": "Incorrect. Exactly two statements (Statement 1 and Statement 4) are not correct."
+      },
+      {
+        "text": "(b) Only two",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 1 is incorrect because Article 24 (not Article 23) prohibits child labor under 14 years. Statement 4 is incorrect because Article 23 explicitly prohibits 'begar' and other similar forms of forced labour like bonded labour. Statements 2 and 3 are correct."
+      },
+      {
+        "text": "(c) Only three",
+        "isCorrect": false,
+        "rationale": "Incorrect. Only two statements are incorrect."
+      },
+      {
+        "text": "(d) All four",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statements 2 and 3 are correct."
+      }
+    ],
+    "hint": "Prohibition of child labor is specified under Article 24, whereas forced labor and human trafficking are addressed under Article 23."
+  },
+  {
+    "question": "Consider the following statements with reference to the Right to freedom of religion provided under Article 25 of the Constitution:\n1. The right to profess, practice and propagate can be restricted on the basis of public order, morality and health only.\n2. Being a secular democracy, the State is restricted from regulating or restricting any economic, financial or political activity associated with religious practice.\n3. In the context of Article 25, Hindus include Sikhs, Jains and Buddhists.\n\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "(a) 1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 1 is incorrect as rights under Article 25 are subject to public order, morality, health AND other provisions of Part III."
+      },
+      {
+        "text": "(b) 1 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 1 is incorrect."
+      },
+      {
+        "text": "(c) 3 only",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 3 is correct because Article 25 contains an explanation stating that references to Hindus shall be construed as including persons professing the Sikh, Jain, or Buddhist religion. Statements 1 and 2 are incorrect."
+      },
+      {
+        "text": "(d) 1, 2 and 3",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statements 1 and 2 are incorrect."
+      }
+    ],
+    "hint": "Article 25 explicitly outlines that Sikhs, Jains, and Buddhists fall under the broader legal definition of Hindus for this context."
+  },
+  {
+    "question": "Consider the following statements:\n1. Protection under Article 30 extends to any section of citizens in India.\n2. Only religious and linguistic minorities find mention in Article 30 of the Constitution of India in reference to the right to establish educational institutions of their choice.\n\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "(a) 1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Article 30 extends specifically to minorities, not to 'any section of citizens' (which is covered under Article 29)."
+      },
+      {
+        "text": "(b) 2 only",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 1 is incorrect as Article 30 is confined to minorities. Statement 2 is correct as Article 30 explicitly mentions religious and linguistic minorities."
+      },
+      {
+        "text": "(c) Both 1 and 2",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 1 is incorrect."
+      },
+      {
+        "text": "(d) Neither 1 nor 2",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 is correct."
+      }
+    ],
+    "hint": "Article 30 grants protection specifically to religious and linguistic minorities."
+  },
+  {
+    "question": "How many of the following come under the definition of 'State' under Article 12 of the Indian Constitution?\n1. Legislative organ of the Union government\n2. Panchayats\n3. State Bank of India\n4. NCERT\n5. BCCI\n\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "text": "(a) Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect. Three entities fall under the definition."
+      },
+      {
+        "text": "(b) Only three",
+        "isCorrect": true,
+        "rationale": "Correct. Union Legislature, Panchayats, and State Bank of India (SBI) fall under 'State'. NCERT (held in Chander Mohan Khanna vs NCERT) and BCCI (held in Zee Telefilms v. UOI) are private/autonomous bodies not substantially financed or pervasive-controlled by the government."
+      },
+      {
+        "text": "(c) Only four",
+        "isCorrect": false,
+        "rationale": "Incorrect. NCERT and BCCI are excluded."
+      },
+      {
+        "text": "(d) All five",
+        "isCorrect": false,
+        "rationale": "Incorrect. NCERT and BCCI are excluded."
+      }
+    ],
+    "hint": "Autonomous organizations like NCERT and private sports bodies like BCCI are not considered 'State' under Article 12."
+  },
+  {
+    "question": "'Economic Justice' as one of the objectives of the Indian Constitution has been provided in",
+    "options": [
+      {
+        "text": "(a) The Preamble and Fundamental Rights",
+        "isCorrect": false,
+        "rationale": "Incorrect. Economic justice is provided in the Preamble and DPSP, not Fundamental Rights."
+      },
+      {
+        "text": "(b) The Preamble and the Directive Principles of State Policy",
+        "isCorrect": true,
+        "rationale": "Correct. 'Economic Justice' is mentioned in the Preamble (Justice - social, economic, and political) and operationalized through the Directive Principles of State Policy (Part IV, e.g., Articles 38 and 39A)."
+      },
+      {
+        "text": "(c) The Fundamental Rights and the Directive Principles of State Policy",
+        "isCorrect": false,
+        "rationale": "Incorrect. Fundamental Rights primarily establish political democracy."
+      },
+      {
+        "text": "(d) None of the above",
+        "isCorrect": false,
+        "rationale": "Incorrect. Option (b) is correct."
+      }
+    ],
+    "hint": "Economic Justice is pledged alongside Social and Political Justice in the opening declaration of the Constitution and detailed in Part IV."
+  },
+  {
+    "question": "Consider the following statements with respect to Article 15 of the Indian Constitution:\n1. The State shall not discriminate against any person on grounds only of religion, race, caste, sex or place of birth.\n2. It provides that the State is empowered to make any special provision for the advancement of any economically weaker sections of citizens.\n3. The article does allow the state to make special provisions for women and children.\n\nWhich of the statements given above is/are not correct?",
+    "options": [
+      {
+        "text": "(a) 1 only",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 1 is not correct because Article 15 prohibits discrimination against 'any citizen', not 'any person'. Statements 2 and 3 are correct."
+      },
+      {
+        "text": "(b) 2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statements 2 and 3 are correct."
+      },
+      {
+        "text": "(c) 1 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 3 is correct."
+      },
+      {
+        "text": "(d) 1, 2 and 3",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statements 2 and 3 are correct."
+      }
+    ],
+    "hint": "Check the exact wording of Article 15(1) regarding to whom the protection applies (citizens vs persons)."
+  },
+  {
+    "question": "Dr. Bhim Rao Ambedkar described which of the following Articles of the Indian Constitution as the \"heart and soul\" of the Constitution?",
+    "options": [
+      {
+        "text": "(a) Article 14",
+        "isCorrect": false,
+        "rationale": "Incorrect. Article 14 relates to Equality before Law."
+      },
+      {
+        "text": "(b) Article 17",
+        "isCorrect": false,
+        "rationale": "Incorrect. Article 17 deals with the Abolition of Untouchability."
+      },
+      {
+        "text": "(c) Article 21",
+        "isCorrect": false,
+        "rationale": "Incorrect. Article 21 guarantees Protection of Life and Personal Liberty."
+      },
+      {
+        "text": "(d) Article 32",
+        "isCorrect": true,
+        "rationale": "Correct. Dr. Ambedkar called Article 32 (Right to Constitutional Remedies) the most important article, without which the Constitution would be a nullity, referring to it as its heart and soul."
+      }
+    ],
+    "hint": "This article guarantees the right to move the Supreme Court for enforcement of fundamental rights."
+  },
+  {
+    "question": "Consider the following pairs of cases and their subject matter:\n1. K.S. Puttaswamy vs Union of India - Declaration on Fundamental Right\n2. Anuradha Bhasin vs Union of India - Freedom of speech; Access to Internet to carry on trade and profession\n3. Navtej Singh Johar vs Union of India - Decriminalisation of consensual sex among adults\n\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "text": "(a) Only one",
+        "isCorrect": false,
+        "rationale": "Incorrect. Two pairs are correctly matched."
+      },
+      {
+        "text": "(b) Only two",
+        "isCorrect": true,
+        "rationale": "Correct. Pair 2 (Anuradha Bhasin - Internet freedom under Art 19) and Pair 3 (Navtej Singh Johar - Decriminalisation of Sec 377) are correctly matched. Pair 1 is mismatched in this specific table comparison context."
+      },
+      {
+        "text": "(c) All three",
+        "isCorrect": false,
+        "rationale": "Incorrect. Only two pairs are correctly matched."
+      },
+      {
+        "text": "(d) None",
+        "isCorrect": false,
+        "rationale": "Incorrect. Pairs 2 and 3 are correctly matched."
+      }
+    ],
+    "hint": "Anuradha Bhasin deals with internet rights and Navtej Singh Johar deals with Section 377."
+  },
+  {
+    "question": "Consider the following statements:\nStatement-I: Social Exclusion of women, based on menstrual status, is a form of untouchability.\nStatement-II: Women have a constitutional entitlement that their biological processes must be free from social and religious practices, which enforce segregation and exclusion.\n\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      {
+        "text": "(a) Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I.",
+        "isCorrect": true,
+        "rationale": "Correct. Both statements are correct, and constitutional provisions ensuring equality and dignity (Articles 14, 15, 17) explain why social exclusion based on biological processes is illegal and akin to untouchability."
+      },
+      {
+        "text": "(b) Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I.",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement-II does correctly explain Statement-I."
+      },
+      {
+        "text": "(c) Statement-I is correct but Statement-II is incorrect.",
+        "isCorrect": false,
+        "rationale": "Incorrect. Both statements are correct."
+      },
+      {
+        "text": "(d) Statement-I is incorrect but Statement-II is correct.",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement-I is correct."
+      }
+    ],
+    "hint": "The Sabarimala case linked biological exclusion with Article 17 and human dignity."
+  },
+  {
+    "question": "Consider the following statements with respect to the Fundamental Rights:\n1. While ordinary legal rights are protected and enforced by ordinary law, Fundamental Rights are protected and guaranteed by the constitution of the country.\n2. The judiciary has the powers and responsibility to protect the fundamental rights from violations by actions of the government.\n\nWhich of the statements given above is/are not correct?",
+    "options": [
+      {
+        "text": "(a) 1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 1 is correct."
+      },
+      {
+        "text": "(b) 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 is correct."
+      },
+      {
+        "text": "(c) Both 1 and 2",
+        "isCorrect": false,
+        "rationale": "Incorrect. Both statements are correct."
+      },
+      {
+        "text": "(d) Neither 1 nor 2",
+        "isCorrect": true,
+        "rationale": "Correct. Both Statement 1 and Statement 2 are correct statements, hence neither is 'not correct'."
+      }
+    ],
+    "hint": "Identify if any of the statements misstate the nature of Fundamental Rights compared to ordinary legal rights."
+  },
+  {
+    "question": "With reference to the idea of freedom in polity, consider the following statements:\n1. It signifies the total absence of constraints.\n2. It allows the full development of the individual's creativity and capabilities.\n3. A free society enables individuals to pursue their interests without any constraints.\n\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "(a) 1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 1 is incorrect because freedom is not total absence of constraints."
+      },
+      {
+        "text": "(b) 2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 3 is incorrect."
+      },
+      {
+        "text": "(c) 2 only",
+        "isCorrect": true,
+        "rationale": "Correct. Freedom exists when external constraints are absent or minimized reasonably to enable individuals to develop their potential. Total absence of constraints (Statements 1 and 3) leads to chaos, not ordered liberty."
+      },
+      {
+        "text": "(d) 1 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statements 1 and 3 are incorrect."
+      }
+    ],
+    "hint": "Liberty in political theory requires reasonable constraints to prevent societal chaos."
+  },
+  {
+    "question": "Consider the following rights:\n1. Right to form political parties\n2. Right to contest election\n3. Right to vote\n4. Right to join political parties\n\nHow many of the above rights are considered as political rights?",
+    "options": [
+      {
+        "text": "(a) Only one",
+        "isCorrect": false,
+        "rationale": "Incorrect. All four are political rights."
+      },
+      {
+        "text": "(b) Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect. All four are political rights."
+      },
+      {
+        "text": "(c) Only three",
+        "isCorrect": false,
+        "rationale": "Incorrect. All four are political rights."
+      },
+      {
+        "text": "(d) All four",
+        "isCorrect": true,
+        "rationale": "Correct. Political rights give citizens equality before the law and political participation. They include voting, electing representatives, contesting elections, and forming or joining political parties."
+      }
+    ],
+    "hint": "Political rights encompass all avenues of active citizen participation in democracy and election processes."
+  },
+  {
+    "question": "With respect to the Directive Principles of State Policy (DPSP) of the Indian Constitution, consider the following statements:\n1. They are justiciable in nature.\n2. They aim to establish political democracy in the country.\n3. They do not require legislation for their implementation.\n4. Wage disparity between both men and women violates the DPSP.\n\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "text": "(a) Only one",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 4 is correct (Article 39(d) prescribes equal pay for equal work). Statements 1, 2, and 3 are incorrect because DPSPs are non-justiciable, establish socio-economic (not political) democracy, and require legislation for enforcement."
+      },
+      {
+        "text": "(b) Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect. Only Statement 4 is correct."
+      },
+      {
+        "text": "(c) Only three",
+        "isCorrect": false,
+        "rationale": "Incorrect. Only Statement 4 is correct."
+      },
+      {
+        "text": "(d) All four",
+        "isCorrect": false,
+        "rationale": "Incorrect. Only Statement 4 is correct."
+      }
+    ],
+    "hint": "DPSPs aim for socio-economic democracy and are legally non-enforceable without enabling legislation."
+  },
+  {
+    "question": "With reference to the Fundamental Duties of an Indian citizen, consider the following statements:\n1. They were part of the original Constitution.\n2. They apply to both Indian citizens and foreigners.\n3. They are enforceable by law.\n\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "(a) 1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Fundamental Duties were added in 1976."
+      },
+      {
+        "text": "(b) 2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 is incorrect as duties apply only to citizens."
+      },
+      {
+        "text": "(c) 3 only",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 3 is correct because Parliament can provide for penalty or punishment for failure to fulfill duties by enacting suitable laws. Statements 1 and 2 are incorrect."
+      },
+      {
+        "text": "(d) 1, 2 and 3",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statements 1 and 2 are incorrect."
+      }
+    ],
+    "hint": "Parliament can create statutory laws to enforce specific Fundamental Duties."
+  },
+  {
+    "question": "With reference to the Fundamental Duties of an Indian citizen, consider the following statements:\n1. The Santhanam Committee recommended adding a separate chapter on fundamental duties to the Constitution.\n2. It was added by the 52nd Amendment Act of 1985 to the Constitution of India.\n3. The Fundamental Duties in the Indian Constitution were inspired by the Constitution of the former USSR.\n\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "(a) 1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 1 is incorrect because Swaran Singh Committee recommended Fundamental Duties."
+      },
+      {
+        "text": "(b) 2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 is incorrect (added by 42nd Amendment Act, 1976)."
+      },
+      {
+        "text": "(c) 3 only",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 3 is correct as Fundamental Duties were inspired by the erstwhile USSR Constitution. Statements 1 and 2 are incorrect."
+      },
+      {
+        "text": "(d) 1, 2 and 3",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statements 1 and 2 are incorrect."
+      }
+    ],
+    "hint": "Recall the committee headed by Sardar Swaran Singh and the 42nd Constitutional Amendment Act of 1976."
+  },
+  {
+    "question": "The idea of 'Economic Justice' as an objective of Constitution has been provided in which of the following provisions of Indian Constitution?",
+    "options": [
+      {
+        "text": "(a) The Preamble and the Fundamental Rights",
+        "isCorrect": false,
+        "rationale": "Incorrect. Fundamental Rights primarily confer political rights."
+      },
+      {
+        "text": "(b) The Preamble and the Directive Principles of State Policy",
+        "isCorrect": true,
+        "rationale": "Correct. Economic justice is explicit in the Preamble and operationalized through Part IV (DPSPs, e.g., Articles 38, 39, and 41)."
+      },
+      {
+        "text": "(c) The Directive Principles of State Policy and the Fundamental Rights",
+        "isCorrect": false,
+        "rationale": "Incorrect. Option (b) correctly pair Preamble and DPSP."
+      },
+      {
+        "text": "(d) The Directive Principles of State Policy and the Fundamental Duties",
+        "isCorrect": false,
+        "rationale": "Incorrect. Fundamental Duties deal with obligations of citizens."
+      }
+    ],
+    "hint": "Check the Preamble text for 'Justice' categories and Part IV directives."
+  },
+  {
+    "question": "With reference to the Directive Principles of State Policy (DPSPs), consider the following statements:\n1. The implementation of the Uniform Civil Code as mentioned in Article 44 is enforceable by courts.\n2. All DPSPs were made non-justiciable through the 25th Constitutional Amendment Act.\n3. The 86th Constitutional Amendment Act gave effect to a Directive Principle relating to education.\n\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "(a) 2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 is incorrect because DPSPs were non-justiciable from the inception of the Constitution."
+      },
+      {
+        "text": "(b) 1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 1 is incorrect."
+      },
+      {
+        "text": "(c) 3 only",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 3 is correct because the 86th Amendment Act (2002) inserted Article 21A, giving effect to Article 45 regarding education."
+      },
+      {
+        "text": "(d) 1 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 1 is incorrect."
+      }
+    ],
+    "hint": "The 86th Amendment made elementary education a Fundamental Right under Article 21A."
+  },
+  {
+    "question": "Which of the following statements correctly describes the reasons for the Directive Principles of State Policy (DPSPs) being non-enforceable in any court of law?\n1. India lacked sufficient resources at the time of independence to implement all the Directive Principles effectively.\n2. Directive Principles have no connection with Fundamental Rights and were therefore made non-enforceable.\n3. The vast diversity and uneven socio-economic development across India hinder uniform implementation of the Directive Principles.\n\nSelect the correct option:",
+    "options": [
+      {
+        "text": "(a) 1 and 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 is incorrect."
+      },
+      {
+        "text": "(b) 1 and 3 only",
+        "isCorrect": true,
+        "rationale": "Correct. Financial resource constraints (Statement 1) and vast diversity/uneven development (Statement 3) were the main reasons framers made DPSPs non-enforceable."
+      },
+      {
+        "text": "(c) 2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 is incorrect."
+      },
+      {
+        "text": "(d) 1, 2, and 3",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 is incorrect."
+      }
+    ],
+    "hint": "Lack of financial resources and vast regional diversity were key factors for making DPSPs non-justiciable."
+  },
+  {
+    "question": "Which of the following statements correctly highlights the differences between Fundamental Rights and Directive Principles of State Policy (DPSPs)?\n1. While Fundamental Rights require legislation for their enforcement, Directive Principles do not.\n2. Fundamental Rights aim to establish socio-economic democracy, while Directive Principles focus on individual freedoms.\n\nSelect the correct answer using the codes given below:",
+    "options": [
+      {
+        "text": "(a) Only 1",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 1 reverses the features (FRs are mostly self-executing, DPSPs require legislation)."
+      },
+      {
+        "text": "(b) Only 2",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 reverses the features (FRs establish political democracy, DPSPs socio-economic democracy)."
+      },
+      {
+        "text": "(c) Both 1 and 2",
+        "isCorrect": false,
+        "rationale": "Incorrect. Both statements are incorrect."
+      },
+      {
+        "text": "(d) Neither 1 nor 2",
+        "isCorrect": true,
+        "rationale": "Correct. Both statements reverse the attributes of FRs and DPSPs."
+      }
+    ],
+    "hint": "Fundamental Rights focus on political democracy, whereas DPSPs focus on social and economic democracy."
+  },
+  {
+    "question": "Which of the following statements about the Directive Principles of State Policy is correct?",
+    "options": [
+      {
+        "text": "(a) The Directive Principles of State Policy are legally enforceable, and citizens can approach the court for their implementation.",
+        "isCorrect": false,
+        "rationale": "Incorrect. DPSPs are non-enforceable in court."
+      },
+      {
+        "text": "(b) The Directive Principles of State Policy were included in the Constitution to provide a binding policy framework for future governments.",
+        "isCorrect": false,
+        "rationale": "Incorrect. They are guidelines and moral instructions, not legally binding mandates."
+      },
+      {
+        "text": "(c) The Directive Principles of State Policy are justiciable, meaning that the judiciary can enforce their implementation.",
+        "isCorrect": false,
+        "rationale": "Incorrect. DPSPs are non-justiciable."
+      },
+      {
+        "text": "(d) The Directive Principles of State Policy are non-justiciable, but they serve as moral guidelines for the government and are expected to be taken seriously.",
+        "isCorrect": true,
+        "rationale": "Correct. DPSPs are non-justiciable in nature, serving as fundamental principles and moral guidelines in country governance."
+      }
+    ],
+    "hint": "Check Article 37 regarding the enforceability and fundamental role of DPSPs."
+  },
+  {
+    "question": "Consider the following statements about the Fundamental Duties of citizens, as mentioned in the Constitution of India:\n1. The 42nd amendment to the Constitution in 1976 introduced a list of ten Fundamental Duties of Citizens.\n2. The Constitution does not provide any provisions for the enforcement of these Fundamental Duties.\n3. The fulfillment of Fundamental Duties is a prerequisite for enjoying fundamental rights.\n4. Among the Fundamental Duties, citizens are obligated to defend the country, promote harmony, and protect the environment only.\n\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "text": "(a) Only one",
+        "isCorrect": false,
+        "rationale": "Incorrect. Two statements are correct."
+      },
+      {
+        "text": "(b) Only two",
+        "isCorrect": true,
+        "rationale": "Correct. Statements 1 and 2 are correct. Statement 3 is incorrect because duties are not a prerequisite for enjoying fundamental rights. Statement 4 is incorrect because there are several other duties beyond the ones listed."
+      },
+      {
+        "text": "(c) Only three",
+        "isCorrect": false,
+        "rationale": "Incorrect. Only two statements are correct."
+      },
+      {
+        "text": "(d) All four",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statements 3 and 4 are incorrect."
+      }
+    ],
+    "hint": "Fundamental Rights are not conditional upon fulfilling duties, and the 11 duties encompass a broad spectrum."
+  },
+  {
+    "question": "In the context of the relationship between Fundamental Rights and Directive Principles, consider the following statements:\n1. Fundamental Rights protect the rights of individuals, while Directive Principles aim to ensure the well-being of the entire society.\n2. In case of a conflict between Fundamental Rights and Directive Principles, Directive Principles shall always prevail over the Fundamental rights.\n3. The Supreme Court of India ruled in the Keshavananda Bharati case that Parliament cannot make amendments that violate the Basic structure of the constitution.\n\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "text": "(a) Only one",
+        "isCorrect": false,
+        "rationale": "Incorrect. Two statements are correct."
+      },
+      {
+        "text": "(b) Only two",
+        "isCorrect": true,
+        "rationale": "Correct. Statements 1 and 3 are correct. Statement 2 is incorrect because there is no absolute hierarchy; a harmonious balance must be struck."
+      },
+      {
+        "text": "(c) All three",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 is incorrect."
+      },
+      {
+        "text": "(d) None",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statements 1 and 3 are correct."
+      }
+    ],
+    "hint": "The Supreme Court mandated a balance between Part III and Part IV rather than an absolute dominance of one."
+  },
+  {
+    "question": "Which of the following is not a Directive Principle of State Policy (DPSP) under the Indian Constitution?",
+    "options": [
+      {
+        "text": "(a) To promote international peace and security",
+        "isCorrect": false,
+        "rationale": "Incorrect. This is a DPSP under Article 51."
+      },
+      {
+        "text": "(b) To prohibit the consumption of intoxicating drinks and drugs",
+        "isCorrect": false,
+        "rationale": "Incorrect. This is a DPSP under Article 47."
+      },
+      {
+        "text": "(c) To provide opportunities for education to the child between the age of 6 and 14 years",
+        "isCorrect": true,
+        "rationale": "Correct. Providing educational opportunities to children aged 6 to 14 by parents/guardians is a Fundamental Duty under Article 51A(k) (added by the 86th Amendment, 2002), not a DPSP."
+      },
+      {
+        "text": "(d) To protect monuments and places of historical interest",
+        "isCorrect": false,
+        "rationale": "Incorrect. This is a DPSP under Article 49."
+      }
+    ],
+    "hint": "Check whether the duty to provide education opportunities rests upon parents/guardians as a Fundamental Duty."
+  },
+  {
+    "question": "Consider the following directives:\n1. Protect and improve the environment and to safeguard forests and wildlife.\n2. Promotion of co-operative societies\n3. Organisation of agriculture and animal husbandry\n4. Provision for early childhood care and education to children below the age of 6 years\n\nHow many of the above directives was/were added to the list of Directive Principles of State Policy (DPSP) through 42th Constitutional Amendment Act of 1976?",
+    "options": [
+      {
+        "text": "(a) Only one",
+        "isCorrect": true,
+        "rationale": "Correct. Only directive 1 (Article 48A) was added by the 42nd Amendment (1976). Directive 2 was added by the 97th Amendment (2011), directive 4 was modified/added by the 86th Amendment (2002), and directive 3 was part of the original Constitution."
+      },
+      {
+        "text": "(b) Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect. Only directive 1 was added by the 42nd Amendment."
+      },
+      {
+        "text": "(c) Only three",
+        "isCorrect": false,
+        "rationale": "Incorrect. Only directive 1 was added by the 42nd Amendment."
+      },
+      {
+        "text": "(d) All four",
+        "isCorrect": false,
+        "rationale": "Incorrect. Only directive 1 was added by the 42nd Amendment."
+      }
+    ],
+    "hint": "Article 48A (environment and wildlife) was added in 1976."
+  },
+  {
+    "question": "Which of the following are the programmes or institutions started by the Indian government to ensure the implementation of Directive Principles of State Policy?\n1. Nationalization of life insurance\n2. 10% reservation to the Economically Weaker Sections\n3. National Education Policy (NEP)\n4. Hindu Marriage Act\n5. Waqf Boards\n\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "text": "(a) 1, 2 and 3 only",
+        "isCorrect": true,
+        "rationale": "Correct. Items 1, 2, and 3 reflect measures to give effect to DPSPs (Articles 39, 46, and 45). Items 4 and 5 represent community-specific personal laws/boards that retain separate legal frameworks, challenging the implementation of a Uniform Civil Code (Article 44)."
+      },
+      {
+        "text": "(b) 4 and 5 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Items 1, 2, and 3 are correct."
+      },
+      {
+        "text": "(c) 1 and 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Item 3 (NEP) is also included."
+      },
+      {
+        "text": "(d) 1, 2, 3, 4 and 5",
+        "isCorrect": false,
+        "rationale": "Incorrect. Items 4 and 5 do not promote DPSPs implementation."
+      }
+    ],
+    "hint": "Consider which initiatives fulfill socialist and educational directives vs personal laws."
+  },
+  {
+    "question": "With respect to the fundamental duties and directives in the Indian constitution, consider the following:\n1. Uphold and protect the sovereignty, unity and integrity of India.\n2. Protect and improve the natural environment.\n3. Promote equal justice and to provide free legal aid to the poor.\n4. Separate the judiciary from the executive in the public services of the State.\n\nHow many of the above duties/ directives were not part of the Original Constitution?",
+    "options": [
+      {
+        "text": "(a) Only one",
+        "isCorrect": false,
+        "rationale": "Incorrect. Three items were not part of the original Constitution."
+      },
+      {
+        "text": "(b) Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect. Three items were not part of the original Constitution."
+      },
+      {
+        "text": "(c) Only three",
+        "isCorrect": true,
+        "rationale": "Correct. Items 1 and 2 (Fundamental Duties) and Item 3 (Article 39A) were added by the 42nd Amendment Act in 1976. Item 4 (Article 50) was part of the original Constitution."
+      },
+      {
+        "text": "(d) All four",
+        "isCorrect": false,
+        "rationale": "Incorrect. Item 4 was part of the original Constitution."
+      }
+    ],
+    "hint": "Fundamental duties and Article 39A were introduced later via constitutional amendments."
+  },
+  {
+    "question": "With reference to the Constitution of India, the Directive Principles of State Policy constitute limitations upon",
+    "options": [
+      {
+        "text": "(a) Legislative functions only",
+        "isCorrect": false,
+        "rationale": "Incorrect. DPSPs do not act as limitations."
+      },
+      {
+        "text": "(b) Executive functions only",
+        "isCorrect": false,
+        "rationale": "Incorrect. DPSPs do not act as limitations."
+      },
+      {
+        "text": "(c) Both legislative and executive functions",
+        "isCorrect": false,
+        "rationale": "Incorrect. DPSPs are guidelines, not constitutional limitations."
+      },
+      {
+        "text": "(d) Neither legislative nor executive functions",
+        "isCorrect": true,
+        "rationale": "Correct. DPSPs are positive instructions and policy guidelines for the State. Being non-justiciable, they do not constitute limitations upon legislative or executive power."
+      }
+    ],
+    "hint": "DPSPs are non-enforceable directives rather than negative restrictions on government functions."
+  },
+  {
+    "question": "Consider the following statements regarding Fundamental Duties:\n1. If there is a failure to fulfill fundamental duties, the Parliament by law can impose penalties.\n2. The Fundamental Duties are confined to Indian citizens only and do not extend to foreigners, unlike a few Fundamental Rights.\n\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "(a) 1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 is also correct."
+      },
+      {
+        "text": "(b) 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 1 is also correct."
+      },
+      {
+        "text": "(c) Both 1 and 2",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 1 is correct because Parliament can enact laws prescribing penalties for non-compliance. Statement 2 is correct because Fundamental Duties apply exclusively to citizens."
+      },
+      {
+        "text": "(d) Neither 1 nor 2",
+        "isCorrect": false,
+        "rationale": "Incorrect. Both statements are correct."
+      }
+    ],
+    "hint": "Fundamental Duties are citizen-specific obligations and can be backed by parliamentary penal legislation."
+  },
+  {
+    "question": "Consider the following Statements with respect to \"Minority Educational Institutions\":\n1. The property can be acquired by the Government only through enactment of Law.\n2. The only limitation on the government is to compensate adequately.\n\nChoose the correct code: -",
+    "options": [
+      {
+        "text": "(a) 1 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 is also correct."
+      },
+      {
+        "text": "(b) 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 1 is also correct."
+      },
+      {
+        "text": "(c) Both 1 and 2",
+        "isCorrect": true,
+        "rationale": "Correct. Clause (1A) of Article 30 (introduced by 44th Amendment Act 1978) ensures compulsory acquisition of property of minority institutions is done by law with compensation that does not restrict or abrogate their rights."
+      },
+      {
+        "text": "(d) Neither 1 nor 2",
+        "isCorrect": false,
+        "rationale": "Incorrect. Both statements are correct."
+      }
+    ],
+    "hint": "Article 30(1A) guarantees protection regarding property compensation for minority institutions."
+  },
+  {
+    "question": "Which of the following Fundamental Rights are available against \"Private entity\"?\n1. Prohibition of Discrimination on Certain Grounds.\n2. Abolition of Untouchability\n3. Right to Education\n4. Prohibition of Trafficking\n5. Right to Life\n\nChoose the correct code:",
+    "options": [
+      {
+        "text": "(a) 1, 2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Options 4 and 5 are also enforceable against private entities."
+      },
+      {
+        "text": "(b) 1, 3 and 5 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. All five are enforceable against private entities."
+      },
+      {
+        "text": "(c) 1, 2, 3 and 4 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Option 5 is also included."
+      },
+      {
+        "text": "(d) 1, 2, 3, 4 and 5 only",
+        "isCorrect": true,
+        "rationale": "Correct. Articles 15(2), 17, 21A, 23, 24, and 21 are available against both the State and private individuals."
+      }
+    ],
+    "hint": "Articles dealing with non-discrimination in public places, untouchability, trafficking, and child protection extend to private citizens."
+  },
+  {
+    "question": "Which of the following correctly differentiates between \"Article 26 and Article 30\"?\n1. Article 26 provides the right to maintain the institution while Article 30 provides for the right to administer the institution.\n2. Article 26 is subjected to public order, while article 30 is free from such limitations.\n3. Article 26 gives right to establish institution to the majority as well as minority while article gives right to establish institution to the minorities only.\n\nChoose the correct code:",
+    "options": [
+      {
+        "text": "(a) 1 and 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 3 is also correct."
+      },
+      {
+        "text": "(b) 2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 1 is also correct."
+      },
+      {
+        "text": "(c) 1 and 3 only",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 1 highlights structural focus, Statement 2 notes public order restrictions under Art 26, and Statement 3 differentiates majority/minority scope."
+      },
+      {
+        "text": "(d) All of these",
+        "isCorrect": false,
+        "rationale": "Incorrect. Option (c) is selected as per key."
+      }
+    ],
+    "hint": "Article 26 applies to all religious denominations, whereas Article 30 applies strictly to minorities."
+  },
+  {
+    "question": "Which of the following is the part of the \"Right to establish and administer an institution\" under Article 30?\n1. Right to take disciplinary action.\n2. Right to impart Religious institutions.\n3. Right to select students and principal.\n\nChoose the correct code:",
+    "options": [
+      {
+        "text": "(a) 1 and 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Item 3 is also included."
+      },
+      {
+        "text": "(b) 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Items 1 and 3 are also included."
+      },
+      {
+        "text": "(c) 2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Item 1 is also included."
+      },
+      {
+        "text": "(d) All of these",
+        "isCorrect": true,
+        "rationale": "Correct. The right to administer under Article 30 includes appointing teaching staff, selecting students, taking disciplinary actions, and maintaining administration."
+      }
+    ],
+    "hint": "The power of administration covers operational control including staff selection and student admissions."
+  },
+  {
+    "question": "The right to move to the Court under \"Article 32\" can be suspended in the case of:\n1. Suspension of Fundamental Rights of Members of Armed forces.\n2. Proclamation of emergency under Article 359.\n3. Restriction on Fundamental Rights under Martial Law.\n\nChoose the correct code:",
+    "options": [
+      {
+        "text": "(a) 1 and 3 only",
+        "isCorrect": true,
+        "rationale": "Correct. Right under Article 32 can be modified/restricted for armed forces (Article 33) and during Martial Law (Article 34)."
+      },
+      {
+        "text": "(b) 1 Only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Item 3 is also applicable."
+      },
+      {
+        "text": "(c) 1 and 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Article 359 allows suspension of enforcement of fundamental rights by presidential order, not proclamation of emergency itself."
+      },
+      {
+        "text": "(d) None of these",
+        "isCorrect": false,
+        "rationale": "Incorrect. Option (a) is correct."
+      }
+    ],
+    "hint": "Look at Articles 33 and 34 for structural restrictions on constitutional remedies."
+  },
+  {
+    "question": "Consider the following statements with regard to \"Habeas Corpus\":\n1. Only the aggrieved party can ask for the enforcement of the writ.\n2. This is the oldest writ of common law of England.\n3. It cannot be issued to enforce departmental instruction that does not possess statutory force.\n\nHow many of the statements given above is/are correct?",
+    "options": [
+      {
+        "text": "(a) Only one",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 2 is correct (oldest writ dating to Magna Carta). Statement 1 is incorrect because a relative or friend can file on behalf of the detenu. Statement 3 relates to Mandamus, not Habeas Corpus."
+      },
+      {
+        "text": "(b) Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect. Only Statement 2 is correct."
+      },
+      {
+        "text": "(c) All three",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statements 1 and 3 are incorrect."
+      },
+      {
+        "text": "(d) None",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 is correct."
+      }
+    ],
+    "hint": "Habeas Corpus can be moved by friends or relatives, relaxing strict locus standi."
+  },
+  {
+    "question": "Consider the following statements:\n1. Article 23 permits the State to impose compulsory services for national interest.\n2. The provision of Article 24 can be enforceable only by the law.\n3. The Constitution of India does not define the meaning of Religious denomination under Article 26 of the constitution.\n4. Article 27 is violated if the tax's proceeds would go towards the promotion or maintenance of a particular religion or religious denomination.\n\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "text": "(a) Only one",
+        "isCorrect": false,
+        "rationale": "Incorrect. All four statements are correct."
+      },
+      {
+        "text": "(b) Only two",
+        "isCorrect": false,
+        "rationale": "Incorrect. All four statements are correct."
+      },
+      {
+        "text": "(c) Only three",
+        "isCorrect": false,
+        "rationale": "Incorrect. All four statements are correct."
+      },
+      {
+        "text": "(d) All four",
+        "isCorrect": true,
+        "rationale": "Correct. Statement 1 is correct under Art 23(2). Statement 2 is correct. Statement 3 is correct (definition was given by judicial interpretation in S.P. Mittal case). Statement 4 is correct under Art 27."
+      }
+    ],
+    "hint": "Religious denomination criteria were established by judicial decisions rather than written definition in the text."
+  },
+  {
+    "question": "Which of the following statements regarding the Writs is correct?\n1. The Writ of Mandamus cannot be issued in the case of violation of contract.\n2. The Writ of certiorari can be issued against administrative authorities.\n3. The writ of Habeas corpus can be issued against Kidnapping of the Person.\n\nChoose the correct code:",
+    "options": [
+      {
+        "text": "(a) 1 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "(b) 1 and 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "(c) 2 and 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect."
+      },
+      {
+        "text": "(d) None of these",
+        "isCorrect": true,
+        "rationale": "Correct. Option (d) is designated as correct according to the solution key."
+      }
+    ],
+    "hint": "Analyze the conditions for issuing Mandamus, Certiorari, and Habeas Corpus."
+  },
+  {
+    "question": "Which of the following is incorrect with respect to Directive Principles of State Policy?\n1. Directive Principles proceeded on the basis of Human Rights.\n2. The Concept of Public Interest receives orientation from the Directive Principles.\n3. Directives do not confer upon or take away any legislation from the appropriate legislature.\n\nChoose the correct code:",
+    "options": [
+      {
+        "text": "(a) 2 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 2 is correct."
+      },
+      {
+        "text": "(b) 3 only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statement 3 is correct."
+      },
+      {
+        "text": "(c) 1 and 3 Only",
+        "isCorrect": false,
+        "rationale": "Incorrect. Statements 1 and 3 are correct."
+      },
+      {
+        "text": "(d) None of these.",
+        "isCorrect": true,
+        "rationale": "Correct. All three statements are correct descriptions of DPSPs, so none of them is incorrect."
+      }
+    ],
+    "hint": "All three statements represent valid constitutional principles governing DPSPs."
+  }
+]

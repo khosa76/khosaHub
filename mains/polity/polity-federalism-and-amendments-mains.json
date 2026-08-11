@@ -1,0 +1,68 @@
+[
+    {
+        "question_number": "Q1",
+        "question": "Indian Constitution is federal in form, but unitary in spirit. Comment",
+        "marks": 15,
+        "word_limit": 250,
+        "answer": {
+            "introduction": "The Indian Constitution establishes a unique system of government described by K.C. Wheare as 'quasi-federal'[cite: 1, 2]. While it incorporates a dual polity with a clear distribution of powers between the Centre and States, it contains strong centralizing features designed to preserve national unity, integrity, and administrative efficiency[cite: 1, 2].",
+            "sections": [
+                {
+                    "title": "Federal Features (Federal in Form)",
+                    "points": [
+                        "Dual Polity and Division of Powers: The Seventh Schedule explicitly demarcates legislative authority into the Union, State, and Concurrent Lists[cite: 1, 2].",
+                        "Written and Supreme Constitution: The Constitution is the supreme law of the land, and key federal provisions under Article 368 require state legislature ratification for amendments[cite: 1, 2].",
+                        "Independent Judiciary and Bicameralism: The Supreme Court acts as an independent arbiter for Centre-State disputes, while the Rajya Sabha ensures state representation at the federal level[cite: 1, 2]."
+                    ]
+                },
+                {
+                    "title": "Unitary Features (Unitary in Spirit)",
+                    "points": [
+                        "Flexibility of State Boundaries: Under Article 3, Parliament can alter state boundaries or names without mandatory state consent (e.g., Andhra Pradesh Reorganisation Act, 2014)[cite: 1, 2].",
+                        "Emergency Provisions: Articles 352, 356, and 360 temporarily transform the federal structure into a unitary framework, granting the Centre overriding powers[cite: 1, 2].",
+                        "Integrated System and Appointments: A single citizenship, integrated judiciary, All-India Services (IAS/IPS), and the appointment of State Governors by the President demonstrate strong central oversight[cite: 1, 2].",
+                        "Financial Dependence and Residuary Powers: Residuary legislative powers reside exclusively with the Centre, and States rely heavily on central grants and tax allocations under Article 282[cite: 1, 2]."
+                    ]
+                },
+                {
+                    "title": "Judicial View and Modern Evolution",
+                    "points": [
+                        "Basic Structure Doctrine: In S.R. Bommai v. Union of India (1994), the Supreme Court held that federalism is part of the basic structure of the Constitution, restricting arbitrary central intervention[cite: 1, 2].",
+                        "Cooperative Federalism: Institutions like NITI Aayog, GST Council (Article 279A), and the Inter-State Council (Article 263) promote consensus-building rather than top-down federal control[cite: 1, 2]."
+                    ]
+                }
+            ],
+            "conclusion": "The Indian Constitution is a 'federation with a strong centralizing tendency' (Sir Ivor Jennings). Rather than being a rigid federal model, its unitary spirit acts as a vital safeguard to preserve national integrity while accommodating regional diversity through cooperative federalism[cite: 1, 2]."
+        }
+    },
+    {
+        "question_number": "Q2",
+        "question": "More number of constitutional amendments in India were carried out because of political necessity than of constitutional need. Elucidate.",
+        "marks": 15,
+        "word_limit": 250,
+        "answer": {
+            "introduction": "Article 368 of the Indian Constitution provides the mechanism to amend constitutional provisions to adapt to evolving socio-economic and political realities[cite: 1, 2]. Over the past seven decades, more than 100 amendments have been enacted, reflecting a dynamic balance between genuine constitutional imperatives and political compulsions[cite: 1, 2].",
+            "sections": [
+                {
+                    "title": "Amendments Driven by Political Necessity and Governance Imperatives",
+                    "points": [
+                        "Overriding Judicial Rulings: Early amendments like the 1st and 24th Amendments were enacted by ruling governments to overcome Supreme Court decisions (e.g., Champakam Dorairajan and Golaknath cases) to safeguard agrarian reforms and state power[cite: 1, 2].",
+                        "Political Regime Changes and Concentration of Power: The 42nd Amendment (1976) introduced structural changes during Emergency to strengthen central executive authority, which was subsequently rolled back by the 44th Amendment (1978) under a new political regime[cite: 1, 2].",
+                        "Electoral and Party Stability: The 52nd Amendment (1985) introduced the Tenth Schedule (Anti-Defection Law) to curb horse-trading ('Aaya Ram Gaya Ram' culture) and preserve executive stability[cite: 1, 2].",
+                        "Electoral Mobilization and Reversals: The 105th Amendment (2021) restored state powers to identify Other Backward Classes (OBCs) to reverse a Supreme Court ruling and satisfy state-level socio-political demands[cite: 1, 2]."
+                    ]
+                },
+                {
+                    "title": "Amendments Driven by Genuine Constitutional Need",
+                    "points": [
+                        "Expanding Socio-Economic Rights: The 86th Amendment (2002) inserted Article 21A, elevating free and compulsory education for children aged 6–14 years to a Fundamental Right[cite: 1, 2].",
+                        "Democratic Decentralization: The 73rd and 74th Amendments (1992) conferred constitutional status on rural and urban local self-governments[cite: 1, 2].",
+                        "Cooperative Federal Economic Reforms: The 101st Amendment (2016) created the Goods and Services Tax (GST) framework to unify the national market and replace fragmented taxation schemes[cite: 1, 2].",
+                        "Territorial and Diplomatic Settlements: The 100th Amendment (2015) enabled the exchange of enclaves with Bangladesh to finalize land boundary agreements."
+                    ]
+                }
+            ],
+            "conclusion": "While political necessity and ruling party mandates have frequently initiated constitutional amendments, judicial oversight through the Basic Structure doctrine (Kesavananda Bharati case, 1973) ensures that amendments remain within the democratic boundaries of constitutionalism[cite: 1, 2]."
+        }
+    }
+]

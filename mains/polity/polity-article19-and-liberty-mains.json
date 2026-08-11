@@ -1,0 +1,73 @@
+[
+    {
+        "question_number": "Q1",
+        "question": "\"Freedom of Speech and Expression is sacrosanct\". Comment.",
+        "marks": 15,
+        "word_limit": 250,
+        "answer": {
+            "introduction": "Freedom of Speech and Expression under Article 19(1)(a) of the Indian Constitution is widely regarded as the cornerstone of democratic governance[cite: 1]. As Justice Patanjali Sastri observed in the landmark Romesh Thappar case (1950), freedom of speech is the foundation of all democratic institutions, essential for personal self-realization, political accountability, and social progress.",
+            "sections": [
+                {
+                    "title": "Why Freedom of Speech and Expression is Sacrosanct",
+                    "points": [
+                        "Democracy and Public Accountability: Enables citizens to participate effectively in governance, question authority, and hold public institutions accountable (Romesh Thappar v. State of Madras, 1950).",
+                        "Freedom of the Press and Information: Covers the freedom of news media to report without pre-censorship (Bennett Coleman v. Union of India, 1972)[cite: 1] and guarantees the Right to Information as an intrinsic dimension of free speech (State of UP v. Raj Narain, 1975).",
+                        "Individual Autonomy and Dissent: Protects artistic expression, commercial advertisements, and the fundamental right to dissent and remain silent (Bijoe Emmanuel v. State of Kerala, 1986)[cite: 1].",
+                        "Expansion into the Digital Sphere: In Anuradha Bhasin v. Union of India (2020), the Supreme Court held that the right to access the internet is an integral component of Article 19(1)(a)[cite: 1]."
+                    ]
+                },
+                {
+                    "title": "Constitutional Exceptions: Not an Absolute Right",
+                    "points": [
+                        "Framework of Article 19(2): To prevent liberty from devolving into license, Article 19(2) allows the State to impose 'reasonable restrictions' on specific grounds such as sovereignty and integrity of India, security of the State, public order, decency, morality, defamation, and incitement to an offence[cite: 1, 2].",
+                        "Test of Proportionality: Any state restriction must be proportionate, non-arbitrary, and strictly necessary to achieve a legitimate state objective (Shreya Singhal v. Union of India, 2015, which struck down Section 66A of the IT Act)."
+                    ]
+                },
+                {
+                    "title": "Contemporary Challenges to Sacrosanct Free Speech",
+                    "points": [
+                        "Chilling Effects of State Power: Arbitrary invocation of sedition, hate speech provisions, or prolonged internet shutdowns adversely impacts free expression[cite: 1].",
+                        "Digital Disinformation & Hate Speech: The rapid proliferation of fake news and digital incitement poses significant public order threats, highlighting the continuous tension between regulation and free speech."
+                    ]
+                }
+            ],
+            "conclusion": "While Freedom of Speech and Expression is sacrosanct to uphold human dignity and democracy, it operates within a constitutional framework of mutual responsibility. Maintaining this sacred right requires continuous judicial vigilance against state overreach while ensuring speech does not harm public order or national sovereignty."
+        }
+    },
+    {
+        "question_number": "Q2",
+        "question": "\"Article 19 of the Indian Constitution seeks to maintain a balance between individual freedom and social control.\" Discuss.",
+        "marks": 15,
+        "word_limit": 250,
+        "answer": {
+            "introduction": "Article 19 of the Indian Constitution embodies the concept of 'regulated liberty' rather than unbridled individual freedom[cite: 1]. It provides six fundamental democratic freedoms to citizens under Article 19(1) while simultaneously empowering the State under Articles 19(2) to 19(6) to impose reasonable restrictions, establishing a delicate balance between individual rights and collective social control[cite: 1].",
+            "sections": [
+                {
+                    "title": "Individual Freedoms Enshrined under Article 19(1)",
+                    "points": [
+                        "Freedom of Speech and Expression [19(1)(a)]: Ensures liberty of thought, press freedom, and opinion formation[cite: 1].",
+                        "Freedom of Peaceful Assembly [19(1)(b)] and Association [19(1)(c)]: Guarantees the right to assemble without arms and form trade unions or co-operatives[cite: 1].",
+                        "Freedom of Movement [19(1)(d)] and Residence [19(1)(e)]: Protects national integration by permitting citizens to travel and settle freely across India[cite: 1].",
+                        "Freedom of Trade and Profession [19(1)(g)]: Guarantees economic autonomy to practice any profession, trade, or business[cite: 1]."
+                    ]
+                },
+                {
+                    "title": "Mechanisms of Social Control through Reasonable Restrictions",
+                    "points": [
+                        "Constitutional Grounds [19(2) to 19(6)]: Individual freedoms can be restricted on defined grounds such as public order, national security, sovereignty and integrity of India, decency, morality, and protection of Scheduled Tribes' interests[cite: 1, 2].",
+                        "Protection of Larger Public Interest: For example, freedom of trade [19(1)(g)] can be limited by requiring technical qualifications or creating state monopolies for public welfare[cite: 1].",
+                        "Judicial Test of Reasonableness: As laid down in State of Madras v. V.G. Row (1952), restrictions must not be arbitrary or excessive, ensuring a proper balance between freedom and societal stability."
+                    ]
+                },
+                {
+                    "title": "Judicial Synthesis and Modern Relevance",
+                    "points": [
+                        "Golden Triangle Principle: In Maneka Gandhi v. Union of India (1978), the Supreme Court established that any restriction under Article 19 must also pass the test of fairness and non-arbitrariness under Articles 14 and 21.",
+                        "Mitigating Overreach: In Anuradha Bhasin (2020), the Court held that indefinite internet shutdowns violate Article 19(1)(a) and 19(1)(g), reinforcing that state control cannot extinguish the core fundamental freedom[cite: 1]."
+                    ]
+                }
+            ],
+            "conclusion": "Article 19 successfully prevents both totalitarian state control and unrestricted individual authority. By anchoring liberty to reasonable social control, the Indian Constitution ensures that individual freedoms flourish harmoniously within a peaceful and orderly society."
+        }
+    }
+]

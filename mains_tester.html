@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mains Q&A Vault - KHOSA Aspirant Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mains_tester.css">
+    <!-- Apple Home Screen / PWA support -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Khosa Mains">
+</head>
+
+<body>
+    <div class="mains-container">
+        <div class="paper-page">
+
+            <!-- Top Header & Navigation -->
+            <header class="mains-header">
+                <div class="header-brand">
+                    <div>
+                        <h1 class="mains-title" id="mains-page-title">Mains Q&A Practice Room</h1>
+                        <p class="mains-subtitle" id="mains-page-subtitle">Select a subject section to practice Mains Answer Writing & Model Solutions</p>
+                    </div>
+                </div>
+                <a href="index.html" class="back-link-btn" id="mains-nav-back">
+                    <span>← Study Vault</span>
+                </a>
+            </header>
+
+            <!-- VIEW 1: SUBJECT SECTIONS GRID -->
+            <section id="subjects-view" class="view-panel active">
+                <div class="subject-grid-title">
+                    <h2>Mains Subject Sections</h2>
+                    <p>Choose a General Studies subject to view answer writing questions and frameworks.</p>
+                </div>
+                <div class="mains-subjects-grid" id="mains-subjects-container">
+                    <!-- Subject Cards rendered dynamically -->
+                </div>
+            </section>
+
+            <!-- VIEW 2: MAINS QUESTIONS LIST FOR SELECTED SUBJECT -->
+            <section id="questions-view" class="view-panel">
+                <div class="sub-nav-bar">
+                    <button id="back-to-subjects-btn" class="sub-back-btn">
+                        ← Back to Subject Sections
+                    </button>
+                    <span id="active-subject-badge" class="active-subject-badge">Indian Polity</span>
+                </div>
+
+                <!-- Search & Filter Bar -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <span class="filter-label">Filter Topic:</span>
+                        <select id="topic-select" class="select-input">
+                            <option value="all">📚 All Syllabus Topics</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <span class="filter-label">Search Questions:</span>
+                        <input type="text" id="search-input" class="search-input" placeholder="Search keywords (e.g. Article 19, Preamble, Privacy)...">
+                    </div>
+                </div>
+
+                <!-- Questions & Model Answers Render Container -->
+                <main id="questions-container" class="questions-list">
+                    <div class="no-results">
+                        Loading Mains Q&A Practice Modules...
+                    </div>
+                </main>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="mains_tester.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+[
+    {
+        "question_number": "Q1",
+        "question": "Explain the various modes by which a person can acquire Indian citizenship under the Citizenship Act, 1955. (150 words, 10 marks)",
+        "marks": 10,
+        "word_limit": 150,
+        "answer": {
+            "introduction": "Part II of the Indian Constitution (Articles 5–11) empowers Parliament to regulate citizenship matters, under which the Citizenship Act, 1955 was enacted[cite: 1, 2]. The Act prescribes five distinct modes for acquiring Indian citizenship[cite: 1].",
+            "sections": [
+                {
+                    "title": "Modes of Acquiring Citizenship under the Citizenship Act, 1955",
+                    "points": [
+                        "Acquisition by Birth (Section 3): A person born in India between January 26, 1950, and July 1, 1987, is a citizen by birth[cite: 1]. For those born on or after December 3, 2004, citizenship is granted only if both parents are Indian citizens, or one parent is a citizen and the other is not an illegal migrant[cite: 1].",
+                        "Acquisition by Descent (Section 4): A person born outside India on or after January 26, 1950, acquires citizenship by descent if either parent was an Indian citizen at the time of birth[cite: 1]. Post-December 3, 2004, registration at an Indian consulate within one year of birth is mandatory[cite: 1].",
+                        "Acquisition by Registration (Section 5): Persons of Indian Origin (PIO) who are ordinarily resident in India for seven years, or foreign individuals married to Indian citizens, can acquire citizenship via registration upon application to the Central Government[cite: 1].",
+                        "Acquisition by Naturalisation (Section 6): Foreigners who reside in India or serve the Government for an aggregate of 11 years out of the preceding 14 years, possess good character, and know an Eighth Schedule language can apply[cite: 1]. (Example: Under the Citizenship Amendment Act, 2019, the residency requirement was reduced to 5 years for persecuted minorities from Pakistan, Bangladesh, and Afghanistan[cite: 1]).",
+                        "Acquisition by Incorporation of Territory (Section 7): If a foreign territory becomes part of India, the Central Government specifies the persons who shall become Indian citizens (Example: Citizenship provisions following the incorporation of Pondicherry in 1962 and Sikkim in 1975)[cite: 1]."
+                    ]
+                }
+            ],
+            "conclusion": "The Citizenship Act, 1955 balances 'jus soli' (right of soil) and 'jus sanguinis' (right of blood) to ensure a comprehensive statutory framework that safeguards national security while enabling legitimate social and territorial inclusion[cite: 1]."
+        }
+    },
+    {
+        "question_number": "Q2",
+        "question": "It has recently come to light that an Indian passport is not considered sufficient proof of Indian citizenship. In this context, discuss why a passport alone cannot prove citizenship, and mention what provisions are used to establish citizenship in India. (250 words, 15 marks)",
+        "marks": 15,
+        "word_limit": 250,
+        "answer": {
+            "introduction": "Indian Courts, including various High Courts and the Supreme Court, have held that while an Indian Passport acts as a valid travel document under the Passports Act, 1967, it does not serve as conclusive statutory proof of citizenship under the Citizenship Act, 1955[cite: 1, 2].",
+            "sections": [
+                {
+                    "title": "Reasons Why a Passport Alone Cannot Prove Citizenship",
+                    "points": [
+                        "Prima Facie Travel Document vs. Conclusive Evidence: Passports are administrative documents issued primarily for international travel identification under the Passports Act, 1967, rather than judicial declarations of citizenship under Part II of the Constitution[cite: 1, 2].",
+                        "Possibility of Fraudulent Issuance: Passports may be obtained using forged primary documents (e.g., fraudulent birth certificates or voter IDs). Courts have ruled that administrative identity cards do not cure underlying statutory defects in citizenship status.",
+                        "Lack of Judicial Verification Power by Issuing Authorities: Passport authorities (RPOs) perform administrative verification and lack quasi-judicial powers to conclusively adjudicate complex citizenship disputes governed by Section 9 of the Foreigners Act, 1946."
+                    ]
+                },
+                {
+                    "title": "Provisions and Mechanisms Used to Establish Citizenship in India",
+                    "points": [
+                        "Constitutional Provisions (Articles 5–11): Serves as the foundation to determine citizenship status at the commencement of the Constitution on January 26, 1950, based on domicile, birth, or partition-era migration[cite: 1, 2].",
+                        "Statutory Modes under Citizenship Act, 1955: Establishing compliance with legal conditions under Birth (Sec 3), Descent (Sec 4), Registration (Sec 5), Naturalisation (Sec 6), or Incorporation of Territory (Sec 7), backed by primary evidence such as birth registers[cite: 1].",
+                        "Section 9 of the Foreigners Act, 1946 (Burden of Proof): Places the onus entirely on the individual to prove Indian citizenship when challenged, requiring documentary evidence of lineage and continuous residence prior to specific cutoff dates.",
+                        "Quasi-Judicial & Judicial Forums: Foreigners Tribunals (established under the Foreigners Tribunal Order, 1964) and competent Civil Courts evaluate complete documentary chains (e.g., land records, legacy data, electoral rolls) rather than relying on a single identity card."
+                    ]
+                }
+            ],
+            "conclusion": "While an Indian passport carries strong prima facie value for travel and identification, conclusive citizenship requires strict compliance with statutory modes under the Citizenship Act, 1955, supported by verified lineage and constitutional documentation[cite: 1, 2]."
+        }
+    }
+]

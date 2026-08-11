@@ -12,15 +12,18 @@ let incorrectOnlyMode = false; // Retesting only wrong answers
 let filteredIndicesMap = []; // Maps filtered indices to original indices
 
 // --- DOM Elements Cache ---
+// --- DOM Elements Cache ---
 const views = {
-    dashboard: document.getElementById('dashboard-view'),
+    subjectCards: document.getElementById('subject-cards-view'),
+    topicModules: document.getElementById('topic-modules-view'),
     quiz: document.getElementById('quiz-view'),
     results: document.getElementById('results-view')
 };
 
 // UI Widgets
 const navbarTopicTitle = document.getElementById('navbar-topic-title');
-const subjectsContainer = document.getElementById('subjects-container');
+const subjectCardsContainer = document.getElementById('subject-cards-container');
+const topicModulesContainer = document.getElementById('topic-modules-container');
 const progressBar = document.getElementById('progress-bar');
 const progressPercentage = document.getElementById('progress-percentage');
 const currentQNum = document.getElementById('current-q-num');
@@ -73,13 +76,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // --- Event Listeners Setup ---
 function setupEventListeners() {
+    // Back to Subjects button
+    const backToSubjectsBtn = document.getElementById('back-to-subjects-btn');
+    if (backToSubjectsBtn) {
+        backToSubjectsBtn.addEventListener('click', () => {
+            if (navbarTopicTitle) navbarTopicTitle.innerText = "Subject Directory";
+            switchView('subjectCards');
+        });
+    }
+
     // Quiz Navigation Buttons
     prevBtn.addEventListener('click', () => navigateQuestion(currentIndex - 1));
     nextBtn.addEventListener('click', () => {
         if (currentIndex < quizData.length - 1) {
             navigateQuestion(currentIndex + 1);
         } else {
-            // In study mode, clicking next on final question submits results
             finishQuiz();
         }
     });
@@ -96,8 +107,8 @@ function setupEventListeners() {
     retestIncorrectBtn.addEventListener('click', retestIncorrectOnly);
     backDashBtn.addEventListener('click', () => {
         if (navbarTopicTitle) navbarTopicTitle.innerText = "Subject Directory";
-        switchView('dashboard');
-        loadCatalog(); // Refresh scores on return
+        switchView('subjectCards');
+        loadCatalog();
     });
 
     // Review Filters
@@ -113,13 +124,14 @@ function setupEventListeners() {
 // --- View Switcher ---
 function switchView(viewName) {
     Object.keys(views).forEach(key => {
-        if (key === viewName) {
-            views[key].classList.add('active');
-        } else {
-            views[key].classList.remove('active');
+        if (views[key]) {
+            if (key === viewName) {
+                views[key].classList.add('active');
+            } else {
+                views[key].classList.remove('active');
+            }
         }
     });
-    // Scroll window back to top on transitions
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -132,72 +144,94 @@ async function loadCatalog() {
         renderDashboardCatalog();
     } catch (err) {
         console.error(err);
-        subjectsContainer.innerHTML = `
-            <div class="catalog-loading" style="color: var(--error-red);">
-                ⚠️ Error loading subjects index registry. Ensure 'mcqs/quizzes.json' exists.
-            </div>
-        `;
+        if (subjectCardsContainer) {
+            subjectCardsContainer.innerHTML = `
+                <div class="catalog-loading" style="color: var(--error-red);">
+                    ⚠️ Error loading subjects index registry. Ensure 'mcqs/quizzes.json' exists.
+                </div>
+            `;
+        }
     }
 }
 
-// --- Render Subject Directory in Apple.com List Style ---
+// --- Render Subject Cards Grid Dashboard ---
 function renderDashboardCatalog() {
+    if (!catalogData || !catalogData.subjects || !subjectCardsContainer) return;
+    
+    subjectCardsContainer.innerHTML = '';
+    
+    // Check URL query parameters (e.g. ?subject=polity)
+    const urlParams = new URLSearchParams(window.location.search);
+    const targetSubjectId = urlParams.get('subject');
+
+    catalogData.subjects.forEach((subject) => {
+        const card = document.createElement('div');
+        card.className = 'mcq-subject-card';
+        
+        const iconStr = subject.icon || '📖';
+        const topicCount = subject.topics ? subject.topics.length : 0;
+        const totalQs = subject.topics ? subject.topics.reduce((acc, t) => acc + (t.questionCount || 0), 0) : 0;
+
+        card.innerHTML = `
+            <div class="card-subject-header">
+                <span class="card-subject-icon">${iconStr}</span>
+                <span class="badge-pill badge-blue">${totalQs} Qs</span>
+            </div>
+            <h3 class="card-subject-title">${subject.name}</h3>
+            <p class="card-subject-desc">${subject.description || 'Interactive MCQ practice modules and topic revision sets.'}</p>
+            <div class="card-subject-footer">
+                <span class="badge-pill badge-gray">${topicCount} Practice Module${topicCount !== 1 ? 's' : ''}</span>
+                <span class="card-open-arrow">Open Topic List →</span>
+            </div>
+        `;
+
+        card.addEventListener('click', () => {
+            openSubjectTopics(subject.id);
+        });
+
+        subjectCardsContainer.appendChild(card);
+    });
+
+    // Auto open target subject if specified in URL
+    if (targetSubjectId) {
+        openSubjectTopics(targetSubjectId);
+    } else {
+        switchView('subjectCards');
+    }
+}
+
+// --- Open Dedicated Topic List View for Selected Subject ---
+function openSubjectTopics(subjectId) {
     if (!catalogData || !catalogData.subjects) return;
     
-    subjectsContainer.innerHTML = '';
-    
-    catalogData.subjects.forEach((subject, subIndex) => {
-        const wrapper = document.createElement('div');
-        wrapper.className = 'subject-wrapper';
-        
-        // Auto-expand Indian Polity by default
-        if (subject.id === 'polity') wrapper.classList.add('expanded');
+    const subject = catalogData.subjects.find(s => s.id === subjectId);
+    if (!subject) return;
 
-        const headerBtn = document.createElement('button');
-        headerBtn.className = 'subject-accordion-btn';
-        headerBtn.type = 'button';
-        
-        let badgeHtml = '';
-        let chevronHtml = '<span class="chevron">▶</span>';
-        if (subject.id !== 'polity') {
-            badgeHtml = `<span class="badge-pill badge-gray" style="margin-left: 8px; font-size: 11px; font-weight: 500;">Coming Soon</span>`;
-            chevronHtml = ''; // No chevron for locked coming soon subjects
-            headerBtn.classList.add('disabled-accordion');
-        }
+    // Update Header Text & Badges
+    const mcqSubjectTitle = document.getElementById('mcq-subject-title');
+    const mcqSubjectDesc = document.getElementById('mcq-subject-desc');
+    const activeSubjectBadge = document.getElementById('active-mcq-subject-badge');
 
-        headerBtn.innerHTML = `
-            <h4 style="display: flex; align-items: center;">📖 ${subject.name} ${badgeHtml}</h4>
-            ${chevronHtml}
-        `;
-        
-        // Only allow toggling/expansion for active subjects (Polity)
-        if (subject.id === 'polity') {
-            headerBtn.addEventListener('click', () => {
-                wrapper.classList.toggle('expanded');
-            });
-        }
+    if (mcqSubjectTitle) mcqSubjectTitle.innerText = `${subject.icon || '📖'} ${subject.name}`;
+    if (mcqSubjectDesc) mcqSubjectDesc.innerText = subject.description || 'Select a topic module below to start practicing questions.';
+    if (activeSubjectBadge) activeSubjectBadge.innerText = subject.name;
+    if (navbarTopicTitle) navbarTopicTitle.innerText = subject.name;
 
-        const topicsList = document.createElement('div');
-        topicsList.className = 'subject-topics-list';
+    // Render Topic Rows
+    if (topicModulesContainer) {
+        topicModulesContainer.innerHTML = '';
 
-        if (subject.id !== 'polity') {
-            // Render a styled Coming Soon placeholder
-            const comingSoonRow = document.createElement('div');
-            comingSoonRow.className = 'coming-soon-row';
-            comingSoonRow.style.padding = '18px';
-            comingSoonRow.style.color = 'var(--text-secondary)';
-            comingSoonRow.style.fontSize = '13.5px';
-            comingSoonRow.style.textAlign = 'center';
-            comingSoonRow.style.fontStyle = 'italic';
-            comingSoonRow.innerText = 'Revision modules for this subject are coming soon!';
-            topicsList.appendChild(comingSoonRow);
+        if (!subject.topics || subject.topics.length === 0) {
+            topicModulesContainer.innerHTML = `
+                <div class="coming-soon-row" style="padding: 24px; text-align: center; color: var(--text-secondary); font-style: italic;">
+                    No practice modules currently available for this subject.
+                </div>
+            `;
         } else {
-            // Render topics normally for active subjects (Polity)
             subject.topics.forEach(topic => {
                 const topicRow = document.createElement('div');
                 topicRow.className = 'topic-list-row';
                 
-                // Retrieve high score from localStorage
                 const localKey = `khosa_mcq_highscore_${topic.id}`;
                 const localDataStr = localStorage.getItem(localKey);
                 let scoreMetaHtml = '';
@@ -222,14 +256,54 @@ function renderDashboardCatalog() {
                     loadQuizFromPath(topic.path, topic.id, topic.name);
                 });
 
-                topicsList.appendChild(topicRow);
+                topicModulesContainer.appendChild(topicRow);
             });
         }
+    }
 
-        wrapper.appendChild(headerBtn);
-        wrapper.appendChild(topicsList);
-        subjectsContainer.appendChild(wrapper);
-    });
+    switchView('topicModules');
+}
+
+// --- Question Schema Normalizer (Preserves rich HTML elements like tables, bold text, lists) ---
+function normalizeQuestions(data) {
+    if (Array.isArray(data)) {
+        return data.map(item => ({
+            ...item,
+            question: item.question || '',
+            explanation: item.explanation || item.rationale || '',
+            options: (item.options || []).map(o => ({
+                ...o,
+                rationale: o.rationale || ''
+            }))
+        }));
+    }
+    if (data && data.ENGLISH && data.ENGLISH.ques && Array.isArray(data.ENGLISH.ques.list)) {
+        return data.ENGLISH.ques.list.map(item => {
+            const rawQ = item.q ? item.q.t : '';
+            const rawSol = item.so ? item.so.t : '';
+            
+            // Retain rich HTML content (tables, formatting) while trimming extra trailing breaks
+            const cleanQ = rawQ.replace(/(\s*<br\s*\/?>\s*)+$/gi, '').trim();
+            const cleanSol = rawSol.replace(/(\s*<br\s*\/?>\s*)+$/gi, '').trim();
+            
+            const options = (item.opt || []).map(o => {
+                const optText = (o.t || '').replace(/(\s*<br\s*\/?>\s*)+$/gi, '').trim();
+                return {
+                    text: optText,
+                    isCorrect: !!o.co,
+                    rationale: o.co ? cleanSol : ''
+                };
+            });
+            
+            return {
+                question: cleanQ,
+                explanation: cleanSol,
+                options: options,
+                hint: cleanSol ? "Detailed solution breakdown is provided in the explanation below." : "Read the options carefully."
+            };
+        });
+    }
+    return [];
 }
 
 // --- Load Quiz JSON ---
@@ -239,11 +313,16 @@ async function loadQuizFromPath(path, topicId, topicName) {
         if (!response.ok) throw new Error(`Failed to load quiz from ${path}`);
         const data = await response.json();
         
+        const normalized = normalizeQuestions(data);
+        if (!normalized || normalized.length === 0) {
+            throw new Error("No questions could be loaded from this file.");
+        }
+        
         currentTopicId = topicId;
         currentTopicName = topicName;
         incorrectOnlyMode = false;
         
-        startQuiz(data);
+        startQuiz(normalized);
     } catch (err) {
         console.error(err);
         alert(`Failed to load the quiz file: ${err.message}`);
@@ -252,19 +331,11 @@ async function loadQuizFromPath(path, topicId, topicName) {
 
 // --- Start Quiz Runtime ---
 function startQuiz(questions) {
-    // Deep copy and shuffle options
-    quizData = questions.map(q => {
-        // Create a copy of the options array and shuffle it
-        let shuffledOptions = [...q.options];
-        for (let i = shuffledOptions.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
-        }
-        return {
-            ...q,
-            options: shuffledOptions
-        };
-    });
+    // Preserve exact JSON option sequence (A, B, C, D)
+    quizData = questions.map(q => ({
+        ...q,
+        options: [...q.options]
+    }));
     
     if (!incorrectOnlyMode) {
         originalQuizData = [...questions];
@@ -336,19 +407,17 @@ function showQuestion(index) {
 
     const q = quizData[index];
     
-    // Set Question Text
-    questionText.innerText = q.question;
+    // Set Question Text with rich HTML support (tables, bold text, lists, statement breaks)
+    questionText.innerHTML = formatRichHtmlText(q.question);
     
     // Hint setup
     hintContainer.classList.remove('open');
     if (q.hint && q.hint.trim() !== '') {
         hintContainer.style.display = 'block';
-        hintText.innerText = q.hint;
+        hintText.innerHTML = formatRichHtmlText(q.hint);
     } else {
         hintContainer.style.display = 'none';
     }
-
-
 
     // Clean dynamic options
     optionsContainer.innerHTML = '';
@@ -362,7 +431,7 @@ function showQuestion(index) {
         const letter = String.fromCharCode(65 + optIdx);
         btn.innerHTML = `
             <span class="option-circle">${letter}</span>
-            <span class="option-text">${opt.text}</span>
+            <span class="option-text">${formatRichHtmlText(opt.text)}</span>
         `;
         
         // Sync states if already answered
@@ -450,32 +519,88 @@ function revealRationale(index) {
     const q = quizData[index];
     const userSelectedIdx = userAnswers[index];
     const selectedOpt = q.options[userSelectedIdx];
+    const correctOpt = q.options.find(o => o.isCorrect);
     
     rationaleCard.style.display = 'block';
     
+    const mainExplanation = q.explanation || (correctOpt ? correctOpt.rationale : '') || selectedOpt.rationale || '';
+
     if (selectedOpt.isCorrect) {
         rationaleCard.className = "explanation-panel"; // green layout
         feedbackBadge.innerText = "Correct";
         feedbackBadge.className = "result-badge badge-success";
-        rationaleText.innerText = selectedOpt.rationale || "Great job! That is the correct option.";
+        rationaleText.innerHTML = formatRichHtmlText(mainExplanation || "Great job! That is the correct option.");
     } else {
         rationaleCard.className = "explanation-panel wrong-explanation"; // red layout
         feedbackBadge.innerText = "Incorrect";
         feedbackBadge.className = "result-badge badge-error";
         
-        // Build rationale: show why selected was wrong, followed by correct rationale
-        const correctOpt = q.options.find(o => o.isCorrect);
-        let content = `Your choice was incorrect. ${selectedOpt.rationale || ''}<br><br>`;
-        content += `<strong>Correct Answer:</strong> ${correctOpt.text}<br>`;
-        content += `${correctOpt.rationale || ''}`;
+        let content = '';
+        if (correctOpt) {
+            content += `<div style="margin-bottom: 12px;"><span class="badge-pill" style="background: #dcfce7; color: #15803d; border: 1px solid #86efac; font-weight: 700; padding: 5px 12px; font-size: 13.5px; display: inline-block;">✓ Correct Answer: ${correctOpt.text}</span></div>`;
+        }
+        
+        if (selectedOpt.rationale && selectedOpt.rationale !== mainExplanation) {
+            content += `<div style="margin-bottom: 10px;">${formatRichHtmlText(selectedOpt.rationale)}</div>`;
+        }
+        
+        content += `<div>${formatRichHtmlText(mainExplanation)}</div>`;
         rationaleText.innerHTML = content;
     }
 }
 
+function formatRichHtmlText(text) {
+    if (!text) return '';
+    let formatted = text;
+    
+    // 1. Process <table>...</table> blocks first: strip internal \n and extraneous <br> tags
+    formatted = formatted.replace(/(<table[\s\S]*?<\/table>)/gi, (match) => {
+        let cleanTable = match.replace(/\r?\n/g, ' ');
+        cleanTable = cleanTable.replace(/(<td>\s*)<br\s*\/?>/gi, '$1');
+        cleanTable = cleanTable.replace(/<br\s*\/?>(\s*<\/td>)/gi, '$1');
+        return cleanTable;
+    });
+
+    // 2. Convert literal \n outside tables to <br>
+    formatted = formatted.replace(/\r?\n/g, '<br>');
+
+    // 3. Fix artificial mid-sentence <br> splits (where <br> breaks a sentence across lines)
+    formatted = formatted.replace(/<br\s*\/?>\s*(?!(Statement\s+\d+|Pair\s+\d+|Option\s+[A-D]|Why\s+[A-D]|•|&bull;|\d+\.\s+[A-Z]|<table|<div|<p))(?=[a-z0-9\(\)\-,])/gi, ' ');
+
+    // 4. Clean up consecutive <br> tags (replace 2 or more consecutive <br> with just one <br>)
+    formatted = formatted.replace(/(<br\s*\/?>\s*){2,}/gi, '<br>');
+
+    // 5. Format "Statement X is correct / incorrect" badges
+    formatted = formatted.replace(/(?:<br\s*\/?>\s*)?Statement\s+(\d+)\s+is\s+correct:?/gi, 
+        '<div style="margin-top: 14px; margin-bottom: 4px;"><span class="badge-pill" style="background: #dcfce7; color: #15803d; border: 1px solid #86efac; font-weight: 700; padding: 4px 10px; display: inline-block;">✓ Statement $1 is Correct:</span></div>');
+    
+    formatted = formatted.replace(/(?:<br\s*\/?>\s*)?Statement\s+(\d+)\s+is\s+incorrect:?/gi, 
+        '<div style="margin-top: 14px; margin-bottom: 4px;"><span class="badge-pill" style="background: #fee2e2; color: #b91c1c; border: 1px solid #fca5a5; font-weight: 600; padding: 4px 10px; display: inline-block;">✕ Statement $1 is Incorrect:</span></div>');
+
+    // 6. Format "Pair X is correctly matched / not correctly matched" badges
+    formatted = formatted.replace(/(?:<br\s*\/?>\s*)?Pair\s+(\d+)\s+is\s+correctly\s+matched:?/gi, 
+        '<div style="margin-top: 14px; margin-bottom: 4px;"><span class="badge-pill" style="background: #dcfce7; color: #15803d; border: 1px solid #86efac; font-weight: 700; padding: 4px 10px; display: inline-block;">✓ Pair $1 is Correctly Matched:</span></div>');
+
+    formatted = formatted.replace(/(?:<br\s*\/?>\s*)?Pair\s+(\d+)\s+is\s+not\s+correctly\s+matched:?/gi, 
+        '<div style="margin-top: 14px; margin-bottom: 4px;"><span class="badge-pill" style="background: #fee2e2; color: #b91c1c; border: 1px solid #fca5a5; font-weight: 600; padding: 4px 10px; display: inline-block;">✕ Pair $1 is Not Correctly Matched:</span></div>');
+
+    // 7. Format "Why Option X is correct / incorrect" badges
+    formatted = formatted.replace(/(?:&bull;|\u2022|\u25cf|\u25cb|\u25a0|\u2713)?\s*(?:Why\s+)?(?:Option\s+)?([A-D])\s+is\s+correct:?/gi, 
+        '<div style="margin-top: 14px; margin-bottom: 4px;"><span class="badge-pill" style="background: #dcfce7; color: #15803d; border: 1px solid #86efac; font-weight: 700; padding: 4px 10px; display: inline-block;">✓ Option $1 is Correct:</span></div>');
+
+    formatted = formatted.replace(/(?:&bull;|\u2022|\u25cf|\u25cb|\u25a0|\u2715)?\s*(?:Why\s+)?(?:Option\s+)?([A-D](?:,\s*[A-D])*)\s+(?:is|are)\s+incorrect:?/gi, 
+        '<div style="margin-top: 14px; margin-bottom: 4px;"><span class="badge-pill" style="background: #fee2e2; color: #b91c1c; border: 1px solid #fca5a5; font-weight: 600; padding: 4px 10px; display: inline-block;">✕ Option $1 are Incorrect:</span></div>');
+
+    // 8. Clean bullet formatting & line breaks
+    formatted = formatted.replace(/(?:&bull;|\u2022|\u25cf|\u25cb|\u25a0)\s*/g, '• ');
+    formatted = formatted.replace(/^(<br\s*\/?>\s*)+/gi, '').replace(/(<br\s*\/?>\s*)+$/gi, '').trim();
+
+    return formatted;
+}
+
 function confirmQuit() {
-    if (navbarTopicTitle) navbarTopicTitle.innerText = "Subject Directory";
-    switchView('dashboard');
-    loadCatalog();
+    if (navbarTopicTitle) navbarTopicTitle.innerText = currentTopicName || "Subject Directory";
+    switchView('topicModules');
 }
 
 // --- Finish Quiz & Render Results Dashboard ---

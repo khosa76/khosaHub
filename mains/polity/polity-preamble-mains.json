@@ -1,0 +1,71 @@
+[
+    {
+        "question_number": "Q1",
+        "question": "What, Why and Who are 'We', the first word of the Preamble of the Constitution of India?",
+        "marks": 15,
+        "word_limit": 250,
+        "answer": {
+            "introduction": "The phrase 'We, the People of India' forms the opening declaration of the Preamble, laying down the fundamental source of authority and moral legitimacy behind the Constitution of India.",
+            "sections": [
+                {
+                    "title": "What is 'We'?",
+                    "points": [
+                        "Collective Political Authority: Represents the concept of Popular Sovereignty, signifying that ultimate political power is vested in the citizens of India rather than any external authority, monarch, or single institution.",
+                        "Basis of Constitutional Legitimacy: Signifies that the Constitution was drawn up and enacted by the people through their elected representatives in the Constituent Assembly."
+                    ]
+                },
+                {
+                    "title": "Who are 'We'?",
+                    "points": [
+                        "Universal Citizenry: Encompasses every citizen of India, transcending divisions of caste, creed, religion, gender, region, or economic status.",
+                        "Democratic Sovereign: Includes the collective electorate that exercises decision-making authority through representative democracy and universal adult suffrage."
+                    ]
+                },
+                {
+                    "title": "Why 'We'?",
+                    "points": [
+                        "Rejection of Foreign Authority: Explicitly declares that India's governance is free from foreign dictation, upholding national autonomy.",
+                        "Foundation of Democracy and Equality: Establishes that all public offices and democratic institutions derive their mandate directly from the people.",
+                        "Fostering National Integration: Strengthens the spirit of Fraternity, unity, and shared responsibility among a diverse population."
+                    ]
+                },
+                {
+                    "title": "Practical Examples",
+                    "points": [
+                        "Universal Adult Franchise (Article 326): Every adult citizen holding a single vote of equal value directly exercises sovereign power during general elections.",
+                        "Constitutional Amendments: Parliamentary representatives alter laws strictly under the mandate granted by the electorate, maintaining accountability to 'We, the People'."
+                    ]
+                }
+            ],
+            "conclusion": "The word 'We' anchors the Indian democratic republic on popular consent, affirming that the ultimate source of constitutional governance lies in the sovereign will of the people."
+        }
+    },
+    {
+        "question_number": "Q2",
+        "question": "'Preamble is the key to open the minds of the makers of the Constitution.' Discuss, to what extent the spirit of Preamble prevails in practice.",
+        "marks": 15,
+        "word_limit": 250,
+        "answer": {
+            "introduction": "As Sir Alladi Krishnaswami Iyer noted, the Preamble expresses 'what we had thought or dreamt so long,' serving as an introductory key to the vision, basic philosophy, and grand ideals of the founding fathers.",
+            "sections": [
+                {
+                    "title": "Extent to Which the Spirit Prevails",
+                    "points": [
+                        "Sovereign, Democratic Republic: Regular, free, and fair elections ensure democratic transfer of power, reinforcing popular sovereignty. India functions as a Republic with an elected President and equal access to public offices.",
+                        "Social and Economic Justice: Articles 15(4) and 16(4) translate substantive equality into practice via reservations in education and public employment. Article 39 directives guide economic policy to prevent wealth concentration.",
+                        "Secularism and Liberty: Positive secularism (Sarva-dharma Samabhava) protects freedom of faith (Articles 25–28) while permitting state intervention against social evils. Article 21 expands personal liberties."
+                    ]
+                },
+                {
+                    "title": "Gaps and Practical Challenges",
+                    "points": [
+                        "Economic Inequalities: Persistent gaps in income distribution and access to basic resources indicate that true economic justice remains a work in progress.",
+                        "Social Divisions: Communal tensions and caste-based discrimination occasionally undermine individual dignity and fraternity.",
+                        "Formal vs Substantive Equality: Formal legal equality often fails to eliminate systemic barriers without effective procedural safeguards and speedy access to justice."
+                    ]
+                }
+            ],
+            "conclusion": "The Preamble forms part of the immutable Basic Structure of the Constitution (Kesavananda Bharati case, 1973), serving as an active guide for legislation, judicial review, and public policy."
+        }
+    }
+]

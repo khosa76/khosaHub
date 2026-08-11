@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which of the following channels or straits separates the Andaman group of islands from the Nicobar group of islands?",
+    "options": [
+      { "text": "The Nine Degree Channel", "isCorrect": false, "rationale": "The Nine Degree Channel separates Minicoy Island from the main Lakshadweep archipelago." },
+      { "text": "The Ten Degree Channel", "isCorrect": true, "rationale": "The Ten Degree Channel is a channel that lies on the 10-degree latitude line, separating the Andaman Islands to the north from the Nicobar Islands to the south." },
+      { "text": "The Duncan Passage", "isCorrect": false, "rationale": "The Duncan Passage separates South Andaman from Little Andaman." },
+      { "text": "The Palk Strait", "isCorrect": false, "rationale": "The Palk Strait separates India (Tamil Nadu) from Sri Lanka." }
+    ],
+    "hint": "This channel is named after the parallel of latitude that runs between the two island groups."
+  },
+  {
+    "question": "Where is India's southernmost territory marker, 'Indira Point' (formerly Pygmalion Point), located?",
+    "options": [
+      { "text": "Kanyakumari (Cape Comorin)", "isCorrect": false, "rationale": "Kanyakumari is the southernmost point of the Indian mainland, not the entire Indian territory." },
+      { "text": "Great Nicobar Island", "isCorrect": true, "rationale": "Indira Point is located on the Great Nicobar Island, which is the southernmost island of the Nicobar chain." },
+      { "text": "Car Nicobar Island", "isCorrect": false, "rationale": "Car Nicobar is the northernmost of the Nicobar Islands, far north of Indira Point." },
+      { "text": "South Andaman Island", "isCorrect": false, "rationale": "Port Blair is on South Andaman, but Indira Point is much further south in the Nicobar group." }
+    ],
+    "hint": "It is located on the largest and southernmost island of the Nicobar archipelago."
+  },
+  {
+    "question": "What is the name of the channel that serves as the international maritime boundary between India's Great Nicobar Island and the Sumatra island of Indonesia?",
+    "options": [
+      { "text": "The Six Degree Channel (Great Channel)", "isCorrect": true, "rationale": "The Six Degree Channel, also known as the Great Channel, separates India's Great Nicobar Island from the Sumatra island of Indonesia." },
+      { "text": "The Eight Degree Channel", "isCorrect": false, "rationale": "The Eight Degree Channel separates the Indian island of Minicoy from the Maldives." },
+      { "text": "The Malacca Strait", "isCorrect": false, "rationale": "The Malacca Strait is further east, between the Malay Peninsula and Sumatra." },
+      { "text": "The Coco Channel", "isCorrect": false, "rationale": "The Coco Channel separates India's Landfall Island (Andamans) from Myanmar's Coco Islands." }
+    ],
+    "hint": "This channel is also referred to as the 'Great Channel' and lies close to the 6th parallel north."
+  },
+  {
+    "question": "Which bay, located at the southern tip of Great Nicobar Island, was declared a National Park and is famous as a nesting ground for Giant Leatherback Turtles?",
+    "options": [
+      { "text": "Galathea Bay", "isCorrect": true, "rationale": "Galathea Bay is a prominent bay in Great Nicobar. It was declared a National Park and is one of the world's most important nesting sites for giant leatherback turtles." },
+      { "text": "Campbell Bay", "isCorrect": false, "rationale": "Campbell Bay is another bay on Great Nicobar (housing a national park and port), but Galathea is the primary nesting ground on the southern tip." },
+      { "text": "Nancowry Harbour", "isCorrect": false, "rationale": "Nancowry is in the central Nicobars, not the southern tip of Great Nicobar." },
+      { "text": "Radhanagar Beach", "isCorrect": false, "rationale": "Radhanagar Beach is on Havelock Island (Swaraj Dweep) in the Andaman group, famous for tourism." }
+    ],
+    "hint": "This bay shares its name with the river that drains into it in the southern part of the island."
+  },
+  {
+    "question": "How did the 2004 Indian Ocean earthquake and tsunami impact the physical geography of the Nicobar Islands?",
+    "options": [
+      { "text": "It caused the southern coastline of the islands to subside (sink), submerging parts of the land.", "isCorrect": true, "rationale": "The tectonic shift caused land subsidence in the southern Nicobars. The area around the Indira Point lighthouse sank by over 4 meters, leaving the lighthouse surrounded by water." },
+      { "text": "It created a new land bridge between Great Nicobar and Little Nicobar.", "isCorrect": false, "rationale": "No land bridge was created; in fact, land was lost due to submergence." },
+      { "text": "It completely silted up and closed the Six Degree Channel.", "isCorrect": false, "rationale": "The channel remains a deep, open, and major international shipping lane." },
+      { "text": "It triggered volcanic eruptions that doubled the height of Mount Thullier.", "isCorrect": false, "rationale": "While Barren Island has an active volcano, the 2004 earthquake did not cause volcanic growth on Mount Thullier (the highest point in Great Nicobar)." }
+    ],
+    "hint": "Consider the vertical displacement of tectonic plates and how it affected sea levels relative to the coast."
+  }
+]

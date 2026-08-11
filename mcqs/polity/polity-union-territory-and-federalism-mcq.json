@@ -1,0 +1,756 @@
+[
+    {
+        "question": "Article 3 of the Constitution of India authorizes the Parliament to:\n1. Alter the boundary of any state\n2. Alter the name of any state\n3. Alter the name of a town in any state\n\nSelect the correct answer using the code given below.",
+        "options": [
+            {
+                "text": "1 only",
+                "isCorrect": false,
+                "rationale": "Article 3 authorizes Parliament to alter state boundaries as well as state names, making option (b) correct instead."
+            },
+            {
+                "text": "1 and 2 only",
+                "isCorrect": true,
+                "rationale": "Article 3 empowers Parliament to alter boundaries, areas, or names of existing states, as well as create new states. Altering the name of a town lies with the State Legislature, not Parliament."
+            },
+            {
+                "text": "2 only",
+                "isCorrect": false,
+                "rationale": "Article 3 also empowers Parliament to alter boundaries of states in addition to altering state names."
+            },
+            {
+                "text": "1, 2 and 3",
+                "isCorrect": false,
+                "rationale": "Statement 3 is incorrect because changing the name of a town in any state is a power vested in the State Legislature, not Parliament."
+            }
+        ],
+        "hint": "Article 3 deals with state boundaries and names, but renaming towns is governed at the state level."
+    },
+    {
+        "question": "Consider the following statement with reference to the Constitution of India:\n1. Article 1 of the Constitution ensures the territorial integrity of the States.\n2. Article 2 provides for the admission of new States that are not part of the Union of India.\n3. Article 3 makes it mandatory to obtain the consent of the State Legislature for its reorganization.\n\nWhich of the statements given above is/are correct?",
+        "options": [
+            {
+                "text": "1 and 2 only",
+                "isCorrect": false,
+                "rationale": "Statement 1 is incorrect because India is described as an 'indestructible union of destructible states', meaning state territorial integrity is not guaranteed."
+            },
+            {
+                "text": "2 only",
+                "isCorrect": true,
+                "rationale": "Statement 2 is correct as Article 2 relates to admission or establishment of new States not part of the Union of India. Statements 1 and 3 are incorrect."
+            },
+            {
+                "text": "2 and 3 only",
+                "isCorrect": false,
+                "rationale": "Statement 3 is incorrect because obtainment of consent of the State Legislature is not mandatory for state reorganization (e.g., Andhra Pradesh Reorganisation Act, 2014)."
+            },
+            {
+                "text": "1, 2 and 3",
+                "isCorrect": false,
+                "rationale": "Statements 1 and 3 are incorrect; state territorial integrity is not guaranteed under Article 1, nor is state legislature consent mandatory under Article 3."
+            }
+        ],
+        "hint": "Indian states do not have guaranteed territorial integrity, and Parliament is not bound by state legislature consent."
+    },
+    {
+        "question": "Consider the following statements:\n1. The term 'Federation' has nowhere been explicitly mentioned in the Constitution.\n2. Indian Federation is the result of an agreement by the states.\n\nWhich of the statements given above is/are correct?",
+        "options": [
+            {
+                "text": "1 only",
+                "isCorrect": true,
+                "rationale": "Statement 1 is correct as 'Federation' is not explicitly mentioned in the Constitution; Article 1 uses 'Union of States'. Statement 2 is incorrect because Indian federation is not the result of an agreement among states."
+            },
+            {
+                "text": "2 only",
+                "isCorrect": false,
+                "rationale": "Statement 2 is incorrect; as Dr. B.R. Ambedkar noted, the Indian Federation is not formed by agreement among states."
+            },
+            {
+                "text": "Both 1 and 2",
+                "isCorrect": false,
+                "rationale": "Statement 2 is incorrect because states did not enter into an agreement to form the Indian federation."
+            },
+            {
+                "text": "Neither 1 nor 2",
+                "isCorrect": false,
+                "rationale": "Statement 1 is correct since the word 'Federation' is nowhere mentioned in the text of the Constitution."
+            }
+        ],
+        "hint": "Recall Dr. B.R. Ambedkar's explanation regarding the preference for the term 'Union of States' over 'Federation'."
+    },
+    {
+        "question": "Consider the following statements:\n1. India is an indestructible union of indestructible states.\n2. Alterations of state boundaries are not considered amendments to the Constitution under Article 368.\n3. High courts do not have the power to review the reorganization of territorial boundaries of States.\n\nWhich of the statements given above are correct?",
+        "options": [
+            {
+                "text": "2 only",
+                "isCorrect": true,
+                "rationale": "Statement 2 is correct because under Article 4, laws passed under Article 3 are not deemed amendments under Article 368. Statements 1 and 3 are incorrect."
+            },
+            {
+                "text": "1 and 3 only",
+                "isCorrect": false,
+                "rationale": "Statement 1 is incorrect (India is an indestructible union of destructible states) and Statement 3 is incorrect (High Courts can review reorganization acts under Article 226)."
+            },
+            {
+                "text": "3 only",
+                "isCorrect": false,
+                "rationale": "Statement 3 is incorrect because High Courts do possess judicial review powers under Article 226 over reorganization acts."
+            },
+            {
+                "text": "2 and 3 only",
+                "isCorrect": false,
+                "rationale": "Statement 3 is incorrect; High Courts have the power to review state reorganization acts for validity."
+            }
+        ],
+        "hint": "Article 4 specifies that laws made under Article 3 are not considered constitutional amendments under Article 368."
+    },
+    {
+        "question": "Regarding Union Territories in India, consider the following statements:\n1. At present, only two Union Territories in India have legislative assembly.\n2. The President of India administers Union Territories through administrators appointed by them.\n3. Union Territories with legislative assemblies have powers similar to those of States in all matters.\n\nWhich of the statements given above is/are correct?",
+        "options": [
+            {
+                "text": "1 and 2 only",
+                "isCorrect": false,
+                "rationale": "Statement 1 is incorrect because Delhi, Puducherry, and Jammu & Kashmir have provisions for legislative assemblies."
+            },
+            {
+                "text": "2 and 3 only",
+                "isCorrect": false,
+                "rationale": "Statement 3 is incorrect because UT legislative assemblies do not have powers equal to states in all matters; Parliament retains overriding legislative authority."
+            },
+            {
+                "text": "2 only",
+                "isCorrect": true,
+                "rationale": "Statement 2 is correct per Article 239. Statements 1 and 3 are incorrect."
+            },
+            {
+                "text": "3 only",
+                "isCorrect": false,
+                "rationale": "Statement 3 is incorrect; Parliament can legislate on state list subjects for Union Territories."
+            }
+        ],
+        "hint": "Consider recent additions to the list of Union Territories that possess legislative assemblies."
+    },
+    {
+        "question": "What is the primary purpose of Article 371, special provisions under Part XXI, of the Indian Constitution?",
+        "options": [
+            {
+                "text": "To ensure administrative uniformity across States",
+                "isCorrect": false,
+                "rationale": "Article 371 does not promote uniformity; it accommodates specific regional differences."
+            },
+            {
+                "text": "To deal with the administration and control of Scheduled Areas and Scheduled Tribes in the Fifth Schedule States",
+                "isCorrect": false,
+                "rationale": "The administration of Scheduled Areas in Fifth Schedule states is covered under Article 244(1), not Article 371."
+            },
+            {
+                "text": "To ensure efficient administration of tribal areas in the States of Assam, Meghalaya, Tripura and Mizoram.",
+                "isCorrect": false,
+                "rationale": "Tribal areas in these four states are specifically administered under the Sixth Schedule (Article 244(2))."
+            },
+            {
+                "text": "To provide administrative and cultural autonomy to certain states.",
+                "isCorrect": true,
+                "rationale": "Article 371 provides special provisions to accommodate unique cultural, economic, and administrative characteristics of specific states."
+            }
+        ],
+        "hint": "Article 371 caters to the regional diversity, protection of local customs, and administrative needs of specific states."
+    },
+    {
+        "question": "Consider the following statements:\nStatement-I: The Parliament of India has exclusive power to legislate on subjects enumerated in the Union List.\nStatement-II: The subjects in the Union List are of national importance and require uniform policies across the country.\n\nWhich one of the following is correct in respect of the above statements?",
+        "options": [
+            {
+                "text": "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+                "isCorrect": true,
+                "rationale": "Both statements are correct and Statement-II provides the correct rationale for why exclusive power is given to Parliament over Union List items."
+            },
+            {
+                "text": "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+                "isCorrect": false,
+                "rationale": "Statement-II directly explains Statement-I, as national importance necessitates exclusive central legislation."
+            },
+            {
+                "text": "Statement-I is correct, but Statement-II is incorrect",
+                "isCorrect": false,
+                "rationale": "Statement-II is correct; Union List subjects (defense, banking, foreign affairs) require national uniformity."
+            },
+            {
+                "text": "Statement-I is incorrect, but Statement-II is correct",
+                "isCorrect": false,
+                "rationale": "Statement-I is correct under the Seventh Schedule of the Constitution."
+            }
+        ],
+        "hint": "Subjects of national importance demand uniform national policies passed exclusively by Parliament."
+    },
+    {
+        "question": "Which one of the following best defines the term 'Indian federalism'?",
+        "options": [
+            {
+                "text": "Constitutional devolution of powers to the State Government.",
+                "isCorrect": true,
+                "rationale": "Indian federalism is defined by the constitutional division and devolution of powers between the Union and the States via the Seventh Schedule."
+            },
+            {
+                "text": "Transfer of authority and responsibility from Central Government to local administration.",
+                "isCorrect": false,
+                "rationale": "This refers to democratic decentralization rather than federalism."
+            },
+            {
+                "text": "An agreement between the center and constituent units to set up a federation.",
+                "isCorrect": false,
+                "rationale": "Indian federalism is not an agreement among states, unlike American federalism."
+            },
+            {
+                "text": "Creation of a hierarchy of governance structure with distribution of decision-making power to the regional governments.",
+                "isCorrect": false,
+                "rationale": "While descriptive of general decentralization, the defining feature of Indian federalism is constitutional power devolution."
+            }
+        ],
+        "hint": "Indian federalism derives its power structure directly from constitutional distribution."
+    },
+    {
+        "question": "Consider the following statements:\n1. The ceding of Indian territory to a foreign state requires a constitutional amendment.\n2. State legislatures have no authority to alter the boundaries of their respective states.\n3. The territorial integrity of India is protected under Article 1 of the Constitution.\n\nHow many of the above statements are correct?",
+        "options": [
+            {
+                "text": "Only one",
+                "isCorrect": false,
+                "rationale": "All three statements are correct, making 'All three' the correct choice."
+            },
+            {
+                "text": "Only two",
+                "isCorrect": false,
+                "rationale": "All three statements are correct."
+            },
+            {
+                "text": "All three",
+                "isCorrect": true,
+                "rationale": "Statement 1 is correct (Berubari Union Case 1960). Statement 2 is correct (power lies exclusively with Parliament). Statement 3 is correct (Article 1 ensures national territorial integrity)."
+            },
+            {
+                "text": "None",
+                "isCorrect": false,
+                "rationale": "All statements listed are correct."
+            }
+        ],
+        "hint": "Refer to the Supreme Court ruling in the Berubari Union Case (1960) and Article 3 powers."
+    },
+    {
+        "question": "Consider the following statements:\n1. Territory of India includes Territories of the State and Union Territories only.\n2. 'Union of India' is a wider expression than the 'territory of India'.\n3. The First Schedule of the Constitution mentions the names of State and Union territories.\n\nHow many of the above statements are correct?",
+        "options": [
+            {
+                "text": "Only one",
+                "isCorrect": true,
+                "rationale": "Only Statement 3 is correct. Statement 1 is incorrect (also includes acquired territories) and Statement 2 is incorrect ('Territory of India' is wider than 'Union of India')."
+            },
+            {
+                "text": "Only two",
+                "isCorrect": false,
+                "rationale": "Statements 1 and 2 are incorrect, so only one statement is correct."
+            },
+            {
+                "text": "All three",
+                "isCorrect": false,
+                "rationale": "Statements 1 and 2 are incorrect."
+            },
+            {
+                "text": "None",
+                "isCorrect": false,
+                "rationale": "Statement 3 is correct because the First Schedule lists States and UTs."
+            }
+        ],
+        "hint": "'Territory of India' includes states, union territories, and territories that may be acquired."
+    },
+    {
+        "question": "Consider the following statements:\n1. Dhar Commission recommended the reorganization of states based on linguistic lines.\n2. Tamil Nadu was the first linguistic State of India.\n3. JVP Committee rejected language as the basis for state reorganization.\n\nHow many of the above statements are correct?",
+        "options": [
+            {
+                "text": "Only one",
+                "isCorrect": true,
+                "rationale": "Only Statement 3 is correct. Statement 1 is incorrect (Dhar Commission opposed linguistic lines) and Statement 2 is incorrect (Andhra Pradesh was the first linguistic state in 1953)."
+            },
+            {
+                "text": "Only two",
+                "isCorrect": false,
+                "rationale": "Only Statement 3 is correct, so 'Only one' is the correct option."
+            },
+            {
+                "text": "All three",
+                "isCorrect": false,
+                "rationale": "Statements 1 and 2 are incorrect."
+            },
+            {
+                "text": "None",
+                "isCorrect": false,
+                "rationale": "Statement 3 is correct."
+            }
+        ],
+        "hint": "Recall which state was created first on linguistic grounds in October 1953."
+    },
+    {
+        "question": "Which among the following is the primary purpose for the establishment of Inter-State Councils under Article 263 of the Constitution of India?",
+        "options": [
+            {
+                "text": "Administrative delegation",
+                "isCorrect": false,
+                "rationale": "Administrative delegation is not the primary constitutional purpose of Article 263."
+            },
+            {
+                "text": "Direct democracy",
+                "isCorrect": false,
+                "rationale": "Direct democracy tools include referendum and recall, not Inter-State Councils."
+            },
+            {
+                "text": "Cooperative Federalism",
+                "isCorrect": true,
+                "rationale": "The Inter-State Council promotes inter-state coordination, consultation, and policy alignment, embodying Cooperative Federalism."
+            },
+            {
+                "text": "Democratic decentralization",
+                "isCorrect": false,
+                "rationale": "Democratic decentralization primarily relates to local self-governments (Panchayats and Municipalities)."
+            }
+        ],
+        "hint": "Article 263 provides a platform for inter-state and centre-state coordination."
+    },
+    {
+        "question": "Consider the following statements:\nStatement-I: State autonomy in India without external influence is guaranteed under the federal structure of the Constitution.\nStatement-II: The Seventh Schedule of the Constitution demarcates the subjects of the Union, State, and Concurrent lists.\n\nWhich one of the following is correct in respect of the above statements?",
+        "options": [
+            {
+                "text": "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+                "isCorrect": false,
+                "rationale": "Statement-I is incorrect because State autonomy in India is not absolute."
+            },
+            {
+                "text": "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+                "isCorrect": false,
+                "rationale": "Statement-I is incorrect due to unitary features embedded in the Indian polity."
+            },
+            {
+                "text": "Statement-I is correct, but Statement-II is incorrect",
+                "isCorrect": false,
+                "rationale": "Statement-I is incorrect while Statement-II is correct."
+            },
+            {
+                "text": "Statement-I is incorrect, but Statement-II is correct",
+                "isCorrect": true,
+                "rationale": "Statement-I is incorrect because state autonomy is not absolute (Union government has overriding powers). Statement-II is correct as the Seventh Schedule contains three lists."
+            }
+        ],
+        "hint": "State autonomy in India is limited by unitary features like emergency provisions."
+    },
+    {
+        "question": "Which one of the following factors constitutes the best safeguard of liberty in a liberal democracy?",
+        "options": [
+            {
+                "text": "A committed judiciary",
+                "isCorrect": false,
+                "rationale": "A 'committed' judiciary often implies commitment to the ruling executive rather than the Constitution."
+            },
+            {
+                "text": "Centralization of powers",
+                "isCorrect": false,
+                "rationale": "Centralization of powers leads to authoritarianism, threatening individual liberty."
+            },
+            {
+                "text": "Elected government",
+                "isCorrect": false,
+                "rationale": "An elected government without checks can lead to a tyranny of the majority."
+            },
+            {
+                "text": "Separation of powers",
+                "isCorrect": true,
+                "rationale": "Separation of powers ensures checks and balances between organs, preventing arbitrary power accumulation and safeguarding liberty."
+            }
+        ],
+        "hint": "Checks and balances between organs prevent tyranny."
+    },
+    {
+        "question": "The Constitution of India is a blend of rigidity and flexibility. Many of its provisions can be amended solely by the Parliament whereas others require a complex and lengthy process. With reference to this, a bill must satisfy which of the following conditions in order to amend a provision of the constitution that relates to the sharing of power between the union and the states:\n1. The bill must be passed in both the houses of parliament separately, with the majority of at least two-third of the members present and voting.\n2. The bill must be ratified by the legislatures of at least half of the total states, with the majority of at least one-half of the members present and voting.\n\nWhich of the statements given above is/are correct?",
+        "options": [
+            {
+                "text": "1 only",
+                "isCorrect": false,
+                "rationale": "Both statements 1 and 2 are required for federal amendments."
+            },
+            {
+                "text": "2 only",
+                "isCorrect": false,
+                "rationale": "Passing by special majority in Parliament is also required."
+            },
+            {
+                "text": "Both 1 and 2",
+                "isCorrect": true,
+                "rationale": "Amending federal provisions requires special majority in Parliament (two-thirds present and voting + total membership majority) AND ratification by at least half of state legislatures."
+            },
+            {
+                "text": "Neither 1 nor 2",
+                "isCorrect": false,
+                "rationale": "Both listed conditions are necessary under Article 368 for federal provisions."
+            }
+        ],
+        "hint": "Amendments affecting Centre-State relations require consent from state legislatures."
+    },
+    {
+        "question": "Which of the following is not an essential feature of 'federalism'?",
+        "options": [
+            {
+                "text": "Written constitution.",
+                "isCorrect": false,
+                "rationale": "A written constitution is an essential feature of federalism."
+            },
+            {
+                "text": "Independent judiciary.",
+                "isCorrect": false,
+                "rationale": "An independent judiciary is an essential feature to settle inter-governmental disputes."
+            },
+            {
+                "text": "Division of power among different constituent units of government equally.",
+                "isCorrect": true,
+                "rationale": "While division of power is essential, powers do not need to be divided strictly *equally* among constituent units (e.g., asymmetric federalism)."
+            },
+            {
+                "text": "None of the above",
+                "isCorrect": false,
+                "rationale": "Option (c) is not an essential feature because equal distribution is not required."
+            }
+        ],
+        "hint": "Federal systems can feature asymmetric power distribution among units."
+    },
+    {
+        "question": "With reference to Indian federalism, consider the following statements:\n1. Only the central government can make laws only on the subjects mentioned in the Union list.\n2. Only state governments can make laws on the subjects mentioned in the state list.\n3. Central and state governments both can make laws on 'residuary' subjects.\n\nHow many of the statements given above is/are correct?",
+        "options": [
+            {
+                "text": "Only one",
+                "isCorrect": true,
+                "rationale": "Only Statement 1 is correct. Statement 2 is incorrect (Parliament can legislate on State list under Art 249, 250, etc.). Statement 3 is incorrect (residuary powers lie exclusively with the Centre)."
+            },
+            {
+                "text": "Only two",
+                "isCorrect": false,
+                "rationale": "Only Statement 1 is correct."
+            },
+            {
+                "text": "All three",
+                "isCorrect": false,
+                "rationale": "Statements 2 and 3 are incorrect."
+            },
+            {
+                "text": "None",
+                "isCorrect": false,
+                "rationale": "Statement 1 is correct."
+            }
+        ],
+        "hint": "Residuary powers in India are vested exclusively in the Central government."
+    },
+    {
+        "question": "\"Supremacy of the Constitution\" means:",
+        "options": [
+            {
+                "text": "The Laws enacted by the Centre and States must Conform to the Provisions of the Constitution.",
+                "isCorrect": true,
+                "rationale": "Supremacy means all acts and laws enacted by Parliament and State Legislatures must conform to the principles and provisions of the Constitution."
+            },
+            {
+                "text": "Parliament draws its authority from the Constitution.",
+                "isCorrect": false,
+                "rationale": "While true, this alone does not define the broader concept of Constitutional Supremacy."
+            },
+            {
+                "text": "The Constitution draws its authority from the People.",
+                "isCorrect": false,
+                "rationale": "This reflects popular sovereignty rather than constitutional supremacy."
+            },
+            {
+                "text": "The Constitution can be amended only by a Special Majority.",
+                "isCorrect": false,
+                "rationale": "This describes constitutional rigidity, not constitutional supremacy."
+            }
+        ],
+        "hint": "Constitutional supremacy ensures that all enacted statutes must obey constitutional limits."
+    },
+    {
+        "question": "Which of the following is/are not \"federal features\" of the Constitution?\n1. The Constitution is written and not easily amenable.\n2. Equal representation of all states in Rajya Sabha.\n3. State governments derive authority from the Centre.\n\nChoose the correct code:",
+        "options": [
+            {
+                "text": "2 Only",
+                "isCorrect": true,
+                "rationale": "Equal representation of all states in Rajya Sabha is NOT a feature of the Indian Constitution (seats are allocated based on population, making representation unequal)."
+            },
+            {
+                "text": "1 and 3 Only",
+                "isCorrect": false,
+                "rationale": "Statement 1 describes a federal feature."
+            },
+            {
+                "text": "1 and 2 Only",
+                "isCorrect": false,
+                "rationale": "Statement 1 is a federal feature."
+            },
+            {
+                "text": "All of these",
+                "isCorrect": false,
+                "rationale": "Statement 1 is a valid federal feature."
+            }
+        ],
+        "hint": "In India, Rajya Sabha seats are allocated on population basis rather than equal representation per state."
+    },
+    {
+        "question": "With reference to the formation of new States, Consider the following arguments:\n1. Any State can be converted into Union Territory without the consent of the State legislature.\n2. Any State can be converted into Union Territory without the recommendation of the President.\n\nWhich of the statements given above is/are correct:",
+        "options": [
+            {
+                "text": "1 Only",
+                "isCorrect": true,
+                "rationale": "Statement 1 is correct (Parliament is not obligated to follow state assembly views). Statement 2 is incorrect because prior recommendation of the President is mandatory under Article 3."
+            },
+            {
+                "text": "2 Only",
+                "isCorrect": false,
+                "rationale": "Statement 2 is incorrect because Presidential recommendation is required."
+            },
+            {
+                "text": "Both 1 and 2",
+                "isCorrect": false,
+                "rationale": "Statement 2 is incorrect."
+            },
+            {
+                "text": "Neither 1 nor 2",
+                "isCorrect": false,
+                "rationale": "Statement 1 is correct."
+            }
+        ],
+        "hint": "Presidential recommendation is mandatory before introducing a reorganisation bill in Parliament."
+    },
+    {
+        "question": "Match List-I with List-II and select the correct answer using the code given below:\nList-I (Amendment Act):\nA. 52nd Amendment Act, 1985\nB. 61st Amendment Act, 1989\nC. 69th Amendment Act, 1991\nD. 73rd Amendment Act, 1992\n\nList-II (Core Provision):\n1. Reduced voting age from 21 to 18 years.\n2. Granted constitutional status to Panchayati Raj.\n3. Provided for disqualification on the ground of defection.\n4. Accorded special status to the National Capital Territory of Delhi.",
+        "options": [
+            {
+                "text": "A-3, B-1, C-4, D-2",
+                "isCorrect": true,
+                "rationale": "52nd Amendment = Anti-defection (3); 61st Amendment = Voting age to 18 (1); 69th Amendment = Special status to Delhi (4); 73rd Amendment = Panchayati Raj (2)."
+            },
+            {
+                "text": "A-4, B-2, C-3, D-1",
+                "isCorrect": false,
+                "rationale": "Incorrect matching."
+            },
+            {
+                "text": "A-3, B-2, C-4, D-1",
+                "isCorrect": false,
+                "rationale": "61st Amendment reduced voting age (1), not Panchayati Raj (2)."
+            },
+            {
+                "text": "A-4, B-1, C-3, D-2",
+                "isCorrect": false,
+                "rationale": "52nd Amendment deals with Anti-defection (3), not Delhi (4)."
+            }
+        ],
+        "hint": "The 52nd Amendment added the Tenth Schedule (Anti-defection law)."
+    },
+    {
+        "question": "Statement I: The 105th Amendment Act, 2021, restored the power of state governments to identify Other Backward Classes (OBCs).\nStatement II: This amendment was necessitated by a Supreme Court judgment that had vested this power exclusively with the Central government.",
+        "options": [
+            {
+                "text": "Both Statement I and Statement II are correct and Statement II is the correct explanation for Statement I.",
+                "isCorrect": true,
+                "rationale": "The 105th Amendment Act, 2021 was passed specifically to bypass the Supreme Court's Maratha reservation ruling which held that identification of SEBCs rested solely with the Centre."
+            },
+            {
+                "text": "Both Statement I and Statement II are correct but Statement II is not the correct explanation for Statement I.",
+                "isCorrect": false,
+                "rationale": "Statement II directly explains why Statement I was enacted."
+            },
+            {
+                "text": "Statement I is correct but Statement II is incorrect.",
+                "isCorrect": false,
+                "rationale": "Statement II is correct."
+            },
+            {
+                "text": "Statement I is incorrect but Statement II is correct",
+                "isCorrect": false,
+                "rationale": "Statement I is correct."
+            }
+        ],
+        "hint": "This amendment followed the Supreme Court ruling in the Maratha reservation case."
+    },
+    {
+        "question": "The provision for \"reservation in promotions in government jobs for Scheduled Castes and Scheduled Tribes\" was introduced by which amendment, specifically to nullify a contrary Supreme Court ruling?",
+        "options": [
+            {
+                "text": "Seventy Third Amendment Act, 1992",
+                "isCorrect": false,
+                "rationale": "The 73rd Amendment deals with Panchayati Raj Institutions."
+            },
+            {
+                "text": "Seventy Seventh Amendment Act, 1995",
+                "isCorrect": true,
+                "rationale": "The 77th Amendment Act, 1995 inserted Article 16(4A) to enable reservation in promotions for SCs/STs, nullifying the ruling in Indra Sawhney (1992)."
+            },
+            {
+                "text": "Eightieth Amendment Act, 2000",
+                "isCorrect": false,
+                "rationale": "The 80th Amendment inserted Article 16(4B) regarding carry-forward of unfilled reserved vacancies."
+            },
+            {
+                "text": "Eighty Fifth Amendment Act, 2001",
+                "isCorrect": false,
+                "rationale": "The 85th Amendment provided consequential seniority to SC/ST employees promoted through reservation."
+            }
+        ],
+        "hint": "Passed in 1995 to insert Article 16(4A)."
+    },
+    {
+        "question": "Consider the following statements about the 86th Constitutional Amendment (2002):\nStatement I: It made free and compulsory education a fundamental right for all children aged 6-14 years, making the state liable for enforcement without any resource constraints.\nStatement II: It added Article 21A under the right to life and personal liberty, while simultaneously modifying Article 45 in the Directive Principles.\nStatement III: It created a constitutional obligation on parents and guardians to provide education opportunities for children aged 6-14 years.\n\nWhich statements are correct?",
+        "options": [
+            {
+                "text": "Only I and II",
+                "isCorrect": false,
+                "rationale": "Statement I is incorrect due to progressive realization provisions."
+            },
+            {
+                "text": "Only II and III",
+                "isCorrect": true,
+                "rationale": "Statement I is incorrect because the Right to Education Act recognizes resource constraints. Statement II (added Article 21A & modified Article 45) and Statement III (added Article 51A(k) Fundamental Duty) are correct."
+            },
+            {
+                "text": "Only I and III",
+                "isCorrect": false,
+                "rationale": "Statement I is incorrect."
+            },
+            {
+                "text": "All three statements",
+                "isCorrect": false,
+                "rationale": "Statement I is incorrect."
+            }
+        ],
+        "hint": "Check whether resource constraints were recognized in the implementation of free education."
+    },
+    {
+        "question": "Consider the following statements regarding Constitutional Commissions:\n1. The 65th Amendment Act, 1990, established a multi-member National Commission for Scheduled Castes and Scheduled Tribes.\n2. The 89th Amendment Act, 2003, bifurcated the combined commission into two separate bodies: the National Commission for Scheduled Castes and the National Commission for Scheduled Tribes.\n3. The 102nd Amendment Act, 2018, provided constitutional status to the National Commission for Backward Classes.\n\nHow many of the above statements are correct?",
+        "options": [
+            {
+                "text": "Only one",
+                "isCorrect": false,
+                "rationale": "All three statements are correct."
+            },
+            {
+                "text": "Only two",
+                "isCorrect": false,
+                "rationale": "All three statements are correct."
+            },
+            {
+                "text": "All three",
+                "isCorrect": true,
+                "rationale": "Statement 1 is correct (65th amendment created multi-member commission under Art 338). Statement 2 is correct (89th amendment bifurcated it into NCSC and NCST). Statement 3 is correct (102nd amendment introduced Art 338B for NCBC)."
+            },
+            {
+                "text": "None",
+                "isCorrect": false,
+                "rationale": "All three statements are correct."
+            }
+        ],
+        "hint": "Look at constitutional provisions under Article 338, 338A, and 338B."
+    },
+    {
+        "question": "The Constitution (71st Amendment) Act, 1992 amends the Eighth Schedule to the Constitution to include which of the following languages?\n1. Konkani\n2. Manipuri\n3. Nepali\n4. Maithili",
+        "options": [
+            {
+                "text": "1, 2 and 3",
+                "isCorrect": true,
+                "rationale": "The 71st Amendment Act added Konkani, Manipuri, and Nepali to the Eighth Schedule. Maithili was added later by the 92nd Amendment in 2003."
+            },
+            {
+                "text": "1, 2 and 4",
+                "isCorrect": false,
+                "rationale": "Maithili was added by the 92nd Amendment."
+            },
+            {
+                "text": "1, 3 and 4",
+                "isCorrect": false,
+                "rationale": "Manipuri was added by the 71st Amendment, whereas Maithili was added by the 92nd Amendment."
+            },
+            {
+                "text": "2, 3 and 4",
+                "isCorrect": false,
+                "rationale": "Konkani was added by the 71st Amendment."
+            }
+        ],
+        "hint": "Remember the shortcut KMN (Konkani, Manipuri, Nepali) for the 71st Amendment."
+    },
+    {
+        "question": "Under which one of the following Constitution Amendment Acts, four languages were added to the languages under the Eighth Schedule of the Constitution of India, thereby raising their number to 22?",
+        "options": [
+            {
+                "text": "Constitution (Ninetieth Amendment) Act",
+                "isCorrect": false,
+                "rationale": "The 90th Amendment deals with representation of Scheduled Tribes in Assam Assembly."
+            },
+            {
+                "text": "Constitution (Ninety-first Amendment) Act",
+                "isCorrect": false,
+                "rationale": "The 91st Amendment limits the size of the Council of Ministers."
+            },
+            {
+                "text": "Constitution (Ninety-second Amendment) Act",
+                "isCorrect": true,
+                "rationale": "The 92nd Amendment Act, 2003 added Bodo, Dogri, Maithili, and Santhali to the Eighth Schedule, raising the total number to 22."
+            },
+            {
+                "text": "Constitution (Ninety-third Amendment) Act",
+                "isCorrect": false,
+                "rationale": "The 93rd Amendment relates to reservations for OBCs in educational institutions."
+            }
+        ],
+        "hint": "This amendment added Bodo, Dogri, Maithili, and Santhali in 2003."
+    },
+    {
+        "question": "Consider the following statements:\n1. Privy purse referred to a specific sum of money that was payable annually to rulers of former princely states that signed the Instrument of Accession.\n2. The payment of privy purse was a constitutional obligation before the 42nd Amendment.\n3. The abolition of Privy Purse was justified on the ground that it stood against the principle of egalitarianism enshrined in the Constitution.\n\nHow many of the statements given above are correct?",
+        "options": [
+            {
+                "text": "Only one statement is correct.",
+                "isCorrect": false,
+                "rationale": "Two statements (1 and 3) are correct."
+            },
+            {
+                "text": "Only two statements are correct.",
+                "isCorrect": true,
+                "rationale": "Statement 1 is correct (Article 291). Statement 2 is incorrect because Privy Purse was abolished by the 26th Amendment Act (1971), not the 42nd Amendment. Statement 3 is correct."
+            },
+            {
+                "text": "All three statements are correct.",
+                "isCorrect": false,
+                "rationale": "Statement 2 is incorrect."
+            },
+            {
+                "text": "None of the statements is correct.",
+                "isCorrect": false,
+                "rationale": "Statements 1 and 3 are correct."
+            }
+        ],
+        "hint": "Privy purses were abolished by the 26th Constitutional Amendment Act, 1971."
+    },
+    {
+        "question": "Match List I with List II:\nList I:\na. 26th Constitutional Amendment\nb. 52nd Constitutional Amendment\nc. 86th Constitutional Amendment\nd. 103rd Constitutional Amendment\n\nList II:\ni. Reservation for EWS\nii. Education as Fundamental Right\niii. Abolition of Privy Purse\niv. Anti-defection Law\n\nChoose the correct answer from the options given below:",
+        "options": [
+            {
+                "text": "a: iii, b: iv, c: ii, d: i",
+                "isCorrect": true,
+                "rationale": "26th Amendment = Abolition of Privy Purse (iii); 52nd Amendment = Anti-defection Law (iv); 86th Amendment = Right to Education (ii); 103rd Amendment = EWS Reservation (i)."
+            },
+            {
+                "text": "a: i, b: iii, c: ii, d: i",
+                "isCorrect": false,
+                "rationale": "26th Amendment relates to Privy Purse, not EWS reservation."
+            },
+            {
+                "text": "a: ii, b: i, c: iv, d: iii",
+                "isCorrect": false,
+                "rationale": "Incorrect mapping."
+            },
+            {
+                "text": "a: iv, b: iii, c: ii, d: i",
+                "isCorrect": false,
+                "rationale": "52nd Amendment relates to Anti-defection law."
+            }
+        ],
+        "hint": "The 103rd Amendment added 10% reservation for Economically Weaker Sections."
+    }
+]

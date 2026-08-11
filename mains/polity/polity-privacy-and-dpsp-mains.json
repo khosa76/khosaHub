@@ -1,0 +1,80 @@
+[
+    {
+        "question_number": "Q1",
+        "question": "Right to privacy is intrinsic to life and personal liberty and is inherently protected under Article 21 of the constitution. Discuss its evolution in Indian legal system.",
+        "marks": 15,
+        "word_limit": 250,
+        "answer": {
+            "introduction": "The Right to Privacy has transitioned from an unarticulated constitutional concept to a fundamental right under Article 21 of the Indian Constitution[cite: 1]. This evolution reflects a shift from strict textual legal interpretation to dynamic, transformative constitutionalism aimed at preserving human dignity and personal autonomy[cite: 1].",
+            "sections": [
+                {
+                    "title": "Initial Phase of Judicial Denial (1950s–1960s)",
+                    "points": [
+                        "M.P. Sharma v. Satish Chandra (1954): An 8-judge Supreme Court bench held that the framers of the Constitution did not intend to subject state powers of search and seizure to a constitutional right to privacy.",
+                        "Kharak Singh v. State of Uttar Pradesh (1962): A 6-judge bench ruled that the right to privacy was not guaranteed under Part III. However, Subba Rao J. dissented, arguing that personal liberty under Article 21 includes protection against unauthorized state intrusion."
+                    ]
+                },
+                {
+                    "title": "Judicial Shift and Implicit Recognition (1970s–1990s)",
+                    "points": [
+                        "Gobind v. State of Madhya Pradesh (1975): The Supreme Court implicitly recognized privacy as a fundamental right derived from Article 21, though subject to 'compelling state interest'.",
+                        "R. Rajagopal v. State of Tamil Nadu (1994): Privacy was recognized as a 'right to be let alone', restricting unauthorized publication of personal life histories.",
+                        "PUCL v. Union of India (1997): The Court declared telephone wiretapping an invasion of privacy under Article 21 unless justified by procedural safeguards and public emergency."
+                    ]
+                },
+                {
+                    "title": "The Watershed Puttaswamy Judgment (2017)",
+                    "points": [
+                        "K.S. Puttaswamy v. Union of India (2017): A unanimous 9-judge bench overruled M.P. Sharma and Kharak Singh, declaring privacy an intrinsic component of Article 21 and Part III freedoms[cite: 1].",
+                        "Three-Fold Test: Established that any state restriction on privacy must meet three conditions: Legality (backed by statutory law), Need (legitimate state aim), and Proportionality."
+                    ]
+                },
+                {
+                    "title": "Contemporary Dimensions Post-Puttaswamy",
+                    "points": [
+                        "Navtej Singh Johar v. Union of India (2018): Decriminalized consensual sexual acts among adults under Section 377, affirming bodily autonomy and sexual orientation as protected facets of privacy[cite: 1].",
+                        "Anuradha Bhasin v. Union of India (2020): Extended Article 19 and Article 21 protections to digital speech and online activity, recognizing digital privacy and access[cite: 1].",
+                        "Legislative Framework: Led to the enactment of the Digital Personal Data Protection (DPDP) Act, 2023, establishing statutory safeguards for processing personal data."
+                    ]
+                }
+            ],
+            "conclusion": "The evolution of the right to privacy demonstrates the adaptive capability of the Indian Constitution. By embedding privacy within Article 21, the judiciary ensured that citizen autonomy remains protected against evolving state surveillance and technological intrusion[cite: 1]."
+        }
+    },
+    {
+        "question_number": "Q2",
+        "question": "\"Despite being non-justiciable in nature, the Directive Principles of State Policy (DPSP) are fundamental to the governance of the country.\" Elaborate with suitable examples.",
+        "marks": 15,
+        "word_limit": 250,
+        "answer": {
+            "introduction": "Article 37 of the Constitution explicitly provides that the Directive Principles of State Policy (Part IV) are non-justiciable and unenforceable by courts[cite: 1]. However, it affirms that these principles are fundamental in the governance of the country, imposing a moral and constitutional obligation on the State to apply them while enacting laws[cite: 1].",
+            "sections": [
+                {
+                    "title": "Constitutional and Philosophical Core",
+                    "points": [
+                        "Socio-Economic Democracy: While Fundamental Rights establish political democracy, DPSPs aim to secure socio-economic democracy and a welfare state[cite: 1].",
+                        "Moral Compass for Governance: They serve as constitutional instructions and policy guidelines for legislative, executive, and administrative actions[cite: 1, 2]."
+                    ]
+                },
+                {
+                    "title": "Legislative Implementation of Key DPSPs (Examples)",
+                    "points": [
+                        "Social & Economic Equality (Art 38, 39): Realized through legislative actions such as bank nationalization (1969), the Equal Remuneration Act (1976), MGNREGA (Right to Work under Art 41), and EWS Reservation (Art 46)[cite: 1].",
+                        "Grassroots Democracy (Art 40): Implemented via the 73rd and 74th Constitutional Amendment Acts, establishing local self-government through Panchayats and Municipalities[cite: 1].",
+                        "Right to Education (Art 45): Operationalized by translating early childhood care and primary education into a Fundamental Right under Article 21A via the Right to Education (RTE) Act, 2009[cite: 1].",
+                        "Free Legal Aid (Art 39A): Enacted through the Legal Services Authorities Act, 1987, establishing NALSA and Lok Adalats to ensure equal access to justice[cite: 1].",
+                        "Environmental Conservation (Art 48A): Supported by legislations like the Wildlife Protection Act (1972), Forest Conservation Act (1980), and the establishment of the National Green Tribunal (NGT)[cite: 1]."
+                    ]
+                },
+                {
+                    "title": "Judicial Harmony and Expansion of Rights",
+                    "points": [
+                        "Bedrock of Balance: In Minerva Mills (1980), the Supreme Court held that the Constitution is built on a harmonious balance between Part III (FRs) and Part IV (DPSPs)[cite: 1].",
+                        "Expanding Article 21: Courts have drawn from Part IV directives to expand the ambit of the Right to Life under Article 21, reading into it the right to a clean environment, public health, and human dignity[cite: 1]."
+                    ]
+                }
+            ],
+            "conclusion": "Non-justiciability does not equate to irrelevance[cite: 1, 2]. DPSPs function as the ideological anchor of the Indian State, ensuring that administrative policy and parliamentary legislation remain continuously committed to social justice, economic equity, and public welfare[cite: 1]."
+        }
+    }
+]
