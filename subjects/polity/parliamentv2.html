@@ -65,8 +65,8 @@
                 </ul>
             </div>
 
-            <div class="mermaid-container"
-                style="display: flex; flex-direction: column; align-items: center; margin: 24px 0; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 20px;">
+            <div class="mermaid-container compact-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 20px auto; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 16px;">
                 <p style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 12px; font-weight: bold;">
                     🏫 Visual Diagram: Classroom Analogy of Parliamentary Structure
                 </p>
@@ -275,21 +275,21 @@
 
             <h3>V. Effect of Lok Sabha Dissolution on Pending Bills (UPSC High-Yield)</h3>
 
-            <div class="mermaid-container"
-                style="display: flex; flex-direction: column; align-items: center; margin: 24px 0; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 20px;">
-                <p style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 12px; font-weight: bold;">
+            <div class="mermaid-container compact-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 20px auto; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 16px;">
+                <p style="font-family: 'Kalam', cursive; font-size: 19px; color: var(--ink-blue); margin-bottom: 10px; font-weight: bold; text-align: center;">
                     ⏳ Visual Flowchart: Impact of Lok Sabha Dissolution on Pending Bills
                 </p>
                 <div class="mermaid" style="font-family: 'Patrick Hand', cursive;">
                     flowchart TD
-                    Start[Bill Pending in Parliament] --> Q1{Was Bill Pending in LS or Passed by LS?}
-                    Q1 -- YES --> L1["❌ LAPSES<br>(Pending in LS OR Passed by LS & Pending in RS)"]
-                    Q1 -- NO --> Q2{Is Bill Pending in RS ONLY?}
-                    Q2 -- YES (Not Passed by LS) --> N1["✅ DOES NOT LAPSE"]
-                    Q2 -- NO --> Q3{Passed by Both Houses OR Joint Sitting / Return?}
-                    Q3 -- Pending President Assent --> N2["✅ DOES NOT LAPSE"]
+                    Start[Pending Bill] --> Q1{Pending or Passed by LS?}
+                    Q1 -- YES --> L1["❌ LAPSES"]
+                    Q1 -- NO --> Q2{Pending in RS ONLY?}
+                    Q2 -- YES --> N1["✅ DOES NOT LAPSE"]
+                    Q2 -- NO --> Q3{Assent / Return / Joint Sitting?}
+                    Q3 -- Pending Assent --> N2["✅ DOES NOT LAPSE"]
                     Q3 -- Returned by President --> N3["✅ DOES NOT LAPSE"]
-                    Q3 -- Joint Sitting Notified Before Dissolution --> N4["✅ DOES NOT LAPSE"]
+                    Q3 -- Joint Sitting Notified --> N4["✅ DOES NOT LAPSE"]
                 </div>
             </div>
 
@@ -404,8 +404,8 @@
                 </ul>
             </div>
 
-            <div class="mermaid-container"
-                style="display: flex; flex-direction: column; align-items: center; margin: 24px 0; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(194, 37, 92, 0.25); border-radius: 12px; padding: 20px;">
+            <div class="mermaid-container compact-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 20px auto; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(194, 37, 92, 0.25); border-radius: 12px; padding: 16px;">
                 <p style="font-family: 'Kalam', cursive; font-size: 20px; color: #c2255c; margin-bottom: 12px; font-weight: bold;">
                     🛑 Visual Decision Tree: Removal & Termination of Legislators (MPs / MLAs)
                 </p>
@@ -596,8 +596,8 @@
                 </ul>
             </div>
 
-            <div class="mermaid-container"
-                style="display: flex; flex-direction: column; align-items: center; margin: 24px 0; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 20px;">
+            <div class="mermaid-container compact-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 20px auto; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 16px;">
                 <p style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 12px; font-weight: bold;">
                     ⏰ Visual Timeline: Daily Parliamentary Proceedings Schedule
                 </p>
@@ -729,8 +729,8 @@
 
             <h3>III. Special Procedure for Money Bills (Article 110)</h3>
 
-            <div class="mermaid-container"
-                style="display: flex; flex-direction: column; align-items: center; margin: 24px 0; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 20px;">
+            <div class="mermaid-container compact-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 20px auto; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 16px;">
                 <p style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 12px; font-weight: bold;">
                     📜 Visual Flowchart: The 3-Stage Journey of an Ordinary Bill
                 </p>
@@ -870,18 +870,18 @@
                 1924 via Acworth Committee 1921) was <strong>re-merged into Union Budget in 2017</strong>. Presented on 1st
                 February.</p>
 
-            <div class="mermaid-container"
-                style="display: flex; flex-direction: column; align-items: center; margin: 24px 0; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 20px;">
-                <p style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 12px; font-weight: bold;">
-                    💰 Visual Roadmap: The 6 Sequential Stages of Union Budget Approval
+            <div class="mermaid-container compact-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 20px auto; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 16px;">
+                <p style="font-family: 'Kalam', cursive; font-size: 19px; color: var(--ink-blue); margin-bottom: 10px; font-weight: bold; text-align: center;">
+                    💰 Visual Roadmap: 6 Stages of Union Budget Approval
                 </p>
                 <div class="mermaid" style="font-family: 'Patrick Hand', cursive;">
                     flowchart TD
-                    B1["1️⃣ Presentation of Budget in Lok Sabha<br>(Finance Minister Speech & Economic Survey)"] --> B2["2️⃣ General Discussion on Budget<br>(Both Houses discuss overall policy; No Voting)"]
-                    B2 --> B3["3️⃣ Scrutiny by 24 DRSCs<br>(Houses Adjourn for 3-4 weeks for detailed audit)"]
-                    B3 --> B4["4️⃣ Voting on Demands for Grants<br>(Lok Sabha Exclusive; Guillotine on last day)"]
-                    B4 --> B5["5️⃣ Passing of Appropriation Bill<br>(Article 114: Withdrawal authority from CFI)"]
-                    B5 --> B6["6️⃣ Passing of Finance Bill<br>(Legalizes tax proposals within 75 days)"]
+                    B1["1️⃣ Presentation of Budget"] --> B2["2️⃣ General Discussion"]
+                    B2 --> B3["3️⃣ Scrutiny by 24 DRSCs"]
+                    B3 --> B4["4️⃣ Voting on Demands for Grants"]
+                    B4 --> B5["5️⃣ Passing of Appropriation Bill"]
+                    B5 --> B6["6️⃣ Passing of Finance Bill"]
                 </div>
             </div>
             <div class="key-points">
