@@ -1,0 +1,631 @@
+Here is the complete, accurate text transcription of the provided `Parliament.pdf` document. All handwritten notes, structural diagrams, comparisons, and tables have been faithfully converted into formatted text, with specific descriptions provided for all visual elements and Venn-style diagrams.
+
+---
+
+# PARLIAMENT (HANDWRITTEN NOTES TRANSCRIPTION)
+
+## SECTION 1: OVERVIEW & CONCEPTUAL STRUCTURE
+
+### Law Making Body
+
+
+
+* **Union:** Parliament / Sansad
+
+
+* **State:** State Legislative / Vidhan Sabha
+
+
+
+> **Key Concept:** The Constitution just provides the concepts (e.g., Speaker, Money Bill). It does **not** provide the detailed procedure; procedure is written in the **"Rules of Procedure"**.
+> 
+> 
+
+---
+
+### [Diagram / Rough Layout: Classroom Analogy of Parliamentary Structure]
+
+
+
+```text
+=================================================================================
+                            PRESIDENT (Principal)[cite: 3]
+                   VICE-PRESIDENT (Vice-Principal)[cite: 3]
+=================================================================================
+       LOK SABHA (Class XII-A)           |         RAJYA SABHA (Class XII-B)[cite: 3]
+-----------------------------------------+---------------------------------------
+     SPEAKER (Class Monitor)[cite: 3]           |      CHAIRPERSON (Class Monitor)[cite: 3]
+                                         |
+  [Group 1]         [Group 2]            |       [Group 1]         [Group 2][cite: 3]
+ Ruling Party     Opp. Party             |     Ruling Party     Opp. Party[cite: 3]
+  Leader: PM      Leader: LOP            |
+=================================================================================
+
+```
+
+---
+
+### Core Structure of Parliament & State Legislatures
+
+
+
+$$\text{Parliament} = \text{President} + \text{Lok Sabha} + \text{Rajya Sabha} \text{[cite: 3]}$$
+
+* **President:** Part of Parliament **BUT** not a member of either House.
+
+
+* **State Legislature:**
+
+$$\text{State Legislature} = \text{Governor} + \text{Vidhan Sabha} + \text{Vidhan Parishad (if it exists)} \text{[cite: 3]}$$
+
+* **Governor:** The President of India appoints the Governor. The Governor is a part of the State Legislature **BUT** not a member of it.
+
+
+* **Bicameral States (States having Vidhan Parishad - 6 States):**
+
+1. Andhra Pradesh
+
+
+2. Telangana
+
+
+3. Maharashtra
+
+
+4. Bihar
+
+
+5. Uttar Pradesh
+
+
+6. Karnataka
+
+
+
+
+
+---
+
+### Position of Parliament
+
+
+
+* Occupies a high position in parliamentary democracy.
+
+
+* It is a body representing the wishes of the people, holding power & responsibility.
+
+
+* Here lies the democratic *"Potential of Parliament."*
+
+
+---
+
+## SECTION 2: BASIC FACTS & CONSTITUTIONAL PROVISIONS
+
+### Basic Facts About Parliament
+
+
+
+1. It is a legislative organ.
+
+
+2. India follows representative democracy.
+
+
+3. MPs are elected from all over India to represent people in Parliament.
+
+
+4. Law-making is one of the functions of the Legislature, but not the only one. It is the center of all democratic political processes.
+
+
+
+---
+
+### Constitutional Provisions
+
+
+
+* **Part V** of the Constitution deals with Parliament (**Articles 79 to 122**).
+
+
+* **Article 79:** Mandates that there shall be a Parliament consisting of the President and two Houses:
+
+
+* House of the People (Lok Sabha)
+
+
+* Council of States (Rajya Sabha)
+
+
+
+
+* **Article 80:** Talks about the composition of Rajya Sabha.
+
+
+* **Article 81:** Talks about the composition of Lok Sabha.
+
+
+
+---
+
+### Assembly & Constituency Extremes
+
+
+
+#### State Legislative Assembly (Vidhan Sabha Size)
+
+:
+
+* **Largest Assembly:** Uttar Pradesh (Largest house with 403 seats).
+
+
+* **Smallest Assembly:** Sikkim (Smallest Legislative Assembly with 32 seats).
+
+
+
+#### Parliament (Lok Sabha Constituencies by Geographical Area)
+
+:
+
+* **Largest Constituency:** Ladakh (Large in area, less in population).
+
+
+* **Smallest Constituency:** Chandni Chowk (Dense urban footprint, small in area).
+
+
+
+---
+
+## SECTION 3: HISTORY & HOUSE COMPARISONS
+
+### History of Parliament
+
+
+
+* The British influenced India to become a parliamentary democracy.
+
+
+* They built our Parliament in New Delhi on Raisina Hill. The Chief Architect of the Parliament was **Sir Edwin Lutyens**.
+
+
+* **In 1954**, the Hindi names **"Rajya Sabha"** and **"Lok Sabha"** were adopted by Parliament instead of the English names "Council of States" and "House of the People".
+
+
+
+---
+
+### The Two Houses Defined
+
+
+
+* **Lok Sabha:** Lower House / Popular House / 1st Chamber. It represents the people of India as a whole.
+
+
+* **Rajya Sabha:** Upper House / 2nd Chamber / House of Elders. It represents the States & UTs of the Indian Union.
+
+
+
+---
+
+### [Rough Venn / Block Comparison: India vs. USA Legislature]
+
+
+
+```text
+   +---------------------------------------+
+   |            INDIAN SYSTEM              |
+   |                                       |
+   |  [ President ] (Integral Part)        |
+   |         |                             |
+   |         +---> Parliament              |
+   |                 /        \            |
+   |                /          \           |
+   |          [Lok Sabha]   [Rajya Sabha]  |
+   +---------------------------------------+
+
+                     VS
+
+   +---------------------------------------+
+   |              US SYSTEM                |
+   |                                       |
+   |  [ US President ] (NOT Part of)       |
+   |                        |              |
+   |                     Congress          |
+   |                    /        \         |
+   |                   /          \        |
+   |         [House of Rep.]   [Senate]    |
+   +---------------------------------------+
+
+```
+
+> **Note:** In India, the President is an integral part of Parliament. In the USA, the American President is **NOT** an integral part of Congress (Senate & House of Representatives).
+> 
+> 
+
+---
+
+### Quick Comparison: Lok Sabha vs. Rajya Sabha
+
+
+
+| Parameter | Lok Sabha (LS)
+
+ | Rajya Sabha (RS)
+
+ |
+| --- | --- | --- |
+| **Composition** | 543 members *(2019 104th Amendment Act removed 2 nominated Anglo-Indian seats from 545)*.
+
+ | 245 members (Partially elected house; 12 nominated by President).
+
+ |
+| **Electoral System** | Direct elections via First-Past-The-Post (FPTP). Fully elected.
+
+ | Proportional Representation by Single Transferable Vote (PR-STV) by State MLAs.
+
+ |
+| **Executive Link** | Council of Ministers must be MPs. Capped at max 15% of total 543 LS strength *(91st Amendment, 2003)*.
+
+ | Private Members = Non-Ministers.
+
+ |
+| **Tenure** | 5 Years (Subject to dissolution & re-election).
+
+ | 6 Years (Permanent House; Never dissolves). $1/3^{\text{rd}}$ members retire every 2nd year.
+
+ |
+
+---
+
+## SECTION 4: DETAILED COMPOSITION OF HOUSES
+
+### 1. Rajya Sabha (Article 80)
+
+
+
+1. **Max Sanctioned Strength:** 250
+
+
+2. **Total Member Strength:** 245
+
+
+3. **Representatives of States:** 229 *(Mentioned in the 4th Schedule)*
+
+4. **Representatives of UTs:** 4
+
+
+5. **Members Nominated by President:** 12
+
+
+
+#### Key Notes on Rajya Sabha:
+
+
+
+* Representatives of each UT in Rajya Sabha are indirectly elected by members of an electoral college specifically constituted for that purpose.
+
+
+* Representatives of States are elected by the elected members of the State Legislative Assembly (MLAs).
+
+
+* Out of 8 UTs, **only Delhi, Puducherry, and Jammu & Kashmir** have representation in Rajya Sabha. The other 5 UTs have populations too small to have representation.
+
+
+* **Nominated Members:** 12 members are nominated by the President of India from people having special knowledge or practical experience in: **Art, Literature, Science, Social Service**.
+
+
+
+---
+
+### 2. Lok Sabha (Article 81)
+
+
+
+1. **Max Sanctioned Strength:** 552
+
+
+2. **Total Member Strength:** 543
+
+
+3. **Representatives of States:** 530
+
+
+4. **Representatives of UTs:** 13
+
+
+5. **Anglo-Indian Nominated Seats:** 2 *(Terminated by the 104th Amendment Act, 2019)*.
+
+
+
+#### Key Notes on Lok Sabha:
+
+
+
+* Elections to Lok Sabha are based on the principle of **Universal Adult Franchise**. Every citizen aged 18 years and above can vote.
+
+
+* The Constitution empowers Parliament to prescribe the manner of choosing representatives of UTs in Lok Sabha. For this, Parliament enacted the **UTs (Direct Election to the House of the People) Act, 1965**, making UT representatives directly elected by the people.
+
+
+
+---
+
+### Legal Definitions & Acts
+
+
+
+* **Un-Constitutional:** Declared unconstitutional under Articles 13, 32, or 226 because it falls outside the scope of the Constitution.
+
+
+* **Non-Constitutional:** Not written in the Constitution, but legal by an Act of Parliament (e.g., RBI, LIC).
+
+
+* **Extra-Constitutional:** Concept derived/expanded outside the text (e.g., National Commission for Women).
+
+
+
+---
+
+## SECTION 5: TYPES OF ELECTORAL SYSTEMS
+
+### 1. First-Past-The-Post (FPTP)
+
+
+
+* Used for electing MPs (Lok Sabha), MLAs (State Assemblies), and PRI / Municipal Corporation members.
+
+
+* Also called the **Plurality System**.
+
+
+* Under this system, whichever candidate gets more votes than any other candidate is declared elected. The winning candidate does **not** need to secure an absolute majority (50% + 1).
+
+
+
+#### Merits of FPTP
+
+:
+
+1. Simplicity
+
+
+2. Stability
+
+
+3. Freedom to choose candidates directly
+
+
+4. Broad-based participation
+
+
+
+#### Demerits of FPTP
+
+:
+
+1. Exclusion of small parties
+
+
+2. Encourages politics based on caste, religion, ethnicity
+
+
+3. Distortion of electoral outcome (a party with a majority of votes may not get a majority of seats)
+
+
+
+---
+
+### 2. Proportional Representation by Single Transferable Vote (PR-STV)
+
+
+
+* Used for indirect elections: President of India, Vice-President of India, Rajya Sabha, and State Legislative Councils (Vidhan Parishad).
+
+
+* A party/candidate gets representation in proportion to the votes secured. Needs a specific quota/percentage of votes to win.
+
+
+* Cannot be applied to mass elections due to complexity.
+
+
+
+---
+
+### Comprehensive Master Comparison of Legislative Bodies
+
+
+
+| House / Assembly | Election Type | Composition | Duration | Election Process | Strength |
+| --- | --- | --- | --- | --- | --- |
+| **Lok Sabha** | Direct | Elected only
+
+ | 5 years (Subject to majority/dissolution)
+
+ | FPTP
+
+ | Max 543
+
+ |
+| **Rajya Sabha** | Indirect | Elected + Nominated
+
+ | 6 years (Permanent; Not in original Const. text for house itself)
+
+ | PR-STV
+
+ | 245
+
+ |
+| **Vidhan Sabha** (State Assembly) | Direct | Elected only
+
+ | 5 years (Can be dissolved)
+
+ | FPTP
+
+ | 60 to 500 (Minimum 60)
+
+ |
+| **Vidhan Parishad** (Legislative Council) | Indirect + Direct | Elected + Nominated
+
+ | Permanent (Duration of seats depends on state rules)
+
+ | PR-STV
+
+ | $1/3^{\text{rd}}$ of Vidhan Sabha strength
+
+ |
+
+---
+
+## SECTION 6: REMOVAL, DISQUALIFICATION & PARLIAMENTARY TIMETABLE
+
+### Removal / Termination of MPs, MLAs, MLCs
+
+
+
+```text
+                      REMOVAL OF LEGISLATORS[cite: 3]
+                                 |
+         +-----------------------+-----------------------+
+         |                                               |
+  DISQUALIFICATION (Permanent)[cite: 3]             SUSPENSION (Temporary)[cite: 3]
+         |                                               |
+  Done by: PRESIDENT[cite: 3]                    Done by: PRESIDING OFFICER[cite: 3]
+  - Under Constitution[cite: 3]                  (Speaker / Chairperson)[cite: 3]
+  - 10th Schedule (Anti-Defection)[cite: 3]
+  - Representation of People Act (RPA)[cite: 3]
+
+```
+
+* **Parliamentary Privileges:** Special rights given to MPs; not fully codified.
+
+
+
+---
+
+### Daily Parliamentary Timetable / Schedule
+
+
+
+```text
++-----------------------------------------------------------------------------------+
+| 11:00 AM          12:00 PM             1:00 PM                          6:00 PM   |
+|   |                  |                    |                                |      |
+|   v                  v                    v                                v      |
+| [ QUESTION HOUR ] | [ ZERO HOUR ]      | [ LUNCH ] | [ LEGISLATIVE BUSINESS ] |   |
++-----------------------------------------------------------------------------------+
+
+```
+
+1. **Question Hour (11:00 AM – 12:00 PM):**
+
+* **Starred Questions:** Oral answers required; supplementary questions allowed.
+
+
+* **Unstarred Questions:** Written, factual answers required; no supplementary questions allowed.
+
+
+
+
+2. **Zero Hour (12:00 PM – 1:00 PM):**
+
+* Informal Indian innovation (not mentioned in the rulebook). Used to raise urgent matters without prior notice.
+
+
+
+
+3. **Legislative Business (2:00 PM – 6:00 PM in Lok Sabha):**
+
+* Debating and passing bills, motions, and budget discussions.
+
+
+
+
+
+---
+
+## SECTION 7: SESSIONS OF PARLIAMENT & TERMINATIONS
+
+### Constitutional Provisions on Sessions
+
+
+
+* **Article 85:** The President of India summons each House of Parliament from time to time to meet.
+
+
+* **Gap Limit:** Parliament must meet at least twice a year. The maximum gap between two sessions **cannot exceed 6 months**.
+
+
+* **3 Annual Sessions in Practice:**
+
+1. **Budget Session:** February to May (Longest session).
+
+
+2. **Monsoon Session:** July to September.
+
+
+3. **Winter Session:** November to December.
+
+
+
+
+
+---
+
+### Important Session Terminology
+
+
+
+* **Session of Parliament:** Period between the first sitting of the House and its prorogation (or dissolution).
+
+
+* **Recess:** Period between the prorogation of the House and its reassembly in a new session.
+
+
+
+---
+
+### Differences: Dissolution vs. Prorogation vs. Adjournment
+
+
+
+| Feature | Dissolution
+
+ | Prorogation
+
+ | Adjournment
+
+ |
+| --- | --- | --- | --- |
+| **Meaning** | End of the life of Lok Sabha.
+
+ | End of an ongoing session.
+
+ | End of a daily sitting / work day.
+
+ |
+| **Authority** | Done by the **President**.
+
+ | Done by the **President**.
+
+ | Done by the **Presiding Officer** (Speaker/Chairperson).
+
+ |
+| **Applies to** | Lok Sabha only (Rajya Sabha cannot be dissolved).
+
+ | Both Lok Sabha & Rajya Sabha.
+
+ | Both Lok Sabha & Rajya Sabha.
+
+ |
+| **Reassembly** | Requires new general elections.
+
+ | Reassembles in the next session.
+
+ | Reassembles at the specified time/date.
+
+ |
+
+> **Adjournment Sine Die:** Means adjourning a sitting without assigning a specific day or time for reassembling. Normal adjournment always includes a specified time/date for resuming work.
+> 
+>
