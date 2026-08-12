@@ -11,6 +11,26 @@
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <!-- Mermaid.js for Diagrams -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                fontFamily: "'Patrick Hand', 'Kalam', cursive, sans-serif",
+                primaryColor: '#fffdf8',
+                primaryTextColor: '#1e3a8a',
+                lineColor: '#1e3a8a',
+                nodeBorder: '#1e3a8a',
+                clusterBkg: '#fbcfe8',
+                clusterBorder: '#c2255c',
+                mainBkg: '#fffdf8',
+                actorBkg: '#fffdf8'
+            }
+        });
+    </script>
 </head>
 
 <body>
@@ -129,7 +149,39 @@
             <!-- SECTION 3: CLASSIFICATION OF DPSPs -->
             <!-- ========================================== -->
             <h2 id="topic-3">3. Ideological Classification of Directive Principles</h2>
-            <p>Although the Constitution does not formally classify DPSPs, scholars divide them into three broad ideological categories based on content and direction:</p>
+            <p>Although the Constitution does not formally classify DPSPs, scholars (notably <strong>Dr. M. P. Sharma</strong>) divide them into three broad ideological categories based on content and direction:</p>
+
+            <div class="mermaid-container compact-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 20px auto; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 16px;">
+                <p style="font-family: 'Kalam', cursive; font-size: 19px; color: var(--ink-blue); margin-bottom: 10px; font-weight: bold; text-align: center;">
+                    📊 Classification of DPSPs (Framework by Dr. M. P. Sharma)
+                </p>
+                <div class="mermaid" style="font-family: 'Patrick Hand', cursive;">
+                    graph TD
+                    Root["📜 DIRECTIVE PRINCIPLES (Part IV)"]
+                    Root --> G["🌱 Gandhian Principles<br><i>Grassroot Democracy & Rural Upliftment</i>"]
+                    Root --> S["⚖️ Socialist Principles<br><i>Conventional Economic & Egalitarian Growth</i>"]
+                    Root --> L["🧠 Liberal-Intellectual<br><i>Civil Rights & Self-Development</i>"]
+
+                    subgraph GANDHI ["Gandhian Focus"]
+                        G --> G1["Panchayati Raj (Art 40)"]
+                        G --> G2["Cottage & Co-ops (Art 43 & 43B)"]
+                        G --> G3["SC/ST Welfare & Prohibition (Art 46 & 47)"]
+                    end
+
+                    subgraph SOC ["Socialist Focus"]
+                        S --> S1["Welfare Order & Policy (Art 38 & 39)"]
+                        S --> S2["Work, Education & Assistance (Art 41)"]
+                        S --> S3["Humane Work & Worker Mgmt (Art 42 & 43A)"]
+                    end
+
+                    subgraph LIB ["Liberal Focus"]
+                        L --> L1["Uniform Civil Code (Art 44)"]
+                        L --> L2["Environment & Heritage (Art 48A & 49)"]
+                        L --> L3["Judiciary Separation & Peace (Art 50 & 51)"]
+                    end
+                </div>
+            </div>
 
             <!-- 1. SOCIALISTIC -->
             <h3>1. Socialistic Principles</h3>
@@ -589,12 +641,18 @@
                     <span class="badge q-badge">Case Study 5</span> <strong>Minimum Wages Act 1948 & Labour Codes (Article 43)</strong>
                 </p>
                 <p class="ans-text">
-                    Implements Article 43 (Living wages and decent standard of life for workers).
+                    Implements Article 43 (Living wages, decent standard of life, and social/cultural opportunities for workers).
                 </p>
                 <div class="key-points">
                     <ul style="margin-top: 4px; margin-bottom: 0;">
-                        <li>Central Govt fixes Floor Wages; States fix wage rates based on skill level (unskilled, semi-skilled, skilled).</li>
-                        <li>Mandatory wage rate revisions every 5 years to adjust for inflation. Allows wages in kind where applicable.</li>
+                        <li><strong>Statutory Empowerment:</strong> Empowers Union and State Governments to fix and revise minimum wages for scheduled employments.</li>
+                        <li><strong>National Floor Wage:</strong> Central Govt sets the National Floor Wage below which no state can set minimum wages.</li>
+                        <li><strong>State Flexibility:</strong> No uniform national wage rate; individual States set specific rates based on local economic conditions and cost of living.</li>
+                        <li><strong>Skill-Level Tiers:</strong> Wages are categorized and scaled by skill level (Unskilled < Semi-Skilled < Skilled < Highly Skilled).</li>
+                        <li><strong>Flexible Pay Intervals:</strong> Wage rates can be fixed on an hourly, daily, weekly, or monthly basis.</li>
+                        <li><strong>Mandatory 5-Year Inflation Revision:</strong> Mandatory revision of minimum wage rates at least once every <strong>5 years</strong> to keep pace with inflation (Consumer Price Index).</li>
+                        <li><strong>Wages in Kind:</strong> Allows payment of wages in kind (e.g. food grains, housing) where customary and approved.</li>
+                        <li><strong>Record Keeping:</strong> Employers are statutorily required to maintain wage registers, records, and inspection logs.</li>
                     </ul>
                 </div>
             </div>

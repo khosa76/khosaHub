@@ -11,6 +11,26 @@
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <!-- Mermaid.js for Diagrams -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                fontFamily: "'Patrick Hand', 'Kalam', cursive, sans-serif",
+                primaryColor: '#fffdf8',
+                primaryTextColor: '#1e3a8a',
+                lineColor: '#1e3a8a',
+                nodeBorder: '#1e3a8a',
+                clusterBkg: '#fbcfe8',
+                clusterBorder: '#c2255c',
+                mainBkg: '#fffdf8',
+                actorBkg: '#fffdf8'
+            }
+        });
+    </script>
 </head>
 
 <body>
@@ -99,6 +119,27 @@
             </table>
 
             <h3>Identification: FD vs. DPSP's</h3>
+
+            <div class="mermaid-container compact-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 20px auto; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 16px;">
+                <p style="font-family: 'Kalam', cursive; font-size: 19px; color: var(--ink-blue); margin-bottom: 10px; font-weight: bold; text-align: center;">
+                    ⚖️ Visual Comparison Set: Fundamental Duties vs. DPSPs
+                </p>
+                <div class="mermaid" style="font-family: 'Patrick Hand', cursive;">
+                    graph LR
+                    subgraph DPSP ["Circle 1: DPSPs (Part IV)"]
+                        D1["🏛️ Implemented by STATE"]
+                        D2["📜 Formal in Tone & Policy Directive"]
+                    end
+
+                    subgraph FD ["Circle 2: Fundamental Duties (Part IV-A)"]
+                        F1["👤 Implemented by CITIZENS"]
+                        F2["🤝 Informal in Tone & Moral Mandate"]
+                    end
+
+                    DPSP <-->|"Both Non-Justiciable & Non-Enforceable"| FD
+                </div>
+            </div>
             <table>
                 <thead>
                     <tr>

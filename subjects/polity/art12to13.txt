@@ -1,0 +1,262 @@
+### Diagram & Visual Note
+
+* **Venn Diagrams:** This document **does not contain standard Venn diagrams** (overlapping circle diagrams). It contains other visual formats such as **classification trees**, **side-by-side comparison tables**, **flowcharts**, and **structured summary boxes**. All of these visual structures have been explicitly represented in text format below.
+* **Orientation:** All pages were checked and extracted in correct orientation.
+
+---
+
+# PAGE 1
+
+**Title / Header Note:**
+
+Rights are legal, moral, or constitutional entitlements that enable an individual to live with freedom, dignity, equality & security.
+
+### Q: What are Rights?
+
+Rights consist in claims of an individual which seek to restrict the arbitrary power of the State, and which are required to be secured through legal & constitutional mechanisms.
+
+---
+
+### Diagram 1: 2 Components of Rights (Comparison Box)
+
+| Claim | Entitlement |
+| --- | --- |
+| • Demand | • Guarantee |
+| • Assertion that you owe something | • More Absolute |
+| • *"Sada hak, ethe dakh"* |  |
+
+$$\text{Claim} + \text{Entitlement} = \text{Rights}$$
+
+* **Claim:** Demand made.
+* **Entitlement:** Benefit of a Right that a person is **LEGALLY** eligible for, guaranteed because the Law or Constitution recognizes it.
+* *Example:* Right to vote above 18 years.
+
+---
+
+### Diagram 2: Classification of Rights (Positive vs. Negative)
+
+* **Positive Rights:** Where the State secures rights by its own responsibility.
+* *Examples:* Article 17 (Untouchability), Public Health, MGNREGA.
+
+
+* **Negative Rights:** Where the State is not permitted to enter/interfere.
+* *Examples:* Right to vote (no interference of govt., people will handle on their own), Article 19(1)(a), Article 21, Article 25.
+
+
+
+---
+
+### Multiple Choice Question (Margin Box)
+
+**Q: Right to vote is a:**
+
+1. Legal Right
+2. Constitutional Right
+3. Fundamental Right
+4. NONE
+
+---
+
+### Constitutional Note
+
+* **44th Amendment Act, 1978:** Removed Right to Property as a Fundamental Right.
+* **Article 300A:** Right to Property is now a Constitutional Right.
+
+---
+
+### Diagram 3: Types of Rights (Classification Tree)
+
+```
+TYPES OF RIGHTS
+├── Natural
+├── Legal
+├── Historical
+├── Constitutional
+└── Fundamental
+
+```
+
+1. **Natural Rights**
+* Major exponent of this theory was **John Locke**. He focused on the use of human reason to determine rights.
+* According to him, our common sense ensures the origin of rights.
+
+
+2. **Legal Rights**
+* Major exponent of this theory is **Jeremy Bentham**.
+* According to him, no right will be operative anywhere until sanctioned by law.
+* He considered Natural Rights as "non-sense" rather than common sense.
+
+
+3. **Historical Rights**
+* Major exponent is **Edmund Burke**.
+* As per him, rights are the product of historical processes recognized by society from time to time (customs as rights).
+* There can be no fixed rights for all times.
+
+
+4. **Constitutional Rights**
+* Constitutional rights are those directly mentioned in the Constitution.
+* *Example:* Right to Property under Article 300A.
+
+
+5. **Fundamental Rights**
+* Logically speaking, they are entitlements that are absolute.
+* Legally speaking, Fundamental Rights are those mentioned under Part III of the Constitution.
+
+
+
+---
+
+# PAGE 2
+
+# FUNDAMENTAL RIGHTS
+
+### Background
+
+1. During ancient times, focus was more on Justice (Duties as opposed to Rights).
+2. The notion of entitlement of Rights can be traced back to **Magna Carta of 1215** $\rightarrow$ 1st document in the world which talked about Fundamental Rights.
+3. Human Rights / Natural Rights are abstract formulations traced back to religious & moral philosophy.
+4. Listing things one by one $\rightarrow$ Codification & Enumeration of these Rights $\rightarrow$ helps develop Human Rights Laws.
+5. In India, in **1928**, the **Motilal Nehru Committee** demanded a Bill of Rights for the 1st time.
+6. During the Indian National Movement, this idea was further sharpened & expanded to Constitutional Rights.
+7. The Indian Constitution reflected this long list of Fundamental Rights in **Part III**. Since 1950, the Judiciary has functioned as an important protector of rights.
+
+### Constitutional Provisions
+
+1. Fundamental Rights are enshrined in **Part III** of the Constitution from **Article 12 to 35**.
+2. Part III of the Constitution is rightly described as the **Magna Carta of India**.
+3. Indian Constitution makers derived inspiration from the Constitution of the USA (Bill of Rights).
+4. Fundamental Rights in the Indian Constitution are more elaborated than those found in the Constitution of any other country in the world, including the USA.
+5. Fundamental Rights are guaranteed by the Constitution to all persons without any discrimination.
+6. In ***A.K. Gopalan vs. State of Madras***, the Supreme Court held that the aim behind having Fundamental Rights is to make them inviolable elementary rights to the individual and keep them unaffected by shifting majorities in the Legislature (State & Parliament).
+7. Fundamental Rights uphold the equality of all individuals, dignity of the individual, public interest, and unity of the nation.
+* **The core aim of Fundamental Rights is to promote the ideal of POLITICAL DEMOCRACY.**
+
+
+8. In ***M. Nagaraj vs. Union of India***, the Supreme Court declared that it is a fallacy to regard Fundamental Rights as a gift from the State to its citizens. Individuals possess basic Human Rights independently of any constitution.
+9. Fundamental Rights prevent the establishment of authoritarian & despotic rule. They protect the liberty of people against State invasion, acting as limitations on Executive and Legislature to establish **"a govt. of Laws & Not of Men"**.
+10. They are essential for the all-around development of individuals.
+11. At present, there are **6 Fundamental Rights**.
+12. Originally, the Constitution provided 7 Fundamental Rights, but the **44th Amendment Act of 1978** deleted the Right to Property from Fundamental Rights and made it a Constitutional Right under **Article 300A in Part XII**.
+
+---
+
+# PAGE 3
+
+# Nature of Fundamental Rights
+
+1. They are mostly **negative** & act as limitations on the State (e.g., Article 15 & Article 17). Most Fundamental Rights operate vertically (against the State).
+2. Fundamental Rights are **justiciable**, **enforceable**, & **defendable**, guaranteed by the Supreme Court & High Courts.
+3. An aggrieved person can go directly to the Supreme Court (**Article 32**) & High Court (**Article 226**).
+4. They are available to all citizens; some are also available to non-citizens.
+5. They are **not absolute but qualified**.
+* In ***A.K. Gopalan vs. State of Madras***, the Supreme Court held that these rights are the bedrock of the political existence of Indian citizens.
+
+
+6. **Reasonable Restrictions** can be imposed to balance individual rights with society's interests.
+7. Fundamental Rights can be **suspended during a National Emergency (Article 352)**, except those guaranteed by **Article 20 & 21**.
+8. The 6 rights guaranteed by **Article 19** can be suspended **ONLY** when an emergency is declared on grounds of war or external aggression.
+9. Scope of Fundamental Rights is limited by **Article 31A, 31B, & 31C**.
+10. Application of FRs to members of Armed Forces, Paramilitary Forces, Intelligence Agencies, & Police forces can be restricted.
+11. Most FRs are directly enforceable, while a few require supporting laws (e.g., Article 17 Untouchability).
+
+---
+
+### Diagram 4: 6 Categories of Fundamental Rights (Summary Table)
+
+| Fundamental Right Category | Article Range |
+| --- | --- |
+| **Right to Equality** | Articles 14–18 |
+| **Right to Freedom** | Articles 19–22 |
+| **Right Against Exploitation** | Articles 23–24 |
+| **Right to Freedom of Religion** | Articles 25–28 |
+| **Cultural & Educational Rights** | Articles 29–30 |
+| **Right to Constitutional Remedies** | Article 32 |
+
+---
+
+# PAGE 4
+
+# Article 12
+
+**Article 12 defines the term "State".**
+
+#### Why is defining State important?
+
+1. To know against whom you can claim a Fundamental Right.
+2. To know against whom you can actually sue for violation of rights.
+
+#### What comprises a State?
+
+State is like a "Big Boss" responsible for protecting your Fundamental Rights. These include:
+
+1. Govt. of India (Central Govt.)
+2. Govt. of State (State Govt.)
+3. Local Govt. (Panchayati Raj Institutions [PRI], Municipal Corporations [MC])
+4. Parliament of India
+5. Vidhan Sabha (State Legislature)
+6. Other Authorities
+
+#### What are "Other Authorities"?
+
+In ***Rajasthan State Electricity Board vs. Mohan Lal (1967)***, the Supreme Court held that "Other Authorities" is wide enough to include bodies created by statute and functioning within Indian territory.
+
+* *Exceptions:* BCCI, Judiciary, Autonomous Bodies.
+* Authority means the power to make laws, orders, regulations, etc.
+
+---
+
+### Diagram 5: Public Authority Scope (Structured Box)
+
+**"Other Authorities" under Article 12 also constitute PUBLIC AUTHORITIES.**
+
+A **Public Authority** is defined as any body/institution established or constituted:
+
+1. By or under the Constitution.
+2. By any other law made by Parliament / State Legislature.
+3. By notification or order made by the appropriate government (Central, State, or Local).
+
+* *Exception Note:* BCCI is currently not a Public Authority, but the Law Commission of India recommended bringing it under the RTI ambit as a Public Authority.
+
+---
+
+# PAGE 5
+
+#### Is Judiciary a State?
+
+In ***Rupa Ashok Hurra (2002)***, the Supreme Court held that no judicial proceeding could violate Fundamental Rights. The Supreme Court in its judicial capacity does not fall within the ambit of State or Other Authorities.
+
+---
+
+# Article 13
+
+> *"All Laws that are inconsistent with or in derogation of any of the Fundamental Rights shall be void."*
+
+* Article 13 expressly provides for **Judicial Review**.
+* The Supreme Court & High Courts can declare a law unconstitutional and invalid if it violates Fundamental Rights.
+
+#### What is Law under Article 13?
+
+Article 13 Clause (3) defines Law to include:
+
+1. **Permanent Laws** enacted by Parliament / State Legislatures.
+2. **Temporary Laws** like ordinances issued by the President / Governors.
+3. **Statutory instruments** in the nature of delegated legislation (executive legislation) like Orders, Bye-Laws, Rules, Regulations, or Notifications.
+
+#### Is Custom a Law?
+
+Yes, under Article 13(3), custom/usage having the force of law is considered a non-legislative source of law.
+
+---
+
+### Doctrine of Severability
+
+* **Article 13(1) & 13(2)** declare that laws inconsistent with Fundamental Rights are void **only to the extent of the inconsistency**.
+* The whole law is not declared void if the invalid portion can be separated from the valid portion.
+* If the remaining valid portion is a complete, independent code on its own, it will be upheld.
+
+#### Landmark Cases on Severability:
+
+1. ***A.K. Gopalan vs. State of Madras (1950):***
+The Supreme Court struck down Section 14 of the Preventive Detention Act 1950 as violative of Article 22, severed that section, and upheld the rest of the Act.
+2. ***Deepak Sibal vs. Punjab University:***
+The High Court held that if valid and invalid provisions are inextricably mixed and cannot be separated, the invalidity of the part leads to the invalidity of the Act in its entirety.

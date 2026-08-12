@@ -1,0 +1,295 @@
+Here is the complete page-by-page text extraction from the document:
+
+---
+
+### **Diagram / Venn Diagram Note**
+
+* **Venn Diagrams:** No overlapping circle (Venn) diagrams are present in these notes.
+
+
+* **Comparative Diagram / Chart:** Page 3 contains a **side-by-side comparative chart/table** comparing the **President** and the **Governor** regarding Appointment, Political Leaning, Oath, Removal, and Legislative Powers. It has been reconstructed into a structured comparison table below.
+
+
+
+---
+
+## **Page 1: Introduction & Basics of the President**
+
+> "We didn't give him any real power, but we have made his position one of authority and dignity. It wants to make neither a real executive nor a mere figurehead, but a head that neither reigns nor governs. It wants to make an excellent figurehead."
+> — **Pandit Jawaharlal Nehru**
+> 
+
+### **Basics About President**
+
+* **Constitutional Head of India:** His authority is equivalent to the King of England.
+
+
+* **Part of Union Executive:** Mentioned under **Part V (Articles 52 to 78)**.
+
+
+* **Core Articles:** **Articles 52–62** cover the composition, election, removal, etc., of the President.
+
+
+* **First Citizen of India**.
+
+
+
+---
+
+## **Page 2: Election of the President**
+
+1. **What is the type of election?**
+* **Ans:** Indirect Election.
+
+
+
+
+2. **Who participates in the Indirect Election (Electoral College)?**
+* **Ans:** Only elected personnel:
+* a) MPs (Lok Sabha / Rajya Sabha)
+
+
+* b) MLAs (State Legislative Assemblies)
+
+
+
+
+
+
+3. **Can Nominated MPs/MLAs vote?**
+* **Ans:** No.
+
+
+
+
+4. **Which Law/Act governs the election?**
+* **Ans:** President and Vice-President Elections Act, 1952.
+
+
+
+
+5. **What is the system of Election?**
+* **Ans:** Proportional Representation by Single Transferable Vote (PR-STV) along with the value attached to each vote.
+
+
+
+
+6. **Does the election require a majority of votes?**
+* **Ans:** Yes, the total value of votes secured must be **more than 50%** of the total vote value.
+
+
+
+
+7. **Is there any difference between the value of the vote of an MP and an MLA?**
+* Each MP's vote value is greater than that of an individual MLA.
+
+
+* The **Total Value of votes of all MPs** is equal to the **Total Value of votes of all MLAs**.
+
+
+
+
+8. **Formulas to Determine Vote Values:**
+* **Value of Vote of an MLA:**
+
+$$\text{Value of MLA Vote} = \left( \frac{\text{Total Population of State}}{\text{Total Elected MLAs}} \right) \times \frac{1}{1000}$$
+
+
+
+* **Value of Vote of an MP:**
+
+$$\text{Value of MP Vote} = \frac{\text{Total Value of Votes of All MLAs of All States}}{\text{Total Elected MPs}}$$
+
+
+
+
+
+
+---
+
+## **Page 3: Comparison Chart — President vs. Governor**
+
+### **Comparative Table Diagram**
+
+| Feature | President | Governor |
+| --- | --- | --- |
+| **Appointment** | Elected by MPs and MLAs
+
+ | Appointed by the President
+
+ |
+| **Political Leaning** | Apolitical by Law
+
+ | Apolitical by Law, but may have Political Leaning
+
+ |
+| **Oath Administered By** | Chief Justice of India (CJI)
+
+ | Chief Justice of the High Court
+
+ |
+| **Removal** | Impeachment Procedure (Only MPs vote: Nominated + Elected)
+
+ | Pleasure of the President
+
+ |
+| **Constitutional Discretion** | No
+
+ | Yes
+
+ |
+
+---
+
+### **Removal of President (Impeachment Procedure)**
+
+1. Only for the **violation of the Constitution**.
+
+
+2. Done only by **Parliament (Lok Sabha + Rajya Sabha)**.
+
+
+3. **Nominated members** also participate in the removal.
+
+
+4. **MLAs / State Legislative Assemblies** do NOT participate.
+
+
+5. **Special Majority** is required in each House.
+
+
+6. **No Joint Session** is allowed in case of a deadlock.
+
+
+
+---
+
+### **Legislative Powers: Options when a Bill is passed by Parliament/State Legislature**
+
+| Options Available | President | Governor |
+| --- | --- | --- |
+| **1. Pass the Bill** | Yes
+
+ | Yes
+
+ |
+| **2. Reserve the Bill** | N/A | Reserve the Bill for President's consideration (Mandatory where power of High Court is altered)
+
+ |
+| **3. Return the Bill** | Yes
+
+ | Yes
+
+ |
+| **4. Hold the Bill** | Yes
+
+ | Yes
+
+ |
+
+---
+
+## **Page 4: Ordinance Making Power**
+
+* **Article 123** empowers the President to promulgate ordinances during the recess of Parliament.
+
+
+
+### **Key Characteristics:**
+
+* **Not a Discretionary Power:** The President can promulgate an ordinance **only on the advice of the Council of Ministers headed by the Prime Minister**.
+
+
+* **Not a Parallel Power of Legislation:** The government cannot bypass Parliament or compel the President to pass an ordinance simply because they are unable to get a bill passed in Parliament.
+
+
+* **Retrospective Effect:** An ordinance can be retrospective in effect.
+
+
+* **Inapplicable Scope:** This power is **not applicable to Constitutional Amendments**.
+
+
+
+### **Constitutional Safeguards:**
+
+* The President can promulgate an ordinance **ONLY when BOTH Lok Sabha and Rajya Sabha are not in session**, OR when **either of the Houses is not in session**.
+(Even if Rajya Sabha is in session and Lok Sabha is not, an ordinance can be issued.)
+
+
+* An ordinance can be issued only on subjects on which Parliament has the power to make laws (**7th Schedule: Union List, Concurrent List, and Residuary subjects**).
+
+
+* Every ordinance **must be laid before Parliament within 6 weeks** from the reassembly of Parliament.
+
+
+
+### **Important Constitutional Amendments:**
+
+* **38th Amendment Act:** Added a provision stating that the President's satisfaction regarding issuing an ordinance is final and beyond Judicial Review.
+
+
+* **44th Constitutional Amendment Act (1978):** Deleted the above provision. As per the 44th Amendment, the satisfaction of the President **can be challenged in court**.
+
+
+
+---
+
+## **Page 5: Pardoning Power of the President**
+
+* **Article 72** empowers the President to grant pardons to persons convicted of offenses in all cases where:
+1. Punishment or sentence is for an offense against a **Central/Union Law** (e.g., conviction under BNS/IPC).
+
+
+2. Punishment or sentence is by a **Court Martial (Military Court)**.
+
+
+3. The sentence is a **Death Sentence (Capital Punishment)**.
+
+
+
+
+* **Independence:** This power of the President is independent of the Judiciary.
+
+
+* **Nature:** The President does not sit as a Court of Appeal.
+
+
+
+### **Types of Pardoning Powers:**
+
+1. **Full Pardon:** Absolves the convict completely from all sentences, punishments, and disqualifications (removes both conviction and sentence).
+
+
+2. **Commutation:** Substitution of one form of punishment for a **lighter form**.
+
+
+* *Example:* A death sentence commuted to life imprisonment.
+
+
+
+
+3. **Remission:** Reducing the **quantum/duration** of sentence without changing its character/nature.
+
+
+* *Example:* Rigorous imprisonment for 7 years remitted to rigorous imprisonment for 3 years.
+
+
+
+
+4. **Respite:** Awarding a **lesser sentence** in place of the one originally awarded due to special facts.
+
+
+* *Example:* Reducing 5 years of rigorous imprisonment to 3 years due to the pregnancy of a female offender.
+
+
+
+
+5. **Reprieve:** Temporary **stay of execution** of a sentence for a temporary period.
+
+
+
+---
+
+> "The Ballot is stronger than the Bullet"
+> — **Abraham Lincoln**
+>

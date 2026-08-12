@@ -1,0 +1,267 @@
+## Speaker of Lok Sabha (Article 93)
+
+* Each House of Parliament shall have its own presiding officer.
+* In Lok Sabha, we have a Speaker and a few Deputy Speakers.
+
+### Background of the Institution of Speaker
+
+1. **1921:** In this year, the Institution of Speaker & Deputy Speaker were first originated in India via the Government of India Act 1919.
+2. After Partition, the Indian side followed the same system.
+3. **G. V. Mavalankar** was the first Speaker of Lok Sabha after independence.
+
+### Election & Tenure of Speaker
+
+1. The Speaker is elected by the Lok Sabha from amongst its Members.
+2. The date of election of the Speaker is fixed by the President.
+3. Usually, the Speaker remains in office during the life of Lok Sabha. He has to vacate the office in 3 cases:
+* **a)** He is not a member of Lok Sabha.
+* **b)** Resigns in writing to the Deputy Speaker.
+* **c)** He is removed by a Resolution.
+
+
+
+### Removal of the Speaker
+
+1. The resolution for removal must be passed by an **Absolute Majority**.
+2. **14 days advance notice** is mandatory to move the resolution.
+3. Whenever the Lok Sabha is dissolved, the Speaker does not vacate his office and continues till the newly elected Lok Sabha meets.
+
+---
+
+## Power & Functions of Speaker
+
+1. Maintenance of order & decorum of the House.
+2. Final interpretation of provisions of:
+* **a)** Constitution of India
+* **b)** Rules of Procedure of Parliament
+* **c)** Parliamentary Precedents / Conventions
+
+
+3. He **cannot vote in the first instance** on any resolution or bill, but he exercises a **casting vote** in case of a tie.
+4. He adjourns the House / suspends the meeting in absence of a **Quorum** ($1/10^{\text{th}}$ of the total strength of the House $\rightarrow$ 55 members as per present strength in Lok Sabha).
+5. He presides over the **Joint Sitting** of Lok Sabha & Rajya Sabha (**Article 108**).
+6. He decides whether a bill is a **Money Bill** or not, and his decision on this question is final (*Biggest Power*).
+7. Speaker can **disqualify a member** of the House (*Biggest Power*).
+
+### Mains Focus: Impartiality of Lok Sabha Speaker?
+
+* Resignation from political party.
+* **British Model:** *"Once a speaker, always a speaker."*
+* $\rightarrow$ Need change in the Indian System.
+
+---
+
+## Diagram: State Legislative Council Composition
+
+> **[Diagram Note]:** The source document includes a circular breakdown / Venn distribution diagram illustrating the composition and distribution of seats in the **State Legislative Council**:
+
+```
+                  ┌─────────────────────────────────────────┐
+                  │       STATE LEGISLATIVE COUNCIL         │
+                  └────────────────────┬────────────────────┘
+                                       │
+            ┌──────────────────────────┴──────────────────────────┐
+            │                                                     │
+    [ 5/6 Elected ]                                     [ 1/6 Nominated ]
+            │                                                     │
+  ┌─────────┴─────────┬───────────────────┬──────────────┐        └─► Nominated by Governor
+  │                   │                   │              │
+[ 1/3 ]             [ 1/3 ]            [ 1/12 ]       [ 1/12 ]
+  │                   │                   │              │
+  ▼                   ▼                   ▼              ▼
+Elected by         Elected by         Elected by     Elected by
+Sarpanch / MCs     MLAs               Teachers       Graduates
+(Local Bodies)
+
+```
+
+---
+
+## Deputy Speaker (Article 93)
+
+1. He is also elected like the Speaker by Lok Sabha from amongst its Members.
+2. He is elected **after** the election of the Speaker.
+3. The date of election of the Deputy Speaker will be **fixed by the Speaker** (*Not by the President*).
+4. Deputy Speaker is **NOT subordinate** to the Speaker (Not अधीन).
+5. He resigns in writing to the Speaker of Lok Sabha.
+
+### Submission of Resignation Summary
+
+* **Speaker** $\rightarrow$ Deputy Speaker
+* **Deputy Speaker** $\rightarrow$ Speaker
+* **MPs** $\rightarrow$ Speaker
+* **Minister** $\rightarrow$ President
+
+---
+
+## Pro-Tem Speaker (Article 95)
+
+* Is the **oldest person** of Lok Sabha.
+* The Speaker Pro-Tem facilitates the transition of the institution (Lok Sabha) from old members to newly elected members.
+* The primary job of Speaker Pro-Tem is to enable the House to elect a new Speaker and administer oath to the newly elected MPs.
+* **President Himself** administers oath to the Speaker Pro-Tem.
+* His office is a temporary office, but the Pro-Tem Speaker possesses all the powers of a Speaker.
+
+---
+
+## Panel of Chairpersons of Lok Sabha
+
+1. Under the rules of Lok Sabha, the Speaker nominates from amongst the members a panel of **not more than 10 Chairpersons**.
+* **Absent** $\rightarrow$ Temporary
+* **Vacant** $\rightarrow$ Permanent (Seat खाली होना / vacant seat)
+
+
+2. Any of them can preside over the House in the **absence** (*not in case of vacancy*) of the Speaker or Deputy Speaker.
+
+---
+
+## Chairperson of Rajya Sabha (Article 89)
+
+* Works same as Speaker of Lok Sabha.
+* The **Vice President of India** is the *ex-officio* Chairperson of Rajya Sabha.
+* As presiding officer, the powers & functions of Chairperson in Rajya Sabha are similar to those of the Speaker of Lok Sabha, **BUT** he is **not a member** of the House (unlike the Speaker).
+* He also **cannot vote in the first instance** like the Speaker and only has a **casting vote**.
+* While a Speaker can vote in the first instance when a resolution for his removal is under consideration of Lok Sabha, the Chairperson **CANNOT vote** because he is not a member of Rajya Sabha.
+
+### Special Powers of the Speaker (Not available to Chairperson of Rajya Sabha):
+
+1. The Speaker decides whether a bill is a Money Bill or not.
+2. The Speaker presides over a Joint Sitting of the two Houses.
+$\rightarrow$ Both of these powers are **NOT available** to the Chairperson of Rajya Sabha.
+
+---
+
+## Secretariat of Parliament (Article 98)
+
+* Each House of the Parliament has a separate secretariat staff of its own.
+* Their recruitment & service conditions are regulated by the Parliament.
+* The Secretariat of each House is headed by a **Secretary-General** (Permanent officer of the House) and is appointed by the Presiding Officer.
+
+---
+
+## Leader of Opposition (LOP)
+
+### Salary & Allowances Act of LOP, 1977
+
+* This Act defines LOP.
+* LOP is the Leader of the **Largest Opposition Party**.
+* **Largest Party Definition:** Party having a **minimum 10% seats** of Lok Sabha.
+* Sushma Swaraj – LOP till 2014
+* 2014–2024 – NO LOP in India
+* 2024 – Rahul Gandhi
+
+
+* Also known as *"Alternative PM"*.
+* LOP is **not mentioned in the Constitution**, but it is mentioned in a law (Statutory recognition).
+
+---
+
+## Classification & Types of Bills
+
+### According to Origin & Introduction:
+
+* **Government Bill:** Proposed by a Minister.
+* **Private Member Bill:** Proposed by any other MP or MLA.
+
+### Types of Bills (by function):
+
+* **Repeal Bills (खारिज करना):** Bill used to repeal existing law (e.g., Farm Laws).
+* **Merger Bills:** Multiple laws are combined to make a new law (e.g., Labour Codes).
+* **Amending Laws:** Amendment in the Constitution.
+* **Renewal Laws:** Reservation extension (e.g., SC/ST reservation in election - 104th AA).
+
+---
+
+## Summary Comparison of Primary Bills
+
+| Feature / Type | Ordinary Bill | Money Bill (Article 110) | Financial Bill |
+| --- | --- | --- | --- |
+| **Goal** | To implement something new | Allocation of money to something already existing (e.g., Tax, Fund, Penalty) | Allocation of money to something new (e.g., GST) |
+| **House Powers** | Lok Sabha = Rajya Sabha | Lok Sabha has **more powers** than Rajya Sabha | Lok Sabha = Rajya Sabha |
+| **Presidential Action** | Yes / No / Return | Yes / Hold (**Cannot Return**) | Yes / No / Return |
+
+---
+
+## Money Bill (Article 110)
+
+* **Definition:** Allocation of money to something that already exists.
+* Can be introduced by a **Minister ONLY** (Never by a Private Member).
+
+### Process Flow:
+
+1. **Speaker Certification:** If certified ("Yes").
+2. **Presidential Recommendation:** Goes directly to the President of India for recommendation ("Yes").
+3. **Introduction:** Formally introduced by a Minister **ONLY in Lok Sabha** (*Never in Rajya Sabha*).
+4. **Discussion & Passage:**
+* First discussion takes place in Lok Sabha (Passed with **Simple Majority**).
+* Moves to Rajya Sabha.
+* Rajya Sabha can: **Pass / Reject / Amend** or **Hold Bill for 14 days**.
+* *(Note: Rejecting has no value; changes suggested by Rajya Sabha can or cannot be accepted by Lok Sabha).*
+* **Joint Sitting is NOT APPLICABLE to a Money Bill.**
+
+
+5. **President's Action:**
+* $\rightarrow$ **Yes**
+* $\rightarrow$ **No**
+* $\rightarrow$ **Hold**
+* $\rightarrow$ **Return ✖** (*Cannot return Money Bill for reconsideration*)
+
+
+
+### Ingredients of Money Bill (Article 110):
+
+1. **Taxes:** Any existing tax addition, deduction, omission (हटाना), or alteration.
+2. **Funds:**
+* **Consolidated Fund of India** (मजबूत / Main Fund) - Money In/Out
+* **Contingency Fund of India** (Emergency fund) - Kept with the President
+* *(Note: The biggest fund of the Government is the Consolidated Fund of India).*
+
+
+3. **Parliamentary Sanction:** Done under Money Bill.
+4. **Borrowing:** Governed under Money Bill.
+
+> **Exceptions:** Fees, licenses, registration charges, challans, or local body taxes (PRIs / MCs) do **NOT** come under Money Bill.
+
+---
+
+## Journey of a Bill (Ordinary Bill to Act)
+
+```
+[ Stage I: Pre-Parliamentary Stage ]
+             │
+             ▼
+[ Stage II: Parliamentary Stage ]
+  ├── First Reading (Introduction)
+  ├── Second Reading (Clause-by-Clause Discussion & Amendments)
+  └── Third Reading (Voting: Yes / No)
+             │
+             ▼
+[ Stage III: Post-Parliamentary Stage ]
+  └── Presidential Assent (Yes / No / Return)
+
+```
+
+### Stage Details:
+
+* **Stage I: Pre-Parliamentary Stage (Drafting)**
+* Drafting of Bills by Committee & Secretary / Academicians / Retired Judges / Lawyers.
+* $1^{\text{st}}$ draft of law is prepared, and the Law Ministry creates its revised draft and sends it to the concerned Ministry.
+
+
+* **Stage II: Parliamentary Stage**
+* **First Reading:** Introduction of the Bill; opened for introduction.
+* **Second Reading:** Discussions are done clause-by-clause. Amendments can be made during this stage.
+* **Third Reading:** NO DISCUSSION; direct voting ($\text{Yes} / \text{No}$) for final decision.
+
+
+* **Stage III: Post-Parliamentary Stage**
+* Bill goes to President / Governor, who can say:
+* $\rightarrow$ **Yes**
+* $\rightarrow$ **No**
+* $\rightarrow$ **Return the Bill**
+
+
+
+
+
+*(Note: Financial Bills follow the exact same process as Ordinary Bills).*
