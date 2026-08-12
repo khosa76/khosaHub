@@ -11,6 +11,26 @@
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <!-- Mermaid.js for Diagrams -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                fontFamily: "'Patrick Hand', 'Kalam', cursive, sans-serif",
+                primaryColor: '#fffdf8',
+                primaryTextColor: '#1e3a8a',
+                lineColor: '#1e3a8a',
+                nodeBorder: '#1e3a8a',
+                clusterBkg: '#fbcfe8',
+                clusterBorder: '#c2255c',
+                mainBkg: '#fffdf8',
+                actorBkg: '#fffdf8'
+            }
+        });
+    </script>
 </head>
 
 <body>
@@ -45,21 +65,35 @@
                 </ul>
             </div>
 
-            <div class="sticky-note blue-note">
-                <p><strong>[Visual Diagram] Classroom Analogy of Parliamentary Structure:</strong></p>
-                <div style="background: rgba(255,255,255,0.75); padding: 12px; border-radius: 8px; font-family: monospace; font-size: 14px; line-height: 1.5; color: #1e3a8a; border: 1px solid rgba(30,58,138,0.2); margin-top: 8px; overflow-x: auto;">
-=================================================================================<br>
-                            PRESIDENT (Principal)<br>
-                   VICE-PRESIDENT (Vice-Principal)<br>
-=================================================================================<br>
-       LOK SABHA (Class XII-A)           |         RAJYA SABHA (Class XII-B)<br>
------------------------------------------+---------------------------------------<br>
-     SPEAKER (Class Monitor)             |      CHAIRPERSON (Class Monitor)<br>
-                                         |<br>
-  [Group 1]         [Group 2]            |       [Group 1]         [Group 2]<br>
- Ruling Party     Opp. Party             |     Ruling Party     Opp. Party<br>
-  Leader: PM      Leader: LOP            |<br>
-=================================================================================
+            <div class="mermaid-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 24px 0; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 20px;">
+                <p style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 12px; font-weight: bold;">
+                    🏫 Visual Diagram: Classroom Analogy of Parliamentary Structure
+                </p>
+                <div class="mermaid" style="font-family: 'Patrick Hand', cursive;">
+                    graph TD
+                    P["🏛️ PRESIDENT of India<br>(School Principal - Head of Union Executive)"]
+                    VP["🥈 VICE-PRESIDENT of India<br>(Vice-Principal - Ex-officio RS Chairman)"]
+                    P --- VP
+
+                    subgraph LS ["Class XII-A : LOK SABHA (House of the People)"]
+                        S1["👨‍⚖️ SPEAKER<br>(Class Monitor)"]
+                        G1["🟦 Ruling Party<br>Leader: PM (Class Representative)"]
+                        G2["🟥 Opposition Party<br>Leader: LoP (Shadow Leader)"]
+                        S1 --- G1
+                        S1 --- G2
+                    end
+
+                    subgraph RS ["Class XII-B : RAJYA SABHA (Council of States)"]
+                        C1["👨‍⚖️ CHAIRPERSON<br>(Vice-President / Monitor)"]
+                        R1["🟦 Ruling Party<br>(Treasury Benches)"]
+                        R2["🟥 Opposition Party<br>(Opposition Benches)"]
+                        C1 --- R1
+                        C1 --- R2
+                    end
+
+                    P ==> LS
+                    P ==> RS
                 </div>
             </div>
 
@@ -240,6 +274,25 @@
             </table>
 
             <h3>V. Effect of Lok Sabha Dissolution on Pending Bills (UPSC High-Yield)</h3>
+
+            <div class="mermaid-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 24px 0; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 20px;">
+                <p style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 12px; font-weight: bold;">
+                    ⏳ Visual Flowchart: Impact of Lok Sabha Dissolution on Pending Bills
+                </p>
+                <div class="mermaid" style="font-family: 'Patrick Hand', cursive;">
+                    flowchart TD
+                    Start[Bill Pending in Parliament] --> Q1{Was Bill Pending in LS or Passed by LS?}
+                    Q1 -- YES --> L1["❌ LAPSES<br>(Pending in LS OR Passed by LS & Pending in RS)"]
+                    Q1 -- NO --> Q2{Is Bill Pending in RS ONLY?}
+                    Q2 -- YES (Not Passed by LS) --> N1["✅ DOES NOT LAPSE"]
+                    Q2 -- NO --> Q3{Passed by Both Houses OR Joint Sitting / Return?}
+                    Q3 -- Pending President Assent --> N2["✅ DOES NOT LAPSE"]
+                    Q3 -- Returned by President --> N3["✅ DOES NOT LAPSE"]
+                    Q3 -- Joint Sitting Notified Before Dissolution --> N4["✅ DOES NOT LAPSE"]
+                </div>
+            </div>
+
             <table>
                 <thead>
                     <tr>
@@ -351,19 +404,25 @@
                 </ul>
             </div>
 
-            <div class="sticky-note pink-note">
-                <p><strong>[Visual Flowchart] Removal & Termination of Legislators (MPs / MLAs / MLCs):</strong></p>
-                <div style="background: rgba(255,255,255,0.75); padding: 12px; border-radius: 8px; font-family: monospace; font-size: 14px; line-height: 1.5; color: #831843; border: 1px solid rgba(131,24,67,0.2); margin-top: 8px; overflow-x: auto;">
-                      REMOVAL OF LEGISLATORS<br>
-                                 |<br>
-         +-----------------------+-----------------------+<br>
-         |                                               |<br>
-  DISQUALIFICATION (Permanent)                     SUSPENSION (Temporary)<br>
-         |                                               |<br>
-  Done by: PRESIDENT                              Done by: PRESIDING OFFICER<br>
-  - Under Constitution (Art 102(1))               (Speaker / Chairperson)<br>
-  - 10th Schedule (Anti-Defection - Speaker)<br>
-  - Representation of People Act (RPA 1951)
+            <div class="mermaid-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 24px 0; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(194, 37, 92, 0.25); border-radius: 12px; padding: 20px;">
+                <p style="font-family: 'Kalam', cursive; font-size: 20px; color: #c2255c; margin-bottom: 12px; font-weight: bold;">
+                    🛑 Visual Decision Tree: Removal & Termination of Legislators (MPs / MLAs)
+                </p>
+                <div class="mermaid" style="font-family: 'Patrick Hand', cursive;">
+                    graph TD
+                    Root["⚖️ LEGISLATOR TERMINATION"]
+                    Root --> Perm["🔴 DISQUALIFICATION<br>(Permanent Vacancy)"]
+                    Root --> Temp["🟡 SUSPENSION<br>(Temporary Disciplinary Action)"]
+
+                    subgraph DISQUAL ["Permanent Removal Authorities"]
+                        Perm --> P1["🏛️ PRESIDENT of India<br>(Constitutional Art 102 & RPA 1951 Grounds)<br><i>Binding ECI Opinion Required</i>"]
+                        Perm --> P2["👨‍⚖️ PRESIDING OFFICER<br>(Anti-Defection 10th Schedule)<br><i>Subject to Judicial Review</i>"]
+                    end
+
+                    subgraph SUSP ["Temporary Suspension Authority"]
+                        Temp --> S1["👨‍⚖️ PRESIDING OFFICER<br>(Speaker / Chairman)<br><i>For Disorderly Conduct inside House</i>"]
+                    end
                 </div>
             </div>
 
@@ -537,15 +596,16 @@
                 </ul>
             </div>
 
-            <div class="key-points">
-                <p><strong>[Visual Timeline] Daily Parliamentary Timetable:</strong></p>
-                <div style="background: rgba(255,255,255,0.75); padding: 12px; border-radius: 8px; font-family: monospace; font-size: 14px; line-height: 1.5; color: #1e3a8a; border: 1px solid rgba(30,58,138,0.2); margin-top: 6px; overflow-x: auto;">
-+-----------------------------------------------------------------------------------+<br>
-| 11:00 AM          12:00 PM             1:00 PM                          6:00 PM   |<br>
-|   |                  |                    |                                |      |<br>
-|   v                  v                    v                                v      |<br>
-| [ QUESTION HOUR ] | [ ZERO HOUR ]      | [ LUNCH ] | [ LEGISLATIVE BUSINESS ] |   |<br>
-+-----------------------------------------------------------------------------------+
+            <div class="mermaid-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 24px 0; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 20px;">
+                <p style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 12px; font-weight: bold;">
+                    ⏰ Visual Timeline: Daily Parliamentary Proceedings Schedule
+                </p>
+                <div class="mermaid" style="font-family: 'Patrick Hand', cursive;">
+                    flowchart LR
+                    T1["🟢 11:00 AM – 12:00 PM<br><b>QUESTION HOUR</b><br>(Starred & Unstarred Questions)"] --> T2["🟡 12:00 PM – 01:00 PM<br><b>ZERO HOUR</b><br>(Urgent Indian Innovation Matters)"]
+                    T2 --> T3["🥪 01:00 PM – 02:00 PM<br><b>LUNCH BREAK</b>"]
+                    T3 --> T4["🔵 02:00 PM – 06:00 PM<br><b>LEGISLATIVE BUSINESS</b><br>(Bills, Motions, Debates & Voting)"]
                 </div>
             </div>
 
@@ -668,6 +728,18 @@
             </table>
 
             <h3>III. Special Procedure for Money Bills (Article 110)</h3>
+
+            <div class="mermaid-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 24px 0; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 20px;">
+                <p style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 12px; font-weight: bold;">
+                    📜 Visual Flowchart: The 3-Stage Journey of an Ordinary Bill
+                </p>
+                <div class="mermaid" style="font-family: 'Patrick Hand', cursive;">
+                    flowchart LR
+                    S1["<b>STAGE 1: First Reading</b><br>Drafting by Ministry<br>& Introduction in Gazette"] --> S2["<b>STAGE 2: Second & Third Reading</b><br>Clause-by-Clause Scrutiny,<br>Committee Review & Voting"]
+                    S2 --> S3["<b>STAGE 3: Presidential Assent</b><br>Article 111<br>(Assent / Withhold / Return)"]
+                </div>
+            </div>
             <div class="key-points">
                 <ul>
                     <li>Deals EXCLUSIVELY with taxation, Union borrowing, Consolidated/Contingency Fund custody, or
@@ -794,9 +866,24 @@
             <h2 id="topic-7">7. Budgetary Procedure, Charged Expenditure & Funds</h2>
 
             <h3>I. History & 6 Stages of Passing the Budget (Article 112)</h3>
-            <p>Budget is termed **Annual Financial Statement** under Article 112. Railway Budget (separated in
-                1924 via Acworth Committee 1921) was **re-merged into Union Budget in 2017**. Presented on 1st
+            <p>Budget is termed <strong>Annual Financial Statement</strong> under Article 112. Railway Budget (separated in
+                1924 via Acworth Committee 1921) was <strong>re-merged into Union Budget in 2017</strong>. Presented on 1st
                 February.</p>
+
+            <div class="mermaid-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 24px 0; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 20px;">
+                <p style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 12px; font-weight: bold;">
+                    💰 Visual Roadmap: The 6 Sequential Stages of Union Budget Approval
+                </p>
+                <div class="mermaid" style="font-family: 'Patrick Hand', cursive;">
+                    flowchart TD
+                    B1["1️⃣ Presentation of Budget in Lok Sabha<br>(Finance Minister Speech & Economic Survey)"] --> B2["2️⃣ General Discussion on Budget<br>(Both Houses discuss overall policy; No Voting)"]
+                    B2 --> B3["3️⃣ Scrutiny by 24 DRSCs<br>(Houses Adjourn for 3-4 weeks for detailed audit)"]
+                    B3 --> B4["4️⃣ Voting on Demands for Grants<br>(Lok Sabha Exclusive; Guillotine on last day)"]
+                    B4 --> B5["5️⃣ Passing of Appropriation Bill<br>(Article 114: Withdrawal authority from CFI)"]
+                    B5 --> B6["6️⃣ Passing of Finance Bill<br>(Legalizes tax proposals within 75 days)"]
+                </div>
+            </div>
             <div class="key-points">
                 <ol>
                     <li><strong>Presentation:</strong> Finance Minister delivers Budget Speech in Lok Sabha; laid in

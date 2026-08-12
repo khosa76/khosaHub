@@ -11,6 +11,26 @@
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <!-- Mermaid.js for Diagrams -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                fontFamily: "'Patrick Hand', 'Kalam', cursive, sans-serif",
+                primaryColor: '#fffdf8',
+                primaryTextColor: '#1e3a8a',
+                lineColor: '#1e3a8a',
+                nodeBorder: '#1e3a8a',
+                clusterBkg: '#fbcfe8',
+                clusterBorder: '#c2255c',
+                mainBkg: '#fffdf8',
+                actorBkg: '#fffdf8'
+            }
+        });
+    </script>
 </head>
 
 <body>
@@ -40,6 +60,38 @@
                     <li><strong>Bicameral States (Vidhan Parishad present):</strong> <strong class="hl-yellow">Andhra
                             Pradesh, Maharashtra, Bihar, Telangana, Karnataka, Uttar Pradesh (6 States)</strong>.</li>
                 </ul>
+            </div>
+
+            <div class="mermaid-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 24px 0; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 20px;">
+                <p style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 12px; font-weight: bold;">
+                    🏫 Visual Diagram: Classroom Analogy of Parliamentary Structure
+                </p>
+                <div class="mermaid" style="font-family: 'Patrick Hand', cursive;">
+                    graph TD
+                    P["🏛️ PRESIDENT of India<br>(School Principal - Head of Union Executive)"]
+                    VP["🥈 VICE-PRESIDENT of India<br>(Vice-Principal - Ex-officio RS Chairman)"]
+                    P --- VP
+
+                    subgraph LS ["Class XII-A : LOK SABHA (House of the People)"]
+                        S1["👨‍⚖️ SPEAKER<br>(Class Monitor)"]
+                        G1["🟦 Ruling Party<br>Leader: PM (Class Representative)"]
+                        G2["🟥 Opposition Party<br>Leader: LoP (Shadow Leader)"]
+                        S1 --- G1
+                        S1 --- G2
+                    end
+
+                    subgraph RS ["Class XII-B : RAJYA SABHA (Council of States)"]
+                        C1["👨‍⚖️ CHAIRPERSON<br>(Vice-President / Monitor)"]
+                        R1["🟦 Ruling Party<br>(Treasury Benches)"]
+                        R2["🟥 Opposition Party<br>(Opposition Benches)"]
+                        C1 --- R1
+                        C1 --- R2
+                    end
+
+                    P ==> LS
+                    P ==> RS
+                </div>
             </div>
 
             <h3>I. Houses of Parliament Compared</h3>
