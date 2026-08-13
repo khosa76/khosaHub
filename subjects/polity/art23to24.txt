@@ -1,0 +1,232 @@
+**(Note: No Venn diagrams are present in this document. All visual flowcharts, mind maps, and categorical trees present in the PDF have been converted into structured text and markdown representations below.)**
+
+---
+
+## Article 23 & Article 24 (Right against Exploitation)
+
+### Article 23: Prohibition of Traffic in Human Beings and Forced Labour
+
+* **3 Evils Addressed**:
+
+
+1. Trafficking
+
+
+2. Begar
+
+
+3. Forced Labour
+
+
+
+
+* **Key Provisions**:
+
+
+1. Prohibits trafficking of human beings along with forced labour.
+
+
+2. If any person is caught pursuing human trafficking and forced labour, they are prosecuted under appropriate laws.
+
+
+3. Parliament has drafted laws in accordance with this Article:
+
+
+* **Immoral Traffic (Prevention) Act, 1956**: To stop human trafficking (e.g., sex trafficking, organ trafficking, child trafficking).
+
+
+* **Minimum Wages Act / Equal Remuneration Act**: For controlling forced labour and ensuring fair remuneration/wages.
+
+
+
+
+
+
+* **Exceptions under Clause (2) of Article 23**:
+
+
+* The State can impose compulsory service, such as conscription (compulsory recruitment of citizens for the military).
+
+
+* Such compulsory service shall be free from discrimination (under Article 15).
+
+
+
+
+
+---
+
+### Article 24: Prohibition of Employment of Children in Factories, etc.
+
+* **Key Provision**: Prohibits child labour. No child from age 0 to 14 shall be employed to work in any factory, mine, or any hazardous employment.
+
+
+* **Acts Created by Parliament**:
+
+
+1. **Child & Adolescent Labour (Prohibition & Regulation) Act, 1986** (amended in 2016).
+
+
+2. **Factories Act, 1948**.
+
+
+
+
+* **Exceptions Provided under Statutory Acts**:
+
+
+* Work in a family enterprise, or as an artist (films, TV, advertisements, sports).
+
+
+* *Conditions*: Work must not be in circuses, must take place after school hours or during vacations, must not be hazardous, and other legal safeguards must be satisfied.
+
+
+
+
+* **Statutory Body**:
+
+
+* **National Commission for Protection of Child Rights (NCPCR)**: Recommends policy and focuses on child development in India.
+
+
+
+
+
+---
+
+## Motions in Parliament
+
+### Diagram: Motion Procedure Flowchart
+
+```
+[ Any MP of either house will keep a proposal ] 
+                       ↓
+[ Formal proposal to start a discussion in Parliament / State Legislature ] 
+                       ↓
+[ Presiding Officer (Speaker / Chairperson) ] 
+                       ↓
+[ Approve ]
+```[cite: 1]
+
+### Definition
+* A **Motion** is a formal proposal by an MP/MLA to start a discussion on the floor of the House[cite: 1].
+
+### Step-by-Step Procedure
+1. **Step 1: Proposals** – Any MP/MLA can propose a motion to the presiding officer of the House[cite: 1].
+2. **Step 2: Approval** – The presiding officer approves the motion and puts it out for an open discussion[cite: 1].
+3. **Step 3: Debate** – The full House discusses the motion[cite: 1].
+4. **Step 4: Voting** – After sufficient discussion, the motion is put to a vote[cite: 1]. It passes when the House fetches "yes" votes by a simple majority (half of the members present and voting)[cite: 1].
+
+---
+
+### Diagram: Classification of Motions
+
+
+```
+
+```
+                 Types of Motion
+  ______________________|______________________
+ |                      |                      |
+
+```
+
+Procedural             Restricted              Special
+**|**                |
+|      |      |         Motion of Thanks
+Adjournment   Censure  No-Confidence
+
+```[cite: 1]
+
+#### 1. Procedural Motion
+* Focuses on starting a generic debate on any topic in Parliament[cite: 1].
+* Does not consist of the removal of the government or a minister[cite: 1].
+
+#### 2. Restrictive Motions
+* **1) Adjournment Motion**[cite: 1]:
+  * Introduced in Parliament to draw attention to a matter of urgent public importance[cite: 1].
+  * Changes the set agenda of the House to an urgent topic[cite: 1].
+  * Requires the support of 50 members to be admitted/approved by the Presiding Officer to speak[cite: 1].
+* **2) Censure Motion**[cite: 1]:
+  * Purpose is to restrict/censure a minister on the floor of the House[cite: 1].
+  * Must mandatorily state the reasons for its adoption[cite: 1].
+  * Can be moved against an individual minister, a group of ministers, or the Council of Ministers[cite: 1].
+  * The government does not need to resign from office if it is passed in the Lok Sabha[cite: 1].
+* **3) No-Confidence Motion (Article 75)**[cite: 1]:
+  * Article 75 states that the Council of Ministers shall be collectively responsible to the Lok Sabha[cite: 1].
+  * The ministry stays in office as long as it enjoys the confidence of the majority in the Lok Sabha[cite: 1].
+  * The Lok Sabha can remove the entire Council of Ministers by passing a No-Confidence Motion[cite: 1].
+  * No reasons are required to adopt this motion[cite: 1].
+  * Needs the support of 50 members to be admitted[cite: 1].
+  * Always moved against the entire Council of Ministers, not against individual ministers[cite: 1].
+
+#### 3. Special Motion
+* **Motion of Thanks**[cite: 1]:
+  * **Occasions**:
+    a) Towards the start of a new Lok Sabha[cite: 1].
+    b) At the start of the Budget Session / financial year / new session of the year[cite: 1].
+  * The President can address the House anytime if needed (though an unscheduled address has never happened in the history of independent India)[cite: 1].
+  * **Major Condition**: It must pass in both Houses; the Council of Ministers must resign if it fails to pass in the Lok Sabha[cite: 1].
+
+---
+
+## Annual Financial Statement (Budget)
+*(Covers expenditures and receipts for less than 1 year vs. long-term assets/liabilities)*[cite: 1]
+
+### Diagram: Budget Breakdown Structure
+
+
+```
+
+```
+                      Annual Financial Statement
+                                  |
+          ________________________|________________________
+         |                                                 |
+   Revenue Budget                                   Capital Budget
+_________|_________                               _________|_________
+
+```
+
+|                   |                             |                   |
+Expenditure         Receipts                      Expenditure         Receipts
+(ਖਰਚਾ)                                                |                   |
+|                   |                             |                   |
+• Subsidy           • Tax                         • Factories         • Borrowing
+• Defence           • Rent                        • Infrastructure    • Disinvestment /
+• Pension           • Cess                        • Loans               Sale of Assets /
+• Salaries          • Fees                                              Monuments
+• Interest          • Challan
+• Penalties
+
+```[cite: 1]
+
+* **Capital Asset/Liability Note**: Capital items represent assets and liabilities that give gains or structural impact for more than 1 year[cite: 1].
+
+---
+
+## Parliamentary Privileges (Immunities)
+*(Article 105[2], Article 194[2])*[cite: 1]
+
+Under these articles, certain rights and immunities are provided to MPs/MLAs, known as Parliamentary Privileges[cite: 1].
+
+### Key Categories & Features:
+
+1. **Individual Privileges**[cite: 1]:
+   * Rights & immunities enjoyed by MPs/MLAs as individuals[cite: 1].
+   * *Example*: Freedom of speech and expression for anything said/expressed on the floor of the House[cite: 1].
+   * No prosecution will take place for anything said in Parliament or a State Legislative Assembly[cite: 1].
+
+2. **Institutional Privileges**[cite: 1]:
+   * Privileges enjoyed by Parliament / State Legislative Assemblies as an institution[cite: 1].
+   * *Examples*:
+     * a) No MP/MLA can be arrested during a session of the House[cite: 1].
+     * b) No arrest can be made on the premises of the legislature (building of Parliament / State Legislative Assembly)[cite: 1].
+     * c) Immunity from arrest applies 40 days prior to and 40 days after a session ($\pm 40\text{ days}$)[cite: 1].
+     * d) An arrest can only be made by leave of the House (permission by the Presiding Officer)[cite: 1].
+
+3. **Major Supreme Court Decisions**[cite: 1]:
+   1. **Destruction of Property inside the House**: Is **NOT** considered a breach of privilege[cite: 1].
+   2. **Scope of Privileges**: The Supreme Court held that these privileges are provided to MPs/MLAs solely to perform legislative functions without hindrance or delay[cite: 1]. These privileges are **not** gateways to claim exemption from criminal law[cite: 1].
+
+```

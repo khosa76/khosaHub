@@ -1,0 +1,246 @@
+### Diagram & Format Overview
+
+* **Venn Diagrams:** No traditional overlapping-circle Venn diagrams are present in the document. However, the notes refer to the **"Golden Triangle"** concept (Articles 14, 19, and 21) which is conceptually related to Venn diagrams.
+* **Other Diagrams & Visual Maps:** The document contains several structural tree diagrams, chronological timelines, branching flowcharts, and comparison tables. All of these have been converted into detailed text representations below.
+
+---
+
+# Complete Text & Diagram Extraction
+
+## Article - 19
+
+* **19(1)(a):** Right to freedom of speech & expression
+* **19(1)(b):** Right to assemble peaceably & without arms
+* **19(1)(c):** Right to form associations or unions
+* **19(1)(d):** Right to move freely throughout the territory of India
+* **19(1)(e):** Right to reside & settle in any part of the territory of India
+* **19(1)(g):** Right to practise any profession, or to carry on any occupation, trade or business.
+
+### Rights vs. Reasonable Restrictions Table
+
+| Rights | Reasonable Restrictions |
+| --- | --- |
+| **19(1)(a)** | 1. Sovereignty & integrity of India<br>
+
+<br>2. Security of India<br>
+
+<br>3. Friendly relation with other Countries<br>
+
+<br>4. Public Order<br>
+
+<br>5. Decency / Morality<br>
+
+<br>6. Contempt of Court<br>
+
+<br>7. Defamation<br>
+
+<br>8. Incitement to an offence |
+| **19(1)(b)** | 1, 2, 4 only *(Sovereignty & integrity, Security of India, Public Order)* |
+| **19(1)(c)** | 1, 4, 2, 5 |
+| **19(1)(d) & 19(1)(e)** | Rights in the interest of Scheduled Tribes (STs) & general public. |
+| **19(1)(g)** | 1. Qualification to be carried<br>
+
+<br>2. Some trade/business to be carried by state only (e.g., Atomic energy) |
+
+---
+
+## Article - 21
+
+### Diagram Text Representation: Life & Personal Liberty
+
+```
+                     ARTICLE 21
+                         │
+        ┌────────────────┴────────────────┐
+        ▼                                 ▼
+      LIFE                         PERSONAL LIBERTY
+        │                                 │
+  ┌─────┴──────────────┐                  ▼
+  ▼                    ▼               PRIVACY
+EUTHANASIA          SUICIDE               │
+(Unnatural          │                     ▼
+ way to die)        ├─► Attempt (Sec 309  LGBTQIA
+  │                 │   offence)
+  ├─► Passive       │
+  │   (Life support ├─► 2017 Mental Healthcare
+  │    stop / "pull │   Act: Not crime to
+  │    the plug")   │   attempt suicide
+  │    [India: Yes, │
+  │     USA: Yes]   └─► Abetment (Uksana)
+  │                     under IPC Sec 306
+  └─► Active            is an offence
+      (Giving poison)
+      [India: No]
+
+```
+
+---
+
+### Timeline Diagram Text: Right to Privacy
+
+`1948` ──► `1954` ──► `1962` ──► `1957` ──► `2003` ──► `2017`
+
+* **1948 (Constituent Assembly debate):** Kazi Syed Karimuddin (Member of Constituent Assembly) drafted a resolution for a Right to Privacy because of CrPC (Criminal Procedure Code), but Dr. B.R. Ambedkar refused to dedicate.
+* **1954 (M.P. Sharma case - Dalmia group of companies):** Supreme Court refused to acknowledge the Right to Privacy.
+* **1962 (Kharak Singh case):** Supreme Court refused.
+* **1957 (Govind v. State of M.P.):** Supreme Court gave NO relief in terms of Privacy; the police were only warned.
+* **2003 (Surjit Singh Thind case):** Virginity test was considered illegal & element of privacy was recognized.
+* **2017 (K.S. Puttaswamy (Aadhaar case) v. Union of India):** The question before the court was: *Whether Aadhaar is constitutional or not?* The Supreme Court held that the Right to Privacy is an implied Fundamental Right under Article 21.
+
+---
+
+### Comparison Table: Procedure Established by Law vs. Due Process of Law
+
+| Procedure Established by Law | Due Process of Law |
+| --- | --- |
+| • It is a Japanese borrowed invention. | • It is borrowed from the American Constitution. |
+| • If a proper procedure is followed either by Parliament / State Legislature, the law stands valid. | • It focuses on the fairness & reasonableness of law. |
+| • It provides a huge scope to Parliament if it is passed by a proper procedure. | • There shall be no arbitrariness in law.<br>
+
+<br>• It increases the scope of Judiciary. |
+
+#### Landmark Case Note:
+
+In the landmark case of **Maneka Gandhi**, the Supreme Court held that:
+
+1. Article 14 & 19 are interlinked with Article 21.
+2. **Golden Triangle** constitutes Article 14, 19, and 21.
+3. From now on, the Supreme Court will also focus on **Due Process of Law**.
+
+---
+
+### Scope of Article 21 (MAINS)
+
+*(Important topic for Mains)*
+
+1. **Right to Live with Human Dignity:**
+* → Right to clean environment
+* → Surrogacy
+* → Abortion
+* → Legalization of LGBTQ Marriage
+* **Navtej Singh Johar case (2018/2019):** Section 377 of IPC was repealed which criminalized unnatural sex *(British de zamane da law)*.
+* **Joseph Shine case:** Supreme Court held that Adultery (physical relation of a married person with somebody who is not their wife/husband) under Section 497 of IPC is no longer valid.
+
+
+2. **Right to Livelihood:**
+* **Olga Tellis Case:** Famously called the Slum Dweller Case. Supreme Court held that people living in slums or on government property is not trespassing (going onto somebody's land/property without permission); they are entitled to appropriate resettlement.
+
+
+3. **Right to Health:**
+* **Parmanand Katara Case:** Supreme Court recognized the right to health by ordering all doctors to extend medical assistance to the patient immediately without legal formalities.
+
+
+4. **Right to Die:**
+* **P. Rathinam Case:** Section 309 of IPC (attempt to suicide) was held void.
+* **Gian Kaur Case:** Supreme Court overruled the *P. Rathinam* judgment, but in 2017 the Mental Healthcare Act made it possible.
+* **Aruna Shanbaug Case:** Supreme Court allowed Passive Euthanasia.
+* **Common Cause Case:** Article 21 includes the right to die with dignity (Passive Euthanasia).
+
+
+5. **Right to Sleep:**
+* **Ramlila Maidan Case:** Supreme Court recognized that every citizen has the right to sleep comfortably & freely.
+
+
+6. **Right to Clean Environment:**
+* **M.C. Mehta Case**
+
+
+
+---
+
+## Article 21-A
+
+### Flowchart Text Representation: Age Distribution & Rights
+
+* **Age 0 – 6:** State responsibility (written under DPSP, Part IV) – *Not enforceable.*
+* **Age 6 – 14:** Fundamental Duties (Part IV-A)
+* **Age 6 – 14:** Fundamental Rights (Part III)
+
+---
+
+## Criminal Justice System
+
+### Mind Map / Process Flowchart Text Representation
+
+```
+   Think (Legally "Mens Rea" – Intention of crime)
+                       │
+                       ▼
+            Act ("Actus Reus")
+                       │
+                       ▼
+               Culprit / Suspect
+                       │
+                       ▼
+                    Victim
+                       │
+                       ▼
+             Police Investigation
+                       │
+                       ▼
+                  Chargesheet
+                       │
+                       ▼
+                 Trial (Court)
+                       │
+                       ▼
+                   Judgment
+                       │
+                       ▼
+                     Jail
+
+```
+
+* **Parties involved:**
+* Public / State Prosecutor
+* State of `______` v. Name of suspect/defendant (the one who is culprit) — *(Name used is State)*
+
+
+
+### Criminology & Theories Breakdown
+
+```
+              Why crimes occur?
+                     │
+                     ▼
+  Criminology (Logy = set of subjects)
+                     │
+                     ▼
+              Theory of Crime
+                     │
+                     ▼
+ Theory of Punishment (ism = ideology)
+   │
+   ├─► Deterrence (Fear) ──► e.g., Electric Chair / Punishment
+   │
+   ├─► Rehabilitative ──► e.g., Pune Porsche car crash "essay writing punishment"
+   │
+   └─► Reformative (+ve change) ──► e.g., Prison system, Music teacher example
+
+```
+
+---
+
+## Article 20
+
+No person shall face these 3 things:
+
+1. **No Retrospective (Pichhe / Pehla toh) Application of Law:**
+In India, no person can be held guilty if on the date of the crime there is no law regarding that crime. *(Note: This is not applicable to Civil Law).*
+2. **No Double Jeopardy:**
+No person can be punished for the same offence twice.
+3. **Right against Self-Incrimination:**
+No person can be forced to testify against himself.
+*Exception:* NARCO Test.
+
+---
+
+## Article 22
+
+Article 22 protects the accused or suspect.
+
+1. **Reasons for Arrest:** Any police officer who is arresting a suspect shall provide the reason for arrest to the suspect or any other person who is available at the time of arrest.
+2. **24-Hours Rule:** A person who is arrested shall be produced before the court of the nearest Magistrate within 24 hours, excluding travel time.
+3. **Exceptions:**
+* Alien Enemy
+* Preventive Detention Laws (e.g., NSA, AFSPA)

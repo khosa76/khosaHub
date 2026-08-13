@@ -1,0 +1,317 @@
+## Page 1
+
+### Freedom of Religion (Article 25 to 28)
+
+**Article 25**
+
+This article focuses on the Freedom of Religion.
+
+---
+
+#### **[Diagram: Mind Map / Concept Branching Diagram — Four Fronts of Freedom of Religion]**
+
+```
+                      +-------------------+
+                      |     Religion      |
+                      |       (OM)        |
+                      +---------+---------+
+                                |
+      +-----------------+-------+-------+-----------------+
+      |                 |               |                 |
+      v                 v               v                 v
+[Conscience]       [Profess]        [Practice]       [Propagate]
+ Inner voice     Identification     Rituals /       Discussion &
+ (voice of god)  to a Religion   ceremony follow      Teaching
+
+```
+
+---
+
+As per this article, all persons (Citizen + Non citizen) are entitled to these 4 Rights:
+
+1. **Freedom of Conscience:** It focuses on inner individual freedom of an individual to mould his relation with god or creatures in whatever way they desire.
+2. **Right to Profess:** It focuses on identification & declaration of once religion Believe openly & freely.
+* *eg:-* Wearing & carring of "Kirpan" in Sikkism
+
+
+3. **Right to Practice:** It provides for Right to performance of Religious Rituals, ceremony & exhibition of Belif & ideas.
+* The Supreme Court of India follows a doctrine known as **essential Religious practice doctrine**.
+* Under this, the Judiciary is the final Authority Which will tell & decide upon Which Ritual, Practice, ceremony forms the core of the Religion & essential to it.
+* The Judiciary also possess the power to declare any ritual, ceremony etc as Non essential & even ban it.
+
+
+4. **Right to Propagate:** It provides the Right of transmission & Dissemination (spread of ideas so that it reaches many people) of once religious Belif to others. Right to Propagate does not include the rights to Convert another person to once own religion as it would contravene the "Freedom of Conscience" guaranteed to all the persons in this Article.
+* Supreme Court in the Landmark case of **Rev Stanislass 1977** held that Article 25 does not contain the Right to Convert.
+
+
+
+---
+
+## Page 2
+
+### Article 26 (Freedom to Manage Religious Affairs)
+
+* **Q1: Who controls temples?**
+$\rightarrow$ State under the Act **Madras Hindu Religious & Charitable Endowment Act 1951**. Under this Act, the state governs the temples, but it was not so in the time of British.
+* **Shirur Mutt Case:** Supreme Court held that State Under Article 25 & 26 possess the power to regulate temples & also Management of donation & also Manage their Activities.
+
+
+* **Q2: Who controls Gurdawaras?**
+$\rightarrow$ **SGPC (Shiromani Gurdwara Parbandhak Committee)**. The British drafted **Gurdwara Act 1925**, Which provides for establishment of SGPC as the governing Body of Sikhs. Under this, it also clarified that this body will be an elected body by the Sikh people.
+* **Q3: Who controls Masjid?**
+
+---
+
+### Article 27
+
+Under this Article, it is provided that the government cannot Collect tax specifically for Maintenance of any religion, but there are Certain exceptions:
+
+* Government can provide subsidy.
+
+---
+
+### Article 28
+
+There are two questions which this Article Answers:
+
+1. Whether religious instruction can be provided in an educational institute?
+2. If yes, will the Students be compelled to Attend such instructions?
+
+---
+
+#### **[Diagram: Classification Tree / Flowchart — Educational Institutions & Religious Instruction]**
+
+```
+                           Educational Institute
+                                     |
+      +------------------------------+------------------------------+
+      |                              |                              |
+ Fully aided                    Partially                        Un-aided
+(by govt/State)              (by govt/State)              (No aid from State)
+      |                              |                              |
+ No Religious                   Religious                      Religious
+ Instruction                   Instruction                    Instruction
+(govt. schools)                 Permitted                      Permitted
+                                  (DAV)
+
+```
+
+---
+
+The Constitution permits religious study but not Religious instruction in the educational institute Fully Aided by state.
+
+In the Landmark case of **TMA Pai Foundation Case 2002**, Supreme Court held that:
+
+1. Private unaided educational institutions have the Maximum Autonomy in it; the religious instructions are Permitted.
+2. The educational institutions Which are fully aided by government Must go through heavy government regulations & Hence religion instructions is permitted.
+
+---
+
+## Page 3
+
+### Cultural & Educational Rights (Article 29 to 31)
+
+### Article 29 (Protection of Interest of Minorities)
+
+It focuses on the protection of Minorities, but it not only talks about Minorities; it also gives equal rights of Conservation & Preservation to Majorities as well.
+
+Article 29 recognises two types of Minorities:
+
+1. **Linguistic**
+2. **Religious**
+
+Under **[1] of Article 29**, the constitution provides Right to Conserve:
+
+1. Language
+2. Script
+3. Culture
+*(This is provided to Both Minority [Linguistic & Religious] & also to Majority [Any section of citizen])*
+
+Under **[2] of Article 29**, It is provided that there can be No discrimination with the Minorities in the State education.
+
+#### **Important Supreme Court Observations:**
+
+1. Right to Conserve Under Article 29 [1] includes the Right to agitate (Dharna).
+2. These Rights are available to both Minorities & Majority.
+3. Election Speeches in relation to conservation of Language Will not amount to corrupt electoral Practice Under RPA (Representation of the People Act 1951).
+
+#### **Case Study: Jallikattu Case**
+
+1. It is a Tamil Nadu Bull Taming Contest.
+2. It was Banned in 2014 by Supreme Court (**AWBI vs A. Nagaraja 2014**) *(AWBI: Animal Welfare Board of India)*.
+3. In 2016, Central govt put out a Notification Which reversed this ban.
+4. In 2017, Tamil Nadu govt did an amendment to existing Law Solidifying Jallikattu.
+5. In 2023, Jallikattu was again Challenged in Supreme Court & It was held that:
+* $\rightarrow$ Jallikattu is protected Under Article 29 as a **CULTURAL PRACTICE**.
+* Judiciary cannot decide whether Jallikattu is an Integral Part of Tamil Nadu Culture or not.
+* It is only the Tamil Nadu Legislature which Could decide what is the Definition of Cultural practice, which it did in the 2017 Amendment.
+
+
+
+---
+
+## Page 4
+
+### Article 30 (Right of Minorities to Establish & Administer Educational Institutions)
+
+It grants the following Rights to Minorities:
+
+1. To establish & Administer educational institutions.
+2. It was added by **44th Amendment Act** that Compensation Amount fixed by the state for compulsory Acquisition of any property of a Minority educational institution shall not abrogate (officially cancel) their Rights.
+3. There shall be No discrimination in granting Aid to Minority institutions.
+4. The Provision of Article 30 is only Available to Minorities (Religious & Linguistic) but not to the majority.
+
+---
+
+#### **[Diagram: Structural Comparison — Article 14–30 vs Article 32]**
+
+| Article 14–30 (Core Rights) | Article 32 |
+| --- | --- |
+| • Putting Limitation on State<br>
+
+<br>• To reduce use of power | • **Jurisdiction:** $\downarrow$ Capacity of Court to hear Case<br>
+
+<br>• **Locus-Standi:** $\downarrow$ Capacity of Party/Person to reach Court<br>
+
+<br>• **Writ:** $\downarrow$ A Judgement or an order passed by Court to Uphold a Fundamental Right or a Legal Right |
+
+---
+
+### Article 32 (Right to Constitutional Remedies)
+
+1. *"It is the Heart & Soul of the constitution"* ~ Dr B.R. Ambedkar.
+This Article confers the right to remedies In case of non-enforcement of Fundamental Rights.
+2. The Right to get Fundamental Rights Protected is in itself a Fundamental Right.
+3. Supreme Court has been Constituted as the defender & the guarantor of the Fundamental Rights of citizens.
+4. Supreme Court has been vested with the **ORIGINAL JURISDICTION** (the aggrieved Citizen can directly go to Supreme Court) & wide powers (issuing orders, Directions & also writs of all kinds) for that purpose.
+5. Only the Fundamental Rights Guaranteed under Part III of constitution can be enforced via Article 32 & not any other rights like Non-Fundamental constitutional rights, Legal Rights, Customary Rights etc.
+6. For the exercise of Right Under Article 32, It is **'Sine Qua Non'** (absolutely necessary) that violation of Fundamental Rights (Article 14–30) takes place.
+
+---
+
+## Page 5
+
+### WRITS
+
+#### 1. Habeas Corpus
+
+*(hay.bee.uhs.kaw.puhs)*
+
+**"To Produce the body of"**
+
+It provides relief from Unlawful detention. It means that if an individual is kept in a Jail / Private care without the Authority of Law, they have to be produced in the court.
+
+*Only writ which talks about Private Care.*
+
+* **Exceptions:**
+1. Lawful detention.
+2. Failure to Comply with Judicial / Legislative Mandate.
+3. Court Authorized.
+
+
+* **Landmark Cases:**
+* **A.D.M. Jabalpur vs Shivkant Shukla 1976:** The Supreme Court held that Habeas Corpus can be suspended during an emergency. Court held that during emergency, detention of opposition Leaders under MISA Act was Lawful. It was only in 2017 that this Judgement was overruled in another Landmark case of **K.S. Puttaswamy**.
+
+
+
+---
+
+#### 2. Quo Warranto
+
+*(Kwoh.Wah.ran.toh)*
+
+**"By What Authority"**
+
+It restrains a person from acting in Public offices to Which they are not entitled.
+
+* **Exceptions:**
+1. No private organization.
+2. Only on office created by state (Public office).
+
+
+* **Landmark Case:**
+* **Ashok Pandey vs Mayawati:** Supreme Court held that No Quo Warranto Writ can be issued based on a mere technicality of Law. The question cannot be filed on Presumption.
+
+
+
+---
+
+#### 3. Mandamus
+
+**"To Command"**
+
+*(Punjabi text: "ਕੰਮ ਕਰ" / Kamm kar)*
+
+It is when a Higher Court gives order to a Lower Court / government officer to Perform their duty. Cases related to service Commissions like PPSC, PSSSP often Come under this (Right to service).
+
+* **Exception:**
+This writ is only available against a Public duty, not a Private wrong. Cannot be issued against the President of India, Governor of any state, Chief Justice of High Courts & even the Chief Justice of Supreme Court.
+
+---
+
+## Page 6
+
+#### **[Diagram: Comparison Table — Prohibition vs Certiorari]**
+
+| Feature | Prohibition | Certiorari |
+| --- | --- | --- |
+| **Meaning / Nature** | (Prevent) | (Preventive + Curative) *(Punjabi: "ਸਰ, ਮੈਂ ਕਰਦਾ")* |
+| **Hierarchy** | Higher Judiciary to Lower Judiciary | Higher Judiciary to Lower Judiciary |
+| **Grounds** | No / Excess Jurisdiction | No / Excess Jurisdiction |
+| **Stage** | Proceedings are going on | When decision is made by inferior Court |
+
+---
+
+Article 32 provides power only with Supreme Court for enforcement of Fundamental Rights via writs, but It is Under **Article 226** of the constitution of India that provides original Powers to the High Court to issue writs of all kinds for enforcement of Fundamental Rights.
+
+#### **[Diagram: Flow / Order Directive]**
+
+```
+Supreme Court held that  --->  Where Relief is available through High Court,
+                               the aggrieved party should first move the High Court.
+
+```
+
+---
+
+### Article 33
+
+Power of Parliament to Modify the rights conferred by Part III in their application to:
+
+* $\rightarrow$ Armed forces
+* $\rightarrow$ Forces Charged with the Maintenance of Public order
+* $\rightarrow$ Persons employed in intelligence agencies
+* $\rightarrow$ Persons employed in telecommunication Services
+
+Article 33 intends to ensure the proper discharge of their duties & the Maintenance of Discipline among them.
+
+The Power to Make Laws Abrogating the rights of Armed forces under Article 33 lies only with Parliament & **NOT** with State Legislature.
+
+---
+
+### Article 34 (Martial Law)
+
+*To maintain Law & order By President*
+
+This Article Provides for restriction on Fundamental Rights while Martial Law is enforced in any Place / area within the territory of India.
+
+It empowers Parliament to indemnify (Pay somebody an amount of money if they suffer any loss) any government servant or any other person for an act done by him in Connection with the maintenance or restoration of order in any area Where Martial Law was enforced.
+
+*eg :-* **Armed Forces (Special Powers) Act 1958 (AFSPA)**
+
+---
+
+### Article 35 (Legislation affecting Fundamental Rights)
+
+Under Article 35, Power to make laws to give effect to Certain specified Fundamental Rights shall vest **only with the parliament & Not in State Legislation**.
+
+It means that No State Legislature Can make Law regarding implementation, enforcement or even abrogation of Fundamental Rights. It is only the Parliament Which can do so.
+
+---
+
+### **[Rotated Margin Text on Page 6]**
+
+*(Note: At the bottom-right corner of Page 6, there is sideways/vertically rotated handwritten text representing a partially cropped list/table structure):*
+
+
+```

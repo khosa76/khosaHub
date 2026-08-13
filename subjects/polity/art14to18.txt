@@ -1,0 +1,427 @@
+Here is the complete text extracted from all pages of the document, arranged sequentially by section and topic.
+
+---
+
+# RIGHT TO EQUALITY
+
+## Overview of Articles
+
+* **Article 14:** Right to equality
+
+
+* **Article 15:** Prohibition of discrimination
+
+
+* **Article 16:** Public employment
+
+
+* **Article 17:** Prohibition of Untouchability
+
+
+* **Article 18:** Abolition of titles
+
+
+
+---
+
+## Article 14 (Right to Equality)
+
+* Article 14 talks about equality before law.
+
+
+* It confers rights on all persons (citizens or foreigners).
+
+
+* The phrase "person" includes:
+
+
+* Biological person
+
+
+* Legal person (like registered society, statutory corporation, company)
+
+
+
+
+
+### Equality Before Law vs Equal Protection of Laws
+
+#### Equality Before Law
+
+1. It is a **British concept**.
+
+
+2. It means that there shall be no special privilege for any person (absence of privileges).
+
+
+3. No person (whether rich or poor, high or low, official or non-official) is above the law.
+
+
+4. It is a **negative (-ve) concept**.
+
+
+
+#### Equal Protection of Law
+
+1. Inspired from the **American Constitution**.
+
+
+2. It is a **positive (+ve) concept**.
+
+
+3. It provides for equality of treatment under equal circumstances.
+
+
+4. The application of same laws similarly to all persons who are similarly situated.
+
+
+5. The like should be treated alike without any discrimination.
+
+
+
+---
+
+### Doctrine of Reasonable Classification
+
+It states that any state action can stand the test of Article 14 even when it differentiates people, but such differentiation has to stand the test of reasonability.
+
+---
+
+### Rule of Law
+
+Propounded by **A.V. Dicey**.
+Consists of 3 components:
+
+1. **Absence of Arbitrary Powers with State:** No person can be punished except for a breach of law (act that breaks an agreement/law).
+
+
+2. **Equal Subjection of All Persons to the Ordinary Law of Land.**
+
+3. **The Primacy of Rights of Individual rather than Constitution.** *(Note: In India, Constitution is supreme power — Constitutional Supremacy)*
+
+
+---
+
+### Exceptions to Article 14
+
+#### 1. Immunities (Article 361)
+
+The President of India and Governor of State enjoy the following immunities:
+
+* **(a)** President & Governor are not answerable to any court during the performance of their duty.
+
+
+* **(b)** No criminal proceeding shall be instituted against the President or Governor during his term of office.
+
+
+* **(c)** No President or Governor could be arrested/imprisoned during his term of office.
+
+
+* **(d)** No civil proceeding against President or Governor shall be instituted during his term of office even if the act done by him is in his personal capacity.
+
+
+
+#### 2. Article 361A
+
+No person shall be liable (responsible) for civil or criminal proceeding in any court in respect of the publication in a newspaper of a substantially true report of any proceeding of either Parliament / Vidhan Sabha.
+
+#### 3. Article 105 & Article 194
+
+No MP / MLA shall be liable to any proceeding in court in respect of anything said or any vote given by him in Parliament / State Legislature.
+
+#### 4. Foreign Sovereigns & Diplomats
+
+Ambassadors / Diplomats and foreign sovereigns enjoy immunity from criminal and civil proceedings (Vienna Convention 1961).
+
+---
+
+## Article 15 (Prohibition of Discrimination on Certain Grounds)
+
+* According to Article 15, the State shall not discriminate against any citizen on grounds **ONLY** of:
+
+
+1. Religion
+
+
+2. Race
+
+
+3. Caste
+
+
+4. Sex
+
+
+5. Place of birth
+
+
+
+
+* This article prohibits discrimination **ONLY by the State**.
+
+
+* This article does not stop discrimination by private persons.
+
+
+
+### Article 15(2)
+
+* Under clause (2) of this article, no citizen shall **ONLY** on grounds of **Religion, Race, Caste, Sex, or Place of birth** be subjected to any disability, liability, restriction, condition with regard to access to shops, public restaurants, etc.
+
+
+* Provision (2) prohibits discrimination **BOTH by State and Private Individuals**.
+
+
+
+---
+
+### Positive Discrimination & Exceptions (Article 15[3] & 15[4])
+
+* From clause (3) of Article 15, the Constitution starts positive (+ve) discrimination.
+
+
+* **Article 15(3):** Empowers the State to make special provisions for **Women & Children**.
+
+
+* **Article 15(4):** Empowers the State to make special provisions for socially & educationally backward classes and **SC/ST**.
+
+
+
+---
+
+### Current Reservation System in Educational Institutes in India
+
+Currently, the government provides reservation on 5 fronts:
+
+| Category | Reservation % |
+| --- | --- |
+| **SC** | 15%
+
+ |
+| **ST** | 7.5%
+
+ |
+| **OBC** | 27%
+
+ |
+| **PWD** | 4%
+
+ |
+| **EWS** | 10%
+
+ |
+| **Total** | **63.5%**<br> |
+
+---
+
+## Article 16 (Public Employment)
+
+**Equality of opportunity in public employment.**
+
+Article 16 provides for:
+
+1. Equality of opportunity for all citizens in matters of employment or opportunity to any office under State.
+
+
+2. No citizen can be discriminated against or be ineligible for any office under the State on grounds of **ONLY**:
+
+
+* Religion
+
+
+* Race
+
+
+* Caste
+
+
+* Sex
+
+
+* Descent
+
+
+* Place of Birth
+
+
+* Residence
+
+
+
+
+
+### Exceptions
+
+1. **Residence Requirement:** Parliament can prescribe residence as a condition of employment in a state or UT (e.g., Andhra Pradesh & Telangana).
+
+
+2. **Backward Class Reservation:** State can also provide reservation to any backward class.
+
+
+
+---
+
+### Mandal Commission & Subsequent Legal History
+
+* Established in **1979** by Prime Minister Morarji Desai under Article 340, headed by **B.P. Mandal**.
+
+
+
+#### Recommendations
+
+1. Estimated the OBC population to be **52%**.
+
+
+2. Recommended **27% reservation** for OBCs.
+
+
+
+#### Implementation
+
+In **1990**, under the leadership of PM V.P. Singh, the government declared and enforced 27% reservation for OBCs.
+
+#### Response of Supreme Court (Indra Sawhney vs Union of India, 1992)
+
+1. Court upheld the 27% reservation with certain conditions.
+
+
+2. **Creamy Layer** shall be excluded from reservation.
+
+
+3. **No reservation in promotions** *(Later reversed by Parliament)*.
+
+
+4. Total reserved quota **shall not exceed 50%**, except in extraordinary situations.
+
+
+
+#### Response of Government
+
+* Government established the **Ram Nandan Committee** in 1993 to identify the creamy layer.
+
+
+* **NCBC (National Commission for Backward Classes)** was established in 1993 as a statutory body. Now, after the **102nd Amendment Act**, it is a **Constitutional Body**.
+
+
+* Government passed the **77th Constitutional Amendment Act** for reservation in promotions.
+
+
+* **85th Constitutional Amendment Act** provided for consequential seniority in promotions.
+
+
+
+---
+
+## Affirmative Action (Positive Action)
+
+A set of anti-discriminatory measures intended to provide access to preferred positions in society for a group that would otherwise be excluded or under-represented.
+
+### Overview Diagram / Classification Table
+
+> **Note on Diagram in Source:** The notes present a comparison diagram/flowchart detailing how Affirmative Action / Reservation applies across political, educational, and employment spheres, along with its types (Vertical vs Horizontal).
+> 
+> 
+
+#### Application of Reservation / Representation
+
+| Category / Sphere | Details & Provisions |
+| --- | --- |
+| **Lok Sabha / Vidhan Sabha** | Constitutional Reservation (extended every 10 years; recently by 104th CAA).
+
+ |
+| **PRI / MC** | State will decide local body representation.
+
+ |
+| **School Education** | Article 21A (86th Amendment Act - Right to Education). Private schools must reserve 25% for EWS.
+
+ |
+| **Higher Education** | Article 15. Minority institutions will **not** provide reservation (e.g., St. Stephen's, Jamia Millia).
+
+ |
+| **Employment** | Article 16. Max limit for SC + ST + OBC reservation is 50%. EWS = 10%.
+
+ |
+
+#### Types of Reservation in India
+
+* **Vertical Reservation:**
+* SC
+
+
+* ST
+
+
+* OBC
+
+
+* EWS (10%)
+
+
+
+
+* **Horizontal Reservation (Sub-categories within Vertical Reservation):**
+* Women
+
+
+* PWD
+
+
+* Based on Residence
+
+
+
+
+
+---
+
+## Article 17 (Abolition of Untouchability)
+
+* Abolishes untouchability and forbids its practice in any form.
+
+
+* The phrase "Untouchability" **has not been defined** either in the Constitution or in the Act.
+
+
+
+### Key Legal Interpretations & Acts
+
+* **Mysore High Court Judgment:** Held that the subject matter of Article 17 is not "untouchability" in its literal sense, but the practice of untouchability as it has developed historically in India. It refers to the social disability imposed on certain classes of persons by reason of their birth in certain castes.
+
+
+* Article 17 **does not cover** the social boycott of a few individuals or their exclusion from religious services, etc. *(e.g., Khap Panchayat — non-legal, non-constitutional historical legacy body; concept of honour killing)*
+
+
+* **Untouchability (Offences) Act, 1955:** Amended in 1976 and renamed as **Protection of Civil Rights Act**. It enlarged the scope and made penal/criminal provisions more stringent.
+
+
+* **Supreme Court Ruling:** The right under Article 17 is available **against private individuals as well**, and it is the constitutional obligation of the State to take necessary action to ensure this right is not violated.
+
+
+
+---
+
+## Article 18 (Abolition of Titles)
+
+* Prohibits the State from conferring any title (except military or academic distinction) on anybody, whether a citizen or a foreigner.
+
+
+* Prohibits citizens of India from accepting any title from any foreign state.
+
+
+* Hereditary titles like *Maharaja, Raj Bahadur, Rai Bahadur, Rai Sahab, Dewan Bahadur,* etc., which were conferred by colonial states, are banned by Article 18 as they go against the principle of equal status for all.
+
+
+
+### Supreme Court Ruling on National Awards (1996)
+
+* The Supreme Court held that National Awards like **Bharat Ratna, Padma Vibhushan, Padma Bhushan, and Padma Shri** are constitutionally valid.
+
+
+* These awards do not amount to titles because they are **not hereditary titles of nobility**.
+
+
+* However, awardees **shall not use these awards as suffixes or prefixes** to their names.
+
+
+
+---
