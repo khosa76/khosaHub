@@ -415,26 +415,26 @@
             <div class="mermaid-container compact-container"
                 style="display: flex; flex-direction: column; align-items: center; margin: 20px auto; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 18px; width: 100%; box-sizing: border-box; overflow-x: auto;">
                 <p style="font-family: 'Kalam', cursive; font-size: 19px; color: var(--ink-blue); margin-bottom: 10px; font-weight: bold; text-align: center;">
-                    🐍 Chronological Snake Timeline: Case Law & Statutory Evolution of Tribunals (1969 – 2021)
+                    📅 3-Phase Chronological Flowchart: Evolution of Tribunals (1969 – 2021)
                 </p>
                 <div class="mermaid" style="font-family: 'Patrick Hand', cursive; font-size: 16px; width: 100%;">
-                    flowchart LR
-                    subgraph R1 ["Phase I (1969 - 1986): Origins & Sampath Kumar Era"]
+                    graph TD
+                    subgraph P1 ["Phase 1 (1969 - 1986): Origins & Sampath Kumar Era"]
                         direction LR
-                        T69["1969: 1st ARC Proposal"] --> T74["1974: Law Commission"] --> T76["1976: 42nd CAA<br><i>(Arts 323A & 323B)</i>"] --> T86["1986: S.P. Sampath Kumar Case<br><i>(Tribunals Parallel to HCs)</i>"]
+                        T69["1969: 1st ARC Proposal"] --> T74["1974: Law Commission"] --> T76["1976: 42nd CAA<br><i>(Arts 323A & 323B)</i>"] --> T86["1986: S.P. Sampath Kumar Case<br><i>(Parallel to HCs)</i>"]
                     end
 
-                    subgraph R2 ["Phase II (1997 - 2019): HC Judicial Review & Independence"]
+                    subgraph P2 ["Phase 2 (1997 - 2019): High Court Review & Independence"]
                         direction LR
-                        T97["1997: L. Chandra Kumar Case<br><i>(Overruled; Subordinate to HCs)</i>"] --> T10["2010: R. Gandhi Case<br><i>(Judicial Member Majority)</i>"] --> T17["2017: Finance Act<br><i>(Executive Rule-making)</i>"] --> T19["2019: Rojer Mathew Case<br><i>(Tenure Protections)</i>"]
+                        T97["1997: L. Chandra Kumar Case<br><i>(Subordinate to HCs)</i>"] --> T10["2010: R. Gandhi Case<br><i>(Judicial Majority)</i>"] --> T17["2017: Finance Act<br><i>(Govt Powers)</i>"] --> T19["2019: Rojer Mathew Case<br><i>(Tenure Protections)</i>"]
                     end
 
-                    subgraph R3 ["Phase III (2021): Reforms Act & Strike Down"]
+                    subgraph P3 ["Phase 3 (2021): Statutory Reforms & Supreme Court Strike Down"]
                         direction LR
-                        T21["2021: Tribunal Reforms Act<br><i>(50-Yr Age & 4-Yr Tenure Rules)</i>"] --> T21M["2021: Madras Bar Association Case<br><i>(SC Struck Down 50-Yr & 4-Yr Rules)</i>"]
+                        T21["2021: Tribunal Reforms Act<br><i>(50-Yr Age & 4-Yr Tenure)</i>"] --> T21M["2021: Madras Bar Association Case<br><i>(SC Struck Down Clauses)</i>"]
                     end
 
-                    R1 ==> R2 ==> R3
+                    P1 ==> P2 ==> P3
                 </div>
             </div>
 
