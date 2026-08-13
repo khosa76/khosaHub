@@ -1,0 +1,444 @@
+Urban Local Government in India
+Constitutional Status
+● Urban local government was constitutionalised through the 74th Constitutional Amendment
+Act, 1992.
+● This provided a uniform structure, legal status, and powers to urban bodies.
+Ministries Dealing with Urban Local Bodies
+At the central level, three ministries are involved depending on the area:
+1. Ministry of Housing and Urban Affairs
+– General urban local governance
+2. Ministry of Defence
+– In case of Cantonment Boards
+3. Ministry of Home Affairs
+– In case of Union Territories
+Constitutional Placement
+● "Local Government" is listed under the State List of the 7th Schedule of the Constitution.
+● Hence, states have the primary authority to legislate on urban local governance.
+Evolution of Urban Local Bodies
+1. 1687–1688:
+○ Charter issued on 30 December 1687 for establishment of the first municipal corporation in
+India at Madras (now Chennai).
+○ Formally established on 29 September 1688.
+2. 1726:
+○ Municipal Corporations set up in Bombay and Calcutta.
+3. 1870:
+○ Lord Mayo’s Resolution on financial decentralisation laid the foundation for urban local
+self-governance.
+4. 1882:
+○ Lord Ripon’s Resolution on local self-government.
+○ Known as the 'Magna Carta of local self-government'.
+○ Lord Ripon is regarded as the "Father of Local Self-Government in India".
+5. 1907–1909:
+○ Royal Commission on Decentralisation under the chairmanship of C.E.H. Hobhouse.
+○ Recommended strengthening local bodies.
+6. 1919:
+○ Under the Government of India Act, 1919, local self-government became a "transferred
+subject" under the control of Indian ministers (dyarchy system).
+7. 1924:
+○ Cantonments Act was passed by the Central Legislature to regulate governance in
+military cantonments.
+8. 1935:
+○ Under the Government of India Act, 1935, local self-government became a provincial
+subject, allowing states/provinces to frame their own legislation on local bodies.
+Committees and Commissions on Urban Local Government
+Several committees and commissions were appointed by the Central Government to reform and
+strengthen Urban Local Bodies (ULBs). The following individuals chaired key reports/studies:
+1. P.K. Wattal
+2. John Matthai
+3. Nur-ud-din Ahmed
+4. A.P. Jain
+5. Rafiq Zakaria
+6. B.S. Murthy
+7. Girijapati Mukharji
+8. K.N. Sahaya
+9. C.M. Correa
+Constitutionalisation of Urban Local Bodies (ULBs)
+1. Rajiv Gandhi Government (1989) - Same
+2. V.P. Singh Government (1990) - Same
+3. P.V. Narasimha Rao Government (1991–1993)
+● Introduced a modified Municipalities Bill in September 1991.
+● This bill successfully passed both Houses of Parliament in December 1992.
+● Became law as: 74th Constitutional Amendment Act, 1992.
+● Presidential Assent: April 1993
+● Came into Force: 1 June 1993
+74th Constitutional Amendment Act, 1992
+Key Features
+1. New Part IX-A Added
+○ Title: The Municipalities
+○ Articles 243-P to 243-ZG
+2. New Twelfth Schedule Added
+○ Contains 18 functional items under Article 243-W.
+○ These define the responsibilities and domain of municipalities (e.g., urban planning, public
+health, roads, water supply).
+3. Constitutional Status
+○ Municipalities became justiciable entities under the Constitution.
+○ States are now constitutionally bound to establish and empower municipal bodies.
+4. Obligatory Nature
+○ States cannot deny the formation of ULBs or delay elections.
+○ ULBs must function according to the framework provided in the Act.
+Salient Features of the 74th Constitutional Amendment Act, 1992
+1. Three Types of Municipalities
+The Act provides for the constitution of three categories of municipalities in every state:
+Type Purpose
+Nagar
+Panchayat
+For a transitional area (i.e.,
+moving from rural to urban)
+Municipal
+Council
+For a smaller urban area
+Municipal
+Corporation
+For a larger urban area
+Exception:
+If municipal services in an urban area are already provided by an industrial establishment, the Governor
+may declare it an industrial township. In such cases, no municipality needs to be constituted.
+2. Criteria for Classification of Urban Areas
+The Governor classifies urban areas into transitional, small, or large based on:
+1. Population
+2. Population density
+3. Revenue generated for local administration
+4. Percentage of employment in non-agricultural activities
+5. Economic importance
+6. Any other factor deemed appropriate
+3. Composition of Municipalities
+● All members of a municipality are to be directly elected by the people.
+● Each municipal area is divided into wards for elections.
+Other Representatives in the Municipality (Non-voting or State-legislated members):
+1. Persons with special knowledge or experience in municipal administration (no voting rights)
+2. Lok Sabha and State Assembly members representing the municipal area
+3. Rajya Sabha and Legislative Council members registered as electors in the area
+4. Chairpersons of Committees (except Wards Committees)
+4. Wards Committees
+● Mandatory in municipalities with population ≥ 3 lakhs
+● Composed of one or more wards
+● State legislature can define:
+○ Composition
+○ Area covered
+○ Method of filling seats
+5. Other Committees
+● State legislatures may provide for the constitution of other municipal committees.
+● Chairpersons of such committees can be made members of the municipality.
+6. Reservation of Seats
+For Scheduled Castes (SCs) and Scheduled Tribes (STs):
+● Seats reserved in proportion to their population in the municipal area.
+For Women:
+● At least one-third of the total seats reserved for women, including women from SC/ST categories.
+For Chairperson Posts:
+● State legislature may reserve chairperson positions for:
+○ SCs
+○ STs
+○ Women
+○ Backward Classes (optional)
+Time Limit (Article 334):
+● Reservation for SCs/STs in seats and chairperson posts will cease after 80 years from the
+commencement of the Constitution, i.e., after 2030.
+Duration of Municipalities - Same
+Disqualifications for Membership - Same
+State Election Commission (SEC) - Same
+Powers and Functions of Municipalities
+The State Legislature may devolve powers to municipalities to enable them to function as institutions of
+self-government.
+This includes:
+1. Preparation of plans for:
+○ Economic development
+○ Social justice
+2. Implementation of schemes related to the above objectives.
+● The functions may include subjects listed in the Twelfth Schedule, which contains 18 functional
+items, such as:
+○ Urban planning, water supply, sanitation, slum improvement, public health, education, etc.
+Finances of Municipalities - Same
+Audit of Accounts - Same
+Application to Union Territories - Same
+Example:
+● In 2001, the President directed that Articles 243ZD (District Planning Committee) and 243ZE
+(Metropolitan Planning Committee) shall not apply to Delhi.
+Exempted Areas
+The Act does not apply to:
+1. Scheduled Areas and Tribal Areas.
+2. Darjeeling Gorkha Hill Council in West Bengal.
+Parliament may extend these provisions to such areas with suitable modifications.
+District Planning Committee (DPC) – Article 243ZD
+Purpose:
+To consolidate plans prepared by Panchayats and Municipalities and formulate a district-level
+development plan.
+Provisions:
+● Composition:
+○ 4/5th of members to be elected by and from elected members of:
+■ District Panchayats
+■ Municipalities
+○ In proportion to rural and urban population of the district.
+● State Legislature may decide:
+○ Structure
+○ Election method
+○ Functions
+○ Election of Chairperson
+Functions of DPC:
+While preparing the district development plan, the DPC shall consider:
+1. Common interests between Panchayats and Municipalities:
+○ Spatial planning
+○ Water and resource sharing
+○ Infrastructure integration
+○ Environmental conservation
+2. Available resources (financial and other)
+3. Consultations:
+○ With institutions/organisations as specified by the Governor
+● Chairperson of the DPC shall forward the development plan to the State Government.
+Metropolitan Planning Committee (MPC) – Article 243ZE
+Applicability:
+● Every metropolitan area must have a Metropolitan Planning Committee (MPC).
+Metropolitan Area means:
+● Area with a population of 10 lakh or more,
+● Spread over one or more districts,
+● Containing two or more municipalities and/or panchayats,
+● Or other contiguous urban/rural areas.
+Functions:
+To prepare a draft development plan for the metropolitan area.
+State Legislature May Provide for:
+1. Composition of the committee.
+2. Manner of election of committee members.
+3. Representation of:
+○ Central Government,
+○ State Government,
+○ Other relevant organisations.
+4. Functions of the MPC relating to planning and coordination.
+5. Manner of election of the Chairperson.
+Composition of MPC:
+● 2/3rd members elected by:
+○ Elected members of municipalities and
+○ Chairpersons of panchayats in the metropolitan area,
+● From amongst themselves.
+Representation in proportion to the population of municipalities and panchayats in the area.
+In Draft Planning, MPC Must Consider:
+1. Municipal and Panchayat plans within the metro area.
+2. Matters of common interest such as:
+○ Spatial planning,
+○ Shared resources (e.g., water),
+○ Infrastructure,
+○ Environmental protection.
+3. National and State-level objectives and priorities.
+4. Likely investments by:
+○ Central Government agencies,
+○ State agencies,
+○ Other available financial/physical resources.
+● Consultations with institutions as Governor may specify.
+● Chairperson shall forward the draft plan to the state government.
+Continuance of Existing Laws & Municipalities - Same
+Judicial Bar on Electoral Matters - Same
+Twelfth Schedule – 18 Functions of Municipalities
+The Twelfth Schedule (Article 243W) includes the following functional domains of municipalities:
+1. Urban planning including town planning.
+2. Regulation of land use and construction of buildings.
+3. Planning for economic and social development.
+4. Roads and bridges.
+5. Water supply for domestic, industrial, and commercial purposes.
+6. Public health, sanitation, conservancy, and solid waste management.
+7. Fire services.
+8. Urban forestry, environmental protection, and ecological promotion.
+9. Safeguarding the interests of weaker sections of society, including the handicapped and mentally
+retarded
+10. Slum improvement and upgradation
+11. Urban poverty alleviation
+12. Provision of urban amenities and facilities such as parks, gardens, playgrounds
+13. Promotion of cultural, educational and aesthetic aspects
+14. Burials and burial grounds, cremations and cremation grounds, and electric crematoriums
+15. Cattle ponds, prevention of cruelty to animals
+16. Vital statistics including registration of births and deaths
+17. Public amenities including street lighting, parking lots, bus stops, and public conveniences
+18. Regulation of slaughterhouses and tanneries
+Types of Urban Governments in India
+There are eight types of urban local bodies created for administration of urban areas:
+1. Municipal Corporation
+2. Municipality
+3. Notified Area Committee
+4. Town Area Committee
+5. Cantonment Board
+6. Township
+7. Port Trust
+8. Special Purpose Agency
+1. Municipal Corporation
+● Established in big cities such as Delhi, Mumbai, Kolkata, Hyderabad, and Bangalore.
+● Created by state legislature acts (for states) or by Parliament (for union territories).
+● There may be a common act for all corporations in a state or separate ones.
+Authorities within a Municipal Corporation:
+1. The Council
+○ Legislative and deliberative body.
+○ Composed of directly elected councillors and nominated experts.
+○ Reservation for SCs, STs, and women is ensured under the 74th Amendment.
+○ Headed by a Mayor (mainly ceremonial, presides over meetings), assisted by Deputy Mayor.
+○ Mayor usually elected for a 1-year renewable term.
+2. Standing Committees
+○ Handle specific functional areas like education, health, public works, finance, and taxation.
+○ Created for efficient division of work within the council.
+3. Municipal Commissioner
+○ Appointed by the state government.
+○ Usually an IAS officer.
+○ Acts as the executive head of the corporation.
+○ Responsible for executing decisions of the council and committees.
+2. Municipality
+● Municipalities are formed for the governance of towns and smaller cities.
+● They are created by acts of state legislatures (for states) or acts of Parliament (for union
+territories).
+● They are known by different names such as municipal council, municipal committee, municipal
+board, borough municipality, or city municipality.
+Authorities of a Municipality:
+1. The Council:
+○ Deliberative and legislative wing.
+○ Comprised of directly elected councillors.
+○ Headed by a President/Chairman, assisted by a Vice-President/Vice-Chairman.
+○ Unlike the Mayor (who is mostly ceremonial), the Chairman plays a significant executive
+role.
+2. Standing Committees:
+○ Handle sectors like taxation, finance, public works, and health.
+○ Facilitate specialized governance.
+3. Chief Executive Officer (CEO) / Chief Municipal Officer:
+○ Handles general administration.
+○ Appointed by the state government.
+3. Notified Area Committee
+● Set up for:
+○ Rapidly growing towns (often due to industrialization).
+○ Emerging towns that don’t yet meet criteria for becoming municipalities.
+● Created by notification in the state gazette.
+● Functions under relevant provisions of the State Municipal Act, only to the extent specified in the
+notification.
+● May also derive powers from other acts.
+● All members including the chairman are nominated by the state government.
+● Hence, it is neither a statutory body nor an elected body, but performs functions similar to a
+municipality.
+4. Town Area Committee
+● Created for the administration of small towns.
+● Considered a semi-municipal authority.
+● Responsible for limited civic duties such as:
+○ Drainage
+○ Road maintenance
+○ Street lighting
+○ Sanitation/conservancy
+● Established through a separate act of the state legislature.
+● The committee may be:
+○ Entirely elected
+○ Entirely nominated
+○ Or a combination of both
+Note: The A.P. Jain Committee (1963–66) recommended merging small town area committees
+with Panchayati Raj institutions to avoid administrative duplication.
+5. Cantonment Board
+● Administers civilian populations within military cantonment areas.
+● Established under the Cantonments Act, 2006 (replacing the 1924 Act).
+● Functions under the Ministry of Defence.
+● Created and governed directly by the Central Government, unlike municipalities which are under
+state control.
+Purpose of the 2006 Act:
+● Democratization of cantonment governance.
+● Strengthening of financial base.
+● Promotion of development within cantonments.
+Classification of Cantonment Boards:
+Category Civil Population
+I Above 50,000
+II 10,000 to 50,000
+III 2,500 to 10,000
+IV Below 2,500
+Currently, 62 Cantonment Boards exist in India.
+A Cantonment Area refers to a legally defined zone where troops are permanently stationed.
+● A Cantonment Board includes both elected and nominated (ex-officio) members.
+● Elected members serve for five years.
+● Nominated members (ex-officio) continue as long as they hold their official positions.
+● The station commander (military officer) is the ex-officio president and chairs the meetings.
+● The Vice-President is elected from among the elected members and holds office for five years.
+Composition of Category I Cantonment Board:
+1. Station Commander (Military Officer) – Ex-officio President
+2. Executive Engineer
+3. Health Officer
+4. First Class Magistrate (nominated by District Magistrate)
+5. Three Military Officers (nominated by station commander)
+6. Eight elected members (from cantonment residents)
+7. Chief Executive Officer (appointed by the President of India)
+Key Points:
+● Functions of the board are similar to a municipality:
+○ Divided into obligatory and discretionary functions.
+● Income sources include tax and non-tax revenue.
+● Executive Officer:
+○ Appointed by the President of India.
+○ Belongs to a central cadre.
+○ Implements resolutions and decisions of the board.
+7. Township
+● Established by large public enterprises to provide civic amenities to their employees living in
+nearby housing colonies.
+● Entirely administrative in structure, without elected representatives.
+● The enterprise appoints a Town Administrator, assisted by engineers and technical staff.
+● It is considered an extension of the enterprise’s bureaucracy, not a local self-government body.
+8. Port Trust
+● Created to manage major port cities like Mumbai, Kolkata, Chennai, etc.
+● Set up by Acts of Parliament.
+● Functions:
+○ Manage and safeguard port infrastructure.
+○ Provide civic amenities similar to a municipality.
+● Composition:
+○ Includes elected and nominated members.
+○ Chaired by a government-appointed official.
+9. Special Purpose Agency
+● These are function-based, not area-based like municipalities.
+● Set up by states to carry out specific civic functions that usually fall under municipal authorities.
+● Also called:
+○ Single-purpose, uni-purpose, or functional local bodies.
+● Created either by:
+○ State legislative acts (as statutory bodies)
+○ Executive resolutions (as departments)
+Examples of Special Purpose Agencies:
+● Town Improvement Trusts
+● Urban Development Authorities
+● Water Supply and Sewerage Boards
+● Housing Boards
+● Pollution Control Boards
+● Electricity Supply Boards
+● City Transport Boards
+These agencies function independently from municipalities and are not subordinate to them.
+MUNICIPAL PERSONNEL SYSTEM IN INDIA
+Urban local bodies in India follow three types of municipal personnel systems:
+1. Separate Personnel System
+● Each local body independently appoints, controls, and manages its own staff.
+● Personnel are not transferable to other local bodies.
+● Most commonly followed system in India.
+● Promotes local autonomy and loyalty to a single institution.
+2. Unified Personnel System
+● The state government appoints, controls, and administers the municipal personnel.
+● A state-wide cadre is created.
+● Officers are transferable between urban local bodies within the state.
+● Prevalent in: Andhra Pradesh, Tamil Nadu, Uttar Pradesh, Rajasthan, Madhya Pradesh etc.
+3. Integrated Personnel System
+● Personnel of local bodies are part of the state civil services.
+● Transferable between local bodies and state government departments.
+● No distinction between local and state civil service.
+● Prevalent in: Odisha, Bihar, Karnataka, Punjab, Haryana etc.
+MUNICIPAL REVENUE SOURCES
+1. Tax Revenue
+● Property tax (most significant)
+● Entertainment tax, advertisement tax, professional tax
+● Taxes on animals, water, lighting, pilgrims, markets, tolls
+● Cesses: Library cess, education cess, beggary cess
+2. Non-Tax Revenue
+● Rent from municipal property
+● Fees, fines, royalties, dividends, interest
+● User charges: water, sanitation, sewerage, etc.
+3. Grants
+● From Central and State Governments
+● Used for infrastructure, development schemes, and reforms
+4. Devolution
+● Funds transferred by State Government to urban local bodies
+● Based on recommendations of State Finance Commission
+5. Loans
+● Raised from state government or financial institutions
+● Require state government approval for borrowing
+CENTRAL COUNCIL OF LOCAL GOVERNMENT
+● Established in 1954 under Article 263 of the Constitution.
+● Initially named Central Council of Local Self-Government, renamed in the 1980s.
+● Since 1958, it deals only with urban local governance.
+Composition:
+● Union Minister for Housing and Urban Affairs – Chairman
+● State Ministers responsible for local self-government
+Functions:
+1. Recommends policy matters on urban governance
+2. Proposes legislations
+3. Facilitates Centre–State cooperation
+4. Develops a common action programme
+5. Recommends financial assistance from the Centre
+6. Reviews the functioning of local bodies receiving Central funds
+243P - Definitions
