@@ -161,6 +161,8 @@
             <p><strong>What does being a Socialist signify?</strong> It signifies the vision & direction of the
                 Constitution to establish a "socialist pattern of society." In this framework, key sectors of the
                 economy (Banks, Industries, etc.) will not be driven solely by profit motive but by service motive.
+                India follows <strong>Democratic Socialism</strong> (mixed economy) rather than State Socialism (communism),
+                <strong class="hl-pink">blending Gandhian statelessness with Marxist classless ideals</strong>.
                 <em>(Note: This shifted significantly with the 1991 LPG reforms—Liberalisation, Privatisation, and
                     Globalisation).</em>
             </p>
@@ -275,6 +277,35 @@
                     government.
                 </p>
             </div>
+            
+            <div class="qa-block">
+                <p class="ans-text">
+                    <span class="badge q-badge">Q</span> <strong>What are the types of Democracy?</strong>
+                </p>
+                <div class="mermaid-container" style="text-align: center; margin: 15px 0;">
+                    <pre class="mermaid">
+                    graph TD
+                        A[Democracy] --> B[Direct]
+                        A --> C[Indirect / Representative]
+                        B --> D[Referendum]
+                        B --> E[Initiative]
+                        B --> F[Recall]
+                        B --> G[Plebiscite]
+                        C --> H[E.g., India]
+                        B --> I[E.g., Switzerland]
+                    </pre>
+                </div>
+                <p class="ans-text">
+                    <strong>1. Direct Democracy:</strong> People exercise their supreme power directly. Example: Switzerland. Four devices of direct democracy are:
+                    <ul style="margin-top: 5px; margin-bottom: 5px;">
+                        <li><strong>Referendum:</strong> Binding vote to approve/reject specific legislation.</li>
+                        <li><strong>Initiative:</strong> People themselves propose a bill.</li>
+                        <li><strong>Recall:</strong> Voters remove a representative before term expiry.</li>
+                        <li><strong>Plebiscite:</strong> Advisory, non-binding vote to gauge public opinion (e.g., Junagadh).</li>
+                    </ul>
+                    <strong>2. Indirect Democracy:</strong> Representatives elected by the people exercise power (e.g., India). It is also called representative democracy.
+                </p>
+            </div>
 
 
 
@@ -385,7 +416,12 @@
                 </p>
                 <p class="ans-text">
                     Equality is conceived in India not merely in a formal/legal sense (equality before law), but also in
-                    a substantive sense as <strong>equality of opportunity</strong>.
+                    a substantive sense as <strong>equality of opportunity</strong>. 
+                </p>
+                <p class="ans-text" style="margin-top: 8px;">
+                    <strong>Two dimensions of Equality:</strong>
+                    <br>1. <strong>Civic Equality:</strong> Guaranteed by Fundamental Rights (Articles 14 to 18).
+                    <br>2. <strong>Political Equality:</strong> Guaranteed by provisions like <strong>Article 325</strong> (no person ineligible for electoral rolls based on religion, race, caste, sex) and <strong>Article 326</strong> (Universal Adult Suffrage).
                 </p>
             </div>
 
@@ -624,6 +660,11 @@
     <a href="index.html" class="back-to-hub-btn" id="scroll-back-btn">&#8592; Back to Polity Hub</a>
 
 
+    <!-- Mermaid Script for Diagrams -->
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true, theme: 'default' });
+    </script>
     <script>
         let lastScrollTop = 0;
         const backBtn = document.getElementById('scroll-back-btn');

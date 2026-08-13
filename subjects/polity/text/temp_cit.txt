@@ -1,0 +1,281 @@
+6. Citizenship
+Aspect
+	Details
+	Meaning & Significance
+	Citizenship grants full rights and privileges. Aliens (friendly/enemy) have restricted rights. Enemy aliens can be detained/arrested without protection.
+	Rights Exclusive to Citizens
+	- Fundamental Rights: Articles 15, 16, 19, 29, 30. 
+- Political Rights: Right to vote, contest elections (Parliament), hold public offices (e.g., President, Governor, PM, etc.). 
+- Eligibility for President: Naturalized + Born citizens in India eligible. In the USA, only birth citizens can become President.
+	Constitutional Provisions
+	- Articles 5-11 (Part 2): Define citizenship provisions. 
+- Parliament's Authority: Empowered to regulate citizenship through laws.
+	Key Citizenship Articles
+	- Article 5-8: Defines four categories of citizens at the commencement of the Constitution (26 Jan 1950). 
+- Article 9: Indian citizenship lost if a person voluntarily acquired foreign citizenship. 
+- Article 10: Citizenship is subject to laws made by Parliament. 
+- Article 11: Parlia has the power to regulate acquisition, termination, and other citizenship matters.
+	Citizenship Act, 1955
+	- Governs citizenship acquisition, termination, and supplementary provisions. 
+- Amended 6 times (originally included Commonwealth citizenship, repealed in 2003). 
+- ‘Domicile’ is an important criterion mentioned in consti  for citizenship but is not defined in the Constitution.
+- 5 ways to get citizenship; 3 ways to lose citizenship
+            * Key Amendments to the Citizenship Act, 1955 (6 so far)
+            * (i) CAA, 1986- The original 1955 Act gave citizenship to anyone born in India. The 1986 change ensured that children born to foreigners in India did not automatically get citizenship unless one parent was already an Indian citizen.
+            * (ii)1992
+            * (iii) CAA 2003= Introduced the concept of OCI.
+            * (iv) CAA, 2005- nothing imp
+            * (v) CAA, 2015-  Merged PIO and OCI schemes.
+            * (vi) CAA 2019
+            * Provided a fast-track citizenship process (naturalization in 5 years instead of 11) for persecuted religious minorities (Hindus, Sikhs, Buddhists, Jains, Parsis, and Christians) from Pakistan, Bangladesh, and Afghanistan who entered India before Dec 31, 2014.
+            * Excluded Muslims from these 3 countries from the benefit.
+            * Exempted such migrants from being classified as illegal immigrants.
+            * Not applicable to tribal areas of the Northeast and certain regions under ILP (Inner Line Permit- Manipur, Nagaland, Arunachal and Mizoram- NagMani ArMi ).
+	Acquisition of Citizenship
+
+
+In India, citizenship is granted by the Ministry of Home Affairs (Central Government) according to the rules and laws regulated by Parliament
+	1. By Birth: Automatic
+- Before 1 July 1987: Citizen irrespective of parents' nationality. 
+- 1 July 1987 – 2 Dec 2004: Either parent must be an Indian citizen at birth time. 
+- After 3 Dec 2004: Both parents must be Indian citizens or one Indian + the other not an illegal immigrant. 
+- Exceptions: Enemy aliens and children of foreign diplomats in India are not granted citizenship by birth. 
+2. By Descent: 
+- If born outside India on/after 3 Dec 2004, not a citizen unless registered at an Indian consulate within one year. 
+- Requires permission from the Central Government after one year. 
+3. By Registration: (Eligible categories) 
+- Indian Origin Resident: Lived in India for 7 years before applying. 
+- Indian Origin Abroad: Residing outside undivided India. 
+- Spouse of Indian Citizen: Married + resident in India for 7 years before applying. 
+- Minor Child: Born to Indian citizens. 
+- Person with Indian Parent(s): Either parent was an Indian citizen at independence; must reside in India for 12 months before applying. 
+4. By Naturalization: 
+- Applicants must renounce foreign citizenship and not belong to a country that prohibits Indian naturalization. 
+- Must reside in India or serve in its government for 12 months before applying. 
+- In the preceding 12 years, you must have lived in India for at least 11 years. 
+- Post-naturalization, must reside in India or serve in an Indian-recognized intnl org. 
+5. By Incorporation of Territory: 
+- When a foreign territory is added to India, its residents become Indian citizens (e.g., Pondicherry, 1962).
+	Termination of Citizenship
+	1. By Renunciation: 
+- If an Indian citizen voluntarily renounces citizenship, their minor child also loses citizenship unless one parent remains Indian. 
+- A child who loses citizenship can regain it after attaining legal adulthood. 
+2. By Termination: 
+- If an Indian acquires foreign citizenship voluntarily, Indian citizenship is automatically terminated. 
+- Exception: Does not apply during war. 
+3. By Deprivation (Government action): 
+- Citizenship can be revoked by the Central Government under Section 10 of the Citizenship Act, 1955. 
+- Grounds include: 
+  - Obtained by fraud. 
+  - Disloyalty to the Constitution (act/speech against India). 
+  - Imprisonment in India for 2+ years within the first 5 years of acquiring citizenship. 
+  - Living abroad for 7+ years without declaring intent to retain Indian citizenship. 
+- Proper safeguards exist to ensure due process.
+	Overseas Citizenship of India (OCI)
+	- Introduced as an alternative to dual citizenship (which India does not allow). 
+- Merged with Person of Indian Origin (PIO) in 2015; now only OCI exists. 
+- No need for a visa to travel to India; OCI card suffices. 
+- No voting rights, government jobs, or agricultural land ownership. 
+- Can open special NRI like bank accounts, make investments, adopt children in India. 
+- Now requires renewal only once at 20 years of age.
+	Non Resident Indian (NRI)
+	- Indian passport holders residing abroad for work, business, or education. 
+- Must stay outside India for 183+ days in a year to qualify as an NRI. 
+- NRIs cannot buy agricultural or plantation land in India.
+	Person of Indian Origin (PIO) 
+	- Foreign citizens whose ancestors were Indian citizens/ permanent residents after the Constitution’s commencement. 
+- PIO category was discontinued in 2015, m
+erged into OCI.
+	OCI vs NRI vs PIO
+	- OCI: Lifelong visa-free travel to India; cannot vote, hold government jobs, or buy farm land. 
+- NRI: Indian citizens abroad; can invest in India. Can vote but they just can’t vote remotely or by proxy unless specifically allowed. 
+- PIO: No longer exists; merged with OCI in 2015.
+	7. Fundamental Rights
+            * Types of rights
+            * Natural rights
+            * By virtue -by Birth -Society independent -Universal
+            * John Locke- Life, liberty and property
+            * Ex- SK Kaul led SC bench => Right to property= natural + Constnl + legal right
+            * Legal right
+            * By customs, statutes- Society dependent
+            * India = civil, criminal, personal laws
+            * Ex - ABORTION rights, transgender rights etc
+            * Constitutional rights
+            * Constitutionally guaranteed
+            * Ex - RT Vote 
+
+
+Overview of FR
+            * Fundamental means = imp all round dev (material, intellectual, moral, spiritual)
+            * Written in constitution
+            * No law against it by Parliament
+            * Called "Magna carta" of india
+            * Types
+            * -ve (liberties)= limits authority of state- John Locke - "when there's no law , there is no freedom”. Cases reinforcing FRs-
+            * Art 19- Shreya Singhal v. UOI (2015): Struck down Section 66A IT Act, reaffirming free speech as a supreme right.
+            * Art 21- Maneka Gandhi v. UOI (1978): Expanded Article 21 to include the right to live with dignity. 
+            * Art 25- Shayara Bano v. UOI (2017): Struck down Triple Talaq, reinforcing religious freedom within constitutional limits.
+            * +ve (entitlement)- These rights require the state to actively promote welfare and equality. Cases interpreting FRs-
+            * Art 21A- Mohini Jain v. State of Karnataka (1992): Recognized education as a Fundamental Right.
+            * Art 15(4) & 15(5)- Indra Sawhney v. Union of India (1992): Upheld OBC reservations in govt jobs to ensure social justice.
+            * Art 39 A- Hussainara Khatoon v. State of Bihar (1979): Led to free legal aid for underprivileged prisoners.
+            * Not absolute- reasonable restriction- Thomas Paine’s words ring true: "Eternal vigilance is the price of liberty.”
+	
+
+            * State definition ( A.12 )
+            * According to Max Weber, state = "community of persons occupying definite territory , independent of external control, with organized govt.
+            * Executive and legislative and NOT judiciary
+            * 3 govt tiers- Centre, state, Local govt
+            * Statutory, non statutory authority ( LIC, ONGC etc )
+            * According to SC, even a private body working if they are functionally and financially controlled by states falls under the meaning of state under art 12.
+            * Autonomous societies like NCERT, niti, aiims, icar, cooperatives are not part of the state.
+            * Laws inconsistent with FR ( A 13 )= all laws inconsistent with, or in derogation of any of the Fundamental Rights shall be void. It implicitly provides Doctrine of “Judicial Review” for: ( word not in Constitution)
+            * Permanent and temporary laws ( ordinances )
+            * Statutory instruments - delegated legislation, by-laws
+            * Non-legislative sources having force of law. Ex naga customary laws
+            * CAA is NOT a law under art 13. (But it can be challenged under JR  if it is ultra vires FRs)
+            * Freedom
+            * Absence of restraints
+            * Everybody enjoys , yet others'  freedom not undermined + Law & order is maintained.
+            * Ex- peaceful protest, but blocking pub roads ( shaheenn bagh case )
+Right to equality (Article 14)
+Equality before law ( by Dicey )
+	Equal protection of law
+	British concept
+	American concept
+	No person is above law. 
+Absence of special privileges
+	Equal treatment under equal circumstance
+Like should be treated alike.
+	Equal subjection to the law of all. 
+Ex: CrPC
+Coparcenary rights under the Hindu Succession Act, 1956 (amended in 2005) ensure gender equality by granting daughters the same inheritance and social status as sons in ancestral property.
+	Similar application of same laws with similarly situated persons. 
+States can treat unequal differently to create a level playing field.
+Ex: SC/ST PoA act 1989, Civil code, immunities to president and governor.
+	-ve concept . Restrict state - ( does not allow equalizing measures like reservation.)
+	+ve- obligate state for reinforcing equity- Ex- reservation 
+	            * Rule of Law by AV Dicey
+            * Means "one act for all & one judiciary for all"
+            * 3 COMPONENTS
+            * Equal subjection
+            * No arbitrary Power, punishment sans law breach
+            * Primacy of individual rights, Constitution= result of rights of individual defined, enforced by law. Not applicable - India. Here Constitution= source of all individual rights
+            * Art 14- Tests both procedural and substantial & substantive validity (unlike Rule by law where only procedural validity is checked) 
+            * SC= basic feature
+            * Any Legislation confering on exec / admin, an  auth unguided and uncontrolled discretionary power in application of law, violates A 14 
+            * Not absolute but has Reasonable restrictions to Art 14- Constitutional immunities
+            * A. 361= President and governor
+            * President & governor immune to criminal proceedings in both personal & official capacity; civil proceedings only in official capacity. 
+            * In personal capacity for civil acts done before & after joining the office, at least 2 month notice needed for civil proceedings. 
+            * Article 361A provides protection to authors and publishers of true reports on legislative proceedings and court proceedings from legal action.
+            * Article 105 and 194- Parliamentary privileges- grants MPs and MLAs resp- immunity for speeches and votes in Parliament, by providing special privileges to legislators
+            * Art 31C- Laws giving effect to DPSPs under art 39 (b) and © cannot be challenged ultra vires article 14, 19. SC held- “where article 31 C comes in, article 14 goes out- 25th CAA
+            * Art 31A  = added by 1st CAA and expanded bt 4th CAA save 5 types related to land, corporate and mining ( on ground - 14,19)
+            * Vienna convention- Foreign sovereigns, diplomats , ambassador . UNO, its org enjoys diplomatic immunity. (Civil, criminal)
+
+
+Art 15- No discrimination- basis (race , religion, caste, sex, place of birth)
+            * No disability, liability, restriction wrt
+            * Art 15 (1) Private- Access to shops, pub restaurant, hotels, place of public entertainment.
+            * Art 15 (2) Public- Use of wells, tanks, bathing ghats maintained wholly/ partly out of state funds
+            * 4 Reasonable restrictions
+            * Art 15 (3) States can make special provision for women and children. Ex - reservation for women in local bodies, RT free education for children 
+            * Article 15(4) -  Special provisions for SEBCs (socially & educationally backward classes) (SCs & STs) for education . EX - RESERVATION of seats & Fee concession
+            * Article 15(5)- Special provisions for SEBCs (OBCs) for edu- for educational institutions including private institutions like IITs, IIMs The 93rd CAA added Article 15(5) with a built-in exception to preserve minority rights under Article 30(1). (27% quotas for OBCs)
+            * Criteria for creamy layer - kids of consti posts, Group A and B civil servants, 8 lakh. 
+            * Ramnandan committee identified OBC Creamy layer
+            * Article 15(6)- Special provisions for EWS for edu including private institutions, provision was added by 103rd CAA (10% Quotas) 
+Article 16- Equality of Opportunity in public employment 
+            * Discrimination prohibited grounds ( race, rlgn, caste, sex, place of birth, Descent, residence )
+            * Reasonable restrictions- 
+            * Art 16 (3)- Residence as condition for certain employment. Ex - in Andhra & Telangana
+            * Article 16(4) – reservation for SEBCs, SCs, and STs in govt jobs
+            * Article 16(4A) – reservation in promotions for SCs and STs in govt jobs.
+            * Art 16(5)-  exception to incumbent religious institutions. 
+            * Article 16(6) – Provides reservation for EWS in public employment 
+            * Reservations are not FRs but Consti provides for reservations for social justice
+            * Reservation ≠ Fundamental Right: The SC in Mukesh Kumar ruled that denying a quota is not a violation of constitutional rights; Article 16(4) provides reservations for backward classes.
+            * Promotion & Carry Forward: Article 16(4A)allows SC/ ST reservation in promotions if underrepresented, while 16(4B) permits carrying forward unfilled quotas for up to 5 years. (Note For OBCs, backlog vacancies are not subject to the creamy layer restriction, ensuring that reserved posts are filled.)
+            * Key SC Judgments:
+            1. Indira Sawhney: No need to prove backwardness once listed under Articles 341, 342.
+            2. M. Nagaraj: States not bound to provide promotion quotas; benefits should go to the weakest.
+            3. Jarnail Singh (2018): No backwardness test for SC/ST, but creamy layer applies; states need not prove backwardness-. 
+            * BR ambedkar - reservation sans qualifiers could eat up RT Equality 
+            * Suggestion to overhaul the reservation system w/o disrupting the present system- reservation can be availed only once, either in Education institutions or in public employment. 
+
+
+Article 17- Abolition of untouchability as well as its practice in any form
+            * Term = undefined - Constitution
+            * ONLY ABSOLUTE RIGHT - No exceptions and avail against private individuals
+            * Only parliament can legislate.
+            * Protection of Civil Rights Act, 1955.
+            * Punishment: 6 months imprisonment + fine.
+            * Conviction leads to disqualification from elections to Parliament/ State Legislature.
+            * Mysore HC = not incl boycott few indiv
+
+
+Article 18- Abolition of titles except military, academic
+            * States can confer titles like padma bhushan etc. SC upheld National awards validity, but not use prefix/ suffix
+            * Padma Bhushan and Bharat Ratna awards were suspended twice in 1977 and 1992 
+            * Citizen can't accept foreign title
+            * Foreigners in pub office  can't accept foreign title without prez consent
+
+Article 19- Right to freedom
+               * 19- Freedom of ( speech hogi assembly me jha association move or reside karenge professors k saath)
+               * Originally 7 rights, RT property deleted by 44th CAA (Morarji Desai Govt) 
+               * Article 19 (1) (a)- Speech & expression  includes, in any mode =  words, signs, symbols, gestures, pictures 
+               * Freedom is defined in such a way that everybody enjoys their freedom and that of others is not undermined and law AND order prevails. 
+               *  puo "odeu 
+8P8 “ 9 
+0 : 96 
+qoøods 8 “ 十 
+40 000 
+0 一 6 
+OOUOI!S                 * CPI (M) vs Bharat Kumar case = bandh (strike) not within freedom of expression 
+               * Shreya singhal vs UoI case => section 66A read down ( violate 19 )
+               * Anuradha bhasin v UoI - Right to internet under art 19 and 21.
+                  * Propounded "doctrine of Proportionality test"
+                  * Legitimate action- Is the action necessary?
+                  * Least restrictive- Is there a less harmful way to achieve the goal?
+                  * Rational nexus- Does the action logically connect to the goal?
+                  * Gherao  = group surround official, building, prevent from leaving until demands not met-  Not protected by A 19 ( 1)(b)
+                  * Reasonable restrictions- Sovereignty and integrity of India, Security of State, friendly relations with foreign states, public order, decency or Morality, contempt of court, defamation and incitement of an offence.
+                  * Article 19(1)(b)- Freedom of Assembly
+                  * Reasonable restrictions - 
+                  * Section 141 BNS-  more than 5 ppl gathering is illegal if resist execution of law
+                  * IPC 144 = magistrate can restrict gathering if obstruction to justice , annoyance, human life in danger
+                  * Ramlilla maidan vs UoI 2012 - Citizen = FR peaceful protest, cant taken away
+                  * The Shaheen Bagh judgment reaffirmed that FRs under Article 19 are not absolute and must be balanced with the rights of other citizens and the state’s legitimate interests (blocking public roads).
+                  * Article 19(1)(c)- Freedom of Association-  Gives all citizens the right to form associations/ union/ coop societies or the right to not join any association. However, the right to obtain recog of association is not a fundamental right. 
+                  * Reasonable restrictions- Sovereignty and integrity of India; Public order and Morality. 
+                  * Article 19(1)(d)- Freedom of Movement- India is one union and promotes national feeling. Protects only internal movt. (External movt - RT travel abroad is protected under art 21- Maneka gandhi case)
+                  * Reasonable restrictions
+                  * Interest of General public- SC on movt of prostitutes on grounds of morality; Bombay high court restriction of AIDS 
+                  * Interest of STs- Ex: ILP
+                  * Article 19 (1) (E)- Residence- Complementary to right to movement
+                  * Reasonable Restriction
+                  * Interest of General public- prostitutes, habitual offenders prevented 
+                  * Interest of STs- to protect distinct cultures. 
+                  * Article 19 (1) (F) freedom of Profession
+                  * Reasonable restriction - 
+                  * Interest of General public- 
+                  * Wide scope, but immoral (Trafficking) & dangerous occupations are excluded.
+                  * Powers of state- 
+                  * prescribe professionals, technical qualifications 
+                  * Carry on itself any trade, business, service (monopolise) 
+                  * Article 304(b) allows state legislatures to impose reasonable restrictions on the freedom of trade, commerce, and intercourse within the state in the public interest.  But prez consent is necessary.
+                  * Originally Property was FR under article 19, but removed by 44th CAA, 
+                  * Amendment removed obligation of  compensation, although Supreme court provided compensation is inferred from Article 300A
+
+
+Article 20- Protection in respect of conviction of offences (only criminal cases)
+                  * No ex - post facto law- No law shall declare any action from backdate as illegal. Article 20(1) does not apply to preventive detention, as it is not a punishment for a past act, but a measure for future prevention.
+                  * No double jeopardy- Not punished more than once same offence (Not applicable in administrative or departmental authorities as they aren’t of judicial nature) 
+                  * No self incrimination- No person shall be forced to give evidence against himself. 
+                  * Doesn’t extend to compulsory production of material objects, give thumb impressions, signature & blood specimens & exhibition of body. 
+                  * FYI- Audi Alteram Partem" is a principle of natural justice which means "hear the other side." before making a decision.
+
+
+Article 21 - Protection of life & liberty
+                  * No person shall be deprived of his life & liberty except according to procedure estb by law. It is available against arbitrary action of legislature & executive. 

@@ -1,0 +1,532 @@
+	7. Fundamental Rights
+            * Types of rights
+            * Natural rights
+            * By virtue -by Birth -Society independent -Universal
+            * John Locke- Life, liberty and property
+            * Ex- SK Kaul led SC bench => Right to property= natural + Constnl + legal right
+            * Legal right
+            * By customs, statutes- Society dependent
+            * India = civil, criminal, personal laws
+            * Ex - ABORTION rights, transgender rights etc
+            * Constitutional rights
+            * Constitutionally guaranteed
+            * Ex - RT Vote 
+
+
+Overview of FR
+            * Fundamental means = imp all round dev (material, intellectual, moral, spiritual)
+            * Written in constitution
+            * No law against it by Parliament
+            * Called "Magna carta" of india
+            * Types
+            * -ve (liberties)= limits authority of state- John Locke - "when there's no law , there is no freedom”. Cases reinforcing FRs-
+            * Art 19- Shreya Singhal v. UOI (2015): Struck down Section 66A IT Act, reaffirming free speech as a supreme right.
+            * Art 21- Maneka Gandhi v. UOI (1978): Expanded Article 21 to include the right to live with dignity. 
+            * Art 25- Shayara Bano v. UOI (2017): Struck down Triple Talaq, reinforcing religious freedom within constitutional limits.
+            * +ve (entitlement)- These rights require the state to actively promote welfare and equality. Cases interpreting FRs-
+            * Art 21A- Mohini Jain v. State of Karnataka (1992): Recognized education as a Fundamental Right.
+            * Art 15(4) & 15(5)- Indra Sawhney v. Union of India (1992): Upheld OBC reservations in govt jobs to ensure social justice.
+            * Art 39 A- Hussainara Khatoon v. State of Bihar (1979): Led to free legal aid for underprivileged prisoners.
+            * Not absolute- reasonable restriction- Thomas Paine’s words ring true: "Eternal vigilance is the price of liberty.”
+	
+
+            * State definition ( A.12 )
+            * According to Max Weber, state = "community of persons occupying definite territory , independent of external control, with organized govt.
+            * Executive and legislative and NOT judiciary
+            * 3 govt tiers- Centre, state, Local govt
+            * Statutory, non statutory authority ( LIC, ONGC etc )
+            * According to SC, even a private body working if they are functionally and financially controlled by states falls under the meaning of state under art 12.
+            * Autonomous societies like NCERT, niti, aiims, icar, cooperatives are not part of the state.
+            * Laws inconsistent with FR ( A 13 )= all laws inconsistent with, or in derogation of any of the Fundamental Rights shall be void. It implicitly provides Doctrine of “Judicial Review” for: ( word not in Constitution)
+            * Permanent and temporary laws ( ordinances )
+            * Statutory instruments - delegated legislation, by-laws
+            * Non-legislative sources having force of law. Ex naga customary laws
+            * CAA is NOT a law under art 13. (But it can be challenged under JR  if it is ultra vires FRs)
+            * Freedom
+            * Absence of restraints
+            * Everybody enjoys , yet others'  freedom not undermined + Law & order is maintained.
+            * Ex- peaceful protest, but blocking pub roads ( shaheenn bagh case )
+Right to equality (Article 14)
+Equality before law ( by Dicey )
+	Equal protection of law
+	British concept
+	American concept
+	No person is above law. 
+Absence of special privileges
+	Equal treatment under equal circumstance
+Like should be treated alike.
+	Equal subjection to the law of all. 
+Ex: CrPC
+Coparcenary rights under the Hindu Succession Act, 1956 (amended in 2005) ensure gender equality by granting daughters the same inheritance and social status as sons in ancestral property.
+	Similar application of same laws with similarly situated persons. 
+States can treat unequal differently to create a level playing field.
+Ex: SC/ST PoA act 1989, Civil code, immunities to president and governor.
+	-ve concept . Restrict state - ( does not allow equalizing measures like reservation.)
+	+ve- obligate state for reinforcing equity- Ex- reservation 
+	            * Rule of Law by AV Dicey
+            * Means "one act for all & one judiciary for all"
+            * 3 COMPONENTS
+            * Equal subjection
+            * No arbitrary Power, punishment sans law breach
+            * Primacy of individual rights, Constitution= result of rights of individual defined, enforced by law. Not applicable - India. Here Constitution= source of all individual rights
+            * Art 14- Tests both procedural and substantial & substantive validity (unlike Rule by law where only procedural validity is checked) 
+            * SC= basic feature
+            * Any Legislation confering on exec / admin, an  auth unguided and uncontrolled discretionary power in application of law, violates A 14 
+            * Not absolute but has Reasonable restrictions to Art 14- Constitutional immunities
+            * A. 361= President and governor
+            * President & governor immune to criminal proceedings in both personal & official capacity; civil proceedings only in official capacity. 
+            * In personal capacity for civil acts done before & after joining the office, at least 2 month notice needed for civil proceedings. 
+            * Article 361A provides protection to authors and publishers of true reports on legislative proceedings and court proceedings from legal action.
+            * Article 105 and 194- Parliamentary privileges- grants MPs and MLAs resp- immunity for speeches and votes in Parliament, by providing special privileges to legislators
+            * Art 31C- Laws giving effect to DPSPs under art 39 (b) and © cannot be challenged ultra vires article 14, 19. SC held- “where article 31 C comes in, article 14 goes out- 25th CAA
+            * Art 31A  = added by 1st CAA and expanded bt 4th CAA save 5 types related to land, corporate and mining ( on ground - 14,19)
+            * Vienna convention- Foreign sovereigns, diplomats , ambassador . UNO, its org enjoys diplomatic immunity. (Civil, criminal)
+
+
+Art 15- No discrimination- basis (race , religion, caste, sex, place of birth)
+            * No disability, liability, restriction wrt
+            * Art 15 (1) Private- Access to shops, pub restaurant, hotels, place of public entertainment.
+            * Art 15 (2) Public- Use of wells, tanks, bathing ghats maintained wholly/ partly out of state funds
+            * 4 Reasonable restrictions
+            * Art 15 (3) States can make special provision for women and children. Ex - reservation for women in local bodies, RT free education for children 
+            * Article 15(4) -  Special provisions for SEBCs (socially & educationally backward classes) (SCs & STs) for education . EX - RESERVATION of seats & Fee concession
+            * Article 15(5)- Special provisions for SEBCs (OBCs) for edu- for educational institutions including private institutions like IITs, IIMs The 93rd CAA added Article 15(5) with a built-in exception to preserve minority rights under Article 30(1). (27% quotas for OBCs)
+            * Criteria for creamy layer - kids of consti posts, Group A and B civil servants, 8 lakh. 
+            * Ramnandan committee identified OBC Creamy layer
+            * Article 15(6)- Special provisions for EWS for edu including private institutions, provision was added by 103rd CAA (10% Quotas) 
+Article 16- Equality of Opportunity in public employment 
+            * Discrimination prohibited grounds ( race, rlgn, caste, sex, place of birth, Descent, residence )
+            * Reasonable restrictions- 
+            * Art 16 (3)- Residence as condition for certain employment. Ex - in Andhra & Telangana
+            * Article 16(4) – reservation for SEBCs, SCs, and STs in govt jobs
+            * Article 16(4A) – reservation in promotions for SCs and STs in govt jobs.
+            * Art 16(5)-  exception to incumbent religious institutions. 
+            * Article 16(6) – Provides reservation for EWS in public employment 
+            * Reservations are not FRs but Consti provides for reservations for social justice
+            * Reservation ≠ Fundamental Right: The SC in Mukesh Kumar ruled that denying a quota is not a violation of constitutional rights; Article 16(4) provides reservations for backward classes.
+            * Promotion & Carry Forward: Article 16(4A)allows SC/ ST reservation in promotions if underrepresented, while 16(4B) permits carrying forward unfilled quotas for up to 5 years. (Note For OBCs, backlog vacancies are not subject to the creamy layer restriction, ensuring that reserved posts are filled.)
+            * Key SC Judgments:
+            1. Indira Sawhney: No need to prove backwardness once listed under Articles 341, 342.
+            2. M. Nagaraj: States not bound to provide promotion quotas; benefits should go to the weakest.
+            3. Jarnail Singh (2018): No backwardness test for SC/ST, but creamy layer applies; states need not prove backwardness-. 
+            * BR ambedkar - reservation sans qualifiers could eat up RT Equality 
+            * Suggestion to overhaul the reservation system w/o disrupting the present system- reservation can be availed only once, either in Education institutions or in public employment. 
+
+
+Article 17- Abolition of untouchability as well as its practice in any form
+            * Term = undefined - Constitution
+            * ONLY ABSOLUTE RIGHT - No exceptions and avail against private individuals
+            * Only parliament can legislate.
+            * Protection of Civil Rights Act, 1955.
+            * Punishment: 6 months imprisonment + fine.
+            * Conviction leads to disqualification from elections to Parliament/ State Legislature.
+            * Mysore HC = not incl boycott few indiv
+
+
+Article 18- Abolition of titles except military, academic
+            * States can confer titles like padma bhushan etc. SC upheld National awards validity, but not use prefix/ suffix
+            * Padma Bhushan and Bharat Ratna awards were suspended twice in 1977 and 1992 
+            * Citizen can't accept foreign title
+            * Foreigners in pub office  can't accept foreign title without prez consent
+
+Article 19- Right to freedom
+               * 19- Freedom of ( speech hogi assembly me jha association move or reside karenge professors k saath)
+               * Originally 7 rights, RT property deleted by 44th CAA (Morarji Desai Govt) 
+               * Article 19 (1) (a)- Speech & expression  includes, in any mode =  words, signs, symbols, gestures, pictures 
+               * Freedom is defined in such a way that everybody enjoys their freedom and that of others is not undermined and law AND order prevails. 
+               *  puo "odeu 
+8P8 “ 9 
+0 : 96 
+qoøods 8 “ 十 
+40 000 
+0 一 6 
+OOUOI!S                 * CPI (M) vs Bharat Kumar case = bandh (strike) not within freedom of expression 
+               * Shreya singhal vs UoI case => section 66A read down ( violate 19 )
+               * Anuradha bhasin v UoI - Right to internet under art 19 and 21.
+                  * Propounded "doctrine of Proportionality test"
+                  * Legitimate action- Is the action necessary?
+                  * Least restrictive- Is there a less harmful way to achieve the goal?
+                  * Rational nexus- Does the action logically connect to the goal?
+                  * Gherao  = group surround official, building, prevent from leaving until demands not met-  Not protected by A 19 ( 1)(b)
+                  * Reasonable restrictions- Sovereignty and integrity of India, Security of State, friendly relations with foreign states, public order, decency or Morality, contempt of court, defamation and incitement of an offence.
+                  * Article 19(1)(b)- Freedom of Assembly
+                  * Reasonable restrictions - 
+                  * Section 141 BNS-  more than 5 ppl gathering is illegal if resist execution of law
+                  * IPC 144 = magistrate can restrict gathering if obstruction to justice , annoyance, human life in danger
+                  * Ramlilla maidan vs UoI 2012 - Citizen = FR peaceful protest, cant taken away
+                  * The Shaheen Bagh judgment reaffirmed that FRs under Article 19 are not absolute and must be balanced with the rights of other citizens and the state’s legitimate interests (blocking public roads).
+                  * Article 19(1)(c)- Freedom of Association-  Gives all citizens the right to form associations/ union/ coop societies or the right to not join any association. However, the right to obtain recog of association is not a fundamental right. 
+                  * Reasonable restrictions- Sovereignty and integrity of India; Public order and Morality. 
+                  * Article 19(1)(d)- Freedom of Movement- India is one union and promotes national feeling. Protects only internal movt. (External movt - RT travel abroad is protected under art 21- Maneka gandhi case)
+                  * Reasonable restrictions
+                  * Interest of General public- SC on movt of prostitutes on grounds of morality; Bombay high court restriction of AIDS 
+                  * Interest of STs- Ex: ILP
+                  * Article 19 (1) (E)- Residence- Complementary to right to movement
+                  * Reasonable Restriction
+                  * Interest of General public- prostitutes, habitual offenders prevented 
+                  * Interest of STs- to protect distinct cultures. 
+                  * Article 19 (1) (F) freedom of Profession
+                  * Reasonable restriction - 
+                  * Interest of General public- 
+                  * Wide scope, but immoral (Trafficking) & dangerous occupations are excluded.
+                  * Powers of state- 
+                  * prescribe professionals, technical qualifications 
+                  * Carry on itself any trade, business, service (monopolise) 
+                  * Article 304(b) allows state legislatures to impose reasonable restrictions on the freedom of trade, commerce, and intercourse within the state in the public interest.  But prez consent is necessary.
+                  * Originally Property was FR under article 19, but removed by 44th CAA, 
+                  * Amendment removed obligation of  compensation, although Supreme court provided compensation is inferred from Article 300A
+
+
+Article 20- Protection in respect of conviction of offences (only criminal cases)
+                  * No ex - post facto law- No law shall declare any action from backdate as illegal. Article 20(1) does not apply to preventive detention, as it is not a punishment for a past act, but a measure for future prevention.
+                  * No double jeopardy- Not punished more than once same offence (Not applicable in administrative or departmental authorities as they aren’t of judicial nature) 
+                  * No self incrimination- No person shall be forced to give evidence against himself. 
+                  * Doesn’t extend to compulsory production of material objects, give thumb impressions, signature & blood specimens & exhibition of body. 
+                  * FYI- Audi Alteram Partem" is a principle of natural justice which means "hear the other side." before making a decision.
+
+
+Article 21 - Protection of life & liberty
+                  * No person shall be deprived of his life & liberty except according to procedure estb by law. It is available against arbitrary action of legislature & executive. 
+                  * 1st Gen Rights→ Liberty & protection from the State (e.g., speech, vote, fair trial).
+                  * 2nd Gen Rights → Welfare duties of the State (e.g, education, health, work).
+                  * Widened interpretation of RT life & personal liberty
+                  * AK gopalan case  (1950 )- 
+                  * Took narrow interpretation of art 21 where it upheld procedure established by law. It held that protection under art 21 is available only against arbitrary action of executive and not legislature.
+                  * Maneka Gandhi case ( 1978 )
+                  * Took wider interpretation. Intro - American 'due process of law'  provided protection against legislative action too 
+                  * It stated that procedure estd by law assumes law is always right while due process of law can question if law itself is reasonable, fair, just. 
+                  * Right to live with human dignity.
+                  * Political Rights:
+                  * Travel Abroad: Maneka Gandhi case.
+                  * Right to Information- UoI vs Asscn for Democratic Reforms 2002. 
+                  * Right to be forgotten 
+                  * Economic Rights:.
+                  * Right to livelihood
+                  * Right to Shelter: Chameli Singh v. State of UP (1996) (Housing as a basic need).
+                  * Social Rights:
+                  * Right to Health: Paramanand Katara case (Timely medical assistance)
+                  * Right to free education upto 14 years of age-  Mohini Jain v. State of KT
+                  * Right to marry freely- Shafin Jahan Case
+                  * X vs NCT of Delhi (2022): Allowed termination of pregnancies (20–24 weeks) under changed material circumstances
+                  * Reputation & Defamation: Subramanian Swamy vs UOI (2016): Upheld criminal defamation, balancing free speech with the right to reputation.
+                  * LGBTQ Rights: Navtej Singh Johar case (Decriminalization of homosexuality).
+                  * Environmental Rights:
+                  * MC Mehta vs. UoI (1986) (Oleum Gas Leak Case) – Established the Absolute Liability Principle, holding industries strictly liable for environmental damage without exceptions. Ex: EPA 1986.
+                  * Subhash Kumar vs. State of Bihar (1991) – Declared that the Right to a Pollution-Free Environment under Article 21
+                  * Vellore Citizens Welfare Forum vs. UoI (1996) – Recognized the Precautionary Principle and Polluter Pays Principle as part of environmental law. Ex: Waste mgmt guidelines.
+                  * TN Godavarman Thirumulpad vs. Union of India (1996) – Expanded the definition of forests, leading to stricter forest conservation. Eg- Compensatory Afforestation Fund Act, 2016
+                  * MC Mehta vs. Kamal Nath (1997) (Public Trust Doctrine) – Held that natural resources are public property, and the government must act as a trustee to protect them for future generations.
+                  * M.K. Ranjitsinh. Vs. UoI- recognised the right to 'be free from the adverse effects of climate change' under Article 21
+                  * Technological Rights:
+                  * Right to Internet Access: Kerala HC (Fahima Shireen) & SC (Anuradha Bhasin) (Digital rights & freedom of expression).
+                  * Right to Privacy: Puttaswamy judgement (Data protection & personal autonomy).
+                  * Legal & Criminal Justice Rights:
+                  * Right against Public Hanging & Handcuffing: Protection of human dignity.
+                  * Right against custodial torture- DK Basu case (1997)
+                  * No Double Jeopardy, No Ex-Post Facto Law, No Self-Incrimination: Article 20 protections.
+                  * Bail Principle: State of Rajasthan v. Balchand (1977) ("Bail is the norm, jail is the exception").
+                  * Rajendra Prasad: “A Constitution like a machine is a lifeless thing. It acquires life because of the men who control it.”
+                  * Article 21A- RTE  ( 86th CAA )
+                  * RTE: Guarantees free and compulsory education for all children aged 6–14 years under Article 21A of the Constitution.
+                  * Universal Right: Applies to every child, regardless of income, caste, religion, or gender. (NOT just BPL)
+                  * Definitions: Defines a child (6–14 years) and what qualifies as a school under the Act.
+                  * No Denial of Admission: Admission cannot be denied due to lack of documents or age proof.
+                  * Age-Appropriate Admission: If a child has never been to school or dropped out, they must be admitted to a class appropriate for their age, with special training provided to help them catch up.
+                  * 25% Reservation: Private, unaided schools must reserve one-fourth of their seatsfor children from economically weaker sections and disadvantaged groups.
+                  * No Screening or Capitation Fees: Schools cannot interview children or parents for admission, nor can they charge "donation" fees.
+                  * Ban on Harassment: The Act strictly prohibits physical punishment, mental harassment, and discrimination.
+                  * No Detention (Revised): Originally, no child could be failed until Class 8. However, a 2019 amendment now allows states to hold regular exams in Classes 5 and 8 and potentially detain students who do not pass a re-examination.
+                  * Pupil-Teacher Ratio (PTR): Mandates a ratio of 1:30 for primary and 1:35 for upper primary levels to ensure individual attention.
+                  * Infrastructure: Schools must meet specific standards, including separate toilets for boys and girls, safe drinking water, a playground, and a library.
+                  * Teacher Norms: Teachers must have the required professional qualifications and are prohibited from giving private tuitions.
+                  * School Management Committees (SMCs): Government schools must form committees—mostly comprising parents—to monitor school functioning and manage development plans.
+Procedure estb by law
+	Due process of law
+	AK Gopalan case 1950- Based on assumption that laws are always right. Checks arbitrariness of Executive only.
+	Maneka Gandhi case 1978- Checks arbitrariness of both executive and legislature. Check if laws are just and resonable.
+	Narrow scope- Judiciary assess only substantive question, ie competency to frame law & if it follows process, not instinct
+	Broad scope- Substantive grounds + procedural ground of unreasonability- Instinct checked. Fairer treatment - indiv rights 
+	Japan
+	American Constitution
+	Mentioned in constitution. 
+	Not mentioned in the constitution.
+	
+
+Articles 22- Freedom against arrest and detention (only for criminal & quasi criminal cases) 
+                  * Ordinary (Punitive) Detention: Article 22(1) & 22(2)
+                  * The Concept: Detention takes place only after a formal trial and conviction in a court of law.
+                  * Right to Grounds: The arrestee must be informed immediately of the reasons for their arrest.
+                  * Right to Counsel: The arrestee has a fundamental right to consult and be defended by a legal practitioner of choice.
+                  * Magistrate Production: The arrestee must be produced before the nearest magistrate within 24 hours (excluding journey time).
+                  * Release Rule: The arrestee must be released after 24 hours unless the magistrate authorises further detention.
+                  * Preventive Detention: Article 22(3) to 22(7)
+                  * The Concept: Detention is based on suspicion to prevent a future crime, skipping a trial and conviction.
+                  * Right to Counsel Denied: Article 22(3)(b) explicitly denies the right to consult or be defended by a lawyer.
+                  * Right to Grounds: The detenu must be informed of the grounds of detention.
+                  * Public Interest Exception: The state can refuse to disclose facts if doing so goes against public interest.
+                  * Right to Representation: The detenu must be given the earliest opportunity to make a representation against the detention order.
+                  * Time Limit: Detention cannot exceed 3 months unless an Advisory Board (including High Court judges) approves an extension.
+                  * The 44th Amendment Fact: The 44th Constitutional Amendment Act (1978) reduced this limit to 2 months, but it has not been brought into force.
+                  * Lawmaking Powers
+                  * Shared Authority: Both Parliament and State Legislatures (SL) can enact preventive detention laws.
+                  * Exclusive Parliamentary Authority: Parliament has exclusive power for laws regarding Defence, Foreign Affairs, and Security of India.
+                  * Concurrent Authority: Both Parliament and State Legislatures can make laws regarding the Security of a State, Public Order, and Maintenance of Essential Supplies & Services.
+                  * Parliamentary Overrides: Parliament alone can prescribe the circumstances/classes of cases for detention beyond 3 months, specify the maximum period, and set Advisory Board procedures.
+                  * Statistical Data: The NCRB ‘Crimes in India’ Report 2021 recorded over 1.1 lakh persons under preventive detention, the highest since 2017.
+                  * Safeguards not applied to enemy alien, person detained under any law of preventive detention
+                  * Cases
+                  * AK Gopalan case 1950- SC upheld legality of preventive detention
+                  * Ambedkar's justification - " In present circumstances, necessary for the executive against tampering with pub order, defense. This is exigency of liberty not abv pub interest. "
+
+
+RA exploitation (Article 23-24) 
+                  * 23= Prohibition of trafficking in human beings and forced labour
+                  * Absolute prohibition- Devadasi included.
+                  * Immoral traffic prevention act 1956,  factories act 1948, mines act 1952, apprentice Act 1961 - by parliament to punish. 
+                  * Exception - Not prevent the state to impose compulsory pub service w/o pay. But no discrimination - rlgn, race, caste, class.
+                  * 24 = Prohibition of employment of children in factories.
+                  * Child labour prohibition act - Prohibits employment of children below 14 years in hazardous activities, but does not prohibit in harmless or innocent work. 
+                  * In 2006- GoI banned employment of children  under 14 as domestic servants, workers in dhabas, shops, factories
+
+
+RT freedom of rlgn (25-28)
+                  * Article 25-  freedom of conscience & profession, practice, propagation freely
+                  * Cover religions belief (doctrine), practices ( rituals )
+                  * Art 25 contains 2 explanations- 1. Sikhs carrying kirpans; 2. Hindus = sikh, jain, buddhist
+                  * State can regulate/ restrict/ reform religious eco, fin, pol activity-. Ex Sabarimala Women temple entry, Abolition of Triple talaq. 
+                  * Constitution doesn’t define minority, but recognize rlgs, linguistic minority 
+                  * India is an unusual nation where the propagation of religion is both a fundamental right and a criminal offence
+                  * Reasonable restrictions- Public order, morality, Health and other provisions related to FRs.
+                  * Article 26 - manage religious affair 
+                  * 25 - indiv rights,  while 26 - collective rights
+                  * Restriction = pub order, morality, health
+                  * Acc to SC Condition for religious denomination-  Hence RK mission, Ananda  Marg= religious denomination, Aurobindo society  is not. 
+                  * Belief system conducive 4 spiritual well- being
+                  * Common org
+                  * Have distinct name
+                  * Article 27- Freedom from taxation for promotion of religion
+                  * State should not spend public money collected by Tax for promotion/ maintenance of particular religion, but can be spent for All region's promotion
+                  * Fees can be levied. 
+                  * Restrictions - Gov't can't compel anybody to pay tax for propagation, Maintenance of religion.
+                  * Article 28 -Freedom from attending religious instruction in certain edu inst
+                  * 4 types of educational institutions  -
+                  * Wholly state maintained - religious instruction is prohibited
+                  * Estd by a trust, State admin, - permit (article 28 does not apply)  
+                  * State recog (DAV) + state aid (KVS) = voluntary basis
+
+
+Cultural & edu rights (29, 30) 
+                  * Article 29 - any section of citizens residing in any part of India having distinct lang, script, culture shall have the right to conserve the same. (Linguistic and religious minority)
+                  * No citizen shall be denied admission in state maintained educ inst on grounds only of race, religion, caste & language
+                  * Right to agitate for protection of lang, promise to conserve language not amount to corrupt practices under RPA 1951 
+                  * Word “minority” is not defined
+                  * Aligarh Muslim University Case Verdict 2024
+                  * Government can regulate minority institutions under Article 19(6), but such regulation must not infringe their minority character.
+                  * Minority status is retained even if the institution is governed by non-minorities or subject to state regulation.
+                  * Article 30 - Right of minority to estb & admin edu institutes
+                  * All minorities( religious + language)  can establish education insti of their choice (Rights only to ensure minority = majority and does not give spcl privileges to minorities.)
+                  * Compensation amount fixed by state for compulsory acquisition of any property of minority educ inst (44th CAA) 
+                  * No state discrimination for fund
+                  * If institution seeks state recognition or aid, then the state can regulate syllabus, sanitation ,staff employment, governing body without altering the character of minority insti. 
+                  * If insti does not seek recog/ aid- it is only subject to general laws  like contract laws, labour law, tax laws etc).
+                  *  CHARTER OF EDU RIGHTS- Madrasas administered by this article
+                  * Not absolute , Reasonable restrictions- 
+                  * State can provide Regulatory regime in national interest
+                  * Provide well-qualified teacher
+                  * National commission for minority edu instn
+                  * NCMEI act 2004 - statutory
+                  * Head = chairman ( HC judge )
+                  * 3 member, centre nominated
+                  * Fn = complaints of violation of minority rights
+                  * Status of Right to property
+                  * Now only Constitutional/ legal right under Art 300A to reduce obstacles in land acquisition for public welfare. - No person deprived except by authority of law. 
+                  * Can be regulated, curtailed, abridged without CAA by an ordinary law of parliament
+                  * Article 300 provides protection against executive action but not against legislative action . So if violation of right, then article 226 can be revoked
+                  * No guaranteed right to compensation in case of acquisition/ reacquisition of property
+                  * 2 cases when compensation must be paid - 
+                  * Article 30- Agricultural land.  
+                  * Article 31 A- where land under personal cultivation is within statutory ceiling limits
+                  * 44th Amendment omit A 31, 19(1)(f) , inserted in their place Art 300A
+                  * Exceptions to FRs
+                  * 31 A - saves 5 types of laws from being challenged against Article 14 & 19
+                  * Relating to property, amalgamation of corporations, share holding , mining lease, estate rights. 
+                  * Article 31A does not protect a State law unless it is reserved for the President’s consideration and receives his assent.
+                  * 31 B  - saves acts in 9th schedule on grounds of contravention of ANY FR (1st CAA)
+                  * IR Coelho case (2007)- SC ruled that there couldn’t be any blanket judicial review of such laws in 9th schedule + Judicial Review is a basic feature.  Article- 14,15,19,21 forms part of basic structure 
+                  * Presently 284 laws under 9th Schedule. 
+                  * 31 C - saves laws giving effect to Directive principles under Article 39 B/C on grounds of contravention of Article 14,19  (25th CAA)
+
+
+                  * RT constitutional remedies ( Art 32 )
+                  * Ambedkar = most important article & soul of constitution. Mere declaration of fundamental rights is useless, worthless w/o enforcement mechanism.
+                  * The SC Ruled it as Basic Feature and cant be abridged. There can be No law defying FR as they’re Guaranteed against law.
+                  * 4 provisions under Article 32 
+                  * Guaranteed Right to  move SC for enforcement. 
+                  * SC has Power to issue writs/ order 
+                  * Parliament can empower any other courts to issue  direction, order, writs (DOW )
+                  * Not suspend except as provided by const- i.e. - Prez  can suspend during national emergency - A. 359 
+                  * Limitations
+                  * If State violates FRs = SC provides remedy under art 32; Indiv violate = HC under 226,  not SC directly. Exception- Under Articles 15(2), 17, 23, and 24.. As they apply to private also, so even if individuals violate, they can go to SC.
+                  * Art 32 only for FRs whereas HC = greater jurisdiction as provide writs for ordinary laws too
+                  * Art 32 cant be invoked simply to determine constitutionality of executive order/ legislation until it directly 
+                  * SC  and HC= original, not exclusive jurisdiction. 
+                  * Romesh thappar vs madras ( 1950 )
+                  * Article 32 is a “guaranteed” remedy against FR violation. Hence SC  guarantor, defender
+                  * Enforcement of FR 
+                  * FRs have vertical application → Enforceable against the State, not individuals. Ex - Article 19
+                  * Some rights have horizontal application → Enforceable against individuals too (Art 15 (2), 17 , 23, 24).
+                  * Most FR are self-executory, but some need a Parliament-made law (Articles 17, 23, and 24) for enforcement to ensure national uniformity (Article 35).
+
+
+Note- 
+there are five primary articles have Horizontal application meaning they are enforceable against private individuals along with state:
+                  1. Article 15(2): Right to access shops, hotels, and public places without discrimination.
+                  2. Article 17: Abolition of untouchability.
+                  3. Article 21: Right to Life and Liberty (enforceable horizontally per the Kaushal Kishore ruling).
+                  4. Article 23: Prohibition of human trafficking and forced labour.
+                  5. Article 24: Prohibition of child labour in hazardous environments.
+
+
+The Fundamental Rights exclusive to citizens only are Articles 15, 16, 19, 29, and 30.
+
+
+Writs
+                  * From british = prerogative law ,
+                  * Origin = regulating act 1773
+                  * Def = extraordinary power to SC, HC as guarantor
+                  * Parliament can order too, but no provision yet
+                  * Jurisdictions of SC & High court 
+SC
+	HC
+	Narrow Jurisdiction- Only for FR
+	Wider jurisdiction- FRs + Constitutional + statutory rights
+	Wider territorial jurisdiction- Against person, govt all over India
+	Narrower territorial jurisdiction- In territory only ( limited territorial jurisdiction )
+	Cannot be refused- Article 32 is itself a FR, but the SC may refuse to issue a writ if an alternative, effective remedy exists.
+	May refuse as A.226 - discretionary
+	
+
+
+
+
+
+
+
+Types of writs-
+Writ
+	Purpose
+	Can Be Issued Against
+	Cannot Be Issued Against
+	Habeas Corpus
+("to have the body")
+	- To release a person unlawfully detained
+- Can be filed by the detainee or others (if detainee unable)
+	- State authorities: Executive, Police, Jail authorities
+- Private individuals (in cases of private illegal detention)
+	- If detention is lawful
+- If court has jurisdiction
+- Detention by a competent court
+- Contempt of court or legislature
+	Mandamus
+("we command")
+	- To compel public authority to perform constitutional/statutory/public duty
+	- Executive authorities (Police, Bureaucracy)
+- Public Corporations (Municipalities, Universities)
+- Lower judiciary (not higher courts)
+	- Private individuals/entities
+- President, Governor
+- CJI and High Court judges acting in judicial capacity
+- MPs/MLAs/Ministers
+- Discretionary/contractual duties
+	Quo Warranto
+("by what authority")
+	- To challenge illegal/usurped occupation of a public office
+- Any Public spirited individual.
+	- Any person holding a substantive, public, statutory office
+- Must be of public nature with public duty, not honorary/ temporary
+	- Private offices
+- Offices not created by Constitution/statute
+- If office is not of public importance
+	Prohibition
+(Preventive)
+	- Issued by higher court to stop lower court/quasi-judicial body from exceeding jurisdiction
+	- Lower courts
+- Tribunals
+- Quasi-judicial bodies
+	- Administrative/executive authorities (like PM, CM, ECI, UPSC acting in administrative capacity)
+- Legislative bodies
+	Certiorari
+(Preventive + Curative)
+	- To quash order of lower court/tribunal for lack/excess of jurisdiction or violation of natural justice
+	- Lower courts, Tribunals, Quasi-judicial bodies
+- Executive authorities if performing quasi-judicial functions (post 1991 case laws)
+	- Purely administrative authorities
+- Legislative bodies
+- Private individuals/entities
+	
+
+                  * Armed forces (article 33) 
+                  * A.33 - parliament can restrict/ abrogate rights of armed forces/ police/ intelligence agency  to ensure  proper discharge of duty 
+                  * Any FR restricted  inclu Article 19 
+                  * Any such parliamentary law cant be challenged on the grounds of contravention of FRs
+                  * Non–combatants cover
+                  * Exclude court martial
+                  * Article 34-  deals with the restriction of fundamental rights during the operation of martial law in any area.  (Military rule)
+                  * Derived From Britain.
+                  * Undefined term-  No express provision, though implicit in A 34 
+                  * 34-B = FR restrict while martial law is in place. Empowers parliament to indemnify any govt servant.
+                  * This act of indemnity can’t be challenged in any court on grounds of contravention of any FR. 
+                  * As per SC - Martial law does not result in the suspension of writ of Habeas Corpus. 
+                  * Grounds to declare martial law = war, invasion, insurrection, rebellion, riot , violent resistance to law.
+                  * Justification of martial law= repeal force by force
+                  * National emergency difference
+                  * ML = only FR affected; NE = broader (centre state relation, FR, etc)
+                  * ML = suspend govt & ordinary law court; NE - courts & govt continue. 
+                  * ML= imposed to restore law & order due to any reason, NE = only 3 grounds- War, External aggression or Armed rebellion.
+                  * ML= only imposed in some areas, NE = some/ entire areas both 
+                  * Article 35 empowers only Parliament to make laws mentioned in 
+                  * Articles 16(3)(prescribing residence as condition) , 
+                  * Art 32(3)  - empowering other courts for writs
+                  * Article 33, 34.
+                  * As well as prescribing punishments for 
+                  * Article 17
+                  * Article 23
+                  * Note- Unlike Article 35, for Articles 15(2)- equal access to public spaces and 24, both Centre and States make laws, as the subjects fall under the Concurrent List.
+                  * Constitutional/ Legal/ Non fundamental Rights outside part 3
+                  * Article 265- no tax levy except by authority of law.
+                  * Article 300A (part 12)- No deprivation of property except by law
+                  * Article 301 (part 13)- free trade, commerce, intercourse throughout country
+                  * Article 326- election to LS, SLA= basis of universal adult sufferage 
+                  * Doctrine of severability
+Criticism of Fundamental Rights
+Criticism
+	Details
+	Excessive Limitations
+	As Jaspat Roy Kapoor noted, FRs come with many restrictions.
+	Lack of Socio-Economic Rights
+	No rights like Right to Social Security, Right to Work (unlike USSR, China).
+	Ambiguity & Legal Complexity
+	Vague, indefinite, and called a "paradise of lawyers" (Sir Ivor Jennings).
+	No Permanency
+	Can be curtailed by the President (e.g., Right to Property).
+	Political & Class Bias
+	Benefits the wealthy (expensive remedies) and can be misused by ruling parties.
+	No Consistent Philosophy
+	Criticized by Sir Ivor Jennings for lacking a unified ideological base.
+	Significance of Fundamental Rights
+Significance
+	Details
+	Ensures Individual Freedom
+	Golaknath case (1967): SC held that "FR enables man to chalk out life in the manner he likes best."
+	Bedrock of Democracy
+	Essential for democratic governance and rule of law.
+	Protection & Safeguards
+	Acts as a formidable bulwark of liberty and secures material, moral well-being.
+	Protects Minority & Weak
+	Strengthens secularism, shields vulnerable groups from oppression.
+	Checks Absolute Power
+	Prevents authoritarianism and ensures balance of power.
+	
+
+                  * Conclusion
+                  * Reflects ideal citizens who adhere to society. History = significant role in drafting. 
