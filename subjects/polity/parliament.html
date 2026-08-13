@@ -208,6 +208,26 @@
                 </tbody>
             </table>
 
+            <div class="mermaid-container compact-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 20px auto; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 16px;">
+                <p style="font-family: 'Kalam', cursive; font-size: 19px; color: var(--ink-blue); margin-bottom: 10px; font-weight: bold; text-align: center;">
+                    🏛️ Composition & Seat Distribution: State Legislative Council (Vidhan Parishad)
+                </p>
+                <div class="mermaid" style="font-family: 'Patrick Hand', cursive;">
+                    graph TD
+                    SLC["🏛️ STATE LEGISLATIVE COUNCIL"]
+                    SLC --> ELECTED["🗳️ 5/6 Total Members (ELECTED)"]
+                    SLC --> NOMINATED["👑 1/6 Total Members (NOMINATED by Governor)"]
+
+                    subgraph ELECTED_DIST ["5/6 Electoral Colleges"]
+                        ELECTED --> E1["1/3 Elected by Sarpanch & Local Bodies (MCs/PRIs)"]
+                        ELECTED --> E2["1/3 Elected by Members of Legislative Assembly (MLAs)"]
+                        ELECTED --> E3["1/12 Elected by Secondary Teachers (3+ yrs exp)"]
+                        ELECTED --> E4["1/12 Elected by University Graduates (3+ yrs)"]
+                    end
+                </div>
+            </div>
+
             <div class="sticky-note yellow-note">
                 <p><strong>Detailed Analysis of FPTP (Plurality) System:</strong></p>
                 <ul style="margin-top: 6px; margin-bottom: 6px;">
@@ -508,56 +528,56 @@
             <!-- TOPIC 3: PRESIDING OFFICERS & PARTY OFFICERS -->
             <h2 id="topic-3">3. Presiding Officers, Party Officers & Parliamentary Rights</h2>
 
-            <h3>I. Speaker & Deputy Speaker of Lok Sabha</h3>
+            <h3>I. Speaker & Deputy Speaker of Lok Sabha (Article 93)</h3>
             <ul>
-                <li><strong>Speaker Election & Tenure:</strong> Elected by Lok Sabha members. Date fixed by
-                    <strong class="hl-pink">President</strong>. Ranks 7th in Order of Precedence (equal to CJI,
-                    above Cabinet Ministers).</li>
-                <li><strong>Removal:</strong> Resolution passed by an <strong class="hl-pink">Effective
-                        Majority</strong> (majority of all the THEN members) after 14-day notice supported by &ge; 50
-                    members. Speaker can vote in 1st instance during removal, but cannot cast a tie-breaking
-                    vote. Does not vacate office upon LS dissolution.</li>
-                <li><strong>British Convention vs. India:</strong> In UK, Speaker resigns from political party to ensure
-                    absolute neutrality. In India, Speaker retains party membership, though expected to act
-                    impartially.</li>
-                <li><strong>Deputy Speaker:</strong> Elected after Speaker; date fixed by Speaker.
-                    Conventionally belongs to Opposition. <strong class="hl-pink">NOT subordinate to
-                        Speaker</strong>; directly responsible to Lok Sabha. If appointed to any committee,
-                    automatically becomes its Chairman.</li>
-                <li><strong>Pro-Tem Speaker:</strong> Appointed by President (usually senior-most member) to administer
-                    oath to new MPs and conduct Speaker election.</li>
+                <li><strong>Historical Background:</strong> The institutions of Speaker and Deputy Speaker originated in India in <strong>1921</strong> under the provisions of the <em>Government of India Act, 1919</em> (Montagu-Chelmsford Reforms). Following independence, <strong>G. V. Mavalankar</strong> became the first Speaker of the Lok Sabha.</li>
+                <li><strong>Speaker Election & Tenure:</strong> Elected by Lok Sabha members from amongst themselves. Date fixed by the <strong class="hl-pink">President</strong>. Holds office during the life of Lok Sabha. Ranks 7th in Order of Precedence (equal to CJI, above Cabinet Ministers).</li>
+                <li><strong>Vacation of Office:</strong> Vacates office if he ceases to be a Lok Sabha member, resigns in writing to the Deputy Speaker, or is removed by resolution.</li>
+                <li><strong>Removal:</strong> Resolution passed by an <strong class="hl-pink">Absolute / Effective Majority</strong> (majority of all the THEN members of the House) after mandatory <strong>14 days advance notice</strong> supported by &ge; 50 members. Speaker cannot vote in 1st instance during removal proceedings, but can vote in case of tie. Does <em>not</em> vacate office upon Lok Sabha dissolution; continues till newly elected Lok Sabha meets.</li>
+                <li><strong>Powers & Quorum:</strong> Maintains order & decorum. Final interpreter of Constitution, Rules of Procedure, and Parliamentary Precedents. Cannot vote in 1st instance, but exercises a <strong>casting vote</strong> in case of a tie. Adjourns/suspends House in absence of a <strong>Quorum</strong> (1/10th of total strength = 55 members). Disqualifies members under 10th Schedule (Anti-Defection).</li>
+                <li><strong>British Model vs. India:</strong> In the UK, the Speaker resigns from his political party upon election (*"Once a speaker, always a speaker"*). In India, the Speaker retains party membership, though expected to act with total impartiality.</li>
+                <li><strong>Deputy Speaker:</strong> Elected by Lok Sabha after the Speaker's election; date fixed by the <strong class="hl-pink">Speaker</strong>. Conventionally belongs to the Opposition. <strong class="hl-pink">NOT subordinate to the Speaker</strong>; directly responsible to Lok Sabha. Resigns in writing to the Speaker.</li>
+                <li><strong>Pro-Tem Speaker (Article 95):</strong> Senior-most member of Lok Sabha appointed by the <strong class="hl-pink">President</strong> (who administers oath to him). Facilitates the transition of the House, administers oath to newly elected MPs, and enables the election of a new Speaker. Temporary office, but possesses full powers of a Speaker.</li>
+                <li><strong>Panel of Chairpersons of Lok Sabha:</strong> Speaker nominates a panel of <strong>not more than 10 Chairpersons</strong>. Any of them can preside over the House in the <strong class="hl-yellow">ABSENCE</strong> of the Speaker or Deputy Speaker. <em>Critical Distinction:</em> A panel member <strong>CANNOT preside during a VACANCY</strong> (permanent empty seat); in case of vacancy, the President appoints a member until an election is held.</li>
             </ul>
+
+            <div class="sticky-note blue-note">
+                <p><strong>📋 Resignation Submission Summary Matrix:</strong></p>
+                <ul style="margin-top: 6px; margin-bottom: 0;">
+                    <li><strong>Speaker of Lok Sabha</strong> &rarr; Resigns to the <strong>Deputy Speaker</strong></li>
+                    <li><strong>Deputy Speaker of Lok Sabha</strong> &rarr; Resigns to the <strong>Speaker</strong></li>
+                    <li><strong>Member of Parliament (MP)</strong> &rarr; Resigns to the <strong>Presiding Officer (Speaker / Chairman)</strong></li>
+                    <li><strong>Union Minister</strong> &rarr; Resigns to the <strong>President of India</strong></li>
+                </ul>
+            </div>
 
             <div class="sticky-note yellow-note">
                 <p><strong>Exclusive Powers of Lok Sabha Speaker:</strong></p>
                 <ol style="margin-top: 6px; margin-bottom: 0;">
-                    <li>Final certifying authority for <strong class="hl-pink">Money Bills</strong> (Art 110) —
-                        Unchallengeable in court or Parliament.</li>
-                    <li>Presides over <strong class="hl-yellow">Joint Sitting</strong> of Parliament (Art 108).</li>
-                    <li>Ex-officio Chairman of Indian Parliamentary Group (IPG), Conference of Presiding Officers, and
-                        heads Business Advisory, Rules, and General Purposes Committees.</li>
+                    <li>Final certifying authority for <strong class="hl-pink">Money Bills</strong> (Art 110) — Unchallengeable in court or Parliament.</li>
+                    <li>Presides over <strong class="hl-yellow">Joint Sitting</strong> of Parliament (Art 108) (Power NOT available to RS Chairman).</li>
+                    <li>Ex-officio Chairman of Indian Parliamentary Group (IPG), Conference of Presiding Officers, and heads Business Advisory, Rules, and General Purposes Committees.</li>
                 </ol>
             </div>
 
-            <h3>II. Chairman & Deputy Chairman of Rajya Sabha</h3>
+            <h3>II. Chairman & Deputy Chairman of Rajya Sabha (Article 89)</h3>
             <ul>
-                <li><strong>Chairman:</strong> <strong class="hl-blue">Vice-President of India</strong> is ex-officio
-                    Chairman. Not a member of Rajya Sabha. Exercising casting vote only.
-                    Cannot decide Money Bills or preside over Joint Sittings. Removed only via removal as
-                    Vice-President.</li>
-                <li><strong>Deputy Chairman:</strong> Elected by Rajya Sabha from amongst its members. Resigns
-                    to Chairman. Directly responsible to Rajya Sabha.</li>
+                <li><strong>Chairman:</strong> <strong class="hl-blue">Vice-President of India</strong> is ex-officio Chairman. Not a member of Rajya Sabha. Exercises casting vote only in case of a tie. Cannot vote in 1st instance even during his removal proceedings. Cannot decide Money Bills or preside over Joint Sittings. Removed only via removal as Vice-President.</li>
+                <li><strong>Deputy Chairman:</strong> Elected by Rajya Sabha from amongst its members. Resigns in writing to the Chairman. Directly responsible to Rajya Sabha.</li>
             </ul>
 
-            <h3>III. Leaders & Office of the Whip</h3>
+            <h3>III. Secretariat of Parliament (Article 98)</h3>
+            <div class="key-points">
+                <ul>
+                    <li><strong>Article 98 Mandate:</strong> Each House of Parliament has a separate Secretariat staff of its own, whose recruitment and service conditions are regulated by Parliamentary law.</li>
+                    <li><strong>Secretary-General:</strong> The Secretariat of each House is headed by a <strong>Secretary-General</strong>—a permanent, high-ranking officer of the House appointed directly by the Presiding Officer (Speaker/Chairman).</li>
+                </ul>
+            </div>
+
+            <h3>IV. Leaders & Office of the Whip</h3>
             <div class="sticky-note pink-note">
-                <p><strong>Whip:</strong> Based on **Parliamentary Conventions** (Not in Constitution, Rules of House,
-                    or Statute). Appointed by political parties as assistant floor manager to enforce
-                    discipline. Defiance leads to 10th Schedule disqualification.</p>
-                <p style="margin-top: 6px;"><strong>Leader of Opposition (LoP):</strong> Statutory status under 1977
-                    Act. Recognized party must hold at least <strong class="hl-pink">10% total strength (55
-                        seats in LS)</strong>. Cabinet rank status. Equivalent to UK's "Shadow
-                    Cabinet" / "Alternative Prime Minister" concept.</p>
+                <p><strong>Whip:</strong> Based on <strong>Parliamentary Conventions</strong> (Not in Constitution, Rules of House, or Statute). Appointed by political parties as assistant floor manager to enforce discipline. Defiance leads to 10th Schedule disqualification.</p>
+                <p style="margin-top: 6px;"><strong>Leader of Opposition (LoP):</strong> Given statutory recognition under the <em>Salary and Allowances of Leaders of Opposition in Parliament Act, 1977</em>. Recognized party must hold at least <strong class="hl-pink">10% total strength (55 seats in LS)</strong>. Cabinet rank status; referred to as <em>"Alternative PM"</em>. <br><em>Historical Timeline:</em> Sushma Swaraj was LoP till 2014 &rarr; <strong>2014–2024: NO recognized LoP in India</strong> (no opposition party secured 10% seats) &rarr; <strong>2024: Rahul Gandhi</strong> appointed LoP.</p>
             </div>
 
             <h3>IV. Rights of Ministers & Attorney General (Article 88)</h3>
@@ -671,7 +691,77 @@
                 </tbody>
             </table>
 
-            <h3>II. Master Comparison Table of All 5 Types of Bills</h3>
+            <h3>II. Functional Classification of Bills (By Purpose)</h3>
+            <ul>
+                <li><strong>Repeal Bills (खारिज करना):</strong> Passed specifically to abolish or nullify an existing statute (e.g., <em>Farm Laws Repeal Act, 2021</em>).</li>
+                <li><strong>Merger Bills:</strong> Combines multiple existing legislative enactments into a unified, consolidated code (e.g., <em>The 4 Labour Codes</em> consolidating 29 labour laws).</li>
+                <li><strong>Amending Laws:</strong> Modifies, adds, or deletes specific clauses in existing statutory or constitutional provisions.</li>
+                <li><strong>Renewal Laws:</strong> Extends the operational validity or quota period of an expiring statute (e.g., <em>104th CAA, 2019</em> extending SC/ST reservation in legislative assemblies for 10 years).</li>
+            </ul>
+
+            <div class="mermaid-container compact-container"
+                style="display: flex; flex-direction: column; align-items: center; margin: 20px auto; background: rgba(255, 255, 255, 0.5); border: 2px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 16px;">
+                <p style="font-family: 'Kalam', cursive; font-size: 19px; color: var(--ink-blue); margin-bottom: 10px; font-weight: bold; text-align: center;">
+                    📜 The 3-Stage Life Cycle of a Bill (Ordinary Bill to Act)
+                </p>
+                <div class="mermaid" style="font-family: 'Patrick Hand', cursive;">
+                    graph TD
+                    S1["📝 Stage I: Pre-Parliamentary Stage<br><i>(Drafting by Committee, Lawyers & Law Ministry revision)</i>"]
+                    S1 --> S2["🏛️ Stage II: Parliamentary Stage<br><i>(3 Readings in House of Origin & 2nd House)</i>"]
+
+                    subgraph READINGS ["Stage II: 3 Readings"]
+                        S2 --> R1["1️⃣ First Reading<br><i>(Introduction & Publication in Gazette)</i>"]
+                        S2 --> R2["2️⃣ Second Reading<br><i>(Clause-by-Clause discussion & Amendments)</i>"]
+                        S2 --> R3["3️⃣ Third Reading<br><i>(Voting: Yes / No - No further amendments)</i>"]
+                    end
+
+                    READINGS --> S3["✍️ Stage III: Post-Parliamentary Stage<br><i>(Presidential Assent: Yes / No / Return)</i>"]
+                </div>
+            </div>
+
+            <div class="sticky-note yellow-note">
+                <p><strong>Stage Details & Process Notes:</strong></p>
+                <ul style="margin-top: 6px; margin-bottom: 0;">
+                    <li><strong>Stage I (Pre-Parliamentary):</strong> 1st draft prepared by Secretary / Committee / Experts / Lawyers &rarr; Revised by Law Ministry &rarr; Sent to concerned Ministry for introduction.</li>
+                    <li><strong>Stage II (Parliamentary):</strong> <em>1st Reading:</em> Motion for leave to introduce bill; <em>2nd Reading:</em> Clause-by-clause scrutiny & amendments; <em>3rd Reading:</em> Direct voting (Yes/No) with NO further clause amendments permitted.</li>
+                    <li><strong>Stage III (Post-Parliamentary):</strong> Bill sent to President/Governor who can choose: <strong>Yes</strong> (Assent), <strong>No</strong> (Withhold), or <strong>Return</strong> (for reconsideration).</li>
+                    <li><em>Note: Financial Bills follow the exact same 3-stage process as Ordinary Bills.</em></li>
+                </ul>
+            </div>
+
+            <h3>III. Goal & Power Comparison of Primary Bills</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature / Bill Type</th>
+                        <th>Ordinary Bill</th>
+                        <th>Money Bill (Article 110)</th>
+                        <th>Financial Bill (Article 117)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Primary Legislative Goal</strong></td>
+                        <td>To implement something new (general law / regulation)</td>
+                        <td>Allocation of money to something <strong>already existing</strong> (Taxation, Consolidated Fund, Penalties)</td>
+                        <td>Allocation of money to something <strong>new</strong> (e.g., introducing a new tax regime like GST)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>House Dominance & Powers</strong></td>
+                        <td>Lok Sabha = Rajya Sabha (Equal powers)</td>
+                        <td><strong class="hl-pink">Lok Sabha has overriding powers</strong> (Rajya Sabha limited to 14 days)</td>
+                        <td>Lok Sabha = Rajya Sabha (Equal powers after introduction)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Presidential Action Options</strong></td>
+                        <td>Assent (Yes) / Withhold (No) / Return</td>
+                        <td>Assent (Yes) / Hold (<strong class="hl-pink">CANNOT Return Money Bill</strong>)</td>
+                        <td>Assent (Yes) / Withhold (No) / Return</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>IV. Master Comparison Table of All 5 Types of Bills</h3>
             <table>
                 <thead>
                     <tr>
