@@ -1,0 +1,3098 @@
+Part V (Articles 52 to 78):
+Union Executive
+✅ Components of Union Executive
+● President
+● Vice-President
+● Prime Minister
+● Council of Ministers
+● Attorney General of India
+President of India
+● Head of the Indian State
+● First citizen of India
+● Symbol of:
+→ Unity
+→ Integrity
+→ Solidarity of the nation
+Election of the President
+✅ Indirect Election by Electoral College
+President is not directly elected by the people but
+by an Electoral College, comprising:
+1. Elected members of both Houses of
+Parliament (Lok Sabha and Rajya Sabha)
+2. Elected members of the legislative
+assemblies of states
+3. Elected members of the legislative
+assemblies of Union Territories of Delhi
+and Puducherry
+→ Added by: 70th Constitutional
+Amendment Act, 1992
+→ Effective from: June 1, 1995
+❌ Members NOT eligible to vote in
+Presidential Elections:
+● Nominated members of both Houses of
+Parliament
+● Nominated members of State Legislative
+Assemblies
+● Elected and nominated members of
+Legislative Councils (in bicameral
+legislatures)
+● Nominated members of Delhi and
+Puducherry Assemblies
+104th Constitutional Amendment Act,
+2019
+● Discontinued the nomination of
+Anglo-Indian members to:
+○ Lok Sabha
+○ State Legislative Assemblies
+● Came into effect on 25th January 2020
+● Special representation ceased
+permanently
+⚠️ Effect of Assembly Dissolution
+● If a legislative assembly is dissolved, its
+members lose their voting rights in the
+presidential election.
+● Even if fresh elections are not yet held,
+these members cannot vote.
+Vote Value Calculation for
+Presidential Election
+Objective:
+Ensure:
+● Uniformity in representation of different
+states
+● Parity between the states and the Union
+1. Value of Vote of an MLA
+Value of MLA’s Vote=(Total population of stateTotal
+elected members of State Assembly)÷1000
+● The population is based on the 1971
+Census until changed by Parliament.
+● Only multiples of 1000 are considered.
+2. Value of Vote of an MP
+Value of MP’s Vote=Total value of votes of all MLAs
+of all statesTotal number of elected MPs in both
+Houses
+● Ensures that collective vote value of MPs
+≈ collective vote value of MLAs
+● Achieves parity between States and
+Union
+Illustrative Components in Electoral
+College
+● Each MLA: Vote value based on state's
+population and assembly strength
+● Each MP: Vote value derived from total
+MLA votes / total elected MPs
+● Total Value:
+○ All MLAs' votes (State-wise totals)
+○ All MPs' votes
+○ Grand Total = Votes of all members
+of Electoral College
+Election Procedure of the
+President – Detailed
+Mechanics
+System Followed
+● The election is conducted using the system
+of Proportional Representation by means
+of Single Transferable Vote (STV).
+● Voting is by secret ballot.
+Purpose of the System
+● Ensures that the successful candidate is
+elected by an absolute majority of valid
+votes.
+● Promotes consensus over confrontation
+in the election.
+Electoral Quota Calculation
+To be declared elected, a candidate must secure a
+minimum number of votes, called the Electoral
+Quota.
+Electoral Quota=Total valid votes polled1+No. of
+candidates+1
+● Since only one candidate is elected to the
+office of President, the formula simplifies as:
+Quota=(Total valid votes1+1)+1
+Voting Process
+● Each member of the Electoral College is
+given one ballot paper.
+● Voters are required to mark their
+preferences using numbers:
+→ 1 for first preference,
+→ 2 for second,
+→ and so on…
+● A voter can indicate preferences for as
+many candidates as they wish.
+Vote Counting Process
+1. First Phase:
+○ Count first preference votes of all
+candidates.
+○ If any candidate secures the
+Electoral Quota, he/she is declared
+elected.
+2. Transfer of Votes (If no one meets the
+quota):
+○ The candidate with the least
+number of first preference votes is
+eliminated.
+○ His/her ballots are examined for
+second preference.
+○ These votes are then transferred to
+the remaining candidates based on
+those preferences.
+○ This process continues in rounds
+until a candidate reaches the
+required quota.
+Judicial Oversight: Role of Supreme
+Court
+● All disputes related to Presidential election
+are inquired into and decided by the
+Supreme Court.
+● The decision of the Supreme Court is
+final.
+● An election cannot be challenged on the
+ground that the electoral college was
+incomplete
+(i.e., vacancy among members is not a
+valid ground for invalidation).
+If Election is Declared Void
+● If the Supreme Court declares the election
+void, then:
+○ All acts done by the President
+before such declaration remain
+valid and are not invalidated.
+Additional Constitutional
+Reference
+84th Constitutional Amendment Act,
+2001
+● Until the figures of the first census after
+2026 are published,
+● The expression ‘population’ in the vote
+value calculation refers to the 1971
+Census.
+Why Indirect Election for the
+President?
+✅ Reasons Chosen by Constitution
+Makers
+1. Harmony with Parliamentary System:
+○ The President is only a nominal
+executive.
+○ Real powers lie with the Council
+of Ministers headed by the Prime
+Minister.
+○ A directly elected President with
+no real power would have created a
+constitutional anomaly.
+2. Cost & Practicality:
+○ Direct election would be
+expensive, time-consuming, and
+energy-draining.
+○ Given India’s vast electorate, it
+would be impractical for a
+symbolic head.
+Alternative Proposals in
+Constituent Assembly
+(Rejected)
+● Some members suggested that the
+President be elected only by members of
+Parliament.
+○ Reason for rejection:
+■ Parliament may be
+dominated by one party,
+leading to partisan
+Presidents.
+■ Would not represent the
+States of the Union.
+● The current system balances
+representation of both Union and States.
+Terminology Debate in the
+Constituent Assembly
+● Objection to the term "Proportional
+Representation":
+○ Technically applies where multiple
+seats are to be filled.
+○ Presidential election fills only one
+seat, so more accurate term would
+be:
+■ "Preferential vote system"
+or
+■ "Alternative vote system".
+● Objection to "Single Transferable Vote":
+○ Each voter marks multiple
+preferences, not casting a single
+vote.
+○ Therefore, it's not literally a single
+vote, but a series of preferences.
+Qualifications for Election as
+President
+A person must satisfy the following to be eligible:
+1. Citizen of India
+2. Minimum age: 35 years
+3. Qualified to be elected as a member of
+the Lok Sabha
+4. Should not hold any office of profit
+under:
+○ Union Government
+○ State Government
+○ Local or Public Authority
+Note: The following are not
+considered as holding an office of
+profit:
+● Sitting President or Vice-President
+● Governor of any state
+● Ministers of the Union or of any state
+Nomination Requirements
+● Nomination must be:
+○ Proposed by at least 50 electors
+○ Seconded by at least 50 electors
+Security Deposit
+● ₹15,000 (in Reserve Bank of India)
+● Forfeited if the candidate fails to secure
+one-sixth of the total valid votes polled
+Before 1997:
+● Proposers & seconders: 10 each
+● Deposit: ₹2,500
+🔁 Changed in 1997 to discourage non-serious
+candidates
+Oath or Affirmation by the
+President
+Oath Content
+President swears to:
+1. Faithfully execute the office
+2. Preserve, protect, and defend the
+Constitution and the law
+3. Devote himself/herself to the service and
+well-being of the people of India
+Administered By
+● Chief Justice of India
+● In absence of CJI → Senior-most
+available judge of the Supreme Court
+⚠️ Any person acting as President
+or discharging functions of President
+must also take the same oath or
+affirmation
+Conditions of the President’s
+Office
+(As laid down by the Constitution of India)
+1. No Membership of Legislature
+● The President should not be a member of:
+○ Either House of Parliament
+○ A House of any State Legislature
+● If elected while being a member, he/she is
+deemed to have vacated the seat on the
+date of assuming the office of President.
+2. No Other Office of Profit
+● The President should not hold any other
+office of profit under:
+○ Union Government
+○ State Government
+○ Local Authorities or Public Bodies
+3. Official Residence
+● Entitled to use of the official residence
+without payment of rent:
+○ Rashtrapati Bhavan
+4. Salary, Allowances & Privileges
+● Entitled to emoluments, allowances, and
+privileges as determined by Parliament.
+5. Protection of Emoluments
+● Salary and allowances cannot be
+reduced during the term of office.
+Salary and Pension Details
+President's Salary
+● Increased in 2018:
+From ₹1.5 lakh/month → ₹5 lakh/month
+Pension (Retired President)
+● Since 2008:
+Pension increased to 50% of the
+President's salary per month (previously
+₹3 lakh/year)
+🏡 Facilities for Former Presidents
+● Furnished residence
+● Phone facilities
+● Car with driver
+● Medical treatment
+● Travel facility
+● Secretarial staff
+● Office expenses up to ₹1,00,000 per
+annum
+Facilities for Spouse of Deceased
+President
+● Family pension at 50% of the President’s
+pension
+● Furnished residence
+● Phone facility
+● Car
+● Medical treatment
+● Travel facility
+● Secretarial staff
+● Office expenses up to ₹20,000 per
+annum
+Privileges and Immunities of
+the President
+⚖️ Legal Immunities
+Official Acts
+● Complete personal immunity from legal
+liability for official acts
+Criminal Proceedings
+● Cannot be arrested or imprisoned
+● Immune from criminal proceedings during
+term even for personal acts
+Civil Proceedings (for personal acts)
+● Allowed only after two months' notice
+● Can be initiated during the term, but with
+advance intimation
+Term, Impeachment, and
+Vacancy of the President
+Term of the President's Office
+1. The President holds office for a term of 5
+years from the date he/she enters the
+office.
+2. The President can resign at any time by
+submitting a resignation letter to the
+Vice-President.
+3. The President can also be removed before
+the completion of the term by the process
+of impeachment.
+4. The President continues to hold office
+beyond 5 years until the successor
+assumes charge.
+5. The President is eligible for re-election for
+any number of terms.
+○ Note: In the USA, a person cannot
+be elected more than twice.
+6. So far, only Dr. Rajendra Prasad (India’s
+1st President) has held the office for two
+full terms.
+Impeachment of the President
+✅ Ground for Impeachment:
+● Can be removed for “Violation of the
+Constitution”
+● Note: The Constitution does not define
+the phrase ‘violation of the Constitution’
+Impeachment Procedure (Quasi-Judicial
+Process)
+1. Initiation of Charges:
+○ Can be initiated by either House of
+Parliament
+○ Requires:
+■ Signature of at least 1/4th
+of the members of that
+House
+■ A 14 days’ notice to the
+President
+2. First House Voting:
+○ Must pass the impeachment
+resolution by a two-thirds majority
+of the total membership
+3. Second House Investigation:
+○ The other House investigates the
+charges
+○ The President has the right to
+appear and defend
+○ If the second House also passes
+the resolution by 2/3rd majority of
+the total membership,
+👉 President stands removed from
+office from the date of resolution
+Impeachment Process
+● Nominated members of both Houses can
+participate in impeachment
+→ Even though they don’t vote in the
+Presidential election
+● Elected members of State Legislative
+Assemblies & UTs (Delhi & Puducherry)
+→ Do participate in election
+→ Do NOT participate in impeachment
+🔔Fact to Remember
+● No President of India has ever been
+impeached till date
+Vacancy in the President’s
+Office
+✅ Vacancy Can Occur Due To:
+1. Expiration of tenure (5 years)
+2. Resignation (submitted to the
+Vice-President)
+3. Impeachment
+4. Death
+○ 🕊️ Only two Presidents died in
+office:
+■ Dr. Zakir Hussain
+■ Fakhruddin Ali Ahmed
+5. Other reasons, such as:
+○ Disqualification to hold office
+○ Election declared void
+Election in Case of Expiry of Term
+● If vacancy is due to term ending, election
+must be held before the term expires.
+Military Powers of the
+President
+1. Supreme Commander of the Defence
+Forces
+2. Appoints the Chiefs of:
+○ Army
+○ Navy
+○ Air Force
+3. Can declare war or conclude peace,
+➤ Subject to approval of Parliament
+Emergency Powers of the
+President
+The President has extraordinary powers under
+three types of emergencies:
+(a) National Emergency – Article 352
+✅ Grounds:
+1. War
+2. External Aggression
+3. Armed Rebellion
+Powers During National Emergency:
+1. Can alter distribution of financial
+resources between Union & States.
+2. Can suspend Fundamental Rights of
+citizens (except):
+○ Article 20 – Protection in respect of
+conviction for offences
+○ Article 21 – Right to life and
+personal liberty
+(b) President’s Rule – Articles 356 & 365
+Also called:
+● State Emergency
+● Constitutional Emergency
+✅ Grounds:
+1. Failure of Constitutional Machinery in
+state – Article 356
+2. Failure to comply with directions from
+Union – Article 365
+Powers During President’s Rule:
+1. Can assume functions of State
+Government
+○ Including powers of Governor or
+any authority
+2. Can declare that the State Legislature’s
+powers be exercised by Parliament
+3. Can authorize expenditure from
+Consolidated Fund of the State
+○ When Lok Sabha is not in session
+○ Subject to later approval by
+Parliament
+(c) Financial Emergency – Article 360
+✅ Grounds:
+● If financial stability or credit of India (or
+part of it) is threatened
+Powers During Financial Emergency:
+1. Can issue directions for reduction of
+salaries and allowances of:
+○ All or any class of persons in Union
+Government
+○ Judges of Supreme Court and High
+Courts
+Veto Power of the President
+(Article 111)
+When a Bill is passed by the Parliament, it
+becomes an Act only after the President's
+assent.
+✅ The President has three alternatives:
+1. ✅ Assent to the bill
+→ The bill becomes law.
+2. ❌ Withhold assent to the bill
+→ Known as absolute veto.
+3. 🔁 Return the bill (if not a Money Bill) for
+reconsideration by Parliament
+→ If Parliament passes the bill again
+(with or without amendments) and presents
+it again:
+→ The President is bound to give assent.
+Types of Veto
+Type of
+Veto
+Meaning Applicability
+Absolut
+e Veto
+President refuses
+assent altogether
+For Private
+Member’s
+Bills or
+Cabinet Bills
+after
+resignation
+Suspen
+sive
+Veto
+President returns a
+non-money bill
+Overridden if
+Parliament
+re-passes bill
+Pocket
+Veto
+President takes no
+action and delays
+indefinitely
+Constitution
+does not
+mention time
+limit
+Term Extension and
+Interregnum Protection
+● If election of new President is delayed,
+the outgoing President continues in
+office beyond 5 years.
+● This avoids an interregnum (vacuum in
+leadership).
+● In such cases, Vice-President does NOT
+act as President.
+Filling Vacancy in President’s
+Office
+✅ Causes of Vacancy:
+1. Expiry of term
+2. Resignation
+3. Removal (via impeachment)
+4. Death
+5. Disqualification / Election declared void
+Election Timing Rules
+● If vacancy arises due to:
+○ Resignation, death, removal, or
+otherwise
+→ Election must be held within 6
+months
+● The newly elected President holds office
+for a full 5-year term
+(Not just remainder of predecessor’s term)
+Who Acts as President During
+Vacancy/Absence?
+Situation Who Acts as President
+Vacancy due to
+death, resignation,
+removal,
+disqualification
+Vice-President acts as
+President until new one
+is elected
+President is
+temporarily unable
+to discharge duties
+(illness, absence,
+etc.)
+Vice-President
+discharges functions
+until President resumes
+Both President and
+Vice-President
+offices vacant
+Chief Justice of India
+acts as President
+If CJI unavailable Seniority-wise next
+available SC judge acts
+Powers, Privileges, Emoluments of
+Acting President
+● Whether Vice-President, CJI, or senior-most
+SC judge:
+○ Enjoys all powers and immunities
+of the President
+○ Receives emoluments,
+allowances, and privileges as
+decided by Parliament
+Example of Presidential
+Vacancy – 1969
+● President Dr. Zakir Hussain died in May
+1969.
+● Vice-President V.V. Giri became Acting
+President.
+● V.V. Giri resigned to contest the
+Presidential election.
+● Then, Chief Justice of India M.
+Hidayatullah became the Officiating
+President:
+○ Tenure: 20 July 1969 to 24 August
+1969
+Powers and Functions of the
+President
+The powers and functions are categorized into
+seven major heads:
+1. Executive Powers
+2. Legislative Powers
+3. Financial Powers
+4. Judicial Powers
+5. Diplomatic Powers
+6. Military Powers
+7. Emergency Powers
+1. Executive Powers of the
+President
+(a) Executive Action in Name of
+President
+● All executive actions of the Government of
+India are formally taken in the name of
+the President
+(b) Authentication Rules
+● Can make rules to specify the manner in
+which orders/instruments made in his/her
+name are authenticated
+(c) Business Rules
+● Can frame rules for:
+○ Convenient transaction of Union
+Government business
+○ Allocation of business among
+ministers
+(d) Appointments – Key Constitutional
+Offices
+● Appoints the Prime Minister and other
+ministers
+→ They hold office during the pleasure of
+the President
+(e) Attorney General of India
+● Appoints the Attorney General of India
+● Determines his/her remuneration
+● Holds office during the President’s
+pleasure
+(f) Other Key Constitutional
+Appointments
+President appoints:
+● Comptroller and Auditor General (CAG)
+of India
+● Chief Election Commissioner (CEC) &
+Other Election Commissioners
+● Chairman and Members of:
+○ Union Public Service Commission
+(UPSC)
+○ Finance Commission
+● Governors of States
+(g) Seeking Information from PM
+● Can seek information relating to:
+○ Administration of Union affairs
+○ Proposals for legislation
+→ From the Prime Minister
+(h) Overruling Ministerial Decisions
+● Can require the PM to place any
+minister’s decision before the entire
+Council of Ministers,
+→ If it was not considered by them earlier
+(i) Commission for Backward Classes
+● Can appoint a commission to investigate
+conditions of backward classes
+(j) Inter-State Council
+● Can appoint an Inter-State Council to
+promote:
+○ Centre–State cooperation
+○ Inter-State coordination
+(k) Administration of Union Territories
+● Directly administers Union Territories
+through Administrators appointed by
+him/her
+(l) Scheduled and Tribal Areas
+● Can declare any area as a Scheduled
+Area
+● Has special powers regarding
+administration of:
+○ Scheduled Areas
+○ Tribal Areas
+Legislative Powers of the
+President of India
+(Under Article 79–123 of the Constitution,
+reinforced by Article 111)
+The President is an integral part of the Indian
+Parliament, and performs the following legislative
+functions:
+(a) Summoning, Proroguing &
+Dissolution
+● Can summon or prorogue Parliament
+● Can dissolve the Lok Sabha
+● Can summon a Joint Sitting of both
+Houses (Lok Sabha Speaker presides)
+(b) Address to Parliament
+● Addresses Parliament:
+○ At the first session after each
+general election
+○ At the first session of each year
+(c) Messages to Parliament
+● Can send messages to either House of
+Parliament on:
+○ Bills pending in Parliament
+○ Any other matter
+(d) Presiding Officer Appointments (If
+Vacant)
+● Can appoint:
+○ A Lok Sabha member to preside
+when both Speaker and Deputy
+Speaker's posts are vacant
+○ A Rajya Sabha member when
+Chairman and Deputy Chairman’s
+posts are vacant
+(e) Nomination of Rajya Sabha Members
+● Nominates 12 members to Rajya Sabha
+→ From fields of:
+○ Literature
+○ Science
+○ Art
+○ Social service
+(f) Nomination to Lok Sabha
+● Before 2020: Could nominate 2 members
+from the Anglo-Indian community
+● 104th Constitutional Amendment Act,
+2019:
+○ Abolished this provision with
+effect from January 2020
+(g) Disqualification Decisions
+● Decides questions related to
+disqualification of MPs,
+→ In consultation with the Election
+Commission
+(h) Prior Recommendation Required for
+Specific Bills
+Cannot introduce certain bills in Parliament without
+the President's prior
+recommendation/permission:
+1. Bills involving expenditure from
+Consolidated Fund of India
+2. Bills related to alteration of state
+boundaries or creation of new states
+3. Money Bills
+4. Bills imposing/altering taxes or duties in
+which states are interested
+5. Bills that alter the definition of
+‘agricultural income’ for income tax
+6. Bills affecting distribution of revenue to
+states
+7. Bills imposing a surcharge on taxes/duties
+for Central use
+For State Bills:
+● A State Bill that imposes restrictions on
+trade, commerce, and intercourse:
+→ Requires President's previous
+sanction to be introduced in the State
+Legislature
+(i) Assent to Parliamentary Bills
+Once a bill is passed by Parliament and presented
+to the President, he/she may:
+1. Give assent (bill becomes law)
+2. Withhold assent (absolute veto)
+3. Return the bill for reconsideration (if not a
+Money Bill)
+→ If Parliament passes it again, the
+President must give assent
+(j) Assent to State Legislature Bills
+(Reserved by Governor)
+President may:
+1. Give assent
+2. Withhold assent
+3. Return the bill for reconsideration (if not a
+Money Bill)
+Key Difference:
+● Even if the state legislature passes the
+bill again,
+→ President is NOT bound to give assent
+(k) Ordinance-Making Power (Article
+123)
+● Can promulgate ordinances when
+Parliament is not in session
+● Ordinance must be approved by
+Parliament within 6 weeks of reassembly
+● President can withdraw an ordinance at
+any time
+(l) Laying Reports Before Parliament
+Lays the following reports before Parliament:
+● Comptroller & Auditor General (CAG)
+● Union Public Service Commission
+(UPSC)
+● Finance Commission
+● And other constitutional/statutory bodies
+(m) Legislative Power via Regulations in
+Union Territories
+Can legislate by regulation for:
+● Andaman and Nicobar Islands
+● Lakshadweep
+● Dadra and Nagar Haveli and Daman and
+Diu
+● Ladakh
+For Puducherry, regulation power applies only
+when the Legislative Assembly is suspended or
+dissolved
+Financial Powers of the
+President
+1. Money Bills can be introduced in
+Parliament only with the President’s prior
+recommendation.
+2. Union Budget (Annual Financial
+Statement) is laid before Parliament by
+the President.
+3. No demand for a grant can be made in
+Parliament without the President’s
+recommendation.
+4. Can authorize advances from the
+Contingency Fund of India to meet
+unforeseen expenditure.
+5. Constitutes the Finance Commission
+every five years:
+○ To recommend the distribution of
+revenues between Centre and
+States.
+Judicial Powers of the
+President
+1. Appoints:
+○ Chief Justice of India (CJI)
+○ Judges of Supreme Court and
+High Courts
+2. Can seek advisory opinion from the
+Supreme Court:
+○ On any question of law or fact
+○ Advice is not binding on the
+President
+3. Pardoning Powers (Article 72):
+○ Can grant:
+■ Pardon
+■ Reprieve
+■ Respite
+■ Remission of punishment
+■ Suspend, remit, or
+commute sentence
+○ Applicable in:
+■ (i) Cases of Court Martial
+■ (ii) Cases involving offences
+under Union Law
+■ (iii) Cases involving
+sentence of death
+Diplomatic Powers of the
+President
+1. Represents India in international affairs
+and forums
+2. Negotiates and concludes treaties and
+agreements
+→ Subject to Parliamentary approval
+3. Sends and receives diplomats such as:
+○ Ambassadors
+○ High Commissioners
+Veto Power of the President
+(Article 111)
+⚠️ Purpose of Veto Power:
+1. To prevent hasty or ill-considered
+legislation
+2. To prevent unconstitutional laws
+Types of Veto in Modern States:
+Veto Type Description
+Absolute
+Veto
+Withholding assent – Bill dies
+Qualified
+Veto
+Can be overridden by higher
+majority in legislature – Not in
+India
+Suspensiv
+e Veto
+Can return bill for reconsideration –
+overridden by ordinary majority
+Pocket
+Veto
+Takes no action – bill kept
+pending indefinitely
+Veto Powers of Indian
+President
+1. Absolute Veto
+● Power to withhold assent to a bill → Bill
+ends
+● Typically used in:
+○ (a) Private Member Bills
+○ (b) Government Bills passed just
+before cabinet resignation
+Examples:
+● 1954 – Dr. Rajendra Prasad withheld assent
+to PEPSU Appropriation Bill
+● 1991 – R. Venkataraman withheld assent to
+MP Salary & Allowances Bill (passed
+without prior recommendation)
+2. Suspensive Veto
+● Returns a non-money bill for
+reconsideration
+● If re-passed (with/without amendments),
+President must give assent
+● Not applicable to Money Bills
+🔁 Money Bills: President can either
+give or withhold assent,
+but cannot return it for
+reconsideration
+3. Pocket Veto
+● Takes no action on a bill
+● No time limit prescribed in the Indian
+Constitution
+In contrast, the US President has 10
+days to act → Hence, Indian
+President’s “pocket is bigger”
+Example:
+● 1986 – Zail Singh used Pocket Veto on the
+Indian Post Office (Amendment) Bill
+○ Bill sought to impose press
+restrictions
+○ 1989 – R. Venkataraman sent it
+back, but the new govt dropped
+the bill
+No Veto on Constitutional
+Amendment Bills
+● 24th Constitutional Amendment Act,
+1971:
+○ Made it mandatory for the
+President to give assent to a
+Constitutional Amendment Bill
+○ Hence, no veto power applies
+Presidential Veto Over State
+Legislation
+General Rule:
+● A bill passed by a State Legislature
+becomes law only when it receives the
+assent of:
+○ The Governor, or
+○ The President (if the Governor
+reserves it for the President’s
+consideration)
+Article 200 – Governor's
+Options on State Bills
+When a bill is presented to the Governor after
+being passed by the State Legislature, the
+Governor has four options:
+1. ✅ Give assent to the bill → It becomes
+law.
+2. ❌ Withhold assent → Absolute veto.
+3. 🔁 Return the bill (if not a money bill) for
+reconsideration by the state legislature.
+4. Reserve the bill for the consideration of
+the President (mandatory in some cases,
+discretionary in others).
+Article 201 – President’s
+Options (On Reserved State
+Bills)
+When a state bill is reserved by the Governor,
+the President has three options:
+1. ✅ Give assent to the bill → It becomes
+law.
+2. ❌ Withhold assent → Absolute veto.
+3. 🔁 Direct the Governor to return the bill
+(if not a money bill) for reconsideration
+by the State Legislature.
+If the State Legislature re-passes the
+bill and sends it again,
+→ The President is NOT bound to
+give assent.
+→ The State Legislature CANNOT
+override the President’s veto, unlike
+in case of a Suspensive Veto at Union
+level.
+No Time Limit – Pocket Veto
+for State Bills
+● The Constitution does NOT prescribe a
+time limit for the President to act on a bill
+reserved under Article 201.
+● Hence, the President can exercise Pocket
+Veto for State Legislation as well.
+Comparison: Presidential Veto
+– Union vs State Legislation
+Feature Union
+Legislation
+State
+Legislation
+(Reserved
+Bill)
+Relevant
+Articles
+Article 111 Article 201
+Can Return
+for
+Reconsiderat
+ion?
+✅ Yes (except
+for Money Bills)
+✅ Yes (if
+not a Money
+Bill)
+Bound by
+Legislature's
+Re-passage?
+✅ Yes – Must
+assent if
+re-passed
+(except Money
+Bills)
+❌ No –
+President is
+not bound to
+assent
+Pocket Veto
+Applicable?
+✅ Yes ✅ Yes
+Legislature
+Can Override
+Veto?
+✅ Yes
+(Suspensive
+Veto)
+❌ No
+override of
+Presidential
+Veto
+Time Limit
+for Action?
+❌ No ❌ No
+Key Takeaways:
+● The President’s veto over state bills is
+more powerful than over Union bills
+because:
+○ The State Legislature cannot
+override it.
+○ No time limit makes Pocket Veto
+even more effective.
+● The Governor’s reservation brings the
+Centre's control into State legislative
+process, reinforcing quasi-federalism.
+Ordinance-Making Power of
+the President (Article 123)
+Definition
+● The President can promulgate
+ordinances when Parliament is not in
+session.
+● Ordinances have the same force and
+effect as laws passed by Parliament.
+● They are temporary laws enacted to
+address urgent or unforeseen matters.
+Limitations on the President’s
+Ordinance Power
+1. Timing Constraint (Parliament
+Recess)
+● Ordinance can only be issued when:
+○ Both Houses are not in session, or
+○ Even if one House is not in
+session
+→ Because lawmaking needs both
+Houses
+● If both Houses are in session, ordinance is
+void
+Not a parallel law-making power
+2. Satisfaction of President (Subject to
+Judicial Review)
+● President must be satisfied that immediate
+action is necessary
+● Cooper Case (1970):
+○ Supreme Court ruled that
+President’s satisfaction is
+justiciable on grounds of mala fide
+● 38th Amendment Act (1975):
+○ Made satisfaction final and
+non-justiciable
+● 44th Amendment Act (1978):
+○ Revoked this protection → Now
+justiciable again
+3. Subject Matter (Scope and Limits)
+● Ordinances can be issued only on
+subjects on which Parliament can legislate
+(Union, Concurrent List)
+● Subject to the same constitutional
+limitations as parliamentary laws:
+○ ❌ Cannot abridge Fundamental
+Rights
+○ ❌ Cannot amend the Constitution
+4. Parliamentary Approval Requirement
+● Ordinance must be laid before both
+Houses when Parliament reconvenes
+● Outcomes:
+○ ✅ Approved by both Houses →
+Becomes law
+○ ❌ Not acted upon → Ceases after
+6 weeks from reassembly
+○ ❌ Disapproved by both Houses
+→ Ceases immediately
+If Houses reassemble on different dates, 6-week
+period counted from later date
+Maximum Validity (If Not Approved):
+● Up to 6 months + 6 weeks
+○ 6 months = Maximum gap between
+sessions
+○ 6 weeks = Post-reassembly
+lifespan without approval
+Repromulgation of Ordinances
+● President can withdraw an ordinance
+anytime
+● However, successive repromulgation
+without placing it before Parliament is
+unconstitutional
+Key Supreme Court Judgments
+● D.C. Wadhwa Case (1986):
+○ Bihar Governor repromulgated 256
+ordinances (1967–1981) without
+Assembly approval
+○ SC declared it unconstitutional
+○ Held that ordinances cannot
+substitute legislative process
+Additional Characteristics of
+Ordinances
+● Can be retrospective
+● Can modify, repeal, or amend:
+○ Acts of Parliament
+○ Other ordinances
+○ Even tax laws
+● Cannot be used to amend the Constitution
+Binding Nature & Role of
+Council of Ministers
+● Ordinance can only be issued on the
+advice of the Council of Ministers headed
+by the PM
+● President’s power is not discretionary
+Procedure in Lok Sabha
+● When a Bill replacing an ordinance is
+introduced:
+○ A statement explaining the urgency
+and circumstances of ordinance
+must be attached
+B.R. Ambedkar’s Justification
+Ordinance-making is an emergency
+mechanism
+To allow the Executive to deal with
+immediate situations when
+Parliament is not in session
+It is not linked to National
+Emergency under Article 352
+Global Comparison
+● Unusual power not found in most
+democratic constitutions
+● No such provision exists in the USA or
+UK
+Pardoning Power of the
+President (Article 72)
+Scope: President can grant pardon to persons
+convicted in cases where:
+1. The punishment is for an offence against
+Union Law
+2. The sentence is by a Court Martial
+(military court)
+3. The sentence is a sentence of death
+Nature of Power
+● Independent of the Judiciary
+● President does not act as a court of
+appeal
+● Objective:
+○ (a) To correct possible judicial
+errors
+○ (b) To grant relief in harsh or
+excessive punishment
+Types of Pardoning Powers
+Type Description
+Pardon Completely absolves the person
+of conviction, punishment,
+and disqualifications
+Commutation Substitution of a lighter
+punishment for the original one
+(e.g., death sentence to life
+imprisonment)
+Remission Reduces the duration of
+punishment, but character
+remains the same
+(e.g., 2 years RI → 1 year RI)
+Respite Lesser sentence awarded due
+to special circumstances
+(e.g., disability, pregnancy)
+Reprieve Temporary stay on execution
+of a sentence (usually death
+sentence) to allow time for
+mercy petition
+Governor’s Pardoning Power –
+Article 161
+✅ Governor can:
+● Grant pardon, reprieve, respite,
+remission
+● Suspend, remit, or commute sentence
+→ But only in cases of offences against
+State Laws
+Key Differences Between President and
+Governor
+Aspect President
+(Art. 72)
+Governor (Art.
+161)
+Court Martial ✅ Can
+pardon
+❌ Cannot pardon
+Death
+Sentence
+✅ Can
+pardon
+❌ Cannot
+pardon, but can
+suspend/remit/co
+mmute
+Jurisdiction Union laws,
+military
+courts, death
+sentences
+State laws only
+Supreme Court’s Interpretation
+– Kehar Singh Case (1988)
+Key Principles Laid Down:
+1. ❌ The petitioner has no right to oral
+hearing before the President.
+2. ✅ President can re-examine evidence
+afresh and form a different opinion from
+courts.
+3. Power must be exercised on the advice of
+the Union Cabinet.
+4. ❌ Supreme Court need not lay down
+specific guidelines for Presidential
+clemency.
+5. Judicial review is allowed only if:
+○ The decision is arbitrary
+○ Or irrational
+○ Or taken with malafide intention
+○ Or discriminatory
+Important Clarification
+● Pardoning power is executive in nature,
+but:
+○ It cannot override the rule of law
+○ It is subject to limited judicial
+review
+Constitutional Position of the
+President of India
+Basic Principle
+● India follows a Parliamentary form of
+government
+● The President is a nominal
+(constitutional) executive
+● Real executive power is exercised by the
+Council of Ministers (CoM) headed by the
+Prime Minister
+Dr. B.R. Ambedkar’s Observation
+“The President is like the King under
+the British Constitution –
+He is the head of the State, but not of
+the government”
+● Represents the nation, but does not rule it
+● His role is that of a ceremonial device, a
+seal of authority
+● Bound by the advice of ministers
+● Cannot do anything contrary to their
+advice, nor without it
+● Unlike the US President, he cannot
+dismiss ministers as long as they enjoy Lok
+Sabha’s majority
+42nd and 44th Constitutional
+Amendments
+42nd Amendment Act, 1976 (Indira
+Gandhi Govt)
+● Made it mandatory for the President to act
+as per the advice of the CoM
+44th Amendment Act, 1978 (Morarji
+Desai Govt)
+● Gave the President the power to send
+advice once for reconsideration
+● But, after reconsideration, the President
+must accept the advice
+Real-Life Examples of
+Reconsideration Power
+October 1997 – Uttar Pradesh
+● Cabinet advised President’s Rule
+● President K.R. Narayanan returned it for
+reconsideration
+● Cabinet withdrew the proposal
+→ Kalyan Singh Govt (BJP) was saved
+September 1998 – Bihar
+● Cabinet again advised President’s Rule
+● President Narayanan returned the advice
+● Cabinet re-advised → President’s Rule
+imposed in Feb 1999
+Discretion of the President
+No Constitutional Discretion
+● Must act on the advice of CoM
+● Article 74 makes advice binding
+Situational Discretion (By Convention)
+President can act without CoM advice in the
+following scenarios:
+1. Appointing a Prime Minister:
+○ When no party has a clear
+majority
+○ Or if PM dies suddenly and there’s
+no obvious successor
+2. Dismissing the Council of Ministers:
+○ If they fail to prove majority in Lok
+Sabha
+3. Dissolving the Lok Sabha:
+○ If CoM loses majority, and no
+alternative govt is viable
+Conclusion: President’s Role
+● Though the President has no real
+executive authority, he:
+○ Acts as a constitutional guardian
+○ Exercises moral influence
+○ Becomes crucial in times of
+political uncertainty
+● The office is meant to function with dignity
+and neutrality, representing the unity of
+the nation
+Vice-President of India:
+● Holds the second-highest constitutional
+office in the country.
+● Ranks next to the President in the official
+Warrant of Precedence.
+● Office is modelled on the American
+Vice-President, but with notable
+differences.
+Election of the Vice-President
+(Article 66)
+Election Process:
+● Indirect election through Electoral
+College
+● Composed of:
+○ Members of both Houses of
+Parliament
+○ Includes nominated members
+○ ❌ Does not include State
+Legislative Assemblies
+Difference from Presidential Electoral
+College:
+Feature President Vice-Presiden
+t
+Includes State
+Assemblies?
+✅ Yes
+(elected
+MLAs)
+❌ No
+Includes
+Nominated
+MPs?
+❌ No ✅ Yes
+Changed by: 11th Constitutional Amendment
+Act, 1961 (removed joint sitting clause)
+Election Method:
+● Proportional representation by Single
+Transferable Vote (STV)
+● Secret ballot voting
+● Disputes resolved by Supreme Court
+○ SC decision is final
+○ Election not void due to incomplete
+Electoral College
+Qualifications, Oath, and
+Conditions
+Qualifications (Same as Rajya Sabha
+Member):
+1. Citizen of India
+2. At least 35 years of age
+3. Eligible to be a Rajya Sabha member
+4. No office of profit under Union, State, or
+local authority
+○ ❌ Exceptions: Sitting President,
+Vice-President, Governor, or
+Minister
+Nomination Requirements:
+● Minimum 20 proposers and 20 seconders
+● ₹15,000 security deposit (with RBI)
+Oath/Affirmation:
+● Sworn in by President of India
+● Oath includes:
+○ True faith and allegiance to the
+Constitution
+○ Faithfully discharge the duties of
+office
+Conditions of Office:
+1. ❌ Cannot be member of Parliament or
+State Legislature
+→ Seat vacated upon assuming office
+2. ❌ Cannot hold any other office of profit
+Term, Removal, and Vacancy
+Term of Office:
+● 5 years from entering office
+● Can resign (addressed to the President)
+● Eligible for re-election any number of
+times
+Removal:
+● ❌ No formal impeachment needed
+● Can be removed by:
+○ Rajya Sabha: Effective majority
+○ Lok Sabha: Simple majority
+○ Requires 14 days’ notice before
+motion
+○ Grounds for removal not mentioned
+in the Constitution
+Vacancy Causes:
+1. Expiry of term
+2. Resignation
+3. Removal
+4. Death
+5. Disqualification or election declared void
+Election for vacancy must be held:
+● Before expiry, if predictable
+● As soon as possible, if unexpected
+Powers and Functions of the
+Vice-President
+1. Ex-Officio Chairman of Rajya Sabha
+● Similar to Speaker of Lok Sabha
+● Conducts proceedings, maintains order,
+and decides points of order
+Salary as Chairman of Rajya Sabha:
+● ₹4 lakh/month (2023)
+● Pension: 50% of salary
+● Also gets residence, allowance, medical
+and travel facilities
+2. Acting President of India
+● Acts as President when the office falls
+vacant due to:
+○ Death, resignation, removal, or
+otherwise
+● Can serve as Acting President for max 6
+months
+→ During which a new President must be
+elected
+● Also discharges President’s functions
+when President is:
+○ Ill, absent, or unable to act
+During this period:
+● Deputy Chairman of Rajya Sabha
+performs Rajya Sabha duties
+● Vice-President draws President's salary,
+not Chairman’s
+Historical Instances:
+● Dr. Radhakrishnan (VP) discharged
+President’s duties when Dr. Rajendra
+Prasad was ill or abroad
+● V.V. Giri and B.D. Jatti acted as Presidents
+after deaths of Dr. Zakir Hussain and
+Fakhruddin Ali Ahmed
+Comparison: Indian vs
+American Vice-President
+Feature Indian
+Vice-President
+American
+Vice-President
+Becomes
+full
+President
+?
+❌ Acts
+temporarily till
+election
+✅ Becomes
+President for the
+remainder of
+term
+Constitutio
+nal
+powers?
+Limited –
+ceremonial &
+legislative
+Broader – next in
+line for full
+executive power
+Role in
+Upper
+House
+✅ Chairman of
+Rajya Sabha
+✅ President of
+Senate
+Due to limited role, some scholars nickname
+Indian VP as “His Superfluous Highness”
+Conclusion
+● Although the Vice-President's role is
+limited, the office:
+○ Ensures constitutional continuity
+○ Has critical importance during
+Presidential vacancies
+○ Plays a pivotal role as Chairman of
+Rajya Sabha
+Prime Minister of India –
+Constitutional Position
+● Under India’s parliamentary system, the
+President is the nominal (de jure)
+executive, and the Prime Minister Is the
+real (de facto) executive.
+● The President is the Head of State.
+● The Prime Minister is the Head of
+Government.
+Appointment of the Prime
+Minister (Article 75)
+Constitutional Provision:
+● Article 75: “The Prime Minister shall be
+appointed by the President.”
+● ❌ No detailed procedure mentioned in the
+Constitution.
+● Bound by convention of parliamentary
+system to appoint leader of the majority
+party in Lok Sabha.
+Situations of Appointment:
+1. Clear Majority Situation:
+● President must appoint the leader of the
+majority party in Lok Sabha.
+2. Hung Parliament (No Clear Majority):
+● President uses personal discretion.
+● Generally appoints:
+○ Leader of largest party or
+coalition.
+○ Requires them to prove majority in
+Lok Sabha within a month.
+Example:
+● 1979 – President Neelam Sanjiva Reddy
+appointed Charan Singh as PM after fall of
+Morarji Desai govt.
+3. Sudden Death of PM (No Obvious
+Successor):
+● President exercises individual judgment.
+Example:
+● 1984 – After Indira Gandhi’s
+assassination, President Zail Singh
+appointed Rajiv Gandhi without waiting for
+formal party election.
+Other Instances:
+● Jawaharlal Nehru and Lal Bahadur
+Shastri's deaths → President appointed
+Gulzari Lal Nanda as interim PM until
+Congress elected a new leader.
+Delhi High Court Judgment (1980):
+● Constitution does not require that PM must
+prove majority before appointment.
+● PM can be appointed first and then asked to
+prove majority within a reasonable period.
+Examples of such appointments:
+● Charan Singh (1979)
+● V.P. Singh (1989)
+● Chandrasekhar (1990)
+● P.V. Narasimha Rao (1991)
+● A.B. Vajpayee (1996, 1998)
+● Deve Gowda (1996)
+● I.K. Gujral (1997)
+Supreme Court Judgment (1997):
+● A person who is not a Member of
+Parliament can be appointed Prime
+Minister.
+● Must get elected to either Lok Sabha or
+Rajya Sabha within 6 months, or else
+ceases to be PM.
+Membership of Parliament
+● PM can be from either Lok Sabha or
+Rajya Sabha.
+● Examples of Rajya Sabha PMs:
+○ Indira Gandhi (1966)
+○ H.D. Deve Gowda (1996)
+○ Dr. Manmohan Singh (2004)
+📌 Britain's convention: PM must be
+from the House of Commons (Lower
+House)
+Key Takeaways for Exam:
+Scenario President’s Action
+Clear Lok
+Sabha Majority
+Appoints leader of majority
+party
+Hung
+Parliament
+Uses discretion, usually invites
+largest coalition
+Sudden Death
+of PM
+Uses judgment to appoint
+temporary or likely successor
+PM Not MP Can be appointed, but must
+become MP within 6 months
+Rajya Sabha
+Member
+Eligible to be PM
+Oath:
+● Administered by President.
+● Swears to:
+1. Bear true faith to Constitution.
+2. Uphold sovereignty.
+3. Discharge duties faithfully.
+4. Do justice to all without fear/favor.
+● Oath of Secrecy: Not to reveal matters
+known as minister.
+Term:
+● Not fixed.
+● Holds office during President’s pleasure,
+i.e., till enjoys Lok Sabha majority.
+Salary:
+● As per Parliament’s law.
+● Same as MP + perks: allowance,
+accommodation, travel, medical, etc.
+Powers & Functions
+In Relation to Council of Ministers:
+1. Recommends minister appointments.
+2. Allocates/reallocates portfolios.
+3. Can demand resignation or advise
+dismissal.
+4. Chairs CoM meetings.
+5. Coordinates work of all ministries.
+6. PM’s resignation → Entire CoM dissolved.
+In Relation to the President:
+1. Principal communication link (Article 78).
+○ Informs President of CoM decisions.
+○ Submits matter for reconsideration if
+required.
+2. Advises appointment of:
+○ AGI, CAG, UPSC members, EC,
+Finance Commission, etc.
+In Relation to Parliament:
+1. Leader of Lok Sabha.
+2. Advises President on Parliament sessions.
+3. Recommends Lok Sabha dissolution.
+4. Announces government policy.
+Other Roles:
+1. Chair of NITI Aayog, NIC, Inter-State
+Council, etc.
+2. Shapes foreign policy.
+3. Political head during crisis.
+4. Meets public, receives memoranda.
+5. Party leader.
+6. Political head of armed services.
+Dr. Ambedkar’s Remark:
+"If any functionary is to be compared to
+the US President, it is the Indian Prime
+Minister, not the President."
+Views of Eminent Scholars (Role
+Descriptions)
+Thinker/Sc
+holar
+Description of PM
+Lord
+Morley
+“Primus inter pares” (first among
+equals); “Keystone of the Cabinet
+arch”
+Herbert
+Morrison
+PM is too powerful to be called just
+'first among equals'
+Sir William
+Harcourt
+PM is “inter stellas luna minores”
+(a moon among lesser stars)
+Jennings PM is like the Sun, other ministers
+revolve like planets
+H.J. Laski PM is the pivot—central to
+Cabinet’s formation, life, and death
+H.R.G.
+Greaves
+Government is master of country;
+PM is master of Government
+Munro Captain of the ship of the state
+Ramsay
+Muir
+Steersman of the ship of the state
+R.H.
+Crossman
+Post-WWII: Cabinet government
+became PM government
+Humphrey
+Berkeley
+Parliamentary democracy at
+Westminster has collapsed due to
+PM’s superpowers
+These descriptions are equally applicable to the
+Indian Prime Minister.
+Relationship with the President (Articles
+74, 75, 78)
+🧾 Article 74:
+● CoM with PM at the head shall aid and
+advise the President.
+● President must act on this advice (after
+reconsideration if needed).
+🧾 Article 75:
+● PM appointed by President.
+● Ministers appointed by President on PM’s
+advice.
+● Ministers hold office during pleasure of
+President.
+● CoM collectively responsible to Lok Sabha.
+🧾 Article 78:
+● PM’s duties to President:
+1. Communicate all CoM decisions.
+2. Furnish required info on Union
+affairs.
+3. Present matters for CoM discussion
+if President requests.
+Conclusion:
+The PM of India is the nerve-centre of
+the Indian polity.
+Dr. Ambedkar: “If any functionary is to
+be compared with the US President, it
+is the Prime Minister, not the President
+of the Union.”
+Chief Ministers Who Became Prime
+Ministers
+Six individuals who served as Chief Ministers
+before becoming Prime Ministers:
+Prime
+Minister
+State as
+CM
+Tenur
+e as
+CM
+Tenur
+e as
+PM
+Remark
+Morarji
+Desai
+Bombay
+State
+1952–
+1956
+March
+1977 –
+July
+1979
+First
+non-Co
+ngress
+PM
+Charan
+Singh
+Uttar
+Pradesh
+1967–
+1968,
+1970
+July
+1979 –
+Januar
+y 1980
+Succee
+ded
+Morarji
+Desai
+V.P.
+Singh
+Uttar
+Pradesh
+1980–
+1982
+Dece
+mber
+1989 –
+Nove
+mber
+1990
+Led
+Nationa
+l Front
+Govt
+P.V.
+Narasim
+ha Rao
+Andhra
+Pradesh
+1971–
+1973
+1991 –
+1996
+First
+South
+Indian
+PM
+H.D.
+Deve
+Gowda
+Karnata
+ka
+1994–
+1996
+June
+1996 –
+April
+1997
+Led
+United
+Front
+Govt
+Narendr
+a Modi
+Gujarat 2001 –
+2014
+May
+2014 –
+Prese
+nt
+Longest
+-serving
+CM to
+become
+PM
+Caretaker Government in India
+Definition & Meaning:
+● No explicit provision in the Constitution.
+● It is a situational arrangement made
+necessary by:
+○ Dissolution of Lok Sabha
+○ Or loss of confidence in the
+existing government.
+Characteristics:
+1. Operates between two elected
+governments.
+2. Created when:
+○ Existing government resigns/losses
+majority.
+○ President asks them to continue till
+elections/new govt formation.
+3. Objective: Ensure free, fair elections and
+administrative continuity.
+Functional Scope:
+A caretaker government should only manage
+routine affairs. It should not:
+1. Initiate new policies/projects
+2. Announce allowances/salary hikes/loans
+3. Host official functions
+4. Make major appointments or take
+strategic decisions
+Key Guidelines:
+Tharkunde Committee (1974–75):
+● Recommends caretaker govt must not:
+○ Initiate new policies
+○ Launch new schemes
+○ Grant salary hikes or loans
+○ Hold official political functions
+Constitutional Commentary:
+1. No formal accountability to Parliament,
+as it stands dissolved.
+2. Must ensure no misuse of power for
+electoral advantage.
+Rajeev Dhavan’s View:
+“Caretaker PMs are constrained:
+● No Parliament to check them.
+● Cannot misuse authority to win
+elections.”
+Key Sources & Observations:
+● J.C. Johari: "Caretaker government is a
+functional necessity in the Indian system."
+● Subhash Kashyap: Describes it as a
+temporary holding arrangement.
+● JP Movement's Tharkunde Committee:
+Informally shaped the caretaker norms.
+Council of Ministers &
+Constitutional
+Provisions
+1. Parliamentary System in
+India
+● India follows the British parliamentary
+system, but it is adapted to Indian
+conditions.
+● The real executive authority in India is the
+Council of Ministers headed by the Prime
+Minister.
+● The system is described only broadly in the
+Constitution through:
+○ Article 74 – Status of Council of
+Ministers
+○ Article 75 – Appointment, tenure,
+salary, oath, qualifications
+2. Constitutional Provisions
+(Articles 74 to 88)
+Article 74 – Council of Ministers to Aid &
+Advise the President
+1. There shall be a Council of Ministers with
+the Prime Minister at the head to aid and
+advise the President.
+2. President must act according to this
+advice. However:
+○ President can ask for
+reconsideration once.
+○ After reconsideration, President
+must accept the advice.
+3. The advice is confidential – it cannot be
+questioned in court.
+Article 75 – Other Provisions as to
+Ministers
+1. Prime Minister is appointed by the
+President.
+Other ministers are appointed by the
+President on the advice of the Prime
+Minister.
+2. Total number of ministers (including PM)
+must not exceed 15% of Lok Sabha
+strength.
+▪️ Inserted by 91st Constitutional
+Amendment Act, 2003
+3. A disqualified MP under anti-defection is
+ineligible to become a minister.
+▪️ Also added by 91st Amendment Act, 2003
+4. Ministers hold office during the pleasure of
+the President.
+5. Collective Responsibility – Council of
+Ministers is collectively responsible to Lok
+Sabha.
+6. Oath of office and secrecy is administered
+by the President.
+7. A non-MP can be appointed Minister but
+must get elected/ nominated to either House
+within 6 months, else ceases to be
+Minister.
+8. Salaries and allowances of Ministers are
+decided by Parliament.
+Article 77 – Conduct of Government
+Business
+1. All executive actions shall be in the name
+of the President.
+2. Instruments/orders made in President’s
+name must be authenticated as per rules
+made by the President.
+3. President can make rules for transaction
+of business and allocation of work
+among ministers.
+Article 78 – Duties of the Prime Minister
+Prime Minister must:
+1. Communicate decisions of the Council of
+Ministers to the President.
+2. Furnish information on Union affairs when
+the President demands.
+3. If the President requires, submit any
+matter to CoM, even if a single Minister has
+already decided it.
+Article 88 – Rights of Ministers in
+Parliament
+● Every Minister has the right to:
+○ Speak and participate in
+proceedings of either House or any
+Parliamentary Committee.
+○ But can only vote in the House
+they are a member of.
+3. Nature of Advice by
+Ministers
+● Binding on the President:
+○ Made binding by 42nd Amendment
+Act (1976).
+○ 44th Amendment Act (1978)
+allowed President to send advice for
+reconsideration.
+● Cannot be challenged in court –
+reinforces confidentiality and executive
+privilege.
+Key Judgements:
+V.N. Shukla vs. Indira Gandhi (1971)
+● Council of Ministers remains even after
+dissolution of Lok Sabha.
+● President cannot exercise executive
+powers without CoM advice.
+● Executive actions without aid/advice =
+unconstitutional under Article 74.
+Shamsher Singh vs. State of Punjab (1974)
+● “Satisfaction of the President =
+Satisfaction of Council of Ministers”.
+● It is not personal satisfaction, but
+constitutional/collective satisfaction.
+4. Appointment of Ministers
+● PM is appointed by the President.
+● All other Ministers are appointed by the
+President on the advice of the PM.
+● Usually, MPs (Lok Sabha or Rajya Sabha)
+are appointed as Ministers.
+● A non-MP can be appointed, but:
+○ Must get elected/nominated to
+either House within 6 months.
+○ Failing which, they cease to be a
+Minister.
+● A Minister can:
+○ Speak and participate in both
+Houses.
+○ But can vote only in the House to
+which they belong.
+Caretaker Government
+● Not defined in Constitution – a situational
+arrangement.
+● Created after dissolution of Lok Sabha
+and continues till new government is
+formed.
+● Also used when government loses
+confidence but President asks it to
+continue temporarily.
+Role Restrictions:
+● Should NOT:
+○ Initiate new policies
+○ Announce new projects
+○ Make appointments or major
+decisions
+Thrkundé Committee (1974–75):
+● Recommended constraints on caretaker
+govt actions.
+1979 Example:
+● President N. Sanjeeva Reddy ensured:
+○ Peaceful polls
+○ No new spending/policy
+○ Only urgent national interest work
+allowed
+Judicial Observation:
+● Calcutta HC (1979) – Constitutionally
+undefined but functionally necessary.
+Oath and Salary of Ministers
+● Administered by President.
+Oath of Office Includes:
+1. Faith to Constitution
+2. Sovereignty of India
+3. Duties of Office
+4. No fear/favour in justice
+Oath of Secrecy:
+● No communication of official matters unless
+duty-bound.
+Important Case:
+● Devi Lal (1990) oath as Deputy PM
+challenged → SC upheld it; title descriptive
+only, no constitutional status.
+Salary:
+● As per Salaries and Allowances of
+Ministers Act, 1952
+● Equal to MPs, plus:
+○ Sumptuary allowance
+○ Free residence
+○ Travel & medical facilities
+2001 Allowance Increase:
+● PM: ₹3,000/month
+● Cabinet Min: ₹2,000
+● MoS: ₹1,000
+● Deputy Min: ₹600
+Responsibility of Ministers
+Collective Responsibility (Article 75)
+● CoM is collectively responsible to Lok
+Sabha.
+● If No-confidence motion passed → Entire
+CoM including RS members must resign.
+● Cabinet decisions bind all ministers.
+Examples:
+● B.R. Ambedkar – Resigned over Hindu
+Code Bill
+● C.D. Deshmukh – Over state
+reorganization
+● Arif Mohammad Khan – Over Muslim
+Women Bill (1986)
+Individual Responsibility
+● Ministers hold office during President's
+pleasure (Article 75).
+● PM can advise removal of any minister.
+● PM ensures enforcement of collective
+responsibility.
+B.R. Ambedkar in Constituent Assembly:
+"Collective responsibility can be
+achieved only through the Prime
+Minister's authority to nominate and
+dismiss ministers."
+No Legal Responsibility (Unlike UK)
+● In UK, orders of King are countersigned by
+ministers → Legally responsible.
+● In India, no legal responsibility; courts
+cannot question nature of ministerial
+advice (Article 74).
+Composition of Council of
+Ministers
+Category Features
+Cabinet
+Ministers
+Senior-most; head major
+ministries; attend Cabinet
+meetings; collective
+decision-making
+Ministers of
+State (MoS)
+Can have independent
+charge or be attached to
+Cabinet Minister
+Deputy
+Ministers
+Assist Cabinet/MoS; no
+independent charge
+Parliamentary
+Secretaries
+Not formal CoM members;
+appointed by PM; assist in
+legislative duties
+Council of Ministers vs.
+Cabinet
+Feature Council of
+Ministers
+Cabinet
+Size Wider body Smaller body
+Members All three
+categories
+(Cabinet, MoS,
+Deputy)
+Only Cabinet
+Ministers
+Meetings Doesn’t meet
+collectively
+Meets weekly
+for
+decision-makin
+g
+Functions Theoretical
+authority
+Practical
+executive
+authority
+Role Implements
+Cabinet
+decisions
+Makes major
+policy
+decisions
+Status Constitutional
+(Art 74, 75);
+size capped at
+15% LS
+strength
+Defined in Art
+352 (44th
+CAA); function
+based on
+convention
+Accountabilit
+y
+Responsible to
+Lok Sabha
+Enforces
+CoM's
+responsibility
+Composition of the Council of
+Ministers (Union Government)
+Constitutional Basis
+● Provided under Article 74 & 75 of the
+Constitution.
+● PM is the head of the Council of Ministers.
+● Council is a three-tier body, based on
+British conventions.
+Categories of Ministers
+1. Cabinet Ministers
+● Top-ranking ministers.
+● Handle major ministries: Home, Defence,
+Finance, External Affairs, etc.
+● Members of the Cabinet – attend regular
+meetings.
+● Involved in core policy-making and
+national decisions.
+● Collectively responsible for government
+decisions.
+2. Ministers of State (MoS)
+● Two types:
+○ With Independent Charge
+■ Heads a ministry/department
+independently.
+■ Has same
+functions/powers as
+cabinet minister in their
+domain.
+■ Not cabinet members,
+attend cabinet meetings only
+when invited.
+○ Attached to Cabinet Ministers
+■ Assigned specific
+departments/work under a
+Cabinet Minister.
+■ Works under guidance and
+supervision of cabinet
+minister.
+3. Deputy Ministers
+● Junior-most ministers.
+● Assist Cabinet or MoS in administrative,
+political, and parliamentary work.
+● No independent charge.
+● Not cabinet members, do not attend
+cabinet meetings.
+Special Designations
+Prime Minister
+● Supreme authority among all ministers.
+● Leads the Council and coordinates
+government functioning.
+Deputy Prime Minister
+● Not mentioned in the Constitution.
+● Appointed for political reasons (e.g.,
+coalition balancing).
+● Holds the rank of Cabinet Minister.
+● No additional constitutional powers.
+Parliamentary Secretaries
+● Not part of the Council of Ministers.
+● Appointed by the Prime Minister, not by
+the President.
+● No control over departments.
+● Attached to senior ministers to assist in
+parliamentary duties.
+● Function as junior political aides.
+Role of the Cabinet
+1. Highest decision-making authority in the
+politico-administrative system.
+2. Chief policy-formulating body of the
+Central Government.
+3. Supreme executive authority of the
+Central Government.
+4. Chief coordinator of Central
+Administration.
+5. Advisory body to the President (whose
+advice is binding).
+6. Crisis manager – handles emergency
+situations.
+7. Deals with all major legislative and
+financial matters.
+8. Exercises control over higher
+appointments (constitutional posts and
+secretaries).
+9. Deals with all foreign affairs and policies.
+Eminent Observations on
+Cabinet's Role
+Thinker Description of Cabinet
+Ramsay
+Muir
+“Steering wheel of the ship of the
+state.”
+Lowell “Keystone of the political arch.”
+Sir John
+Marriott
+“Pivot around which the whole
+political machinery revolves.”
+Gladstone “Solar orb around which other
+bodies revolve.”
+Barker “Magnet of policy.”
+Bagehot “Hyphen that joins, the buckle that
+binds the executive and
+legislature.”
+Sir Ivor
+Jennings
+“Core of the constitutional
+system.”
+L.S. Amery “Central directing instrument of
+Government.”
+Ramsay Muir even called it a “Dictatorship of the
+Cabinet” due to its immense powers when it
+enjoys majority.
+Kitchen Cabinet (Inner
+Cabinet)
+Definition:
+An extra-constitutional body comprising the PM
+and a few trusted colleagues, friends, or even
+family members (insiders or outsiders), who advise
+the PM informally on critical political and
+administrative matters.
+Features:
+● Smaller and more flexible than formal
+cabinet.
+● Includes both cabinet members and
+non-officials (e.g., personal aides).
+● Became prominent during Indira Gandhi’s
+era.
+Merits:
+1. Efficient decision-making due to smaller
+size.
+2. Meets frequently and informally.
+3. Maintains secrecy on sensitive matters.
+4. Facilitates quick response in emergencies.
+Demerits:
+1. Undermines authority of the formal
+Cabinet.
+2. Circumvents legal and democratic
+accountability.
+3. Allows non-elected persons to influence
+government decisions.
+4. Promotes centralization of power in the
+hands of PM and close allies.
+Global Context:
+● Exists in USA and UK as well.
+● Known as “President’s Kitchen Cabinet”
+in USA.
+CABINET COMMITTEES –
+Overview
+Key Features
+1. Extra-Constitutional in Nature:
+○ Not mentioned in the Constitution.
+○ Established under the Rules of
+Business.
+2. Types:
+○ Standing Committees: Permanent.
+○ Ad hoc Committees: Temporary,
+constituted for specific purposes
+(e.g., 1962 Emergency Committee
+after Chinese invasion).
+3. Created by the Prime Minister:
+○ Based on situational
+requirements.
+○ Number, composition, and
+nomenclature change over time.
+4. Membership:
+○ Usually includes Cabinet Ministers.
+○ Can include non-Cabinet Ministers
+or special invitees.
+5. Composition Principle:
+○ Includes both concerned ministers
+and other senior ministers.
+6. Chairmanship:
+○ Usually chaired by the Prime
+Minister.
+○ In PM’s presence, he/she always
+presides.
+7. Powers and Functions:
+○ Prepares proposals for Cabinet
+approval.
+○ Can also take decisions directly
+(subject to Cabinet review).
+8. Purpose:
+○ Reduces Cabinet workload.
+○ Allows in-depth analysis, effective
+coordination and division of
+labour.
+List of Current (8) Cabinet
+Committees
+S.
+No.
+Cabinet
+Committee
+Name
+Key Functions
+1. Cabinet
+Committee on
+Political
+Affairs
+Deals with all major
+policy matters related to
+domestic & foreign
+affairs. (Known as Super
+Cabinet)
+2. Cabinet
+Committee on
+Economic
+Affairs
+Coordinates all economic
+policies and planning
+functions.
+3. Appointments
+Committee of
+the Cabinet
+Makes all senior-level
+appointments (e.g.,
+secretaries, PSU heads,
+bank chiefs).
+4. Cabinet
+Committee on
+Parliamentary
+Affairs
+Manages the legislative
+business and scheduling
+in Parliament.
+5. Cabinet
+Committee on
+Security
+Handles issues of
+defence, internal security,
+atomic energy, and law &
+order.
+6. Cabinet
+Committee on
+Accommodati
+on
+Deals with allotment of
+govt. accommodation to
+MPs, officers, and
+bodies.
+7. Cabinet
+Committee on
+Investment
+and Growth
+Focuses on boosting
+capital investment, ease
+of doing business, import
+substitution.
+8. Cabinet
+Committee on
+Employment
+& Skill
+Development
+Enhances skill
+development, workforce
+participation (especially
+women).
+Most Powerful Committee
+● Cabinet Committee on Political Affairs
+○ Referred to as the "Super Cabinet"
+due to its wide-ranging
+decision-making authority.
+GROUPS OF MINISTERS
+(GoMs)
+About GoMs
+● Ad hoc bodies formed to:
+○ Recommend policy on specific
+complex issues.
+○ Coordinate inter-ministerial
+concerns.
+● May be empowered to make decisions or
+may merely recommend to the Cabinet.
+● Constituted by the Prime Minister.
+● Include relevant ministers from concerned
+departments.
+● Disbanded once the assigned task is
+completed.
+Observations of Second
+Administrative Reforms
+Commission (ARC)
+Problems Noted:
+1. Too many GoMs → Inefficient functioning
+and delays.
+2. Several GoMs failed to meet regularly.
+3. Resulted in sluggish decision-making on
+crucial matters.
+Recommendations:
+1. Use GoMs selectively, not indiscriminately.
+2. Where necessary, empower GoMs to take
+decisions on behalf of the Cabinet.
+3. Prescribe clear mandates and fixed
+timelines for each GoM.
+4. Ensure GoMs function as effective
+coordination tools.
+State Executive – Constitution of India
+(Part VI, Articles 153 to 167)
+1. Pattern of Government in States
+● Constitution of India envisages same
+pattern of government in the states as that
+for the Centre: Parliamentary system.
+● Part VI of the Constitution deals with
+government in the states.
+● Articles 153 to 167 in Part VI deal with the
+State Executive.
+2. Composition of State Executive
+● State Executive consists of:
+1. Governor
+2. Chief Minister
+3. Council of Ministers
+4. Advocate General of the State
+● There is no office of Vice-Governor, unlike
+the Vice-President at the Centre.
+3. Governor – Position and Role
+● The Governor is the Chief Executive Head
+of the state.
+● Like the President, the Governor is a
+nominal executive head (titular or
+constitutional head).
+● The Governor acts as an agent of the
+Central Government.
+● Thus, the office of Governor has a dual
+role:
+○ Nominal Head of State
+○ Agent of Centre
+4. One Governor for Multiple States
+● 7th Constitutional Amendment Act, 1956:
+Facilitated the appointment of the same
+person as Governor for two or more
+states.
+Appointment of Governor
+1. Mode of Appointment
+● The Governor is not elected (neither
+directly by people nor indirectly by an
+electoral college).
+● He/she is appointed by the President by
+warrant under his/her hand and seal.
+● Effectively, the Governor is a nominee of
+the Central Government.
+2. Supreme Court Ruling – Hargovind Pant Case
+(1979)
+● Held that:
+○ The office of Governor is not an
+employment under the Central
+Government.
+○ It is an independent constitutional
+office.
+○ The Governor is not under control
+or subordinate to the Central
+Government.
+Constituent Assembly Debate – Why Not
+Direct Election?
+● The Draft Constitution had proposed
+direct election of the Governor based on
+universal adult suffrage.
+● However, the Constituent Assembly
+rejected this and adopted the present
+appointment-based system for the
+following reasons:
+Reasons Against Direct Election:
+1. Incompatibility with Parliamentary
+System
+○ Direct election contradicts the
+parliamentary system adopted in
+the states.
+2. Potential Conflicts
+○ Directly elected Governor may come
+into conflict with the Chief
+Minister, leading to power tussles.
+3. Unnecessary Expenditure
+○ Governor is a nominal
+(constitutional) head.
+○ Hence, elaborate election
+mechanism and huge expenditure
+is unwarranted.
+Case Law Mentioned
+● Hargovind Pant vs. Raghukul Tilak
+(1979): Landmark judgment affirming the
+constitutional independence of the
+Governor’s office from the Central
+Government.
+GOVERNOR OF A STATE –
+INDIAN CONSTITUTION
+I. REJECTION OF DIRECT ELECTION
+MODEL
+The Constituent Assembly rejected the American
+model (directly elected Governor) and accepted the
+Canadian model (Governor appointed by Centre)
+due to:
+1. Personalization of Elections
+→ Governor’s election would revolve
+around personal issues.
+2. Not in National Interest
+→ Involving large electorate for such a
+nominal post is unnecessary.
+3. Lack of Neutrality
+→ An elected Governor would belong to a
+political party and lack impartiality.
+4. Risk of Separatism
+→ Could fuel separatist tendencies,
+affecting unity and stability.
+5. Undermining Centre’s Control
+→ Presidential nomination helps Centre
+maintain control over states.
+6. Leadership Crisis
+→ At general elections, parties may struggle
+to find quality candidates.
+7. Political Interference
+→ CM may push for party loyalist; likely to
+result in second-rate leadership.
+Hence, Canadian model (appointment by Centre)
+was adopted instead of the American model.
+II. QUALIFICATIONS, OATH &
+CONDITIONS
+A. Qualifications for Governor (Article 157)
+1. Must be a citizen of India.
+2. Must be at least 35 years of age.
+B. Sarkaria Commission (1983–88)
+Recommendations
+1. Criteria for selection:
+○ Eminent in some walk of life.
+○ From outside the concerned state.
+○ Detached figure, not involved in
+state politics.
+○ Should not be active in politics in the
+recent past.
+2. Ruling party member at Centre should not
+be appointed in states ruled by other
+parties.
+3. Constitution should mandate consultation
+with CM via amendment to Article 155.
+4. PM may consult Vice-President and
+Speaker of Lok Sabha (informal,
+confidential).
+C. Oath or Affirmation
+● Administered by Chief Justice of the High
+Court (or senior-most judge).
+● Contents of oath:
+○ Faithfully execute office.
+○ Preserve, protect, and defend the
+Constitution and the law.
+○ Serve the people of the state.
+III. CONDITIONS OF OFFICE
+1. Cannot be Member of Parliament or State
+Legislature (vacates seat upon assuming
+office).
+2. Cannot hold any other office of profit.
+3. Entitled to official residence (Raj Bhavan)
+rent-free.
+4. Emoluments, allowances, and privileges
+determined by Parliament.
+5. Salary shared proportionately if Governor
+of multiple states.
+6. Salary cannot be diminished during
+tenure.
+7. Immunities:
+○ Personal immunity from legal liability
+for official acts.
+○ Immune from criminal proceedings,
+even for personal acts.
+○ Civil proceedings allowed with two
+months’ prior notice.
+8. 2018 Salary Update:
+○ Increased from ₹1.10 lakh to ₹3.50
+lakh/month
+(Finance Act, 2018; effective 1 Jan
+2016)
+IV. TERM OF OFFICE (Article 156)
+1. Holds office for 5 years from date of
+assumption.
+2. Holds office at the pleasure of the
+President (can be removed earlier).
+3. Can resign by writing to the President.
+4. No fixed grounds for removal; entirely at
+President’s discretion.
+Judgment:
+● Surya Narain vs. Union of India (1981):
+“Pleasure of President is not justiciable.”
+5. Post-tenure Continuation:
+○ Can continue beyond 5 years until
+successor assumes charge.
+○ Prevents administrative vacuum.
+6. Transfer/Reappointment:
+○ Can be transferred to another
+state.
+○ Can be reappointed in same or
+another state.
+7. In extraordinary contingencies (e.g.
+death), President can make temporary
+arrangements like appointing Chief Justice
+of High Court to discharge Governor’s
+functions.
+V. POWERS AND FUNCTIONS OF
+GOVERNOR
+No Diplomatic, Military or Emergency
+Powers like the President.
+A. Executive Powers
+1. All executive actions in the Governor’s
+name.
+2. Can specify authentication rules for
+orders/instruments.
+3. Can make rules for transaction of
+business and allocation among ministers.
+4. Appoints:
+○ Chief Minister and Council of
+Ministers (holds office during
+pleasure).
+○ Tribal Welfare Minister (in
+Chhattisgarh, Jharkhand, MP,
+Odisha).
+(Bihar excluded via 94th
+Amendment, 2006)
+5. Appoints:
+○ Advocate General (remuneration,
+tenure at Governor’s pleasure).
+○ State Election Commissioner
+(removal only like High Court judge).
+○ Chairman & Members of State
+PSC (removal only by President).
+6. Can seek information from CM on
+administration/legislation.
+7. Can require CM to bring any matter before
+the Council of Ministers.
+8. Can recommend President’s Rule under
+Article 356.
+9. Acts as Chancellor of State Universities,
+appoints Vice-Chancellors.
+B. Legislative Powers
+1. Can summon, prorogue, dissolve the
+State Legislature.
+2. Addresses first session after general
+election and each year.
+3. Can send messages to the Legislature.
+4. Can appoint presiding officers when
+Speaker/Deputy Speaker or
+Chairman/Deputy Chairman posts are
+vacant.
+5. Nominates 1/6th members of Legislative
+Council (expert fields).
+6. Nominated 1 Anglo-Indian member to
+Legislative Assembly
+(Repealed by 104th Amendment, 2019)
+7. Decides disqualification of members in
+consultation with EC.
+8. When a bill is passed, Governor can:
+○ Assent to it.
+○ Withhold assent.
+○ Return it (if not a money bill).
+○ Reserve it for President’s
+consideration:
+■ Mandatory: If it endangers
+High Court’s position.
+■ Optional (per Soli
+Sorabjee):
+■ Ultra vires
+Constitution.
+■ Opposes DPSPs.
+■ Against national
+interest.
+■ Of grave national
+importance.
+■ Compulsory
+acquisition under
+Article 31A.
+9. Can promulgate Ordinances when
+Legislature is not in session.
+○ Must be approved within 6 weeks of
+reassembly.
+○ Can withdraw anytime.
+10. Supreme Court: D.C. Wadhwa Case (1986)
+● Repeated re-promulgation of Ordinances
+violates the Constitution.
+● Ordinance-making power cannot replace
+the legislative process.
+11. Lays reports before Legislature:
+● State Finance Commission
+● State Public Service Commission
+● Comptroller & Auditor-General (CAG) –
+State Accounts
+C. Financial Powers
+1. Ensures Annual Financial Statement
+(Budget) is presented.
+2. Money Bills can only be introduced with
+his/her prior recommendation.
+3. No demand for grant can be made without
+Governor’s recommendation.
+4. Can make advances from Contingency
+Fund.
+5. Constitutes State Finance Commission
+every 5 years to review financial health of
+Panchayats and Municipalities.
+JUDICIAL POWERS OF THE
+GOVERNOR
+The Governor of a State in India exercises certain
+judicial powers, mostly derived from the
+Constitution and are analogous to the
+President’s powers at the central level, though
+restricted to matters within the executive power of
+the state.
+I. Judicial Powers and Functions
+1. Power to Grant Clemency (Article 161)
+○ Governor can:
+■ Pardon
+■ Reprieve
+■ Respite
+■ Remit
+■ Suspend
+■ Commute
+○ These powers apply to persons
+convicted of offences against any
+law relating to a matter under the
+executive power of the state.
+2. Consultation in High Court
+Appointments
+○ The President consults the
+Governor while appointing Judges
+of the High Court of the concerned
+state.
+3. Appointment of District Judges (Article
+233)
+○ Governor makes appointments,
+postings, and promotions of
+district judges in consultation
+with the High Court of the state.
+4. Appointment to State Judicial Service
+(Article 234)
+○ Governor appoints judicial officers
+(other than district judges):
+■ In consultation with:
+■ State High Court
+■ State Public Service
+Commission
+II. RESERVED BILL FOR
+PRESIDENT – PROCEDURE &
+PRESIDENT’S OPTIONS
+When a bill passed by a State Legislature is
+reserved by the Governor for the President’s
+consideration, the following process ensues:
+A. President's Options (Article 200 and
+201)
+1. Assent to the Bill
+→ Bill becomes law (Act).
+2. Withhold Assent
+→ Bill fails and does not become law.
+3. Return the Bill to State Legislature for
+Reconsideration
+○ Must be reconsidered within 6
+months by the House or Houses.
+○ If the bill is passed again (with or
+without amendments) and sent back
+to the President:
+■ The President is not bound
+to give assent.
+■ The President may give or
+withhold assent.
+B. Governor’s Role After Reservation
+● Once a bill is reserved by the Governor:
+○ The Governor plays no further
+role in its enactment.
+○ If the President returns the bill and
+it is repassed by the legislature:
+■ It must be resent to the
+President, not the
+Governor.
+○ If the President gives assent, it
+becomes an Act of the State
+Legislature.
+○ Governor’s assent is no longer
+required at any stage after
+reservation
+ASSENT PROCEDURE FOR
+MONEY BILLS – PRESIDENT
+VS GOVERNOR
+I. PRESIDENT’S ASSENT TO A MONEY
+BILL (CENTRE)
+Constitutional Process:
+● After a Money Bill is passed by both
+Houses of Parliament (or just Lok Sabha in
+case of Rajya Sabha delay), it is presented
+to the President for assent.
+President’s Options (Only Two):
+1. ✅ Give Assent
+→ The bill becomes an Act (law).
+2. ❌ Withhold Assent
+→ The bill fails and does not become an
+Act.
+President CANNOT return a Money
+Bill for reconsideration by Parliament.
+Reason:
+● A Money Bill is introduced in the
+Parliament only with the prior
+recommendation of the President (Article
+110 + Article 117).
+Therefore, normally the President gives assent to
+the bill after its passage.
+II. GOVERNOR’S ASSENT TO A MONEY
+BILL (STATE)
+Constitutional Process:
+● After a Money Bill is passed by the State
+Legislature (whether unicameral or
+bicameral), it is presented to the
+Governor for assent.
+Governor’s Options (Three):
+1. ✅ Give Assent
+→ The bill becomes an Act (law).
+2. ❌ Withhold Assent
+→ The bill fails and does not become an
+Act.
+3. Reserve the Bill for President's
+Consideration
+→ The Governor can refer the money bill
+to the President for final decision.
+Governor also CANNOT return a
+Money Bill to the State Legislature
+for reconsideration.
+Reason:
+● A Money Bill in the State Legislature is
+introduced only with the Governor’s prior
+permission.
+Hence, in practice, the Governor usually gives
+assent to the money bill.
+Comparison Table – Money Bill Assent
+Process
+Feature President
+(Centre)
+Governor
+(State)
+Assent options 1. Assent
+2. Withhold
+1. Assent
+2. Withhold
+3. Reserve
+Can return for
+reconsideration
+?
+❌ No ❌ No
+Prior
+permission
+needed before
+introduction?
+✅ Yes ✅ Yes
+Can reserve for
+President?
+❌ Not
+Applicable
+✅ Yes
+Assent is
+normally given?
+✅ Yes, due
+to prior
+recommend
+ation
+✅ Yes, due
+to prior
+recommendati
+on
+MONEY BILL RESERVED FOR
+PRESIDENT – PROCEDURE &
+CONSEQUENCES
+When a Money Bill is Reserved by the
+Governor:
+● After a Money Bill is passed by the State
+Legislature (either unicameral or
+bicameral), it is presented to the Governor.
+● The Governor has three options:
+1. ✅ Give assent
+2. ❌ Withhold assent
+3. Reserve the Bill for President’s
+consideration
+President’s Options on a Reserved
+Money Bill:
+Once the Governor reserves the Money Bill for the
+President’s consideration, the President has only
+two alternatives:
+1. ✅ Give Assent to the Bill
+→ The bill becomes an Act (law).
+2. ❌ Withhold Assent
+→ The bill fails and does not become an
+Act.
+Note: The President CANNOT return
+a Money Bill to the State Legislature
+for reconsideration.
+This is the same restriction that applies
+to Parliamentary Money Bills under
+Article 110.
+Governor’s Role After Reservation:
+● Once the Governor reserves the bill,
+he/she:
+○ Plays no further role in the
+legislative process.
+○ Cannot interfere or re-assent.
+● If the President gives assent, the bill
+becomes an Act.
+● If the President withholds assent, the bill
+fails.
+● Governor’s assent is no longer needed at
+any stage after reservation.
+Reserved Money Bill (State Level)
+Step Authority Action Consequen
+ce
+1 State
+Legislature
+Passes
+Money Bill
+Sent to
+Governor
+2 Governor Reserves
+the Bill
+Sent to
+President
+3 President Option 1:
+Gives
+assent
+✅ Bill
+becomes an
+Act
+Option 2:
+Withholds
+assent
+❌ Bill fails
+4 Governor No further
+role
+Cannot
+intervene
+ORDINANCE-MAKING POWER
+– PRESIDENT VS GOVERNOR
+This comparison outlines when and how the
+President and the Governor can promulgate
+ordinances, along with the scope, limitations,
+and legal status of these ordinances.
+I. PROMULGATION CONDITIONS
+Aspect President
+(Article 123)
+Governor (Article
+213)
+When can
+ordinance
+be issued?
+When both
+Houses of
+Parliament
+are not in
+session, or
+when either
+House is not
+in session.
+When Legislative
+Assembly (in
+unicameral state)
+is not in session,
+or when either
+House in
+bicameral state is
+not in session.
+Implication Law can be
+passed only
+when both
+Houses are
+in session;
+so, ordinance
+is allowed
+even if only
+one House
+is not in
+session.
+Same logic
+applies; ordinance
+valid even if only
+one House is not
+in session in
+bicameral states.
+II. SATISFACTION CRITERION
+Aspect President Governor
+Satisfaction
+Clause
+President
+must be
+satisfied
+that
+circumsta
+nces exist
+requiring
+immediate
+action.
+Governor must be
+satisfied that
+circumstances
+exist requiring
+immediate action.
+III. LEGISLATIVE SCOPE (Co-Extensive
+Power)
+Aspect President Governor
+Co-ext
+ensive
+power
+President’s
+ordinance power
+is co-extensive
+with Parliament's
+legislative
+power. He can
+issue ordinances
+on subjects on
+which Parliament
+can legislate (i.e.,
+Union and
+Concurrent Lists).
+Governor’s
+ordinance power
+is co-extensive
+with the State
+Legislature’s
+power. He can
+issue ordinances
+on subjects under
+the State List and
+Concurrent List.
+IV. LEGAL STATUS OF AN ORDINANCE
+Aspect President Governor
+Status
+of
+ordina
+nce
+Has same force
+and effect as an
+Act of
+Parliament.
+Has same force
+and effect as an
+Act of the State
+Legislature.
+V. Summary Table – Ordinance-Making
+Power
+Criteria President Governor
+Constitutional
+Article
+Article 123 Article 213
+When can it
+be issued?
+If both or
+either House
+of
+Parliament
+is not in
+session
+If Legislative
+Assembly or
+either House (if
+bicameral) is not
+in session
+Satisfied of
+urgency
+required?
+Yes,
+mandatory
+Yes, mandatory
+Legislative
+Scope
+Union &
+Concurrent
+List
+State &
+Concurrent List
+Legal Effect Act of
+Parliament
+Act of State
+Legislature
