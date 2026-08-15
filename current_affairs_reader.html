@@ -104,38 +104,6 @@
             border-color: var(--ink-blue);
         }
 
-        .pdf-btn:disabled {
-            opacity: 0.4;
-            cursor: not-allowed;
-        }
-
-        .pdf-page-indicator {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 14px;
-            font-weight: 600;
-            color: #1e293b;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .pdf-page-input {
-            width: 55px;
-            padding: 4px 6px;
-            text-align: center;
-            font-family: inherit;
-            font-size: 14px;
-            font-weight: 700;
-            border: 1px solid #cbd5e1;
-            border-radius: 6px;
-            outline: none;
-        }
-
-        .pdf-page-input:focus {
-            border-color: var(--ink-blue);
-            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
-        }
-
         /* Continuous Scroll Viewport Container */
         .pdf-viewport-container {
             background: #525659;
@@ -224,7 +192,7 @@
     <div class="notebook-container">
         <div class="paper-page">
 
-            <!-- Sub Navigation Bar -->
+            <!-- Sub Navigation Header -->
             <div class="sub-nav-bar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px;">
                 <a href="index.html" class="sub-back-btn">
                     ← Back to Main Dashboard
@@ -237,23 +205,22 @@
                 </a>
             </div>
 
-            <!-- PDF Controls Sticky Toolbar -->
+            <!-- PDF Controls Sticky Toolbar (Title, Back, Zoom In/Out) -->
             <div class="pdf-toolbar">
-                <div class="pdf-page-indicator">
-                    Page 
-                    <input type="number" id="page-num-input" class="pdf-page-input" value="1" min="1"> 
-                    of <span id="page-count-display">--</span>
+                <div class="pdf-btn-group">
+                    <span style="font-size: 14px; font-weight: 700; color: var(--ink-blue);">🔍 Zoom:</span>
+                    <button class="pdf-btn" id="zoom-out-btn" title="Zoom Out">
+                        🔍- Zoom Out
+                    </button>
+                    <span id="zoom-level-display" style="font-size: 13.5px; font-weight: 700; color: #1e293b; padding: 0 4px;">125%</span>
+                    <button class="pdf-btn" id="zoom-in-btn" title="Zoom In">
+                        🔍+ Zoom In
+                    </button>
                 </div>
 
                 <div class="pdf-btn-group">
-                    <button class="pdf-btn" id="prev-page-btn" title="Jump to Previous Page">
-                        ▲ Prev
-                    </button>
-                    <button class="pdf-btn" id="next-page-btn" title="Jump to Next Page">
-                        ▼ Next
-                    </button>
                     <button class="pdf-btn" id="scroll-top-btn" title="Scroll to Top">
-                        ⬆️ Top
+                        ⬆️ Back to Top
                     </button>
                 </div>
             </div>
@@ -276,25 +243,24 @@
         </div>
     </div>
 
-    <!-- PDF.js Engine with High-DPI Rendering & Lazy Scroll -->
+    <!-- PDF.js Engine -->
     <script>
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
         const pdfUrl = 'current_affairs/June_Monthly_CA_Magazine_Fateh_Sir.pdf';
 
         let pdfDoc = null;
-        let scale = 1.35;
+        let scale = 1.25;
         let renderedPages = new Set();
         let pageRenderingStatus = {};
         let pageObserver = null;
 
         const viewportContainer = document.getElementById('pdf-viewport-container');
         const mainLoader = document.getElementById('pdf-main-loader');
-        const pageNumInput = document.getElementById('page-num-input');
-        const pageCountDisplay = document.getElementById('page-count-display');
+        const zoomLevelDisplay = document.getElementById('zoom-level-display');
 
-        const prevBtn = document.getElementById('prev-page-btn');
-        const nextBtn = document.getElementById('next-page-btn');
+        const zoomInBtn = document.getElementById('zoom-in-btn');
+        const zoomOutBtn = document.getElementById('zoom-out-btn');
         const scrollTopBtn = document.getElementById('scroll-top-btn');
 
         const dpr = window.devicePixelRatio || 1;
@@ -311,9 +277,6 @@
             })
             .then(pdfDoc_ => {
                 pdfDoc = pdfDoc_;
-                pageCountDisplay.innerText = pdfDoc.numPages;
-                pageNumInput.max = pdfDoc.numPages;
-
                 initPdfViewer();
             })
             .catch(err => {
@@ -429,13 +392,8 @@
             pageObserver = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     const pageNum = parseInt(entry.target.dataset.pageNumber);
-                    
                     if (entry.isIntersecting) {
                         renderPageOnDemand(pageNum);
-
-                        if (entry.intersectionRatio > 0.3) {
-                            pageNumInput.value = pageNum;
-                        }
                     }
                 });
             }, options);
@@ -445,29 +403,26 @@
             });
         }
 
-        // Page Jumping
-        function scrollToPage(pageNum) {
-            const card = document.getElementById(`pdf-page-card-${pageNum}`);
-            if (card) {
-                card.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
+        // Zoom Re-render
+        function reRenderAllPages() {
+            renderedPages.clear();
+            pageRenderingStatus = {};
+
+            if (zoomLevelDisplay) zoomLevelDisplay.innerText = `${Math.round(scale * 100)}%`;
+
+            initPdfViewer();
         }
 
-        prevBtn.addEventListener('click', () => {
-            let current = parseInt(pageNumInput.value) || 1;
-            if (current > 1) scrollToPage(current - 1);
+        zoomInBtn.addEventListener('click', () => {
+            if (scale >= 2.5) return;
+            scale += 0.2;
+            reRenderAllPages();
         });
 
-        nextBtn.addEventListener('click', () => {
-            let current = parseInt(pageNumInput.value) || 1;
-            if (pdfDoc && current < pdfDoc.numPages) scrollToPage(current + 1);
-        });
-
-        pageNumInput.addEventListener('change', function () {
-            let val = parseInt(this.value);
-            if (isNaN(val) || val < 1) val = 1;
-            if (pdfDoc && val > pdfDoc.numPages) val = pdfDoc.numPages;
-            scrollToPage(val);
+        zoomOutBtn.addEventListener('click', () => {
+            if (scale <= 0.6) return;
+            scale -= 0.2;
+            reRenderAllPages();
         });
 
         scrollTopBtn.addEventListener('click', () => {
