@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Affairs Vault - KHOSA Aspirant Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .ca-catalog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 24px;
+        }
+
+        .ca-magazine-card {
+            background: var(--paper-bg, #ffffff);
+            border: 1px solid var(--border-medium, #cbd5e1);
+            border-radius: 12px;
+            padding: 24px;
+            transition: all 0.25s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+        }
+
+        .ca-magazine-card.active-card {
+            border-color: #059669;
+            background: linear-gradient(135deg, rgba(236, 253, 245, 0.8), rgba(255, 255, 255, 0.9));
+        }
+
+        .ca-magazine-card.active-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(5, 150, 105, 0.15);
+        }
+
+        .ca-magazine-card.disabled-card {
+            opacity: 0.7;
+            background: #f8fafc;
+            border-style: dashed;
+        }
+
+        .ca-badge-active {
+            font-family: 'Kalam', cursive;
+            background: #059669;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .ca-badge-soon {
+            font-family: 'Kalam', cursive;
+            background: #64748b;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .sub-back-btn {
+            font-family: inherit;
+            background: #f1f5f9;
+            color: #0f172a;
+            border: 1px solid #cbd5e1;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .sub-back-btn:hover {
+            background: var(--ink-blue);
+            color: white;
+            border-color: var(--ink-blue);
+        }
+
+        .open-ca-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #059669;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 14px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            margin-top: 16px;
+            width: fit-content;
+        }
+
+        .open-ca-btn:hover {
+            background: #047857;
+            transform: translateX(3px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="notebook-container">
+        <div class="paper-page">
+
+            <!-- Sub Navigation Header -->
+            <div class="sub-nav-bar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+                <a href="index.html" class="sub-back-btn">
+                    ← Back to Main Dashboard
+                </a>
+                <span style="font-family: 'Kalam', cursive; font-size: 18px; font-weight: bold; color: var(--ink-blue);">
+                    Monthly CA Vault
+                </span>
+            </div>
+
+            <div class="chapter-header" style="margin-bottom: 28px;">
+                <h1 style="font-size: 30px; color: var(--ink-blue);">MONTHLY CURRENT AFFAIRS DIRECTORY</h1>
+                <p style="font-size: 15px; color: #475569; margin-top: 6px;">
+                    Select a monthly edition below to open its dedicated PDF magazine reader:
+                </p>
+            </div>
+
+            <!-- Current Affairs Magazines Directory Grid -->
+            <div class="ca-catalog-grid">
+                
+                <!-- JUNE EDITION (ACTIVE) -->
+                <div class="ca-magazine-card active-card">
+                    <div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                            <span class="ca-badge-active">🟢 AVAILABLE NOW</span>
+                            <span style="font-size: 13px; font-weight: 600; color: #047857;">June 2026</span>
+                        </div>
+                        <h3 style="font-size: 20px; font-weight: 700; color: #065f46; margin-bottom: 8px;">
+                            June 2026 Monthly CA Magazine
+                        </h3>
+                        <p style="font-size: 13.5px; color: #334155; line-height: 1.5; margin-bottom: 16px;">
+                            Compiled by <strong>Fateh Sir</strong>. Comprehensive coverage of National Polity, Punjab State Special, International Relations, Economy & Union Schemes.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="current_affairs_reader.html" class="open-ca-btn">
+                            📖 Open PDF Reader →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- JULY EDITION (COMING SOON) -->
+                <div class="ca-magazine-card disabled-card">
+                    <div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                            <span class="ca-badge-soon">⏳ COMING SOON</span>
+                            <span style="font-size: 13px; font-weight: 600; color: #64748b;">July 2026</span>
+                        </div>
+                        <h3 style="font-size: 20px; font-weight: 700; color: #475569; margin-bottom: 8px;">
+                            July 2026 Monthly CA Magazine
+                        </h3>
+                        <p style="font-size: 13.5px; color: #64748b; line-height: 1.5;">
+                            Upcoming monthly current affairs compilation for UPSC & State PCS examinations.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- MAY EDITION (COMING SOON) -->
+                <div class="ca-magazine-card disabled-card">
+                    <div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                            <span class="ca-badge-soon">⏳ COMING SOON</span>
+                            <span style="font-size: 13px; font-weight: 600; color: #64748b;">May 2026</span>
+                        </div>
+                        <h3 style="font-size: 20px; font-weight: 700; color: #475569; margin-bottom: 8px;">
+                            May 2026 Monthly CA Magazine
+                        </h3>
+                        <p style="font-size: 13.5px; color: #64748b; line-height: 1.5;">
+                            Upcoming monthly current affairs compilation for UPSC & State PCS examinations.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- APRIL EDITION (COMING SOON) -->
+                <div class="ca-magazine-card disabled-card">
+                    <div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                            <span class="ca-badge-soon">⏳ COMING SOON</span>
+                            <span style="font-size: 13px; font-weight: 600; color: #64748b;">April 2026</span>
+                        </div>
+                        <h3 style="font-size: 20px; font-weight: 700; color: #475569; margin-bottom: 8px;">
+                            April 2026 Monthly CA Magazine
+                        </h3>
+                        <p style="font-size: 13.5px; color: #64748b; line-height: 1.5;">
+                            Upcoming monthly current affairs compilation for UPSC & State PCS examinations.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
