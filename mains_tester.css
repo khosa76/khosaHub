@@ -116,11 +116,13 @@ body {
 /* Header Navbar */
 .mains-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    gap: 20px;
     border-bottom: 2px solid var(--border-color);
     padding-bottom: 16px;
     margin-bottom: 24px;
+    flex-wrap: wrap;
 }
 
 .header-brand {
