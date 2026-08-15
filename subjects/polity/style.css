@@ -78,8 +78,7 @@ body {
   /* Offset for red line and binding */
   min-height: 100vh;
   box-sizing: border-box;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden !important;
 }
 
 /* Full Container Width for Normal Text Notes & Content Blocks */
@@ -402,10 +401,9 @@ em {
 .table-wrapper,
 .table-responsive,
 .table-container {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
   margin: 28px 0;
   border-radius: 12px;
 }
@@ -413,10 +411,11 @@ em {
 table,
 .notes-table,
 .comparison-table {
-  display: table;
-  width: 100%;
-  min-width: 680px;
-  table-layout: auto;
+  display: table !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  table-layout: auto !important;
   border-collapse: separate;
   border-spacing: 0;
   margin: 28px 0;
@@ -424,7 +423,9 @@ table,
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  box-sizing: border-box;
+  box-sizing: border-box !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
 }
 
 .table-wrapper table,
@@ -437,13 +438,15 @@ th,
 td {
   border-right: 2px solid rgba(71, 85, 105, 0.6);
   border-bottom: 2px solid rgba(71, 85, 105, 0.6);
-  padding: 14px 20px;
+  padding: 12px 14px;
   font-family: 'Patrick Hand', cursive;
-  font-size: 18.5px;
-  line-height: 26px;
+  font-size: 17.5px;
+  line-height: 24px;
   vertical-align: top;
   white-space: normal;
-  word-break: normal;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  max-width: 100%;
 }
 
 th:last-child,
@@ -1098,16 +1101,23 @@ th {
   table,
   .notes-table,
   .comparison-table {
-    display: block;
+    display: table !important;
     width: 100% !important;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    white-space: nowrap;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    table-layout: auto !important;
+    overflow-x: hidden !important;
+    white-space: normal !important;
   }
 
   th,
   td {
-    white-space: normal;
-    min-width: 140px;
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    min-width: 0 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    padding: 8px 8px !important;
   }
 }
