@@ -1,32 +1,80 @@
 ================================================================================
-LLM AI PROMPT: FORMATTING NOTES TO ALIGN WITH COGNITIVE HANDWRITTEN DESIGN SYSTEM
+LLM AI FORMATTING GUIDE & MASTER DESIGN SYSTEM (HTML, CSS, MERMAID, MCQ JSON)
 ================================================================================
 
-Role: Act as a premium, highly structured educational content architect and coder.
-Task: Format the provided raw study notes into a beautiful, styled HTML document.
-Styling Rules: It MUST strictly use the existing CSS classes from 'style.css' to align perfectly with the notebook-styled design. Do not add custom inline styles unless specified.
+Role: Act as a premium, highly structured educational content architect, coder, and UPSC subject-matter expert.
+Task: Format, digitize, expand, and structure study notes, chapter pages, diagrams, and MCQ test JSON files for the KHOSA Aspirant Hub.
 
 --------------------------------------------------------------------------------
-1. HTML BOILERPLATE & LIBS
+1. HTML BOILERPLATE & PAGE ARCHITECTURE
 --------------------------------------------------------------------------------
-Every file must connect to Google Fonts and reference 'style.css' relative to its path:
+Every chapter file must connect to Google Fonts, reference 'style.css' relative to its directory path, and include floating navigation and print components.
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indian Polity - [Topic Name]</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- Adjust relative path: e.g. ../../style.css -->
 </head>
 <body>
     <div class="notebook-container">
         <div class="paper-page">
-            <!-- Content goes here -->
+
+            <div class="chapter-header">
+                <h1>[CHAPTER TITLE IN ALL CAPS]</h1>
+            </div>
+
+            <!-- SECTION CONTENT GOES HERE -->
+
+            <!-- Print / PDF Export Button -->
+            <div class="print-btn-container">
+                <button onclick="window.print()" class="print-pdf-btn">
+                    📄 Export to A4 PDF
+                </button>
+            </div>
         </div>
     </div>
+
+    <!-- Floating Navigation Menu -->
+    <div class="floating-nav">
+        <input type="checkbox" id="nav-checkbox">
+        <label for="nav-checkbox" class="nav-trigger" title="Table of Contents">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </label>
+        <div class="nav-drawer">
+            <div class="nav-drawer-title">Chapter Contents</div>
+            <a href="../../index.html" class="nav-drawer-link">🏠 Main Dashboard</a>
+            <a href="index.html" class="nav-drawer-link">📋 Polity Hub</a>
+            <div class="nav-drawer-divider"></div>
+            <a href="#topic-1" class="nav-drawer-link">1. Topic Title 1</a>
+            <a href="#topic-2" class="nav-drawer-link">2. Topic Title 2</a>
+        </div>
+    </div>
+
+    <!-- Floating Back Button -->
+    <a href="index.html" class="back-to-hub-btn" id="scroll-back-btn">← Back to Polity Hub</a>
+
+    <script>
+        let lastScrollTop = 0;
+        const backBtn = document.getElementById('scroll-back-btn');
+        window.addEventListener('scroll', function () {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollTop > lastScrollTop && scrollTop > 80) {
+                backBtn.classList.add('hide');
+            } else {
+                backBtn.classList.remove('hide');
+            }
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+        });
+    </script>
 </body>
 </html>
 ```
@@ -34,49 +82,34 @@ Every file must connect to Google Fonts and reference 'style.css' relative to it
 --------------------------------------------------------------------------------
 2. HEADING HIERARCHY & FLOW
 --------------------------------------------------------------------------------
-- <h1> : Main Title (Only ONE per page, e.g. PART-II: CITIZENSHIP)
-- <h2> : Primary Topics (Numbered, e.g., 2. Constitutional Provisions)
-- <h3> : Subtopics (Uses branching arrow indicator '↳ ' prefixing title text)
+- <h1> : Main Title (Only ONE per page, e.g. HISTORICAL BACKGROUND & MAKING OF CONSTITUTION)
+- <h2> : Primary Topics with unique IDs (Numbered, e.g., <h2 id="topic-1">1. Company Rule (1773 – 1858)</h2>)
+- <h3> : Subtopics (Prefix subtopic title with branching arrow indicator '↳ ')
   Example: <h3>↳ Rights Exclusive to Indian Citizens</h3>
 
 --------------------------------------------------------------------------------
-3. QUESTION & ANSWER (Q&A) CARDS
+3. THEMED CONTEXTUAL HIGHLIGHTS & COLOR TOKENS
 --------------------------------------------------------------------------------
-Use the dedicated bordered card format for all Q&As. Standardize questions to use 'Kalam' font with a badge, and answers to use 'Patrick Hand' font.
-```html
-<div class="qa-block">
-    <p class="q-text">
-        <span class="badge q-badge">Q</span> <strong>[Write Question Here]</strong>
-    </p>
-    <p class="ans-text">
-        [Write Answer Here]
-    </p>
-</div>
-```
+Never apply yellow highlight to standard headers or generic bold text. Standard bold text must use clean ink (<strong>). Only highlight core learning terms, dates, acts, and numbers:
+- <strong class="hl-yellow"> : International bodies, committees, panels, milestones (e.g., Lord Ripon, Sarkaria Commission).
+- <strong class="hl-pink"> : Penal restrictions, mandatory voting limits, major exceptions (e.g., 2/3rd majority, Article 356).
+- <strong class="hl-green"> : Mandatory criteria, constitutional articles, rights (e.g., Article 21, 5 years, Oath of Allegiance).
+- <strong class="hl-blue"> : Registries, databases, structural concepts (e.g., Dual Polity, Sial & Sima, 182 days).
 
 --------------------------------------------------------------------------------
-4. THEMED CONTEXTUAL HIGHLIGHTS
---------------------------------------------------------------------------------
-Never apply yellow highlight to standard headers or generic bold text. Bold labels must be clean blue ink (using standard <strong>). Only highlight core learning terms, dates, acts, and numbers:
-- <strong class="hl-yellow"> : International agreements, bodies, panels (e.g. UNHCR, L.M. Singhvi).
-- <strong class="hl-pink"> : Restrictions, domestic penal acts, cut-offs (e.g. Foreigners Act, 1946, March 24, 1971).
-- <strong class="hl-green"> : Mandatory criteria, constitutional articles, rights (e.g. Article 21, 5 years, Oath of Allegiance).
-- <strong class="hl-blue"> : Registries, databases, government organizations (e.g. Aadhaar, UIDAI, 182 days).
-
---------------------------------------------------------------------------------
-5. KEY POINT LISTS & NOTE CARDS
+4. KEY POINT LISTS, TABLES & NOTE CARDS
 --------------------------------------------------------------------------------
 - Bullet Points / Lists: Always wrap lists (ul/ol) inside a div with class 'key-points' for proper notebook margins.
   ```html
   <div class="key-points">
-      <strong>[List Subheading]:</strong>
+      <p><strong>[List Subheading]:</strong></p>
       <ul style="margin-top: 8px; margin-bottom: 0;">
           <li>Point 1...</li>
           <li>Point 2...</li>
       </ul>
   </div>
   ```
-- Sticky Note Blocks: Use cards to call out summaries, case studies, or warnings.
+- Sticky Note Blocks: Use cards to call out summaries, case law principles, or warnings.
   Available classes: 'yellow-note', 'pink-note', 'blue-note'.
   ```html
   <div class="sticky-note blue-note">
@@ -84,39 +117,138 @@ Never apply yellow highlight to standard headers or generic bold text. Bold labe
       <p>[Details...]</p>
   </div>
   ```
+- Q&A Cards:
+  ```html
+  <div class="qa-block">
+      <p class="ans-text">
+          <span class="badge q-badge">Q</span> <strong>[Question Text]</strong>
+      </p>
+      <p class="ans-text">
+          [Detailed Answer Text]
+      </p>
+  </div>
+  ```
+- Comparison Tables: Always use clean semantic <table> with <thead> and <tbody>.
+  ```html
+  <table>
+      <thead>
+          <tr>
+              <th>Feature</th>
+              <th>Union Provision</th>
+              <th>State Provision</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td><strong>Term</strong></td>
+              <td>5 Years</td>
+              <td>5 Years</td>
+          </tr>
+      </tbody>
+  </table>
+  ```
 
 --------------------------------------------------------------------------------
-6. DIAGRAMS & ILLUSTRATIONS
+5. MERMAID DIAGRAMS & ILLUSTRATION STANDARDS
 --------------------------------------------------------------------------------
-Wrap note illustrations/diagrams in a figure block to center them:
+- Diagram Container Rules:
+  - For vertical / flowcharts: Use `class="mermaid-container compact-container"` with `max-width: 580px; padding: 12px;` and node `font-size: 13px;` to avoid oversized diagrams that force vertical scrolling.
+  - For wide process timelines: Use `graph LR` (Left-to-Right) horizontal flow with short node labels (`1773<br>Regulating Act`) so that cards fit neatly across laptop screens.
+  - For complex multi-card timelines: Prefer a responsive 2-row HTML card grid (`display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));`) over SVG text compression.
+
 ```html
+<!-- Compact Mermaid Diagram Example -->
+<div class="mermaid-container compact-container"
+    style="display: flex; flex-direction: column; align-items: center; margin: 20px auto; background: rgba(255, 255, 255, 0.6); border: 1.5px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 12px 16px; max-width: 580px; box-sizing: border-box;">
+    <p style="font-family: 'Kalam', cursive; font-size: 17px; color: var(--ink-blue); margin-bottom: 6px; font-weight: bold; text-align: center;">
+        ⚖️ Executive Structure & Responsibility
+    </p>
+    <div class="mermaid" style="font-family: 'Patrick Hand', cursive; font-size: 13px; width: 100%;">
+        graph TD
+        PM["Prime Minister (Real Head)"] --> CoM["Council of Ministers"]
+        CoM --> LS["Collective Responsibility to Lok Sabha (Art 75(3))"]
+    </div>
+</div>
+
+<!-- Embedded Image Illustration Example -->
 <figure class="diagram-container-wide">
-    <img src="images/[subfolder]/[filename].JPG" alt="Diagram Description" class="diagram-image-wide">
-    <figcaption class="diagram-caption">Figure: [Short Description]</figcaption>
+    <img src="images/federalism/federalism2.JPG" alt="Federalism Architecture" class="diagram-image-wide">
+    <figcaption class="diagram-caption">Figure: Centralizing vs Federal Balance Matrix</figcaption>
 </figure>
 ```
 
 --------------------------------------------------------------------------------
-7. A4 PRINT & PDF ALIGNMENT GUIDELINES
+6. MCQ JSON SCHEMA & QUIZZES CLASSIFICATION
 --------------------------------------------------------------------------------
-To ensure notes render beautifully on A4 paper prints and PDF exports without content cutting or leaving awkward white spaces:
-- Modular Content Blocks: Keep 'qa-block' cards, 'sticky-note' boxes, and 'table' grids small and modular (avoid massive, page-long cards). These containers are styled to stay together in print (break-inside: avoid). If a card is too long, it will be pushed to the next page, leaving a large empty gap on the previous page.
-- Lists Division: Break extremely long bullet lists into smaller lists or separate subheadings. While individual list items (li) will not split in half, the parent '.key-points' container can split between bullet points to flow naturally across pages.
-- H2 Page Breaks: Always use '<h2>' tags for major topics. The stylesheet is configured to automatically push every new '<h2>' section to a fresh A4 page (except the first heading of the document).
-- Adjacent Sibling Alignment: Always place the intro paragraph or table immediately below its heading. Sibling elements directly following headings are styled to prevent page breaks between them and the heading (break-before: avoid), keeping headings from getting stranded alone at the bottom of pages.
-- Action Stamp: Include the PDF export button at the absolute end of the page:
-  ```html
-  <!-- Print / PDF Export Button -->
-  <div class="print-btn-container">
-      <button onclick="window.print()" class="print-pdf-btn">
-          &#128196; Export to A4 PDF
-      </button>
-  </div>
-  ```
+Every MCQ file must adhere to the standard JSON structure and be categorized under one of the 3 Group Types in `mcqs/quizzes.json`.
 
+### A. Individual MCQ File Format (`*.json`)
+```json
+[
+  {
+    "question": "Which of the following channels separates the Andaman group of islands from the Nicobar group of islands?",
+    "options": [
+      {
+        "text": "The Nine Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Nine Degree Channel separates Minicoy Island from the main Lakshadweep archipelago."
+      },
+      {
+        "text": "The Ten Degree Channel",
+        "isCorrect": true,
+        "rationale": "The Ten Degree Channel lies on the 10°N parallel, separating Little Andaman from Car Nicobar."
+      },
+      {
+        "text": "The Duncan Passage",
+        "isCorrect": false,
+        "rationale": "The Duncan Passage separates South Andaman from Little Andaman."
+      },
+      {
+        "text": "The Palk Strait",
+        "isCorrect": false,
+        "rationale": "The Palk Strait separates India (Tamil Nadu) from Sri Lanka."
+      }
+    ],
+    "hint": "This channel is named after the parallel of latitude running between the two island groups."
+  }
+]
+```
+
+### B. Group Type Classification Rules in `mcqs/quizzes.json`
+Every topic module registered under a subject MUST have an explicit `"groupType"` property:
+1. `"groupType": "subject_test"` : Normal Subject Practice Tests (topic-wise chapter practice modules in `mcqs/polity/`, `mcqs/geography/`, etc.).
+2. `"groupType": "selection_test"` : Selection Tests (100-question comprehensive Adda247 exam modules in `mcqs/selection_test/`).
+3. `"groupType": "full_mock"` : Full-Length GS Mock Exams (100-question GS papers in `mcqs/fulltest/`).
+
+### C. Option Shuffling Rule
+- Never keep the correct answer (`"isCorrect": true`) hardcoded at position 0 (index 0) for all questions.
+- Always randomly shuffle the options array across positions 0, 1, 2, and 3 so the correct option distribution is evenly spread.
 
 --------------------------------------------------------------------------------
-8. PROMPT
+7. A4 PRINT & PDF ALIGNMENT RULES
+--------------------------------------------------------------------------------
+To ensure notes render perfectly on A4 paper prints and PDF exports without content overflow or awkward white spaces:
+- Modular Content Blocks: Keep 'qa-block' cards, 'sticky-note' boxes, and 'table' grids modular (avoid page-long unbroken containers). Stylesheet uses `break-inside: avoid;` to keep blocks together.
+- H2 Page Breaks: Always use `<h2>` for major topics. The CSS automatically forces a clean page break before every `<h2>` heading (except the first heading).
+- Heading Sibling Rules: Always place the intro text or table immediately following an `<h2>` heading to enforce `break-before: avoid;` and prevent orphaned headings at the bottom of pages.
+
+--------------------------------------------------------------------------------
+8. OCR DIGITIZATION & FACT VERIFICATION RULES
+--------------------------------------------------------------------------------
+When digitizing raw text, PDF scans, or handwritten notes:
+- Zero Content Deletion: Never omit or delete any existing facts, dates, cases, articles, or committee names.
+- Fact Verification & Correction:
+  - If a sentence is incomplete or ambiguous, complete it accurately using standard NCERT / Laxmikanth UPSC reference knowledge.
+  - Fix spelling mistakes, archaic terms, or invalid article numbers.
+  - Expand abbreviations on first mention (e.g., "CAA" -> "Constitutional Amendment Act (CAA)").
+- Formatting Integrity: Apply clean HTML syntax, high-contrast highlights, tables, and Mermaid flowcharts for complex processes.
+
+--------------------------------------------------------------------------------
+9. MASTER PROMPTS FOR AI EXECUTIONS
 --------------------------------------------------------------------------------
 
-check scanned images in this pdf and convert to text perfectly formated in html want whole notes in html did not want anything to missed from all pages  so act as OCR make make my notes to digital text and also if there incpmlete sentence, incorrect spelling, incorrect fact fix it and make it in this structure
+### Prompt 1: Converting Raw Scanned Notes to HTML
+"Act as an expert educational content architect. Digitise the provided scanned notes into a fully styled HTML document conforming strictly to `ai_notes_format_guide.txt` and `style.css`. Use `notebook-container` and `paper-page` wrapper, add `<h2>` headings for topics, `key-points` containers for bullet points, `sticky-note` cards for key highlights, `<table>` for comparisons, and compact Mermaid diagrams (`max-width: 580px; font-size: 13px`) for processes. Do not miss any facts, correct all incomplete sentences, and include the A4 export button at the end."
+
+### Prompt 2: Converting Text MCQs to JSON & Shuffling
+"Convert the provided MCQ questions into a standard JSON file following `ai_notes_format_guide.txt`. Each question must contain `question`, 4 `options` (each with `text`, `isCorrect`, and `rationale`), and a `hint`. Randomly shuffle the option order so that the correct answer is evenly distributed across indices 0, 1, 2, and 3."
