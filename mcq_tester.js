@@ -155,22 +155,65 @@ async function loadCatalog() {
 }
 
 // --- Render Subject Cards Grid Dashboard ---
+let activeGroupFilter = 'all';
+
 function renderDashboardCatalog() {
     if (!catalogData || !catalogData.subjects || !subjectCardsContainer) return;
     
     subjectCardsContainer.innerHTML = '';
     
+    // Setup filter pill click handlers
+    document.querySelectorAll('.group-pill-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            document.querySelectorAll('.group-pill-btn').forEach(b => {
+                b.classList.remove('active');
+                b.style.background = 'var(--bg-card)';
+                b.style.color = 'var(--text-muted)';
+            });
+            const clickedBtn = e.currentTarget;
+            clickedBtn.classList.add('active');
+            clickedBtn.style.background = 'var(--primary-blue)';
+            clickedBtn.style.color = 'white';
+            activeGroupFilter = clickedBtn.dataset.filter;
+            renderDashboardCatalogFiltered();
+        });
+    });
+
+    renderDashboardCatalogFiltered();
+}
+
+function renderDashboardCatalogFiltered() {
+    if (!catalogData || !catalogData.subjects || !subjectCardsContainer) return;
+    subjectCardsContainer.innerHTML = '';
+
     // Check URL query parameters (e.g. ?subject=polity)
     const urlParams = new URLSearchParams(window.location.search);
     const targetSubjectId = urlParams.get('subject');
 
     catalogData.subjects.forEach((subject) => {
+        const iconStr = subject.icon || '📖';
+        
+        // Filter topics by activeGroupFilter
+        const filteredTopics = (subject.topics || []).filter(t => {
+            if (activeGroupFilter === 'all') return true;
+            const tType = t.groupType || (t.path && t.path.includes('selection_test') ? 'selection_test' : (t.path && t.path.includes('fulltest') ? 'full_mock' : 'subject_test'));
+            return tType === activeGroupFilter;
+        });
+
+        if (activeGroupFilter !== 'all' && filteredTopics.length === 0) return;
+
+        const subjectTestsCount = (subject.topics || []).filter(t => t.groupType === 'subject_test').length;
+        const selectionTestsCount = (subject.topics || []).filter(t => t.groupType === 'selection_test').length;
+        const fullMocksCount = (subject.topics || []).filter(t => t.groupType === 'full_mock').length;
+        const totalQs = filteredTopics.reduce((acc, t) => acc + (t.questionCount || 0), 0);
+
         const card = document.createElement('div');
         card.className = 'mcq-subject-card';
-        
-        const iconStr = subject.icon || '📖';
-        const topicCount = subject.topics ? subject.topics.length : 0;
-        const totalQs = subject.topics ? subject.topics.reduce((acc, t) => acc + (t.questionCount || 0), 0) : 0;
+
+        let breakdownBadges = '';
+        if (subjectTestsCount > 0) breakdownBadges += `<span class="badge-pill badge-gray">📘 ${subjectTestsCount} Subject Test${subjectTestsCount !== 1 ? 's' : ''}</span> `;
+        if (selectionTestsCount > 0) breakdownBadges += `<span class="badge-pill badge-amber">⚡ ${selectionTestsCount} Selection Test${selectionTestsCount !== 1 ? 's' : ''}</span> `;
+        if (fullMocksCount > 0) breakdownBadges += `<span class="badge-pill badge-green">🎓 ${fullMocksCount} Full Mock${fullMocksCount !== 1 ? 's' : ''}</span>`;
 
         card.innerHTML = `
             <div class="card-subject-header">
@@ -179,9 +222,12 @@ function renderDashboardCatalog() {
             </div>
             <h3 class="card-subject-title">${subject.name}</h3>
             <p class="card-subject-desc">${subject.description || 'Interactive MCQ practice modules and topic revision sets.'}</p>
+            <div class="card-subject-breakdown" style="margin-bottom: 14px; display: flex; flex-wrap: wrap; gap: 6px;">
+                ${breakdownBadges}
+            </div>
             <div class="card-subject-footer">
-                <span class="badge-pill badge-gray">${topicCount} Practice Module${topicCount !== 1 ? 's' : ''}</span>
-                <span class="card-open-arrow">Open Topic List →</span>
+                <span class="badge-pill badge-gray">${filteredTopics.length} Practice Module${filteredTopics.length !== 1 ? 's' : ''}</span>
+                <span class="card-open-arrow">Open Modules List →</span>
             </div>
         `;
 
@@ -193,9 +239,10 @@ function renderDashboardCatalog() {
     });
 
     // Auto open target subject if specified in URL
-    if (targetSubjectId) {
+    if (targetSubjectId && !window._openedSubjectTarget) {
+        window._openedSubjectTarget = true;
         openSubjectTopics(targetSubjectId);
-    } else {
+    } else if (!targetSubjectId) {
         switchView('subjectCards');
     }
 }
@@ -217,7 +264,7 @@ function openSubjectTopics(subjectId) {
     if (activeSubjectBadge) activeSubjectBadge.innerText = subject.name;
     if (navbarTopicTitle) navbarTopicTitle.innerText = subject.name;
 
-    // Render Topic Rows
+    // Render Topic Rows Grouped by Group Type
     if (topicModulesContainer) {
         topicModulesContainer.innerHTML = '';
 
@@ -228,35 +275,90 @@ function openSubjectTopics(subjectId) {
                 </div>
             `;
         } else {
-            subject.topics.forEach(topic => {
-                const topicRow = document.createElement('div');
-                topicRow.className = 'topic-list-row';
-                
-                const localKey = `khosa_mcq_highscore_${topic.id}`;
-                const localDataStr = localStorage.getItem(localKey);
-                let scoreMetaHtml = '';
-                if (localDataStr) {
-                    const meta = JSON.parse(localDataStr);
-                    scoreMetaHtml = `<span class="badge-pill badge-blue">${meta.score}/${meta.total} (${meta.percent}%)</span>`;
+            // Group definitions
+            const groups = {
+                subject_test: {
+                    title: '📘 Normal Subject Practice Tests',
+                    desc: 'Topic-wise standard practice modules and chapter revision vaults',
+                    items: []
+                },
+                selection_test: {
+                    title: '⚡ Selection Tests (100-Question High-Yield Exam Modules)',
+                    desc: 'Comprehensive Adda247 exam selection test modules',
+                    items: []
+                },
+                full_mock: {
+                    title: '🎓 Full-Length Mock Exams',
+                    desc: 'Complete 100-question General Studies mock exam papers',
+                    items: []
                 }
+            };
 
-                topicRow.innerHTML = `
-                    <div class="topic-info-side">
-                        <h5 class="topic-row-title">${topic.name}</h5>
-                        <p class="topic-row-desc">${topic.description}</p>
-                    </div>
-                    <div class="topic-badges-side">
-                        <span class="badge-pill badge-gray">${topic.questionCount} Qs</span>
-                        ${scoreMetaHtml}
-                        <span class="list-chevron">›</span>
-                    </div>
+            subject.topics.forEach(topic => {
+                const type = topic.groupType || (topic.path && topic.path.includes('selection_test') ? 'selection_test' : (topic.path && topic.path.includes('fulltest') ? 'full_mock' : 'subject_test'));
+                if (!groups[type]) {
+                    groups[type] = {
+                        title: '📋 Additional Practice Tests',
+                        desc: 'Practice modules',
+                        items: []
+                    };
+                }
+                groups[type].items.push(topic);
+            });
+
+            // Render each group that has items
+            Object.keys(groups).forEach(gKey => {
+                const group = groups[gKey];
+                if (group.items.length === 0) return;
+
+                const groupHeader = document.createElement('div');
+                groupHeader.className = 'topic-group-header';
+                groupHeader.style.cssText = 'margin-top: 24px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px dashed var(--border-medium);';
+                groupHeader.innerHTML = `
+                    <h3 style="font-size: 18px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 8px; margin-bottom: 2px;">
+                        ${group.title}
+                        <span class="badge-pill badge-blue" style="font-size: 12px;">${group.items.length} Test${group.items.length !== 1 ? 's' : ''}</span>
+                    </h3>
+                    <p style="font-size: 13.5px; color: var(--text-muted); margin: 0;">${group.desc}</p>
                 `;
+                topicModulesContainer.appendChild(groupHeader);
 
-                topicRow.addEventListener('click', () => {
-                    loadQuizFromPath(topic.path, topic.id, topic.name);
+                group.items.forEach(topic => {
+                    const topicRow = document.createElement('div');
+                    topicRow.className = 'topic-list-row';
+                    
+                    const localKey = `khosa_mcq_highscore_${topic.id}`;
+                    const localDataStr = localStorage.getItem(localKey);
+                    let scoreMetaHtml = '';
+                    if (localDataStr) {
+                        const meta = JSON.parse(localDataStr);
+                        scoreMetaHtml = `<span class="badge-pill badge-blue">${meta.score}/${meta.total} (${meta.percent}%)</span>`;
+                    }
+
+                    const isSelection = topic.groupType === 'selection_test';
+                    const isMock = topic.groupType === 'full_mock';
+                    const badgeClass = isSelection ? 'badge-amber' : (isMock ? 'badge-green' : 'badge-gray');
+                    const badgeTag = isSelection ? '⚡ Selection Test' : (isMock ? '🎓 Full Mock' : '📘 Subject Test');
+
+                    topicRow.innerHTML = `
+                        <div class="topic-info-side">
+                            <h5 class="topic-row-title">${topic.name}</h5>
+                            <p class="topic-row-desc">${topic.description}</p>
+                        </div>
+                        <div class="topic-badges-side">
+                            <span class="badge-pill ${badgeClass}">${badgeTag}</span>
+                            <span class="badge-pill badge-gray">${topic.questionCount} Qs</span>
+                            ${scoreMetaHtml}
+                            <span class="list-chevron">›</span>
+                        </div>
+                    `;
+
+                    topicRow.addEventListener('click', () => {
+                        loadQuizFromPath(topic.path, topic.id, topic.name);
+                    });
+
+                    topicModulesContainer.appendChild(topicRow);
                 });
-
-                topicModulesContainer.appendChild(topicRow);
             });
         }
     }

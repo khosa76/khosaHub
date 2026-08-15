@@ -318,6 +318,18 @@ body {
   border: 1px solid var(--primary-blue-border);
 }
 
+.badge-amber {
+  background: var(--warning-amber-bg);
+  color: var(--warning-amber);
+  border: 1px solid var(--warning-amber-border);
+}
+
+.badge-green {
+  background: var(--success-green-bg);
+  color: var(--success-green);
+  border: 1px solid var(--success-green-border);
+}
+
 /* --- ACTIVE QUIZ PRACTICE VIEW --- */
 .quiz-topbar {
   display: flex;

@@ -43,7 +43,15 @@
                     </div>
 
                     <div class="catalog-section">
-                        <h2 class="catalog-section-title">Subjects Directory</h2>
+                        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px;">
+                            <h2 class="catalog-section-title" style="margin: 0;">Subjects Directory</h2>
+                            <div class="group-filter-pills" style="display: flex; gap: 8px; flex-wrap: wrap;">
+                                <button class="group-pill-btn active" data-filter="all" style="font-family: inherit; font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: var(--radius-pill); border: 1px solid var(--border-medium); background: var(--primary-blue); color: white; cursor: pointer; transition: all 0.2s ease;">All Tests</button>
+                                <button class="group-pill-btn" data-filter="subject_test" style="font-family: inherit; font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: var(--radius-pill); border: 1px solid var(--border-medium); background: var(--bg-card); color: var(--text-muted); cursor: pointer; transition: all 0.2s ease;">📘 Normal Subject Tests</button>
+                                <button class="group-pill-btn" data-filter="selection_test" style="font-family: inherit; font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: var(--radius-pill); border: 1px solid var(--border-medium); background: var(--bg-card); color: var(--text-muted); cursor: pointer; transition: all 0.2s ease;">⚡ Selection Tests</button>
+                                <button class="group-pill-btn" data-filter="full_mock" style="font-family: inherit; font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: var(--radius-pill); border: 1px solid var(--border-medium); background: var(--bg-card); color: var(--text-muted); cursor: pointer; transition: all 0.2s ease;">🎓 Full Mocks</button>
+                            </div>
+                        </div>
                         <div id="subject-cards-container" class="mcq-subjects-grid">
                             <div class="catalog-loading">Loading catalog of subjects...</div>
                         </div>

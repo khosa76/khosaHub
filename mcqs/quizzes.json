@@ -4,98 +4,111 @@
       "id": "polity",
       "name": "Indian Polity",
       "icon": "⚖️",
-      "description": "Comprehensive practice vault covering Constitutional Framework, Rights, Parliament, Judiciary & Federalism.",
+      "description": "Comprehensive practice vault covering Constitutional Framework, Rights, Parliament, Judiciary, Federalism & Adda247 Selection Tests.",
       "topics": [
         {
           "id": "polity-preamble",
           "name": "1. The Preamble & Constitutional Philosophy",
           "path": "mcqs/polity/polity-preamble-mcq.json",
           "description": "Sovereignty, socialist, secular, democratic republic nature, justice, liberty, equality & popular sovereignty.",
-          "questionCount": 52
+          "questionCount": 52,
+          "groupType": "subject_test"
         },
         {
           "id": "polity-article1to4",
           "name": "2. Articles 1 to 4 | Union & Territory",
           "path": "mcqs/polity/polity-article1to4-mcq.json",
           "description": "Territorial jurisdiction of India, formation of new states, and alteration of areas/boundaries.",
-          "questionCount": 27
+          "questionCount": 27,
+          "groupType": "subject_test"
         },
         {
           "id": "polity-reorganisation",
           "name": "3. Reorganisation of States",
           "path": "mcqs/polity/polity-reorganisation-mcq.json",
           "description": "Integration of princely states, Dhar Commission, JVP Committee, State Reorganisation Act 1956.",
-          "questionCount": 27
+          "questionCount": 27,
+          "groupType": "subject_test"
         },
         {
           "id": "polity-union-territory-and-federalism",
           "name": "4. Union Territory & Territorial Reorganisation",
           "path": "mcqs/polity/polity-union-territory-and-federalism-mcq.json",
           "description": "Article 1-4 advanced practice, parliamentary authority, and destructible state boundaries.",
-          "questionCount": 29
+          "questionCount": 29,
+          "groupType": "subject_test"
         },
         {
           "id": "polity-citizenship",
           "name": "5. Articles 5 to 11 | Citizenship Act & Rules",
           "path": "mcqs/polity/polity-citizenship-mcq.json",
           "description": "Articles 5-11, Citizenship Act 1955, acquisition by birth/descent/naturalisation, and termination.",
-          "questionCount": 47
+          "questionCount": 47,
+          "groupType": "subject_test"
         },
         {
           "id": "polity-fundamental-rights",
           "name": "6. Articles 12 to 35 | Fundamental Rights Vault",
           "path": "mcqs/polity/polity-fundamental-rights-mcq.json",
           "description": "Definition of State, Rule of Law, Article 19 freedoms, privacy, freedom of religion & forced labour.",
-          "questionCount": 110
+          "questionCount": 110,
+          "groupType": "subject_test"
         },
         {
           "id": "polity-federalism",
           "name": "7. Federalism & Division of Powers",
           "path": "mcqs/polity/polity-federalism-mcq.json",
           "description": "Federal and unitary features, distribution of legislative, administrative, and financial powers.",
-          "questionCount": 27
+          "questionCount": 27,
+          "groupType": "subject_test"
         },
         {
           "id": "polity-amendment",
           "name": "8. Amendment of Constitution",
           "path": "mcqs/polity/polity-amendment-mcq.json",
           "description": "Procedure for amendment under Article 368, types of majorities, and significance.",
-          "questionCount": 27
+          "questionCount": 27,
+          "groupType": "subject_test"
         },
         {
           "id": "polity-framework-selection",
-          "name": "9. ⚡ Adda247: Constitutional Framework & Debates",
+          "name": "⚡ Selection Test 01: Constitutional Framework & Debates",
           "path": "mcqs/selection_test/polity/polity-framework-selection-mcq.json",
           "description": "Constituent Assembly debates, Charter Act 1813, sources of law, and Marxist revolution theory.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
           "id": "polity-citizenship-rights-selection",
-          "name": "10. ⚡ Adda247: Citizenship & Separation of Powers",
+          "name": "⚡ Selection Test 02: Citizenship & Separation of Powers",
           "path": "mcqs/selection_test/polity/polity-citizenship-rights-selection-mcq.json",
           "description": "Citizenship eligibility, Fundamental Rights vs DPSPs, Economic Justice & Separation of Powers.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
           "id": "polity-parliament-judiciary-selection",
-          "name": "11. ⚡ Adda247: Parliament, Zero Hour & Committees",
+          "name": "⚡ Selection Test 03: Parliament, Zero Hour & Committees",
           "path": "mcqs/selection_test/polity/polity-parliament-judiciary-selection-mcq.json",
           "description": "British vs Indian parliamentary model, Zero Hour, Closure Motions, PAC & Judicial Independence.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
           "id": "polity-federalism-governance-selection",
-          "name": "12. ⚡ Adda247: Federalism & Inter-State Governance",
+          "name": "⚡ Selection Test 04: Federalism & Inter-State Governance",
           "path": "mcqs/selection_test/polity/polity-federalism-governance-selection-mcq.json",
           "description": "Essential federal features, Article 249 Rajya Sabha resolution, Inter-State Council & Marble Cake federalism.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
           "id": "polity-dpsp-emergency-selection",
-          "name": "13. ⚡ Adda247: Living Constitution, High Courts & Emergency",
+          "name": "⚡ Selection Test 05: Living Constitution, High Courts & Emergency",
           "path": "mcqs/selection_test/polity/polity-dpsp-emergency-selection-mcq.json",
           "description": "Living Constitution, DPSPs, High Court powers, Freedom of Religion & Armed Rebellion Emergency.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         }
       ]
     },
@@ -103,42 +116,47 @@
       "id": "history",
       "name": "Indian & World History",
       "icon": "📜",
-      "description": "Modern Freedom Struggle, Ancient Philosophy, Medieval Kingdoms & World Revolutions.",
+      "description": "Modern Freedom Struggle, British Proclamations, Ancient Philosophy, Medieval Cholas & World Revolutions Selection Tests.",
       "topics": [
         {
           "id": "history-modern-british-rule",
-          "name": "1. Modern India: British Conquest & Rule",
+          "name": "⚡ Selection Test 01: Modern India - British Conquest & Rule",
           "path": "mcqs/selection_test/history/history-modern-british-rule-selection-mcq.json",
           "description": "Queen Victoria's Proclamation 1858, Jotedars, Mughal Farmans, Blue Water Policy, Robert Clive & Dupleix.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
           "id": "history-modern-national-movement",
-          "name": "2. Modern India: Freedom Struggle",
+          "name": "⚡ Selection Test 02: Modern India - Freedom Struggle",
           "path": "mcqs/selection_test/history/history-modern-national-movement-selection-mcq.json",
           "description": "Simon Commission 1927, All-Parties Conference 1928, Nehru Report, Lahore Session 1929.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
           "id": "history-ancient-philosophy-culture",
-          "name": "3. Ancient India: Philosophy & Culture",
+          "name": "⚡ Selection Test 03: Ancient India - Philosophy & Culture",
           "path": "mcqs/selection_test/history/history-ancient-philosophy-culture-selection-mcq.json",
           "description": "Samkhya philosophy, Mara-Vijaya Buddha cave art, Uttarapatha trade route, Natya & Nritta.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
           "id": "history-medieval-kingdoms-cholas",
-          "name": "4. Medieval India: Cholas & Kingdoms",
+          "name": "⚡ Selection Test 04: Medieval India - Cholas & Kingdoms",
           "path": "mcqs/selection_test/history/history-medieval-kingdoms-cholas-selection-mcq.json",
           "description": "Rajaraja I naval expedition, South Indian early medieval polity, Samantas, Muvendar Sangam literature.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
           "id": "history-world-revolutions",
-          "name": "5. World History: Revolutions & Modern Era",
+          "name": "⚡ Selection Test 05: World History - Revolutions & Modern Era",
           "path": "mcqs/selection_test/history/history-world-revolutions-selection-mcq.json",
           "description": "Renaissance humanism, Industrial Revolution, American Revolution, French & Russian Revolutions.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         }
       ]
     },
@@ -146,35 +164,71 @@
       "id": "geography",
       "name": "Geography & Environment",
       "icon": "🌍",
-      "description": "Physical Geography, Demography, Climatology, Weather Phenomena & Geomorphology.",
+      "description": "Physical Geography, Demography, Climatology, Weather Phenomena, Geomorphology & Adda247 Selection Tests.",
       "topics": [
         {
           "id": "geography-physical-geography",
-          "name": "1. Physical Geography & Mapping",
+          "name": "1. Master Physical Geography Vault",
           "path": "mcqs/geography/geography-physical-geography-mcq.json",
-          "description": "Southernmost points of India, channels (Ten Degree, Six Degree), and physical landmarks.",
-          "questionCount": 5
+          "description": "Comprehensive physical geography vault covering channels, oceanography, landforms, interior of earth & climatology.",
+          "questionCount": 155,
+          "groupType": "subject_test"
         },
         {
-          "id": "geography-demography-population",
-          "name": "2. Population, Demography & Glaciers",
+          "id": "geography-india-location-and-frontiers",
+          "name": "2. India: Location, Size & Frontiers",
+          "path": "mcqs/geography/geography-india-location-and-frontiers-mcq.json",
+          "description": "Geographical boundaries, Standard Meridian, land frontier, coastline, states & neighboring countries.",
+          "questionCount": 50,
+          "groupType": "subject_test"
+        },
+        {
+          "id": "geography-interior-of-earth-and-volcanism",
+          "name": "3. Interior of the Earth & Volcanism",
+          "path": "mcqs/geography/geography-interior-of-earth-and-volcanism-mcq.json",
+          "description": "Earthquake shadow zones, P & S waves, Mohorovicic discontinuity, intrusive landforms & volcanoes.",
+          "questionCount": 50,
+          "groupType": "subject_test"
+        },
+        {
+          "id": "geography-climatology-and-atmosphere",
+          "name": "4. Climatology & Atmosphere",
+          "path": "mcqs/geography/geography-climatology-and-atmosphere-mcq.json",
+          "description": "Atmospheric layers, heat budget, pressure belts, trade winds, temperature inversion & dew point.",
+          "questionCount": 50,
+          "groupType": "subject_test"
+        },
+        {
+          "id": "geography-india-physiography-and-drainage",
+          "name": "5. India: Physiography & Drainage Systems",
+          "path": "mcqs/geography/geography-india-physiography-and-drainage-mcq.json",
+          "description": "Himalayan ranges, peninsular rivers, river island Majuli, coastal plains & brackish lagoons.",
+          "questionCount": 50,
+          "groupType": "subject_test"
+        },
+        {
+          "id": "geography-demography-population-selection",
+          "name": "⚡ Selection Test 01: Population, Demography & Glaciers",
           "path": "mcqs/selection_test/geography/geography-demography-population-selection-mcq.json",
           "description": "Physiological density, population growth rates 2001-2011, distribution factors & shrinking glaciers.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
-          "id": "geography-climatology-weather",
-          "name": "3. Climatology & Weather Phenomena",
+          "id": "geography-climatology-weather-selection",
+          "name": "⚡ Selection Test 02: Climatology & Weather Phenomena",
           "path": "mcqs/selection_test/geography/geography-climatology-weather-selection-mcq.json",
           "description": "Inversion of temperature, anti-cyclones, El Nino vs La Nina, thunderstorm conditions.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
-          "id": "geography-geomorphology-earthquakes",
-          "name": "4. Geomorphology & Earth Systems",
+          "id": "geography-geomorphology-earthquakes-selection",
+          "name": "⚡ Selection Test 03: Geomorphology & Earth Systems",
           "path": "mcqs/selection_test/geography/geography-geomorphology-earthquakes-selection-mcq.json",
           "description": "International Date Line, Elastic Rebound Theory, Earthquake distribution, Tsunamis & Landslides.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         }
       ]
     },
@@ -182,21 +236,23 @@
       "id": "economy",
       "name": "Indian Economy & Microeconomics",
       "icon": "📈",
-      "description": "Five Year Plans, Economic Models, Consumer Theory, Market Forms & Demand Elasticity.",
+      "description": "Five Year Plans, Economic Planning Models, Consumer Behavior, Market Forms & Demand Elasticity Selection Tests.",
       "topics": [
         {
           "id": "economy-planning-models",
-          "name": "1. Economic Planning & Models",
+          "name": "⚡ Selection Test 01: Economic Planning & Models",
           "path": "mcqs/selection_test/economy/economy-planning-models-selection-mcq.json",
           "description": "Feldman-Mahalanobis model, Quota-permit system, 12th Five Year Plan, AlphaFold & Tech.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
           "id": "economy-microeconomics-markets",
-          "name": "2. Microeconomics & Markets",
+          "name": "⚡ Selection Test 02: Microeconomics & Markets",
           "path": "mcqs/selection_test/economy/economy-microeconomics-markets-selection-mcq.json",
           "description": "Market forms, demand for inferior goods, capitalist economy distribution, income elasticity.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         }
       ]
     },
@@ -204,28 +260,31 @@
       "id": "science_tech",
       "name": "Science & Technology",
       "icon": "🔬",
-      "description": "General Biology, Evolutionary Traits, Physics Mechanics & Human Health & Nutrition.",
+      "description": "General Biology, Natural Selection, Physics Laws of Motion & Human Health & Nutrition Selection Tests.",
       "topics": [
         {
           "id": "science-biology-evolution",
-          "name": "1. General Biology & Evolution",
+          "name": "⚡ Selection Test 01: General Biology & Evolution",
           "path": "mcqs/selection_test/science-tech/science-biology-evolution-selection-mcq.json",
           "description": "Darwin's natural selection theory, Age of Reptiles, marine ecosystem energy, terrestrial vertebrates.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
           "id": "science-physics-mechanics",
-          "name": "2. Physics & Laws of Motion",
+          "name": "⚡ Selection Test 02: Physics & Laws of Motion",
           "path": "mcqs/selection_test/science-tech/science-physics-mechanics-selection-mcq.json",
           "description": "Force & acceleration, Newton's laws, gravitational force, inclined planes & Archimedes principle.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
           "id": "science-health-diseases",
-          "name": "3. Human Health, Diseases & Nutrition",
+          "name": "⚡ Selection Test 03: Human Health, Diseases & Nutrition",
           "path": "mcqs/selection_test/science-tech/science-health-diseases-selection-mcq.json",
           "description": "Malaria Plasmodium parasite, vitamin deficiencies, HIV/AIDS CD4+ T helper cells & disease vectors.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         }
       ]
     },
@@ -233,21 +292,23 @@
       "id": "punjab_gk",
       "name": "Punjab GK & History",
       "icon": "🌾",
-      "description": "Geography of Punjab, Irrigation Canals, Sikh Gurus History & Partition Memorials.",
+      "description": "Geography of Punjab, Irrigation Canals, Sikh Gurus History & Bhakti Movement Selection Tests.",
       "topics": [
         {
           "id": "punjab-geography-canals-history",
-          "name": "1. Geography, Canals & Partition History",
+          "name": "⚡ Selection Test 01: Geography, Canals & Partition History",
           "path": "mcqs/selection_test/punjab-gk/punjab-geography-canals-history-selection-mcq.json",
           "description": "Sirhind Canal NET irrigated area, Chappar Chiri memorial, partition migrant rehabilitation, National Highways.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         },
         {
           "id": "punjab-sikh-gurus-history",
-          "name": "2. Sikh Gurus & Bhakti Movement",
+          "name": "⚡ Selection Test 02: Sikh Gurus & Bhakti Movement",
           "path": "mcqs/selection_test/punjab-gk/punjab-sikh-gurus-history-selection-mcq.json",
           "description": "Guru Nanak Dev Ji early education, Udasis travels, Nam Marg philosophy & Bhakti movement.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "selection_test"
         }
       ]
     },
@@ -259,73 +320,83 @@
       "topics": [
         {
           "id": "full-test-01",
-          "name": "Full Mock Test 01 (General Studies)",
+          "name": "🎓 Full Mock Test 01 (General Studies)",
           "path": "mcqs/fulltest/general-studies-full-test-01-mcq.json",
           "description": "Complete 100-question GS mock covering Geography, Polity, Science, History & Economy.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "full_mock"
         },
         {
           "id": "full-test-02",
-          "name": "Full Mock Test 02 (General Studies)",
+          "name": "🎓 Full Mock Test 02 (General Studies)",
           "path": "mcqs/fulltest/general-studies-full-test-02-mcq.json",
           "description": "Complete 100-question GS mock covering Pre-historic sites, Land revenue, Monsoon & Polity.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "full_mock"
         },
         {
           "id": "full-test-03",
-          "name": "Full Mock Test 03 (General Studies)",
+          "name": "🎓 Full Mock Test 03 (General Studies)",
           "path": "mcqs/fulltest/general-studies-full-test-03-mcq.json",
           "description": "Complete 100-question GS mock covering Recession, Punjab Rivers, Land Acquisition Act & Indian Republic.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "full_mock"
         },
         {
           "id": "full-test-04",
-          "name": "Full Mock Test 04 (General Studies)",
+          "name": "🎓 Full Mock Test 04 (General Studies)",
           "path": "mcqs/fulltest/general-studies-full-test-04-mcq.json",
           "description": "Complete 100-question GS mock covering International Grains Council, GDP, Limited Govt & Durand Line.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "full_mock"
         },
         {
           "id": "full-test-05",
-          "name": "Full Mock Test 05 (General Studies)",
+          "name": "🎓 Full Mock Test 05 (General Studies)",
           "path": "mcqs/fulltest/general-studies-full-test-05-mcq.json",
           "description": "Complete 100-question GS mock covering Tunnels, Guru Granth Sahib compilation, Sound waves & Middle East geography.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "full_mock"
         },
         {
           "id": "full-test-06",
-          "name": "Full Mock Test 06 (General Studies)",
+          "name": "🎓 Full Mock Test 06 (General Studies)",
           "path": "mcqs/fulltest/general-studies-full-test-06-mcq.json",
           "description": "Complete 100-question GS mock covering Nichrome heating, Platelets, Maharaja Ranjit Singh & Political Philosophy.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "full_mock"
         },
         {
           "id": "full-test-07",
-          "name": "Full Mock Test 07 (General Studies)",
+          "name": "🎓 Full Mock Test 07 (General Studies)",
           "path": "mcqs/fulltest/general-studies-full-test-07-mcq.json",
           "description": "Complete 100-question GS mock covering Hyperinflation, Central Govt Debt, Microfinance & Sikh Misals.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "full_mock"
         },
         {
           "id": "full-test-08",
-          "name": "Full Mock Test 08 (General Studies)",
+          "name": "🎓 Full Mock Test 08 (General Studies)",
           "path": "mcqs/fulltest/general-studies-full-test-08-mcq.json",
           "description": "Complete 100-question GS mock covering Output Gap, Sinking Fund, Deflation & Sikh Gurus.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "full_mock"
         },
         {
           "id": "full-test-09",
-          "name": "Full Mock Test 09 (General Studies)",
+          "name": "🎓 Full Mock Test 09 (General Studies)",
           "path": "mcqs/fulltest/general-studies-full-test-09-mcq.json",
           "description": "Complete 100-question GS mock covering Land borders, National Indicator Framework & Shanti Swaroop Bhatnagar Award.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "full_mock"
         },
         {
           "id": "full-test-10",
-          "name": "Full Mock Test 10 (General Studies)",
+          "name": "🎓 Full Mock Test 10 (General Studies)",
           "path": "mcqs/fulltest/general-studies-full-test-10-mcq.json",
           "description": "Complete 100-question GS mock covering Lok Sabha elections, 1991 Liberalization, SCNT Tech & Golden Dome.",
-          "questionCount": 100
+          "questionCount": 100,
+          "groupType": "full_mock"
         }
       ]
     },
@@ -337,10 +408,11 @@
       "topics": [
         {
           "id": "general-studies-mixed-revision",
-          "name": "Mixed General Studies Revision",
+          "name": "1. Mixed General Studies Revision",
           "path": "mcqs/general-studies/general-studies-mixed-revision-mcq.json",
           "description": "Urban flooding, Vikram-1 space tech, economic classifications, Project 17A.",
-          "questionCount": 12
+          "questionCount": 12,
+          "groupType": "subject_test"
         }
       ]
     }
