@@ -195,6 +195,49 @@
             gap: 12px;
             z-index: 20;
         }
+
+        /* Mobile Screen Adjustments */
+        @media (max-width: 768px) {
+            body {
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+
+            .notebook-container {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .paper-page {
+                padding: 16px 8px !important;
+                border-radius: 0 !important;
+                box-shadow: none !important;
+            }
+
+            /* Remove spiral binder holes and metallic rings on mobile screen */
+            .paper-page::before,
+            .paper-page::after {
+                display: none !important;
+            }
+
+            .pdf-viewport-container {
+                padding: 8px 4px !important;
+                border-radius: 8px !important;
+            }
+
+            .pdf-page-card {
+                max-width: 100% !important;
+                box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2) !important;
+            }
+
+            .pdf-toolbar {
+                padding: 8px 12px !important;
+            }
+
+            .sub-nav-bar h1 {
+                font-size: 20px !important;
+            }
+        }
     </style>
 </head>
 
@@ -304,10 +347,23 @@
                 }
             });
 
+        let isUserZoomed = false;
+
         // Initialize PDF Viewer Placeholders
         async function initPdfViewer() {
             try {
                 const page1 = await pdfDoc.getPage(1);
+
+                // Auto-fit PDF width on mobile screen if user hasn't manually zoomed
+                const screenWidth = window.innerWidth;
+                if (screenWidth <= 768 && !isUserZoomed) {
+                    const unscaled = page1.getViewport({ scale: 1.0 });
+                    const containerWidth = viewportContainer.clientWidth || (screenWidth - 16);
+                    const fitScale = (containerWidth - 10) / unscaled.width;
+                    scale = Math.min(Math.max(fitScale, 0.4), 1.5);
+                    if (zoomLevelDisplay) zoomLevelDisplay.innerText = `${Math.round(scale * 100)}%`;
+                }
+
                 const unscaledViewport = page1.getViewport({ scale: scale });
 
                 viewportContainer.innerHTML = '';
@@ -428,12 +484,14 @@
 
         zoomInBtn.addEventListener('click', () => {
             if (scale >= 2.5) return;
+            isUserZoomed = true;
             scale += 0.2;
             reRenderAllPages();
         });
 
         zoomOutBtn.addEventListener('click', () => {
             if (scale <= 0.6) return;
+            isUserZoomed = true;
             scale -= 0.2;
             reRenderAllPages();
         });
