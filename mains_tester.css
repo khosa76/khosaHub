@@ -1,7 +1,12 @@
 /* mains_tester.css - Apple-Inspired Mains Q&A Practice Lab */
 :root {
+    --desk-bg: #f3f4f6;
+    --desk-grid: rgba(209, 213, 219, 0.6);
+    --paper-bg: #fffdf8;
+    --margin-line: rgba(239, 68, 68, 0.4);
+    --note-line: rgba(59, 130, 246, 0.08);
+
     --page-bg: #f4f4f7;
-    --paper-bg: #ffffff;
     --ink-black: #1d1d1f;
     --text-secondary: #6e6e73;
     --ink-blue: #0066cc;
@@ -27,29 +32,62 @@
 }
 
 body {
-    background-color: var(--page-bg);
+    background-color: var(--desk-bg);
+    background-image: radial-gradient(var(--desk-grid) 1.5px, transparent 1.5px);
+    background-size: 24px 24px;
     color: var(--ink-black);
     font-family: var(--font-body);
     line-height: 1.6;
     min-height: 100vh;
-    padding: 0 16px;
+    padding: 0 1px;
 }
 
 .mains-container {
-    max-width: 960px;
+    max-width: 980px;
     margin: 0 auto;
 }
 
 .paper-page {
-    background: var(--paper-bg);
+    position: relative;
+    background-color: var(--paper-bg);
+    background-image:
+        linear-gradient(90deg, transparent 79px, var(--margin-line) 79px, var(--margin-line) 81px, transparent 81px),
+        linear-gradient(var(--note-line) 96%, transparent 96%);
+    background-size: 100% 100%, 100% 32px;
+    background-position: 0 0, 0 12px;
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
-    padding: 36px 32px;
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.08),
+        0 2px 8px rgba(0, 0, 0, 0.04);
+    padding: 36px 32px 36px 95px;
     border: 1px solid rgba(0, 0, 0, 0.06);
+}
 
-    /* Subtle lined notebook paper aesthetic */
-    background-image: linear-gradient(#e5e7eb 1px, transparent 1px);
+/* Notebook Spiral Holes & Binding */
+.paper-page::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    left: 20px;
+    width: 14px;
+    background-image: radial-gradient(#d1d5db 40%, transparent 42%);
+    background-size: 14px 32px;
+    background-position: 0 0;
+    z-index: 2;
+}
+
+.paper-page::after {
+    content: "";
+    position: absolute;
+    top: 26px;
+    bottom: 34px;
+    left: 8px;
+    width: 28px;
+    background-image: linear-gradient(180deg, #9ca3af 0%, #4b5563 50%, #9ca3af 100%);
     background-size: 100% 32px;
+    background-repeat: repeat-y;
+    z-index: 1;
 }
 
 /* Header Navbar */
