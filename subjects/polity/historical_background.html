@@ -379,20 +379,59 @@
                 </tbody>
             </table>
 
-            <div class="mermaid-container full-width-container"
-                style="display: flex; flex-direction: column; align-items: center; margin: 20px auto; background: rgba(255, 255, 255, 0.6); border: 1.5px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 14px 18px; width: 100%; box-sizing: border-box; overflow-x: auto;">
-                <p style="font-family: 'Kalam', cursive; font-size: 17px; color: var(--ink-blue); margin-bottom: 8px; font-weight: bold; text-align: center;">
+            <div class="timeline-container" style="margin: 24px 0; background: rgba(255, 255, 255, 0.7); border: 1.5px dashed rgba(30, 58, 138, 0.25); border-radius: 12px; padding: 20px; box-sizing: border-box;">
+                <h3 style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 16px; font-weight: bold; text-align: center;">
                     ⏳ Timeline of Constitutional Evolution (1773 – 1950)
-                </p>
-                <div class="mermaid" style="font-family: 'Patrick Hand', cursive; font-size: 12px; width: 100%;">
-                    graph LR
-                    R1773["1773<br>Regulating Act"] --> P1784["1784<br>Pitt's India Act"]
-                    P1784 --> C1833["1833<br>Charter Act"]
-                    C1833 --> G1858["1858<br>GoI Act (Crown)"]
-                    G1858 --> G1919["1919<br>GoI Act (Dyarchy)"]
-                    G1919 --> G1935["1935<br>GoI Act (Autonomy)"]
-                    G1935 --> C1946["1946<br>Cabinet Mission"]
-                    C1946 --> C1950["1950<br>Constitution"]
+                </h3>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px;">
+                    <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 12px; text-align: center;">
+                        <span style="background: #1e3a8a; color: white; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">1773</span>
+                        <h5 style="font-size: 15px; font-weight: 700; margin: 6px 0 4px; color: #1e3a8a;">Regulating Act</h5>
+                        <p style="font-size: 12.5px; color: #334155; margin: 0; line-height: 1.35;">Gov Gen of Bengal & SC at Calcutta</p>
+                    </div>
+
+                    <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 12px; text-align: center;">
+                        <span style="background: #1e3a8a; color: white; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">1784</span>
+                        <h5 style="font-size: 15px; font-weight: 700; margin: 6px 0 4px; color: #1e3a8a;">Pitt's India Act</h5>
+                        <p style="font-size: 12.5px; color: #334155; margin: 0; line-height: 1.35;">Dual Control & Board of Control</p>
+                    </div>
+
+                    <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 12px; text-align: center;">
+                        <span style="background: #1e3a8a; color: white; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">1833</span>
+                        <h5 style="font-size: 15px; font-weight: 700; margin: 6px 0 4px; color: #1e3a8a;">Charter Act</h5>
+                        <p style="font-size: 12.5px; color: #334155; margin: 0; line-height: 1.35;">Gov Gen of India & Law Comm</p>
+                    </div>
+
+                    <div style="background: #fffbeb; border: 1px solid #fde68a; border-radius: 10px; padding: 12px; text-align: center;">
+                        <span style="background: #b45309; color: white; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">1858</span>
+                        <h5 style="font-size: 15px; font-weight: 700; margin: 6px 0 4px; color: #b45309;">GoI Act (Crown)</h5>
+                        <p style="font-size: 12.5px; color: #334155; margin: 0; line-height: 1.35;">Viceroy Canning & Sec of State</p>
+                    </div>
+
+                    <div style="background: #fffbeb; border: 1px solid #fde68a; border-radius: 10px; padding: 12px; text-align: center;">
+                        <span style="background: #b45309; color: white; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">1919</span>
+                        <h5 style="font-size: 15px; font-weight: 700; margin: 6px 0 4px; color: #b45309;">GoI Act (Dyarchy)</h5>
+                        <p style="font-size: 12.5px; color: #334155; margin: 0; line-height: 1.35;">Provincial Dyarchy & Bicameralism</p>
+                    </div>
+
+                    <div style="background: #fffbeb; border: 1px solid #fde68a; border-radius: 10px; padding: 12px; text-align: center;">
+                        <span style="background: #b45309; color: white; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">1935</span>
+                        <h5 style="font-size: 15px; font-weight: 700; margin: 6px 0 4px; color: #b45309;">GoI Act (Autonomy)</h5>
+                        <p style="font-size: 12.5px; color: #334155; margin: 0; line-height: 1.35;">Provincial Autonomy & Federal Court</p>
+                    </div>
+
+                    <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 12px; text-align: center;">
+                        <span style="background: #059669; color: white; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">1946</span>
+                        <h5 style="font-size: 15px; font-weight: 700; margin: 6px 0 4px; color: #047857;">Cabinet Mission</h5>
+                        <p style="font-size: 12.5px; color: #334155; margin: 0; line-height: 1.35;">Constituent Assembly Formed</p>
+                    </div>
+
+                    <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 12px; text-align: center;">
+                        <span style="background: #059669; color: white; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">1950</span>
+                        <h5 style="font-size: 15px; font-weight: 700; margin: 6px 0 4px; color: #047857;">Constitution Enacted</h5>
+                        <p style="font-size: 12.5px; color: #334155; margin: 0; line-height: 1.35;">Enforced on Jan 26, 1950</p>
+                    </div>
                 </div>
             </div>
 
