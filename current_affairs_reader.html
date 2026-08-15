@@ -82,6 +82,13 @@
             position: sticky;
             top: 12px;
             z-index: 100;
+            transition: transform 0.35s ease, opacity 0.35s ease;
+        }
+
+        .pdf-toolbar.hide {
+            transform: translateY(-90px);
+            opacity: 0;
+            pointer-events: none;
         }
 
         .pdf-btn-group {
@@ -500,18 +507,28 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-        // Auto-hide zoom toolbar on scroll down, show on scroll up
-        let lastScrollTop = 0;
-        const pdfToolbar = document.querySelector('.pdf-toolbar');
+        // Auto-hide zoom toolbar while scrolling, reveal when scrolling stops or at top
+        let scrollTimeout = null;
 
         window.addEventListener('scroll', function () {
+            const pdfToolbar = document.querySelector('.pdf-toolbar');
+            if (!pdfToolbar) return;
+
             let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            if (scrollTop > lastScrollTop && scrollTop > 80) {
-                if (pdfToolbar) pdfToolbar.classList.add('hide');
-            } else {
-                if (pdfToolbar) pdfToolbar.classList.remove('hide');
+
+            if (scrollTop <= 30) {
+                pdfToolbar.classList.remove('hide');
+                if (scrollTimeout) clearTimeout(scrollTimeout);
+                return;
             }
-            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+
+            // Hide while scrolling to keep reading view clean
+            pdfToolbar.classList.add('hide');
+
+            if (scrollTimeout) clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+                pdfToolbar.classList.remove('hide');
+            }, 1000);
         });
     </script>
 </body>
