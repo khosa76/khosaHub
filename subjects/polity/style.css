@@ -368,29 +368,49 @@ em {
   margin-bottom: 20px;
 }
 
-/* Hand-drawn Tables */
-table {
+/* Hand-drawn & Roomy Notebook Tables */
+.table-wrapper,
+.table-responsive,
+.table-container {
   width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 28px 0;
+  border-radius: 12px;
+}
+
+table,
+.notes-table,
+.comparison-table {
+  width: 100%;
+  min-width: 720px;
   border-collapse: separate;
   border-spacing: 0;
   margin: 28px 0;
   border: 2px solid #475569;
-  border-radius: 12px 6px 15px 5px/6px 15px 5px 12px;
-  /* Sketchy table container */
-  background-color: rgba(255, 255, 255, 0.4);
-  overflow: hidden;
-  box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.table-wrapper table,
+.table-responsive table,
+.table-container table {
+  margin: 0;
 }
 
 th,
 td {
   border-right: 2px solid rgba(71, 85, 105, 0.6);
   border-bottom: 2px solid rgba(71, 85, 105, 0.6);
-  padding: 10px 14px;
+  padding: 14px 20px;
   font-family: 'Patrick Hand', cursive;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 18.5px;
+  line-height: 26px;
   vertical-align: top;
+  white-space: normal;
+  word-break: normal;
 }
 
 th:last-child,
@@ -403,8 +423,7 @@ tr:last-child td {
 }
 
 th {
-  background-color: rgba(254, 240, 138, 0.4);
-  /* Highlighter yellow header */
+  background-color: rgba(254, 240, 138, 0.5);
   color: var(--ink-blue);
   font-family: 'Kalam', cursive;
   font-weight: 700;
@@ -1041,5 +1060,21 @@ th {
 
   .chapter-checklist li {
     font-size: 16px;
+  }
+
+  table,
+  .notes-table,
+  .comparison-table {
+    display: block;
+    width: 100% !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  th,
+  td {
+    white-space: normal;
+    min-width: 140px;
   }
 }
