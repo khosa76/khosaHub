@@ -86,7 +86,7 @@ body {
   position: relative;
   background-color: var(--paper-bg);
   background-image:
-    linear-gradient(90deg, transparent 79px, var(--margin-line) 79px, var(--margin-line) 81px, transparent 81px),
+    linear-gradient(90deg, transparent 66px, var(--margin-line) 66px, var(--margin-line) 68px, transparent 68px),
     linear-gradient(var(--note-line) 96%, transparent 96%);
   background-size: 100% 100%, 100% 32px;
   background-position: 0 0, 0 12px;
@@ -95,36 +95,51 @@ body {
     0 10px 30px rgba(0, 0, 0, 0.08),
     0 2px 8px rgba(0, 0, 0, 0.04);
   border: 1px solid var(--border-light);
-  padding: 36px 40px 36px 100px;
+  padding: 36px 40px 36px 90px;
   min-height: 100vh;
   box-sizing: border-box;
 }
 
-/* Notebook Spiral Holes & Binding */
+/* Spiral Binding Binder Holes */
 .paper-page::before {
-  content: "";
+  content: '';
   position: absolute;
-  top: 30px;
-  bottom: 30px;
+  top: 40px;
+  bottom: 40px;
   left: 20px;
   width: 14px;
-  background-image: radial-gradient(#d1d5db 40%, transparent 42%);
+  background-image: radial-gradient(circle, #374151 55%, transparent 63%);
   background-size: 14px 32px;
-  background-position: 0 0;
-  z-index: 2;
+  background-repeat: repeat-y;
+  background-position: 0 12px;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
+  z-index: 10;
 }
 
+/* Metal Spiral Rings */
 .paper-page::after {
-  content: "";
+  content: '';
   position: absolute;
-  top: 26px;
-  bottom: 34px;
-  left: 8px;
-  width: 28px;
-  background-image: linear-gradient(180deg, #9ca3af 0%, #4b5563 50%, #9ca3af 100%);
-  background-size: 100% 32px;
+  top: 36px;
+  bottom: 44px;
+  left: 6px;
+  width: 32px;
+  background-image: linear-gradient(180deg,
+      transparent 0px,
+      transparent 4px,
+      #9ca3af 4px,
+      #e5e7eb 8px,
+      #ffffff 10px,
+      #d1d5db 12px,
+      #4b5563 16px,
+      transparent 16px,
+      transparent 32px);
+  background-size: 32px 32px;
   background-repeat: repeat-y;
-  z-index: 1;
+  background-position: 0 12px;
+  z-index: 11;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.18));
 }
 
 /* Clean Header Navbar */
