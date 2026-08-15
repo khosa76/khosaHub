@@ -69,12 +69,6 @@
             border-color: var(--ink-blue);
         }
 
-        .pdf-btn.active {
-            background: var(--ink-blue);
-            color: white;
-            border-color: var(--ink-blue);
-        }
-
         .pdf-btn:disabled {
             opacity: 0.4;
             cursor: not-allowed;
@@ -112,7 +106,7 @@
             background: #525659;
             border-radius: 12px;
             padding: 24px 12px;
-            min-height: 700px;
+            min-height: 600px;
             box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.3);
             display: flex;
             flex-direction: column;
@@ -120,6 +114,7 @@
             gap: 20px;
             position: relative;
             box-sizing: border-box;
+            overflow-x: auto;
         }
 
         /* Individual Page Wrapper Card */
@@ -131,7 +126,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 400px;
+            min-height: 450px;
             margin: 0 auto;
         }
 
@@ -282,7 +277,7 @@
                 <div class="pdf-main-loader" id="pdf-main-loader">
                     <div class="spinner-dot" style="width: 24px; height: 24px; border-width: 3px;"></div>
                     <span style="font-weight: 700;">Loading Magazine PDF...</span>
-                    <span style="font-size: 12.5px; color: #64748b;">Fetching array buffer & initializing lazy scroll engine</span>
+                    <span style="font-size: 12.5px; color: #64748b;">Initializing lazy scroll engine</span>
                 </div>
             </div>
 
@@ -331,7 +326,7 @@
         </div>
     </div>
 
-    <!-- PDF.js Engine with Lazy Intersection Observer & High-DPI Scaling -->
+    <!-- PDF.js Engine with Synchronous Lazy Placeholders & Crisp High-DPI Rendering -->
     <script>
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
@@ -341,6 +336,7 @@
         let scale = 1.25;
         let renderedPages = new Set();
         let pageRenderingStatus = {};
+        let pageObserver = null;
 
         const viewportContainer = document.getElementById('pdf-viewport-container');
         const mainLoader = document.getElementById('pdf-main-loader');
@@ -355,50 +351,46 @@
         const resetZoomBtn = document.getElementById('reset-zoom-btn');
         const scrollTopBtn = document.getElementById('scroll-top-btn');
 
-        // High-DPI Device Pixel Ratio for Crystal Clear Vector Text
         const dpr = window.devicePixelRatio || 1;
 
-        // Fetch PDF as ArrayBuffer to COMPLETELY BYPASS IDM Interception
-        fetch(pdfUrl, {
-            method: 'GET',
-            headers: { 'Accept': 'application/octet-stream' }
-        })
-        .then(response => {
-            if (!response.ok) throw new Error("HTTP Status " + response.status);
-            return response.arrayBuffer();
-        })
-        .then(arrayBuffer => {
-            return pdfjsLib.getDocument({ data: arrayBuffer }).promise;
-        })
-        .then(pdfDoc_ => {
-            pdfDoc = pdfDoc_;
-            if (mainLoader) mainLoader.remove();
-            pageCountDisplay.innerText = pdfDoc.numPages;
-            pageNumInput.max = pdfDoc.numPages;
+        // Fetch ArrayBuffer with fallback to standard getDocument
+        fetch(pdfUrl, { headers: { 'Accept': 'application/octet-stream' } })
+            .then(res => {
+                if (!res.ok) throw new Error("HTTP error " + res.status);
+                return res.arrayBuffer();
+            })
+            .then(buffer => pdfjsLib.getDocument({ data: buffer }).promise)
+            .catch(() => {
+                // Fallback to standard PDF.js URL loader if ArrayBuffer fetch is blocked
+                return pdfjsLib.getDocument(pdfUrl).promise;
+            })
+            .then(pdfDoc_ => {
+                pdfDoc = pdfDoc_;
+                pageCountDisplay.innerText = pdfDoc.numPages;
+                pageNumInput.max = pdfDoc.numPages;
 
-            // Build Lazy Page Containers
-            buildPagePlaceholders();
-            setupIntersectionObserver();
-        })
-        .catch(err => {
-            console.error("PDF Load Error:", err);
-            if (mainLoader) {
-                mainLoader.innerHTML = `
-                    <div style="color: #ef4444; font-weight: bold; text-align: center;">
-                        ⚠️ Unable to load PDF file.
-                        <br><span style="font-size: 12px; font-weight: normal; color: #64748b;">${err.message || 'File not found'}</span>
-                    </div>
-                `;
-            }
-        });
+                initPdfViewer();
+            })
+            .catch(err => {
+                console.error("PDF Load Error:", err);
+                if (mainLoader) {
+                    mainLoader.innerHTML = `
+                        <div style="color: #ef4444; font-weight: bold; text-align: center; padding: 20px;">
+                            ⚠️ Unable to load PDF file.
+                            <br><span style="font-size: 13px; font-weight: normal; color: #64748b;">Ensure 'current_affairs/June_Monthly_CA_Magazine_Fateh_Sir.pdf' exists.</span>
+                        </div>
+                    `;
+                }
+            });
 
-        // Build placeholder page cards (Does NOT render canvas immediately!)
-        function buildPagePlaceholders() {
-            viewportContainer.innerHTML = '';
-            
-            // Get unscaled viewport of page 1 to estimate dimensions
-            pdfDoc.getPage(1).then(page => {
-                const unscaledViewport = page.getViewport({ scale: scale });
+        // Initialize PDF Viewer Placeholders & IntersectionObserver
+        async function initPdfViewer() {
+            try {
+                const page1 = await pdfDoc.getPage(1);
+                const unscaledViewport = page1.getViewport({ scale: scale });
+
+                viewportContainer.innerHTML = '';
+                if (mainLoader) mainLoader.remove();
 
                 for (let i = 1; i <= pdfDoc.numPages; i++) {
                     const card = document.createElement('div');
@@ -412,17 +404,26 @@
                     card.innerHTML = `
                         <div class="page-placeholder-loading" id="ph-loader-${i}">
                             <div class="spinner-dot"></div>
-                            <span>Page ${i}</span>
+                            <span>Rendering Page ${i}...</span>
                         </div>
                         <canvas id="pdf-canvas-${i}" style="display: none;"></canvas>
                     `;
 
                     viewportContainer.appendChild(card);
                 }
-            });
+
+                // Render Page 1 and 2 immediately!
+                renderPageOnDemand(1);
+                if (pdfDoc.numPages > 1) renderPageOnDemand(2);
+
+                // Attach IntersectionObserver for all remaining pages
+                setupIntersectionObserver();
+            } catch (err) {
+                console.error("Init Viewer Error:", err);
+            }
         }
 
-        // Render page with 4K High-DPI Crisp Text on demand
+        // Render page with High-DPI 4K Crisp Text on demand
         function renderPageOnDemand(pageNum) {
             if (renderedPages.has(pageNum) || pageRenderingStatus[pageNum]) return;
 
@@ -433,7 +434,10 @@
                 const card = document.getElementById(`pdf-page-card-${pageNum}`);
                 const phLoader = document.getElementById(`ph-loader-${pageNum}`);
 
-                if (!canvas || !card) return;
+                if (!canvas || !card) {
+                    pageRenderingStatus[pageNum] = false;
+                    return;
+                }
 
                 const ctx = canvas.getContext('2d');
                 
@@ -465,16 +469,17 @@
                     console.error(`Page ${pageNum} render error:`, err);
                     pageRenderingStatus[pageNum] = false;
                 });
+            }).catch(err => {
+                console.error(`Get page ${pageNum} error:`, err);
+                pageRenderingStatus[pageNum] = false;
             });
         }
 
-        // IntersectionObserver for Lazy On-Demand Rendering
-        let pageObserver = null;
-
+        // IntersectionObserver Setup
         function setupIntersectionObserver() {
             const options = {
-                root: null, // Viewport
-                rootMargin: '400px 0px', // Pre-render 400px before scrolling into view
+                root: null,
+                rootMargin: '500px 0px', // Pre-render 500px before scrolling into view
                 threshold: 0.1
             };
 
@@ -483,10 +488,8 @@
                     const pageNum = parseInt(entry.target.dataset.pageNumber);
                     
                     if (entry.isIntersecting) {
-                        // Render page as user scrolls close to it!
                         renderPageOnDemand(pageNum);
 
-                        // Update current active page input indicator
                         if (entry.intersectionRatio > 0.3) {
                             pageNumInput.value = pageNum;
                         }
@@ -494,39 +497,21 @@
                 });
             }, options);
 
-            // Observe all page placeholders
             document.querySelectorAll('.pdf-page-card').forEach(card => {
                 pageObserver.observe(card);
             });
         }
 
-        // Re-render visible pages on Zoom change
+        // Zoom Re-render
         function reRenderAllPages() {
             renderedPages.clear();
             pageRenderingStatus = {};
 
             zoomLevelDisplay.innerText = `${Math.round(scale * 100)}%`;
 
-            document.querySelectorAll('.pdf-page-card').forEach(card => {
-                const pageNum = parseInt(card.dataset.pageNumber);
-                card.innerHTML = `
-                    <div class="page-placeholder-loading" id="ph-loader-${pageNum}">
-                        <div class="spinner-dot"></div>
-                        <span>Page ${pageNum}</span>
-                    </div>
-                    <canvas id="pdf-canvas-${pageNum}" style="display: none;"></canvas>
-                `;
-            });
-
-            // Trigger observer checks
-            if (pageObserver) {
-                document.querySelectorAll('.pdf-page-card').forEach(card => {
-                    pageObserver.observe(card);
-                });
-            }
+            initPdfViewer();
         }
 
-        // Controls
         zoomInBtn.addEventListener('click', () => {
             if (scale >= 2.5) return;
             scale += 0.25;
