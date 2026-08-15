@@ -10,12 +10,17 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="subjects/polity/style.css">
 
     <!-- PDF.js Library via CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 
     <style>
+        :root {
+            --ink-blue: #1e3a8a;
+            --border-medium: #cbd5e1;
+        }
+
         .sub-back-btn {
             font-family: inherit;
             background: #f1f5f9;
@@ -35,14 +40,14 @@
         .sub-back-btn:hover {
             background: #1e3a8a !important;
             color: #ffffff !important;
-            border-color: #1e3a8a !important;
+            border-color: #1e3a8a;
         }
 
         .pdf-btn-download {
             font-family: inherit;
             background: #059669;
             color: #ffffff !important;
-            border: 1px solid #059669;
+            border: none;
             padding: 9px 18px;
             border-radius: 8px;
             font-weight: 700;
@@ -57,10 +62,9 @@
 
         .pdf-btn-download:hover {
             background: #047857 !important;
-            color: #ffffff !important;
-            border-color: #047857 !important;
             transform: translateY(-2px);
             box-shadow: 0 6px 18px rgba(5, 150, 105, 0.4);
+            color: #ffffff !important;
         }
 
         .pdf-toolbar {
@@ -70,21 +74,14 @@
             flex-wrap: wrap;
             gap: 12px;
             background: #ffffff;
-            border: 1px solid var(--border-medium);
+            border: 1px solid #cbd5e1;
             border-radius: 10px;
             padding: 10px 18px;
             margin-bottom: 20px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
             position: sticky;
             top: 12px;
             z-index: 100;
-            transition: transform 0.35s ease, opacity 0.35s ease;
-        }
-
-        .pdf-toolbar.hide {
-            transform: translateY(-80px);
-            opacity: 0;
-            pointer-events: none;
         }
 
         .pdf-btn-group {
@@ -110,18 +107,18 @@
         }
 
         .pdf-btn:hover:not(:disabled) {
-            background: #2563eb !important;
+            background: #1e3a8a !important;
             color: #ffffff !important;
-            border-color: #2563eb !important;
+            border-color: #1e3a8a;
         }
 
         /* Continuous Scroll Viewport Container */
         .pdf-viewport-container {
-            background: #525659;
+            /* background: #525659; */
             border-radius: 12px;
             padding: 24px 12px;
             min-height: 600px;
-            box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.3);
+            /* box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.3); */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -177,7 +174,9 @@
         }
 
         @keyframes spin {
-            to { transform: rotate(360deg); }
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         .pdf-main-loader {
@@ -204,14 +203,16 @@
         <div class="paper-page">
 
             <!-- Sub Navigation Header -->
-            <div class="sub-nav-bar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px;">
+            <div class="sub-nav-bar"
+                style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px;">
                 <a href="current_affairs_index.html" class="sub-back-btn">
                     ← Back to CA Vault
                 </a>
                 <h1 style="font-size: 26px; font-weight: 700; color: var(--ink-blue); margin: 0; text-align: center;">
                     June 2026 Monthly CA
                 </h1>
-                <a href="current_affairs/June_Monthly_CA_Magazine_Fateh_Sir.pdf" download class="pdf-btn-download" target="_blank">
+                <a href="current_affairs/June_Monthly_CA_Magazine_Fateh_Sir.pdf" download class="pdf-btn-download"
+                    target="_blank">
                     📥 Download PDF
                 </a>
             </div>
@@ -223,7 +224,8 @@
                     <button class="pdf-btn" id="zoom-out-btn" title="Zoom Out">
                         🔍- Zoom Out
                     </button>
-                    <span id="zoom-level-display" style="font-size: 13.5px; font-weight: 700; color: #1e293b; padding: 0 4px;">125%</span>
+                    <span id="zoom-level-display"
+                        style="font-size: 13.5px; font-weight: 700; color: #1e293b; padding: 0 4px;">125%</span>
                     <button class="pdf-btn" id="zoom-in-btn" title="Zoom In">
                         🔍+ Zoom In
                     </button>
@@ -358,7 +360,7 @@
                 }
 
                 const ctx = canvas.getContext('2d');
-                
+
                 const baseViewport = page.getViewport({ scale: scale });
                 const renderViewport = page.getViewport({ scale: scale * dpr });
 
@@ -455,4 +457,5 @@
         });
     </script>
 </body>
+
 </html>

@@ -10,9 +10,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="subjects/polity/style.css">
 
     <style>
+        :root {
+            --ink-blue: #1e3a8a;
+            --border-medium: #cbd5e1;
+        }
+
         .ca-catalog-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -21,8 +26,8 @@
         }
 
         .ca-magazine-card {
-            background: var(--paper-bg, #ffffff);
-            border: 1px solid var(--border-medium, #cbd5e1);
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
             border-radius: 12px;
             padding: 24px;
             transition: all 0.25s ease;
@@ -35,16 +40,16 @@
 
         .ca-magazine-card.active-card {
             border-color: #059669;
-            background: linear-gradient(135deg, rgba(236, 253, 245, 0.8), rgba(255, 255, 255, 0.9));
+            background: linear-gradient(135deg, rgba(236, 253, 245, 0.85), rgba(255, 255, 255, 0.95));
         }
 
         .ca-magazine-card.active-card:hover {
             transform: translateY(-4px);
-            box-shadow: 0 10px 25px rgba(5, 150, 105, 0.15);
+            box-shadow: 0 10px 25px rgba(5, 150, 105, 0.18);
         }
 
         .ca-magazine-card.disabled-card {
-            opacity: 0.7;
+            opacity: 0.75;
             background: #f8fafc;
             border-style: dashed;
         }
@@ -52,8 +57,8 @@
         .ca-badge-active {
             font-family: 'Kalam', cursive;
             background: #059669;
-            color: white;
-            padding: 3px 10px;
+            color: #ffffff !important;
+            padding: 4px 12px;
             border-radius: 6px;
             font-size: 13px;
             font-weight: bold;
@@ -63,8 +68,8 @@
         .ca-badge-soon {
             font-family: 'Kalam', cursive;
             background: #64748b;
-            color: white;
-            padding: 3px 10px;
+            color: #ffffff !important;
+            padding: 4px 12px;
             border-radius: 6px;
             font-size: 13px;
             font-weight: bold;
@@ -90,7 +95,7 @@
         .sub-back-btn:hover {
             background: #1e3a8a !important;
             color: #ffffff !important;
-            border-color: #1e3a8a !important;
+            border-color: #1e3a8a;
         }
 
         .open-ca-btn {
@@ -98,7 +103,7 @@
             align-items: center;
             gap: 6px;
             background: #059669;
-            color: white;
+            color: #ffffff !important;
             padding: 10px 18px;
             border-radius: 8px;
             font-weight: 700;
@@ -107,11 +112,14 @@
             transition: all 0.2s ease;
             margin-top: 16px;
             width: fit-content;
+            box-shadow: 0 4px 12px rgba(5, 150, 105, 0.25);
         }
 
         .open-ca-btn:hover {
-            background: #047857;
+            background: #047857 !important;
+            color: #ffffff !important;
             transform: translateX(3px);
+            box-shadow: 0 6px 16px rgba(5, 150, 105, 0.35);
         }
     </style>
 </head>
@@ -121,7 +129,7 @@
         <div class="paper-page">
 
             <!-- Sub Navigation Header -->
-            <div class="sub-nav-bar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+            <div class="sub-nav-bar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px;">
                 <a href="index.html" class="sub-back-btn">
                     ← Back to Main Dashboard
                 </a>
