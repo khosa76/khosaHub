@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Current Affairs Magazine Reader - KHOSA Aspirant Hub</title>
+    <title>June 2026 Monthly CA - KHOSA Hub</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,12 +16,47 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 
     <style>
-        .pdf-header-banner {
-            background: rgba(239, 246, 255, 0.85);
-            border: 1.5px dashed var(--ink-blue);
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 20px;
+        .sub-back-btn {
+            font-family: inherit;
+            background: #f1f5f9;
+            color: #0f172a;
+            border: 1px solid #cbd5e1;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .sub-back-btn:hover {
+            background: var(--ink-blue);
+            color: white;
+            border-color: var(--ink-blue);
+        }
+
+        .pdf-btn-download {
+            font-family: inherit;
+            background: var(--ink-blue);
+            color: white;
+            border: 1px solid var(--ink-blue);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 13.5px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .pdf-btn-download:hover {
+            background: #1d4ed8;
+            color: white;
         }
 
         .pdf-toolbar {
@@ -31,11 +66,11 @@
             flex-wrap: wrap;
             gap: 12px;
             background: #ffffff;
-            border: 1px solid var(--ink-blue);
+            border: 1px solid var(--border-medium);
             border-radius: 10px;
-            padding: 10px 16px;
+            padding: 10px 18px;
             margin-bottom: 20px;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
             position: sticky;
             top: 12px;
             z-index: 100;
@@ -81,7 +116,7 @@
             color: #1e293b;
             display: flex;
             align-items: center;
-            gap: 6px;
+            gap: 8px;
         }
 
         .pdf-page-input {
@@ -92,7 +127,7 @@
             font-size: 14px;
             font-weight: 700;
             border: 1px solid #cbd5e1;
-            border-radius: 4px;
+            border-radius: 6px;
             outline: none;
         }
 
@@ -135,7 +170,6 @@
             border-radius: 6px;
         }
 
-        /* Placeholder Spinner for Unrendered Lazy Pages */
         .page-placeholder-loading {
             position: absolute;
             top: 50%;
@@ -183,28 +217,6 @@
             gap: 12px;
             z-index: 20;
         }
-
-        .ca-topics-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 12px;
-            margin-top: 20px;
-        }
-
-        .ca-topic-card {
-            background: #ffffff;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            padding: 12px 16px;
-            font-size: 13.5px;
-        }
-
-        .ca-topic-card h5 {
-            font-size: 14.5px;
-            font-weight: 700;
-            color: var(--ink-blue);
-            margin-bottom: 4px;
-        }
     </style>
 </head>
 
@@ -213,62 +225,36 @@
         <div class="paper-page">
 
             <!-- Sub Navigation Bar -->
-            <div class="sub-nav-bar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-                <a href="index.html" class="back-to-hub-btn" style="position: static; display: inline-flex; align-items: center; text-decoration: none;">
+            <div class="sub-nav-bar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px;">
+                <a href="index.html" class="sub-back-btn">
                     ← Back to Main Dashboard
                 </a>
-                <span class="badge-new" style="background: var(--ink-blue); color: white; padding: 4px 12px; border-radius: 12px; font-size: 13px; font-weight: bold;">
-                    📰 Monthly CA Vault
-                </span>
-            </div>
-
-            <!-- Header Banner -->
-            <div class="pdf-header-banner">
-                <h1 style="font-size: 26px; margin-bottom: 6px; color: var(--ink-blue);">
-                    Monthly Current Affairs Magazine
+                <h1 style="font-size: 26px; font-weight: 700; color: var(--ink-blue); margin: 0; text-align: center;">
+                    June 2026 Monthly CA
                 </h1>
-                <p style="font-size: 15px; color: #475569; margin: 0;">
-                    <strong>Edition:</strong> June Monthly CA Magazine (By Fateh Sir) &nbsp;|&nbsp; 
-                    <strong>Format:</strong> High-DPI Vector Sharp Text • Lazy Continuous Scroll
-                </p>
+                <a href="current_affairs/June_Monthly_CA_Magazine_Fateh_Sir.pdf" download class="pdf-btn-download" target="_blank">
+                    📥 Download PDF
+                </a>
             </div>
 
             <!-- PDF Controls Sticky Toolbar -->
             <div class="pdf-toolbar">
+                <div class="pdf-page-indicator">
+                    Page 
+                    <input type="number" id="page-num-input" class="pdf-page-input" value="1" min="1"> 
+                    of <span id="page-count-display">--</span>
+                </div>
+
                 <div class="pdf-btn-group">
-                    <div class="pdf-page-indicator">
-                        Page 
-                        <input type="number" id="page-num-input" class="pdf-page-input" value="1" min="1"> 
-                        of <span id="page-count-display">--</span>
-                    </div>
                     <button class="pdf-btn" id="prev-page-btn" title="Jump to Previous Page">
                         ▲ Prev
                     </button>
                     <button class="pdf-btn" id="next-page-btn" title="Jump to Next Page">
                         ▼ Next
                     </button>
-                </div>
-
-                <div class="pdf-btn-group">
-                    <button class="pdf-btn" id="zoom-out-btn" title="Zoom Out">
-                        🔍-
-                    </button>
-                    <span id="zoom-level-display" style="font-size: 13.5px; font-weight: 600; color: #475569;">100%</span>
-                    <button class="pdf-btn" id="zoom-in-btn" title="Zoom In">
-                        🔍+
-                    </button>
-                    <button class="pdf-btn" id="reset-zoom-btn" title="Fit to Container Width">
-                        ↔️ Fit Width
-                    </button>
-                </div>
-
-                <div class="pdf-btn-group">
-                    <button class="pdf-btn" id="scroll-top-btn">
+                    <button class="pdf-btn" id="scroll-top-btn" title="Scroll to Top">
                         ⬆️ Top
                     </button>
-                    <a href="current_affairs/June_Monthly_CA_Magazine_Fateh_Sir.pdf" download class="pdf-btn" style="text-decoration: none;" target="_blank">
-                        📥 Download PDF
-                    </a>
                 </div>
             </div>
 
@@ -277,42 +263,6 @@
                 <div class="pdf-main-loader" id="pdf-main-loader">
                     <div class="spinner-dot" style="width: 24px; height: 24px; border-width: 3px;"></div>
                     <span style="font-weight: 700;">Loading Magazine PDF...</span>
-                    <span style="font-size: 12.5px; color: #64748b;">Initializing lazy scroll engine</span>
-                </div>
-            </div>
-
-            <!-- Quick Tip Bar -->
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding: 12px 16px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px;">
-                <span style="font-size: 13.5px; color: #475569;">
-                    💡 <strong>Smart Scroll:</strong> Pages render on-demand as you scroll down. Vector text is rendered at 4K crisp density.
-                </span>
-                <button class="pdf-btn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
-                    🔝 Back to Top
-                </button>
-            </div>
-
-            <!-- Magazine Topic Syllabus Cards -->
-            <div style="margin-top: 36px; border-top: 2px dashed #cbd5e1; padding-top: 24px;">
-                <h3 style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 12px;">
-                    📌 June Current Affairs Syllabus Coverage
-                </h3>
-                <div class="ca-topics-grid">
-                    <div class="ca-topic-card">
-                        <h5>🏛️ National Polity & Bills</h5>
-                        <p style="margin: 0; color: #64748b;">Constitutional amendments, Cabinet decisions, Supreme Court verdicts & Bills.</p>
-                    </div>
-                    <div class="ca-topic-card">
-                        <h5>🌾 Punjab State Special</h5>
-                        <p style="margin: 0; color: #64748b;">Punjab state policies, canal irrigation developments, heritage & awards.</p>
-                    </div>
-                    <div class="ca-topic-card">
-                        <h5>🌐 International Relations</h5>
-                        <p style="margin: 0; color: #64748b;">Bilateral summits, G20/BRICS updates, global indices & defense exercises.</p>
-                    </div>
-                    <div class="ca-topic-card">
-                        <h5>📈 Economy & Schemes</h5>
-                        <p style="margin: 0; color: #64748b;">RBI repo rates, GDP projections, Union welfare schemes & budget allocations.</p>
-                    </div>
                 </div>
             </div>
 
@@ -326,14 +276,14 @@
         </div>
     </div>
 
-    <!-- PDF.js Engine with Synchronous Lazy Placeholders & Crisp High-DPI Rendering -->
+    <!-- PDF.js Engine with High-DPI Rendering & Lazy Scroll -->
     <script>
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
         const pdfUrl = 'current_affairs/June_Monthly_CA_Magazine_Fateh_Sir.pdf';
 
         let pdfDoc = null;
-        let scale = 1.25;
+        let scale = 1.35;
         let renderedPages = new Set();
         let pageRenderingStatus = {};
         let pageObserver = null;
@@ -342,13 +292,9 @@
         const mainLoader = document.getElementById('pdf-main-loader');
         const pageNumInput = document.getElementById('page-num-input');
         const pageCountDisplay = document.getElementById('page-count-display');
-        const zoomLevelDisplay = document.getElementById('zoom-level-display');
 
         const prevBtn = document.getElementById('prev-page-btn');
         const nextBtn = document.getElementById('next-page-btn');
-        const zoomInBtn = document.getElementById('zoom-in-btn');
-        const zoomOutBtn = document.getElementById('zoom-out-btn');
-        const resetZoomBtn = document.getElementById('reset-zoom-btn');
         const scrollTopBtn = document.getElementById('scroll-top-btn');
 
         const dpr = window.devicePixelRatio || 1;
@@ -361,7 +307,6 @@
             })
             .then(buffer => pdfjsLib.getDocument({ data: buffer }).promise)
             .catch(() => {
-                // Fallback to standard PDF.js URL loader if ArrayBuffer fetch is blocked
                 return pdfjsLib.getDocument(pdfUrl).promise;
             })
             .then(pdfDoc_ => {
@@ -383,7 +328,7 @@
                 }
             });
 
-        // Initialize PDF Viewer Placeholders & IntersectionObserver
+        // Initialize PDF Viewer Placeholders
         async function initPdfViewer() {
             try {
                 const page1 = await pdfDoc.getPage(1);
@@ -416,14 +361,13 @@
                 renderPageOnDemand(1);
                 if (pdfDoc.numPages > 1) renderPageOnDemand(2);
 
-                // Attach IntersectionObserver for all remaining pages
                 setupIntersectionObserver();
             } catch (err) {
                 console.error("Init Viewer Error:", err);
             }
         }
 
-        // Render page with High-DPI 4K Crisp Text on demand
+        // Render page on demand with High-DPI Crisp Vector Text
         function renderPageOnDemand(pageNum) {
             if (renderedPages.has(pageNum) || pageRenderingStatus[pageNum]) return;
 
@@ -441,7 +385,6 @@
 
                 const ctx = canvas.getContext('2d');
                 
-                // High-DPI crisp vector text calculation
                 const baseViewport = page.getViewport({ scale: scale });
                 const renderViewport = page.getViewport({ scale: scale * dpr });
 
@@ -475,11 +418,11 @@
             });
         }
 
-        // IntersectionObserver Setup
+        // IntersectionObserver for Lazy Scroll
         function setupIntersectionObserver() {
             const options = {
                 root: null,
-                rootMargin: '500px 0px', // Pre-render 500px before scrolling into view
+                rootMargin: '500px 0px',
                 threshold: 0.1
             };
 
@@ -501,37 +444,6 @@
                 pageObserver.observe(card);
             });
         }
-
-        // Zoom Re-render
-        function reRenderAllPages() {
-            renderedPages.clear();
-            pageRenderingStatus = {};
-
-            zoomLevelDisplay.innerText = `${Math.round(scale * 100)}%`;
-
-            initPdfViewer();
-        }
-
-        zoomInBtn.addEventListener('click', () => {
-            if (scale >= 2.5) return;
-            scale += 0.25;
-            reRenderAllPages();
-        });
-
-        zoomOutBtn.addEventListener('click', () => {
-            if (scale <= 0.6) return;
-            scale -= 0.25;
-            reRenderAllPages();
-        });
-
-        resetZoomBtn.addEventListener('click', () => {
-            const containerWidth = viewportContainer.clientWidth - 48;
-            pdfDoc.getPage(1).then(page => {
-                const unscaled = page.getViewport({ scale: 1.0 });
-                scale = containerWidth / unscaled.width;
-                reRenderAllPages();
-            });
-        });
 
         // Page Jumping
         function scrollToPage(pageNum) {
