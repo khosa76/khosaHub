@@ -22,7 +22,7 @@ body {
   background-image: radial-gradient(var(--desk-grid) 1.5px, transparent 1.5px);
   background-size: 24px 24px;
   margin: 0;
-  padding: 40px 1px;
+  padding: 0 1px;
   font-family: 'Patrick Hand', cursive;
   color: var(--ink-black);
   display: flex;
@@ -457,13 +457,12 @@ p {
    ============================================= */
 @media (max-width: 1024px) {
   body {
-    padding: 24px 6px;
+    padding: 0 6px;
   }
 
   .paper-page {
     padding: 50px 30px 50px 80px;
   }
-
   h1 {
     font-size: 32px;
     line-height: 40px;
@@ -479,7 +478,7 @@ p {
    ============================================= */
 @media (max-width: 600px) {
   body {
-    padding: 10px 2px;
+    padding: 0 2px;
     font-size: 16px;
   }
 
