@@ -1102,7 +1102,6 @@ th {
     display: table !important;
     width: 100% !important;
     max-width: 100% !important;
-    min-width: 0 !important;
     table-layout: auto !important;
     overflow-x: hidden !important;
     word-break: normal !important;
@@ -1114,7 +1113,7 @@ th {
     word-break: break-word !important;
     overflow-wrap: anywhere !important;
     hyphens: auto !important;
-    min-width: 0 !important;
+    min-width: 45px !important;
     font-size: 10px !important;
     line-height: 13.5px !important;
     padding: 3px 2px !important;
