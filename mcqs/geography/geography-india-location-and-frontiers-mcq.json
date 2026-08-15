@@ -1,0 +1,652 @@
+[
+  {
+    "question": "Which of the following channels or straits separates the Andaman group of islands from the Nicobar group of islands?",
+    "options": [
+      {
+        "text": "The Nine Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Nine Degree Channel separates Minicoy Island from the main Lakshadweep archipelago."
+      },
+      {
+        "text": "The Ten Degree Channel",
+        "isCorrect": true,
+        "rationale": "The Ten Degree Channel is a channel that lies on the 10-degree latitude line, separating the Andaman Islands to the north from the Nicobar Islands to the south."
+      },
+      {
+        "text": "The Duncan Passage",
+        "isCorrect": false,
+        "rationale": "The Duncan Passage separates South Andaman from Little Andaman."
+      },
+      {
+        "text": "The Palk Strait",
+        "isCorrect": false,
+        "rationale": "The Palk Strait separates India (Tamil Nadu) from Sri Lanka."
+      }
+    ],
+    "hint": "This channel is named after the parallel of latitude that runs between the two island groups."
+  },
+  {
+    "question": "Where is India's southernmost territory marker, 'Indira Point' (formerly Pygmalion Point), located?",
+    "options": [
+      {
+        "text": "Kanyakumari (Cape Comorin)",
+        "isCorrect": false,
+        "rationale": "Kanyakumari is the southernmost point of the Indian mainland, not the entire Indian territory."
+      },
+      {
+        "text": "Great Nicobar Island",
+        "isCorrect": true,
+        "rationale": "Indira Point is located on the Great Nicobar Island, which is the southernmost island of the Nicobar chain."
+      },
+      {
+        "text": "Car Nicobar Island",
+        "isCorrect": false,
+        "rationale": "Car Nicobar is the northernmost of the Nicobar Islands, far north of Indira Point."
+      },
+      {
+        "text": "South Andaman Island",
+        "isCorrect": false,
+        "rationale": "Port Blair is on South Andaman, but Indira Point is much further south in the Nicobar group."
+      }
+    ],
+    "hint": "It is located on the largest and southernmost island of the Nicobar archipelago."
+  },
+  {
+    "question": "What is the name of the channel that serves as the international maritime boundary between India's Great Nicobar Island and the Sumatra island of Indonesia?",
+    "options": [
+      {
+        "text": "The Six Degree Channel (Great Channel)",
+        "isCorrect": true,
+        "rationale": "The Six Degree Channel, also known as the Great Channel, separates India's Great Nicobar Island from the Sumatra island of Indonesia."
+      },
+      {
+        "text": "The Eight Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Eight Degree Channel separates the Indian island of Minicoy from the Maldives."
+      },
+      {
+        "text": "The Malacca Strait",
+        "isCorrect": false,
+        "rationale": "The Malacca Strait is further east, between the Malay Peninsula and Sumatra."
+      },
+      {
+        "text": "The Coco Channel",
+        "isCorrect": false,
+        "rationale": "The Coco Channel separates India's Landfall Island (Andamans) from Myanmar's Coco Islands."
+      }
+    ],
+    "hint": "This channel is also referred to as the 'Great Channel' and lies close to the 6th parallel north."
+  },
+  {
+    "question": "Which bay, located at the southern tip of Great Nicobar Island, was declared a National Park and is famous as a nesting ground for Giant Leatherback Turtles?",
+    "options": [
+      {
+        "text": "Galathea Bay",
+        "isCorrect": true,
+        "rationale": "Galathea Bay is a prominent bay in Great Nicobar. It was declared a National Park and is one of the world's most important nesting sites for giant leatherback turtles."
+      },
+      {
+        "text": "Campbell Bay",
+        "isCorrect": false,
+        "rationale": "Campbell Bay is another bay on Great Nicobar (housing a national park and port), but Galathea is the primary nesting ground on the southern tip."
+      },
+      {
+        "text": "Nancowry Harbour",
+        "isCorrect": false,
+        "rationale": "Nancowry is in the central Nicobars, not the southern tip of Great Nicobar."
+      },
+      {
+        "text": "Radhanagar Beach",
+        "isCorrect": false,
+        "rationale": "Radhanagar Beach is on Havelock Island (Swaraj Dweep) in the Andaman group, famous for tourism."
+      }
+    ],
+    "hint": "This bay shares its name with the river that drains into it in the southern part of the island."
+  },
+  {
+    "question": "How did the 2004 Indian Ocean earthquake and tsunami impact the physical geography of the Nicobar Islands?",
+    "options": [
+      {
+        "text": "It caused the southern coastline of the islands to subside (sink), submerging parts of the land.",
+        "isCorrect": true,
+        "rationale": "The tectonic shift caused land subsidence in the southern Nicobars. The area around the Indira Point lighthouse sank by over 4 meters, leaving the lighthouse surrounded by water."
+      },
+      {
+        "text": "It created a new land bridge between Great Nicobar and Little Nicobar.",
+        "isCorrect": false,
+        "rationale": "No land bridge was created; in fact, land was lost due to submergence."
+      },
+      {
+        "text": "It completely silted up and closed the Six Degree Channel.",
+        "isCorrect": false,
+        "rationale": "The channel remains a deep, open, and major international shipping lane."
+      },
+      {
+        "text": "It triggered volcanic eruptions that doubled the height of Mount Thullier.",
+        "isCorrect": false,
+        "rationale": "While Barren Island has an active volcano, the 2004 earthquake did not cause volcanic growth on Mount Thullier (the highest point in Great Nicobar)."
+      }
+    ],
+    "hint": "Consider the vertical displacement of tectonic plates and how it affected sea levels relative to the coast."
+  },
+  {
+    "question": "What is the total geographical area of India?",
+    "options": [
+      {
+        "text": "4.51 million sq. km",
+        "isCorrect": false,
+        "rationale": "This figure exceeds India's total land territory."
+      },
+      {
+        "text": "3.58 million sq. km",
+        "isCorrect": false,
+        "rationale": "This is an inaccurate figure for India's total geographical expanse."
+      },
+      {
+        "text": "2.4 million sq. km",
+        "isCorrect": false,
+        "rationale": "2.4% is India's percentage share of the world's total land area, not its total area in million sq. km."
+      },
+      {
+        "text": "3.28 million sq. km",
+        "isCorrect": true,
+        "rationale": "India's total geographical area is 3,287,263 sq. km (approx. 3.28 million sq. km), which accounts for 2.4% of the total land area of the world."
+      }
+    ],
+    "hint": "The area is approximately 32.87 lakh square kilometers."
+  },
+  {
+    "question": "India is the ______ largest country in the world by area.",
+    "options": [
+      {
+        "text": "8th",
+        "isCorrect": false,
+        "rationale": "Argentina is the 8th largest country, right after India."
+      },
+      {
+        "text": "5th",
+        "isCorrect": false,
+        "rationale": "Brazil is the 5th largest country in the world by area."
+      },
+      {
+        "text": "6th",
+        "isCorrect": false,
+        "rationale": "Australia is the 6th largest country in the world by area."
+      },
+      {
+        "text": "7th",
+        "isCorrect": true,
+        "rationale": "India is the 7th largest country by geographical area after Russia, Canada, USA, China, Brazil, and Australia."
+      }
+    ],
+    "hint": "India comes right after Australia in terms of global land area ranking."
+  },
+  {
+    "question": "Which of the following lines divides India into nearly two equal parts?",
+    "options": [
+      {
+        "text": "Equator (0°)",
+        "isCorrect": false,
+        "rationale": "The Equator lies south of India's mainland (Kanyakumari is at 8°4' N)."
+      },
+      {
+        "text": "Tropic of Cancer (23°30' N)",
+        "isCorrect": true,
+        "rationale": "The Tropic of Cancer at 23°30' N latitude passes through the middle of India, dividing the country into almost two equal northern and southern thermal zones."
+      },
+      {
+        "text": "Tropic of Capricorn (23°30' S)",
+        "isCorrect": false,
+        "rationale": "The Tropic of Capricorn lies in the Southern Hemisphere."
+      },
+      {
+        "text": "Arctic Circle (66°30' N)",
+        "isCorrect": false,
+        "rationale": "The Arctic Circle is located far north in the polar region."
+      }
+    ],
+    "hint": "This line of latitude passes at 23°30' North."
+  },
+  {
+    "question": "What is the north-to-south distance of India from Kashmir to Kanyakumari?",
+    "options": [
+      {
+        "text": "3,500 km",
+        "isCorrect": false,
+        "rationale": "This overstates India's north-to-south mainland distance."
+      },
+      {
+        "text": "2,933 km",
+        "isCorrect": false,
+        "rationale": "2,933 km is the east-to-west distance of India from Rann of Kutch (Gujarat) to Kibithu (Arunachal Pradesh)."
+      },
+      {
+        "text": "3,214 km",
+        "isCorrect": true,
+        "rationale": "The distance between the northernmost point (Indira Col) and southernmost mainland point (Kanyakumari) is 3,214 km."
+      },
+      {
+        "text": "2,800 km",
+        "isCorrect": false,
+        "rationale": "This understates the vertical expanse of the Indian subcontinent."
+      }
+    ],
+    "hint": "The north-south extent is greater than the east-west extent by about 281 km."
+  },
+  {
+    "question": "The Standard Meridian of India (82°30'E) passes through which of these cities?",
+    "options": [
+      {
+        "text": "Mirzapur (near Prayagraj, UP)",
+        "isCorrect": true,
+        "rationale": "India's Standard Meridian (82°30' E) passes through Mirzapur in Uttar Pradesh and is 5 hours and 30 minutes ahead of GMT."
+      },
+      {
+        "text": "Kolkata",
+        "isCorrect": false,
+        "rationale": "Kolkata is located at approximately 88°22' E longitude."
+      },
+      {
+        "text": "Patna",
+        "isCorrect": false,
+        "rationale": "Patna is located at approximately 85°08' E longitude."
+      },
+      {
+        "text": "Delhi",
+        "isCorrect": false,
+        "rationale": "Delhi is located at approximately 77°10' E longitude."
+      }
+    ],
+    "hint": "This city in Uttar Pradesh serves as the reference point for Indian Standard Time (IST)."
+  },
+  {
+    "question": "How many states in India does the Tropic of Cancer pass through?",
+    "options": [
+      {
+        "text": "9 States",
+        "isCorrect": false,
+        "rationale": "9 overcounts the number of traversed states."
+      },
+      {
+        "text": "6 States",
+        "isCorrect": false,
+        "rationale": "6 is fewer than the actual number of states traversed."
+      },
+      {
+        "text": "7 States",
+        "isCorrect": false,
+        "rationale": "7 excludes one of the northeastern or central states in the path."
+      },
+      {
+        "text": "8 States",
+        "isCorrect": true,
+        "rationale": "The Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram."
+      }
+    ],
+    "hint": "The states span from Gujarat in the west to Mizoram in the east."
+  },
+  {
+    "question": "The southernmost point of the Indian Union is:",
+    "options": [
+      {
+        "text": "Port Blair",
+        "isCorrect": false,
+        "rationale": "Port Blair is the capital city of Andaman & Nicobar Islands, located on South Andaman."
+      },
+      {
+        "text": "Kanyakumari",
+        "isCorrect": false,
+        "rationale": "Kanyakumari (Cape Comorin) is the southernmost point of the Indian mainland, not the whole Union."
+      },
+      {
+        "text": "Indira Point (Pygmalion Point)",
+        "isCorrect": true,
+        "rationale": "Indira Point (located at 6°45' N latitude on Great Nicobar Island) is the southernmost point of the entire Indian Union."
+      },
+      {
+        "text": "Indira Col",
+        "isCorrect": false,
+        "rationale": "Indira Col is the northernmost point of India located in the Karakoram range."
+      }
+    ],
+    "hint": "This point is located on Great Nicobar Island, not on the mainland."
+  },
+  {
+    "question": "India shares its longest land boundary with which country?",
+    "options": [
+      {
+        "text": "Nepal",
+        "isCorrect": false,
+        "rationale": "Nepal shares a land border of 1,751 km with India."
+      },
+      {
+        "text": "Bangladesh",
+        "isCorrect": true,
+        "rationale": "India shares its longest international land border with Bangladesh, stretching over 4,096.7 km."
+      },
+      {
+        "text": "China",
+        "isCorrect": false,
+        "rationale": "China shares the second longest border with India (~3,488 km)."
+      },
+      {
+        "text": "Pakistan",
+        "isCorrect": false,
+        "rationale": "Pakistan shares the third longest land border with India (~3,323 km)."
+      }
+    ],
+    "hint": "This neighboring country borders West Bengal, Assam, Meghalaya, Tripura, and Mizoram."
+  },
+  {
+    "question": "What is the total length of the land frontier of India?",
+    "options": [
+      {
+        "text": "15,200 km",
+        "isCorrect": true,
+        "rationale": "India has a land boundary of about 15,200 km bordering 7 countries."
+      },
+      {
+        "text": "12,000 km",
+        "isCorrect": false,
+        "rationale": "This is an incorrect estimate of the land border."
+      },
+      {
+        "text": "6,100 km",
+        "isCorrect": false,
+        "rationale": "6,100 km is the length of the mainland coastline of India."
+      },
+      {
+        "text": "7,516.6 km",
+        "isCorrect": false,
+        "rationale": "7,516.6 km is the total coastline length of India including mainland and island territories."
+      }
+    ],
+    "hint": "This total land boundary stretches across northern, western, and eastern borders."
+  },
+  {
+    "question": "What is the total length of the coastline of the mainland including Andaman & Nicobar and Lakshadweep?",
+    "options": [
+      {
+        "text": "9,000 km",
+        "isCorrect": false,
+        "rationale": "This is an inaccurate figure for the total coastline."
+      },
+      {
+        "text": "6,100 km",
+        "isCorrect": false,
+        "rationale": "6,100 km represents only the mainland coastline excluding islands."
+      },
+      {
+        "text": "7,516.6 km",
+        "isCorrect": true,
+        "rationale": "The total length of India's coastline including the island territories of Andaman & Nicobar and Lakshadweep is 7,516.6 km."
+      },
+      {
+        "text": "15,200 km",
+        "isCorrect": false,
+        "rationale": "15,200 km is the land frontier length of India."
+      }
+    ],
+    "hint": "Including all island chains adds over 1,400 km to the mainland coastline."
+  },
+  {
+    "question": "Which Indian state has the longest coastline?",
+    "options": [
+      {
+        "text": "Tamil Nadu",
+        "isCorrect": false,
+        "rationale": "Tamil Nadu has the third longest coastline (~906.9 km)."
+      },
+      {
+        "text": "Gujarat",
+        "isCorrect": true,
+        "rationale": "Gujarat has the longest coastline among all Indian states, spanning approximately 1,214 km along the Kathiawar peninsula."
+      },
+      {
+        "text": "Andhra Pradesh",
+        "isCorrect": false,
+        "rationale": "Andhra Pradesh has the second longest coastline (~974 km) among Indian states."
+      },
+      {
+        "text": "Maharashtra",
+        "isCorrect": false,
+        "rationale": "Maharashtra has a coastline of ~720 km."
+      }
+    ],
+    "hint": "This western state features the Gulf of Kutch and Gulf of Khambhat."
+  },
+  {
+    "question": "The 'Radcliffe Line' is the international boundary between India and:",
+    "options": [
+      {
+        "text": "Pakistan & Bangladesh",
+        "isCorrect": true,
+        "rationale": "The Radcliffe Line was drawn by Sir Cyril Radcliffe during the 1947 partition to demarcate the borders between India and Pakistan (and East Pakistan, now Bangladesh)."
+      },
+      {
+        "text": "Afghanistan",
+        "isCorrect": false,
+        "rationale": "The Durand Line demarcates the boundary between Afghanistan and British India (now Pak-Afg border)."
+      },
+      {
+        "text": "China",
+        "isCorrect": false,
+        "rationale": "The border between India and China is demarcated by the McMahon Line and LAC."
+      },
+      {
+        "text": "Sri Lanka",
+        "isCorrect": false,
+        "rationale": "India and Sri Lanka are separated by maritime boundaries in the Palk Strait."
+      }
+    ],
+    "hint": "It was drawn in 1947 by the Boundary Commission chaired by Sir Cyril Radcliffe."
+  },
+  {
+    "question": "The 'Durand Line' demarcates the border between:",
+    "options": [
+      {
+        "text": "India and China",
+        "isCorrect": false,
+        "rationale": "The border with China is the McMahon Line / Line of Actual Control."
+      },
+      {
+        "text": "India and Myanmar",
+        "isCorrect": false,
+        "rationale": "The border with Myanmar is defined by the Indo-Burma barrier."
+      },
+      {
+        "text": "India and Nepal",
+        "isCorrect": false,
+        "rationale": "The border with Nepal is demarcated by the Kali River and treaties."
+      },
+      {
+        "text": "India (PoK) and Afghanistan",
+        "isCorrect": true,
+        "rationale": "The Durand Line was established in 1893 between Sir Mortimer Durand and Afghan Amir Abdur Rahman Khan, demarcating the border between British India (now PoK/Pakistan) and Afghanistan."
+      }
+    ],
+    "hint": "This 1893 line touches the small 106 km border segment in Wakhan corridor region."
+  },
+  {
+    "question": "The 'McMahon Line' is the boundary line between India and China in which sector?",
+    "options": [
+      {
+        "text": "Eastern Sector (Arunachal Pradesh)",
+        "isCorrect": true,
+        "rationale": "The McMahon Line was drawn during the 1914 Simla Convention by Sir Henry McMahon, serving as the effective boundary in the Eastern Sector (Arunachal Pradesh)."
+      },
+      {
+        "text": "Southern Sector",
+        "isCorrect": false,
+        "rationale": "There is no southern sector border between India and China."
+      },
+      {
+        "text": "Western Sector (Ladakh)",
+        "isCorrect": false,
+        "rationale": "The Western Sector boundary is defined by the Line of Actual Control (LAC) in Aksai Chin."
+      },
+      {
+        "text": "Middle Sector (Uttarakhand/Himachal)",
+        "isCorrect": false,
+        "rationale": "The Middle Sector follows watershed ridges in Uttarakhand and Himachal Pradesh."
+      }
+    ],
+    "hint": "This boundary line was negotiated during the Simla Convention of 1914 for the northeastern border."
+  },
+  {
+    "question": "Which body of water separates India from Sri Lanka?",
+    "options": [
+      {
+        "text": "English Channel",
+        "isCorrect": false,
+        "rationale": "The English Channel separates Southern England from Northern France."
+      },
+      {
+        "text": "Eight Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Eight Degree Channel separates Minicoy Island from Maldives."
+      },
+      {
+        "text": "Ten Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Ten Degree Channel separates Andaman Islands from Nicobar Islands."
+      },
+      {
+        "text": "Palk Strait and Gulf of Mannar",
+        "isCorrect": true,
+        "rationale": "India (Tamil Nadu) and Sri Lanka are separated by a narrow channel of sea formed by Palk Strait and the Gulf of Mannar."
+      }
+    ],
+    "hint": "This shallow strait is named after Robert Palk, Governor of Madras Presidency."
+  },
+  {
+    "question": "Which channel separates the Andaman Islands from the Nicobar Islands?",
+    "options": [
+      {
+        "text": "Nine Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Nine Degree Channel separates Minicoy Island from the main Lakshadweep group."
+      },
+      {
+        "text": "Ten Degree Channel",
+        "isCorrect": true,
+        "rationale": "The Ten Degree Channel lies on the 10° N latitude parallel, separating the Little Andaman island to the north from Car Nicobar island to the south."
+      },
+      {
+        "text": "Eight Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Eight Degree Channel separates Minicoy from Maldives."
+      },
+      {
+        "text": "Six Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Six Degree Channel separates Great Nicobar from Sumatra (Indonesia)."
+      }
+    ],
+    "hint": "This channel lies along the 10th parallel north."
+  },
+  {
+    "question": "The Eight Degree Channel (8° N) forms the maritime boundary between:",
+    "options": [
+      {
+        "text": "Minicoy and main Lakshadweep islands",
+        "isCorrect": false,
+        "rationale": "Separated by the Nine Degree Channel."
+      },
+      {
+        "text": "Minicoy Island (India) and the Maldives",
+        "isCorrect": true,
+        "rationale": "The Eight Degree Channel separates India's southernmost Lakshadweep island (Minicoy) from the island nation of Maldives."
+      },
+      {
+        "text": "Great Nicobar and Sumatra",
+        "isCorrect": false,
+        "rationale": "Separated by the Six Degree Channel / Great Channel."
+      },
+      {
+        "text": "Andaman and Nicobar Islands",
+        "isCorrect": false,
+        "rationale": "Separated by the Ten Degree Channel."
+      }
+    ],
+    "hint": "It separates an Indian union territory island from an island country located further south."
+  },
+  {
+    "question": "The Nine Degree Channel (9° N) separates:",
+    "options": [
+      {
+        "text": "India from Sri Lanka",
+        "isCorrect": false,
+        "rationale": "Separated by the Palk Strait."
+      },
+      {
+        "text": "Maldives from Minicoy",
+        "isCorrect": false,
+        "rationale": "Separated by the Eight Degree Channel."
+      },
+      {
+        "text": "Andaman from Nicobar",
+        "isCorrect": false,
+        "rationale": "Separated by the Ten Degree Channel."
+      },
+      {
+        "text": "Minicoy Island from the main Lakshadweep archipelago",
+        "isCorrect": true,
+        "rationale": "The Nine Degree Channel separates Minicoy Island from the main group of Lakshadweep islands (Kalpeni, Suheli Par, etc.)."
+      }
+    ],
+    "hint": "It separates the isolated southern island of Lakshadweep from the central group."
+  },
+  {
+    "question": "Which is the oldest fold mountain range in India (and one of the oldest in the world)?",
+    "options": [
+      {
+        "text": "Western Ghats",
+        "isCorrect": false,
+        "rationale": "The Western Ghats are faulted block edges of the Peninsular plateau, formed during the breakup of Gondwanaland."
+      },
+      {
+        "text": "Vindhya Range",
+        "isCorrect": false,
+        "rationale": "The Vindhyas are block mountains of sedimentary rocks, younger than the Aravallis."
+      },
+      {
+        "text": "Himalayas",
+        "isCorrect": false,
+        "rationale": "The Himalayas are young fold mountains formed during the Tertiary geological period."
+      },
+      {
+        "text": "Aravalli Range",
+        "isCorrect": true,
+        "rationale": "The Aravalli Range is a relict/eroded residual fold mountain range originating in the Proterozoic era, making it the oldest mountain range in India."
+      }
+    ],
+    "hint": "This eroded mountain belt extends southwest-northeast across Rajasthan."
+  },
+  {
+    "question": "Which is the highest mountain peak in Peninsular India (and South India)?",
+    "options": [
+      {
+        "text": "Mahendragiri (1,501 m)",
+        "isCorrect": false,
+        "rationale": "Mahendragiri is a prominent peak in the Eastern Ghats in Odisha."
+      },
+      {
+        "text": "Guru Shikhar (1,722 m)",
+        "isCorrect": false,
+        "rationale": "Guru Shikhar is the highest peak of the Aravalli Range in Rajasthan."
+      },
+      {
+        "text": "Anamudi (2,695 m)",
+        "isCorrect": true,
+        "rationale": "Anamudi (2,695 m), located in the Anaimalai Hills of Kerala, is the highest peak in Peninsular India and South India."
+      },
+      {
+        "text": "Doddabetta (2,637 m)",
+        "isCorrect": false,
+        "rationale": "Doddabetta is the second highest peak in Peninsular India, located in the Nilgiri Hills."
+      }
+    ],
+    "hint": "Located in the Anaimalai Hills of Kerala, its name translates to 'Elephant's Head'."
+  }
+]

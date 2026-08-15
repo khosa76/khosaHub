@@ -1,0 +1,1302 @@
+[
+  {
+    "question": "What percentage of the total mass of the Earth's atmosphere is concentrated within 32 km of the Earth's surface?",
+    "options": [
+      {
+        "text": "75%",
+        "isCorrect": false,
+        "rationale": "75% of atmospheric mass is within the troposphere (~11 km)."
+      },
+      {
+        "text": "50%",
+        "isCorrect": false,
+        "rationale": "50% is concentrated within the first 5.6 km."
+      },
+      {
+        "text": "90%",
+        "isCorrect": false,
+        "rationale": "90% is concentrated within ~16-20 km."
+      },
+      {
+        "text": "99%",
+        "isCorrect": true,
+        "rationale": "Gravity holds the atmosphere close to the Earth's surface; approx. 99% of total atmospheric mass is concentrated within 32 km of the surface (and 50% within 5.6 km)."
+      }
+    ],
+    "hint": "Gravity pulls atmospheric gases densely near the ground, keeping 99% within 32 km."
+  },
+  {
+    "question": "Which atmospheric gas is transparent to incoming shortwave solar radiation but opaque to outgoing longwave terrestrial radiation?",
+    "options": [
+      {
+        "text": "Carbon Dioxide (CO2)",
+        "isCorrect": true,
+        "rationale": "Carbon dioxide (and water vapor) acts as a greenhouse gas: it allows shortwave solar radiation to pass through, but absorbs outgoing longwave terrestrial radiation, creating the natural greenhouse effect."
+      },
+      {
+        "text": "Nitrogen",
+        "isCorrect": false,
+        "rationale": "Nitrogen is relatively inactive in absorbing longwave thermal radiation."
+      },
+      {
+        "text": "Helium",
+        "isCorrect": false,
+        "rationale": "Helium is a light inert gas with no greenhouse effect."
+      },
+      {
+        "text": "Argon",
+        "isCorrect": false,
+        "rationale": "Argon is an inert gas with negligible greenhouse interaction."
+      }
+    ],
+    "hint": "This major greenhouse gas traps outgoing terrestrial heat."
+  },
+  {
+    "question": "At what altitude above the Earth's surface does the concentration of Oxygen gas become almost negligible?",
+    "options": [
+      {
+        "text": "120 km",
+        "isCorrect": true,
+        "rationale": "The proportion of Oxygen becomes negligible at an altitude of about 120 km, while Carbon Dioxide and Water Vapor are found only up to 90 km."
+      },
+      {
+        "text": "80 km",
+        "isCorrect": false,
+        "rationale": "80 km is the mesopause level where trace oxygen molecules exist."
+      },
+      {
+        "text": "32 km",
+        "isCorrect": false,
+        "rationale": "32 km contains 99% of atmospheric mass including ample oxygen."
+      },
+      {
+        "text": "50 km",
+        "isCorrect": false,
+        "rationale": "50 km is the stratopause level."
+      }
+    ],
+    "hint": "Beyond 120 km altitude, heavy gases like oxygen become extremely sparse."
+  },
+  {
+    "question": "The lowest layer of the atmosphere, containing nearly all weather phenomena and cloud formation, is the:",
+    "options": [
+      {
+        "text": "Mesosphere",
+        "isCorrect": false,
+        "rationale": "Mesosphere lies between 50-80 km where meteors burn up."
+      },
+      {
+        "text": "Stratosphere",
+        "isCorrect": false,
+        "rationale": "Stratosphere lies above troposphere, ideal for flying jet aircraft."
+      },
+      {
+        "text": "Troposphere",
+        "isCorrect": true,
+        "rationale": "The Troposphere is the lowest atmospheric layer (avg height 13 km); it contains water vapor, dust particles, and almost all weather phenomena."
+      },
+      {
+        "text": "Thermosphere",
+        "isCorrect": false,
+        "rationale": "Thermosphere contains the ionosphere."
+      }
+    ],
+    "hint": "Its name comes from the Greek 'Tropos' meaning turn or change, reflecting active turbulent mixing."
+  },
+  {
+    "question": "Why is the height of the Troposphere greater at the Equator (~18 km) than at the Poles (~8 km)?",
+    "options": [
+      {
+        "text": "Strong conventional currents transport heat to great heights at the Equator.",
+        "isCorrect": true,
+        "rationale": "Intense solar heating at the equator creates strong vertical convection currents that push the tropopause upward to ~18 km, whereas cold dense air at the poles keeps it low at ~8 km."
+      },
+      {
+        "text": "Centrifugal force pulls atmospheric gases away from the poles.",
+        "isCorrect": false,
+        "rationale": "Thermal convection is the dominant driver of tropopause height."
+      },
+      {
+        "text": "The Earth's gravitational pull is stronger at the Equator.",
+        "isCorrect": false,
+        "rationale": "Gravity is actually slightly weaker at the equator due to centrifugal force."
+      },
+      {
+        "text": "Ozone layer accumulation pushes the equator troposphere up.",
+        "isCorrect": false,
+        "rationale": "Ozone accumulation occurs in the stratosphere."
+      }
+    ],
+    "hint": "Intense equatorial heating drives vigorous vertical convection currents."
+  },
+  {
+    "question": "The 'Ozonosphere' (Ozone Layer), which absorbs harmful solar ultraviolet (UV) radiation, is located in the:",
+    "options": [
+      {
+        "text": "Stratosphere",
+        "isCorrect": true,
+        "rationale": "The ozone layer is concentrated in the lower Stratosphere (between 15 km and 35 km), shielding Earth from harmful solar UV rays."
+      },
+      {
+        "text": "Troposphere",
+        "isCorrect": false,
+        "rationale": "Tropospheric ozone is a pollutant (smog component)."
+      },
+      {
+        "text": "Mesosphere",
+        "isCorrect": false,
+        "rationale": "Mesosphere lies above the stratosphere."
+      },
+      {
+        "text": "Ionosphere",
+        "isCorrect": false,
+        "rationale": "Ionosphere reflects radio waves."
+      }
+    ],
+    "hint": "Located above the tropopause, this layer experiences temperature inversion due to UV absorption."
+  },
+  {
+    "question": "Which is the COLDEST layer of the Earth's atmosphere, where temperatures drop down to -100°C?",
+    "options": [
+      {
+        "text": "Troposphere",
+        "isCorrect": false,
+        "rationale": "Troposphere reaches around -60°C at the tropopause."
+      },
+      {
+        "text": "Stratosphere",
+        "isCorrect": false,
+        "rationale": "Stratosphere warms with height due to ozone absorption."
+      },
+      {
+        "text": "Exosphere",
+        "isCorrect": false,
+        "rationale": "Exosphere has high kinetic temperature due to sparse energetic ions."
+      },
+      {
+        "text": "Mesosphere",
+        "isCorrect": true,
+        "rationale": "In the Mesosphere (50-80 km), temperature decreases with height, reaching the coldest temperature in the atmosphere (-100°C) at the mesopause (~80 km)."
+      }
+    ],
+    "hint": "Located between 50 km and 80 km altitude, meteors burn up in this layer."
+  },
+  {
+    "question": "The 'Ionosphere' layer of the atmosphere is crucial for radio communication because:",
+    "options": [
+      {
+        "text": "It absorbs all incoming solar radiation completely.",
+        "isCorrect": false,
+        "rationale": "Ionosphere absorbs X-rays/EUV but reflects radio waves."
+      },
+      {
+        "text": "It contains electrically charged particles (ions) that reflect radio waves back to Earth.",
+        "isCorrect": true,
+        "rationale": "The Ionosphere (80-400 km) contains ionized particles that reflect shortwave radio transmissions back to Earth, enabling global wireless communication."
+      },
+      {
+        "text": "It maintains a constant room temperature.",
+        "isCorrect": false,
+        "rationale": "Temperatures increase rapidly with height in thermosphere."
+      },
+      {
+        "text": "It produces rain clouds that conduct radio signals.",
+        "isCorrect": false,
+        "rationale": "Clouds form in the troposphere."
+      }
+    ],
+    "hint": "Electrically charged ions reflect radio signals back down to the ground."
+  },
+  {
+    "question": "The term 'Insolation' stands for:",
+    "options": [
+      {
+        "text": "Internal Solitary Radiation from Earth's core",
+        "isCorrect": false,
+        "rationale": "Geothermal heat comes from interior, not insolation."
+      },
+      {
+        "text": "Incoming Solar Radiation received by the Earth",
+        "isCorrect": true,
+        "rationale": "Insolation is a contraction of 'INcoming SOLar radiATION', representing radiant energy received from the Sun by Earth."
+      },
+      {
+        "text": "International System of Oceanic Latitudes",
+        "isCorrect": false,
+        "rationale": "Insolation is a solar radiation term."
+      },
+      {
+        "text": "Insulation provided by atmospheric clouds",
+        "isCorrect": false,
+        "rationale": "Cloud insulation is atmospheric trapping, not insolation."
+      }
+    ],
+    "hint": "It is formed from the phrase 'INcoming SOLar radiATION'."
+  },
+  {
+    "question": "On which date is the Earth nearest to the Sun (Perihelion position, ~147 million km)?",
+    "options": [
+      {
+        "text": "July 4th",
+        "isCorrect": false,
+        "rationale": "On July 4th (Aphelion), the Earth is farthest from the Sun (~152 million km)."
+      },
+      {
+        "text": "March 21st",
+        "isCorrect": false,
+        "rationale": "March 21st is the Vernal Equinox."
+      },
+      {
+        "text": "January 3rd",
+        "isCorrect": true,
+        "rationale": "On January 3rd (Perihelion), the Earth is closest to the Sun at a distance of about 147 million km."
+      },
+      {
+        "text": "September 23rd",
+        "isCorrect": false,
+        "rationale": "September 23rd is the Autumnal Equinox."
+      }
+    ],
+    "hint": "This position occurs in early January during Northern Hemisphere winter."
+  },
+  {
+    "question": "On which date is the Earth farthest from the Sun (Aphelion position, ~152 million km)?",
+    "options": [
+      {
+        "text": "January 3rd",
+        "isCorrect": false,
+        "rationale": "January 3rd is Perihelion (nearest position)."
+      },
+      {
+        "text": "December 22nd",
+        "isCorrect": false,
+        "rationale": "December 22nd is Winter Solstice."
+      },
+      {
+        "text": "June 21st",
+        "isCorrect": false,
+        "rationale": "June 21st is Summer Solstice."
+      },
+      {
+        "text": "July 4th",
+        "isCorrect": true,
+        "rationale": "On July 4th (Aphelion), the Earth is farthest from the Sun at a distance of about 152 million km."
+      }
+    ],
+    "hint": "This position occurs in early July."
+  },
+  {
+    "question": "The 'Albedo' of the Earth refers to the:",
+    "options": [
+      {
+        "text": "Rate of evaporation from tropical seas",
+        "isCorrect": false,
+        "rationale": "Albedo measures light reflectivity."
+      },
+      {
+        "text": "Amount of longwave radiation emitted by land masses",
+        "isCorrect": false,
+        "rationale": "This is terrestrial radiation."
+      },
+      {
+        "text": "Percentage of incoming solar radiation reflected back into space without heating the Earth (~35%)",
+        "isCorrect": true,
+        "rationale": "Albedo is the measure of reflectivity of a surface; Earth's average albedo is ~35%, meaning 35% of solar radiation is reflected straight back to space."
+      },
+      {
+        "text": "Total heat absorbed by the oceans",
+        "isCorrect": false,
+        "rationale": "Absorbed radiation heats the Earth; albedo measures reflected unabsorbed radiation."
+      }
+    ],
+    "hint": "Fresh snow has high albedo (~80-90%), whereas dark soil/oceans have low albedo."
+  },
+  {
+    "question": "The process of heat transfer through direct molecular contact in solid bodies without actual movement of matter is called:",
+    "options": [
+      {
+        "text": "Convection",
+        "isCorrect": false,
+        "rationale": "Convection involves heat transfer through actual fluid/gas mass movement."
+      },
+      {
+        "text": "Conduction",
+        "isCorrect": true,
+        "rationale": "Conduction is the transfer of thermal energy through direct contact between adjacent atoms/molecules in solid media."
+      },
+      {
+        "text": "Advection",
+        "isCorrect": false,
+        "rationale": "Advection involves horizontal transfer of heat by wind."
+      },
+      {
+        "text": "Radiation",
+        "isCorrect": false,
+        "rationale": "Radiation transfers heat via electromagnetic waves without a physical medium."
+      }
+    ],
+    "hint": "This mechanism warms the lowest layer of air in contact with the ground."
+  },
+  {
+    "question": "The vertical transfer of heat in the atmosphere through actual movement of heated air masses is called:",
+    "options": [
+      {
+        "text": "Advection",
+        "isCorrect": false,
+        "rationale": "Advection is horizontal heat transport by winds."
+      },
+      {
+        "text": "Convection",
+        "isCorrect": true,
+        "rationale": "Convection is the vertical transport of heat caused by heated air expanding, becoming buoyant, and rising upward."
+      },
+      {
+        "text": "Conduction",
+        "isCorrect": false,
+        "rationale": "Conduction is molecular contact heat transfer."
+      },
+      {
+        "text": "Radiation",
+        "isCorrect": false,
+        "rationale": "Radiation is electromagnetic heat emission."
+      }
+    ],
+    "hint": "Warm air expands, becomes lighter, and rises vertically in convection cells."
+  },
+  {
+    "question": "The HORIZONTAL transfer of heat by moving air masses (winds) is known as:",
+    "options": [
+      {
+        "text": "Convection",
+        "isCorrect": false,
+        "rationale": "Convection is vertical heat transport."
+      },
+      {
+        "text": "Advection",
+        "isCorrect": true,
+        "rationale": "Advection is the horizontal transport of atmospheric properties (heat, moisture) by wind (e.g., 'Loo' winds in summer over North India)."
+      },
+      {
+        "text": "Insolation",
+        "isCorrect": false,
+        "rationale": "Insolation is solar input."
+      },
+      {
+        "text": "Conduction",
+        "isCorrect": false,
+        "rationale": "Conduction is contact heat transfer."
+      }
+    ],
+    "hint": "The summer 'Loo' wind in North India is a classic example of this horizontal heat transport."
+  },
+  {
+    "question": "The energy emitted by the Earth's surface back towards space in the form of longwave electromagnetic radiation is called:",
+    "options": [
+      {
+        "text": "Insolation",
+        "isCorrect": false,
+        "rationale": "Insolation is shortwave radiation coming from the Sun."
+      },
+      {
+        "text": "Terrestrial Radiation",
+        "isCorrect": true,
+        "rationale": "Terrestrial radiation is longwave infrared thermal radiation emitted by the warmed Earth surface into the atmosphere."
+      },
+      {
+        "text": "Solar Constant",
+        "isCorrect": false,
+        "rationale": "Solar constant is energy received at the outer atmospheric boundary (1.94 cal/cm²/min)."
+      },
+      {
+        "text": "Coronal Mass Ejection",
+        "isCorrect": false,
+        "rationale": "Solar solar flare phenomenon."
+      }
+    ],
+    "hint": "Unlike shortwave solar insolation, Earth emits longwave thermal radiation."
+  },
+  {
+    "question": "The 'Heat Budget' of the Earth represents:",
+    "options": [
+      {
+        "text": "The excess heat stored in the Earth's core",
+        "isCorrect": false,
+        "rationale": "Core heat is internal geothermal energy."
+      },
+      {
+        "text": "The total electricity generated by solar panels globally",
+        "isCorrect": false,
+        "rationale": "Not an astronomical heat budget."
+      },
+      {
+        "text": "The exact equilibrium/balance maintained between incoming solar insolation and outgoing terrestrial radiation",
+        "isCorrect": true,
+        "rationale": "The Earth's Heat Budget accounts for the balance between total incoming shortwave solar radiation received and total outgoing longwave radiation returned to space, maintaining a stable global temperature."
+      },
+      {
+        "text": "The difference between equatorial and polar ocean temperatures",
+        "isCorrect": false,
+        "rationale": "This is a temperature gradient, not a heat budget."
+      }
+    ],
+    "hint": "It ensures the Earth as a whole neither accumulates heat indefinitely nor freezes over time."
+  },
+  {
+    "question": "Lines drawn on a weather map connecting places having equal temperature are called:",
+    "options": [
+      {
+        "text": "Isohyets",
+        "isCorrect": false,
+        "rationale": "Isohyets connect points of equal rainfall."
+      },
+      {
+        "text": "Isotherms",
+        "isCorrect": true,
+        "rationale": "Isotherms are lines on a map connecting points of equal atmospheric temperature."
+      },
+      {
+        "text": "Isobars",
+        "isCorrect": false,
+        "rationale": "Isobars connect points of equal atmospheric pressure."
+      },
+      {
+        "text": "Isohels",
+        "isCorrect": false,
+        "rationale": "Isohels connect points of equal sunshine duration."
+      }
+    ],
+    "hint": "'Iso' means equal and 'Therm' means temperature."
+  },
+  {
+    "question": "What is 'Temperature Inversion' in meteorology?",
+    "options": [
+      {
+        "text": "A condition where temperature drops below absolute zero",
+        "isCorrect": false,
+        "rationale": "Impossible under natural conditions."
+      },
+      {
+        "text": "A condition where atmospheric temperature INCREASES with altitude instead of decreasing",
+        "isCorrect": true,
+        "rationale": "Temperature Inversion occurs when warm air overlies cold air, reversing the normal environmental lapse rate (where temperature decreases with height)."
+      },
+      {
+        "text": "Rapid cooling of the Earth's core during winter",
+        "isCorrect": false,
+        "rationale": "Core temperature is insulated from atmospheric weather."
+      },
+      {
+        "text": "Equatorial temperatures dropping below polar temperatures",
+        "isCorrect": false,
+        "rationale": "Extremely rare global climate anomaly."
+      }
+    ],
+    "hint": "Warm air traps cold air beneath it, reversing the normal cooling with height."
+  },
+  {
+    "question": "Which set of conditions is MOST favorable for the occurrence of Surface Temperature Inversion?",
+    "options": [
+      {
+        "text": "Humid tropical afternoon thunderstorm weather",
+        "isCorrect": false,
+        "rationale": "Convective turbulence destroys inversion."
+      },
+      {
+        "text": "Short summer nights, overcast cloudy skies, and strong gale winds",
+        "isCorrect": false,
+        "rationale": "Cloud cover traps heat and strong winds mix the air, preventing surface inversion."
+      },
+      {
+        "text": "Long winter nights, clear skies, calm/still air, and dry atmosphere with snow cover",
+        "isCorrect": true,
+        "rationale": "Long winter nights allow maximum terrestrial radiation loss; clear skies permit heat escape; calm air prevents turbulent mixing, creating cold surface air beneath warm air."
+      },
+      {
+        "text": "Dense cloud cover with warm ocean breezes",
+        "isCorrect": false,
+        "rationale": "Ocean breezes maintain warm uniform lower air."
+      }
+    ],
+    "hint": "Clear skies and still air during long winter nights permit rapid radiational cooling of the ground."
+  },
+  {
+    "question": "According to Ferrel's Law, the Coriolis Force deflects moving winds in which direction?",
+    "options": [
+      {
+        "text": "Towards the Equator in both hemispheres",
+        "isCorrect": false,
+        "rationale": "Coriolis force acts perpendicular to wind direction, not strictly equatorial."
+      },
+      {
+        "text": "To the Left in Northern Hemisphere and Right in Southern Hemisphere",
+        "isCorrect": false,
+        "rationale": "This reverses the actual Coriolis deflection."
+      },
+      {
+        "text": "Towards the West in both hemispheres",
+        "isCorrect": false,
+        "rationale": "Deflection depends on moving direction relative to hemisphere."
+      },
+      {
+        "text": "To the RIGHT in the Northern Hemisphere and to the LEFT in the Southern Hemisphere",
+        "isCorrect": true,
+        "rationale": "Ferrel's Law states that due to Earth's rotation (Coriolis force), winds are deflected to their right in the Northern Hemisphere and to their left in the Southern Hemisphere."
+      }
+    ],
+    "hint": "In the Northern Hemisphere, deflection is to the right of the wind's path."
+  },
+  {
+    "question": "Where is the magnitude of the Coriolis Force ZERO?",
+    "options": [
+      {
+        "text": "At the Poles (90° latitude)",
+        "isCorrect": false,
+        "rationale": "Coriolis force is maximum at the poles (sin 90° = 1)."
+      },
+      {
+        "text": "At the Equator (0° latitude)",
+        "isCorrect": true,
+        "rationale": "Coriolis force is proportional to the sine of latitude (2Ωv sin φ); at the equator (sin 0° = 0), Coriolis force is ZERO, which prevents tropical cyclones from forming directly on the equator."
+      },
+      {
+        "text": "At 30° North and South",
+        "isCorrect": false,
+        "rationale": "Coriolis force has intermediate strength at 30°."
+      },
+      {
+        "text": "At 60° North and South",
+        "isCorrect": false,
+        "rationale": "Coriolis force is strong at 60°."
+      }
+    ],
+    "hint": "Because sin(0°) = 0, this force vanishes at 0 degrees latitude."
+  },
+  {
+    "question": "What is a 'Geostrophic Wind'?",
+    "options": [
+      {
+        "text": "A wind blowing parallel to straight isobars when Pressure Gradient Force balances Coriolis Force",
+        "isCorrect": true,
+        "rationale": "When pressure gradient force and Coriolis force balance each other perfectly (in upper atmosphere where friction is absent), wind blows parallel to isobars as a Geostrophic Wind."
+      },
+      {
+        "text": "A hurricane wind blowing in a tight circular spiral",
+        "isCorrect": false,
+        "rationale": "Cyclonic winds involve centrifugal acceleration as well."
+      },
+      {
+        "text": "A wind blowing directly perpendicular across isobars at the ground surface",
+        "isCorrect": false,
+        "rationale": "Surface friction causes wind to cross isobars at an angle."
+      },
+      {
+        "text": "A localized sea breeze blowing during daytime",
+        "isCorrect": false,
+        "rationale": "Sea breeze is a thermal local wind."
+      }
+    ],
+    "hint": "It occurs in the upper troposphere where friction is absent and isobar balance is achieved."
+  },
+  {
+    "question": "What is the prevailing direction of the Trade Winds?",
+    "options": [
+      {
+        "text": "Northeast in Northern Hemisphere and Southeast in Southern Hemisphere",
+        "isCorrect": true,
+        "rationale": "Trade winds blow from Subtropical High Pressure Belts (~30°) towards Equatorial Low Pressure Belts (ITCZ), deflected by Coriolis force to become NE Trades in NH and SE Trades in SH."
+      },
+      {
+        "text": "Northwest in Northern Hemisphere and Southwest in Southern Hemisphere",
+        "isCorrect": false,
+        "rationale": "Incorrect wind directions."
+      },
+      {
+        "text": "Southwest in Northern Hemisphere and Northwest in Southern Hemisphere",
+        "isCorrect": false,
+        "rationale": "This describes the Westerlies."
+      },
+      {
+        "text": "Due East-to-West along the poles",
+        "isCorrect": false,
+        "rationale": "Trade winds operate in tropical latitudes."
+      }
+    ],
+    "hint": "They blow from the subtropical highs towards the equatorial low."
+  },
+  {
+    "question": "What is the prevailing direction of the Westerlies?",
+    "options": [
+      {
+        "text": "Northeast in Northern Hemisphere and Southeast in Southern Hemisphere",
+        "isCorrect": false,
+        "rationale": "This describes Trade Winds."
+      },
+      {
+        "text": "Due West-to-East along the equator",
+        "isCorrect": false,
+        "rationale": "Westerlies operate in mid-latitudes."
+      },
+      {
+        "text": "Southwest in Northern Hemisphere and Northwest in Southern Hemisphere",
+        "isCorrect": true,
+        "rationale": "Westerlies blow from Subtropical Highs (~30°) towards Subpolar Lows (~60°), deflected by Coriolis force to become SW in NH and NW in SH."
+      },
+      {
+        "text": "Southeast in Northern Hemisphere and Northeast in Southern Hemisphere",
+        "isCorrect": false,
+        "rationale": "Incorrect wind vectors."
+      }
+    ],
+    "hint": "They blow from subtropical high pressure belts towards subpolar low pressure belts."
+  },
+  {
+    "question": "The stormy, high-velocity winds known as 'Roaring Forties', 'Furious Fifties', and 'Shrieking Sixties' are:",
+    "options": [
+      {
+        "text": "Polar easterly gales over Antarctica",
+        "isCorrect": false,
+        "rationale": "Polar easterlies blow in high polar latitudes."
+      },
+      {
+        "text": "Local katabatic mountain winds in the Andes",
+        "isCorrect": false,
+        "rationale": "These are planet-scale prevailing westerlies."
+      },
+      {
+        "text": "Strong prevailing Westerlies in the Southern Hemisphere",
+        "isCorrect": true,
+        "rationale": "In the Southern Hemisphere, vast unbroken oceans between 40°S and 60°S offer minimal frictional resistance, causing Westerlies to blow with fierce velocity ('Roaring Forties', 'Furious Fifties', 'Shrieking Sixties')."
+      },
+      {
+        "text": "Tropical trade winds over the Indian Ocean",
+        "isCorrect": false,
+        "rationale": "Trade winds are tropical easterly winds."
+      }
+    ],
+    "hint": "Unbroken expanses of southern ocean allow these westerlies to reach violent speeds."
+  },
+  {
+    "question": "The 'Doldrums' (Equatorial Low Pressure Belt) is characterized by:",
+    "options": [
+      {
+        "text": "Continuous blizzards and polar easterlies",
+        "isCorrect": false,
+        "rationale": "Doldrums is hot and humid tropical belt."
+      },
+      {
+        "text": "Cold sinking air and descending anticyclonic weather",
+        "isCorrect": false,
+        "rationale": "This describes the Subtropical Highs."
+      },
+      {
+        "text": "Calm conditions, light variable winds, and strong vertical convective updrafts between 5°N and 5°S",
+        "isCorrect": true,
+        "rationale": "Doldrums (Intertropical Convergence Zone) near the equator experiences intense solar heating, causing air to expand and rise vertically, resulting in calm surface winds and stormy afternoons."
+      },
+      {
+        "text": "Violent surface gale winds and high barometric pressure",
+        "isCorrect": false,
+        "rationale": "Doldrums has low pressure and calm surface winds."
+      }
+    ],
+    "hint": "Surface winds are very light and calm because air movement is predominantly vertical."
+  },
+  {
+    "question": "The 'Horse Latitudes' located around 30°N and 30°S are characterized by:",
+    "options": [
+      {
+        "text": "Subtropical High Pressure Belts with descending calm air and dry desert conditions",
+        "isCorrect": true,
+        "rationale": "Horse Latitudes are subtropical high pressure zones (~30°N and S) where air ascending at the equator subsides and warms adiabatically, creating calm winds, clear skies, and major world deserts."
+      },
+      {
+        "text": "Equatorial Low Pressure Belts with torrential daily rain",
+        "isCorrect": false,
+        "rationale": "This describes the Doldrums."
+      },
+      {
+        "text": "Subpolar Low Pressure Belts with frequent frontal storms",
+        "isCorrect": false,
+        "rationale": "Subpolar lows lie around 60° latitude."
+      },
+      {
+        "text": "Polar High Pressure Belts with perpetual ice cover",
+        "isCorrect": false,
+        "rationale": "Polar highs lie at 90° latitude."
+      }
+    ],
+    "hint": "Historical sailing ships bound for America sometimes threw horses overboard in these calm high-pressure belts."
+  },
+  {
+    "question": "A 'Sea Breeze' occurs during the DAY TIME because:",
+    "options": [
+      {
+        "text": "Land heats up faster than water, creating low pressure over land and high pressure over the sea.",
+        "isCorrect": true,
+        "rationale": "During the day, land heats faster than sea due to lower specific heat; warm air rises over land (low pressure), causing cool air to blow from sea to land as a Sea Breeze."
+      },
+      {
+        "text": "Sea heats up faster than land during daytime.",
+        "isCorrect": false,
+        "rationale": "Land heats much faster than water."
+      },
+      {
+        "text": "High pressure develops over land during the day.",
+        "isCorrect": false,
+        "rationale": "Low pressure develops over land due to heating."
+      },
+      {
+        "text": "Land cools faster than water during the day.",
+        "isCorrect": false,
+        "rationale": "Cooling occurs at night."
+      }
+    ],
+    "hint": "Land warms faster than water under sunlight, causing cool sea air to blow inland."
+  },
+  {
+    "question": "A 'Land Breeze' occurs during the NIGHT TIME because:",
+    "options": [
+      {
+        "text": "Sea cools down faster than land at night.",
+        "isCorrect": false,
+        "rationale": "Water retains heat much longer than land."
+      },
+      {
+        "text": "High pressure develops over the sea at night.",
+        "isCorrect": false,
+        "rationale": "Warmer sea water maintains lower pressure."
+      },
+      {
+        "text": "Land cools down faster than water, creating high pressure over land and low pressure over the sea.",
+        "isCorrect": true,
+        "rationale": "At night, land loses heat rapidly by terrestrial radiation while sea remains warm; cool dense air over land blows offshore towards low pressure over the sea as a Land Breeze."
+      },
+      {
+        "text": "Convection currents rise over land at night.",
+        "isCorrect": false,
+        "rationale": "Convection rises over warmer sea water at night."
+      }
+    ],
+    "hint": "Radiational cooling makes land colder than sea water at night, sending cool air offshore."
+  },
+  {
+    "question": "A 'Valley Breeze' (Anabatic Wind) occurs during:",
+    "options": [
+      {
+        "text": "Nighttime, when cold air drains down into valley floors",
+        "isCorrect": false,
+        "rationale": "This describes a Mountain/Katabatic Breeze."
+      },
+      {
+        "text": "Daytime, when mountain slopes warm faster than valley floors, causing air to flow UPWARDS along slopes",
+        "isCorrect": true,
+        "rationale": "During daytime, sunlit mountain slopes heat faster than valley floors; warm buoyant air ascends along slopes as an Anabatic or Valley Breeze."
+      },
+      {
+        "text": "Rainy season, when rivers overflow",
+        "isCorrect": false,
+        "rationale": "Valley breeze is a daily thermal wind."
+      },
+      {
+        "text": "Winter solstices only",
+        "isCorrect": false,
+        "rationale": "Valley breezes occur daily under clear skies."
+      }
+    ],
+    "hint": "Sunlit mountain slopes heat up during the day, drawing air upward from the valley."
+  },
+  {
+    "question": "A 'Mountain Breeze' (Katabatic Wind) occurs during:",
+    "options": [
+      {
+        "text": "Daytime, when warm air rises up mountain slopes",
+        "isCorrect": false,
+        "rationale": "This describes a Valley/Anabatic Breeze."
+      },
+      {
+        "text": "Equinox afternoons",
+        "isCorrect": false,
+        "rationale": "It occurs at night due to slope cooling."
+      },
+      {
+        "text": "Midday hours during tropical cyclones",
+        "isCorrect": false,
+        "rationale": "Mountain breeze is a nocturnal radiational wind."
+      },
+      {
+        "text": "Nighttime, when cold dense air along mountain slopes drains DOWNWARDS into valley floors",
+        "isCorrect": true,
+        "rationale": "At night, mountain slopes cool rapidly via terrestrial radiation; heavy cold air drains downslope into valley floors under gravity as a Katabatic or Mountain Breeze."
+      }
+    ],
+    "hint": "Cold heavy air along mountain slopes drains down into valley bottoms at night."
+  },
+  {
+    "question": "The 'Chinook' wind, known as the 'Snow Eater', is a warm dry wind that blows down the eastern slopes of the:",
+    "options": [
+      {
+        "text": "Alps in Europe",
+        "isCorrect": false,
+        "rationale": "The foehn wind blows down the Alps."
+      },
+      {
+        "text": "Rocky Mountains in North America",
+        "isCorrect": true,
+        "rationale": "Chinook is a warm, dry foehn-type katabatic wind that descends the eastern leeward slopes of the Rocky Mountains in North America, rapidly melting snow cover."
+      },
+      {
+        "text": "Andes in South America",
+        "isCorrect": false,
+        "rationale": "The Zonda wind blows down the eastern Andes."
+      },
+      {
+        "text": "Himalayas in Asia",
+        "isCorrect": false,
+        "rationale": "Loo is a summer wind in North India."
+      }
+    ],
+    "hint": "This wind melts snow cover rapidly over the US and Canadian prairies."
+  },
+  {
+    "question": "The 'Foehn' wind is a warm, dry local wind blowing down the leeward slopes of the:",
+    "options": [
+      {
+        "text": "Appalachian Mountains",
+        "isCorrect": false,
+        "rationale": "Appalachians experience cold easterlies/northerlies."
+      },
+      {
+        "text": "Atlas Mountains",
+        "isCorrect": false,
+        "rationale": "Atlas mountains experience Sirocco/Khamsin winds."
+      },
+      {
+        "text": "Rocky Mountains",
+        "isCorrect": false,
+        "rationale": "Chinook wind blows down the Rockies."
+      },
+      {
+        "text": "Alps in Europe (Switzerland/Austria)",
+        "isCorrect": true,
+        "rationale": "Foehn is a warm, dry wind that blows down the northern leeward valleys of the Alps in Europe, accelerating snowmelt and crop ripening."
+      }
+    ],
+    "hint": "It warms European alpine valleys, expediting spring snowmelt."
+  },
+  {
+    "question": "The 'Mistral' is a cold, dry, high-velocity wind that blows from the Alps down the Rhone Valley towards the:",
+    "options": [
+      {
+        "text": "Red Sea",
+        "isCorrect": false,
+        "rationale": "Red Sea is in the Middle East."
+      },
+      {
+        "text": "Black Sea",
+        "isCorrect": false,
+        "rationale": "Bora winds blow towards Adriatic Sea."
+      },
+      {
+        "text": "Mediterranean Sea (France)",
+        "isCorrect": true,
+        "rationale": "Mistral is a strong, cold, dry northerly wind that accelerates through the Rhone Valley of France into the Gulf of Lion in the Mediterranean Sea."
+      },
+      {
+        "text": "Baltic Sea",
+        "isCorrect": false,
+        "rationale": "Baltic Sea is in Northern Europe."
+      }
+    ],
+    "hint": "This chilling wind channels through the Rhone valley into southern France."
+  },
+  {
+    "question": "The 'Sirocco' is a scorching, dust-laden wind that originates in the Sahara Desert and blows across the Mediterranean Sea towards:",
+    "options": [
+      {
+        "text": "Equatorial South America",
+        "isCorrect": false,
+        "rationale": "Does not cross the Atlantic to South America."
+      },
+      {
+        "text": "Central Asia",
+        "isCorrect": false,
+        "rationale": "Blowing north across Mediterranean to Southern Europe."
+      },
+      {
+        "text": "Southern Europe (Italy, Spain, Greece)",
+        "isCorrect": true,
+        "rationale": "Sirocco is a hot, dry, dust-laden wind originating in the Sahara Desert that picks up moisture crossing the Mediterranean, bringing stifling heat and 'blood rain' (red dust) to Southern Europe."
+      },
+      {
+        "text": "West Africa",
+        "isCorrect": false,
+        "rationale": "Harmattan (the Doctor) blows towards West Africa."
+      }
+    ],
+    "hint": "It carries Saharan red dust across the Mediterranean Sea into Southern Europe."
+  },
+  {
+    "question": "'Relative Humidity' is defined as the:",
+    "options": [
+      {
+        "text": "Weight of water vapor per unit volume of air in grams per cubic meter",
+        "isCorrect": false,
+        "rationale": "This defines Absolute Humidity."
+      },
+      {
+        "text": "Ratio of actual water vapor content in air to maximum water vapor capacity at a given temperature, expressed as a percentage (%)",
+        "isCorrect": true,
+        "rationale": "Relative Humidity (RH) = (Actual Water Vapor / Maximum Capacity) × 100 at a given temperature."
+      },
+      {
+        "text": "Temperature at which dew starts condensing",
+        "isCorrect": false,
+        "rationale": "This defines Dew Point."
+      },
+      {
+        "text": "Weight of water vapor per unit mass of dry air",
+        "isCorrect": false,
+        "rationale": "This defines Specific Humidity."
+      }
+    ],
+    "hint": "It measures how close air is to saturation, expressed as a percentage."
+  },
+  {
+    "question": "'Absolute Humidity' measures the:",
+    "options": [
+      {
+        "text": "Percentage of clouds covering the sky",
+        "isCorrect": false,
+        "rationale": "This defines cloudiness in oktas."
+      },
+      {
+        "text": "Actual mass of water vapor present per unit volume of air (expressed in g/m³)",
+        "isCorrect": true,
+        "rationale": "Absolute Humidity is the total mass of water vapor divided by the volume of air (g/m³); it changes when air expands or contracts."
+      },
+      {
+        "text": "Rate of precipitation per hour",
+        "isCorrect": false,
+        "rationale": "This defines rainfall intensity."
+      },
+      {
+        "text": "Ratio of water vapor to maximum capacity",
+        "isCorrect": false,
+        "rationale": "This defines Relative Humidity."
+      }
+    ],
+    "hint": "It measures the actual weight of water vapor in a cubic meter of air."
+  },
+  {
+    "question": "The 'Dew Point' is defined as the temperature at which:",
+    "options": [
+      {
+        "text": "Relative humidity drops to 0%",
+        "isCorrect": false,
+        "rationale": "At 0% RH, air is completely dry."
+      },
+      {
+        "text": "Water boils into steam",
+        "isCorrect": false,
+        "rationale": "Boiling point is 100°C."
+      },
+      {
+        "text": "Water begins to freeze into ice crystals",
+        "isCorrect": false,
+        "rationale": "Freezing point is 0°C."
+      },
+      {
+        "text": "A given sample of air becomes fully saturated (Relative Humidity = 100%) and condensation begins",
+        "isCorrect": true,
+        "rationale": "Dew point is the critical temperature to which an air parcel must be cooled for relative humidity to reach 100%, causing water vapor to condense into liquid droplets."
+      }
+    ],
+    "hint": "At this temperature, relative humidity reaches exactly 100%."
+  },
+  {
+    "question": "Which type of clouds are located at the HIGHEST altitudes (6,000 to 12,000 meters) and appear as thin, feathery, fibrous ice-crystal strands?",
+    "options": [
+      {
+        "text": "Nimbus Clouds",
+        "isCorrect": false,
+        "rationale": "Nimbus clouds are dark rain-bearing clouds."
+      },
+      {
+        "text": "Stratus Clouds",
+        "isCorrect": false,
+        "rationale": "Stratus clouds are low-level layered grey sheets."
+      },
+      {
+        "text": "Cumulus Clouds",
+        "isCorrect": false,
+        "rationale": "Cumulus clouds are medium-to-low vertical development cotton-like clouds."
+      },
+      {
+        "text": "Cirrus Clouds",
+        "isCorrect": true,
+        "rationale": "Cirrus clouds are high-altitude clouds (6-12 km) composed entirely of ice crystals, featuring a thin, wispy, feathery appearance."
+      }
+    ],
+    "hint": "These high-altitude wispy clouds are composed entirely of ice crystals."
+  },
+  {
+    "question": "Towering, dark vertical development clouds that produce severe thunderstorms, heavy rainfall, lightning, and hail are classified as:",
+    "options": [
+      {
+        "text": "Cumulonimbus Clouds",
+        "isCorrect": true,
+        "rationale": "Cumulonimbus clouds are giant anvil-topped thunderheads with great vertical extent, producing torrential downpours, lightning, thunder, hail, and tornadoes."
+      },
+      {
+        "text": "Stratocumulus Clouds",
+        "isCorrect": false,
+        "rationale": "Stratocumulus form low-level grey patch layers."
+      },
+      {
+        "text": "Cirrostratus Clouds",
+        "isCorrect": false,
+        "rationale": "Cirrostratus form high thin veils causing halos around sun/moon."
+      },
+      {
+        "text": "Altocumulus Clouds",
+        "isCorrect": false,
+        "rationale": "Altocumulus form mid-level grey/white sheets or rolls."
+      }
+    ],
+    "hint": "These anvil-topped 'thunderhead' clouds bring extreme storm weather."
+  },
+  {
+    "question": "Rainfall caused when moisture-laden winds are forced to ascend over a mountain barrier is known as:",
+    "options": [
+      {
+        "text": "Orographic (Relief) Rainfall",
+        "isCorrect": true,
+        "rationale": "Orographic rainfall occurs when moist air masses are forced upward over mountain ranges, cooling adiabatically and condensing to drop heavy rain on the windward side."
+      },
+      {
+        "text": "Monsoonal Drizzle",
+        "isCorrect": false,
+        "rationale": "Monsoonal rain can be convective or orographic."
+      },
+      {
+        "text": "Convectional Rainfall",
+        "isCorrect": false,
+        "rationale": "Convectional rainfall results from intense surface heating and rising thermal columns."
+      },
+      {
+        "text": "Cyclonic (Frontal) Rainfall",
+        "isCorrect": false,
+        "rationale": "Frontal rainfall results from warm and cold air mass convergence."
+      }
+    ],
+    "hint": "It creates heavy rain on the windward slope and a dry rain-shadow area on the leeward slope."
+  },
+  {
+    "question": "Tropical Cyclones derive their immense energy primarily from:",
+    "options": [
+      {
+        "text": "Latent Heat of Condensation released when moist sea air rises and condenses",
+        "isCorrect": true,
+        "rationale": "Tropical cyclones act as thermal heat engines powered by the massive release of Latent Heat of Condensation when warm, moist oceanic air ascends and condenses."
+      },
+      {
+        "text": "Solar ultraviolet rays absorbing in the stratosphere",
+        "isCorrect": false,
+        "rationale": "Stratospheric UV absorption does not power surface cyclones."
+      },
+      {
+        "text": "Geothermal heat emitted from underwater volcanic vents",
+        "isCorrect": false,
+        "rationale": "Geothermal energy contribution is negligible."
+      },
+      {
+        "text": "Frictional forces between sea water and wind",
+        "isCorrect": false,
+        "rationale": "Friction slows winds down."
+      }
+    ],
+    "hint": "Warm sea water (>27°C) supplies water vapor whose condensation releases latent heat."
+  },
+  {
+    "question": "The 'Eye' of a Tropical Cyclone is characterized by:",
+    "options": [
+      {
+        "text": "A calm central area with low atmospheric pressure, sinking air, clear skies, and light winds",
+        "isCorrect": true,
+        "rationale": "The eye of a tropical cyclone is a central circular region of relative calm (10-50 km diameter) featuring lowest barometric pressure, subsiding air, clear skies, and light winds."
+      },
+      {
+        "text": "The most violent wind wall with torrential rain",
+        "isCorrect": false,
+        "rationale": "This describes the Eye Wall surrounding the eye."
+      },
+      {
+        "text": "Severe lightning strikes and squalls",
+        "isCorrect": false,
+        "rationale": "Lightning occurs in the eyewall rainbands."
+      },
+      {
+        "text": "High barometric pressure and freezing blizzards",
+        "isCorrect": false,
+        "rationale": "Tropical cyclone eyes are warm and low pressure."
+      }
+    ],
+    "hint": "Surrounded by the violent eyewall, the central core itself is remarkably calm and clear."
+  },
+  {
+    "question": "Unlike Tropical Cyclones, Extra-Tropical (Mid-Latitude) Cyclones form due to:",
+    "options": [
+      {
+        "text": "Volcanic dust particles seeding clouds",
+        "isCorrect": false,
+        "rationale": "Volcanic ash is not a primary driver of frontal cyclones."
+      },
+      {
+        "text": "Exclusive heating of tropical ocean waters",
+        "isCorrect": false,
+        "rationale": "This describes tropical cyclones."
+      },
+      {
+        "text": "Convergence of contrasting warm and cold air masses along weather fronts",
+        "isCorrect": true,
+        "rationale": "Extra-tropical (frontal) cyclones form in temperate/subpolar regions (30°-65° lat) along polar fronts where warm tropical air masses meet cold polar air masses."
+      },
+      {
+        "text": "Strong vertical downdrafts over desert regions",
+        "isCorrect": false,
+        "rationale": "Deserts host anticyclonic high pressure."
+      }
+    ],
+    "hint": "They develop along temperate fronts where cold polar air meets warm tropical air."
+  },
+  {
+    "question": "During an 'El Niño' event, what major oceanographic change occurs in the Equatorial Pacific Ocean?",
+    "options": [
+      {
+        "text": "Upwelling of cold nutrient-rich water increases dramatically off Peru.",
+        "isCorrect": false,
+        "rationale": "Upwelling is suppressed during El Niño."
+      },
+      {
+        "text": "The Peruvian Current becomes intensely cold.",
+        "isCorrect": false,
+        "rationale": "Peruvian current warms up during El Niño."
+      },
+      {
+        "text": "A warm ocean current replaces the cold Peruvian (Humboldt) Current off South America, suppressing upwelling.",
+        "isCorrect": true,
+        "rationale": "El Niño involves abnormal warming of central/eastern equatorial Pacific waters, replacing the cold nutrient-rich Peruvian current with warm surface water and causing droughts in India/Australia."
+      },
+      {
+        "text": "Trade winds strengthen dramatically across the Pacific.",
+        "isCorrect": false,
+        "rationale": "Trade winds weaken or reverse during El Niño."
+      }
+    ],
+    "hint": "It warms the coastal waters off Peru and Ecuador, disrupting monsoon rainfall in India."
+  },
+  {
+    "question": "Regarding 'Atmospheric Pressure', which of the following statements is FALSE?",
+    "options": [
+      {
+        "text": "Atmospheric pressure is measured using a Barometer.",
+        "isCorrect": false,
+        "rationale": "True: Barometers measure atmospheric pressure in hPa or millibars."
+      },
+      {
+        "text": "Vertical pressure gradient is much stronger than horizontal pressure gradient.",
+        "isCorrect": false,
+        "rationale": "True: Vertical pressure gradient (~1 mb per 10m) is ~10,000 times stronger than horizontal pressure gradient."
+      },
+      {
+        "text": "Cold air is less dense and exerts lower surface pressure than warm air.",
+        "isCorrect": true,
+        "rationale": "FALSE statement: Cold air is denser and heavier, exerting higher surface pressure; warm air is less dense and exerts lower pressure."
+      },
+      {
+        "text": "Atmospheric pressure decreases rapidly with increasing height.",
+        "isCorrect": false,
+        "rationale": "True: Pressure decreases exponentially with altitude."
+      }
+    ],
+    "hint": "Remember that cold air is heavy and dense, creating HIGH pressure."
+  },
+  {
+    "question": "Match the global atmospheric Circulation Cell with its corresponding latitude zone:\nI. Hadley Cell\nII. Ferrel Cell\nIII. Polar Cell",
+    "options": [
+      {
+        "text": "I-60°-90°, II-0°-30°, III-30°-60°",
+        "isCorrect": false,
+        "rationale": "Incorrect cell matching."
+      },
+      {
+        "text": "I-0°-30°, II-60°-90°, III-30°-60°",
+        "isCorrect": false,
+        "rationale": "Ferrel and Polar cells are swapped."
+      },
+      {
+        "text": "I-Equatorial to Subtropical (0°-30°), II-Mid-Latitudes (30°-60°), III-Polar Regions (60°-90°)",
+        "isCorrect": true,
+        "rationale": "Hadley Cell operates in tropical latitudes (0°-30°), Ferrel Cell in temperate mid-latitudes (30°-60°), and Polar Cell in high polar latitudes (60°-90°)."
+      },
+      {
+        "text": "I-30°-60°, II-60°-90°, III-0°-30°",
+        "isCorrect": false,
+        "rationale": "Incorrect cell matching."
+      }
+    ],
+    "hint": "Hadley cell is tropical (0-30°), Ferrel cell is mid-latitude (30-60°), Polar cell is high-latitude (60-90°)."
+  },
+  {
+    "question": "The meteorological term 'Air Drainage' is most directly responsible for which microclimate phenomenon?",
+    "options": [
+      {
+        "text": "Tropical cyclone landfall intensification",
+        "isCorrect": false,
+        "rationale": "Cyclone landfall is driven by sea surface latent heat cut-off."
+      },
+      {
+        "text": "Jet stream formation in upper troposphere",
+        "isCorrect": false,
+        "rationale": "Jet streams are geostrophic winds driven by meridional thermal gradients."
+      },
+      {
+        "text": "Temperature Inversion in mountain valleys at night",
+        "isCorrect": true,
+        "rationale": "Air drainage occurs at night when cold dense air along mountain slopes sinks into valley bottoms under gravity, creating surface temperature inversions and valley frosts."
+      },
+      {
+        "text": "Global stratospheric ozone depletion",
+        "isCorrect": false,
+        "rationale": "Ozone depletion is caused by CFCs."
+      }
+    ],
+    "hint": "Cold, heavy mountain air drains down into valley floors at night, trapping frost."
+  },
+  {
+    "question": "Which physical radiation law states that 'The hotter a radiating body, the shorter the peak wavelength of its emitted radiation'?",
+    "options": [
+      {
+        "text": "Ferrel's Law",
+        "isCorrect": false,
+        "rationale": "Ferrel's Law governs Coriolis wind deflection."
+      },
+      {
+        "text": "Wien's Displacement Law (and Planck's Law)",
+        "isCorrect": true,
+        "rationale": "Wien's Displacement Law states that peak emission wavelength is inversely proportional to absolute temperature (λmax = b/T); hence the hot Sun emits shortwave radiation while cooler Earth emits longwave radiation."
+      },
+      {
+        "text": "Newton's Law of Universal Gravitation",
+        "isCorrect": false,
+        "rationale": "Newton's law relates gravitational attraction to masses."
+      },
+      {
+        "text": "Buys Ballot's Law",
+        "isCorrect": false,
+        "rationale": "Buys Ballot's Law relates wind direction to pressure distribution."
+      }
+    ],
+    "hint": "This law explains why the Sun (6000 K) emits shortwave light while Earth (288 K) emits longwave infrared."
+  }
+]

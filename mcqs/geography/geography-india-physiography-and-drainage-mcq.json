@@ -1,0 +1,782 @@
+[
+  {
+    "question": "Which peak is the highest point in the Western Ghats?",
+    "options": [
+      {
+        "text": "Doddabetta",
+        "isCorrect": false,
+        "rationale": "Doddabetta (2,637 m) is in the Nilgiris, slightly lower than Anamudi."
+      },
+      {
+        "text": "Anamudi",
+        "isCorrect": true,
+        "rationale": "Anamudi (2,695 m) in the Anaimalai Hills is the highest peak of the Western Ghats range."
+      },
+      {
+        "text": "Mullayanagiri",
+        "isCorrect": false,
+        "rationale": "Mullayanagiri (1,930 m) is the highest peak in Karnataka."
+      },
+      {
+        "text": "Kalsubai",
+        "isCorrect": false,
+        "rationale": "Kalsubai (1,646 m) is the highest peak in Maharashtra (Northern Western Ghats)."
+      }
+    ],
+    "hint": "It is situated at the tri-junction of the Anaimalai, Palani, and Cardamom Hills."
+  },
+  {
+    "question": "Which is the highest peak in the Eastern Ghats?",
+    "options": [
+      {
+        "text": "Anamudi",
+        "isCorrect": false,
+        "rationale": "Anamudi is in the Western Ghats."
+      },
+      {
+        "text": "Kalsubai",
+        "isCorrect": false,
+        "rationale": "Kalsubai is in the Western Ghats."
+      },
+      {
+        "text": "Doddabetta",
+        "isCorrect": false,
+        "rationale": "Doddabetta is in the Nilgiris / Western Ghats."
+      },
+      {
+        "text": "Jindhagada Peak / Arma Konda (1,680 m)",
+        "isCorrect": true,
+        "rationale": "Jindhagada Peak (also known as Arma Konda, 1,680 m) located in Andhra Pradesh is the highest peak in the Eastern Ghats, followed by Mahendragiri (1,501 m)."
+      }
+    ],
+    "hint": "Located in the Araku Valley region of Andhra Pradesh."
+  },
+  {
+    "question": "The Eastern Ghats and the Western Ghats meet at which mountain knot?",
+    "options": [
+      {
+        "text": "Nilgiri Hills",
+        "isCorrect": true,
+        "rationale": "The Eastern Ghats and Western Ghats converge at the Nilgiri Hills (Blue Mountains) on the border of Tamil Nadu, Kerala, and Karnataka."
+      },
+      {
+        "text": "Cardamom Hills",
+        "isCorrect": false,
+        "rationale": "The Cardamom Hills form the southernmost section of the Western Ghats."
+      },
+      {
+        "text": "Palani Hills",
+        "isCorrect": false,
+        "rationale": "The Palani Hills branch off eastward from the Anaimalai massif."
+      },
+      {
+        "text": "Anaimalai Hills",
+        "isCorrect": false,
+        "rationale": "The Anaimalai Hills lie south of the Palghat Gap."
+      }
+    ],
+    "hint": "These 'Blue Mountains' form the mountain knot where the two coastal mountain chains converge."
+  },
+  {
+    "question": "Which plateau lies between the Aravalli Range and the Vindhya Range?",
+    "options": [
+      {
+        "text": "Chota Nagpur Plateau",
+        "isCorrect": false,
+        "rationale": "The Chota Nagpur Plateau lies further east in Jharkhand, Odisha, and West Bengal."
+      },
+      {
+        "text": "Deccan Plateau",
+        "isCorrect": false,
+        "rationale": "The Deccan Plateau lies south of the Narmada River and Satpura Range."
+      },
+      {
+        "text": "Shillong Plateau",
+        "isCorrect": false,
+        "rationale": "The Shillong (Meghalaya) Plateau is located in northeastern India."
+      },
+      {
+        "text": "Malwa Plateau",
+        "isCorrect": true,
+        "rationale": "The Malwa Plateau lies in central India, bounded by the Aravalli Range in the northwest and the Vindhya Range in the south."
+      }
+    ],
+    "hint": "This central plateau drains into the Yamuna via rivers like Chambal, Kali Sindh, and Betwa."
+  },
+  {
+    "question": "Which is the largest physiographic division of India?",
+    "options": [
+      {
+        "text": "The Coastal Plains",
+        "isCorrect": false,
+        "rationale": "The coastal plains form narrow coastal strips along the east and west coasts."
+      },
+      {
+        "text": "The Northern Plains",
+        "isCorrect": false,
+        "rationale": "The Northern Plains cover an area of about 7.5 lakh sq. km."
+      },
+      {
+        "text": "The Himalayan Mountains",
+        "isCorrect": false,
+        "rationale": "The Himalayan mountain system covers about 5 lakh sq. km."
+      },
+      {
+        "text": "The Peninsular Plateau",
+        "isCorrect": true,
+        "rationale": "The Peninsular Plateau is the largest physiographic division of India, covering an area of about 16 lakh sq. km (nearly half of India's territory)."
+      }
+    ],
+    "hint": "This ancient crystalline landmass covers nearly 16 lakh square kilometers."
+  },
+  {
+    "question": "The northernmost mountain range of the Himalayas in India is the:",
+    "options": [
+      {
+        "text": "Karakoram / Trans-Himalayan Range",
+        "isCorrect": true,
+        "rationale": "The Karakoram Range lies in the Trans-Himalayas, forming the northernmost mountain wall of India (containing K2 / Godwin-Austen)."
+      },
+      {
+        "text": "Shiwalik Range",
+        "isCorrect": false,
+        "rationale": "The Shiwalik Range forms the southernmost outer foothills of the Himalayas."
+      },
+      {
+        "text": "Himachal (Lesser Himalayas)",
+        "isCorrect": false,
+        "rationale": "The Himachal lies between the Himadri and the Shiwaliks."
+      },
+      {
+        "text": "Himadri (Great Himalayas)",
+        "isCorrect": false,
+        "rationale": "The Himadri forms the continuous northern main spine of the Himalayas, south of the Trans-Himalayas."
+      }
+    ],
+    "hint": "This Trans-Himalayan range houses K2 and the Siachen Glacier."
+  },
+  {
+    "question": "Which is the highest mountain peak of the Himalayas located within India?",
+    "options": [
+      {
+        "text": "Kanchenjunga (8,586 m)",
+        "isCorrect": true,
+        "rationale": "Kanchenjunga (8,586 m) in Sikkim on the India-Nepal border is the highest peak of the Himalayas within indisputable Indian territory (K2 at 8,611 m is in PoK)."
+      },
+      {
+        "text": "Nanda Devi",
+        "isCorrect": false,
+        "rationale": "Nanda Devi (7,816 m) is the 2nd highest peak in India, located in Uttarakhand."
+      },
+      {
+        "text": "Mount Everest",
+        "isCorrect": false,
+        "rationale": "Mount Everest (8,848.86 m) is located entirely in Nepal/Tibet."
+      },
+      {
+        "text": "Kamet",
+        "isCorrect": false,
+        "rationale": "Kamet (7,756 m) is the 3rd highest peak in India, located in Uttarakhand."
+      }
+    ],
+    "hint": "Located in Sikkim on the border with Nepal, it is the 3rd highest peak in the world."
+  },
+  {
+    "question": "Which peak marks the easternmost boundary marker of the Great Himalayas?",
+    "options": [
+      {
+        "text": "Namcha Barwa (7,782 m)",
+        "isCorrect": true,
+        "rationale": "Namcha Barwa (7,782 m) marks the sharp eastern hairpin bend (syntaxial bend) where the Brahmaputra River cuts through into Arunachal Pradesh."
+      },
+      {
+        "text": "Kanchenjunga",
+        "isCorrect": false,
+        "rationale": "Kanchenjunga lies in Sikkim in the central-eastern Himalayas."
+      },
+      {
+        "text": "Annapurna",
+        "isCorrect": false,
+        "rationale": "Annapurna lies in central Nepal."
+      },
+      {
+        "text": "Nanga Parbat",
+        "isCorrect": false,
+        "rationale": "Nanga Parbat (8,126 m) marks the westernmost anchor of the Himalayas in Gilgit-Baltistan."
+      }
+    ],
+    "hint": "The Tsangpo / Brahmaputra River takes a sharp 180° turn around this peak."
+  },
+  {
+    "question": "Which high-altitude mountain pass connects Srinagar to Leh?",
+    "options": [
+      {
+        "text": "Zoji La",
+        "isCorrect": true,
+        "rationale": "Zoji La pass (approx. 3,528 m) on NH-1 connects the Kashmir Valley (Srinagar) with the Ladakh region (Kargil and Leh)."
+      },
+      {
+        "text": "Nathu La",
+        "isCorrect": false,
+        "rationale": "Nathu La connects Sikkim with Tibet."
+      },
+      {
+        "text": "Bara Lacha La",
+        "isCorrect": false,
+        "rationale": "Bara Lacha La connects Lahaul in Himachal Pradesh with Leh."
+      },
+      {
+        "text": "Shipki La",
+        "isCorrect": false,
+        "rationale": "Shipki La connects Himachal Pradesh (Kinnaur) with Tibet."
+      }
+    ],
+    "hint": "Located on National Highway 1, it crosses the Zaskar Range."
+  },
+  {
+    "question": "Which pass connects Himachal Pradesh with Tibet and is the entry point of the Sutlej River into India?",
+    "options": [
+      {
+        "text": "Jelep La",
+        "isCorrect": false,
+        "rationale": "Jelep La connects Sikkim with Lhasa, Tibet."
+      },
+      {
+        "text": "Shipki La",
+        "isCorrect": true,
+        "rationale": "Shipki La is a mountain pass on the India-China border in Kinnaur district, Himachal Pradesh, through which the Sutlej River enters India."
+      },
+      {
+        "text": "Lipulekh Pass",
+        "isCorrect": false,
+        "rationale": "Lipulekh Pass connects Uttarakhand with Tibet (Kailash Mansarovar route)."
+      },
+      {
+        "text": "Rohtang Pass",
+        "isCorrect": false,
+        "rationale": "Rohtang Pass connects Kullu Valley with Lahaul & Spiti in Himachal Pradesh."
+      }
+    ],
+    "hint": "Located in Kinnaur district of Himachal Pradesh."
+  },
+  {
+    "question": "In which Indian state is the famous 'Nathu La' mountain pass located?",
+    "options": [
+      {
+        "text": "Sikkim",
+        "isCorrect": true,
+        "rationale": "Nathu La is an important Himalayan pass located in the East Sikkim district on the border between India and China's Tibet Autonomous Region."
+      },
+      {
+        "text": "Arunachal Pradesh",
+        "isCorrect": false,
+        "rationale": "Arunachal Pradesh has passes like Bomdi La, Dihang, and Diphu."
+      },
+      {
+        "text": "Uttarakhand",
+        "isCorrect": false,
+        "rationale": "Uttarakhand has passes like Mana, Niti, and Lipulekh."
+      },
+      {
+        "text": "Himachal Pradesh",
+        "isCorrect": false,
+        "rationale": "Himachal Pradesh has passes like Shipki La and Rohtang."
+      }
+    ],
+    "hint": "This pass was a branch of the ancient Silk Route reopened for border trade in 2006."
+  },
+  {
+    "question": "'Majuli', the world's largest inhabited riverine island, is formed by which river?",
+    "options": [
+      {
+        "text": "Indus River",
+        "isCorrect": false,
+        "rationale": "The Indus flows through Ladakh and Pakistan without forming Majuli."
+      },
+      {
+        "text": "Godavari River",
+        "isCorrect": false,
+        "rationale": "Godavari forms delta islands like Hope Island near Kakinada."
+      },
+      {
+        "text": "Brahmaputra River",
+        "isCorrect": true,
+        "rationale": "Majuli is a large riverine island formed by the Brahmaputra River system in Assam and was declared the first river island district in India."
+      },
+      {
+        "text": "Ganga River",
+        "isCorrect": false,
+        "rationale": "The Ganga forms deltaic islands like Sagar Island, but not Majuli."
+      }
+    ],
+    "hint": "This island is a hub of Neo-Vaishnavite culture in Assam."
+  },
+  {
+    "question": "Which Peninsular river is often called 'Dakshin Ganga' (or Vridha Ganga) due to its large size and expanse?",
+    "options": [
+      {
+        "text": "Narmada River",
+        "isCorrect": false,
+        "rationale": "Narmada is the largest west-flowing river of Peninsular India."
+      },
+      {
+        "text": "Krishna River",
+        "isCorrect": false,
+        "rationale": "Krishna is the second longest river in Peninsular India."
+      },
+      {
+        "text": "Godavari River",
+        "isCorrect": true,
+        "rationale": "The Godavari is the longest river in Peninsular India (1,465 km) and is referred to as 'Dakshin Ganga' or 'Vridha Ganga' (Old Ganga)."
+      },
+      {
+        "text": "Kaveri River",
+        "isCorrect": false,
+        "rationale": "Kaveri is sometimes called 'Ganga of the South' due to its sacredness, but Godavari is 'Dakshin Ganga' due to length and basin size."
+      }
+    ],
+    "hint": "Originating from Trimbakeshwar in Nashik, it is the longest peninsular river."
+  },
+  {
+    "question": "Which of the following major peninsular rivers flows WESTWARD into the Arabian Sea through a rift valley?",
+    "options": [
+      {
+        "text": "Narmada River",
+        "isCorrect": true,
+        "rationale": "Narmada (and Tapti) flows westwards through a linear rift valley formed by faulting between the Vindhya and Satpura ranges, draining into the Gulf of Khambhat."
+      },
+      {
+        "text": "Mahanadi River",
+        "isCorrect": false,
+        "rationale": "Mahanadi flows eastward into the Bay of Bengal."
+      },
+      {
+        "text": "Godavari River",
+        "isCorrect": false,
+        "rationale": "Godavari flows eastward into the Bay of Bengal."
+      },
+      {
+        "text": "Krishna River",
+        "isCorrect": false,
+        "rationale": "Krishna flows eastward into the Bay of Bengal."
+      }
+    ],
+    "hint": "This river flows in a rift valley between the Vindhya and Satpura ranges."
+  },
+  {
+    "question": "The famous 'Marble Rocks' gorge and Dhuandhar Waterfalls near Jabalpur are formed by which river?",
+    "options": [
+      {
+        "text": "Narmada River",
+        "isCorrect": true,
+        "rationale": "The Narmada River creates the spectacular Marble Rocks gorge and drops into the Dhuandhar Falls at Bhedaghat near Jabalpur, Madhya Pradesh."
+      },
+      {
+        "text": "Sharavati River",
+        "isCorrect": false,
+        "rationale": "Sharavati forms Jog Falls in Karnataka."
+      },
+      {
+        "text": "Chambal River",
+        "isCorrect": false,
+        "rationale": "Chambal forms ravines in Rajasthan and MP."
+      },
+      {
+        "text": "Tapti River",
+        "isCorrect": false,
+        "rationale": "Tapti flows south of Satpura range through Surat."
+      }
+    ],
+    "hint": "Located at Bhedaghat near Jabalpur in Madhya Pradesh."
+  },
+  {
+    "question": "Which is the longest tributary of the River Ganga in India?",
+    "options": [
+      {
+        "text": "Ghaghara River",
+        "isCorrect": false,
+        "rationale": "Ghaghara is the largest tributary of Ganga by water volume, but Yamuna is the longest."
+      },
+      {
+        "text": "Yamuna River",
+        "isCorrect": true,
+        "rationale": "The Yamuna River (originating from Yamunotri Glacier, 1,376 km long) is the longest and right-bank tributary of the River Ganga."
+      },
+      {
+        "text": "Son River",
+        "isCorrect": false,
+        "rationale": "Son is a major right-bank tributary originating from Amarkantak."
+      },
+      {
+        "text": "Gandak River",
+        "isCorrect": false,
+        "rationale": "Gandak is a left-bank tributary originating in Nepal."
+      }
+    ],
+    "hint": "It joins the Ganga at Triveni Sangam in Prayagraj."
+  },
+  {
+    "question": "Which river is notoriously known as the 'Sorrow of Bihar' due to frequent course shifts and devastating floods?",
+    "options": [
+      {
+        "text": "Kosi River",
+        "isCorrect": true,
+        "rationale": "The Kosi River (an antecedent river originating in Tibet/Nepal) is known as the 'Sorrow of Bihar' due to heavy siltation and frequent shifts in its course causing floods."
+      },
+      {
+        "text": "Damodar River",
+        "isCorrect": false,
+        "rationale": "Damodar River was historically known as the 'Sorrow of Bengal'."
+      },
+      {
+        "text": "Ghaghara River",
+        "isCorrect": false,
+        "rationale": "Ghaghara flows through UP and Bihar."
+      },
+      {
+        "text": "Mahananda River",
+        "isCorrect": false,
+        "rationale": "Mahananda flows along the Bihar-West Bengal border."
+      }
+    ],
+    "hint": "This river brings immense quantities of sediment from the Himalayas, shifting its channel frequently."
+  },
+  {
+    "question": "Which river was historically known as the 'Sorrow of Bengal' before dam construction by DVC?",
+    "options": [
+      {
+        "text": "Teesta River",
+        "isCorrect": false,
+        "rationale": "Teesta originates in Sikkim and flows into Bangladesh."
+      },
+      {
+        "text": "Damodar River",
+        "isCorrect": true,
+        "rationale": "The Damodar River was called the 'Sorrow of Bengal' due to periodic disastrous floods until the Damodar Valley Corporation (DVC) constructed multipurpose dams in 1948."
+      },
+      {
+        "text": "Kosi River",
+        "isCorrect": false,
+        "rationale": "Kosi is the 'Sorrow of Bihar'."
+      },
+      {
+        "text": "Hooghly River",
+        "isCorrect": false,
+        "rationale": "Hooghly is the distributary of Ganga flowing through Kolkata."
+      }
+    ],
+    "hint": "The establishment of the DVC multipurpose project in 1948 tamed its floods."
+  },
+  {
+    "question": "Chilika Lake, the largest coastal brackish water lagoon in India, is located in which state?",
+    "options": [
+      {
+        "text": "Andhra Pradesh",
+        "isCorrect": false,
+        "rationale": "Andhra Pradesh houses Pulicat Lake and Kolleru Lake."
+      },
+      {
+        "text": "Odisha",
+        "isCorrect": true,
+        "rationale": "Chilika Lake is located in Odisha at the mouth of the Daya River. It is India's largest coastal lagoon and the first Indian wetland of international importance under the Ramsar Convention (1981)."
+      },
+      {
+        "text": "Kerala",
+        "isCorrect": false,
+        "rationale": "Kerala houses Vembanad Lake (longest lake in India) and Ashtamudi Lake."
+      },
+      {
+        "text": "Tamil Nadu",
+        "isCorrect": false,
+        "rationale": "Tamil Nadu shares Pulicat Lake at its northern border."
+      }
+    ],
+    "hint": "This Ramsar site in eastern India is famous for Irrawaddy dolphins and migratory birds."
+  },
+  {
+    "question": "Which is the largest freshwater lake in India, formed due to tectonic activity?",
+    "options": [
+      {
+        "text": "Loktak Lake",
+        "isCorrect": false,
+        "rationale": "Loktak Lake in Manipur is the largest freshwater lake in Northeast India."
+      },
+      {
+        "text": "Wular Lake",
+        "isCorrect": true,
+        "rationale": "Wular Lake in Bandipora district of Jammu & Kashmir is the largest freshwater lake in India, formed as a result of tectonic activity and fed by the Jhelum River."
+      },
+      {
+        "text": "Sambhar Lake",
+        "isCorrect": false,
+        "rationale": "Sambhar Lake in Rajasthan is India's largest inland saline lake."
+      },
+      {
+        "text": "Dal Lake",
+        "isCorrect": false,
+        "rationale": "Dal Lake in Srinagar is a famous urban lake fed by catchment streams, but smaller than Wular."
+      }
+    ],
+    "hint": "Located in Jammu & Kashmir, it is fed by the Jhelum River."
+  },
+  {
+    "question": "Pulicat Lake, the second largest brackish water lagoon in India, is situated on the border of:",
+    "options": [
+      {
+        "text": "Odisha and West Bengal",
+        "isCorrect": false,
+        "rationale": "Odisha houses Chilika Lake near its border."
+      },
+      {
+        "text": "Maharashtra and Goa",
+        "isCorrect": false,
+        "rationale": "They feature estuaries rather than large brackish lagoons."
+      },
+      {
+        "text": "Andhra Pradesh and Tamil Nadu",
+        "isCorrect": true,
+        "rationale": "Pulicat Lake lies on the border of Andhra Pradesh (Nellore) and Tamil Nadu (Tiruvallur), separated from the Bay of Bengal by Sriharikota island."
+      },
+      {
+        "text": "Kerala and Karnataka",
+        "isCorrect": false,
+        "rationale": "Kerala features Vembanad and Ashtamudi lakes."
+      }
+    ],
+    "hint": "The barrier island of Sriharikota separates this lagoon from the Bay of Bengal."
+  },
+  {
+    "question": "Sambhar Salt Lake, India's largest inland saline lake, is located in which state?",
+    "options": [
+      {
+        "text": "Rajasthan",
+        "isCorrect": true,
+        "rationale": "Sambhar Salt Lake is located in the Thar Desert near Jaipur, Rajasthan, serving as India's largest inland saltwater lake and a major source of salt production."
+      },
+      {
+        "text": "Gujarat",
+        "isCorrect": false,
+        "rationale": "Gujarat features the Rann of Kutch salt flats."
+      },
+      {
+        "text": "Punjab",
+        "isCorrect": false,
+        "rationale": "Punjab features freshwater wetland lakes like Harike."
+      },
+      {
+        "text": "Haryana",
+        "isCorrect": false,
+        "rationale": "Haryana features lakes like Badkhal and Sultanpur."
+      }
+    ],
+    "hint": "Located near Jaipur in the arid region of western India."
+  },
+  {
+    "question": "Which of the following is a characteristic feature of the Western Coastal Plain of India?",
+    "options": [
+      {
+        "text": "It is narrow, submerged, and characterized by estuaries, creeks, and backwaters (Kayals).",
+        "isCorrect": true,
+        "rationale": "The Western Coastal Plain is a narrow, submerged coast (except Gujarat) with rivers forming steep estuaries rather than deltas, and features backwaters (Kayals) in Kerala."
+      },
+      {
+        "text": "It is an emergent coast with shallow waters.",
+        "isCorrect": false,
+        "rationale": "The Western coast is predominantly a submerged coast."
+      },
+      {
+        "text": "It lacks natural ports due to shallow smooth waters.",
+        "isCorrect": false,
+        "rationale": "Being a submerged coast, it provides deep natural conditions for major ports like Mumbai, Marmagao, and Cochin."
+      },
+      {
+        "text": "It is extremely wide with massive river deltas.",
+        "isCorrect": false,
+        "rationale": "Massive deltas are characteristic of the Eastern Coastal Plain."
+      }
+    ],
+    "hint": "This narrow coastal belt features backwaters known as 'Kayals' in Kerala."
+  },
+  {
+    "question": "Which statement accurately describes the Eastern Coastal Plain of India?",
+    "options": [
+      {
+        "text": "It is an emergent coast, broader, and marked by large river deltas (Mahanadi, Godavari, Krishna, Kaveri).",
+        "isCorrect": true,
+        "rationale": "The Eastern Coastal Plain is a broad, emergent plain formed by alluvial deposits of major east-flowing rivers creating extensive deltas."
+      },
+      {
+        "text": "It has abundant natural deep-water harbors.",
+        "isCorrect": false,
+        "rationale": "Because it is an emergent coast with shallow offshore waters, natural deep-water ports are fewer compared to artificial ports."
+      },
+      {
+        "text": "It has no natural river deltas due to swift currents.",
+        "isCorrect": false,
+        "rationale": "It features four of India's largest river deltas."
+      },
+      {
+        "text": "It is narrow and submerged with steep rocky cliffs.",
+        "isCorrect": false,
+        "rationale": "This describes the Western Coastal Plain."
+      }
+    ],
+    "hint": "This plain contains the fertile deltas of the Mahanadi, Godavari, Krishna, and Kaveri rivers."
+  },
+  {
+    "question": "Which set of landforms demonstrates the 'youthful stage' of Himalayan rivers?",
+    "options": [
+      {
+        "text": "Deep gorges, V-shaped valleys, rapids, and waterfalls",
+        "isCorrect": true,
+        "rationale": "Himalayan rivers are in their youthful stage in the mountain course, actively downcutting to form deep gorges, V-shaped valleys, rapids, and waterfalls."
+      },
+      {
+        "text": "Ox-bow lakes, meanders, and deltaic islands",
+        "isCorrect": false,
+        "rationale": "These landforms characterize the mature and old/lower stage of rivers in plains."
+      },
+      {
+        "text": "Peneplains, relict residual hills, and inselbergs",
+        "isCorrect": false,
+        "rationale": "These characterize old senile landscapes in cratonic areas."
+      },
+      {
+        "text": "U-shaped glacial valleys, drumlins, and eskers",
+        "isCorrect": false,
+        "rationale": "These are glacial landforms created by ice movement."
+      }
+    ],
+    "hint": "These landforms reflect active vertical erosion and steep gradients in upper reaches."
+  },
+  {
+    "question": "The 'Terai' region lying south of the Bhabar belt is characterized by:",
+    "options": [
+      {
+        "text": "Porous boulder-strewn beds where streams disappear",
+        "isCorrect": false,
+        "rationale": "This describes the Bhabar belt immediately south of the Shiwalik foothills."
+      },
+      {
+        "text": "Newer floodplains deposited every year by rivers",
+        "isCorrect": false,
+        "rationale": "This describes Khadar alluvium."
+      },
+      {
+        "text": "Marshy, swampy, and damp land with dense natural vegetation",
+        "isCorrect": true,
+        "rationale": "The Terai belt (10-20 km wide) lies south of the Bhabar; re-emerging underground streams create a marshy, damp, and thickly forested tract rich in wildlife."
+      },
+      {
+        "text": "Older dry alluvial elevated terraces above flood levels",
+        "isCorrect": false,
+        "rationale": "This describes Bhangar alluvium."
+      }
+    ],
+    "hint": "It is a damp, marshy belt where rivers submerged in the pebble-strewn Bhabar re-emerge."
+  },
+  {
+    "question": "Consider the following statements regarding India's maritime zones:\nI. Territorial waters extend up to 12 nautical miles (~22.2 km) from the baseline.\nII. The Exclusive Economic Zone (EEZ) extends up to 200 nautical miles (~370.4 km).\nWhich of the statements is/are correct?",
+    "options": [
+      {
+        "text": "II only",
+        "isCorrect": false,
+        "rationale": "Statement I is also correct."
+      },
+      {
+        "text": "I only",
+        "isCorrect": false,
+        "rationale": "Statement II is also correct under maritime law."
+      },
+      {
+        "text": "Neither I nor II",
+        "isCorrect": false,
+        "rationale": "Both statements represent established maritime law limits."
+      },
+      {
+        "text": "Both I and II are correct",
+        "isCorrect": true,
+        "rationale": "Under UNCLOS and Indian law, India's Territorial Waters extend 12 NM from the baseline (full sovereignty), and its EEZ extends up to 200 NM (sovereign resource rights)."
+      }
+    ],
+    "hint": "12 nautical miles defines territorial sea, while 200 nautical miles defines the economic zone."
+  },
+  {
+    "question": "Identify the correct North-to-South sequence of Indian states through which the Standard Meridian (82°30' E) passes:",
+    "options": [
+      {
+        "text": "Uttar Pradesh → MP → Odisha → Chhattisgarh → Andhra Pradesh",
+        "isCorrect": false,
+        "rationale": "Chhattisgarh comes before Odisha as you travel south along 82°30' E."
+      },
+      {
+        "text": "Uttar Pradesh → Bihar → Jharkhand → Odisha → Andhra Pradesh",
+        "isCorrect": false,
+        "rationale": "The meridian does not pass through Bihar or Jharkhand."
+      },
+      {
+        "text": "Uttar Pradesh → Madhya Pradesh → Chhattisgarh → Odisha → Andhra Pradesh",
+        "isCorrect": true,
+        "rationale": "The 82°30' E meridian passes through 5 states in order from North to South: Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha, and Andhra Pradesh."
+      },
+      {
+        "text": "Madhya Pradesh → UP → Chhattisgarh → Andhra Pradesh → Odisha",
+        "isCorrect": false,
+        "rationale": "Uttar Pradesh is the northernmost state among these."
+      }
+    ],
+    "hint": "The 5 states in order start with UP and end with Andhra Pradesh on the east coast."
+  },
+  {
+    "question": "The opening of the Suez Canal in 1869 reduced the sea route travel distance between India and Europe by approx:",
+    "options": [
+      {
+        "text": "3,500 km",
+        "isCorrect": false,
+        "rationale": "3,500 km understates the actual distance saved around the African continent."
+      },
+      {
+        "text": "10,000 km",
+        "isCorrect": false,
+        "rationale": "10,000 km overstates the saved mileage."
+      },
+      {
+        "text": "7,000 km",
+        "isCorrect": true,
+        "rationale": "The opening of the Suez Canal in 1869 connected the Mediterranean Sea to the Red Sea, eliminating the long circumnavigation around the Cape of Good Hope (Africa) and saving about 7,000 km."
+      },
+      {
+        "text": "5,000 km",
+        "isCorrect": false,
+        "rationale": "5,000 km is lower than the actual 7,000 km distance reduction."
+      }
+    ],
+    "hint": "By bypassing the round-Africa route via the Cape of Good Hope, thousands of kilometers were saved."
+  },
+  {
+    "question": "Where is 'Barren Island', India's only active volcano, located?",
+    "options": [
+      {
+        "text": "Gulf of Khambhat",
+        "isCorrect": false,
+        "rationale": "The Gulf of Khambhat lies off the Gujarat coast."
+      },
+      {
+        "text": "Gulf of Mannar",
+        "isCorrect": false,
+        "rationale": "The Gulf of Mannar lies between Tamil Nadu and Sri Lanka."
+      },
+      {
+        "text": "Lakshadweep Archipelago",
+        "isCorrect": false,
+        "rationale": "Lakshadweep islands are coral atolls with no volcanic activity."
+      },
+      {
+        "text": "Andaman Sea (Andaman Islands group)",
+        "isCorrect": true,
+        "rationale": "Barren Island is an active stratovolcano located in the Andaman Sea, about 138 km northeast of Port Blair in the Andaman Islands."
+      }
+    ],
+    "hint": "It lies northeast of Port Blair in the Andaman Sea."
+  }
+]
