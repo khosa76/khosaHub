@@ -35,7 +35,8 @@ body {
 /* Notebook Container */
 .notebook-container {
   width: 100%;
-  max-width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -67,6 +68,23 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
   overflow-x: auto;
+}
+
+/* Full Container Width for Normal Text Notes & Content Blocks */
+.paper-page p,
+.paper-page ul,
+.paper-page ol,
+.paper-page .sticky-note,
+.paper-page .qa-block,
+.paper-page .key-points,
+.paper-page .notes-table,
+.paper-page .comparison-table,
+.paper-page .diagram-container,
+.paper-page .diagram-container-wide,
+.paper-page table {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
 }
 
 /* Spiral Binding Binder Holes */
