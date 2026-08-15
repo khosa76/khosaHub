@@ -72,13 +72,14 @@ body {
 
 .app-container {
   width: 100%;
-  max-width: 980px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
 }
 
 /* Notebook Container & Paper Page */
 .notebook-container {
   width: 100%;
+  max-width: 100%;
 }
 
 .paper-page {
@@ -94,8 +95,8 @@ body {
     0 10px 30px rgba(0, 0, 0, 0.08),
     0 2px 8px rgba(0, 0, 0, 0.04);
   border: 1px solid var(--border-light);
-  padding: 36px 32px 36px 95px;
-  min-height: 600px;
+  padding: 36px 40px 36px 100px;
+  min-height: 100vh;
   box-sizing: border-box;
 }
 

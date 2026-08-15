@@ -43,8 +43,14 @@ body {
 }
 
 .mains-container {
-    max-width: 980px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.notebook-container {
+    width: 100%;
+    max-width: 100%;
 }
 
 .paper-page {
@@ -59,8 +65,10 @@ body {
     box-shadow:
         0 10px 30px rgba(0, 0, 0, 0.08),
         0 2px 8px rgba(0, 0, 0, 0.04);
-    padding: 36px 32px 36px 95px;
+    padding: 36px 40px 36px 100px;
+    min-height: 100vh;
     border: 1px solid rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
 }
 
 /* Notebook Spiral Holes & Binding */
