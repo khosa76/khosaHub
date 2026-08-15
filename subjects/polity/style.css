@@ -19,6 +19,13 @@
   --hl-green: linear-gradient(100deg, rgba(187, 247, 208, 0.7) 0%, rgba(74, 222, 128, 0.8) 70%, rgba(187, 247, 208, 0.4) 100%);
 }
 
+html {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
 /* Desk Background with Dot Grid */
 body {
   background-color: var(--desk-bg);
@@ -29,7 +36,10 @@ body {
   font-family: 'Patrick Hand', cursive;
   color: var(--ink-black);
   width: 100%;
+  max-width: 100vw;
   min-height: 100vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 /* Notebook Container */
@@ -41,6 +51,7 @@ body {
   flex-direction: column;
   gap: 50px;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /* Individual Paper Page */
@@ -67,7 +78,7 @@ body {
   /* Offset for red line and binding */
   min-height: 100vh;
   box-sizing: border-box;
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 /* Full Container Width for Normal Text Notes & Content Blocks */
@@ -401,15 +412,19 @@ em {
 table,
 .notes-table,
 .comparison-table {
+  display: block;
   width: 100%;
-  min-width: 720px;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   border-collapse: separate;
   border-spacing: 0;
   margin: 28px 0;
   border: 2px solid #475569;
   border-radius: 12px;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
 }
 
 .table-wrapper table,
