@@ -25,12 +25,10 @@ body {
   background-image: radial-gradient(var(--desk-grid) 1.5px, transparent 1.5px);
   background-size: 24px 24px;
   margin: 0;
-  padding: 0 1px;
+  padding: 0;
   font-family: 'Patrick Hand', cursive;
   color: var(--ink-black);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
   min-height: 100vh;
 }
 
@@ -41,6 +39,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  box-sizing: border-box;
 }
 
 /* Individual Paper Page */
@@ -63,10 +62,11 @@ body {
     0 5px 15px rgba(0, 0, 0, 0.03),
     0 0 0 1px rgba(0, 0, 0, 0.04);
 
-  padding: 60px 50px 60px 90px;
+  padding: 60px 40px 60px 90px;
   /* Offset for red line and binding */
   min-height: 100vh;
   box-sizing: border-box;
+  overflow-x: auto;
 }
 
 /* Spiral Binding Binder Holes */
