@@ -78,7 +78,8 @@ body {
   /* Offset for red line and binding */
   min-height: 100vh;
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Full Container Width for Normal Text Notes & Content Blocks */
@@ -412,11 +413,10 @@ em {
 table,
 .notes-table,
 .comparison-table {
-  display: block;
+  display: table;
   width: 100%;
-  max-width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  min-width: 680px;
+  table-layout: auto;
   border-collapse: separate;
   border-spacing: 0;
   margin: 28px 0;
