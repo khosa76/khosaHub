@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Affairs Magazine Reader - KHOSA Aspirant Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- PDF.js Library via CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+    <style>
+        /* PDF Reader Dedicated Notebook Styles */
+        .pdf-header-banner {
+            background: rgba(239, 246, 255, 0.8);
+            border: 1.5px dashed var(--ink-blue);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+
+        .pdf-toolbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+            background: #ffffff;
+            border: 1px solid var(--ink-blue);
+            border-radius: 10px;
+            padding: 10px 16px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 12px;
+            z-index: 100;
+        }
+
+        .pdf-btn-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .pdf-btn {
+            font-family: inherit;
+            font-size: 13.5px;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 6px;
+            border: 1px solid #cbd5e1;
+            background: #f8fafc;
+            color: #0f172a;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pdf-btn:hover:not(:disabled) {
+            background: var(--ink-blue);
+            color: white;
+            border-color: var(--ink-blue);
+        }
+
+        .pdf-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .pdf-page-indicator {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1e293b;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pdf-page-input {
+            width: 50px;
+            padding: 4px 6px;
+            text-align: center;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 700;
+            border: 1px solid #cbd5e1;
+            border-radius: 4px;
+            outline: none;
+        }
+
+        .pdf-page-input:focus {
+            border-color: var(--ink-blue);
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+        }
+
+        /* Canvas Wrapper */
+        .pdf-canvas-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #525659;
+            border-radius: 12px;
+            padding: 20px 10px;
+            min-height: 600px;
+            position: relative;
+            box-sizing: border-box;
+            box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.3);
+            overflow-x: auto;
+        }
+
+        #pdf-canvas {
+            background: white;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+            border-radius: 4px;
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .pdf-spinner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(15, 23, 42, 0.85);
+            color: white;
+            padding: 14px 24px;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: 600;
+            display: none;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+        }
+
+        .pdf-spinner.active {
+            display: flex;
+        }
+
+        .spinner-ring {
+            width: 18px;
+            height: 18px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Magazine Info Cards Grid */
+        .ca-topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .ca-topic-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 13.5px;
+        }
+
+        .ca-topic-card h5 {
+            font-size: 14.5px;
+            font-weight: 700;
+            color: var(--ink-blue);
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="notebook-container">
+        <div class="paper-page">
+
+            <!-- Sub Navigation Bar -->
+            <div class="sub-nav-bar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <a href="index.html" class="back-to-hub-btn" style="position: static; display: inline-flex; align-items: center; text-decoration: none;">
+                    ← Back to Main Dashboard
+                </a>
+                <span class="badge-new" style="background: var(--ink-blue); color: white; padding: 4px 12px; border-radius: 12px; font-size: 13px; font-weight: bold;">
+                    📰 Monthly CA Vault
+                </span>
+            </div>
+
+            <!-- Page Title Banner -->
+            <div class="pdf-header-banner">
+                <h1 style="font-size: 26px; margin-bottom: 6px; color: var(--ink-blue);">
+                    Monthly Current Affairs Magazine
+                </h1>
+                <p style="font-size: 15px; color: #475569; margin: 0;">
+                    <strong>Edition:</strong> June 2026 Monthly CA Magazine (By Fateh Sir) &nbsp;|&nbsp; 
+                    <strong>Format:</strong> Interactive Page-by-Page Fast Reader
+                </p>
+            </div>
+
+            <!-- PDF Controls Sticky Toolbar -->
+            <div class="pdf-toolbar">
+                <div class="pdf-btn-group">
+                    <button class="pdf-btn" id="prev-page-btn" title="Previous Page (Left Arrow)">
+                        ◀ Prev Page
+                    </button>
+                    <div class="pdf-page-indicator">
+                        Page 
+                        <input type="number" id="page-num-input" class="pdf-page-input" value="1" min="1"> 
+                        of <span id="page-count-display">--</span>
+                    </div>
+                    <button class="pdf-btn" id="next-page-btn" title="Next Page (Right Arrow)">
+                        Next Page ▶
+                    </button>
+                </div>
+
+                <div class="pdf-btn-group">
+                    <button class="pdf-btn" id="zoom-out-btn" title="Zoom Out">
+                        🔍-
+                    </button>
+                    <span id="zoom-level-display" style="font-size: 13px; font-weight: 600; color: #475569;">100%</span>
+                    <button class="pdf-btn" id="zoom-in-btn" title="Zoom In">
+                        🔍+
+                    </button>
+                    <button class="pdf-btn" id="fit-width-btn" title="Fit to Container Width">
+                        ↔️ Fit Width
+                    </button>
+                </div>
+
+                <div class="pdf-btn-group">
+                    <a href="current_affairs/June_Monthly_CA_Magazine_Fateh_Sir.pdf" download class="pdf-btn" style="text-decoration: none;" target="_blank">
+                        📥 Download PDF
+                    </a>
+                </div>
+            </div>
+
+            <!-- PDF Page Canvas Container -->
+            <div class="pdf-canvas-container">
+                <div class="pdf-spinner" id="pdf-spinner">
+                    <div class="spinner-ring"></div>
+                    <span>Rendering Page <span id="loading-page-num">1</span>...</span>
+                </div>
+                <canvas id="pdf-canvas"></canvas>
+            </div>
+
+            <!-- Page Quick Jump Footer Bar -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding: 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px;">
+                <span style="font-size: 13.5px; color: #64748b;">
+                    💡 <strong>Tip:</strong> Use Left & Right Arrow keys on your keyboard to turn pages quickly.
+                </span>
+                <div style="display: flex; gap: 8px;">
+                    <button class="pdf-btn" id="first-page-btn">⏮️ First Page</button>
+                    <button class="pdf-btn" id="last-page-btn">⏭️ Last Page</button>
+                </div>
+            </div>
+
+            <!-- Magazine Overview Cards -->
+            <div style="margin-top: 36px; border-top: 2px dashed #cbd5e1; padding-top: 24px;">
+                <h3 style="font-family: 'Kalam', cursive; font-size: 20px; color: var(--ink-blue); margin-bottom: 12px;">
+                    📌 June Current Affairs Syllabus Coverage
+                </h3>
+                <div class="ca-topics-grid">
+                    <div class="ca-topic-card">
+                        <h5>🏛️ National Polity & Acts</h5>
+                        <p style="margin: 0; color: #64748b;">Constitutional amendments, Cabinet decisions, Supreme Court verdicts & Bills.</p>
+                    </div>
+                    <div class="ca-topic-card">
+                        <h5>🌾 Punjab & State Special</h5>
+                        <p style="margin: 0; color: #64748b;">Punjab state policies, canal irrigation developments, heritage & awards.</p>
+                    </div>
+                    <div class="ca-topic-card">
+                        <h5>🌐 International Relations</h5>
+                        <p style="margin: 0; color: #64748b;">Bilateral summits, G20/BRICS updates, global indices & defense exercises.</p>
+                    </div>
+                    <div class="ca-topic-card">
+                        <h5>📈 Economy & Schemes</h5>
+                        <p style="margin: 0; color: #64748b;">RBI repo rates, GDP projections, Union welfare schemes & budget allocations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Print / PDF Export Button -->
+            <div class="print-btn-container" style="margin-top: 28px;">
+                <button onclick="window.print()" class="print-pdf-btn">
+                    📄 Export Page to A4 PDF
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PDF.js Page-by-Page Engine Logic Script -->
+    <script>
+        // PDF.js worker configuration
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+        const pdfUrl = 'current_affairs/June_Monthly_CA_Magazine_Fateh_Sir.pdf';
+
+        let pdfDoc = null;
+        let pageNum = 1;
+        let pageRendering = false;
+        let pageNumPending = null;
+        let currentScale = 1.25;
+
+        const canvas = document.getElementById('pdf-canvas');
+        const ctx = canvas.getContext('2d');
+        const spinner = document.getElementById('pdf-spinner');
+        const loadingPageNum = document.getElementById('loading-page-num');
+
+        const prevBtn = document.getElementById('prev-page-btn');
+        const nextBtn = document.getElementById('next-page-btn');
+        const pageNumInput = document.getElementById('page-num-input');
+        const pageCountDisplay = document.getElementById('page-count-display');
+
+        const zoomInBtn = document.getElementById('zoom-in-btn');
+        const zoomOutBtn = document.getElementById('zoom-out-btn');
+        const fitWidthBtn = document.getElementById('fit-width-btn');
+        const zoomLevelDisplay = document.getElementById('zoom-level-display');
+
+        const firstPageBtn = document.getElementById('first-page-btn');
+        const lastPageBtn = document.getElementById('last-page-btn');
+
+        // Render target page on canvas
+        function renderPage(num) {
+            pageRendering = true;
+            spinner.classList.add('active');
+            loadingPageNum.innerText = num;
+
+            pdfDoc.getPage(num).then(function (page) {
+                const viewport = page.getViewport({ scale: currentScale });
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+
+                const renderContext = {
+                    canvasContext: ctx,
+                    viewport: viewport
+                };
+                
+                const renderTask = page.render(renderContext);
+
+                renderTask.promise.then(function () {
+                    pageRendering = false;
+                    spinner.classList.remove('active');
+
+                    if (pageNumPending !== null) {
+                        renderPage(pageNumPending);
+                        pageNumPending = null;
+                    }
+                }).catch(function (err) {
+                    console.error("Render error:", err);
+                    pageRendering = false;
+                    spinner.classList.remove('active');
+                });
+            });
+
+            // Update UI widgets
+            pageNumInput.value = num;
+            prevBtn.disabled = num <= 1;
+            nextBtn.disabled = num >= pdfDoc.numPages;
+            if (firstPageBtn) firstPageBtn.disabled = num <= 1;
+            if (lastPageBtn) lastPageBtn.disabled = num >= pdfDoc.numPages;
+            zoomLevelDisplay.innerText = `${Math.round(currentScale * 100)}%`;
+        }
+
+        // Queue page rendering if previous page is still rendering
+        function queueRenderPage(num) {
+            if (pageRendering) {
+                pageNumPending = num;
+            } else {
+                renderPage(num);
+            }
+        }
+
+        // Go to previous page
+        function onPrevPage() {
+            if (pageNum <= 1) return;
+            pageNum--;
+            queueRenderPage(pageNum);
+        }
+
+        // Go to next page
+        function onNextPage() {
+            if (pageNum >= pdfDoc.numPages) return;
+            pageNum++;
+            queueRenderPage(pageNum);
+        }
+
+        // Zoom Controls
+        function onZoomIn() {
+            if (currentScale >= 2.5) return;
+            currentScale += 0.25;
+            queueRenderPage(pageNum);
+        }
+
+        function onZoomOut() {
+            if (currentScale <= 0.6) return;
+            currentScale -= 0.25;
+            queueRenderPage(pageNum);
+        }
+
+        function onFitWidth() {
+            const containerWidth = document.querySelector('.pdf-canvas-container').clientWidth - 40;
+            pdfDoc.getPage(pageNum).then(function(page) {
+                const unscaledViewport = page.getViewport({ scale: 1.0 });
+                currentScale = containerWidth / unscaledViewport.width;
+                queueRenderPage(pageNum);
+            });
+        }
+
+        // Load PDF Document asynchronously
+        pdfjsLib.getDocument(pdfUrl).promise.then(function (pdfDoc_) {
+            pdfDoc = pdfDoc_;
+            pageCountDisplay.innerText = pdfDoc.numPages;
+            pageNumInput.max = pdfDoc.numPages;
+
+            // Initial page 1 render
+            renderPage(pageNum);
+        }).catch(function (err) {
+            console.error("Error loading PDF:", err);
+            spinner.classList.remove('active');
+            document.querySelector('.pdf-canvas-container').innerHTML = `
+                <div style="color: #ef4444; font-weight: bold; text-align: center; padding: 40px; background: white; border-radius: 8px;">
+                    ⚠️ Unable to load PDF file. Ensure 'current_affairs/June_Monthly_CA_Magazine_Fateh_Sir.pdf' exists.
+                </div>
+            `;
+        });
+
+        // Event Listeners
+        prevBtn.addEventListener('click', onPrevPage);
+        nextBtn.addEventListener('click', onNextPage);
+
+        zoomInBtn.addEventListener('click', onZoomIn);
+        zoomOutBtn.addEventListener('click', onZoomOut);
+        fitWidthBtn.addEventListener('click', onFitWidth);
+
+        if (firstPageBtn) firstPageBtn.addEventListener('click', () => { pageNum = 1; queueRenderPage(1); });
+        if (lastPageBtn) lastPageBtn.addEventListener('click', () => { pageNum = pdfDoc.numPages; queueRenderPage(pdfDoc.numPages); });
+
+        // Page Number Input enter / change handler
+        pageNumInput.addEventListener('change', function () {
+            let val = parseInt(this.value);
+            if (isNaN(val) || val < 1) val = 1;
+            if (val > pdfDoc.numPages) val = pdfDoc.numPages;
+            pageNum = val;
+            queueRenderPage(pageNum);
+        });
+
+        // Keyboard Arrow Key Navigation
+        document.addEventListener('keydown', function (e) {
+            if (document.activeElement.tagName === 'INPUT') return;
+            if (e.key === 'ArrowLeft') {
+                onPrevPage();
+            } else if (e.key === 'ArrowRight') {
+                onNextPage();
+            }
+        });
+    </script>
+</body>
+</html>
