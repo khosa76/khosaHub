@@ -37,7 +37,7 @@ body {
 /* Notebook Container */
 .notebook-container {
   width: 100%;
-  max-width: 1760px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -46,6 +46,8 @@ body {
 /* Individual Paper Page */
 .paper-page {
   position: relative;
+  width: 100%;
+  max-width: 100%;
   background-color: var(--paper-bg);
   /* Lined paper effect + red margin line */
   background-image:
@@ -59,16 +61,11 @@ body {
   box-shadow:
     0 15px 35px rgba(0, 0, 0, 0.05),
     0 5px 15px rgba(0, 0, 0, 0.03),
-    0 0 0 1px rgba(0, 0, 0, 0.04),
-    /* stacked page effect under the main page */
-    5px 5px 0px #fffdf8,
-    5px 5px 2px rgba(0, 0, 0, 0.02),
-    10px 10px 0px #fffcf5,
-    10px 10px 4px rgba(0, 0, 0, 0.02);
+    0 0 0 1px rgba(0, 0, 0, 0.04);
 
   padding: 60px 50px 60px 90px;
   /* Offset for red line and binding */
-  min-height: 500px;
+  min-height: 100vh;
   box-sizing: border-box;
 }
 
