@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dashboard.css">
 
     <!-- PDF.js Library via CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
@@ -19,7 +19,7 @@
         .sub-back-btn {
             font-family: inherit;
             background: #f1f5f9;
-            color: #0f172a;
+            color: #0f172a !important;
             border: 1px solid #cbd5e1;
             padding: 8px 16px;
             border-radius: 8px;
@@ -33,16 +33,16 @@
         }
 
         .sub-back-btn:hover {
-            background: var(--ink-blue);
-            color: white;
-            border-color: var(--ink-blue);
+            background: #1e3a8a !important;
+            color: #ffffff !important;
+            border-color: #1e3a8a !important;
         }
 
         .pdf-btn-download {
             font-family: inherit;
-            background: linear-gradient(135deg, #059669, #047857);
-            color: white;
-            border: none;
+            background: #059669;
+            color: #ffffff !important;
+            border: 1px solid #059669;
             padding: 9px 18px;
             border-radius: 8px;
             font-weight: 700;
@@ -56,10 +56,11 @@
         }
 
         .pdf-btn-download:hover {
-            background: linear-gradient(135deg, #047857, #065f46);
+            background: #047857 !important;
+            color: #ffffff !important;
+            border-color: #047857 !important;
             transform: translateY(-2px);
             box-shadow: 0 6px 18px rgba(5, 150, 105, 0.4);
-            color: white;
         }
 
         .pdf-toolbar {
@@ -100,7 +101,7 @@
             border-radius: 6px;
             border: 1px solid #cbd5e1;
             background: #f8fafc;
-            color: #0f172a;
+            color: #0f172a !important;
             cursor: pointer;
             transition: all 0.2s ease;
             display: inline-flex;
@@ -109,9 +110,9 @@
         }
 
         .pdf-btn:hover:not(:disabled) {
-            background: var(--ink-blue);
-            color: white;
-            border-color: var(--ink-blue);
+            background: #2563eb !important;
+            color: #ffffff !important;
+            border-color: #2563eb !important;
         }
 
         /* Continuous Scroll Viewport Container */
