@@ -2,51 +2,4031 @@
   {
     "question": "Which of the following channels or straits separates the Andaman group of islands from the Nicobar group of islands?",
     "options": [
-      { "text": "The Nine Degree Channel", "isCorrect": false, "rationale": "The Nine Degree Channel separates Minicoy Island from the main Lakshadweep archipelago." },
-      { "text": "The Ten Degree Channel", "isCorrect": true, "rationale": "The Ten Degree Channel is a channel that lies on the 10-degree latitude line, separating the Andaman Islands to the north from the Nicobar Islands to the south." },
-      { "text": "The Duncan Passage", "isCorrect": false, "rationale": "The Duncan Passage separates South Andaman from Little Andaman." },
-      { "text": "The Palk Strait", "isCorrect": false, "rationale": "The Palk Strait separates India (Tamil Nadu) from Sri Lanka." }
+      {
+        "text": "The Nine Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Nine Degree Channel separates Minicoy Island from the main Lakshadweep archipelago."
+      },
+      {
+        "text": "The Ten Degree Channel",
+        "isCorrect": true,
+        "rationale": "The Ten Degree Channel is a channel that lies on the 10-degree latitude line, separating the Andaman Islands to the north from the Nicobar Islands to the south."
+      },
+      {
+        "text": "The Duncan Passage",
+        "isCorrect": false,
+        "rationale": "The Duncan Passage separates South Andaman from Little Andaman."
+      },
+      {
+        "text": "The Palk Strait",
+        "isCorrect": false,
+        "rationale": "The Palk Strait separates India (Tamil Nadu) from Sri Lanka."
+      }
     ],
     "hint": "This channel is named after the parallel of latitude that runs between the two island groups."
   },
   {
     "question": "Where is India's southernmost territory marker, 'Indira Point' (formerly Pygmalion Point), located?",
     "options": [
-      { "text": "Kanyakumari (Cape Comorin)", "isCorrect": false, "rationale": "Kanyakumari is the southernmost point of the Indian mainland, not the entire Indian territory." },
-      { "text": "Great Nicobar Island", "isCorrect": true, "rationale": "Indira Point is located on the Great Nicobar Island, which is the southernmost island of the Nicobar chain." },
-      { "text": "Car Nicobar Island", "isCorrect": false, "rationale": "Car Nicobar is the northernmost of the Nicobar Islands, far north of Indira Point." },
-      { "text": "South Andaman Island", "isCorrect": false, "rationale": "Port Blair is on South Andaman, but Indira Point is much further south in the Nicobar group." }
+      {
+        "text": "Kanyakumari (Cape Comorin)",
+        "isCorrect": false,
+        "rationale": "Kanyakumari is the southernmost point of the Indian mainland, not the entire Indian territory."
+      },
+      {
+        "text": "Great Nicobar Island",
+        "isCorrect": true,
+        "rationale": "Indira Point is located on the Great Nicobar Island, which is the southernmost island of the Nicobar chain."
+      },
+      {
+        "text": "Car Nicobar Island",
+        "isCorrect": false,
+        "rationale": "Car Nicobar is the northernmost of the Nicobar Islands, far north of Indira Point."
+      },
+      {
+        "text": "South Andaman Island",
+        "isCorrect": false,
+        "rationale": "Port Blair is on South Andaman, but Indira Point is much further south in the Nicobar group."
+      }
     ],
     "hint": "It is located on the largest and southernmost island of the Nicobar archipelago."
   },
   {
     "question": "What is the name of the channel that serves as the international maritime boundary between India's Great Nicobar Island and the Sumatra island of Indonesia?",
     "options": [
-      { "text": "The Six Degree Channel (Great Channel)", "isCorrect": true, "rationale": "The Six Degree Channel, also known as the Great Channel, separates India's Great Nicobar Island from the Sumatra island of Indonesia." },
-      { "text": "The Eight Degree Channel", "isCorrect": false, "rationale": "The Eight Degree Channel separates the Indian island of Minicoy from the Maldives." },
-      { "text": "The Malacca Strait", "isCorrect": false, "rationale": "The Malacca Strait is further east, between the Malay Peninsula and Sumatra." },
-      { "text": "The Coco Channel", "isCorrect": false, "rationale": "The Coco Channel separates India's Landfall Island (Andamans) from Myanmar's Coco Islands." }
+      {
+        "text": "The Six Degree Channel (Great Channel)",
+        "isCorrect": true,
+        "rationale": "The Six Degree Channel, also known as the Great Channel, separates India's Great Nicobar Island from the Sumatra island of Indonesia."
+      },
+      {
+        "text": "The Eight Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Eight Degree Channel separates the Indian island of Minicoy from the Maldives."
+      },
+      {
+        "text": "The Malacca Strait",
+        "isCorrect": false,
+        "rationale": "The Malacca Strait is further east, between the Malay Peninsula and Sumatra."
+      },
+      {
+        "text": "The Coco Channel",
+        "isCorrect": false,
+        "rationale": "The Coco Channel separates India's Landfall Island (Andamans) from Myanmar's Coco Islands."
+      }
     ],
     "hint": "This channel is also referred to as the 'Great Channel' and lies close to the 6th parallel north."
   },
   {
     "question": "Which bay, located at the southern tip of Great Nicobar Island, was declared a National Park and is famous as a nesting ground for Giant Leatherback Turtles?",
     "options": [
-      { "text": "Galathea Bay", "isCorrect": true, "rationale": "Galathea Bay is a prominent bay in Great Nicobar. It was declared a National Park and is one of the world's most important nesting sites for giant leatherback turtles." },
-      { "text": "Campbell Bay", "isCorrect": false, "rationale": "Campbell Bay is another bay on Great Nicobar (housing a national park and port), but Galathea is the primary nesting ground on the southern tip." },
-      { "text": "Nancowry Harbour", "isCorrect": false, "rationale": "Nancowry is in the central Nicobars, not the southern tip of Great Nicobar." },
-      { "text": "Radhanagar Beach", "isCorrect": false, "rationale": "Radhanagar Beach is on Havelock Island (Swaraj Dweep) in the Andaman group, famous for tourism." }
+      {
+        "text": "Galathea Bay",
+        "isCorrect": true,
+        "rationale": "Galathea Bay is a prominent bay in Great Nicobar. It was declared a National Park and is one of the world's most important nesting sites for giant leatherback turtles."
+      },
+      {
+        "text": "Campbell Bay",
+        "isCorrect": false,
+        "rationale": "Campbell Bay is another bay on Great Nicobar (housing a national park and port), but Galathea is the primary nesting ground on the southern tip."
+      },
+      {
+        "text": "Nancowry Harbour",
+        "isCorrect": false,
+        "rationale": "Nancowry is in the central Nicobars, not the southern tip of Great Nicobar."
+      },
+      {
+        "text": "Radhanagar Beach",
+        "isCorrect": false,
+        "rationale": "Radhanagar Beach is on Havelock Island (Swaraj Dweep) in the Andaman group, famous for tourism."
+      }
     ],
     "hint": "This bay shares its name with the river that drains into it in the southern part of the island."
   },
   {
     "question": "How did the 2004 Indian Ocean earthquake and tsunami impact the physical geography of the Nicobar Islands?",
     "options": [
-      { "text": "It caused the southern coastline of the islands to subside (sink), submerging parts of the land.", "isCorrect": true, "rationale": "The tectonic shift caused land subsidence in the southern Nicobars. The area around the Indira Point lighthouse sank by over 4 meters, leaving the lighthouse surrounded by water." },
-      { "text": "It created a new land bridge between Great Nicobar and Little Nicobar.", "isCorrect": false, "rationale": "No land bridge was created; in fact, land was lost due to submergence." },
-      { "text": "It completely silted up and closed the Six Degree Channel.", "isCorrect": false, "rationale": "The channel remains a deep, open, and major international shipping lane." },
-      { "text": "It triggered volcanic eruptions that doubled the height of Mount Thullier.", "isCorrect": false, "rationale": "While Barren Island has an active volcano, the 2004 earthquake did not cause volcanic growth on Mount Thullier (the highest point in Great Nicobar)." }
+      {
+        "text": "It caused the southern coastline of the islands to subside (sink), submerging parts of the land.",
+        "isCorrect": true,
+        "rationale": "The tectonic shift caused land subsidence in the southern Nicobars. The area around the Indira Point lighthouse sank by over 4 meters, leaving the lighthouse surrounded by water."
+      },
+      {
+        "text": "It created a new land bridge between Great Nicobar and Little Nicobar.",
+        "isCorrect": false,
+        "rationale": "No land bridge was created; in fact, land was lost due to submergence."
+      },
+      {
+        "text": "It completely silted up and closed the Six Degree Channel.",
+        "isCorrect": false,
+        "rationale": "The channel remains a deep, open, and major international shipping lane."
+      },
+      {
+        "text": "It triggered volcanic eruptions that doubled the height of Mount Thullier.",
+        "isCorrect": false,
+        "rationale": "While Barren Island has an active volcano, the 2004 earthquake did not cause volcanic growth on Mount Thullier (the highest point in Great Nicobar)."
+      }
     ],
     "hint": "Consider the vertical displacement of tectonic plates and how it affected sea levels relative to the coast."
+  },
+  {
+    "question": "What is the total geographical area of India?",
+    "options": [
+      {
+        "text": "4.51 million sq. km",
+        "isCorrect": false,
+        "rationale": "This figure exceeds India's total land territory."
+      },
+      {
+        "text": "3.58 million sq. km",
+        "isCorrect": false,
+        "rationale": "This is an inaccurate figure for India's total geographical expanse."
+      },
+      {
+        "text": "2.4 million sq. km",
+        "isCorrect": false,
+        "rationale": "2.4% is India's percentage share of the world's total land area, not its total area in million sq. km."
+      },
+      {
+        "text": "3.28 million sq. km",
+        "isCorrect": true,
+        "rationale": "India's total geographical area is 3,287,263 sq. km (approx. 3.28 million sq. km), which accounts for 2.4% of the total land area of the world."
+      }
+    ],
+    "hint": "The area is approximately 32.87 lakh square kilometers."
+  },
+  {
+    "question": "India is the ______ largest country in the world by area.",
+    "options": [
+      {
+        "text": "8th",
+        "isCorrect": false,
+        "rationale": "Argentina is the 8th largest country, right after India."
+      },
+      {
+        "text": "5th",
+        "isCorrect": false,
+        "rationale": "Brazil is the 5th largest country in the world by area."
+      },
+      {
+        "text": "6th",
+        "isCorrect": false,
+        "rationale": "Australia is the 6th largest country in the world by area."
+      },
+      {
+        "text": "7th",
+        "isCorrect": true,
+        "rationale": "India is the 7th largest country by geographical area after Russia, Canada, USA, China, Brazil, and Australia."
+      }
+    ],
+    "hint": "India comes right after Australia in terms of global land area ranking."
+  },
+  {
+    "question": "Which of the following lines divides India into nearly two equal parts?",
+    "options": [
+      {
+        "text": "Equator (0°)",
+        "isCorrect": false,
+        "rationale": "The Equator lies south of India's mainland (Kanyakumari is at 8°4' N)."
+      },
+      {
+        "text": "Tropic of Cancer (23°30' N)",
+        "isCorrect": true,
+        "rationale": "The Tropic of Cancer at 23°30' N latitude passes through the middle of India, dividing the country into almost two equal northern and southern thermal zones."
+      },
+      {
+        "text": "Tropic of Capricorn (23°30' S)",
+        "isCorrect": false,
+        "rationale": "The Tropic of Capricorn lies in the Southern Hemisphere."
+      },
+      {
+        "text": "Arctic Circle (66°30' N)",
+        "isCorrect": false,
+        "rationale": "The Arctic Circle is located far north in the polar region."
+      }
+    ],
+    "hint": "This line of latitude passes at 23°30' North."
+  },
+  {
+    "question": "What is the north-to-south distance of India from Kashmir to Kanyakumari?",
+    "options": [
+      {
+        "text": "3,500 km",
+        "isCorrect": false,
+        "rationale": "This overstates India's north-to-south mainland distance."
+      },
+      {
+        "text": "2,933 km",
+        "isCorrect": false,
+        "rationale": "2,933 km is the east-to-west distance of India from Rann of Kutch (Gujarat) to Kibithu (Arunachal Pradesh)."
+      },
+      {
+        "text": "3,214 km",
+        "isCorrect": true,
+        "rationale": "The distance between the northernmost point (Indira Col) and southernmost mainland point (Kanyakumari) is 3,214 km."
+      },
+      {
+        "text": "2,800 km",
+        "isCorrect": false,
+        "rationale": "This understates the vertical expanse of the Indian subcontinent."
+      }
+    ],
+    "hint": "The north-south extent is greater than the east-west extent by about 281 km."
+  },
+  {
+    "question": "The Standard Meridian of India (82°30'E) passes through which of these cities?",
+    "options": [
+      {
+        "text": "Mirzapur (near Prayagraj, UP)",
+        "isCorrect": true,
+        "rationale": "India's Standard Meridian (82°30' E) passes through Mirzapur in Uttar Pradesh and is 5 hours and 30 minutes ahead of GMT."
+      },
+      {
+        "text": "Kolkata",
+        "isCorrect": false,
+        "rationale": "Kolkata is located at approximately 88°22' E longitude."
+      },
+      {
+        "text": "Patna",
+        "isCorrect": false,
+        "rationale": "Patna is located at approximately 85°08' E longitude."
+      },
+      {
+        "text": "Delhi",
+        "isCorrect": false,
+        "rationale": "Delhi is located at approximately 77°10' E longitude."
+      }
+    ],
+    "hint": "This city in Uttar Pradesh serves as the reference point for Indian Standard Time (IST)."
+  },
+  {
+    "question": "How many states in India does the Tropic of Cancer pass through?",
+    "options": [
+      {
+        "text": "9 States",
+        "isCorrect": false,
+        "rationale": "9 overcounts the number of traversed states."
+      },
+      {
+        "text": "6 States",
+        "isCorrect": false,
+        "rationale": "6 is fewer than the actual number of states traversed."
+      },
+      {
+        "text": "7 States",
+        "isCorrect": false,
+        "rationale": "7 excludes one of the northeastern or central states in the path."
+      },
+      {
+        "text": "8 States",
+        "isCorrect": true,
+        "rationale": "The Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram."
+      }
+    ],
+    "hint": "The states span from Gujarat in the west to Mizoram in the east."
+  },
+  {
+    "question": "The southernmost point of the Indian Union is:",
+    "options": [
+      {
+        "text": "Port Blair",
+        "isCorrect": false,
+        "rationale": "Port Blair is the capital city of Andaman & Nicobar Islands, located on South Andaman."
+      },
+      {
+        "text": "Kanyakumari",
+        "isCorrect": false,
+        "rationale": "Kanyakumari (Cape Comorin) is the southernmost point of the Indian mainland, not the whole Union."
+      },
+      {
+        "text": "Indira Point (Pygmalion Point)",
+        "isCorrect": true,
+        "rationale": "Indira Point (located at 6°45' N latitude on Great Nicobar Island) is the southernmost point of the entire Indian Union."
+      },
+      {
+        "text": "Indira Col",
+        "isCorrect": false,
+        "rationale": "Indira Col is the northernmost point of India located in the Karakoram range."
+      }
+    ],
+    "hint": "This point is located on Great Nicobar Island, not on the mainland."
+  },
+  {
+    "question": "India shares its longest land boundary with which country?",
+    "options": [
+      {
+        "text": "Nepal",
+        "isCorrect": false,
+        "rationale": "Nepal shares a land border of 1,751 km with India."
+      },
+      {
+        "text": "Bangladesh",
+        "isCorrect": true,
+        "rationale": "India shares its longest international land border with Bangladesh, stretching over 4,096.7 km."
+      },
+      {
+        "text": "China",
+        "isCorrect": false,
+        "rationale": "China shares the second longest border with India (~3,488 km)."
+      },
+      {
+        "text": "Pakistan",
+        "isCorrect": false,
+        "rationale": "Pakistan shares the third longest land border with India (~3,323 km)."
+      }
+    ],
+    "hint": "This neighboring country borders West Bengal, Assam, Meghalaya, Tripura, and Mizoram."
+  },
+  {
+    "question": "What is the total length of the land frontier of India?",
+    "options": [
+      {
+        "text": "15,200 km",
+        "isCorrect": true,
+        "rationale": "India has a land boundary of about 15,200 km bordering 7 countries."
+      },
+      {
+        "text": "12,000 km",
+        "isCorrect": false,
+        "rationale": "This is an incorrect estimate of the land border."
+      },
+      {
+        "text": "6,100 km",
+        "isCorrect": false,
+        "rationale": "6,100 km is the length of the mainland coastline of India."
+      },
+      {
+        "text": "7,516.6 km",
+        "isCorrect": false,
+        "rationale": "7,516.6 km is the total coastline length of India including mainland and island territories."
+      }
+    ],
+    "hint": "This total land boundary stretches across northern, western, and eastern borders."
+  },
+  {
+    "question": "What is the total length of the coastline of the mainland including Andaman & Nicobar and Lakshadweep?",
+    "options": [
+      {
+        "text": "9,000 km",
+        "isCorrect": false,
+        "rationale": "This is an inaccurate figure for the total coastline."
+      },
+      {
+        "text": "6,100 km",
+        "isCorrect": false,
+        "rationale": "6,100 km represents only the mainland coastline excluding islands."
+      },
+      {
+        "text": "7,516.6 km",
+        "isCorrect": true,
+        "rationale": "The total length of India's coastline including the island territories of Andaman & Nicobar and Lakshadweep is 7,516.6 km."
+      },
+      {
+        "text": "15,200 km",
+        "isCorrect": false,
+        "rationale": "15,200 km is the land frontier length of India."
+      }
+    ],
+    "hint": "Including all island chains adds over 1,400 km to the mainland coastline."
+  },
+  {
+    "question": "Which Indian state has the longest coastline?",
+    "options": [
+      {
+        "text": "Tamil Nadu",
+        "isCorrect": false,
+        "rationale": "Tamil Nadu has the third longest coastline (~906.9 km)."
+      },
+      {
+        "text": "Gujarat",
+        "isCorrect": true,
+        "rationale": "Gujarat has the longest coastline among all Indian states, spanning approximately 1,214 km along the Kathiawar peninsula."
+      },
+      {
+        "text": "Andhra Pradesh",
+        "isCorrect": false,
+        "rationale": "Andhra Pradesh has the second longest coastline (~974 km) among Indian states."
+      },
+      {
+        "text": "Maharashtra",
+        "isCorrect": false,
+        "rationale": "Maharashtra has a coastline of ~720 km."
+      }
+    ],
+    "hint": "This western state features the Gulf of Kutch and Gulf of Khambhat."
+  },
+  {
+    "question": "The 'Radcliffe Line' is the international boundary between India and:",
+    "options": [
+      {
+        "text": "Pakistan & Bangladesh",
+        "isCorrect": true,
+        "rationale": "The Radcliffe Line was drawn by Sir Cyril Radcliffe during the 1947 partition to demarcate the borders between India and Pakistan (and East Pakistan, now Bangladesh)."
+      },
+      {
+        "text": "Afghanistan",
+        "isCorrect": false,
+        "rationale": "The Durand Line demarcates the boundary between Afghanistan and British India (now Pak-Afg border)."
+      },
+      {
+        "text": "China",
+        "isCorrect": false,
+        "rationale": "The border between India and China is demarcated by the McMahon Line and LAC."
+      },
+      {
+        "text": "Sri Lanka",
+        "isCorrect": false,
+        "rationale": "India and Sri Lanka are separated by maritime boundaries in the Palk Strait."
+      }
+    ],
+    "hint": "It was drawn in 1947 by the Boundary Commission chaired by Sir Cyril Radcliffe."
+  },
+  {
+    "question": "The 'Durand Line' demarcates the border between:",
+    "options": [
+      {
+        "text": "India and China",
+        "isCorrect": false,
+        "rationale": "The border with China is the McMahon Line / Line of Actual Control."
+      },
+      {
+        "text": "India and Myanmar",
+        "isCorrect": false,
+        "rationale": "The border with Myanmar is defined by the Indo-Burma barrier."
+      },
+      {
+        "text": "India and Nepal",
+        "isCorrect": false,
+        "rationale": "The border with Nepal is demarcated by the Kali River and treaties."
+      },
+      {
+        "text": "India (PoK) and Afghanistan",
+        "isCorrect": true,
+        "rationale": "The Durand Line was established in 1893 between Sir Mortimer Durand and Afghan Amir Abdur Rahman Khan, demarcating the border between British India (now PoK/Pakistan) and Afghanistan."
+      }
+    ],
+    "hint": "This 1893 line touches the small 106 km border segment in Wakhan corridor region."
+  },
+  {
+    "question": "The 'McMahon Line' is the boundary line between India and China in which sector?",
+    "options": [
+      {
+        "text": "Eastern Sector (Arunachal Pradesh)",
+        "isCorrect": true,
+        "rationale": "The McMahon Line was drawn during the 1914 Simla Convention by Sir Henry McMahon, serving as the effective boundary in the Eastern Sector (Arunachal Pradesh)."
+      },
+      {
+        "text": "Southern Sector",
+        "isCorrect": false,
+        "rationale": "There is no southern sector border between India and China."
+      },
+      {
+        "text": "Western Sector (Ladakh)",
+        "isCorrect": false,
+        "rationale": "The Western Sector boundary is defined by the Line of Actual Control (LAC) in Aksai Chin."
+      },
+      {
+        "text": "Middle Sector (Uttarakhand/Himachal)",
+        "isCorrect": false,
+        "rationale": "The Middle Sector follows watershed ridges in Uttarakhand and Himachal Pradesh."
+      }
+    ],
+    "hint": "This boundary line was negotiated during the Simla Convention of 1914 for the northeastern border."
+  },
+  {
+    "question": "Which body of water separates India from Sri Lanka?",
+    "options": [
+      {
+        "text": "English Channel",
+        "isCorrect": false,
+        "rationale": "The English Channel separates Southern England from Northern France."
+      },
+      {
+        "text": "Eight Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Eight Degree Channel separates Minicoy Island from Maldives."
+      },
+      {
+        "text": "Ten Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Ten Degree Channel separates Andaman Islands from Nicobar Islands."
+      },
+      {
+        "text": "Palk Strait and Gulf of Mannar",
+        "isCorrect": true,
+        "rationale": "India (Tamil Nadu) and Sri Lanka are separated by a narrow channel of sea formed by Palk Strait and the Gulf of Mannar."
+      }
+    ],
+    "hint": "This shallow strait is named after Robert Palk, Governor of Madras Presidency."
+  },
+  {
+    "question": "Which channel separates the Andaman Islands from the Nicobar Islands?",
+    "options": [
+      {
+        "text": "Nine Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Nine Degree Channel separates Minicoy Island from the main Lakshadweep group."
+      },
+      {
+        "text": "Ten Degree Channel",
+        "isCorrect": true,
+        "rationale": "The Ten Degree Channel lies on the 10° N latitude parallel, separating the Little Andaman island to the north from Car Nicobar island to the south."
+      },
+      {
+        "text": "Eight Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Eight Degree Channel separates Minicoy from Maldives."
+      },
+      {
+        "text": "Six Degree Channel",
+        "isCorrect": false,
+        "rationale": "The Six Degree Channel separates Great Nicobar from Sumatra (Indonesia)."
+      }
+    ],
+    "hint": "This channel lies along the 10th parallel north."
+  },
+  {
+    "question": "The Eight Degree Channel (8° N) forms the maritime boundary between:",
+    "options": [
+      {
+        "text": "Minicoy and main Lakshadweep islands",
+        "isCorrect": false,
+        "rationale": "Separated by the Nine Degree Channel."
+      },
+      {
+        "text": "Minicoy Island (India) and the Maldives",
+        "isCorrect": true,
+        "rationale": "The Eight Degree Channel separates India's southernmost Lakshadweep island (Minicoy) from the island nation of Maldives."
+      },
+      {
+        "text": "Great Nicobar and Sumatra",
+        "isCorrect": false,
+        "rationale": "Separated by the Six Degree Channel / Great Channel."
+      },
+      {
+        "text": "Andaman and Nicobar Islands",
+        "isCorrect": false,
+        "rationale": "Separated by the Ten Degree Channel."
+      }
+    ],
+    "hint": "It separates an Indian union territory island from an island country located further south."
+  },
+  {
+    "question": "The Nine Degree Channel (9° N) separates:",
+    "options": [
+      {
+        "text": "India from Sri Lanka",
+        "isCorrect": false,
+        "rationale": "Separated by the Palk Strait."
+      },
+      {
+        "text": "Maldives from Minicoy",
+        "isCorrect": false,
+        "rationale": "Separated by the Eight Degree Channel."
+      },
+      {
+        "text": "Andaman from Nicobar",
+        "isCorrect": false,
+        "rationale": "Separated by the Ten Degree Channel."
+      },
+      {
+        "text": "Minicoy Island from the main Lakshadweep archipelago",
+        "isCorrect": true,
+        "rationale": "The Nine Degree Channel separates Minicoy Island from the main group of Lakshadweep islands (Kalpeni, Suheli Par, etc.)."
+      }
+    ],
+    "hint": "It separates the isolated southern island of Lakshadweep from the central group."
+  },
+  {
+    "question": "Which is the oldest fold mountain range in India (and one of the oldest in the world)?",
+    "options": [
+      {
+        "text": "Western Ghats",
+        "isCorrect": false,
+        "rationale": "The Western Ghats are faulted block edges of the Peninsular plateau, formed during the breakup of Gondwanaland."
+      },
+      {
+        "text": "Vindhya Range",
+        "isCorrect": false,
+        "rationale": "The Vindhyas are block mountains of sedimentary rocks, younger than the Aravallis."
+      },
+      {
+        "text": "Himalayas",
+        "isCorrect": false,
+        "rationale": "The Himalayas are young fold mountains formed during the Tertiary geological period."
+      },
+      {
+        "text": "Aravalli Range",
+        "isCorrect": true,
+        "rationale": "The Aravalli Range is a relict/eroded residual fold mountain range originating in the Proterozoic era, making it the oldest mountain range in India."
+      }
+    ],
+    "hint": "This eroded mountain belt extends southwest-northeast across Rajasthan."
+  },
+  {
+    "question": "Which is the highest mountain peak in Peninsular India (and South India)?",
+    "options": [
+      {
+        "text": "Mahendragiri (1,501 m)",
+        "isCorrect": false,
+        "rationale": "Mahendragiri is a prominent peak in the Eastern Ghats in Odisha."
+      },
+      {
+        "text": "Guru Shikhar (1,722 m)",
+        "isCorrect": false,
+        "rationale": "Guru Shikhar is the highest peak of the Aravalli Range in Rajasthan."
+      },
+      {
+        "text": "Anamudi (2,695 m)",
+        "isCorrect": true,
+        "rationale": "Anamudi (2,695 m), located in the Anaimalai Hills of Kerala, is the highest peak in Peninsular India and South India."
+      },
+      {
+        "text": "Doddabetta (2,637 m)",
+        "isCorrect": false,
+        "rationale": "Doddabetta is the second highest peak in Peninsular India, located in the Nilgiri Hills."
+      }
+    ],
+    "hint": "Located in the Anaimalai Hills of Kerala, its name translates to 'Elephant's Head'."
+  },
+  {
+    "question": "Which peak is the highest point in the Western Ghats?",
+    "options": [
+      {
+        "text": "Doddabetta",
+        "isCorrect": false,
+        "rationale": "Doddabetta (2,637 m) is in the Nilgiris, slightly lower than Anamudi."
+      },
+      {
+        "text": "Anamudi",
+        "isCorrect": true,
+        "rationale": "Anamudi (2,695 m) in the Anaimalai Hills is the highest peak of the Western Ghats range."
+      },
+      {
+        "text": "Mullayanagiri",
+        "isCorrect": false,
+        "rationale": "Mullayanagiri (1,930 m) is the highest peak in Karnataka."
+      },
+      {
+        "text": "Kalsubai",
+        "isCorrect": false,
+        "rationale": "Kalsubai (1,646 m) is the highest peak in Maharashtra (Northern Western Ghats)."
+      }
+    ],
+    "hint": "It is situated at the tri-junction of the Anaimalai, Palani, and Cardamom Hills."
+  },
+  {
+    "question": "Which is the highest peak in the Eastern Ghats?",
+    "options": [
+      {
+        "text": "Anamudi",
+        "isCorrect": false,
+        "rationale": "Anamudi is in the Western Ghats."
+      },
+      {
+        "text": "Kalsubai",
+        "isCorrect": false,
+        "rationale": "Kalsubai is in the Western Ghats."
+      },
+      {
+        "text": "Doddabetta",
+        "isCorrect": false,
+        "rationale": "Doddabetta is in the Nilgiris / Western Ghats."
+      },
+      {
+        "text": "Jindhagada Peak / Arma Konda (1,680 m)",
+        "isCorrect": true,
+        "rationale": "Jindhagada Peak (also known as Arma Konda, 1,680 m) located in Andhra Pradesh is the highest peak in the Eastern Ghats, followed by Mahendragiri (1,501 m)."
+      }
+    ],
+    "hint": "Located in the Araku Valley region of Andhra Pradesh."
+  },
+  {
+    "question": "The Eastern Ghats and the Western Ghats meet at which mountain knot?",
+    "options": [
+      {
+        "text": "Nilgiri Hills",
+        "isCorrect": true,
+        "rationale": "The Eastern Ghats and Western Ghats converge at the Nilgiri Hills (Blue Mountains) on the border of Tamil Nadu, Kerala, and Karnataka."
+      },
+      {
+        "text": "Cardamom Hills",
+        "isCorrect": false,
+        "rationale": "The Cardamom Hills form the southernmost section of the Western Ghats."
+      },
+      {
+        "text": "Palani Hills",
+        "isCorrect": false,
+        "rationale": "The Palani Hills branch off eastward from the Anaimalai massif."
+      },
+      {
+        "text": "Anaimalai Hills",
+        "isCorrect": false,
+        "rationale": "The Anaimalai Hills lie south of the Palghat Gap."
+      }
+    ],
+    "hint": "These 'Blue Mountains' form the mountain knot where the two coastal mountain chains converge."
+  },
+  {
+    "question": "Which plateau lies between the Aravalli Range and the Vindhya Range?",
+    "options": [
+      {
+        "text": "Chota Nagpur Plateau",
+        "isCorrect": false,
+        "rationale": "The Chota Nagpur Plateau lies further east in Jharkhand, Odisha, and West Bengal."
+      },
+      {
+        "text": "Deccan Plateau",
+        "isCorrect": false,
+        "rationale": "The Deccan Plateau lies south of the Narmada River and Satpura Range."
+      },
+      {
+        "text": "Shillong Plateau",
+        "isCorrect": false,
+        "rationale": "The Shillong (Meghalaya) Plateau is located in northeastern India."
+      },
+      {
+        "text": "Malwa Plateau",
+        "isCorrect": true,
+        "rationale": "The Malwa Plateau lies in central India, bounded by the Aravalli Range in the northwest and the Vindhya Range in the south."
+      }
+    ],
+    "hint": "This central plateau drains into the Yamuna via rivers like Chambal, Kali Sindh, and Betwa."
+  },
+  {
+    "question": "Which is the largest physiographic division of India?",
+    "options": [
+      {
+        "text": "The Coastal Plains",
+        "isCorrect": false,
+        "rationale": "The coastal plains form narrow coastal strips along the east and west coasts."
+      },
+      {
+        "text": "The Northern Plains",
+        "isCorrect": false,
+        "rationale": "The Northern Plains cover an area of about 7.5 lakh sq. km."
+      },
+      {
+        "text": "The Himalayan Mountains",
+        "isCorrect": false,
+        "rationale": "The Himalayan mountain system covers about 5 lakh sq. km."
+      },
+      {
+        "text": "The Peninsular Plateau",
+        "isCorrect": true,
+        "rationale": "The Peninsular Plateau is the largest physiographic division of India, covering an area of about 16 lakh sq. km (nearly half of India's territory)."
+      }
+    ],
+    "hint": "This ancient crystalline landmass covers nearly 16 lakh square kilometers."
+  },
+  {
+    "question": "The northernmost mountain range of the Himalayas in India is the:",
+    "options": [
+      {
+        "text": "Karakoram / Trans-Himalayan Range",
+        "isCorrect": true,
+        "rationale": "The Karakoram Range lies in the Trans-Himalayas, forming the northernmost mountain wall of India (containing K2 / Godwin-Austen)."
+      },
+      {
+        "text": "Shiwalik Range",
+        "isCorrect": false,
+        "rationale": "The Shiwalik Range forms the southernmost outer foothills of the Himalayas."
+      },
+      {
+        "text": "Himachal (Lesser Himalayas)",
+        "isCorrect": false,
+        "rationale": "The Himachal lies between the Himadri and the Shiwaliks."
+      },
+      {
+        "text": "Himadri (Great Himalayas)",
+        "isCorrect": false,
+        "rationale": "The Himadri forms the continuous northern main spine of the Himalayas, south of the Trans-Himalayas."
+      }
+    ],
+    "hint": "This Trans-Himalayan range houses K2 and the Siachen Glacier."
+  },
+  {
+    "question": "Which is the highest mountain peak of the Himalayas located within India?",
+    "options": [
+      {
+        "text": "Kanchenjunga (8,586 m)",
+        "isCorrect": true,
+        "rationale": "Kanchenjunga (8,586 m) in Sikkim on the India-Nepal border is the highest peak of the Himalayas within indisputable Indian territory (K2 at 8,611 m is in PoK)."
+      },
+      {
+        "text": "Nanda Devi",
+        "isCorrect": false,
+        "rationale": "Nanda Devi (7,816 m) is the 2nd highest peak in India, located in Uttarakhand."
+      },
+      {
+        "text": "Mount Everest",
+        "isCorrect": false,
+        "rationale": "Mount Everest (8,848.86 m) is located entirely in Nepal/Tibet."
+      },
+      {
+        "text": "Kamet",
+        "isCorrect": false,
+        "rationale": "Kamet (7,756 m) is the 3rd highest peak in India, located in Uttarakhand."
+      }
+    ],
+    "hint": "Located in Sikkim on the border with Nepal, it is the 3rd highest peak in the world."
+  },
+  {
+    "question": "Which peak marks the easternmost boundary marker of the Great Himalayas?",
+    "options": [
+      {
+        "text": "Namcha Barwa (7,782 m)",
+        "isCorrect": true,
+        "rationale": "Namcha Barwa (7,782 m) marks the sharp eastern hairpin bend (syntaxial bend) where the Brahmaputra River cuts through into Arunachal Pradesh."
+      },
+      {
+        "text": "Kanchenjunga",
+        "isCorrect": false,
+        "rationale": "Kanchenjunga lies in Sikkim in the central-eastern Himalayas."
+      },
+      {
+        "text": "Annapurna",
+        "isCorrect": false,
+        "rationale": "Annapurna lies in central Nepal."
+      },
+      {
+        "text": "Nanga Parbat",
+        "isCorrect": false,
+        "rationale": "Nanga Parbat (8,126 m) marks the westernmost anchor of the Himalayas in Gilgit-Baltistan."
+      }
+    ],
+    "hint": "The Tsangpo / Brahmaputra River takes a sharp 180° turn around this peak."
+  },
+  {
+    "question": "Which high-altitude mountain pass connects Srinagar to Leh?",
+    "options": [
+      {
+        "text": "Zoji La",
+        "isCorrect": true,
+        "rationale": "Zoji La pass (approx. 3,528 m) on NH-1 connects the Kashmir Valley (Srinagar) with the Ladakh region (Kargil and Leh)."
+      },
+      {
+        "text": "Nathu La",
+        "isCorrect": false,
+        "rationale": "Nathu La connects Sikkim with Tibet."
+      },
+      {
+        "text": "Bara Lacha La",
+        "isCorrect": false,
+        "rationale": "Bara Lacha La connects Lahaul in Himachal Pradesh with Leh."
+      },
+      {
+        "text": "Shipki La",
+        "isCorrect": false,
+        "rationale": "Shipki La connects Himachal Pradesh (Kinnaur) with Tibet."
+      }
+    ],
+    "hint": "Located on National Highway 1, it crosses the Zaskar Range."
+  },
+  {
+    "question": "Which pass connects Himachal Pradesh with Tibet and is the entry point of the Sutlej River into India?",
+    "options": [
+      {
+        "text": "Jelep La",
+        "isCorrect": false,
+        "rationale": "Jelep La connects Sikkim with Lhasa, Tibet."
+      },
+      {
+        "text": "Shipki La",
+        "isCorrect": true,
+        "rationale": "Shipki La is a mountain pass on the India-China border in Kinnaur district, Himachal Pradesh, through which the Sutlej River enters India."
+      },
+      {
+        "text": "Lipulekh Pass",
+        "isCorrect": false,
+        "rationale": "Lipulekh Pass connects Uttarakhand with Tibet (Kailash Mansarovar route)."
+      },
+      {
+        "text": "Rohtang Pass",
+        "isCorrect": false,
+        "rationale": "Rohtang Pass connects Kullu Valley with Lahaul & Spiti in Himachal Pradesh."
+      }
+    ],
+    "hint": "Located in Kinnaur district of Himachal Pradesh."
+  },
+  {
+    "question": "In which Indian state is the famous 'Nathu La' mountain pass located?",
+    "options": [
+      {
+        "text": "Sikkim",
+        "isCorrect": true,
+        "rationale": "Nathu La is an important Himalayan pass located in the East Sikkim district on the border between India and China's Tibet Autonomous Region."
+      },
+      {
+        "text": "Arunachal Pradesh",
+        "isCorrect": false,
+        "rationale": "Arunachal Pradesh has passes like Bomdi La, Dihang, and Diphu."
+      },
+      {
+        "text": "Uttarakhand",
+        "isCorrect": false,
+        "rationale": "Uttarakhand has passes like Mana, Niti, and Lipulekh."
+      },
+      {
+        "text": "Himachal Pradesh",
+        "isCorrect": false,
+        "rationale": "Himachal Pradesh has passes like Shipki La and Rohtang."
+      }
+    ],
+    "hint": "This pass was a branch of the ancient Silk Route reopened for border trade in 2006."
+  },
+  {
+    "question": "'Majuli', the world's largest inhabited riverine island, is formed by which river?",
+    "options": [
+      {
+        "text": "Indus River",
+        "isCorrect": false,
+        "rationale": "The Indus flows through Ladakh and Pakistan without forming Majuli."
+      },
+      {
+        "text": "Godavari River",
+        "isCorrect": false,
+        "rationale": "Godavari forms delta islands like Hope Island near Kakinada."
+      },
+      {
+        "text": "Brahmaputra River",
+        "isCorrect": true,
+        "rationale": "Majuli is a large riverine island formed by the Brahmaputra River system in Assam and was declared the first river island district in India."
+      },
+      {
+        "text": "Ganga River",
+        "isCorrect": false,
+        "rationale": "The Ganga forms deltaic islands like Sagar Island, but not Majuli."
+      }
+    ],
+    "hint": "This island is a hub of Neo-Vaishnavite culture in Assam."
+  },
+  {
+    "question": "Which Peninsular river is often called 'Dakshin Ganga' (or Vridha Ganga) due to its large size and expanse?",
+    "options": [
+      {
+        "text": "Narmada River",
+        "isCorrect": false,
+        "rationale": "Narmada is the largest west-flowing river of Peninsular India."
+      },
+      {
+        "text": "Krishna River",
+        "isCorrect": false,
+        "rationale": "Krishna is the second longest river in Peninsular India."
+      },
+      {
+        "text": "Godavari River",
+        "isCorrect": true,
+        "rationale": "The Godavari is the longest river in Peninsular India (1,465 km) and is referred to as 'Dakshin Ganga' or 'Vridha Ganga' (Old Ganga)."
+      },
+      {
+        "text": "Kaveri River",
+        "isCorrect": false,
+        "rationale": "Kaveri is sometimes called 'Ganga of the South' due to its sacredness, but Godavari is 'Dakshin Ganga' due to length and basin size."
+      }
+    ],
+    "hint": "Originating from Trimbakeshwar in Nashik, it is the longest peninsular river."
+  },
+  {
+    "question": "Which of the following major peninsular rivers flows WESTWARD into the Arabian Sea through a rift valley?",
+    "options": [
+      {
+        "text": "Narmada River",
+        "isCorrect": true,
+        "rationale": "Narmada (and Tapti) flows westwards through a linear rift valley formed by faulting between the Vindhya and Satpura ranges, draining into the Gulf of Khambhat."
+      },
+      {
+        "text": "Mahanadi River",
+        "isCorrect": false,
+        "rationale": "Mahanadi flows eastward into the Bay of Bengal."
+      },
+      {
+        "text": "Godavari River",
+        "isCorrect": false,
+        "rationale": "Godavari flows eastward into the Bay of Bengal."
+      },
+      {
+        "text": "Krishna River",
+        "isCorrect": false,
+        "rationale": "Krishna flows eastward into the Bay of Bengal."
+      }
+    ],
+    "hint": "This river flows in a rift valley between the Vindhya and Satpura ranges."
+  },
+  {
+    "question": "The famous 'Marble Rocks' gorge and Dhuandhar Waterfalls near Jabalpur are formed by which river?",
+    "options": [
+      {
+        "text": "Narmada River",
+        "isCorrect": true,
+        "rationale": "The Narmada River creates the spectacular Marble Rocks gorge and drops into the Dhuandhar Falls at Bhedaghat near Jabalpur, Madhya Pradesh."
+      },
+      {
+        "text": "Sharavati River",
+        "isCorrect": false,
+        "rationale": "Sharavati forms Jog Falls in Karnataka."
+      },
+      {
+        "text": "Chambal River",
+        "isCorrect": false,
+        "rationale": "Chambal forms ravines in Rajasthan and MP."
+      },
+      {
+        "text": "Tapti River",
+        "isCorrect": false,
+        "rationale": "Tapti flows south of Satpura range through Surat."
+      }
+    ],
+    "hint": "Located at Bhedaghat near Jabalpur in Madhya Pradesh."
+  },
+  {
+    "question": "Which is the longest tributary of the River Ganga in India?",
+    "options": [
+      {
+        "text": "Ghaghara River",
+        "isCorrect": false,
+        "rationale": "Ghaghara is the largest tributary of Ganga by water volume, but Yamuna is the longest."
+      },
+      {
+        "text": "Yamuna River",
+        "isCorrect": true,
+        "rationale": "The Yamuna River (originating from Yamunotri Glacier, 1,376 km long) is the longest and right-bank tributary of the River Ganga."
+      },
+      {
+        "text": "Son River",
+        "isCorrect": false,
+        "rationale": "Son is a major right-bank tributary originating from Amarkantak."
+      },
+      {
+        "text": "Gandak River",
+        "isCorrect": false,
+        "rationale": "Gandak is a left-bank tributary originating in Nepal."
+      }
+    ],
+    "hint": "It joins the Ganga at Triveni Sangam in Prayagraj."
+  },
+  {
+    "question": "Which river is notoriously known as the 'Sorrow of Bihar' due to frequent course shifts and devastating floods?",
+    "options": [
+      {
+        "text": "Kosi River",
+        "isCorrect": true,
+        "rationale": "The Kosi River (an antecedent river originating in Tibet/Nepal) is known as the 'Sorrow of Bihar' due to heavy siltation and frequent shifts in its course causing floods."
+      },
+      {
+        "text": "Damodar River",
+        "isCorrect": false,
+        "rationale": "Damodar River was historically known as the 'Sorrow of Bengal'."
+      },
+      {
+        "text": "Ghaghara River",
+        "isCorrect": false,
+        "rationale": "Ghaghara flows through UP and Bihar."
+      },
+      {
+        "text": "Mahananda River",
+        "isCorrect": false,
+        "rationale": "Mahananda flows along the Bihar-West Bengal border."
+      }
+    ],
+    "hint": "This river brings immense quantities of sediment from the Himalayas, shifting its channel frequently."
+  },
+  {
+    "question": "Which river was historically known as the 'Sorrow of Bengal' before dam construction by DVC?",
+    "options": [
+      {
+        "text": "Teesta River",
+        "isCorrect": false,
+        "rationale": "Teesta originates in Sikkim and flows into Bangladesh."
+      },
+      {
+        "text": "Damodar River",
+        "isCorrect": true,
+        "rationale": "The Damodar River was called the 'Sorrow of Bengal' due to periodic disastrous floods until the Damodar Valley Corporation (DVC) constructed multipurpose dams in 1948."
+      },
+      {
+        "text": "Kosi River",
+        "isCorrect": false,
+        "rationale": "Kosi is the 'Sorrow of Bihar'."
+      },
+      {
+        "text": "Hooghly River",
+        "isCorrect": false,
+        "rationale": "Hooghly is the distributary of Ganga flowing through Kolkata."
+      }
+    ],
+    "hint": "The establishment of the DVC multipurpose project in 1948 tamed its floods."
+  },
+  {
+    "question": "Chilika Lake, the largest coastal brackish water lagoon in India, is located in which state?",
+    "options": [
+      {
+        "text": "Andhra Pradesh",
+        "isCorrect": false,
+        "rationale": "Andhra Pradesh houses Pulicat Lake and Kolleru Lake."
+      },
+      {
+        "text": "Odisha",
+        "isCorrect": true,
+        "rationale": "Chilika Lake is located in Odisha at the mouth of the Daya River. It is India's largest coastal lagoon and the first Indian wetland of international importance under the Ramsar Convention (1981)."
+      },
+      {
+        "text": "Kerala",
+        "isCorrect": false,
+        "rationale": "Kerala houses Vembanad Lake (longest lake in India) and Ashtamudi Lake."
+      },
+      {
+        "text": "Tamil Nadu",
+        "isCorrect": false,
+        "rationale": "Tamil Nadu shares Pulicat Lake at its northern border."
+      }
+    ],
+    "hint": "This Ramsar site in eastern India is famous for Irrawaddy dolphins and migratory birds."
+  },
+  {
+    "question": "Which is the largest freshwater lake in India, formed due to tectonic activity?",
+    "options": [
+      {
+        "text": "Loktak Lake",
+        "isCorrect": false,
+        "rationale": "Loktak Lake in Manipur is the largest freshwater lake in Northeast India."
+      },
+      {
+        "text": "Wular Lake",
+        "isCorrect": true,
+        "rationale": "Wular Lake in Bandipora district of Jammu & Kashmir is the largest freshwater lake in India, formed as a result of tectonic activity and fed by the Jhelum River."
+      },
+      {
+        "text": "Sambhar Lake",
+        "isCorrect": false,
+        "rationale": "Sambhar Lake in Rajasthan is India's largest inland saline lake."
+      },
+      {
+        "text": "Dal Lake",
+        "isCorrect": false,
+        "rationale": "Dal Lake in Srinagar is a famous urban lake fed by catchment streams, but smaller than Wular."
+      }
+    ],
+    "hint": "Located in Jammu & Kashmir, it is fed by the Jhelum River."
+  },
+  {
+    "question": "Pulicat Lake, the second largest brackish water lagoon in India, is situated on the border of:",
+    "options": [
+      {
+        "text": "Odisha and West Bengal",
+        "isCorrect": false,
+        "rationale": "Odisha houses Chilika Lake near its border."
+      },
+      {
+        "text": "Maharashtra and Goa",
+        "isCorrect": false,
+        "rationale": "They feature estuaries rather than large brackish lagoons."
+      },
+      {
+        "text": "Andhra Pradesh and Tamil Nadu",
+        "isCorrect": true,
+        "rationale": "Pulicat Lake lies on the border of Andhra Pradesh (Nellore) and Tamil Nadu (Tiruvallur), separated from the Bay of Bengal by Sriharikota island."
+      },
+      {
+        "text": "Kerala and Karnataka",
+        "isCorrect": false,
+        "rationale": "Kerala features Vembanad and Ashtamudi lakes."
+      }
+    ],
+    "hint": "The barrier island of Sriharikota separates this lagoon from the Bay of Bengal."
+  },
+  {
+    "question": "Sambhar Salt Lake, India's largest inland saline lake, is located in which state?",
+    "options": [
+      {
+        "text": "Rajasthan",
+        "isCorrect": true,
+        "rationale": "Sambhar Salt Lake is located in the Thar Desert near Jaipur, Rajasthan, serving as India's largest inland saltwater lake and a major source of salt production."
+      },
+      {
+        "text": "Gujarat",
+        "isCorrect": false,
+        "rationale": "Gujarat features the Rann of Kutch salt flats."
+      },
+      {
+        "text": "Punjab",
+        "isCorrect": false,
+        "rationale": "Punjab features freshwater wetland lakes like Harike."
+      },
+      {
+        "text": "Haryana",
+        "isCorrect": false,
+        "rationale": "Haryana features lakes like Badkhal and Sultanpur."
+      }
+    ],
+    "hint": "Located near Jaipur in the arid region of western India."
+  },
+  {
+    "question": "Which of the following is a characteristic feature of the Western Coastal Plain of India?",
+    "options": [
+      {
+        "text": "It is narrow, submerged, and characterized by estuaries, creeks, and backwaters (Kayals).",
+        "isCorrect": true,
+        "rationale": "The Western Coastal Plain is a narrow, submerged coast (except Gujarat) with rivers forming steep estuaries rather than deltas, and features backwaters (Kayals) in Kerala."
+      },
+      {
+        "text": "It is an emergent coast with shallow waters.",
+        "isCorrect": false,
+        "rationale": "The Western coast is predominantly a submerged coast."
+      },
+      {
+        "text": "It lacks natural ports due to shallow smooth waters.",
+        "isCorrect": false,
+        "rationale": "Being a submerged coast, it provides deep natural conditions for major ports like Mumbai, Marmagao, and Cochin."
+      },
+      {
+        "text": "It is extremely wide with massive river deltas.",
+        "isCorrect": false,
+        "rationale": "Massive deltas are characteristic of the Eastern Coastal Plain."
+      }
+    ],
+    "hint": "This narrow coastal belt features backwaters known as 'Kayals' in Kerala."
+  },
+  {
+    "question": "Which statement accurately describes the Eastern Coastal Plain of India?",
+    "options": [
+      {
+        "text": "It is an emergent coast, broader, and marked by large river deltas (Mahanadi, Godavari, Krishna, Kaveri).",
+        "isCorrect": true,
+        "rationale": "The Eastern Coastal Plain is a broad, emergent plain formed by alluvial deposits of major east-flowing rivers creating extensive deltas."
+      },
+      {
+        "text": "It has abundant natural deep-water harbors.",
+        "isCorrect": false,
+        "rationale": "Because it is an emergent coast with shallow offshore waters, natural deep-water ports are fewer compared to artificial ports."
+      },
+      {
+        "text": "It has no natural river deltas due to swift currents.",
+        "isCorrect": false,
+        "rationale": "It features four of India's largest river deltas."
+      },
+      {
+        "text": "It is narrow and submerged with steep rocky cliffs.",
+        "isCorrect": false,
+        "rationale": "This describes the Western Coastal Plain."
+      }
+    ],
+    "hint": "This plain contains the fertile deltas of the Mahanadi, Godavari, Krishna, and Kaveri rivers."
+  },
+  {
+    "question": "Which set of landforms demonstrates the 'youthful stage' of Himalayan rivers?",
+    "options": [
+      {
+        "text": "Deep gorges, V-shaped valleys, rapids, and waterfalls",
+        "isCorrect": true,
+        "rationale": "Himalayan rivers are in their youthful stage in the mountain course, actively downcutting to form deep gorges, V-shaped valleys, rapids, and waterfalls."
+      },
+      {
+        "text": "Ox-bow lakes, meanders, and deltaic islands",
+        "isCorrect": false,
+        "rationale": "These landforms characterize the mature and old/lower stage of rivers in plains."
+      },
+      {
+        "text": "Peneplains, relict residual hills, and inselbergs",
+        "isCorrect": false,
+        "rationale": "These characterize old senile landscapes in cratonic areas."
+      },
+      {
+        "text": "U-shaped glacial valleys, drumlins, and eskers",
+        "isCorrect": false,
+        "rationale": "These are glacial landforms created by ice movement."
+      }
+    ],
+    "hint": "These landforms reflect active vertical erosion and steep gradients in upper reaches."
+  },
+  {
+    "question": "The 'Terai' region lying south of the Bhabar belt is characterized by:",
+    "options": [
+      {
+        "text": "Porous boulder-strewn beds where streams disappear",
+        "isCorrect": false,
+        "rationale": "This describes the Bhabar belt immediately south of the Shiwalik foothills."
+      },
+      {
+        "text": "Newer floodplains deposited every year by rivers",
+        "isCorrect": false,
+        "rationale": "This describes Khadar alluvium."
+      },
+      {
+        "text": "Marshy, swampy, and damp land with dense natural vegetation",
+        "isCorrect": true,
+        "rationale": "The Terai belt (10-20 km wide) lies south of the Bhabar; re-emerging underground streams create a marshy, damp, and thickly forested tract rich in wildlife."
+      },
+      {
+        "text": "Older dry alluvial elevated terraces above flood levels",
+        "isCorrect": false,
+        "rationale": "This describes Bhangar alluvium."
+      }
+    ],
+    "hint": "It is a damp, marshy belt where rivers submerged in the pebble-strewn Bhabar re-emerge."
+  },
+  {
+    "question": "Consider the following statements regarding India's maritime zones:\nI. Territorial waters extend up to 12 nautical miles (~22.2 km) from the baseline.\nII. The Exclusive Economic Zone (EEZ) extends up to 200 nautical miles (~370.4 km).\nWhich of the statements is/are correct?",
+    "options": [
+      {
+        "text": "II only",
+        "isCorrect": false,
+        "rationale": "Statement I is also correct."
+      },
+      {
+        "text": "I only",
+        "isCorrect": false,
+        "rationale": "Statement II is also correct under maritime law."
+      },
+      {
+        "text": "Neither I nor II",
+        "isCorrect": false,
+        "rationale": "Both statements represent established maritime law limits."
+      },
+      {
+        "text": "Both I and II are correct",
+        "isCorrect": true,
+        "rationale": "Under UNCLOS and Indian law, India's Territorial Waters extend 12 NM from the baseline (full sovereignty), and its EEZ extends up to 200 NM (sovereign resource rights)."
+      }
+    ],
+    "hint": "12 nautical miles defines territorial sea, while 200 nautical miles defines the economic zone."
+  },
+  {
+    "question": "Identify the correct North-to-South sequence of Indian states through which the Standard Meridian (82°30' E) passes:",
+    "options": [
+      {
+        "text": "Uttar Pradesh → MP → Odisha → Chhattisgarh → Andhra Pradesh",
+        "isCorrect": false,
+        "rationale": "Chhattisgarh comes before Odisha as you travel south along 82°30' E."
+      },
+      {
+        "text": "Uttar Pradesh → Bihar → Jharkhand → Odisha → Andhra Pradesh",
+        "isCorrect": false,
+        "rationale": "The meridian does not pass through Bihar or Jharkhand."
+      },
+      {
+        "text": "Uttar Pradesh → Madhya Pradesh → Chhattisgarh → Odisha → Andhra Pradesh",
+        "isCorrect": true,
+        "rationale": "The 82°30' E meridian passes through 5 states in order from North to South: Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha, and Andhra Pradesh."
+      },
+      {
+        "text": "Madhya Pradesh → UP → Chhattisgarh → Andhra Pradesh → Odisha",
+        "isCorrect": false,
+        "rationale": "Uttar Pradesh is the northernmost state among these."
+      }
+    ],
+    "hint": "The 5 states in order start with UP and end with Andhra Pradesh on the east coast."
+  },
+  {
+    "question": "The opening of the Suez Canal in 1869 reduced the sea route travel distance between India and Europe by approx:",
+    "options": [
+      {
+        "text": "3,500 km",
+        "isCorrect": false,
+        "rationale": "3,500 km understates the actual distance saved around the African continent."
+      },
+      {
+        "text": "10,000 km",
+        "isCorrect": false,
+        "rationale": "10,000 km overstates the saved mileage."
+      },
+      {
+        "text": "7,000 km",
+        "isCorrect": true,
+        "rationale": "The opening of the Suez Canal in 1869 connected the Mediterranean Sea to the Red Sea, eliminating the long circumnavigation around the Cape of Good Hope (Africa) and saving about 7,000 km."
+      },
+      {
+        "text": "5,000 km",
+        "isCorrect": false,
+        "rationale": "5,000 km is lower than the actual 7,000 km distance reduction."
+      }
+    ],
+    "hint": "By bypassing the round-Africa route via the Cape of Good Hope, thousands of kilometers were saved."
+  },
+  {
+    "question": "Where is 'Barren Island', India's only active volcano, located?",
+    "options": [
+      {
+        "text": "Gulf of Khambhat",
+        "isCorrect": false,
+        "rationale": "The Gulf of Khambhat lies off the Gujarat coast."
+      },
+      {
+        "text": "Gulf of Mannar",
+        "isCorrect": false,
+        "rationale": "The Gulf of Mannar lies between Tamil Nadu and Sri Lanka."
+      },
+      {
+        "text": "Lakshadweep Archipelago",
+        "isCorrect": false,
+        "rationale": "Lakshadweep islands are coral atolls with no volcanic activity."
+      },
+      {
+        "text": "Andaman Sea (Andaman Islands group)",
+        "isCorrect": true,
+        "rationale": "Barren Island is an active stratovolcano located in the Andaman Sea, about 138 km northeast of Port Blair in the Andaman Islands."
+      }
+    ],
+    "hint": "It lies northeast of Port Blair in the Andaman Sea."
+  },
+  {
+    "question": "What is the approximate average radius of the Earth?",
+    "options": [
+      {
+        "text": "6,370 km",
+        "isCorrect": true,
+        "rationale": "The average radius of the Earth is approximately 6,371 km (often rounded to 6,370 km)."
+      },
+      {
+        "text": "3,200 km",
+        "isCorrect": false,
+        "rationale": "3,200 km is approximately half the radius of the Earth."
+      },
+      {
+        "text": "2,900 km",
+        "isCorrect": false,
+        "rationale": "2,900 km is the depth of the Mantle-Core boundary (Gutenberg Discontinuity)."
+      },
+      {
+        "text": "5,100 km",
+        "isCorrect": false,
+        "rationale": "5,100 km is the depth boundary between the liquid outer core and solid inner core."
+      }
+    ],
+    "hint": "The distance from the surface to the center of the Earth is around 6,370 km."
+  },
+  {
+    "question": "Which of the following is considered a DIRECT source of information about the interior of the Earth?",
+    "options": [
+      {
+        "text": "Meteors",
+        "isCorrect": false,
+        "rationale": "Meteors are indirect sources because they are extra-terrestrial bodies of similar solar origin."
+      },
+      {
+        "text": "Gravitational Anomaly",
+        "isCorrect": false,
+        "rationale": "Gravitational anomalies are indirect geophysical measurements."
+      },
+      {
+        "text": "Volcanic Eruptions & Deep Mining Operations",
+        "isCorrect": true,
+        "rationale": "Deep mining (e.g. Mponeng gold mine ~4 km, Kola borehole ~12 km) and volcanic eruptions (which bring molten magma to the surface) provide direct physical material from Earth's interior."
+      },
+      {
+        "text": "Seismic Wave Analysis",
+        "isCorrect": false,
+        "rationale": "Seismic wave analysis is the primary indirect source of mapping interior layers."
+      }
+    ],
+    "hint": "Direct sources provide actual physical rock/magma samples collected directly from beneath the crust."
+  },
+  {
+    "question": "The point on the Earth's surface located directly vertically above the focus (hypocenter) of an earthquake is called the:",
+    "options": [
+      {
+        "text": "Fault Plane",
+        "isCorrect": false,
+        "rationale": "The fault plane is the fracture surface along which rocks slip."
+      },
+      {
+        "text": "Epicenter",
+        "isCorrect": true,
+        "rationale": "The epicenter is the point on the Earth's surface directly perpendicular/above the focus (hypocenter) where earthquake waves hit first."
+      },
+      {
+        "text": "Focus (Hypocenter)",
+        "isCorrect": false,
+        "rationale": "The focus (hypocenter) is the actual point inside the Earth's crust where seismic energy is first released."
+      },
+      {
+        "text": "Antipode",
+        "isCorrect": false,
+        "rationale": "The antipode is the point diametrically opposite to a position on Earth."
+      }
+    ],
+    "hint": "It is the point on the surface closest to the underground origin of seismic energy."
+  },
+  {
+    "question": "Seismic body waves that travel through the interior of the Earth are broadly divided into:",
+    "options": [
+      {
+        "text": "P-waves and S-waves",
+        "isCorrect": true,
+        "rationale": "Body waves travel through the interior of the Earth and are classified into Primary (P) waves and Secondary (S) waves."
+      },
+      {
+        "text": "Transverse and Longitudinal surface waves",
+        "isCorrect": false,
+        "rationale": "Surface waves travel along the outer crust, whereas body waves penetrate the interior."
+      },
+      {
+        "text": "Tsunami waves and Tidal waves",
+        "isCorrect": false,
+        "rationale": "These are ocean water waves generated by seismic or astronomical forces."
+      },
+      {
+        "text": "Rayleigh and Love waves",
+        "isCorrect": false,
+        "rationale": "Rayleigh and Love waves are Surface waves (L-waves) that travel along the surface."
+      }
+    ],
+    "hint": "These interior waves are designated as Primary and Secondary waves."
+  },
+  {
+    "question": "Which type of seismic body wave travels fastest and can pass through solids, liquids, and gases?",
+    "options": [
+      {
+        "text": "Rayleigh waves",
+        "isCorrect": false,
+        "rationale": "Rayleigh waves are surface waves causing rolling elliptical particle motion."
+      },
+      {
+        "text": "Love waves",
+        "isCorrect": false,
+        "rationale": "Love waves are surface waves causing horizontal side-to-side shear motion along the crust."
+      },
+      {
+        "text": "P-waves (Primary / Compressional waves)",
+        "isCorrect": true,
+        "rationale": "P-waves are longitudinal compressional waves (resembling sound waves) that travel fastest (~6-13 km/s) and can move through solid, liquid, and gaseous media."
+      },
+      {
+        "text": "S-waves (Secondary / Shear waves)",
+        "isCorrect": false,
+        "rationale": "S-waves are slower than P-waves and can travel ONLY through solid media."
+      }
+    ],
+    "hint": "These longitudinal waves compress and stretch rocks parallel to the wave propagation direction."
+  },
+  {
+    "question": "What is the key characteristic of S-waves (Secondary waves) that helped scientists discover the liquid outer core?",
+    "options": [
+      {
+        "text": "S-waves can travel ONLY through solid materials and cannot pass through liquids.",
+        "isCorrect": true,
+        "rationale": "S-waves are transverse shear waves that cannot propagate through liquids or gases; their absence beyond 105° proved that the outer core is liquid."
+      },
+      {
+        "text": "S-waves increase speed upon entering liquid layers.",
+        "isCorrect": false,
+        "rationale": "S-waves are completely blocked by liquid layers."
+      },
+      {
+        "text": "S-waves bend away from solid materials.",
+        "isCorrect": false,
+        "rationale": "S-waves travel through solid rocks."
+      },
+      {
+        "text": "S-waves travel faster than P-waves in liquid media.",
+        "isCorrect": false,
+        "rationale": "S-waves do not travel in liquids at all."
+      }
+    ],
+    "hint": "Because they cannot pass through fluids, their obstruction created a large shadow zone."
+  },
+  {
+    "question": "The shadow zone for S-waves extends across what angular range from an earthquake epicenter?",
+    "options": [
+      {
+        "text": "From 0° to 105°",
+        "isCorrect": false,
+        "rationale": "S-waves are received normally between 0° and 105°."
+      },
+      {
+        "text": "Entire zone beyond 105° from the epicenter",
+        "isCorrect": true,
+        "rationale": "Because S-waves cannot pass through the liquid outer core, no S-waves are received anywhere beyond an angular distance of 105° from the epicenter (covering over 40% of the Earth)."
+      },
+      {
+        "text": "Only between 105° and 145°",
+        "isCorrect": false,
+        "rationale": "The 105° to 145° band is the shadow zone for P-waves."
+      },
+      {
+        "text": "Between 90° and 120°",
+        "isCorrect": false,
+        "rationale": "This is an inaccurate angular range."
+      }
+    ],
+    "hint": "It forms a vast continuous shadow belt covering the entire region beyond 105 degrees."
+  },
+  {
+    "question": "The shadow zone for P-waves occurs as a distinct band between which angular distances from the epicenter?",
+    "options": [
+      {
+        "text": "Beyond 105° continuously",
+        "isCorrect": false,
+        "rationale": "P-waves reappear beyond 145° due to refraction."
+      },
+      {
+        "text": "Between 0° and 105°",
+        "isCorrect": false,
+        "rationale": "P-waves are recorded directly between 0° and 105°."
+      },
+      {
+        "text": "Between 145° and 180°",
+        "isCorrect": false,
+        "rationale": "Direct P-waves reappear in this zone."
+      },
+      {
+        "text": "Between 105° and 145°",
+        "isCorrect": true,
+        "rationale": "P-waves are refracted upon entering the liquid core, leaving a shadow zone band between 105° and 145° from the epicenter where direct P-waves are not recorded."
+      }
+    ],
+    "hint": "P-waves bend sharply at the core boundary, creating a blank band between 105° and 145°."
+  },
+  {
+    "question": "Which of the following statements comparing Continental Crust and Oceanic Crust is CORRECT?",
+    "options": [
+      {
+        "text": "Continental crust is thicker (~30-70 km) and lighter (granitic), whereas Oceanic crust is thinner (~5 km) and denser (basaltic).",
+        "isCorrect": true,
+        "rationale": "Continental crust has an average density of ~2.7 g/cm³ (Sial) and thickness up to 70 km under mountains, while Oceanic crust is ~5 km thick, denser (~3.0 g/cm³), composed of Sima (basalt)."
+      },
+      {
+        "text": "Oceanic crust is much thicker than Continental crust.",
+        "isCorrect": false,
+        "rationale": "Oceanic crust is much thinner (~5 km vs 30-70 km)."
+      },
+      {
+        "text": "Continental crust is made of dense basaltic rocks.",
+        "isCorrect": false,
+        "rationale": "Continental crust is composed mainly of granitic rocks."
+      },
+      {
+        "text": "Oceanic crust is older than Continental crust.",
+        "isCorrect": false,
+        "rationale": "Oceanic crust is young (max ~200 million yrs) due to continuous subduction and seafloor spreading."
+      }
+    ],
+    "hint": "Oceanic crust is composed of basalt, while continental crust is composed of granite."
+  },
+  {
+    "question": "The word 'Asthena' in Asthenosphere literally means:",
+    "options": [
+      {
+        "text": "Liquid / Molten",
+        "isCorrect": false,
+        "rationale": "It is semi-plastic/ductile, not completely liquid."
+      },
+      {
+        "text": "Heavy / Dense",
+        "isCorrect": false,
+        "rationale": "It has lower rigidity than the overlying lithosphere."
+      },
+      {
+        "text": "Weak / Soft",
+        "isCorrect": true,
+        "rationale": "The word 'Asthena' comes from Greek meaning 'weak'. The Asthenosphere is the weak, semi-fluid upper layer of the mantle (extending up to 400 km) on which lithospheric plates float."
+      },
+      {
+        "text": "Hard / Rigid",
+        "isCorrect": false,
+        "rationale": "Lithosphere refers to the rigid upper shell."
+      }
+    ],
+    "hint": "This layer located below the lithosphere is partially molten and ductile."
+  },
+  {
+    "question": "At what depth is the Core-Mantle boundary (Gutenberg Discontinuity) located beneath the Earth's surface?",
+    "options": [
+      {
+        "text": "5,100 km",
+        "isCorrect": false,
+        "rationale": "5,100 km is the depth boundary between the outer liquid core and inner solid core."
+      },
+      {
+        "text": "6,370 km",
+        "isCorrect": false,
+        "rationale": "6,370 km is the depth to the center of the Earth."
+      },
+      {
+        "text": "700 km",
+        "isCorrect": false,
+        "rationale": "700 km marks the boundary between upper and lower mantle."
+      },
+      {
+        "text": "2,900 km",
+        "isCorrect": true,
+        "rationale": "The Core-Mantle boundary lies at a depth of approximately 2,900 km beneath the Earth's surface."
+      }
+    ],
+    "hint": "This boundary separates the silicate mantle from the metallic core."
+  },
+  {
+    "question": "What is the physical state of the Earth's Outer Core?",
+    "options": [
+      {
+        "text": "Semisolid / Plastic State",
+        "isCorrect": false,
+        "rationale": "The asthenosphere is plastic/ductile, but the outer core is a true liquid."
+      },
+      {
+        "text": "Liquid State",
+        "isCorrect": true,
+        "rationale": "The outer core (between 2,900 km and 5,100 km depth) is in a liquid state due to high temperatures exceeding the melting point of iron-nickel alloy."
+      },
+      {
+        "text": "Gaseous State",
+        "isCorrect": false,
+        "rationale": "No layer of Earth's interior is gaseous."
+      },
+      {
+        "text": "Solid State",
+        "isCorrect": false,
+        "rationale": "The inner core (below 5,100 km) is solid due to immense pressure."
+      }
+    ],
+    "hint": "The inability of S-waves to travel through this layer confirms its fluid nature."
+  },
+  {
+    "question": "Why is the Earth's Inner Core in a SOLID state despite temperatures reaching over 5,000°C?",
+    "options": [
+      {
+        "text": "The inner core has lower temperatures than the outer core.",
+        "isCorrect": false,
+        "rationale": "The inner core is hotter than the outer core."
+      },
+      {
+        "text": "Magnetic forces solidify the core fluids.",
+        "isCorrect": false,
+        "rationale": "Pressure, not magnetic force, keeps it solid."
+      },
+      {
+        "text": "The inner core is composed of non-metallic minerals.",
+        "isCorrect": false,
+        "rationale": "The inner core is composed of metallic iron and nickel (Nife)."
+      },
+      {
+        "text": "Immense lithostatic pressure prevents iron and nickel from melting",
+        "isCorrect": true,
+        "rationale": "The overwhelming pressure exerted by all overlying layers prevents iron and nickel atoms from expanding into liquid form, keeping the inner core solid."
+      }
+    ],
+    "hint": "High pressure raises the melting point of metals far above their surface melting temperature."
+  },
+  {
+    "question": "The 'Mohorovicic Discontinuity' (Moho) forms the boundary between the:",
+    "options": [
+      {
+        "text": "Outer Core and Inner Core",
+        "isCorrect": false,
+        "rationale": "Separated by the Lehmann Discontinuity at 5,100 km."
+      },
+      {
+        "text": "Mantle and Core",
+        "isCorrect": false,
+        "rationale": "Separated by the Gutenberg Discontinuity at 2,900 km."
+      },
+      {
+        "text": "Upper Crust and Lower Crust",
+        "isCorrect": false,
+        "rationale": "Separated by the Conrad Discontinuity."
+      },
+      {
+        "text": "Crust and Mantle",
+        "isCorrect": true,
+        "rationale": "The Mohorovicic discontinuity (Moho) separates the Earth's Crust from the underlying Mantle."
+      }
+    ],
+    "hint": "It is named after the Croatian seismologist who discovered the sudden jump in seismic wave speeds below the crust."
+  },
+  {
+    "question": "The 'Gutenberg Discontinuity' marks the boundary between the:",
+    "options": [
+      {
+        "text": "Lithosphere and Asthenosphere",
+        "isCorrect": false,
+        "rationale": "Defined by thermal and mechanical rheology, not a major chemical discontinuity."
+      },
+      {
+        "text": "Mantle and Core",
+        "isCorrect": true,
+        "rationale": "The Gutenberg Discontinuity (at 2,900 km depth) separates the silicate Mantle from the liquid iron Outer Core."
+      },
+      {
+        "text": "Outer Core and Inner Core",
+        "isCorrect": false,
+        "rationale": "Separated by the Lehmann Discontinuity."
+      },
+      {
+        "text": "Crust and Mantle",
+        "isCorrect": false,
+        "rationale": "Separated by the Moho Discontinuity."
+      }
+    ],
+    "hint": "Located at 2,900 km depth where density jumps from ~5.5 g/cm³ to 9.9 g/cm³."
+  },
+  {
+    "question": "The seismic discontinuity separating the Upper Crust from the Lower Crust is called the:",
+    "options": [
+      {
+        "text": "Lehmann Discontinuity",
+        "isCorrect": false,
+        "rationale": "The Lehmann Discontinuity separates the Outer Core from the Inner Core (~5,100 km)."
+      },
+      {
+        "text": "Repetti Discontinuity",
+        "isCorrect": false,
+        "rationale": "The Repetti Discontinuity separates the Upper Mantle from the Lower Mantle (~700 km)."
+      },
+      {
+        "text": "Conrad Discontinuity",
+        "isCorrect": true,
+        "rationale": "The Conrad Discontinuity separates the upper sialic continental crust from the lower simaic crust."
+      },
+      {
+        "text": "Moho Discontinuity",
+        "isCorrect": false,
+        "rationale": "Separates Crust from Mantle."
+      }
+    ],
+    "hint": "Named after Victor Conrad, it marks the boundary between Sial and Sima in the continental crust."
+  },
+  {
+    "question": "The 'Repetti Discontinuity' lies between the:",
+    "options": [
+      {
+        "text": "Mantle and Core",
+        "isCorrect": false,
+        "rationale": "Separated by Gutenberg Discontinuity."
+      },
+      {
+        "text": "Upper Mantle and Lower Mantle",
+        "isCorrect": true,
+        "rationale": "The Repetti Discontinuity separates the Upper Mantle from the Lower Mantle at a depth of around 700 km."
+      },
+      {
+        "text": "Crust and Mantle",
+        "isCorrect": false,
+        "rationale": "Separated by Moho Discontinuity."
+      },
+      {
+        "text": "Upper Crust and Lower Crust",
+        "isCorrect": false,
+        "rationale": "Separated by Conrad Discontinuity."
+      }
+    ],
+    "hint": "Located at approximately 700 km depth within the mantle."
+  },
+  {
+    "question": "The 'Lehmann Discontinuity' marks the transition boundary between the:",
+    "options": [
+      {
+        "text": "Upper Mantle and Lower Mantle",
+        "isCorrect": false,
+        "rationale": "Separated by Repetti Discontinuity."
+      },
+      {
+        "text": "Mantle and Core",
+        "isCorrect": false,
+        "rationale": "Separated by Gutenberg Discontinuity."
+      },
+      {
+        "text": "Outer Core and Inner Core",
+        "isCorrect": true,
+        "rationale": "The Lehmann Discontinuity (at ~5,100 km depth) separates the liquid Outer Core from the solid Inner Core."
+      },
+      {
+        "text": "Crust and Mantle",
+        "isCorrect": false,
+        "rationale": "Separated by Moho Discontinuity."
+      }
+    ],
+    "hint": "Discovered by Danish seismologist Inge Lehmann in 1936."
+  },
+  {
+    "question": "The 'Lithosphere' is defined as consisting of:",
+    "options": [
+      {
+        "text": "The Mantle + Outer Core",
+        "isCorrect": false,
+        "rationale": "These layers lie deep beneath the lithosphere."
+      },
+      {
+        "text": "The entire Crust + the uppermost rigid solid Mantle",
+        "isCorrect": true,
+        "rationale": "The Lithosphere includes the entire Crust and the rigid uppermost portion of the Mantle, ranging in thickness from 10 km (oceans) to 200 km (continents)."
+      },
+      {
+        "text": "The Crust + Asthenosphere",
+        "isCorrect": false,
+        "rationale": "Asthenosphere lies beneath the lithosphere."
+      },
+      {
+        "text": "Only the Continental Crust",
+        "isCorrect": false,
+        "rationale": "The lithosphere includes both continental and oceanic crust plus rigid upper mantle."
+      }
+    ],
+    "hint": "It forms the rigid outer tectonic plates floating on the asthenosphere."
+  },
+  {
+    "question": "The main mineral constituents of the Continental Crust are commonly abbreviated as:",
+    "options": [
+      {
+        "text": "NIFE (Nickel and Iron)",
+        "isCorrect": false,
+        "rationale": "NIFE characterizes the heavy metallic core."
+      },
+      {
+        "text": "SIMA (Silica and Magnesium)",
+        "isCorrect": false,
+        "rationale": "SIMA characterizes the denser oceanic crust."
+      },
+      {
+        "text": "MAFIC (Magnesium and Iron)",
+        "isCorrect": false,
+        "rationale": "Mafic rocks form oceanic basaltic crust."
+      },
+      {
+        "text": "SIAL (Silica and Aluminium)",
+        "isCorrect": true,
+        "rationale": "Continental crust is dominated by Silica and Aluminium, giving rise to the term SIAL (density ~2.7 g/cm³)."
+      }
+    ],
+    "hint": "SIAL stands for the two most abundant chemical elements in continental granite."
+  },
+  {
+    "question": "The main mineral constituents of the Oceanic Crust are commonly abbreviated as:",
+    "options": [
+      {
+        "text": "SIAL (Silica and Aluminium)",
+        "isCorrect": false,
+        "rationale": "SIAL forms the lighter continental crust."
+      },
+      {
+        "text": "NIFE (Nickel and Iron)",
+        "isCorrect": false,
+        "rationale": "NIFE forms the Earth's core."
+      },
+      {
+        "text": "FELSIC (Feldspar and Silica)",
+        "isCorrect": false,
+        "rationale": "Felsic rocks dominate continental granites."
+      },
+      {
+        "text": "SIMA (Silica and Magnesium)",
+        "isCorrect": true,
+        "rationale": "Oceanic crust is mainly composed of Silica and Magnesium, abbreviated as SIMA (density ~3.0 g/cm³)."
+      }
+    ],
+    "hint": "SIMA stands for Silica and Magnesium."
+  },
+  {
+    "question": "The Earth's core is predominantly composed of heavy metallic elements abbreviated as:",
+    "options": [
+      {
+        "text": "SIAL",
+        "isCorrect": false,
+        "rationale": "SIAL forms continental crust."
+      },
+      {
+        "text": "SIMA",
+        "isCorrect": false,
+        "rationale": "SIMA forms oceanic crust."
+      },
+      {
+        "text": "NIFE (Nickel and Ferrum/Iron)",
+        "isCorrect": true,
+        "rationale": "The core (Barysphere) is composed of Nickel (Ni) and Iron (Fe), hence called the NIFE layer (density 9.9 to 13 g/cm³)."
+      },
+      {
+        "text": "ALFE",
+        "isCorrect": false,
+        "rationale": "Alfe is not a standard geological layer abbreviation."
+      }
+    ],
+    "hint": "NIFE represents Nickel and Iron (Ferrum)."
+  },
+  {
+    "question": "Which type of volcano is characterized by low-viscosity basaltic lava that spreads over broad distances, creating low-sloping domes (e.g. Hawaiian volcanoes)?",
+    "options": [
+      {
+        "text": "Shield Volcanoes",
+        "isCorrect": true,
+        "rationale": "Shield volcanoes are built by successive flows of highly fluid basaltic lava, producing broad, gently sloping volcanic cones (e.g. Mauna Loa in Hawaii)."
+      },
+      {
+        "text": "Composite Volcanoes",
+        "isCorrect": false,
+        "rationale": "Composite volcanoes erupt viscous lava, ash, and pyroclastics creating steep cones."
+      },
+      {
+        "text": "Calderas",
+        "isCorrect": false,
+        "rationale": "Calderas are collapsed volcanic depressions."
+      },
+      {
+        "text": "Cinder Cones",
+        "isCorrect": false,
+        "rationale": "Cinder cones are small steep hills of pyroclastic debris."
+      }
+    ],
+    "hint": "These volcanoes are non-explosive unless water gets into the vent."
+  },
+  {
+    "question": "Volcanoes characterized by explosive eruptions of cooler, highly viscous lava along with pyroclastic material and ash (e.g. Mt. Fuji, Mt. Vesuvius) are classified as:",
+    "options": [
+      {
+        "text": "Shield Volcanoes",
+        "isCorrect": false,
+        "rationale": "Shield volcanoes erupt fluid basalt with low explosivity."
+      },
+      {
+        "text": "Fissure Eruptions",
+        "isCorrect": false,
+        "rationale": "Fissure eruptions spread fluid lava from cracks over flat terrain."
+      },
+      {
+        "text": "Composite Volcanoes (Stratovolcanoes)",
+        "isCorrect": true,
+        "rationale": "Composite volcanoes (stratovolcanoes) are formed from alternating layers of viscous andesitic/dacitic lava, ash, and pyroclastic debris, resulting in steep-sided explosive cones."
+      },
+      {
+        "text": "Mud Volcanoes",
+        "isCorrect": false,
+        "rationale": "Mud volcanoes erupt geo-pressured mud and gases."
+      }
+    ],
+    "hint": "Also known as stratovolcanoes due to their layered structure."
+  },
+  {
+    "question": "The most explosive type of volcanoes on Earth, which collapse into themselves during an eruption rather than building a high structure, form landforms known as:",
+    "options": [
+      {
+        "text": "Batholiths",
+        "isCorrect": false,
+        "rationale": "Batholiths are deep intrusive granitic rock bodies."
+      },
+      {
+        "text": "Calderas",
+        "isCorrect": true,
+        "rationale": "Calderas are huge depressions formed when explosive volcanoes empty their underlying magma chambers rapidly and collapse inward."
+      },
+      {
+        "text": "Shield cones",
+        "isCorrect": false,
+        "rationale": "Shield cones are broad convex volcanic domes."
+      },
+      {
+        "text": "Dykes",
+        "isCorrect": false,
+        "rationale": "Dykes are vertical intrusive sheets."
+      }
+    ],
+    "hint": "Yellowstone in the US and Toba in Sumatra are famous examples of these massive collapsed depressions."
+  },
+  {
+    "question": "The Deccan Traps of India were formed by which type of volcanic activity?",
+    "options": [
+      {
+        "text": "Submarine Calderas",
+        "isCorrect": false,
+        "rationale": "Deccan traps were subaerial basaltic flows."
+      },
+      {
+        "text": "Flood Basalt Provinces",
+        "isCorrect": true,
+        "rationale": "The Deccan Traps of India (covering over 500,000 sq. km) were created by massive Flood Basalt eruptions of highly fluid lava during the Cretaceous-Tertiary transition (~66 million yrs ago)."
+      },
+      {
+        "text": "Intrusive Batholiths",
+        "isCorrect": false,
+        "rationale": "Batholiths solidify deep below the surface."
+      },
+      {
+        "text": "Composite Stratovolcanoes",
+        "isCorrect": false,
+        "rationale": "Stratovolcanoes produce steep isolated volcanic peaks, not flood basalt plateaus."
+      }
+    ],
+    "hint": "Massive flows of fluid basaltic lava covered large parts of western India."
+  },
+  {
+    "question": "Where does mid-ocean ridge volcanism predominantly take place?",
+    "options": [
+      {
+        "text": "Deep within stable continental cratons",
+        "isCorrect": false,
+        "rationale": "Intraplate volcanic activity in cratons is rare and related to hotspots."
+      },
+      {
+        "text": "Along Convergent Continental Boundaries",
+        "isCorrect": false,
+        "rationale": "Convergent boundaries form subduction zones and volcanic arcs."
+      },
+      {
+        "text": "Along Divergent Plate Boundaries in oceanic basins",
+        "isCorrect": true,
+        "rationale": "Mid-ocean ridge volcanoes occur along divergent plate boundaries in ocean basins where tectonic plates pull apart, allowing upwelling mantle magma to form new oceanic crust."
+      },
+      {
+        "text": "Along Transform Fault Lines",
+        "isCorrect": false,
+        "rationale": "Transform faults involve horizontal sliding without major magma generation."
+      }
+    ],
+    "hint": "This underwater volcanic system stretches over 70,000 km across global ocean basins."
+  },
+  {
+    "question": "Large, dome-shaped intrusive igneous bodies that solidify deep within the crust and form the core of major mountain ranges are called:",
+    "options": [
+      {
+        "text": "Batholiths",
+        "isCorrect": true,
+        "rationale": "Batholiths are huge, deep-seated granitic intrusive bodies (covering hundreds of sq. km) that form the structural cores of folded mountain belts upon erosion."
+      },
+      {
+        "text": "Lopoliths",
+        "isCorrect": false,
+        "rationale": "Lopoliths are saucer-shaped intrusive bodies."
+      },
+      {
+        "text": "Dykes",
+        "isCorrect": false,
+        "rationale": "Dykes are vertical wall-like intrusive sheets."
+      },
+      {
+        "text": "Sills",
+        "isCorrect": false,
+        "rationale": "Sills are thin horizontal sheets of intrusive rock."
+      }
+    ],
+    "hint": "These are the largest intrusive igneous bodies, forming granitic mountain cores."
+  },
+  {
+    "question": "A large dome-shaped intrusive body with a flat level base and a pipe-like conduit feeding from below is known as a:",
+    "options": [
+      {
+        "text": "Laccolith",
+        "isCorrect": true,
+        "rationale": "A Laccolith is a large dome-shaped intrusive body with a flat bottom and arched top, connected to a feeder conduit below (examples found in Karnataka plateau)."
+      },
+      {
+        "text": "Batholith",
+        "isCorrect": false,
+        "rationale": "Batholiths are massive bottomless bodies."
+      },
+      {
+        "text": "Lopolith",
+        "isCorrect": false,
+        "rationale": "A Lopolith has a saucer-shaped concave interior."
+      },
+      {
+        "text": "Phacolith",
+        "isCorrect": false,
+        "rationale": "A Phacolith is a lens-shaped body in fold crests/troughs."
+      }
+    ],
+    "hint": "It resembles a mushroom-shaped dome with a flat horizontal base."
+  },
+  {
+    "question": "A saucer-shaped intrusive igneous body, concave towards the sky, is called a:",
+    "options": [
+      {
+        "text": "Laccolith",
+        "isCorrect": false,
+        "rationale": "A Laccolith is dome-shaped with a flat base."
+      },
+      {
+        "text": "Dyke",
+        "isCorrect": false,
+        "rationale": "A Dyke is a vertical wall-like intrusion."
+      },
+      {
+        "text": "Lopolith",
+        "isCorrect": true,
+        "rationale": "A Lopolith is a saucer-shaped plutonic intrusive body with a sunken central basin."
+      },
+      {
+        "text": "Phacolith",
+        "isCorrect": false,
+        "rationale": "A Phacolith is lens-shaped along fold axes."
+      }
+    ],
+    "hint": "Its shape resembles a shallow bowl or saucer."
+  },
+  {
+    "question": "A lens-shaped intrusive igneous body located at the crest of an anticline or trough of a syncline in folded strata is a:",
+    "options": [
+      {
+        "text": "Sill",
+        "isCorrect": false,
+        "rationale": "Sill is a planar horizontal sheet."
+      },
+      {
+        "text": "Phacolith",
+        "isCorrect": true,
+        "rationale": "A Phacolith is a lens-shaped intrusive body occupying the crest of an anticline or the trough of a syncline in folded rocks."
+      },
+      {
+        "text": "Laccolith",
+        "isCorrect": false,
+        "rationale": "Laccolith is a mushroom dome."
+      },
+      {
+        "text": "Lopolith",
+        "isCorrect": false,
+        "rationale": "Lopolith is saucer-shaped."
+      }
+    ],
+    "hint": "It develops within folded rock strata at anticline peaks or syncline troughs."
+  },
+  {
+    "question": "Near-horizontal, tabular sheets of intrusive igneous rocks that solidify parallel to bedding planes are called:",
+    "options": [
+      {
+        "text": "Dykes",
+        "isCorrect": false,
+        "rationale": "Dykes solidify perpendicular/discordant to bedding planes."
+      },
+      {
+        "text": "Batholiths",
+        "isCorrect": false,
+        "rationale": "Batholiths are massive un-stratified plutons."
+      },
+      {
+        "text": "Stocks",
+        "isCorrect": false,
+        "rationale": "Stocks are smaller circular batholith outcrops."
+      },
+      {
+        "text": "Sills (or Sheets)",
+        "isCorrect": true,
+        "rationale": "Sills are horizontal tabular intrusive bodies that inject parallel to the existing bedding planes of sedimentary or volcanic rocks."
+      }
+    ],
+    "hint": "These intrusive bodies run horizontally along bedding planes."
+  },
+  {
+    "question": "Vertical or near-vertical, wall-like intrusive igneous structures that solidify perpendicular to country rock strata are called:",
+    "options": [
+      {
+        "text": "Sills",
+        "isCorrect": false,
+        "rationale": "Sills run horizontally parallel to bedding planes."
+      },
+      {
+        "text": "Laccoliths",
+        "isCorrect": false,
+        "rationale": "Laccoliths are dome-shaped."
+      },
+      {
+        "text": "Lopoliths",
+        "isCorrect": false,
+        "rationale": "Lopoliths are saucer-shaped."
+      },
+      {
+        "text": "Dykes",
+        "isCorrect": true,
+        "rationale": "Dykes are vertical or steeply inclined tabular intrusive bodies that cut discordantly across bedding planes of existing rock layers."
+      }
+    ],
+    "hint": "Famous examples form vertical wall-like ridges in the Deccan trap region."
+  },
+  {
+    "question": "The Richter Scale measures which aspect of an earthquake?",
+    "options": [
+      {
+        "text": "Duration of ground shaking in minutes",
+        "isCorrect": false,
+        "rationale": "Duration is measured directly in time units."
+      },
+      {
+        "text": "Magnitude (amount of energy released at the focus on an absolute 0-10 logarithmic scale)",
+        "isCorrect": true,
+        "rationale": "The Richter scale measures earthquake magnitude, which quantifies the seismic energy released at the focus using a logarithmic scale."
+      },
+      {
+        "text": "Intensity of visible surface damage (1 to 12 scale)",
+        "isCorrect": false,
+        "rationale": "Intensity of visible damage is measured by the Mercalli scale."
+      },
+      {
+        "text": "Frequency of seismic waves",
+        "isCorrect": false,
+        "rationale": "Frequency is measured in Hertz (Hz) by seismometers."
+      }
+    ],
+    "hint": "It is a logarithmic scale quantifying the total energy released at the epicenter/focus."
+  },
+  {
+    "question": "The Mercalli Scale measures which aspect of an earthquake?",
+    "options": [
+      {
+        "text": "Depth of the hypocenter",
+        "isCorrect": false,
+        "rationale": "Depth is calculated in kilometers via seismic triangulation."
+      },
+      {
+        "text": "Intensity based on observed damage (ranging from I to XII)",
+        "isCorrect": true,
+        "rationale": "The Mercalli scale measures earthquake intensity based on visible structural destruction and human impacts on a scale of I to XII."
+      },
+      {
+        "text": "Energy magnitude released at the focus",
+        "isCorrect": false,
+        "rationale": "Energy magnitude is measured by the Richter scale."
+      },
+      {
+        "text": "Speed of P-wave propagation",
+        "isCorrect": false,
+        "rationale": "Speed is measured in km/s."
+      }
+    ],
+    "hint": "It assesses the visible impact and destruction caused by ground shaking."
+  },
+  {
+    "question": "Tsunamis are severe ocean waves generated primarily by:",
+    "options": [
+      {
+        "text": "Gravitational pull of the Moon and Sun",
+        "isCorrect": false,
+        "rationale": "Tidal waves are caused by gravitational pulls, not tsunamis."
+      },
+      {
+        "text": "Submarine earthquakes, underwater volcanic eruptions, or coastal landslides",
+        "isCorrect": true,
+        "rationale": "Tsunamis are harbor waves generated by sudden vertical displacement of the sea floor caused by underwater earthquakes, submarine volcanic explosions, or coastal landslides."
+      },
+      {
+        "text": "Thermal expansion of ocean waters",
+        "isCorrect": false,
+        "rationale": "Thermal expansion causes gradual sea level rise."
+      },
+      {
+        "text": "Strong surface trade winds",
+        "isCorrect": false,
+        "rationale": "Wind waves are generated by surface wind friction."
+      }
+    ],
+    "hint": "These massive harbor waves are triggered by vertical seafloor displacement."
+  },
+  {
+    "question": "The actual subterranean origin point inside the Earth where earthquake energy is released is called the:",
+    "options": [
+      {
+        "text": "Focus (or Hypocenter)",
+        "isCorrect": true,
+        "rationale": "The focus (or hypocenter) is the point beneath the Earth's surface where rock fracture initiates and seismic energy is first released."
+      },
+      {
+        "text": "Epicenter",
+        "isCorrect": false,
+        "rationale": "The epicenter is the point on the surface directly above the focus."
+      },
+      {
+        "text": "Subduction Zone",
+        "isCorrect": false,
+        "rationale": "A subduction zone is a plate boundary where one plate sinks beneath another."
+      },
+      {
+        "text": "Fault Scarp",
+        "isCorrect": false,
+        "rationale": "A fault scarp is a cliff produced by vertical fault movement on the surface."
+      }
+    ],
+    "hint": "Also known as the hypocenter, located inside the crust."
+  },
+  {
+    "question": "How does density change as we move from the Earth's Crust to the Core?",
+    "options": [
+      {
+        "text": "Density decreases continuously with depth.",
+        "isCorrect": false,
+        "rationale": "Density increases, not decreases."
+      },
+      {
+        "text": "Density is highest in the crust and lowest in the core.",
+        "isCorrect": false,
+        "rationale": "The crust has the lowest density."
+      },
+      {
+        "text": "Density increases continuously with depth (Crust ~2.7 g/cm³ → Mantle ~3.4-5.5 g/cm³ → Core ~13 g/cm³).",
+        "isCorrect": true,
+        "rationale": "Density increases progressively towards the center of the Earth due to heavier metallic composition (Nife) and immense compressive overburden pressure."
+      },
+      {
+        "text": "Density remains uniform throughout the interior.",
+        "isCorrect": false,
+        "rationale": "Density varies sharply between layers."
+      }
+    ],
+    "hint": "Heavier metallic elements sank to the center during planetary differentiation."
+  },
+  {
+    "question": "Earth's protective geomagnetic field is generated by:",
+    "options": [
+      {
+        "text": "Convection currents of molten iron and nickel in the liquid Outer Core (Dynamo Effect)",
+        "isCorrect": true,
+        "rationale": "The geodynamo effect is powered by convection currents and rotation in the fluid, conducting outer core composed of molten iron and nickel."
+      },
+      {
+        "text": "Frictional rotation between the Crust and Mantle",
+        "isCorrect": false,
+        "rationale": "This does not generate the global dipole magnetic field."
+      },
+      {
+        "text": "Permanent magnetization of solid iron in the Inner Core",
+        "isCorrect": false,
+        "rationale": "Temperatures exceed the Curie point, so permanent magnetization cannot exist."
+      },
+      {
+        "text": "Electric currents flowing through the ionosphere",
+        "isCorrect": false,
+        "rationale": "The ionosphere interacts with solar wind but does not generate Earth's intrinsic field."
+      }
+    ],
+    "hint": "This 'geodynamo' requires a rotating, convecting fluid conductor in the outer core."
+  },
+  {
+    "question": "Why are meteorites considered an indirect source of information about the Earth's interior?",
+    "options": [
+      {
+        "text": "They release seismic waves upon impact.",
+        "isCorrect": false,
+        "rationale": "Impact waves are local and do not reveal Earth's internal layering."
+      },
+      {
+        "text": "They are composed of materials similar to Earth's interior, having formed from the same solar nebula.",
+        "isCorrect": true,
+        "rationale": "Meteorites are celestial bodies formed from the same primitive solar nebula as Earth; when broken solid fragments fall to Earth, their composition reveals planetary interior materials."
+      },
+      {
+        "text": "They contain drill cores extracted from other planets.",
+        "isCorrect": false,
+        "rationale": "Meteorites fall naturally from space; they are not artificial drill samples."
+      },
+      {
+        "text": "They originate from Earth's deep mantle during ancient impacts.",
+        "isCorrect": false,
+        "rationale": "Meteorites originate from space/asteroids, not Earth's mantle."
+      }
+    ],
+    "hint": "These extraterrestrial rock samples share the same origin as the early solar system materials."
+  },
+  {
+    "question": "What does a 'Gravitational Anomaly' indicate to geophysicists?",
+    "options": [
+      {
+        "text": "Fluctuations in atmospheric pressure caused by gravity",
+        "isCorrect": false,
+        "rationale": "Gravity anomaly refers to solid Earth mass variations, not atmospheric pressure."
+      },
+      {
+        "text": "Differences between observed gravity and expected gravity, reflecting uneven mass distribution in the Earth's crust",
+        "isCorrect": true,
+        "rationale": "Gravity anomalies represent variations in gravitational attraction caused by localized concentrations of higher or lower density rock masses in the crust."
+      },
+      {
+        "text": "The shift in Earth's orbital axis",
+        "isCorrect": false,
+        "rationale": "This is related to Milankovitch cycles."
+      },
+      {
+        "text": "The exact timing of an impending earthquake",
+        "isCorrect": false,
+        "rationale": "Gravity anomalies do not predict earthquake timing."
+      }
+    ],
+    "hint": "It measures variations in gravitational pull due to uneven density distribution in sub-surface rocks."
+  },
+  {
+    "question": "How do Temperature and Pressure change with increasing depth inside the Earth?",
+    "options": [
+      {
+        "text": "Temperature increases, but pressure decreases.",
+        "isCorrect": false,
+        "rationale": "Pressure increases continuously due to overburden weight."
+      },
+      {
+        "text": "Both Temperature and Pressure increase continuously towards the center.",
+        "isCorrect": true,
+        "rationale": "Both temperature (geothermal gradient ~30°C/km in crust) and pressure increase steadily with depth towards the Earth's center."
+      },
+      {
+        "text": "Pressure increases, but temperature decreases.",
+        "isCorrect": false,
+        "rationale": "Temperature increases due to primordial heat and radioactive decay."
+      },
+      {
+        "text": "Both temperature and pressure decrease towards the core.",
+        "isCorrect": false,
+        "rationale": "Both reach their maximum at the inner core."
+      }
+    ],
+    "hint": "Heat from primordial formation/decay and the weight of overlying rocks cause both to rise."
+  },
+  {
+    "question": "Comparing the age of rocks on the Ocean Floor with Continental rocks, which of the following is TRUE?",
+    "options": [
+      {
+        "text": "Ocean floor rocks are much younger (nowhere older than 200 million years) than continental rocks (up to 3.8 billion years old).",
+        "isCorrect": true,
+        "rationale": "Oceanic crust is continuously created at mid-ocean ridges and destroyed at subduction zones, making ocean floor rocks younger than 200 million years, whereas continental crust persists for billions of years."
+      },
+      {
+        "text": "Oceanic crust rocks are older than continental rocks.",
+        "isCorrect": false,
+        "rationale": "Continental rocks are far older."
+      },
+      {
+        "text": "Both oceanic and continental rocks are of identical age.",
+        "isCorrect": false,
+        "rationale": "Seafloor recycling makes ocean rocks much younger."
+      },
+      {
+        "text": "Ocean floor rocks are immune to tectonic recycling.",
+        "isCorrect": false,
+        "rationale": "Oceanic plates subduct continuously into the mantle."
+      }
+    ],
+    "hint": "Seafloor spreading and subduction continuously recycle oceanic crust."
+  },
+  {
+    "question": "The deepest artificial borehole ever drilled on Earth (reaching ~12.2 km depth) is the:",
+    "options": [
+      {
+        "text": "Kola Superdeep Borehole (Russia)",
+        "isCorrect": true,
+        "rationale": "The Kola Superdeep Borehole in Russia reached a depth of 12,262 meters (12.2 km) in 1989, making it the deepest artificial penetration into Earth's crust."
+      },
+      {
+        "text": "Deepsea Challenger",
+        "isCorrect": false,
+        "rationale": "Deepsea Challenger is a submersible vessel."
+      },
+      {
+        "text": "Challenger Deep",
+        "isCorrect": false,
+        "rationale": "Challenger Deep is the deepest natural oceanic trench location (~10.9 km deep)."
+      },
+      {
+        "text": "Mponeng Gold Mine",
+        "isCorrect": false,
+        "rationale": "Mponeng in South Africa is the deepest underground mine (~4 km)."
+      }
+    ],
+    "hint": "Located on the Kola Peninsula in Russia, it penetrated over 12 kilometers into the continental crust."
+  },
+  {
+    "question": "Who proposed the 'Mantle Convection Current Theory' in the 1930s to explain thermal forces driving continental movement?",
+    "options": [
+      {
+        "text": "Arthur Holmes",
+        "isCorrect": true,
+        "rationale": "Arthur Holmes proposed in the 1930s that thermal convection currents operating in the mantle (generated by radioactive heat) drive continental drift."
+      },
+      {
+        "text": "Alfred Wegener",
+        "isCorrect": false,
+        "rationale": "Alfred Wegener proposed Continental Drift Theory in 1912."
+      },
+      {
+        "text": "J. Tuzo Wilson",
+        "isCorrect": false,
+        "rationale": "Tuzo Wilson proposed transform faults and plate tectonics concepts."
+      },
+      {
+        "text": "Harry Hess",
+        "isCorrect": false,
+        "rationale": "Harry Hess proposed Seafloor Spreading in 1960."
+      }
+    ],
+    "hint": "He suggested that heat generated by radioactive elements in the mantle drives convective cells."
+  },
+  {
+    "question": "Comparing the shadow zones of P-waves and S-waves, which statement is CORRECT?",
+    "options": [
+      {
+        "text": "The P-wave shadow zone is larger than the S-wave shadow zone.",
+        "isCorrect": false,
+        "rationale": "The S-wave shadow zone is much larger."
+      },
+      {
+        "text": "The shadow zone of S-waves is significantly larger than the shadow zone of P-waves.",
+        "isCorrect": true,
+        "rationale": "The S-wave shadow zone covers the entire region beyond 105° (over 40% of Earth), whereas the P-wave shadow zone is only a narrow band between 105° and 145°."
+      },
+      {
+        "text": "P-waves have no shadow zone on Earth.",
+        "isCorrect": false,
+        "rationale": "P-waves have a distinct shadow band between 105° and 145°."
+      },
+      {
+        "text": "Both shadow zones are identical in size and shape.",
+        "isCorrect": false,
+        "rationale": "They differ because P-waves pass through the core while S-waves are blocked."
+      }
+    ],
+    "hint": "Because S-waves are completely blocked by the liquid outer core, their shadow zone covers over 40% of the globe."
+  },
+  {
+    "question": "In a seismogram recording an earthquake event, what is the correct arrival sequence of different seismic waves?",
+    "options": [
+      {
+        "text": "Surface waves → P-waves → S-waves",
+        "isCorrect": false,
+        "rationale": "Surface waves are the slowest."
+      },
+      {
+        "text": "S-waves → P-waves → Surface waves",
+        "isCorrect": false,
+        "rationale": "P-waves are faster than S-waves."
+      },
+      {
+        "text": "P-waves → Surface waves → S-waves",
+        "isCorrect": false,
+        "rationale": "S-waves arrive before Surface waves."
+      },
+      {
+        "text": "Primary (P) waves arrive first → Secondary (S) waves second → Surface (L) waves last",
+        "isCorrect": true,
+        "rationale": "P-waves are fastest and arrive first, followed by S-waves, and lastly slow high-amplitude Surface (L) waves."
+      }
+    ],
+    "hint": "P-waves travel fastest, followed by S-waves, while Surface waves travel slowest along the crust."
+  },
+  {
+    "question": "Which of the following is a secondary hazard triggered by earthquake ground shaking?",
+    "options": [
+      {
+        "text": "Tectonic plate subduction initiation",
+        "isCorrect": false,
+        "rationale": "Subduction causes earthquakes, not vice versa."
+      },
+      {
+        "text": "Solar flares",
+        "isCorrect": false,
+        "rationale": "Solar flares originate on the Sun's surface."
+      },
+      {
+        "text": "Geomagnetic field reversal",
+        "isCorrect": false,
+        "rationale": "Magnetic reversals occur over geological timescales in the core."
+      },
+      {
+        "text": "Fires caused by ruptured gas pipelines and broken electrical power lines",
+        "isCorrect": true,
+        "rationale": "Ground shaking frequently ruptures gas mains and power cables, triggering secondary fire hazards (as seen in San Francisco 1906 and Tokyo 1923)."
+      }
+    ],
+    "hint": "Ruptured gas lines and damaged electrical infrastructure frequently trigger major secondary fires."
+  },
+  {
+    "question": "Both Sills and Dykes belong to which classification of volcanic landforms?",
+    "options": [
+      {
+        "text": "Extrusive Volcanic Landforms",
+        "isCorrect": false,
+        "rationale": "Extrusive landforms form on the surface (lava plateaus, volcanic cones)."
+      },
+      {
+        "text": "Sedimentary Stratified Landforms",
+        "isCorrect": false,
+        "rationale": "Sills and dykes are igneous rock bodies."
+      },
+      {
+        "text": "Tectonic Fold Structures",
+        "isCorrect": false,
+        "rationale": "Folds are structural deformations, not igneous intrusions."
+      },
+      {
+        "text": "Intrusive Volcanic Landforms",
+        "isCorrect": true,
+        "rationale": "Sills and Dykes are intrusive igneous landforms created when magma cools and solidifies within cracks inside the Earth's crust."
+      }
+    ],
+    "hint": "They solidify beneath the Earth's surface rather than erupting onto the top."
+  },
+  {
+    "question": "With reference to Intrusive Volcanic Landforms, consider the following statements:\n1. Batholiths are large granitic intrusive bodies forming mountain cores.\n2. Sills are horizontal sheets parallel to bedding planes.\n3. Laccoliths are dome-shaped bodies with a flat level base.\n4. Dykes are vertical wall-like structures.\nWhich of the statements given above are CORRECT?",
+    "options": [
+      {
+        "text": "1 and 3 only",
+        "isCorrect": false,
+        "rationale": "Statements 2 and 4 are also correct."
+      },
+      {
+        "text": "All 1, 2, 3, and 4 are correct",
+        "isCorrect": true,
+        "rationale": "All four statements accurately define the key geometry and characteristics of intrusive plutonic landforms."
+      },
+      {
+        "text": "1 and 2 only",
+        "isCorrect": false,
+        "rationale": "Statements 3 and 4 are also correct."
+      },
+      {
+        "text": "2, 3, and 4 only",
+        "isCorrect": false,
+        "rationale": "Statement 1 is also correct."
+      }
+    ],
+    "hint": "All four descriptions accurately match the shape and orientation of these intrusive plutons."
+  },
+  {
+    "question": "What percentage of the total mass of the Earth's atmosphere is concentrated within 32 km of the Earth's surface?",
+    "options": [
+      {
+        "text": "75%",
+        "isCorrect": false,
+        "rationale": "75% of atmospheric mass is within the troposphere (~11 km)."
+      },
+      {
+        "text": "50%",
+        "isCorrect": false,
+        "rationale": "50% is concentrated within the first 5.6 km."
+      },
+      {
+        "text": "90%",
+        "isCorrect": false,
+        "rationale": "90% is concentrated within ~16-20 km."
+      },
+      {
+        "text": "99%",
+        "isCorrect": true,
+        "rationale": "Gravity holds the atmosphere close to the Earth's surface; approx. 99% of total atmospheric mass is concentrated within 32 km of the surface (and 50% within 5.6 km)."
+      }
+    ],
+    "hint": "Gravity pulls atmospheric gases densely near the ground, keeping 99% within 32 km."
+  },
+  {
+    "question": "Which atmospheric gas is transparent to incoming shortwave solar radiation but opaque to outgoing longwave terrestrial radiation?",
+    "options": [
+      {
+        "text": "Carbon Dioxide (CO2)",
+        "isCorrect": true,
+        "rationale": "Carbon dioxide (and water vapor) acts as a greenhouse gas: it allows shortwave solar radiation to pass through, but absorbs outgoing longwave terrestrial radiation, creating the natural greenhouse effect."
+      },
+      {
+        "text": "Nitrogen",
+        "isCorrect": false,
+        "rationale": "Nitrogen is relatively inactive in absorbing longwave thermal radiation."
+      },
+      {
+        "text": "Helium",
+        "isCorrect": false,
+        "rationale": "Helium is a light inert gas with no greenhouse effect."
+      },
+      {
+        "text": "Argon",
+        "isCorrect": false,
+        "rationale": "Argon is an inert gas with negligible greenhouse interaction."
+      }
+    ],
+    "hint": "This major greenhouse gas traps outgoing terrestrial heat."
+  },
+  {
+    "question": "At what altitude above the Earth's surface does the concentration of Oxygen gas become almost negligible?",
+    "options": [
+      {
+        "text": "120 km",
+        "isCorrect": true,
+        "rationale": "The proportion of Oxygen becomes negligible at an altitude of about 120 km, while Carbon Dioxide and Water Vapor are found only up to 90 km."
+      },
+      {
+        "text": "80 km",
+        "isCorrect": false,
+        "rationale": "80 km is the mesopause level where trace oxygen molecules exist."
+      },
+      {
+        "text": "32 km",
+        "isCorrect": false,
+        "rationale": "32 km contains 99% of atmospheric mass including ample oxygen."
+      },
+      {
+        "text": "50 km",
+        "isCorrect": false,
+        "rationale": "50 km is the stratopause level."
+      }
+    ],
+    "hint": "Beyond 120 km altitude, heavy gases like oxygen become extremely sparse."
+  },
+  {
+    "question": "The lowest layer of the atmosphere, containing nearly all weather phenomena and cloud formation, is the:",
+    "options": [
+      {
+        "text": "Mesosphere",
+        "isCorrect": false,
+        "rationale": "Mesosphere lies between 50-80 km where meteors burn up."
+      },
+      {
+        "text": "Stratosphere",
+        "isCorrect": false,
+        "rationale": "Stratosphere lies above troposphere, ideal for flying jet aircraft."
+      },
+      {
+        "text": "Troposphere",
+        "isCorrect": true,
+        "rationale": "The Troposphere is the lowest atmospheric layer (avg height 13 km); it contains water vapor, dust particles, and almost all weather phenomena."
+      },
+      {
+        "text": "Thermosphere",
+        "isCorrect": false,
+        "rationale": "Thermosphere contains the ionosphere."
+      }
+    ],
+    "hint": "Its name comes from the Greek 'Tropos' meaning turn or change, reflecting active turbulent mixing."
+  },
+  {
+    "question": "Why is the height of the Troposphere greater at the Equator (~18 km) than at the Poles (~8 km)?",
+    "options": [
+      {
+        "text": "Strong conventional currents transport heat to great heights at the Equator.",
+        "isCorrect": true,
+        "rationale": "Intense solar heating at the equator creates strong vertical convection currents that push the tropopause upward to ~18 km, whereas cold dense air at the poles keeps it low at ~8 km."
+      },
+      {
+        "text": "Centrifugal force pulls atmospheric gases away from the poles.",
+        "isCorrect": false,
+        "rationale": "Thermal convection is the dominant driver of tropopause height."
+      },
+      {
+        "text": "The Earth's gravitational pull is stronger at the Equator.",
+        "isCorrect": false,
+        "rationale": "Gravity is actually slightly weaker at the equator due to centrifugal force."
+      },
+      {
+        "text": "Ozone layer accumulation pushes the equator troposphere up.",
+        "isCorrect": false,
+        "rationale": "Ozone accumulation occurs in the stratosphere."
+      }
+    ],
+    "hint": "Intense equatorial heating drives vigorous vertical convection currents."
+  },
+  {
+    "question": "The 'Ozonosphere' (Ozone Layer), which absorbs harmful solar ultraviolet (UV) radiation, is located in the:",
+    "options": [
+      {
+        "text": "Stratosphere",
+        "isCorrect": true,
+        "rationale": "The ozone layer is concentrated in the lower Stratosphere (between 15 km and 35 km), shielding Earth from harmful solar UV rays."
+      },
+      {
+        "text": "Troposphere",
+        "isCorrect": false,
+        "rationale": "Tropospheric ozone is a pollutant (smog component)."
+      },
+      {
+        "text": "Mesosphere",
+        "isCorrect": false,
+        "rationale": "Mesosphere lies above the stratosphere."
+      },
+      {
+        "text": "Ionosphere",
+        "isCorrect": false,
+        "rationale": "Ionosphere reflects radio waves."
+      }
+    ],
+    "hint": "Located above the tropopause, this layer experiences temperature inversion due to UV absorption."
+  },
+  {
+    "question": "Which is the COLDEST layer of the Earth's atmosphere, where temperatures drop down to -100°C?",
+    "options": [
+      {
+        "text": "Troposphere",
+        "isCorrect": false,
+        "rationale": "Troposphere reaches around -60°C at the tropopause."
+      },
+      {
+        "text": "Stratosphere",
+        "isCorrect": false,
+        "rationale": "Stratosphere warms with height due to ozone absorption."
+      },
+      {
+        "text": "Exosphere",
+        "isCorrect": false,
+        "rationale": "Exosphere has high kinetic temperature due to sparse energetic ions."
+      },
+      {
+        "text": "Mesosphere",
+        "isCorrect": true,
+        "rationale": "In the Mesosphere (50-80 km), temperature decreases with height, reaching the coldest temperature in the atmosphere (-100°C) at the mesopause (~80 km)."
+      }
+    ],
+    "hint": "Located between 50 km and 80 km altitude, meteors burn up in this layer."
+  },
+  {
+    "question": "The 'Ionosphere' layer of the atmosphere is crucial for radio communication because:",
+    "options": [
+      {
+        "text": "It absorbs all incoming solar radiation completely.",
+        "isCorrect": false,
+        "rationale": "Ionosphere absorbs X-rays/EUV but reflects radio waves."
+      },
+      {
+        "text": "It contains electrically charged particles (ions) that reflect radio waves back to Earth.",
+        "isCorrect": true,
+        "rationale": "The Ionosphere (80-400 km) contains ionized particles that reflect shortwave radio transmissions back to Earth, enabling global wireless communication."
+      },
+      {
+        "text": "It maintains a constant room temperature.",
+        "isCorrect": false,
+        "rationale": "Temperatures increase rapidly with height in thermosphere."
+      },
+      {
+        "text": "It produces rain clouds that conduct radio signals.",
+        "isCorrect": false,
+        "rationale": "Clouds form in the troposphere."
+      }
+    ],
+    "hint": "Electrically charged ions reflect radio signals back down to the ground."
+  },
+  {
+    "question": "The term 'Insolation' stands for:",
+    "options": [
+      {
+        "text": "Internal Solitary Radiation from Earth's core",
+        "isCorrect": false,
+        "rationale": "Geothermal heat comes from interior, not insolation."
+      },
+      {
+        "text": "Incoming Solar Radiation received by the Earth",
+        "isCorrect": true,
+        "rationale": "Insolation is a contraction of 'INcoming SOLar radiATION', representing radiant energy received from the Sun by Earth."
+      },
+      {
+        "text": "International System of Oceanic Latitudes",
+        "isCorrect": false,
+        "rationale": "Insolation is a solar radiation term."
+      },
+      {
+        "text": "Insulation provided by atmospheric clouds",
+        "isCorrect": false,
+        "rationale": "Cloud insulation is atmospheric trapping, not insolation."
+      }
+    ],
+    "hint": "It is formed from the phrase 'INcoming SOLar radiATION'."
+  },
+  {
+    "question": "On which date is the Earth nearest to the Sun (Perihelion position, ~147 million km)?",
+    "options": [
+      {
+        "text": "July 4th",
+        "isCorrect": false,
+        "rationale": "On July 4th (Aphelion), the Earth is farthest from the Sun (~152 million km)."
+      },
+      {
+        "text": "March 21st",
+        "isCorrect": false,
+        "rationale": "March 21st is the Vernal Equinox."
+      },
+      {
+        "text": "January 3rd",
+        "isCorrect": true,
+        "rationale": "On January 3rd (Perihelion), the Earth is closest to the Sun at a distance of about 147 million km."
+      },
+      {
+        "text": "September 23rd",
+        "isCorrect": false,
+        "rationale": "September 23rd is the Autumnal Equinox."
+      }
+    ],
+    "hint": "This position occurs in early January during Northern Hemisphere winter."
+  },
+  {
+    "question": "On which date is the Earth farthest from the Sun (Aphelion position, ~152 million km)?",
+    "options": [
+      {
+        "text": "January 3rd",
+        "isCorrect": false,
+        "rationale": "January 3rd is Perihelion (nearest position)."
+      },
+      {
+        "text": "December 22nd",
+        "isCorrect": false,
+        "rationale": "December 22nd is Winter Solstice."
+      },
+      {
+        "text": "June 21st",
+        "isCorrect": false,
+        "rationale": "June 21st is Summer Solstice."
+      },
+      {
+        "text": "July 4th",
+        "isCorrect": true,
+        "rationale": "On July 4th (Aphelion), the Earth is farthest from the Sun at a distance of about 152 million km."
+      }
+    ],
+    "hint": "This position occurs in early July."
+  },
+  {
+    "question": "The 'Albedo' of the Earth refers to the:",
+    "options": [
+      {
+        "text": "Rate of evaporation from tropical seas",
+        "isCorrect": false,
+        "rationale": "Albedo measures light reflectivity."
+      },
+      {
+        "text": "Amount of longwave radiation emitted by land masses",
+        "isCorrect": false,
+        "rationale": "This is terrestrial radiation."
+      },
+      {
+        "text": "Percentage of incoming solar radiation reflected back into space without heating the Earth (~35%)",
+        "isCorrect": true,
+        "rationale": "Albedo is the measure of reflectivity of a surface; Earth's average albedo is ~35%, meaning 35% of solar radiation is reflected straight back to space."
+      },
+      {
+        "text": "Total heat absorbed by the oceans",
+        "isCorrect": false,
+        "rationale": "Absorbed radiation heats the Earth; albedo measures reflected unabsorbed radiation."
+      }
+    ],
+    "hint": "Fresh snow has high albedo (~80-90%), whereas dark soil/oceans have low albedo."
+  },
+  {
+    "question": "The process of heat transfer through direct molecular contact in solid bodies without actual movement of matter is called:",
+    "options": [
+      {
+        "text": "Convection",
+        "isCorrect": false,
+        "rationale": "Convection involves heat transfer through actual fluid/gas mass movement."
+      },
+      {
+        "text": "Conduction",
+        "isCorrect": true,
+        "rationale": "Conduction is the transfer of thermal energy through direct contact between adjacent atoms/molecules in solid media."
+      },
+      {
+        "text": "Advection",
+        "isCorrect": false,
+        "rationale": "Advection involves horizontal transfer of heat by wind."
+      },
+      {
+        "text": "Radiation",
+        "isCorrect": false,
+        "rationale": "Radiation transfers heat via electromagnetic waves without a physical medium."
+      }
+    ],
+    "hint": "This mechanism warms the lowest layer of air in contact with the ground."
+  },
+  {
+    "question": "The vertical transfer of heat in the atmosphere through actual movement of heated air masses is called:",
+    "options": [
+      {
+        "text": "Advection",
+        "isCorrect": false,
+        "rationale": "Advection is horizontal heat transport by winds."
+      },
+      {
+        "text": "Convection",
+        "isCorrect": true,
+        "rationale": "Convection is the vertical transport of heat caused by heated air expanding, becoming buoyant, and rising upward."
+      },
+      {
+        "text": "Conduction",
+        "isCorrect": false,
+        "rationale": "Conduction is molecular contact heat transfer."
+      },
+      {
+        "text": "Radiation",
+        "isCorrect": false,
+        "rationale": "Radiation is electromagnetic heat emission."
+      }
+    ],
+    "hint": "Warm air expands, becomes lighter, and rises vertically in convection cells."
+  },
+  {
+    "question": "The HORIZONTAL transfer of heat by moving air masses (winds) is known as:",
+    "options": [
+      {
+        "text": "Convection",
+        "isCorrect": false,
+        "rationale": "Convection is vertical heat transport."
+      },
+      {
+        "text": "Advection",
+        "isCorrect": true,
+        "rationale": "Advection is the horizontal transport of atmospheric properties (heat, moisture) by wind (e.g., 'Loo' winds in summer over North India)."
+      },
+      {
+        "text": "Insolation",
+        "isCorrect": false,
+        "rationale": "Insolation is solar input."
+      },
+      {
+        "text": "Conduction",
+        "isCorrect": false,
+        "rationale": "Conduction is contact heat transfer."
+      }
+    ],
+    "hint": "The summer 'Loo' wind in North India is a classic example of this horizontal heat transport."
+  },
+  {
+    "question": "The energy emitted by the Earth's surface back towards space in the form of longwave electromagnetic radiation is called:",
+    "options": [
+      {
+        "text": "Insolation",
+        "isCorrect": false,
+        "rationale": "Insolation is shortwave radiation coming from the Sun."
+      },
+      {
+        "text": "Terrestrial Radiation",
+        "isCorrect": true,
+        "rationale": "Terrestrial radiation is longwave infrared thermal radiation emitted by the warmed Earth surface into the atmosphere."
+      },
+      {
+        "text": "Solar Constant",
+        "isCorrect": false,
+        "rationale": "Solar constant is energy received at the outer atmospheric boundary (1.94 cal/cm²/min)."
+      },
+      {
+        "text": "Coronal Mass Ejection",
+        "isCorrect": false,
+        "rationale": "Solar solar flare phenomenon."
+      }
+    ],
+    "hint": "Unlike shortwave solar insolation, Earth emits longwave thermal radiation."
+  },
+  {
+    "question": "The 'Heat Budget' of the Earth represents:",
+    "options": [
+      {
+        "text": "The excess heat stored in the Earth's core",
+        "isCorrect": false,
+        "rationale": "Core heat is internal geothermal energy."
+      },
+      {
+        "text": "The total electricity generated by solar panels globally",
+        "isCorrect": false,
+        "rationale": "Not an astronomical heat budget."
+      },
+      {
+        "text": "The exact equilibrium/balance maintained between incoming solar insolation and outgoing terrestrial radiation",
+        "isCorrect": true,
+        "rationale": "The Earth's Heat Budget accounts for the balance between total incoming shortwave solar radiation received and total outgoing longwave radiation returned to space, maintaining a stable global temperature."
+      },
+      {
+        "text": "The difference between equatorial and polar ocean temperatures",
+        "isCorrect": false,
+        "rationale": "This is a temperature gradient, not a heat budget."
+      }
+    ],
+    "hint": "It ensures the Earth as a whole neither accumulates heat indefinitely nor freezes over time."
+  },
+  {
+    "question": "Lines drawn on a weather map connecting places having equal temperature are called:",
+    "options": [
+      {
+        "text": "Isohyets",
+        "isCorrect": false,
+        "rationale": "Isohyets connect points of equal rainfall."
+      },
+      {
+        "text": "Isotherms",
+        "isCorrect": true,
+        "rationale": "Isotherms are lines on a map connecting points of equal atmospheric temperature."
+      },
+      {
+        "text": "Isobars",
+        "isCorrect": false,
+        "rationale": "Isobars connect points of equal atmospheric pressure."
+      },
+      {
+        "text": "Isohels",
+        "isCorrect": false,
+        "rationale": "Isohels connect points of equal sunshine duration."
+      }
+    ],
+    "hint": "'Iso' means equal and 'Therm' means temperature."
+  },
+  {
+    "question": "What is 'Temperature Inversion' in meteorology?",
+    "options": [
+      {
+        "text": "A condition where temperature drops below absolute zero",
+        "isCorrect": false,
+        "rationale": "Impossible under natural conditions."
+      },
+      {
+        "text": "A condition where atmospheric temperature INCREASES with altitude instead of decreasing",
+        "isCorrect": true,
+        "rationale": "Temperature Inversion occurs when warm air overlies cold air, reversing the normal environmental lapse rate (where temperature decreases with height)."
+      },
+      {
+        "text": "Rapid cooling of the Earth's core during winter",
+        "isCorrect": false,
+        "rationale": "Core temperature is insulated from atmospheric weather."
+      },
+      {
+        "text": "Equatorial temperatures dropping below polar temperatures",
+        "isCorrect": false,
+        "rationale": "Extremely rare global climate anomaly."
+      }
+    ],
+    "hint": "Warm air traps cold air beneath it, reversing the normal cooling with height."
+  },
+  {
+    "question": "Which set of conditions is MOST favorable for the occurrence of Surface Temperature Inversion?",
+    "options": [
+      {
+        "text": "Humid tropical afternoon thunderstorm weather",
+        "isCorrect": false,
+        "rationale": "Convective turbulence destroys inversion."
+      },
+      {
+        "text": "Short summer nights, overcast cloudy skies, and strong gale winds",
+        "isCorrect": false,
+        "rationale": "Cloud cover traps heat and strong winds mix the air, preventing surface inversion."
+      },
+      {
+        "text": "Long winter nights, clear skies, calm/still air, and dry atmosphere with snow cover",
+        "isCorrect": true,
+        "rationale": "Long winter nights allow maximum terrestrial radiation loss; clear skies permit heat escape; calm air prevents turbulent mixing, creating cold surface air beneath warm air."
+      },
+      {
+        "text": "Dense cloud cover with warm ocean breezes",
+        "isCorrect": false,
+        "rationale": "Ocean breezes maintain warm uniform lower air."
+      }
+    ],
+    "hint": "Clear skies and still air during long winter nights permit rapid radiational cooling of the ground."
+  },
+  {
+    "question": "According to Ferrel's Law, the Coriolis Force deflects moving winds in which direction?",
+    "options": [
+      {
+        "text": "Towards the Equator in both hemispheres",
+        "isCorrect": false,
+        "rationale": "Coriolis force acts perpendicular to wind direction, not strictly equatorial."
+      },
+      {
+        "text": "To the Left in Northern Hemisphere and Right in Southern Hemisphere",
+        "isCorrect": false,
+        "rationale": "This reverses the actual Coriolis deflection."
+      },
+      {
+        "text": "Towards the West in both hemispheres",
+        "isCorrect": false,
+        "rationale": "Deflection depends on moving direction relative to hemisphere."
+      },
+      {
+        "text": "To the RIGHT in the Northern Hemisphere and to the LEFT in the Southern Hemisphere",
+        "isCorrect": true,
+        "rationale": "Ferrel's Law states that due to Earth's rotation (Coriolis force), winds are deflected to their right in the Northern Hemisphere and to their left in the Southern Hemisphere."
+      }
+    ],
+    "hint": "In the Northern Hemisphere, deflection is to the right of the wind's path."
+  },
+  {
+    "question": "Where is the magnitude of the Coriolis Force ZERO?",
+    "options": [
+      {
+        "text": "At the Poles (90° latitude)",
+        "isCorrect": false,
+        "rationale": "Coriolis force is maximum at the poles (sin 90° = 1)."
+      },
+      {
+        "text": "At the Equator (0° latitude)",
+        "isCorrect": true,
+        "rationale": "Coriolis force is proportional to the sine of latitude (2Ωv sin φ); at the equator (sin 0° = 0), Coriolis force is ZERO, which prevents tropical cyclones from forming directly on the equator."
+      },
+      {
+        "text": "At 30° North and South",
+        "isCorrect": false,
+        "rationale": "Coriolis force has intermediate strength at 30°."
+      },
+      {
+        "text": "At 60° North and South",
+        "isCorrect": false,
+        "rationale": "Coriolis force is strong at 60°."
+      }
+    ],
+    "hint": "Because sin(0°) = 0, this force vanishes at 0 degrees latitude."
+  },
+  {
+    "question": "What is a 'Geostrophic Wind'?",
+    "options": [
+      {
+        "text": "A wind blowing parallel to straight isobars when Pressure Gradient Force balances Coriolis Force",
+        "isCorrect": true,
+        "rationale": "When pressure gradient force and Coriolis force balance each other perfectly (in upper atmosphere where friction is absent), wind blows parallel to isobars as a Geostrophic Wind."
+      },
+      {
+        "text": "A hurricane wind blowing in a tight circular spiral",
+        "isCorrect": false,
+        "rationale": "Cyclonic winds involve centrifugal acceleration as well."
+      },
+      {
+        "text": "A wind blowing directly perpendicular across isobars at the ground surface",
+        "isCorrect": false,
+        "rationale": "Surface friction causes wind to cross isobars at an angle."
+      },
+      {
+        "text": "A localized sea breeze blowing during daytime",
+        "isCorrect": false,
+        "rationale": "Sea breeze is a thermal local wind."
+      }
+    ],
+    "hint": "It occurs in the upper troposphere where friction is absent and isobar balance is achieved."
+  },
+  {
+    "question": "What is the prevailing direction of the Trade Winds?",
+    "options": [
+      {
+        "text": "Northeast in Northern Hemisphere and Southeast in Southern Hemisphere",
+        "isCorrect": true,
+        "rationale": "Trade winds blow from Subtropical High Pressure Belts (~30°) towards Equatorial Low Pressure Belts (ITCZ), deflected by Coriolis force to become NE Trades in NH and SE Trades in SH."
+      },
+      {
+        "text": "Northwest in Northern Hemisphere and Southwest in Southern Hemisphere",
+        "isCorrect": false,
+        "rationale": "Incorrect wind directions."
+      },
+      {
+        "text": "Southwest in Northern Hemisphere and Northwest in Southern Hemisphere",
+        "isCorrect": false,
+        "rationale": "This describes the Westerlies."
+      },
+      {
+        "text": "Due East-to-West along the poles",
+        "isCorrect": false,
+        "rationale": "Trade winds operate in tropical latitudes."
+      }
+    ],
+    "hint": "They blow from the subtropical highs towards the equatorial low."
+  },
+  {
+    "question": "What is the prevailing direction of the Westerlies?",
+    "options": [
+      {
+        "text": "Northeast in Northern Hemisphere and Southeast in Southern Hemisphere",
+        "isCorrect": false,
+        "rationale": "This describes Trade Winds."
+      },
+      {
+        "text": "Due West-to-East along the equator",
+        "isCorrect": false,
+        "rationale": "Westerlies operate in mid-latitudes."
+      },
+      {
+        "text": "Southwest in Northern Hemisphere and Northwest in Southern Hemisphere",
+        "isCorrect": true,
+        "rationale": "Westerlies blow from Subtropical Highs (~30°) towards Subpolar Lows (~60°), deflected by Coriolis force to become SW in NH and NW in SH."
+      },
+      {
+        "text": "Southeast in Northern Hemisphere and Northeast in Southern Hemisphere",
+        "isCorrect": false,
+        "rationale": "Incorrect wind vectors."
+      }
+    ],
+    "hint": "They blow from subtropical high pressure belts towards subpolar low pressure belts."
+  },
+  {
+    "question": "The stormy, high-velocity winds known as 'Roaring Forties', 'Furious Fifties', and 'Shrieking Sixties' are:",
+    "options": [
+      {
+        "text": "Polar easterly gales over Antarctica",
+        "isCorrect": false,
+        "rationale": "Polar easterlies blow in high polar latitudes."
+      },
+      {
+        "text": "Local katabatic mountain winds in the Andes",
+        "isCorrect": false,
+        "rationale": "These are planet-scale prevailing westerlies."
+      },
+      {
+        "text": "Strong prevailing Westerlies in the Southern Hemisphere",
+        "isCorrect": true,
+        "rationale": "In the Southern Hemisphere, vast unbroken oceans between 40°S and 60°S offer minimal frictional resistance, causing Westerlies to blow with fierce velocity ('Roaring Forties', 'Furious Fifties', 'Shrieking Sixties')."
+      },
+      {
+        "text": "Tropical trade winds over the Indian Ocean",
+        "isCorrect": false,
+        "rationale": "Trade winds are tropical easterly winds."
+      }
+    ],
+    "hint": "Unbroken expanses of southern ocean allow these westerlies to reach violent speeds."
+  },
+  {
+    "question": "The 'Doldrums' (Equatorial Low Pressure Belt) is characterized by:",
+    "options": [
+      {
+        "text": "Continuous blizzards and polar easterlies",
+        "isCorrect": false,
+        "rationale": "Doldrums is hot and humid tropical belt."
+      },
+      {
+        "text": "Cold sinking air and descending anticyclonic weather",
+        "isCorrect": false,
+        "rationale": "This describes the Subtropical Highs."
+      },
+      {
+        "text": "Calm conditions, light variable winds, and strong vertical convective updrafts between 5°N and 5°S",
+        "isCorrect": true,
+        "rationale": "Doldrums (Intertropical Convergence Zone) near the equator experiences intense solar heating, causing air to expand and rise vertically, resulting in calm surface winds and stormy afternoons."
+      },
+      {
+        "text": "Violent surface gale winds and high barometric pressure",
+        "isCorrect": false,
+        "rationale": "Doldrums has low pressure and calm surface winds."
+      }
+    ],
+    "hint": "Surface winds are very light and calm because air movement is predominantly vertical."
+  },
+  {
+    "question": "The 'Horse Latitudes' located around 30°N and 30°S are characterized by:",
+    "options": [
+      {
+        "text": "Subtropical High Pressure Belts with descending calm air and dry desert conditions",
+        "isCorrect": true,
+        "rationale": "Horse Latitudes are subtropical high pressure zones (~30°N and S) where air ascending at the equator subsides and warms adiabatically, creating calm winds, clear skies, and major world deserts."
+      },
+      {
+        "text": "Equatorial Low Pressure Belts with torrential daily rain",
+        "isCorrect": false,
+        "rationale": "This describes the Doldrums."
+      },
+      {
+        "text": "Subpolar Low Pressure Belts with frequent frontal storms",
+        "isCorrect": false,
+        "rationale": "Subpolar lows lie around 60° latitude."
+      },
+      {
+        "text": "Polar High Pressure Belts with perpetual ice cover",
+        "isCorrect": false,
+        "rationale": "Polar highs lie at 90° latitude."
+      }
+    ],
+    "hint": "Historical sailing ships bound for America sometimes threw horses overboard in these calm high-pressure belts."
+  },
+  {
+    "question": "A 'Sea Breeze' occurs during the DAY TIME because:",
+    "options": [
+      {
+        "text": "Land heats up faster than water, creating low pressure over land and high pressure over the sea.",
+        "isCorrect": true,
+        "rationale": "During the day, land heats faster than sea due to lower specific heat; warm air rises over land (low pressure), causing cool air to blow from sea to land as a Sea Breeze."
+      },
+      {
+        "text": "Sea heats up faster than land during daytime.",
+        "isCorrect": false,
+        "rationale": "Land heats much faster than water."
+      },
+      {
+        "text": "High pressure develops over land during the day.",
+        "isCorrect": false,
+        "rationale": "Low pressure develops over land due to heating."
+      },
+      {
+        "text": "Land cools faster than water during the day.",
+        "isCorrect": false,
+        "rationale": "Cooling occurs at night."
+      }
+    ],
+    "hint": "Land warms faster than water under sunlight, causing cool sea air to blow inland."
+  },
+  {
+    "question": "A 'Land Breeze' occurs during the NIGHT TIME because:",
+    "options": [
+      {
+        "text": "Sea cools down faster than land at night.",
+        "isCorrect": false,
+        "rationale": "Water retains heat much longer than land."
+      },
+      {
+        "text": "High pressure develops over the sea at night.",
+        "isCorrect": false,
+        "rationale": "Warmer sea water maintains lower pressure."
+      },
+      {
+        "text": "Land cools down faster than water, creating high pressure over land and low pressure over the sea.",
+        "isCorrect": true,
+        "rationale": "At night, land loses heat rapidly by terrestrial radiation while sea remains warm; cool dense air over land blows offshore towards low pressure over the sea as a Land Breeze."
+      },
+      {
+        "text": "Convection currents rise over land at night.",
+        "isCorrect": false,
+        "rationale": "Convection rises over warmer sea water at night."
+      }
+    ],
+    "hint": "Radiational cooling makes land colder than sea water at night, sending cool air offshore."
+  },
+  {
+    "question": "A 'Valley Breeze' (Anabatic Wind) occurs during:",
+    "options": [
+      {
+        "text": "Nighttime, when cold air drains down into valley floors",
+        "isCorrect": false,
+        "rationale": "This describes a Mountain/Katabatic Breeze."
+      },
+      {
+        "text": "Daytime, when mountain slopes warm faster than valley floors, causing air to flow UPWARDS along slopes",
+        "isCorrect": true,
+        "rationale": "During daytime, sunlit mountain slopes heat faster than valley floors; warm buoyant air ascends along slopes as an Anabatic or Valley Breeze."
+      },
+      {
+        "text": "Rainy season, when rivers overflow",
+        "isCorrect": false,
+        "rationale": "Valley breeze is a daily thermal wind."
+      },
+      {
+        "text": "Winter solstices only",
+        "isCorrect": false,
+        "rationale": "Valley breezes occur daily under clear skies."
+      }
+    ],
+    "hint": "Sunlit mountain slopes heat up during the day, drawing air upward from the valley."
+  },
+  {
+    "question": "A 'Mountain Breeze' (Katabatic Wind) occurs during:",
+    "options": [
+      {
+        "text": "Daytime, when warm air rises up mountain slopes",
+        "isCorrect": false,
+        "rationale": "This describes a Valley/Anabatic Breeze."
+      },
+      {
+        "text": "Equinox afternoons",
+        "isCorrect": false,
+        "rationale": "It occurs at night due to slope cooling."
+      },
+      {
+        "text": "Midday hours during tropical cyclones",
+        "isCorrect": false,
+        "rationale": "Mountain breeze is a nocturnal radiational wind."
+      },
+      {
+        "text": "Nighttime, when cold dense air along mountain slopes drains DOWNWARDS into valley floors",
+        "isCorrect": true,
+        "rationale": "At night, mountain slopes cool rapidly via terrestrial radiation; heavy cold air drains downslope into valley floors under gravity as a Katabatic or Mountain Breeze."
+      }
+    ],
+    "hint": "Cold heavy air along mountain slopes drains down into valley bottoms at night."
+  },
+  {
+    "question": "The 'Chinook' wind, known as the 'Snow Eater', is a warm dry wind that blows down the eastern slopes of the:",
+    "options": [
+      {
+        "text": "Alps in Europe",
+        "isCorrect": false,
+        "rationale": "The foehn wind blows down the Alps."
+      },
+      {
+        "text": "Rocky Mountains in North America",
+        "isCorrect": true,
+        "rationale": "Chinook is a warm, dry foehn-type katabatic wind that descends the eastern leeward slopes of the Rocky Mountains in North America, rapidly melting snow cover."
+      },
+      {
+        "text": "Andes in South America",
+        "isCorrect": false,
+        "rationale": "The Zonda wind blows down the eastern Andes."
+      },
+      {
+        "text": "Himalayas in Asia",
+        "isCorrect": false,
+        "rationale": "Loo is a summer wind in North India."
+      }
+    ],
+    "hint": "This wind melts snow cover rapidly over the US and Canadian prairies."
+  },
+  {
+    "question": "The 'Foehn' wind is a warm, dry local wind blowing down the leeward slopes of the:",
+    "options": [
+      {
+        "text": "Appalachian Mountains",
+        "isCorrect": false,
+        "rationale": "Appalachians experience cold easterlies/northerlies."
+      },
+      {
+        "text": "Atlas Mountains",
+        "isCorrect": false,
+        "rationale": "Atlas mountains experience Sirocco/Khamsin winds."
+      },
+      {
+        "text": "Rocky Mountains",
+        "isCorrect": false,
+        "rationale": "Chinook wind blows down the Rockies."
+      },
+      {
+        "text": "Alps in Europe (Switzerland/Austria)",
+        "isCorrect": true,
+        "rationale": "Foehn is a warm, dry wind that blows down the northern leeward valleys of the Alps in Europe, accelerating snowmelt and crop ripening."
+      }
+    ],
+    "hint": "It warms European alpine valleys, expediting spring snowmelt."
+  },
+  {
+    "question": "The 'Mistral' is a cold, dry, high-velocity wind that blows from the Alps down the Rhone Valley towards the:",
+    "options": [
+      {
+        "text": "Red Sea",
+        "isCorrect": false,
+        "rationale": "Red Sea is in the Middle East."
+      },
+      {
+        "text": "Black Sea",
+        "isCorrect": false,
+        "rationale": "Bora winds blow towards Adriatic Sea."
+      },
+      {
+        "text": "Mediterranean Sea (France)",
+        "isCorrect": true,
+        "rationale": "Mistral is a strong, cold, dry northerly wind that accelerates through the Rhone Valley of France into the Gulf of Lion in the Mediterranean Sea."
+      },
+      {
+        "text": "Baltic Sea",
+        "isCorrect": false,
+        "rationale": "Baltic Sea is in Northern Europe."
+      }
+    ],
+    "hint": "This chilling wind channels through the Rhone valley into southern France."
+  },
+  {
+    "question": "The 'Sirocco' is a scorching, dust-laden wind that originates in the Sahara Desert and blows across the Mediterranean Sea towards:",
+    "options": [
+      {
+        "text": "Equatorial South America",
+        "isCorrect": false,
+        "rationale": "Does not cross the Atlantic to South America."
+      },
+      {
+        "text": "Central Asia",
+        "isCorrect": false,
+        "rationale": "Blowing north across Mediterranean to Southern Europe."
+      },
+      {
+        "text": "Southern Europe (Italy, Spain, Greece)",
+        "isCorrect": true,
+        "rationale": "Sirocco is a hot, dry, dust-laden wind originating in the Sahara Desert that picks up moisture crossing the Mediterranean, bringing stifling heat and 'blood rain' (red dust) to Southern Europe."
+      },
+      {
+        "text": "West Africa",
+        "isCorrect": false,
+        "rationale": "Harmattan (the Doctor) blows towards West Africa."
+      }
+    ],
+    "hint": "It carries Saharan red dust across the Mediterranean Sea into Southern Europe."
+  },
+  {
+    "question": "'Relative Humidity' is defined as the:",
+    "options": [
+      {
+        "text": "Weight of water vapor per unit volume of air in grams per cubic meter",
+        "isCorrect": false,
+        "rationale": "This defines Absolute Humidity."
+      },
+      {
+        "text": "Ratio of actual water vapor content in air to maximum water vapor capacity at a given temperature, expressed as a percentage (%)",
+        "isCorrect": true,
+        "rationale": "Relative Humidity (RH) = (Actual Water Vapor / Maximum Capacity) × 100 at a given temperature."
+      },
+      {
+        "text": "Temperature at which dew starts condensing",
+        "isCorrect": false,
+        "rationale": "This defines Dew Point."
+      },
+      {
+        "text": "Weight of water vapor per unit mass of dry air",
+        "isCorrect": false,
+        "rationale": "This defines Specific Humidity."
+      }
+    ],
+    "hint": "It measures how close air is to saturation, expressed as a percentage."
+  },
+  {
+    "question": "'Absolute Humidity' measures the:",
+    "options": [
+      {
+        "text": "Percentage of clouds covering the sky",
+        "isCorrect": false,
+        "rationale": "This defines cloudiness in oktas."
+      },
+      {
+        "text": "Actual mass of water vapor present per unit volume of air (expressed in g/m³)",
+        "isCorrect": true,
+        "rationale": "Absolute Humidity is the total mass of water vapor divided by the volume of air (g/m³); it changes when air expands or contracts."
+      },
+      {
+        "text": "Rate of precipitation per hour",
+        "isCorrect": false,
+        "rationale": "This defines rainfall intensity."
+      },
+      {
+        "text": "Ratio of water vapor to maximum capacity",
+        "isCorrect": false,
+        "rationale": "This defines Relative Humidity."
+      }
+    ],
+    "hint": "It measures the actual weight of water vapor in a cubic meter of air."
+  },
+  {
+    "question": "The 'Dew Point' is defined as the temperature at which:",
+    "options": [
+      {
+        "text": "Relative humidity drops to 0%",
+        "isCorrect": false,
+        "rationale": "At 0% RH, air is completely dry."
+      },
+      {
+        "text": "Water boils into steam",
+        "isCorrect": false,
+        "rationale": "Boiling point is 100°C."
+      },
+      {
+        "text": "Water begins to freeze into ice crystals",
+        "isCorrect": false,
+        "rationale": "Freezing point is 0°C."
+      },
+      {
+        "text": "A given sample of air becomes fully saturated (Relative Humidity = 100%) and condensation begins",
+        "isCorrect": true,
+        "rationale": "Dew point is the critical temperature to which an air parcel must be cooled for relative humidity to reach 100%, causing water vapor to condense into liquid droplets."
+      }
+    ],
+    "hint": "At this temperature, relative humidity reaches exactly 100%."
+  },
+  {
+    "question": "Which type of clouds are located at the HIGHEST altitudes (6,000 to 12,000 meters) and appear as thin, feathery, fibrous ice-crystal strands?",
+    "options": [
+      {
+        "text": "Nimbus Clouds",
+        "isCorrect": false,
+        "rationale": "Nimbus clouds are dark rain-bearing clouds."
+      },
+      {
+        "text": "Stratus Clouds",
+        "isCorrect": false,
+        "rationale": "Stratus clouds are low-level layered grey sheets."
+      },
+      {
+        "text": "Cumulus Clouds",
+        "isCorrect": false,
+        "rationale": "Cumulus clouds are medium-to-low vertical development cotton-like clouds."
+      },
+      {
+        "text": "Cirrus Clouds",
+        "isCorrect": true,
+        "rationale": "Cirrus clouds are high-altitude clouds (6-12 km) composed entirely of ice crystals, featuring a thin, wispy, feathery appearance."
+      }
+    ],
+    "hint": "These high-altitude wispy clouds are composed entirely of ice crystals."
+  },
+  {
+    "question": "Towering, dark vertical development clouds that produce severe thunderstorms, heavy rainfall, lightning, and hail are classified as:",
+    "options": [
+      {
+        "text": "Cumulonimbus Clouds",
+        "isCorrect": true,
+        "rationale": "Cumulonimbus clouds are giant anvil-topped thunderheads with great vertical extent, producing torrential downpours, lightning, thunder, hail, and tornadoes."
+      },
+      {
+        "text": "Stratocumulus Clouds",
+        "isCorrect": false,
+        "rationale": "Stratocumulus form low-level grey patch layers."
+      },
+      {
+        "text": "Cirrostratus Clouds",
+        "isCorrect": false,
+        "rationale": "Cirrostratus form high thin veils causing halos around sun/moon."
+      },
+      {
+        "text": "Altocumulus Clouds",
+        "isCorrect": false,
+        "rationale": "Altocumulus form mid-level grey/white sheets or rolls."
+      }
+    ],
+    "hint": "These anvil-topped 'thunderhead' clouds bring extreme storm weather."
+  },
+  {
+    "question": "Rainfall caused when moisture-laden winds are forced to ascend over a mountain barrier is known as:",
+    "options": [
+      {
+        "text": "Orographic (Relief) Rainfall",
+        "isCorrect": true,
+        "rationale": "Orographic rainfall occurs when moist air masses are forced upward over mountain ranges, cooling adiabatically and condensing to drop heavy rain on the windward side."
+      },
+      {
+        "text": "Monsoonal Drizzle",
+        "isCorrect": false,
+        "rationale": "Monsoonal rain can be convective or orographic."
+      },
+      {
+        "text": "Convectional Rainfall",
+        "isCorrect": false,
+        "rationale": "Convectional rainfall results from intense surface heating and rising thermal columns."
+      },
+      {
+        "text": "Cyclonic (Frontal) Rainfall",
+        "isCorrect": false,
+        "rationale": "Frontal rainfall results from warm and cold air mass convergence."
+      }
+    ],
+    "hint": "It creates heavy rain on the windward slope and a dry rain-shadow area on the leeward slope."
+  },
+  {
+    "question": "Tropical Cyclones derive their immense energy primarily from:",
+    "options": [
+      {
+        "text": "Latent Heat of Condensation released when moist sea air rises and condenses",
+        "isCorrect": true,
+        "rationale": "Tropical cyclones act as thermal heat engines powered by the massive release of Latent Heat of Condensation when warm, moist oceanic air ascends and condenses."
+      },
+      {
+        "text": "Solar ultraviolet rays absorbing in the stratosphere",
+        "isCorrect": false,
+        "rationale": "Stratospheric UV absorption does not power surface cyclones."
+      },
+      {
+        "text": "Geothermal heat emitted from underwater volcanic vents",
+        "isCorrect": false,
+        "rationale": "Geothermal energy contribution is negligible."
+      },
+      {
+        "text": "Frictional forces between sea water and wind",
+        "isCorrect": false,
+        "rationale": "Friction slows winds down."
+      }
+    ],
+    "hint": "Warm sea water (>27°C) supplies water vapor whose condensation releases latent heat."
+  },
+  {
+    "question": "The 'Eye' of a Tropical Cyclone is characterized by:",
+    "options": [
+      {
+        "text": "A calm central area with low atmospheric pressure, sinking air, clear skies, and light winds",
+        "isCorrect": true,
+        "rationale": "The eye of a tropical cyclone is a central circular region of relative calm (10-50 km diameter) featuring lowest barometric pressure, subsiding air, clear skies, and light winds."
+      },
+      {
+        "text": "The most violent wind wall with torrential rain",
+        "isCorrect": false,
+        "rationale": "This describes the Eye Wall surrounding the eye."
+      },
+      {
+        "text": "Severe lightning strikes and squalls",
+        "isCorrect": false,
+        "rationale": "Lightning occurs in the eyewall rainbands."
+      },
+      {
+        "text": "High barometric pressure and freezing blizzards",
+        "isCorrect": false,
+        "rationale": "Tropical cyclone eyes are warm and low pressure."
+      }
+    ],
+    "hint": "Surrounded by the violent eyewall, the central core itself is remarkably calm and clear."
+  },
+  {
+    "question": "Unlike Tropical Cyclones, Extra-Tropical (Mid-Latitude) Cyclones form due to:",
+    "options": [
+      {
+        "text": "Volcanic dust particles seeding clouds",
+        "isCorrect": false,
+        "rationale": "Volcanic ash is not a primary driver of frontal cyclones."
+      },
+      {
+        "text": "Exclusive heating of tropical ocean waters",
+        "isCorrect": false,
+        "rationale": "This describes tropical cyclones."
+      },
+      {
+        "text": "Convergence of contrasting warm and cold air masses along weather fronts",
+        "isCorrect": true,
+        "rationale": "Extra-tropical (frontal) cyclones form in temperate/subpolar regions (30°-65° lat) along polar fronts where warm tropical air masses meet cold polar air masses."
+      },
+      {
+        "text": "Strong vertical downdrafts over desert regions",
+        "isCorrect": false,
+        "rationale": "Deserts host anticyclonic high pressure."
+      }
+    ],
+    "hint": "They develop along temperate fronts where cold polar air meets warm tropical air."
+  },
+  {
+    "question": "During an 'El Niño' event, what major oceanographic change occurs in the Equatorial Pacific Ocean?",
+    "options": [
+      {
+        "text": "Upwelling of cold nutrient-rich water increases dramatically off Peru.",
+        "isCorrect": false,
+        "rationale": "Upwelling is suppressed during El Niño."
+      },
+      {
+        "text": "The Peruvian Current becomes intensely cold.",
+        "isCorrect": false,
+        "rationale": "Peruvian current warms up during El Niño."
+      },
+      {
+        "text": "A warm ocean current replaces the cold Peruvian (Humboldt) Current off South America, suppressing upwelling.",
+        "isCorrect": true,
+        "rationale": "El Niño involves abnormal warming of central/eastern equatorial Pacific waters, replacing the cold nutrient-rich Peruvian current with warm surface water and causing droughts in India/Australia."
+      },
+      {
+        "text": "Trade winds strengthen dramatically across the Pacific.",
+        "isCorrect": false,
+        "rationale": "Trade winds weaken or reverse during El Niño."
+      }
+    ],
+    "hint": "It warms the coastal waters off Peru and Ecuador, disrupting monsoon rainfall in India."
+  },
+  {
+    "question": "Regarding 'Atmospheric Pressure', which of the following statements is FALSE?",
+    "options": [
+      {
+        "text": "Atmospheric pressure is measured using a Barometer.",
+        "isCorrect": false,
+        "rationale": "True: Barometers measure atmospheric pressure in hPa or millibars."
+      },
+      {
+        "text": "Vertical pressure gradient is much stronger than horizontal pressure gradient.",
+        "isCorrect": false,
+        "rationale": "True: Vertical pressure gradient (~1 mb per 10m) is ~10,000 times stronger than horizontal pressure gradient."
+      },
+      {
+        "text": "Cold air is less dense and exerts lower surface pressure than warm air.",
+        "isCorrect": true,
+        "rationale": "FALSE statement: Cold air is denser and heavier, exerting higher surface pressure; warm air is less dense and exerts lower pressure."
+      },
+      {
+        "text": "Atmospheric pressure decreases rapidly with increasing height.",
+        "isCorrect": false,
+        "rationale": "True: Pressure decreases exponentially with altitude."
+      }
+    ],
+    "hint": "Remember that cold air is heavy and dense, creating HIGH pressure."
+  },
+  {
+    "question": "Match the global atmospheric Circulation Cell with its corresponding latitude zone:\nI. Hadley Cell\nII. Ferrel Cell\nIII. Polar Cell",
+    "options": [
+      {
+        "text": "I-60°-90°, II-0°-30°, III-30°-60°",
+        "isCorrect": false,
+        "rationale": "Incorrect cell matching."
+      },
+      {
+        "text": "I-0°-30°, II-60°-90°, III-30°-60°",
+        "isCorrect": false,
+        "rationale": "Ferrel and Polar cells are swapped."
+      },
+      {
+        "text": "I-Equatorial to Subtropical (0°-30°), II-Mid-Latitudes (30°-60°), III-Polar Regions (60°-90°)",
+        "isCorrect": true,
+        "rationale": "Hadley Cell operates in tropical latitudes (0°-30°), Ferrel Cell in temperate mid-latitudes (30°-60°), and Polar Cell in high polar latitudes (60°-90°)."
+      },
+      {
+        "text": "I-30°-60°, II-60°-90°, III-0°-30°",
+        "isCorrect": false,
+        "rationale": "Incorrect cell matching."
+      }
+    ],
+    "hint": "Hadley cell is tropical (0-30°), Ferrel cell is mid-latitude (30-60°), Polar cell is high-latitude (60-90°)."
+  },
+  {
+    "question": "The meteorological term 'Air Drainage' is most directly responsible for which microclimate phenomenon?",
+    "options": [
+      {
+        "text": "Tropical cyclone landfall intensification",
+        "isCorrect": false,
+        "rationale": "Cyclone landfall is driven by sea surface latent heat cut-off."
+      },
+      {
+        "text": "Jet stream formation in upper troposphere",
+        "isCorrect": false,
+        "rationale": "Jet streams are geostrophic winds driven by meridional thermal gradients."
+      },
+      {
+        "text": "Temperature Inversion in mountain valleys at night",
+        "isCorrect": true,
+        "rationale": "Air drainage occurs at night when cold dense air along mountain slopes sinks into valley bottoms under gravity, creating surface temperature inversions and valley frosts."
+      },
+      {
+        "text": "Global stratospheric ozone depletion",
+        "isCorrect": false,
+        "rationale": "Ozone depletion is caused by CFCs."
+      }
+    ],
+    "hint": "Cold, heavy mountain air drains down into valley floors at night, trapping frost."
+  },
+  {
+    "question": "Which physical radiation law states that 'The hotter a radiating body, the shorter the peak wavelength of its emitted radiation'?",
+    "options": [
+      {
+        "text": "Ferrel's Law",
+        "isCorrect": false,
+        "rationale": "Ferrel's Law governs Coriolis wind deflection."
+      },
+      {
+        "text": "Wien's Displacement Law (and Planck's Law)",
+        "isCorrect": true,
+        "rationale": "Wien's Displacement Law states that peak emission wavelength is inversely proportional to absolute temperature (λmax = b/T); hence the hot Sun emits shortwave radiation while cooler Earth emits longwave radiation."
+      },
+      {
+        "text": "Newton's Law of Universal Gravitation",
+        "isCorrect": false,
+        "rationale": "Newton's law relates gravitational attraction to masses."
+      },
+      {
+        "text": "Buys Ballot's Law",
+        "isCorrect": false,
+        "rationale": "Buys Ballot's Law relates wind direction to pressure distribution."
+      }
+    ],
+    "hint": "This law explains why the Sun (6000 K) emits shortwave light while Earth (288 K) emits longwave infrared."
   }
 ]
