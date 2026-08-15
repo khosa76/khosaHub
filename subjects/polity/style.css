@@ -74,7 +74,7 @@ body {
     0 5px 15px rgba(0, 0, 0, 0.03),
     0 0 0 1px rgba(0, 0, 0, 0.04);
 
-  padding: 60px 40px 60px 90px;
+  padding: 40px 20px 40px 75px;
   /* Offset for red line and binding */
   min-height: 100vh;
   box-sizing: border-box;
@@ -404,7 +404,7 @@ em {
   width: 100% !important;
   max-width: 100% !important;
   overflow-x: hidden !important;
-  margin: 28px 0;
+  margin: 24px 0;
   border-radius: 12px;
 }
 
@@ -418,13 +418,13 @@ table,
   table-layout: auto !important;
   border-collapse: separate;
   border-spacing: 0;
-  margin: 28px 0;
+  margin: 24px 0;
   border: 2px solid #475569;
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   box-sizing: border-box !important;
-  word-break: break-word !important;
+  word-break: normal !important;
   overflow-wrap: break-word !important;
 }
 
@@ -438,15 +438,27 @@ th,
 td {
   border-right: 2px solid rgba(71, 85, 105, 0.6);
   border-bottom: 2px solid rgba(71, 85, 105, 0.6);
-  padding: 12px 14px;
+  padding: 8px 12px;
   font-family: 'Patrick Hand', cursive;
-  font-size: 17.5px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 21px;
   vertical-align: top;
   white-space: normal;
-  word-break: break-word !important;
+  word-break: normal !important;
   overflow-wrap: break-word !important;
   max-width: 100%;
+}
+
+th {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 12px;
+}
+
+/* Ensure short rank / category / first columns stay intact on one line */
+th:first-child,
+td:first-child {
+  white-space: nowrap;
 }
 
 th:last-child,
@@ -1107,17 +1119,22 @@ th {
     min-width: 0 !important;
     table-layout: auto !important;
     overflow-x: hidden !important;
-    white-space: normal !important;
+    word-break: normal !important;
   }
 
   th,
   td {
     white-space: normal !important;
-    word-break: break-word !important;
+    word-break: normal !important;
     overflow-wrap: break-word !important;
     min-width: 0 !important;
-    font-size: 14px !important;
-    line-height: 19px !important;
-    padding: 8px 8px !important;
+    font-size: 13.5px !important;
+    line-height: 18px !important;
+    padding: 6px 6px !important;
+  }
+
+  th:first-child,
+  td:first-child {
+    white-space: nowrap !important;
   }
 }
