@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&family=JetBrains+Mono:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="dashboard.css">
+    <script type="module" src="/src/main.js"></script>
     <!-- Apple Home Screen / PWA support -->
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" href="apple-touch-icon.png">
@@ -54,17 +55,26 @@
     <div class="notebook-container">
         <div class="paper-page">
 
-            <!-- Clock/Date Widget at Top -->
-            <!-- <div class="date-widget" id="current-date">--/--/----</div>
-            <div class="time-widget" id="current-time">00:00:00</div> -->
+            <h1 class="hero-reveal">KHOSA Aspirant Hub</h1>
+            <div class="subtitle hero-reveal">Personal Study Vault & Practice Directory</div>
 
-            <h1>KHOSA Aspirant Hub</h1>
-            <div class="subtitle">Personal Study Vault & Practice Directory</div>
-
-            <div class="quote-banner">
-                <span style="font-weight: bold;">💡 Revision Quote: </span>
-                <span id="quote-display">"The only limit to our realization of tomorrow will be our doubts of today." —
-                    Franklin D. Roosevelt</span>
+            <!-- Swiper Carousel for Revision Quotes -->
+            <div class="quote-banner swiper quote-swiper hero-reveal overflow-hidden rounded-xl shadow-sm my-4 border border-amber-200 bg-amber-50/70 p-4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <span class="font-bold text-amber-900">💡 Revision Quote: </span>
+                        <span class="italic text-slate-800">"The only limit to our realization of tomorrow will be our doubts of today." — Franklin D. Roosevelt</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <span class="font-bold text-amber-900">⚡ Daily Motivation: </span>
+                        <span class="italic text-slate-800">"Success is not final, failure is not fatal: it is the courage to continue that counts." — Winston Churchill</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <span class="font-bold text-amber-900">🎓 Ranker Strategy: </span>
+                        <span class="italic text-slate-800">"Revision is the magic key that turns temporary memory into permanent rank." — Civil Services Wisdom</span>
+                    </div>
+                </div>
+                <div class="swiper-pagination mt-2"></div>
             </div>
 
             <!-- SECTION 1: CURRENT AFFAIRS VAULT -->

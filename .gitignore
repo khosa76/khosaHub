@@ -1,2 +1,5 @@
 rawmcq.html
 scratch/
+node_modules/
+dist/
+.vite/
