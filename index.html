@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KHOSA Aspirant Hub - UPSC & State PCS Study Vault</title>
     
-    <!-- Fonts: Inter + Kalam + Caveat -->
+    <!-- Fonts: Inter + Kalam -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600;700;800&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
     
-    <!-- Vite Main Entry Point (Tailwind, GSAP, Lenis, Swiper) -->
+    <!-- Vite Main Entry Point (Tailwind, GSAP, Lenis, Swiper, Liquid Glass) -->
     <script type="module" src="/src/main.js"></script>
 
     <!-- Apple Home Screen / PWA support -->
@@ -22,67 +22,74 @@
     <meta name="apple-mobile-web-app-title" content="Khosa Hub">
 </head>
 
-<body class="bg-[#fbfbfd] text-[#1d1d1f] antialiased selection:bg-blue-500 selection:text-white min-h-screen flex flex-col">
+<body class="bg-[#f8fafc] text-[#0f172a] antialiased selection:bg-blue-500 selection:text-white min-h-screen flex flex-col relative overflow-x-hidden">
 
-    <!-- Floating Apple-style Glass Header -->
-    <header class="apple-nav fixed top-0 left-0 right-0 z-50 glass-header px-4 sm:px-8 py-3.5 flex items-center justify-between transition-all duration-300">
+    <!-- Animated Ambient Liquid Blobs -->
+    <div class="fluid-blob-container">
+        <div class="fluid-blob fluid-blob-1"></div>
+        <div class="fluid-blob fluid-blob-2"></div>
+        <div class="fluid-blob fluid-blob-3"></div>
+    </div>
+
+    <!-- Floating Liquid Glass Header -->
+    <header class="liquid-glass sticky top-0 left-0 right-0 z-50 px-4 sm:px-8 py-3.5 flex items-center justify-between transition-all duration-300">
         <div class="flex items-center gap-3">
             <a href="index.html" class="flex items-center gap-2.5 group">
-                <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white font-bold text-lg shadow-md shadow-blue-500/20 group-hover:scale-105 transition-transform">
+                <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-violet-600 flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-blue-500/25 group-hover:scale-105 transition-transform">
                     K
                 </div>
                 <div class="flex flex-col">
                     <span class="font-bold text-base tracking-tight text-slate-900 flex items-center gap-1.5">
-                        KHOSA <span class="text-xs font-semibold text-blue-600 bg-blue-50 border border-blue-200/60 px-2 py-0.5 rounded-full">HUB</span>
+                        KHOSA <span class="text-[11px] font-bold text-blue-600 bg-blue-50 border border-blue-200/80 px-2 py-0.5 rounded-full">HUB</span>
                     </span>
-                    <span class="text-[10px] text-slate-500 font-medium tracking-wide uppercase">Civil Services Vault</span>
+                    <span class="text-[10px] text-slate-500 font-medium tracking-wider uppercase">Liquid Knowledge System</span>
                 </div>
             </a>
         </div>
 
         <!-- Quick Nav Links -->
-        <nav class="hidden md:flex items-center gap-1 bg-slate-100/60 backdrop-blur-md p-1 rounded-full border border-slate-200/60 text-xs font-medium text-slate-700">
-            <a href="subjects/polity/index.html" class="px-3.5 py-1.5 rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm transition-all">🏛️ Polity Notes</a>
-            <a href="current_affairs_index.html" class="px-3.5 py-1.5 rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm transition-all">📰 Current Affairs</a>
-            <a href="mcq_tester.html" class="px-3.5 py-1.5 rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm transition-all">⚡ MCQ Lab</a>
-            <a href="mains_tester.html" class="px-3.5 py-1.5 rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm transition-all">✍️ Mains Vault</a>
+        <nav class="hidden md:flex items-center gap-1.5 bg-white/50 backdrop-blur-md p-1 rounded-full border border-white/80 text-xs font-medium text-slate-700 shadow-sm">
+            <a href="subjects/polity/index.html" class="px-4 py-1.5 rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm transition-all">🏛️ Polity Notes</a>
+            <a href="current_affairs_index.html" class="px-4 py-1.5 rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm transition-all">📰 Current Affairs</a>
+            <a href="mcq_tester.html" class="px-4 py-1.5 rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm transition-all">⚡ MCQ Lab</a>
+            <a href="mains_tester.html" class="px-4 py-1.5 rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm transition-all">✍️ Mains Vault</a>
         </nav>
 
         <!-- Live Status Pill -->
         <div class="flex items-center gap-2">
-            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 border border-emerald-200/60">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-50/80 text-emerald-700 border border-emerald-200/80 shadow-sm">
                 <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
                 UPSC 2026 Ready
             </span>
         </div>
     </header>
 
-    <!-- Main Container -->
-    <main class="flex-grow pt-24 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full space-y-12">
+    <!-- Main Content Container -->
+    <main class="relative z-10 flex-grow pt-8 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full space-y-12">
 
         <!-- Hero Section Showcase -->
-        <section class="text-center pt-6 sm:pt-10 pb-4 max-w-4xl mx-auto space-y-6">
-            <div class="hero-badge inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50/80 border border-blue-200/80 text-blue-700 text-xs font-semibold tracking-wide shadow-sm">
-                <span class="text-base">✨</span> Precision Knowledge System for Civil Services
+        <section class="text-center pt-4 sm:pt-8 pb-4 max-w-4xl mx-auto space-y-6">
+            <div class="hero-badge inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/70 border border-white/90 text-blue-700 text-xs font-semibold tracking-wide shadow-sm backdrop-blur-md">
+                <span class="text-base">✨</span> Fluid Knowledge System for Civil Services
             </div>
             
             <h1 class="hero-title text-4xl sm:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.15]">
-                Master Civil Services With <span class="gradient-text-blue">Unmatched Precision.</span>
+                Master Civil Services With <span class="liquid-gradient-text">Fluid Precision.</span>
             </h1>
             
-            <p class="hero-sub text-lg sm:text-xl text-slate-600 font-normal max-w-2xl mx-auto leading-relaxed">
-                Comprehensive subject notes, 3,000+ topic-wise MCQs, Mains answer writing practice, and monthly current affairs—engineered for rankers.
+            <p class="hero-sub text-base sm:text-lg text-slate-600 font-normal max-w-2xl mx-auto leading-relaxed">
+                Comprehensive subject notes, 3,000+ topic-wise MCQs, Mains answer writing practice, and monthly current affairs—packaged in a state-of-the-art liquid interface.
             </p>
 
             <!-- Revision Quote Swiper Slider -->
             <div class="hero-quote max-w-2xl mx-auto">
-                <div class="swiper quote-swiper glass-panel rounded-2xl p-4 sm:p-5 border border-slate-200/80 text-left shadow-apple-glass">
+                <div class="swiper quote-swiper liquid-glass rounded-2xl p-4 sm:p-5 text-left">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="flex items-start gap-3">
                                 <span class="text-2xl">💡</span>
                                 <div>
-                                    <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider block mb-0.5">Revision Wisdom</span>
+                                    <span class="text-[11px] font-bold text-blue-600 uppercase tracking-wider block mb-0.5">Revision Wisdom</span>
                                     <p class="text-sm font-medium text-slate-800 italic">"The only limit to our realization of tomorrow will be our doubts of today." — Franklin D. Roosevelt</p>
                                 </div>
                             </div>
@@ -91,7 +98,7 @@
                             <div class="flex items-start gap-3">
                                 <span class="text-2xl">⚡</span>
                                 <div>
-                                    <span class="text-xs font-semibold text-purple-600 uppercase tracking-wider block mb-0.5">Ranker Principle</span>
+                                    <span class="text-[11px] font-bold text-purple-600 uppercase tracking-wider block mb-0.5">Ranker Principle</span>
                                     <p class="text-sm font-medium text-slate-800 italic">"Revision is the magic key that turns temporary memory into permanent rank." — IAS Strategy</p>
                                 </div>
                             </div>
@@ -100,7 +107,7 @@
                             <div class="flex items-start gap-3">
                                 <span class="text-2xl">🎓</span>
                                 <div>
-                                    <span class="text-xs font-semibold text-emerald-600 uppercase tracking-wider block mb-0.5">Consistency Rule</span>
+                                    <span class="text-[11px] font-bold text-emerald-600 uppercase tracking-wider block mb-0.5">Consistency Rule</span>
                                     <p class="text-sm font-medium text-slate-800 italic">"Success is not final, failure is not fatal: it is the courage to continue that counts." — Winston Churchill</p>
                                 </div>
                             </div>
@@ -113,31 +120,33 @@
 
         <!-- SECTION 1: CURRENT AFFAIRS VAULT -->
         <section class="space-y-4 cards-container">
-            <div class="section-title-wrapper flex items-center justify-between border-b border-slate-200/80 pb-3">
+            <div class="section-title-wrapper flex items-center justify-between border-b border-slate-200/60 pb-3">
                 <div class="flex items-center gap-2.5">
                     <span class="text-2xl">📰</span>
-                    <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">Current Affairs Vault</h2>
+                    <h2 class="text-xl sm:text-2xl font-extrabold tracking-tight text-slate-900">Current Affairs Vault</h2>
                 </div>
-                <span class="text-xs font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Monthly Magazines & News Archives</span>
+                <span class="text-xs font-semibold text-slate-500 bg-white/70 backdrop-blur-md border border-white/80 px-3 py-1 rounded-full shadow-sm">Monthly Magazines & News Archives</span>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <a href="current_affairs_index.html" class="glass-card rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
-                    <div class="absolute top-4 right-4">
-                        <span class="badge-apple bg-purple-100 text-purple-700 border border-purple-200">June Edition</span>
-                    </div>
-                    <div class="space-y-3">
-                        <div class="w-12 h-12 rounded-xl bg-purple-50 border border-purple-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
-                            📰
+                <a href="current_affairs_index.html" class="liquid-card rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-11 h-11 rounded-xl bg-purple-50 border border-purple-100 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
+                                📰
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-purple-100 text-purple-700 border border-purple-200 uppercase tracking-wider">June Edition</span>
                         </div>
-                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors flex items-center gap-2">
-                            Current Affairs Magazine
-                        </h3>
-                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                            Interactive page-by-page PDF magazine reader featuring <strong>June Monthly CA Magazine by Fateh Sir</strong> (Polity, Punjab GK, IR, Economy & Schemes).
-                        </p>
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                                Current Affairs Magazine
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mt-1">
+                                Interactive page-by-page PDF magazine reader featuring <strong>June Monthly CA Magazine by Fateh Sir</strong> (Polity, Punjab GK, IR, Economy & Schemes).
+                            </p>
+                        </div>
                     </div>
-                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-blue-600">
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-blue-600">
                         <span>Open PDF Vault</span>
                         <span class="group-hover:translate-x-1 transition-transform">→</span>
                     </div>
@@ -147,86 +156,94 @@
 
         <!-- SECTION 2: SUBJECT MASTER NOTES -->
         <section class="space-y-4 cards-container">
-            <div class="section-title-wrapper flex items-center justify-between border-b border-slate-200/80 pb-3">
+            <div class="section-title-wrapper flex items-center justify-between border-b border-slate-200/60 pb-3">
                 <div class="flex items-center gap-2.5">
                     <span class="text-2xl">📚</span>
-                    <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">Master Subject Notes</h2>
+                    <h2 class="text-xl sm:text-2xl font-extrabold tracking-tight text-slate-900">Master Subject Notes</h2>
                 </div>
-                <span class="text-xs font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Syllabus Master Vault</span>
+                <span class="text-xs font-semibold text-slate-500 bg-white/70 backdrop-blur-md border border-white/80 px-3 py-1 rounded-full shadow-sm">Syllabus Master Vault</span>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Indian Polity Card -->
-                <a href="subjects/polity/index.html" class="glass-card rounded-2xl p-6 flex flex-col justify-between group border-l-4 border-l-blue-600">
-                    <div class="space-y-3">
-                        <div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                <a href="subjects/polity/index.html" class="liquid-card rounded-2xl p-6 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="w-11 h-11 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
                             🏛️
                         </div>
-                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
-                            Indian Polity
-                        </h3>
-                        <p class="text-xs text-slate-600 leading-relaxed">
-                            Preamble, Fundamental Rights, Union Executive, Parliament, Judiciary & Panchayati Raj.
-                        </p>
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                                Indian Polity
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mt-1">
+                                Preamble, Fundamental Rights, Union Executive, Parliament, Judiciary & Panchayati Raj.
+                            </p>
+                        </div>
                     </div>
-                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-blue-600">
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-blue-600">
                         <span>20 Master Chapters</span>
                         <span class="group-hover:translate-x-1 transition-transform">→</span>
                     </div>
                 </a>
 
                 <!-- Modern History Card -->
-                <a href="mcq_tester.html?subject=history" class="glass-card rounded-2xl p-6 flex flex-col justify-between group border-l-4 border-l-amber-500">
-                    <div class="space-y-3">
-                        <div class="w-12 h-12 rounded-xl bg-amber-50 border border-amber-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                <a href="mcq_tester.html?subject=history" class="liquid-card rounded-2xl p-6 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="w-11 h-11 rounded-xl bg-amber-50 border border-amber-100 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
                             📜
                         </div>
-                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-600 transition-colors">
-                            Indian & World History
-                        </h3>
-                        <p class="text-xs text-slate-600 leading-relaxed">
-                            Freedom movement, British constitutional acts, ancient philosophy & medieval Cholas.
-                        </p>
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-600 transition-colors">
+                                History & Freedom Struggle
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mt-1">
+                                Freedom movement, British constitutional acts, ancient philosophy & medieval Cholas.
+                            </p>
+                        </div>
                     </div>
-                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-amber-600">
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-amber-600">
                         <span>Practice Questions</span>
                         <span class="group-hover:translate-x-1 transition-transform">→</span>
                     </div>
                 </a>
 
                 <!-- Geography Card -->
-                <a href="mcq_tester.html?subject=geography" class="glass-card rounded-2xl p-6 flex flex-col justify-between group border-l-4 border-l-emerald-500">
-                    <div class="space-y-3">
-                        <div class="w-12 h-12 rounded-xl bg-emerald-50 border border-emerald-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                <a href="mcq_tester.html?subject=geography" class="liquid-card rounded-2xl p-6 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="w-11 h-11 rounded-xl bg-emerald-50 border border-emerald-100 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
                             🌍
                         </div>
-                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
-                            Geography & Environment
-                        </h3>
-                        <p class="text-xs text-slate-600 leading-relaxed">
-                            Geomorphology, climatology, El Niño, demography, and biodiversity mapping.
-                        </p>
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
+                                Geography & Environment
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mt-1">
+                                Geomorphology, climatology, El Niño, demography, and biodiversity mapping.
+                            </p>
+                        </div>
                     </div>
-                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-emerald-600">
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-emerald-600">
                         <span>Practice Questions</span>
                         <span class="group-hover:translate-x-1 transition-transform">→</span>
                     </div>
                 </a>
 
                 <!-- Economy Card -->
-                <a href="mcq_tester.html?subject=economy" class="glass-card rounded-2xl p-6 flex flex-col justify-between group border-l-4 border-l-purple-500">
-                    <div class="space-y-3">
-                        <div class="w-12 h-12 rounded-xl bg-purple-50 border border-purple-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                <a href="mcq_tester.html?subject=economy" class="liquid-card rounded-2xl p-6 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="w-11 h-11 rounded-xl bg-purple-50 border border-purple-100 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
                             📈
                         </div>
-                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-purple-600 transition-colors">
-                            Indian Economy & Sci-Tech
-                        </h3>
-                        <p class="text-xs text-slate-600 leading-relaxed">
-                            Planning models, monetary policy, physics mechanics, biology & disease vectors.
-                        </p>
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-purple-600 transition-colors">
+                                Economy & Sci-Tech
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mt-1">
+                                Planning models, monetary policy, physics mechanics, biology & disease vectors.
+                            </p>
+                        </div>
                     </div>
-                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-purple-600">
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-purple-600">
                         <span>Practice Questions</span>
                         <span class="group-hover:translate-x-1 transition-transform">→</span>
                     </div>
@@ -236,76 +253,82 @@
 
         <!-- SECTION 3: REVISION & PRACTICE TEST LABS -->
         <section class="space-y-4 cards-container">
-            <div class="section-title-wrapper flex items-center justify-between border-b border-slate-200/80 pb-3">
+            <div class="section-title-wrapper flex items-center justify-between border-b border-slate-200/60 pb-3">
                 <div class="flex items-center gap-2.5">
                     <span class="text-2xl">⚡</span>
-                    <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">Practice Test Labs</h2>
+                    <h2 class="text-xl sm:text-2xl font-extrabold tracking-tight text-slate-900">Practice Test Labs</h2>
                 </div>
-                <span class="text-xs font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Interactive Simulators</span>
+                <span class="text-xs font-semibold text-slate-500 bg-white/70 backdrop-blur-md border border-white/80 px-3 py-1 rounded-full shadow-sm">Interactive Simulators</span>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- MCQ Lab -->
-                <a href="mcq_tester.html" class="glass-card rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
-                    <div class="absolute top-4 right-4">
-                        <span class="badge-apple bg-red-100 text-red-700 border border-red-200">Updated</span>
-                    </div>
-                    <div class="space-y-3">
-                        <div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
-                            ⚡
+                <a href="mcq_tester.html" class="liquid-card rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-11 h-11 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
+                                ⚡
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-red-100 text-red-700 border border-red-200 uppercase tracking-wider">Updated</span>
                         </div>
-                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
-                            MCQ Revision Lab
-                        </h3>
-                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                            Interactive practice room with <strong>3,000+ MCQs</strong> across Polity, History, Geography, Economy, Science & Tech & Full Tests.
-                        </p>
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                                MCQ Revision Lab
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mt-1">
+                                Interactive practice room with <strong>3,000+ MCQs</strong> across Polity, History, Geography, Economy, Science & Tech & Full Tests.
+                            </p>
+                        </div>
                     </div>
-                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-blue-600">
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-blue-600">
                         <span>Launch Simulator</span>
                         <span class="group-hover:translate-x-1 transition-transform">→</span>
                     </div>
                 </a>
 
                 <!-- Mains Room -->
-                <a href="mains_tester.html" class="glass-card rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
-                    <div class="absolute top-4 right-4">
-                        <span class="badge-apple bg-amber-100 text-amber-800 border border-amber-200">Mains Q&A</span>
-                    </div>
-                    <div class="space-y-3">
-                        <div class="w-12 h-12 rounded-xl bg-amber-50 border border-amber-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
-                            ✍️
+                <a href="mains_tester.html" class="liquid-card rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-11 h-11 rounded-xl bg-amber-50 border border-amber-100 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
+                                ✍️
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-amber-100 text-amber-800 border border-amber-200 uppercase tracking-wider">Mains Q&A</span>
                         </div>
-                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-600 transition-colors">
-                            Mains Q&A Vault
-                        </h3>
-                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                            Structured UPSC Mains answer writing vault with model introductions, section breakdowns, and conclusions.
-                        </p>
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-600 transition-colors">
+                                Mains Q&A Vault
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mt-1">
+                                Structured UPSC Mains answer writing vault with model introductions, section breakdowns, and conclusions.
+                            </p>
+                        </div>
                     </div>
-                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-amber-600">
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-amber-600">
                         <span>Explore Model Answers</span>
                         <span class="group-hover:translate-x-1 transition-transform">→</span>
                     </div>
                 </a>
 
                 <!-- Full Mock Exams -->
-                <a href="mcq_tester.html?subject=fulltest" class="glass-card rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
-                    <div class="absolute top-4 right-4">
-                        <span class="badge-apple bg-emerald-100 text-emerald-800 border border-emerald-200">Mock Exams</span>
-                    </div>
-                    <div class="space-y-3">
-                        <div class="w-12 h-12 rounded-xl bg-emerald-50 border border-emerald-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
-                            🎓
+                <a href="mcq_tester.html?subject=fulltest" class="liquid-card rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-11 h-11 rounded-xl bg-emerald-50 border border-emerald-100 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
+                                🎓
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-emerald-100 text-emerald-800 border border-emerald-200 uppercase tracking-wider">Mock Exams</span>
                         </div>
-                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
-                            GS Full Mock Papers
-                        </h3>
-                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                            10 Complete 100-Question General Studies Mock Papers covering UPSC & State PCS Exam Patterns.
-                        </p>
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
+                                GS Full Mock Papers
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mt-1">
+                                10 Complete 100-Question General Studies Mock Papers covering UPSC & State PCS Exam Patterns.
+                            </p>
+                        </div>
                     </div>
-                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-emerald-600">
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-emerald-600">
                         <span>Start Mock Paper</span>
                         <span class="group-hover:translate-x-1 transition-transform">→</span>
                     </div>
@@ -313,22 +336,22 @@
             </div>
         </section>
 
-        <!-- Aspirant House Rules (Tesla Glass Panel) -->
-        <section class="glass-panel rounded-2xl p-6 sm:p-8 space-y-4 border border-slate-200/80">
+        <!-- Aspirant House Rules (Liquid Glass Panel) -->
+        <section class="liquid-glass rounded-2xl p-6 sm:p-8 space-y-4">
             <div class="flex items-center gap-2">
                 <span class="text-xl">📜</span>
                 <h3 class="text-lg font-bold text-slate-900">Aspirant's Daily House Rules</h3>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs sm:text-sm text-slate-700">
-                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/60 space-y-1">
+                <div class="p-4 rounded-xl bg-white/70 border border-white/90 space-y-1">
                     <span class="font-bold text-slate-900 block">📅 Rule 1: Productive Planning</span>
                     <p>Spend 3 hours creating the perfect timetable. Begin studying tomorrow, because today was for planning.</p>
                 </div>
-                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/60 space-y-1">
+                <div class="p-4 rounded-xl bg-white/70 border border-white/90 space-y-1">
                     <span class="font-bold text-slate-900 block">📖 Rule 2: Knowledge Transfer</span>
                     <p>Place textbook within 2 meters of your head and hope Bluetooth learning gets invented soon.</p>
                 </div>
-                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/60 space-y-1">
+                <div class="p-4 rounded-xl bg-white/70 border border-white/90 space-y-1">
                     <span class="font-bold text-slate-900 block">☕ Rule 3: Caffeine Protocol</span>
                     <p>Need a tea break? <button onclick="summonChai()" class="text-blue-600 font-semibold underline underline-offset-2 hover:text-blue-700">Request virtual cutting chai permit</button>.</p>
                 </div>
@@ -338,16 +361,16 @@
     </main>
 
     <!-- Footer -->
-    <footer class="border-t border-slate-200/80 py-8 bg-white/50 backdrop-blur-md mt-auto">
-        <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500 space-y-2">
-            <p class="font-medium text-slate-700">KHOSA Aspirant Hub &copy; 2026 — Personal Civil Services Knowledge Directory</p>
+    <footer class="relative z-10 border-t border-slate-200/60 py-6 bg-white/40 backdrop-blur-md mt-auto">
+        <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500 space-y-1">
+            <p class="font-medium text-slate-700">KHOSA Aspirant Hub &copy; 2026 — Liquid Knowledge System</p>
             <p>Engineered for high-yield revision & exam preparation.</p>
         </div>
     </footer>
 
-    <!-- Steaming Chai Easter Egg Overlay -->
-    <div id="chai-overlay" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-900/40 backdrop-blur-md p-4 transition-all" onclick="closeChai()">
-        <div class="glass-panel rounded-3xl p-6 sm:p-8 max-w-md w-full text-center space-y-4 shadow-2xl border border-white" onclick="event.stopPropagation()">
+    <!-- Steaming Chai Overlay -->
+    <div id="chai-overlay" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-900/30 backdrop-blur-lg p-4 transition-all" onclick="closeChai()">
+        <div class="liquid-glass rounded-3xl p-6 sm:p-8 max-w-md w-full text-center space-y-4 shadow-2xl border border-white" onclick="event.stopPropagation()">
             <div class="w-16 h-16 rounded-full bg-amber-100 border border-amber-200 flex items-center justify-center text-3xl mx-auto animate-bounce">
                 ☕
             </div>
@@ -355,7 +378,7 @@
             <p class="text-sm font-medium text-slate-600 italic leading-relaxed">
                 "Laxmikanth size: 📚. Your brain right now: ☕. Take a 5-minute deep breath. You got this!"
             </p>
-            <button onclick="closeChai()" class="w-full py-2.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold tracking-wide transition-colors shadow-md shadow-blue-500/20">
+            <button onclick="closeChai()" class="w-full py-2.5 px-4 rounded-xl liquid-button text-xs font-semibold tracking-wide shadow-md">
                 Back to Study Room
             </button>
         </div>

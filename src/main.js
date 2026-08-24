@@ -89,21 +89,47 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 3. GSAP Animations & Entrance Timeline
+  // 3. Fluid Blob Background Animations with GSAP
+  gsap.to('.fluid-blob-1', {
+    x: 'random(-60, 60)',
+    y: 'random(-40, 40)',
+    scale: 'random(0.9, 1.2)',
+    duration: 10,
+    repeat: -1,
+    yoyo: true,
+    ease: 'sine.inOut',
+  });
+
+  gsap.to('.fluid-blob-2', {
+    x: 'random(-50, 50)',
+    y: 'random(-60, 60)',
+    scale: 'random(0.85, 1.15)',
+    duration: 12,
+    repeat: -1,
+    yoyo: true,
+    ease: 'sine.inOut',
+  });
+
+  gsap.to('.fluid-blob-3', {
+    x: 'random(-40, 40)',
+    y: 'random(-50, 50)',
+    scale: 'random(0.9, 1.1)',
+    duration: 14,
+    repeat: -1,
+    yoyo: true,
+    ease: 'sine.inOut',
+  });
+
+  // 4. GSAP Entrance Animations & Timeline
   const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
 
-  tl.from('.apple-nav', {
-    y: -30,
-    opacity: 0,
-    duration: 0.8,
-  })
-  .from('.hero-badge', {
+  tl.from('.hero-badge', {
     scale: 0.8,
     opacity: 0,
     duration: 0.6,
-  }, '-=0.4')
+  })
   .from('.hero-title', {
-    y: 30,
+    y: 35,
     opacity: 0,
     duration: 0.8,
   }, '-=0.4')
@@ -118,10 +144,10 @@ document.addEventListener('DOMContentLoaded', () => {
     duration: 0.6,
   }, '-=0.4');
 
-  // GSAP ScrollTrigger for cards
-  const glassCards = document.querySelectorAll('.glass-card');
-  if (glassCards.length > 0) {
-    gsap.from(glassCards, {
+  // GSAP ScrollTrigger for liquid cards
+  const liquidCards = document.querySelectorAll('.liquid-card');
+  if (liquidCards.length > 0) {
+    gsap.from(liquidCards, {
       scrollTrigger: {
         trigger: '.cards-container',
         start: 'top 85%',
@@ -129,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
       y: 40,
       opacity: 0,
       duration: 0.8,
-      stagger: 0.12,
+      stagger: 0.1,
       ease: 'power2.out',
     });
   }
@@ -149,15 +175,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Magnetic 3D tilt effect on glass cards
-  glassCards.forEach((card) => {
+  // Liquid Magnetic 3D Physics on Cards
+  liquidCards.forEach((card) => {
     card.addEventListener('mousemove', (e) => {
       const rect = card.getBoundingClientRect();
       const x = e.clientX - rect.left - rect.width / 2;
       const y = e.clientY - rect.top - rect.height / 2;
       gsap.to(card, {
-        rotateX: -y * 0.03,
-        rotateY: x * 0.03,
+        rotateX: -y * 0.04,
+        rotateY: x * 0.04,
         duration: 0.4,
         ease: 'power2.out',
       });
