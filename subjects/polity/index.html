@@ -5,637 +5,466 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
-    <title>Indian Polity - Notes Hub</title>
+    <title>Indian Polity - Chapter Vault</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="/src/main.js"></script>
+    
     <!-- Apple Home Screen / PWA support -->
     <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
     <link rel="icon" type="image/png" href="../../apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="Khosa Notes">
+    <meta name="apple-mobile-web-app-title" content="Polity Vault">
+
     <style>
-        /* Extra styles specific to the Table of Contents search and inputs */
-        .search-container {
-            margin-bottom: 28px;
-            display: flex;
-            gap: 12px;
+        /* Apple Spotlight Search UI */
+        .spotlight-container {
+            margin: 40px 0;
+            position: relative;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .search-input {
-            font-family: 'Patrick Hand', cursive;
-            font-size: 20px;
-            padding: 8px 16px;
-            background: rgba(255, 255, 255, 0.6);
-            border: 1px dashed rgba(30, 58, 138, 0.3);
-            border-radius: 8px;
-            outline: none;
-            color: var(--ink-black);
+        .spotlight-input {
             width: 100%;
+            padding: 20px 24px 20px 60px;
+            font-size: 18px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(24px) saturate(200%);
+            -webkit-backdrop-filter: blur(24px) saturate(200%);
+            border: 1px solid rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05), inset 0 2px 4px rgba(255, 255, 255, 0.8);
+            color: #1d1d1f;
+            transition: all 0.3s ease;
+            outline: none;
         }
 
-        .search-input:focus {
-            border-color: var(--ink-blue);
-            background: #fff;
+        .spotlight-input:focus {
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 12px 48px rgba(0, 113, 227, 0.15), inset 0 2px 4px rgba(255, 255, 255, 1);
+            border-color: rgba(0, 113, 227, 0.3);
         }
 
-        .back-home-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
+        .spotlight-icon {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 24px;
+            height: 24px;
+            stroke: #86868b;
+            fill: none;
+            stroke-width: 2.5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        /* Glass Chapter Grid */
+        .chapter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 24px;
+            margin-top: 40px;
+        }
+
+        .chapter-card {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            border-radius: 24px;
+            padding: 28px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+            display: flex;
+            flex-direction: column;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
             text-decoration: none;
-            font-family: 'Kalam', cursive;
-            font-size: 16px;
-            color: var(--ink-blue);
-            border: 1px solid rgba(30, 58, 138, 0.3);
-            background: rgba(255, 255, 255, 0.4);
-            padding: 4px 12px;
-            border-radius: 6px;
-            margin-bottom: 24px;
-            transition: all 0.2s ease;
         }
 
-        .back-home-btn:hover {
-            background: rgba(30, 58, 138, 0.08);
-            transform: translateX(-3px);
+        .chapter-card:hover {
+            transform: translateY(-6px) scale(1.015);
+            background: rgba(255, 255, 255, 0.9);
+            border-color: rgba(0, 113, 227, 0.3);
+            box-shadow: 0 20px 40px rgba(0, 113, 227, 0.12);
+        }
+
+        .chapter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .chapter-number {
+            font-size: 14px;
+            font-weight: 700;
+            color: #0071e3;
+            background: rgba(0, 113, 227, 0.1);
+            padding: 4px 12px;
+            border-radius: 12px;
+        }
+
+        .chapter-status {
+            z-index: 10;
         }
 
         .status-checkbox {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 24px;
+            height: 24px;
+            border: 2px solid #86868b;
+            border-radius: 50%;
             cursor: pointer;
-            width: 18px;
-            height: 18px;
-            accent-color: var(--ink-blue);
+            transition: all 0.2s ease;
+            position: relative;
+            outline: none;
         }
 
-        .chapter-link {
-            text-decoration: none;
-            color: var(--ink-blue);
-            font-weight: bold;
-            border-bottom: 1px dotted var(--ink-blue);
+        .status-checkbox:checked {
+            background-color: #34c759;
+            border-color: #34c759;
         }
 
-        .chapter-link:hover {
-            color: var(--ink-red);
-            border-bottom-color: var(--ink-red);
+        .status-checkbox:checked::after {
+            content: '';
+            position: absolute;
+            top: 5px;
+            left: 8px;
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+        }
+
+        .chapter-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .chapter-desc {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #515154;
+            margin-bottom: 0;
         }
 
         .no-results {
             display: none;
             text-align: center;
-            font-size: 22px;
-            color: var(--ink-red);
-            padding: 24px;
-        }
-
-        /* Bookshelf Styles inside the Notebook */
-        .library-shelf {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-            gap: 20px;
-            margin-top: 16px;
-        }
-
-        .book-card {
-            background: rgba(255, 255, 255, 0.5);
-            border: 2px dashed #4b5563;
-            border-radius: 8px;
-            padding: 16px 12px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            text-decoration: none;
-            color: inherit;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            min-height: 150px;
-            justify-content: space-between;
-            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.02);
-        }
-
-        .book-card:hover {
-            border-color: var(--ink-blue);
-            background: rgba(254, 240, 138, 0.3);
-            /* yellow post-it style hover */
-            transform: translateY(-3px);
-        }
-
-        .book-icon {
-            font-size: 36px;
-            margin-bottom: 8px;
-        }
-
-        .book-title {
-            font-family: 'Kalam', cursive;
-            font-size: 15px;
-            font-weight: 700;
-            line-height: 1.3;
-            color: var(--ink-blue);
-        }
-
-        .book-type {
-            font-size: 12px;
-            color: var(--ink-red);
-            font-style: italic;
-            margin-top: 8px;
+            font-size: 20px;
+            color: #86868b;
+            font-weight: 500;
+            margin-top: 60px;
+            grid-column: 1 / -1;
         }
     </style>
 </head>
 
 <body>
+    <!-- Floating Header -->
+    <nav class="glass-nav">
+        <a href="../../index.html" class="nav-back-btn">
+            <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+            Dashboard
+        </a>
+        <div class="nav-title">Polity Master Vault</div>
+        <div class="nav-actions"></div>
+    </nav>
+
     <div class="notebook-container">
-        <div class="paper-page">
-            <a href="../../index.html" class="back-home-btn">
-                &larr; Back to Main Dashboard
+        
+        <div class="text-center" style="text-align: center;">
+            <h1 style="margin-top: 20px;">Indian Polity Vault</h1>
+            <p style="max-width: 600px; margin: 0 auto; color: #515154;">Master the syllabus chapter by chapter. Use the spotlight search to instantly find topics or keywords.</p>
+        </div>
+
+        <div class="spotlight-container">
+            <svg class="spotlight-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            <input type="text" id="search-input" class="spotlight-input" placeholder="Search chapters, e.g. Basic Structure..." oninput="filterChapters()">
+        </div>
+
+        <div class="chapter-grid" id="chapter-grid">
+            
+            <a href="historical_background.html" class="chapter-card" data-search="historical background company rule crown rule regulating act 1773 pitts india act 1784 charter act 1833 charter act 1853 government of india act 1858 1919 1935 indian independence act 1947 constituent assembly drafting committee dr br ambedkar objective resolution january 26 1950">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 1</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-historical_background" onchange="toggleStatus('historical_background')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Historical Background & Assembly</h3>
+                <p class="chapter-desc">Company Rule, Crown Rule, GoI Acts, Constituent Assembly, Drafting Committee, Enactment & Enforcement.</p>
             </a>
 
-            <h1>INDIAN POLITY NOTES</h1>
-
-            <h2>Syllabus Chapter Checklist</h2>
-            <p>Welcome to the Indian Polity panic room. Below is the list of chapters you've allegedly completed. Use
-                the search bar to filter topics (or find excuses) and check the boxes to mark chapters as
-                <strong>Read</strong> to satisfy your imaginary dashboard sync requirements.
-            </p>
-
-            <div class="search-container">
-                <input type="text" id="search-input" class="search-input"
-                    placeholder="Search chapters or topics (e.g. basic structure, CAA, Fazl Ali)..."
-                    oninput="filterChapters()">
-            </div>
-
-            <table id="chapters-table">
-                <thead>
-                    <tr>
-                        <th style="width: 8%;">No.</th>
-                        <th style="width: 25%;">Chapter</th>
-                        <th style="width: 52%;">Syllabus Focus & Keywords</th>
-                        <th style="width: 15%; text-align: center;">Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="chapter-row"
-                        data-search="historical background company rule crown rule regulating act 1773 pitts india act 1784 charter act 1833 charter act 1853 government of india act 1858 1919 1935 indian independence act 1947 constituent assembly drafting committee dr br ambedkar objective resolution january 26 1950">
-                        <td>1.</td>
-                        <td><a href="historical_background.html" class="chapter-link">Historical Background & Assembly</a></td>
-                        <td>Company Rule (1773–1858), Crown Rule (1858–1947), GoI Acts 1919 & 1935, Cabinet Mission Plan 1946, Constituent Assembly, Drafting Committee (Dr. B.R. Ambedkar), Enactment & Enforcement.</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-historical_background"
-                                    onchange="toggleStatus('historical_background')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="preamble objective resolution sovereign socialist secular democratic republic justice liberty equality fraternity 42nd amendment basic structure kesavananda bharati minerva mills preamble identity card pal k hivala text key words preamble non-justiciable enforceability">
-                        <td>2.</td>
-                        <td><a href="preamble.html" class="chapter-link">The Preamble & Philosophy</a></td>
-                        <td>Textual Analysis, Objective Resolution (1946), 42nd CAA 1976 (Socialist, Secular, Integrity),
-                            Sovereign, Democratic, Republic, Justice, Liberty, Equality, Fraternity, Basic Structure, Legal
-                            Status.</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-preamble"
-                                    onchange="toggleStatus('preamble')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="reorganisation of states language basis post independence Nagpur session 1920 dhar commission jvp committee fazl ali commission states reorganisation act 1956 smaller states debate autonomous councils dev boards">
-                        <td>3.</td>
-                        <td><a href="reorganisation.html" class="chapter-link">Reorganisation of States</a></td>
-                        <td>Post-independence state creation on linguistic basis, Nagpur Session 1920, S.K. Dhar, JVP
-                            Committee, Fazl Ali Commission, Smaller States arguments, Presidential Vetoes.</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-reorganisation"
-                                    onchange="toggleStatus('reorganisation')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="federalism local self-government foedus power division delegation devolution decentralization holding coming together asymmetric federalism core features dual polity supremacy rigidity quasi federal kc wheare co-operative bargaining competitive centralizing sarkaria commission punchhi commission article 371">
-                        <td>4.</td>
-                        <td><a href="federalism.html" class="chapter-link">Federalism & Centre-State Relations</a></td>
-                        <td>Delegation, Devolution & Decentralization, Types of federations, Essential federal features, Quasi-federalism, Sarkaria & Punchhi Commissions, Inter-State Council (Art 263), Special Provisions (Arts 371–371J).</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-federalism"
-                                    onchange="toggleStatus('federalism')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="articles 1 to 4 union and its territory identity of india bharat destruction of states acquired territories admission of new states domestic reorganization article 368 exemption simple majority">
-                        <td>5.</td>
-                        <td><a href="article1to4.html" class="chapter-link">Articles 1 to 4 | Union & Territory</a></td>
-                        <td>Part I: The Union and its Territory, Admission or establishment of new states, boundary
-                            alteration, Article 368 exemption (Simple Majority), USA vs India comparison.</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-article1to4"
-                                    onchange="toggleStatus('article1to4')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="citizenship part II core terms immigration emigration domicile enemy alien nri oci jus soli descent registration naturalisation dual citizenship Pravasi bharatiya divas caa 2019 aatish taseer">
-                        <td>6.</td>
-                        <td><a href="citizenship.html" class="chapter-link">Articles 5 to 11 | Citizenship</a></td>
-                        <td>Part II: Core terminology, Acquisition (Birth, Descent, Registration, Naturalisation), Loss
-                            of Citizenship, NRI & OCI schemes, Citizenship Amendment Act (CAA) 2019.</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-citizenship"
-                                    onchange="toggleStatus('citizenship')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="fundamental rights part III article 12 to 35 magna carta equality freedom exploitation religion culture education remedies writs habeas corpus mandamus prohibition certiorari quo warranto property exceptions 31a 31b 31c">
-                        <td>7.</td>
-                        <td><a href="fundamental_rights.html" class="chapter-link">Articles 12 to 35 | Fundamental Rights</a></td>
-                        <td>Part III: Magna Carta of India, Right to Equality, Right to Freedom, Right against
-                            Exploitation, Freedom of Religion, Cultural & Educational Rights, Article 32 Writs,
-                            Suspensions, Article 300-A.</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-fundamental_rights"
-                                    onchange="toggleStatus('fundamental_rights')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="directive principles of state policy DPSP part IV article 36 to 51 Irish constitution welfare state socialistic gandhian liberal intellectual uniform civil code UCC minerva mills kesavananda basic structure non-justiciable">
-                        <td>8.</td>
-                        <td><a href="dpsp.html" class="chapter-link">Part IV | Directive Principles (Articles 36 to 51)</a></td>
-                        <td>Part IV: Irish origin, Socialistic, Gandhian & Liberal principles, Article 37 non-justiciability, key amendments, FR vs DPSP conflict evolution (Champakam, Golaknath, Minerva Mills), UCC (Art 44).</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-dpsp"
-                                    onchange="toggleStatus('dpsp')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="fundamental duties part IVA article 51A swaran singh committee 42nd amendment 86th amendment USSR japan non-justiciable verma committee 11 duties rights duty correlation">
-                        <td>9.</td>
-                        <td><a href="fundamental_duty.html" class="chapter-link">Part IV-A | Fundamental Duties (Art 51A)</a></td>
-                        <td>Part IV-A: Swaran Singh Committee (1976), 42nd & 86th CAAs, 11 Duties, accepted vs rejected recommendations, Verma Committee legal provisions, FR-FD correlation.</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-fundamental_duty"
-                                    onchange="toggleStatus('fundamental_duty')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="amendment of constitution part XX article 368 simple special majority federal structure basic structure doctrine kesavananda bharati 1973 24th amendment 42nd amendment 44th amendment unamendable core">
-                        <td>10.</td>
-                        <td><a href="amendment.html" class="chapter-link">Amendment of Constitution (Art 368)</a></td>
-                        <td>Part XX: Article 368, Types of majorities (Simple, Special, Special with State ratification), Amendment procedure steps, Basic Structure Doctrine evolution & unamendable elements.</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-amendment"
-                                    onchange="toggleStatus('amendment')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="parliament lok sabha rajya sabha speaker money bill budget legislative process joint sitting motions privileges">
-                        <td>11.</td>
-                        <td><a href="parliament.html" class="chapter-link">Parliament of India</a></td>
-                        <td>Speaker & Presiding Officers, Secretariat, Legislative Process, Money Bills vs Ordinary Bills, Composition and Terms, Parliamentary Motions and Privileges.</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-parliament"
-                                    onchange="toggleStatus('parliament')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="president governor union executive state executive indirect election electoral college mla mp vote value formula impeachment article 61 ordinance making power article 123 213 pardoning power article 72 161 full pardon commutation remission respite reprieve">
-                        <td>12.</td>
-                        <td><a href="president_governor.html" class="chapter-link">The President & Governor</a></td>
-                        <td>Union & State Executive: Electoral College vote formulas, President vs Governor Comparison, Article 61 Impeachment, Article 123/213 Ordinance Power, 38th & 44th CAAs, Article 72/161 Pardoning Powers.</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-president_governor"
-                                    onchange="toggleStatus('president_governor')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="prime minister council of ministers cabinet attorney general of india article 74 article 75 article 76 article 78 real de facto executive hung parliament discretion delhi hc 1980 sc 1997 non mp rajya sabha pm scholar views morley laski jennings 6 cms to pms caretaker government 91st amendment 15 percent cap 4 tier hierarchy collective responsibility article 75 3 individual responsibility article 75 2 kitchen cabinet article 88 no voting right article 105 solicitor general">
-                        <td>13.</td>
-                        <td><a href="prime_minister_executive.html" class="chapter-link">Prime Minister, CoM & Attorney General</a></td>
-                        <td>Real Executive (PM), Appointment Discretions, Scholar Views (Morley/Laski/Jennings), 6 CMs to PMs, Caretaker Govt, 91st CAA 15% Cap, CoM vs Cabinet, Collective Responsibility (Art 75(3)), Attorney General of India (Art 76 & Art 88).</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-prime_minister_executive"
-                                    onchange="toggleStatus('prime_minister_executive')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="judiciary supreme court high court tribunals collegium system first second third fourth judges case 99th amendment njac judges inquiry act 1968 impeachment original appellate advisory slp article 136 article 143 writ article 32 226 contempt of court act 1971 judicial review procedure established by law due process of law maneka gandhi judicial activism locus standi pil sal sil cal article 323a 323b sampath kumar l chandra kumar rojer mathew tribunal reforms act 2021">
-                        <td>14.</td>
-                        <td><a href="judiciary.html" class="chapter-link">Judiciary & Tribunals</a></td>
-                        <td>Supreme Court vs High Court, Advocates-on-Record (AOR), Collegium System (4+1 vs 2+1), Judges Inquiry Act 1968 Impeachment, SLP (Art 136), Advisory (Art 143), Contempt of Court 1971, Due Process of Law (Maneka Gandhi), PIL & Tribunals (Arts 323A & 323B case law evolution).</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-judiciary"
-                                    onchange="toggleStatus('judiciary')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="election commission of india article 324 upsc spsc article 315 to 323 finance commission article 280 15th fc cag article 148 to 151 ncsc article 338 ncst article 338a ncbc article 338b solm article 350b advocate general article 165">
-                        <td>15.</td>
-                        <td><a href="constitutional_bodies.html" class="chapter-link">Constitutional Bodies of India</a></td>
-                        <td>Election Commission (Art 324), UPSC & SPSC (Arts 315–323), Finance Commission (Art 280 & 15th FC), CAG (Arts 148–151), NCSC, NCST, NCBC, SOLM & Advocate General.</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-constitutional_bodies"
-                                    onchange="toggleStatus('constitutional_bodies')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="niti aayog governing council team india nhrc shrc 1993 act 2019 amendment cic sic rti act 2005 2019 amendment cvc dspe act 1946 cbi santhanam committee lokpal lokayuktas act 2013 anti corruption ombudsman">
-                        <td>16.</td>
-                        <td><a href="non_constitutional_bodies.html" class="chapter-link">Non-Constitutional & Statutory Bodies</a></td>
-                        <td>NITI Aayog (Jan 1 2015), NHRC & SHRC (1993 Act & 2019 Amendment), CIC & SIC (RTI 2005 & 2019 Amendment), CVC (Santhanam Comm), CBI (DSPE Act 1946), Lokpal & Lokayuktas (2013 Act).</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-non_constitutional_bodies"
-                                    onchange="toggleStatus('non_constitutional_bodies')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="warrant of precedence order of precedence rpa 1950 rpa 1951 representation of the people act section 29a political party registration election offences anti defection law 10th schedule 52nd amendment 91st amendment kihoto hollohan 1992">
-                        <td>17.</td>
-                        <td><a href="elections_rpa.html" class="chapter-link">Elections, RPA 1950/1951 & Anti-Defection</a></td>
-                        <td>Warrant of Precedence (1 to 7A table), RPA 1950 vs RPA 1951 comparison matrix, Section 29A party registration, Section 8 disqualifications, Anti-Defection Law (10th Schedule, 52nd & 91st CAAs).</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-elections_rpa"
-                                    onchange="toggleStatus('elections_rpa')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                    <tr class="chapter-row"
-                        data-search="panchayati raj 73rd constitutional amendment act 1992 part 9 11th schedule 29 functional items balwant rai mehta 1957 ashok mehta 1977 gvk rao 1985 lm singhvi 1986 gram sabha article 243a pesa act 1996 bhuria committee 5th schedule areas minor forest produce">
-                        <td>18.</td>
-                        <td><a href="panchayati_raj.html" class="chapter-link">Panchayati Raj & PESA Act 1996</a></td>
-                        <td>Committee Evolution (Balwant Rai 1957, Ashok Mehta 1977, LM Singhvi 1986), 73rd CAA 1992 (Part IX & 11th Schedule 29 items), Gram Sabha (Art 243A), 3-Tier structure, PESA Act 1996 (5th Schedule areas).</td>
-                        <td style="text-align: center;">
-                            <label>
-                                <input type="checkbox" class="status-checkbox" id="chk-panchayati_raj"
-                                    onchange="toggleStatus('panchayati_raj')">
-                                <span style="font-size: 15px; margin-left: 4px;">Read</span>
-                            </label>
-                        </td>
-                    </tr>
-
-                </tbody>
-            </table>
-
-            <div id="no-results-msg" class="no-results">
-                No matching topics found in current syllabus notes.
-            </div>
-
-            <!-- Subject-Wise PDF Scanned Notes Section
-            <h2>Polity Scanned Reference Library</h2>
-            <p>Access the original handwritten notes scan sheets for each chapter:</p>
-            <div class="library-shelf">
-                <a class="book-card" href="pdf/Preamble.pdf" target="_blank">
-                    <div class="book-icon">📚</div>
-                    <div class="book-title">1. Preamble</div>
-                    <div class="book-type">PDF Scan</div>
-                </a>
-                <a class="book-card" href="pdf/Article 1 to 4.pdf" target="_blank">
-                    <div class="book-icon">📚</div>
-                    <div class="book-title">2. Articles 1-4</div>
-                    <div class="book-type">PDF Scan</div>
-                </a>
-                <a class="book-card" href="pdf/Reorganisation.pdf" target="_blank">
-                    <div class="book-icon">📚</div>
-                    <div class="book-title">3. Reorganisation</div>
-                    <div class="book-type">PDF Scan</div>
-                </a>
-                <a class="book-card" href="pdf/Citizenship.pdf" target="_blank">
-                    <div class="book-icon">📚</div>
-                    <div class="book-title">4. Citizenship</div>
-                    <div class="book-type">PDF Scan</div>
-                </a>
-                <a class="book-card" href="pdf/Federalism.pdf" target="_blank">
-                    <div class="book-icon">📚</div>
-                    <div class="book-title">5. Federalism</div>
-                    <div class="book-type">PDF Scan</div>
-                </a>
-                <a class="book-card" href="pdf/Amendment of constitution.pdf" target="_blank">
-                    <div class="book-icon">📚</div>
-                    <div class="book-title">6. Amendments</div>
-                    <div class="book-type">PDF Scan</div>
-                </a>
-            </div> -->
-
-            <!-- MCQ Revision Link above the checklist -->
-            <div class="sticky-note yellow-note" style="margin-top: 36px; background: rgba(239, 246, 255, 0.9); border-color: var(--ink-blue);">
-                <h3 style="font-family: 'Kalam', cursive; font-size: 24px; color: var(--ink-blue); margin-bottom: 8px;">⚡ Ready to Test Your Knowledge?</h3>
-                <p style="font-size: 18px; line-height: 26px; margin-bottom: 14px;">Jump directly into the Indian Polity MCQ Revision Lab to practice topic-wise questions and Adda247 selection suites.</p>
-                <a href="../../mcq_tester.html?subject=polity" class="chapter-link" style="font-size: 18px; font-weight: bold; background: var(--ink-blue); color: white; padding: 8px 18px; border-radius: 8px; text-decoration: none; display: inline-block;">Practice Indian Polity MCQs →</a>
-            </div>
-
-            <!-- Polity Index shows funny study checklist note -->
-            <div class="sticky-note yellow-note" style="margin-top: 24px; position: relative;">
-                <p><strong>Aspirant's Survival Checklist:</strong></p>
-                <ul
-                    style="margin-top: 8px; margin-bottom: 8px; font-size: 18px; line-height: 28px; padding-left: 20px;">
-                    <li>📝 <strong>Highlighter Abuse:</strong> Highlight 99% of Laxmikanth so the pages glow in the
-                        dark.</li>
-                    <li>⏱️ <strong>Time Management:</strong> Spend 3 hours making a daily study schedule, follow it for
-                        exactly 3 minutes.</li>
-                    <li>☕ <strong>Caffeine Protocol:</strong> Consume more cups of cutting chai than the total number of
-                        Articles in the Constitution.</li>
-                    <li>👁️ <strong>Active Revision:</strong> Stare blankly at a single page of Preamble for 45 minutes
-                        while contemplating dinner plans.</li>
-                    <li>🏛️ <strong>Constitutional Crisis:</strong> Argue with friends whether reorganising your bedroom
-                        requires a Special Majority.</li>
-                </ul>
-            </div>
-
-            <!-- Fun margin doodle easter egg trigger -->
-            <p
-                style="font-family: 'Caveat', cursive; font-size: 22px; color: var(--ink-red); text-align: right; margin-top: 16px; transform: rotate(-1deg); margin-bottom: 0;">
-                * brain melting? tap the cup &rarr; <span style="cursor: pointer; font-size: 26px;"
-                    onclick="summonChai()" title="Click for Chai Break">☕</span>
-            </p>
-        </div>
-    </div>
-
-    <!-- Steaming Chai Easter Egg Overlay -->
-    <div class="chai-overlay" id="chai-overlay" onclick="closeChai()">
-        <div class="chai-cup-card" onclick="event.stopPropagation()">
-            <div class="cup-container">
-                <div class="steam-lines">
-                    <div class="steam"></div>
-                    <div class="steam"></div>
-                    <div class="steam"></div>
+            <a href="preamble.html" class="chapter-card" data-search="preamble objective resolution sovereign socialist secular democratic republic justice liberty equality fraternity 42nd amendment basic structure kesavananda bharati minerva mills preamble identity card pal k hivala text key words preamble non-justiciable enforceability">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 2</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-preamble" onchange="toggleStatus('preamble')">
+                    </div>
                 </div>
-                <div class="cup"></div>
-                <div class="cup-handle"></div>
-                <div class="cup-saucer"></div>
+                <h3 class="chapter-title">The Preamble & Philosophy</h3>
+                <p class="chapter-desc">Objective Resolution, 42nd CAA, Sovereign, Democratic, Republic, Justice, Basic Structure.</p>
+            </a>
+
+            <a href="reorganisation.html" class="chapter-card" data-search="reorganisation of states language basis post independence Nagpur session 1920 dhar commission jvp committee fazl ali commission states reorganisation act 1956 smaller states debate autonomous councils dev boards">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 3</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-reorganisation" onchange="toggleStatus('reorganisation')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Reorganisation of States</h3>
+                <p class="chapter-desc">Dhar Commission, JVP Committee, Fazl Ali Commission, States Reorganisation Act 1956.</p>
+            </a>
+
+            <a href="federalism.html" class="chapter-card" data-search="federalism local self-government foedus power division delegation devolution decentralization holding coming together asymmetric federalism core features dual polity supremacy rigidity quasi federal kc wheare co-operative bargaining competitive centralizing sarkaria commission punchhi commission article 371">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 4</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-federalism" onchange="toggleStatus('federalism')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Federalism & Centre-State</h3>
+                <p class="chapter-desc">Devolution, Decentralization, Quasi-federalism, Sarkaria & Punchhi Commissions, Special Provisions.</p>
+            </a>
+
+            <a href="article1to4.html" class="chapter-card" data-search="articles 1 to 4 union and its territory identity of india bharat destruction of states acquired territories admission of new states domestic reorganization article 368 exemption simple majority">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 5</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-article1to4" onchange="toggleStatus('article1to4')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Articles 1 to 4 | Territory</h3>
+                <p class="chapter-desc">The Union and its Territory, Admission of new states, boundary alteration, Article 368 exemption.</p>
+            </a>
+
+            <a href="citizenship.html" class="chapter-card" data-search="citizenship rights privileges duties article 5 to 11 citizenship act 1955 acquisition birth descent registration naturalisation incorporation termination renunciation deprivation nri pio oci caa 2019 nrc npr">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 6</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-citizenship" onchange="toggleStatus('citizenship')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Citizenship & Rights</h3>
+                <p class="chapter-desc">Articles 5-11, Citizenship Act 1955, Acquisition, Termination, NRI/OCI, CAA 2019, NRC.</p>
+            </a>
+
+            <a href="fundamental_rights.html" class="chapter-card" data-search="fundamental rights magna carta basic structure state definition article 12 laws article 13 equality article 14 to 18 freedom article 19 to 22 exploitation article 23 24 religion article 25 to 28 cultural educational article 29 30 constitutional remedies article 32 writ jurisdiction habeas corpus mandamus prohibition certiorari quo warranto armed forces martial law">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 7</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-fundamental_rights" onchange="toggleStatus('fundamental_rights')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Fundamental Rights (Part III)</h3>
+                <p class="chapter-desc">Magna Carta, Articles 12-35, Equality, Freedom, Exploitation, Religion, Writs, Martial Law.</p>
+            </a>
+
+            <a href="dpsp.html" class="chapter-card" data-search="directive principles of state policy dpsp part iv instrument of instructions welfare state socialist gandhian liberal intellectual article 36 to 51 uniform civil code ucc fundamental rights vs dpsp minerva mills case">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 8</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-dpsp" onchange="toggleStatus('dpsp')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Directive Principles (DPSP)</h3>
+                <p class="chapter-desc">Part IV, Instrument of Instructions, Socialist, Gandhian & Liberal principles, Uniform Civil Code.</p>
+            </a>
+
+            <a href="fundamental_duty.html" class="chapter-card" data-search="fundamental duties swaran singh committee 42nd amendment 86th amendment article 51a non justiciable verma committee observations">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 9</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-fundamental_duty" onchange="toggleStatus('fundamental_duty')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Fundamental Duties</h3>
+                <p class="chapter-desc">Swaran Singh Committee, 42nd & 86th CAA, Article 51A, Verma Committee.</p>
+            </a>
+
+            <a href="amendment.html" class="chapter-card" data-search="amendment of constitution article 368 simple majority special majority ratification basic structure doctrine kesavananda bharati golaknath case criticism of amendment procedure">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 10</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-amendment" onchange="toggleStatus('amendment')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Amendment of Constitution</h3>
+                <p class="chapter-desc">Article 368, Simple & Special Majority, Basic Structure Doctrine, Kesavananda Bharati case.</p>
+            </a>
+
+            <a href="president_governor.html" class="chapter-card" data-search="president governor election electoral college impeachment pardoning power veto pocket absolute suspensive ordinance making power executive legislative financial judicial powers discretionary powers">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 11</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-president_governor" onchange="toggleStatus('president_governor')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">President & Governor</h3>
+                <p class="chapter-desc">Election, Impeachment, Pardoning Power, Veto Powers, Ordinances, Discretionary Powers.</p>
+            </a>
+
+            <a href="prime_minister_executive.html" class="chapter-card" data-search="prime minister chief minister council of ministers cabinet collective responsibility individual responsibility kitchen cabinet deputy prime minister attorney general advocate general">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 12</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-prime_minister_executive" onchange="toggleStatus('prime_minister_executive')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Prime Minister & COM</h3>
+                <p class="chapter-desc">Council of Ministers, Cabinet, Collective & Individual Responsibility, Attorney General.</p>
+            </a>
+
+            <a href="parliament.html" class="chapter-card" data-search="parliament state legislature lok sabha rajya sabha speaker chairman sessions prorogation dissolution quorum voting passing of bills ordinary money financial joint sitting budget parliamentary committees public accounts estimates pu">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 13</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-parliament" onchange="toggleStatus('parliament')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Parliament & State Leg.</h3>
+                <p class="chapter-desc">Lok/Rajya Sabha, Speaker, Sessions, Passing of Bills, Budget, Parliamentary Committees.</p>
+            </a>
+
+            <a href="judiciary.html" class="chapter-card" data-search="judiciary supreme court high court subordinate courts appointment judges collegium system njac removal jurisdiction original appellate advisory writ pil judicial review activism overreach contempt of court">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 14</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-judiciary" onchange="toggleStatus('judiciary')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Supreme Court & Judiciary</h3>
+                <p class="chapter-desc">Collegium System, NJAC, Original & Appellate Jurisdiction, Judicial Review, Activism, PIL.</p>
+            </a>
+
+            <a href="panchayati_raj.html" class="chapter-card" data-search="panchayati raj local government 73rd amendment balwant rai mehta ashok mehta lm singhvi gram sabha reservation three tier system state election commission state finance commission pesa act 1996">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 15</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-panchayati_raj" onchange="toggleStatus('panchayati_raj')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Panchayati Raj (PRIs)</h3>
+                <p class="chapter-desc">73rd CAA, Balwant Rai Mehta, Gram Sabha, Reservation, PESA Act 1996.</p>
+            </a>
+
+            <a href="urban_local_bodies.html" class="chapter-card" data-search="urban local bodies municipalities 74th amendment municipal corporation council nagar panchayat wards committee metropolitan planning district planning cantonment board port trust">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 16</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-urban_local_bodies" onchange="toggleStatus('urban_local_bodies')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Urban Local Bodies</h3>
+                <p class="chapter-desc">74th CAA, Municipal Corporation, Wards Committee, Cantonment Boards, Port Trusts.</p>
+            </a>
+
+            <a href="constitutional_bodies.html" class="chapter-card" data-search="constitutional bodies election commission upsc spsc finance commission ncsc ncst ncbc cag special officer linguistic minorities">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 17</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-constitutional_bodies" onchange="toggleStatus('constitutional_bodies')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Constitutional Bodies</h3>
+                <p class="chapter-desc">Election Commission, UPSC, Finance Commission, NCSC, NCST, NCBC, CAG.</p>
+            </a>
+
+            <a href="non_constitutional_bodies.html" class="chapter-card" data-search="non constitutional bodies statutory executive niti aayog nhrc shrc cic sic cvc cbi lokpal lokayukta ndma">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 18</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-non_constitutional_bodies" onchange="toggleStatus('non_constitutional_bodies')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Non-Constitutional Bodies</h3>
+                <p class="chapter-desc">NITI Aayog, NHRC, CIC, CVC, CBI, Lokpal, Lokayukta, NDMA.</p>
+            </a>
+
+            <a href="elections_rpa.html" class="chapter-card" data-search="elections electoral reforms representation of people act 1950 rpa 1951 anti defection law 10th schedule evm vvpat electoral bonds delimitation commission voting behavior">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapter 19</span>
+                    <div class="chapter-status" onclick="event.preventDefault()">
+                        <input type="checkbox" class="status-checkbox" id="chk-elections_rpa" onchange="toggleStatus('elections_rpa')">
+                    </div>
+                </div>
+                <h3 class="chapter-title">Elections & RPA</h3>
+                <p class="chapter-desc">Representation of People Act (1950 & 1951), Anti-Defection Law, EVM, VVPAT, Delimitation.</p>
+            </a>
+
+            <div id="no-results" class="no-results">
+                No chapters matched your search query.
             </div>
-            <h3 style="font-size: 26px; color: var(--ink-blue); margin-bottom: 8px; font-family: 'Kalam', cursive;">Chai
-                Served! ☕</h3>
-            <p id="chai-wisdom"
-                style="font-size: 20px; line-height: 26px; margin-bottom: 12px; font-style: italic; color: var(--ink-black);">
-                "Laxmikanth size: 📚. Your brain right now: ☕. Take a 5-minute deep breath. You got this!"
-            </p>
-            <button class="chai-btn-close" onclick="closeChai()">Back to study</button>
         </div>
     </div>
 
+    <!-- Script for Search and Checkboxes -->
     <script>
-        const chapters = ['preamble', 'article1to4', 'reorganisation', 'citizenship', 'federalism', 'amendment', 'fundamental_rights'];
-
-        // Load statuses from localStorage
-        function loadStatuses() {
-            chapters.forEach(ch => {
-                const status = localStorage.getItem(`polity_chapter_${ch}`);
-                const checkbox = document.getElementById(`chk-${ch}`);
-                if (checkbox) {
-                    checkbox.checked = (status === 'read');
-                }
+        // Load checkbox states from localStorage
+        function loadCheckboxStates() {
+            const checkboxes = document.querySelectorAll('.status-checkbox');
+            checkboxes.forEach(chk => {
+                const chapterId = chk.id.replace('chk-', '');
+                const isChecked = localStorage.getItem('polity_read_' + chapterId) === 'true';
+                chk.checked = isChecked;
             });
         }
 
-        // Save status change to localStorage
-        function toggleStatus(ch) {
-            const checkbox = document.getElementById(`chk-${ch}`);
-            if (checkbox) {
-                const newStatus = checkbox.checked ? 'read' : 'unread';
-                localStorage.setItem(`polity_chapter_${ch}`, newStatus);
+        // Toggle and save state
+        function toggleStatus(chapterId) {
+            const chk = document.getElementById('chk-' + chapterId);
+            if (chk) {
+                localStorage.setItem('polity_read_' + chapterId, chk.checked);
             }
         }
 
-        // Live Fuzzy Search / filter chapters
+        // Live Search Filter for Chapter Cards
         function filterChapters() {
-            const query = document.getElementById('search-input').value.toLowerCase().trim();
-            const rows = document.querySelectorAll('.chapter-row');
+            const input = document.getElementById('search-input').value.toLowerCase();
+            const cards = document.querySelectorAll('.chapter-card');
+            const noResults = document.getElementById('no-results');
             let visibleCount = 0;
 
-            rows.forEach(row => {
-                const searchText = row.getAttribute('data-search') + " " + row.textContent.toLowerCase();
-                if (searchText.includes(query)) {
-                    row.style.display = 'table-row';
+            cards.forEach(card => {
+                const searchKeywords = card.getAttribute('data-search') ? card.getAttribute('data-search').toLowerCase() : '';
+                const titleText = card.querySelector('.chapter-title').textContent.toLowerCase();
+                const descText = card.querySelector('.chapter-desc').textContent.toLowerCase();
+                
+                if (searchKeywords.includes(input) || titleText.includes(input) || descText.includes(input)) {
+                    card.style.display = '';
                     visibleCount++;
                 } else {
-                    row.style.display = 'none';
+                    card.style.display = 'none';
                 }
             });
-
-            const noResults = document.getElementById('no-results-msg');
-            const table = document.getElementById('chapters-table');
 
             if (visibleCount === 0) {
                 noResults.style.display = 'block';
-                table.style.display = 'none';
             } else {
                 noResults.style.display = 'none';
-                table.style.display = 'table';
             }
         }
 
-        // --- Easter Egg: Cutting Chai summoner (Funny/Humorous Quotes) ---
-        const wisdomList = [
-            '"Laxmikanth has 80 chapters, but your attention span lasts exactly 80 seconds. Take a sip and start again! ☕"',
-            '"UPSC syllabus is like the universe — ever-expanding. But this cutting chai is finite. Drink up before it gets cold! ☕"',
-            '"Breaking News: Local aspirant seen studying for 15 minutes straight. MHA orders high-level probe into this sudden burst of efficiency! 😂"',
-            '"Virtual tea served. Side effects may include: temporary delusion of clearing UPSC in your first attempt, sudden urge to read random NCERTs, and extreme sleepiness."',
-            '"Did you know? The word \"Sovereign\" means you are completely independent. But right now, you are 100% dependent on caffeine. Drink up!"',
-            '"Aspirant\'s Dilemma: Sleep for 10 minutes or read Laxmikanth for 10 minutes? *Sleeps for 4 hours instead* 💤"',
-            '"Chai break duration: 5 minutes. Actual time spent staring blankly at the wall: 45 minutes. A classic, time-tested aspirant revision method!"',
-            '"Congratulations! You have completed 0.003% of the syllabus today. Reward yourself with a virtual biscuit to go with this tea! 🍪"'
-        ];
-
-        function summonChai() {
-            const index = Math.floor(Math.random() * wisdomList.length);
-            document.getElementById('chai-wisdom').innerText = wisdomList[index];
-            document.getElementById('chai-overlay').style.display = 'flex';
-            playChirpSound();
-        }
-
-        function closeChai() {
-            document.getElementById('chai-overlay').style.display = 'none';
-        }
-
-        function playChirpSound() {
-            try {
-                const ctx = new (window.AudioContext || window.webkitAudioContext)();
-                const now = ctx.currentTime;
-                for (let i = 0; i < 5; i++) {
-                    const osc = ctx.createOscillator();
-                    const gain = ctx.createGain();
-                    osc.connect(gain);
-                    gain.connect(ctx.destination);
-                    osc.type = 'sine';
-                    const pitch = 300 + (i * 120);
-                    const time = now + (i * 0.08);
-                    osc.frequency.setValueAtTime(pitch, time);
-                    gain.gain.setValueAtTime(0.08, time);
-                    gain.gain.exponentialRampToValueAtTime(0.001, time + 0.12);
-                    osc.start(time);
-                    osc.stop(time + 0.15);
-                }
-            } catch (e) {
-                console.error(e);
-            }
-        }
-
-        window.onload = loadStatuses;
+        document.addEventListener('DOMContentLoaded', () => {
+            loadCheckboxStates();
+            filterChapters(); // Initial run just in case
+        });
     </script>
 </body>
-
 </html>
