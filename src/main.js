@@ -144,21 +144,24 @@ document.addEventListener('DOMContentLoaded', () => {
     duration: 0.6,
   }, '-=0.4');
 
-  // GSAP ScrollTrigger for liquid cards
-  const liquidCards = document.querySelectorAll('.liquid-card');
-  if (liquidCards.length > 0) {
-    gsap.from(liquidCards, {
-      scrollTrigger: {
-        trigger: '.cards-container',
-        start: 'top 85%',
-      },
-      y: 40,
-      opacity: 0,
-      duration: 0.8,
-      stagger: 0.1,
-      ease: 'power2.out',
-    });
-  }
+  // GSAP ScrollTrigger for liquid cards (per section container)
+  const cardContainers = document.querySelectorAll('.cards-container');
+  cardContainers.forEach((container) => {
+    const cards = container.querySelectorAll('.liquid-card');
+    if (cards.length > 0) {
+      gsap.from(cards, {
+        scrollTrigger: {
+          trigger: container,
+          start: 'top 92%',
+        },
+        y: 25,
+        opacity: 0,
+        duration: 0.6,
+        stagger: 0.08,
+        ease: 'power2.out',
+      });
+    }
+  });
 
   // Section Headers Reveal
   const sectionHeaders = document.querySelectorAll('.section-title-wrapper');
