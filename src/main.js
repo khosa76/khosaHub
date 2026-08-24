@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
     duration: 0.6,
   }, '-=0.4');
 
-  // GSAP ScrollTrigger for liquid cards (per section container)
+  // GSAP Entrance for liquid cards (NO opacity fading, cards are 100% visible by default!)
   const cardContainers = document.querySelectorAll('.cards-container');
   cardContainers.forEach((container) => {
     const cards = container.querySelectorAll('.liquid-card');
@@ -152,42 +152,50 @@ document.addEventListener('DOMContentLoaded', () => {
       gsap.from(cards, {
         scrollTrigger: {
           trigger: container,
-          start: 'top 92%',
+          start: 'top 95%',
         },
-        y: 25,
-        opacity: 0,
+        y: 20,
         duration: 0.6,
-        stagger: 0.08,
-        ease: 'power2.out',
+        stagger: 0.06,
+        ease: 'back.out(1.2)',
       });
     }
   });
 
-  // Section Headers Reveal
+  // Section Headers Reveal (NO opacity fading)
   const sectionHeaders = document.querySelectorAll('.section-title-wrapper');
   sectionHeaders.forEach((header) => {
     gsap.from(header, {
       scrollTrigger: {
         trigger: header,
-        start: 'top 88%',
+        start: 'top 95%',
       },
-      x: -30,
-      opacity: 0,
-      duration: 0.7,
+      x: -20,
+      duration: 0.6,
       ease: 'power2.out',
     });
   });
 
-  // Liquid Magnetic 3D Physics on Cards
+  // Apple Liquid Glass Interactive Glare & 3D Spring Physics
+  const liquidCards = document.querySelectorAll('.liquid-card');
   liquidCards.forEach((card) => {
     card.addEventListener('mousemove', (e) => {
       const rect = card.getBoundingClientRect();
-      const x = e.clientX - rect.left - rect.width / 2;
-      const y = e.clientY - rect.top - rect.height / 2;
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      const centerX = x - rect.width / 2;
+      const centerY = y - rect.height / 2;
+
+      // Update liquid glass light glare position
+      card.style.setProperty('--mouse-x', `${x}px`);
+      card.style.setProperty('--mouse-y', `${y}px`);
+
+      // 3D Magnetic tilt physics
       gsap.to(card, {
-        rotateX: -y * 0.04,
-        rotateY: x * 0.04,
-        duration: 0.4,
+        rotateX: -centerY * 0.04,
+        rotateY: centerX * 0.04,
+        scale: 1.02,
+        duration: 0.3,
         ease: 'power2.out',
       });
     });
@@ -196,7 +204,8 @@ document.addEventListener('DOMContentLoaded', () => {
       gsap.to(card, {
         rotateX: 0,
         rotateY: 0,
-        duration: 0.6,
+        scale: 1,
+        duration: 0.5,
         ease: 'power2.out',
       });
     });
