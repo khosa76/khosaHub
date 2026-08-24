@@ -1,28 +1,25 @@
 /* mains_tester.css - Apple-Inspired Mains Q&A Practice Lab */
 :root {
-    --desk-bg: #f3f4f6;
-    --desk-grid: rgba(209, 213, 219, 0.6);
-    --paper-bg: #fffdf8;
-    --margin-line: rgba(239, 68, 68, 0.4);
-    --note-line: rgba(59, 130, 246, 0.08);
+    --desk-bg: #fbfbfd;
+    --paper-bg: #ffffff;
 
-    --page-bg: #f4f4f7;
+    --page-bg: #fbfbfd;
     --ink-black: #1d1d1f;
-    --text-secondary: #6e6e73;
+    --text-secondary: #434344;
     --ink-blue: #0066cc;
-    --ink-blue-hover: #004499;
+    --ink-blue-hover: #0052a3;
     --accent-gold: #d97706;
-    --accent-gold-bg: #fef3c7;
-    --card-bg: #f8fafc;
-    --border-color: #e2e8f0;
-    --badge-bg: #e0e7ff;
-    --badge-text: #3730a3;
-    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
-    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
-    --radius-md: 12px;
-    --radius-lg: 18px;
+    --accent-gold-bg: #fffbeb;
+    --card-bg: rgba(255, 255, 255, 0.85);
+    --border-color: rgba(0, 0, 0, 0.08);
+    --badge-bg: #f0f7ff;
+    --badge-text: #0066cc;
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.03);
+    --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.04);
+    --radius-md: 14px;
+    --radius-lg: 20px;
     --font-heading: 'Kalam', 'Patrick Hand', cursive, sans-serif;
-    --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
 }
 
 * {
@@ -32,14 +29,16 @@
 }
 
 body {
-    background-color: var(--desk-bg);
-    background-image: radial-gradient(var(--desk-grid) 1.5px, transparent 1.5px);
-    background-size: 24px 24px;
+    background-color: #fbfbfd;
+    background-image: 
+        radial-gradient(at 10% 10%, rgba(219, 234, 254, 0.4) 0px, transparent 50%),
+        radial-gradient(at 90% 20%, rgba(237, 233, 254, 0.3) 0px, transparent 50%);
+    background-attachment: fixed;
     color: var(--ink-black);
     font-family: var(--font-body);
     line-height: 1.6;
     min-height: 100vh;
-    padding: 0 1px;
+    padding: 0;
 }
 
 .mains-container {
@@ -55,19 +54,13 @@ body {
 
 .paper-page {
     position: relative;
-    background-color: var(--paper-bg);
-    background-image:
-        linear-gradient(90deg, transparent 66px, var(--margin-line) 66px, var(--margin-line) 68px, transparent 68px),
-        linear-gradient(var(--note-line) 96%, transparent 96%);
-    background-size: 100% 100%, 100% 32px;
-    background-position: 0 0, 0 12px;
-    border-radius: var(--radius-lg);
-    box-shadow:
-        0 10px 30px rgba(0, 0, 0, 0.08),
-        0 2px 8px rgba(0, 0, 0, 0.04);
-    padding: 36px 40px 36px 90px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 0;
+    border: none;
+    padding: 32px 36px;
     min-height: 100vh;
-    border: 1px solid rgba(0, 0, 0, 0.06);
     box-sizing: border-box;
 }
 

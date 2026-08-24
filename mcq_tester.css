@@ -1,51 +1,48 @@
 /* mcq_tester.css - Clean, Smooth & Elegant White Light Theme for MCQ Revision Lab */
 
 :root {
-  --desk-bg: #f3f4f6;
-  --desk-grid: rgba(209, 213, 219, 0.6);
-  --paper-bg: #fffdf8;
-  --margin-line: rgba(239, 68, 68, 0.4);
-  --note-line: rgba(59, 130, 246, 0.08);
+  --desk-bg: #fbfbfd;
+  --paper-bg: #ffffff;
 
-  --bg-canvas: #f8fafc;
-  --bg-card: #ffffff;
-  --bg-subtle: #f1f5f9;
-  --bg-hover: #f8fafc;
+  --bg-canvas: #fbfbfd;
+  --bg-card: rgba(255, 255, 255, 0.85);
+  --bg-subtle: #f2f2f7;
+  --bg-hover: #ffffff;
 
-  --text-main: #0f172a;
-  --text-muted: #475569;
-  --text-subtle: #94a3b8;
+  --text-main: #1d1d1f;
+  --text-muted: #434344;
+  --text-subtle: #86868b;
 
-  --primary-blue: #2563eb;
-  --primary-blue-hover: #1d4ed8;
-  --primary-blue-light: #eff6ff;
-  --primary-blue-border: #bfdbfe;
+  --primary-blue: #0066cc;
+  --primary-blue-hover: #0052a3;
+  --primary-blue-light: #f0f7ff;
+  --primary-blue-border: #b3d7ff;
 
-  --success-green: #059669;
-  --success-green-bg: #dcfce7;
-  --success-green-border: #10b981;
+  --success-green: #10b981;
+  --success-green-bg: #ecfdf5;
+  --success-green-border: #a7f3d0;
 
-  --danger-red: #dc2626;
-  --danger-red-bg: #fee2e2;
-  --danger-red-border: #ef4444;
+  --danger-red: #ef4444;
+  --danger-red-bg: #fef2f2;
+  --danger-red-border: #fecaca;
 
   --warning-amber: #d97706;
   --warning-amber-bg: #fffbeb;
   --warning-amber-border: #fde68a;
 
-  --border-light: #e2e8f0;
-  --border-medium: #cbd5e1;
+  --border-light: rgba(0, 0, 0, 0.08);
+  --border-medium: rgba(0, 0, 0, 0.12);
 
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
   --radius-pill: 9999px;
 
-  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.05);
-  --shadow-md: 0 4px 16px rgba(15, 23, 42, 0.06);
-  --shadow-lg: 0 10px 30px rgba(15, 23, 42, 0.08);
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.08);
 
-  --font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Segoe UI", Roboto, sans-serif;
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
 }
 
 /* Base Setup */
@@ -56,15 +53,17 @@
 }
 
 body {
-  background-color: var(--desk-bg);
-  background-image: radial-gradient(var(--desk-grid) 1.5px, transparent 1.5px);
-  background-size: 24px 24px;
+  background-color: #fbfbfd;
+  background-image: 
+    radial-gradient(at 10% 10%, rgba(219, 234, 254, 0.4) 0px, transparent 50%),
+    radial-gradient(at 90% 20%, rgba(237, 233, 254, 0.3) 0px, transparent 50%);
+  background-attachment: fixed;
   color: var(--text-main);
   font-family: var(--font-family);
   font-size: 15px;
   line-height: 1.6;
   margin: 0;
-  padding: 0 1px;
+  padding: 0;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -84,18 +83,12 @@ body {
 
 .paper-page {
   position: relative;
-  background-color: var(--paper-bg);
-  background-image:
-    linear-gradient(90deg, transparent 66px, var(--margin-line) 66px, var(--margin-line) 68px, transparent 68px),
-    linear-gradient(var(--note-line) 96%, transparent 96%);
-  background-size: 100% 100%, 100% 32px;
-  background-position: 0 0, 0 12px;
-  border-radius: var(--radius-lg);
-  box-shadow:
-    0 10px 30px rgba(0, 0, 0, 0.08),
-    0 2px 8px rgba(0, 0, 0, 0.04);
-  border: 1px solid var(--border-light);
-  padding: 36px 40px 36px 90px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 0;
+  border: none;
+  padding: 32px 36px;
   min-height: 100vh;
   box-sizing: border-box;
 }

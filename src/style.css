@@ -28,28 +28,112 @@ html.lenis, html.lenis body {
   pointer-events: none;
 }
 
-/* Base custom font & background defaults */
+/* Apple/Tesla Inspired Light Mode Styling System */
+:root {
+  --apple-bg: #fbfbfd;
+  --apple-card-bg: rgba(255, 255, 255, 0.75);
+  --apple-border: rgba(0, 0, 0, 0.08);
+}
+
 body {
-  font-family: 'Patrick Hand', cursive, sans-serif;
-  color: #1e293b;
-  background-color: #f8fafc;
-  overflow-x: hidden;
-}
-
-/* Notebook paper canvas utilities */
-.paper-canvas {
-  background-color: #fffdf8;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  color: #1d1d1f;
+  background-color: #fbfbfd;
   background-image: 
-    linear-gradient(90deg, transparent 66px, #fca5a5 66px, #fca5a5 68px, transparent 68px),
-    linear-gradient(#e2e8f0 96%, transparent 96%);
-  background-size: 100% 100%, 100% 32px;
-  background-position: 0 0, 0 12px;
+    radial-gradient(at 10% 10%, rgba(219, 234, 254, 0.5) 0px, transparent 50%),
+    radial-gradient(at 90% 20%, rgba(237, 233, 254, 0.4) 0px, transparent 50%),
+    radial-gradient(at 50% 80%, rgba(224, 242, 254, 0.3) 0px, transparent 50%);
+  background-attachment: fixed;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
-@media (max-width: 600px) {
-  .paper-canvas {
-    background-image: linear-gradient(#e2e8f0 96%, transparent 96%);
-    background-size: 100% 32px;
-    background-position: 0 12px;
-  }
+/* Glassmorphism Components */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.04);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.03);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  transform: translateY(-4px) scale(1.01);
+  background: rgba(255, 255, 255, 0.9);
+  border-color: rgba(0, 102, 204, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 0 25px rgba(0, 102, 204, 0.12);
+}
+
+.glass-header {
+  background: rgba(251, 251, 253, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* Apple Gradient Typography */
+.gradient-text-blue {
+  background: linear-gradient(135deg, #0066cc 0%, #6e56cf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-dark {
+  background: linear-gradient(180deg, #1d1d1f 0%, #434344 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-gold {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Modern Badge Pill */
+.badge-apple {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  backdrop-filter: blur(10px);
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f4;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c7;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9e9ea4;
+}
+
+/* Swiper custom overrides */
+.swiper-pagination-bullet {
+  background: #0066cc !important;
+  opacity: 0.3;
+  transition: all 0.3s ease;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  width: 24px !important;
+  border-radius: 4px !important;
 }

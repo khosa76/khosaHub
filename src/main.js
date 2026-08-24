@@ -13,7 +13,7 @@ const lenis = new Lenis({
   duration: 1.2,
   easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
   smoothWheel: true,
-  touchMultiplier: 1.8,
+  touchMultiplier: 1.6,
 });
 
 function raf(time) {
@@ -34,17 +34,17 @@ window.lenis = lenis;
 
 // 2. Initialize Swiper Sliders
 document.addEventListener('DOMContentLoaded', () => {
-  // Quote Banner Carousel
+  // Quote Banner Swiper
   if (document.querySelector('.quote-swiper')) {
     new Swiper('.quote-swiper', {
       modules: [Autoplay, Pagination],
       loop: true,
       autoplay: {
-        delay: 4500,
+        delay: 5000,
         disableOnInteraction: false,
       },
       pagination: {
-        el: '.swiper-pagination',
+        el: '.quote-swiper-pagination',
         clickable: true,
       },
     });
@@ -55,10 +55,10 @@ document.addEventListener('DOMContentLoaded', () => {
     new Swiper('.subject-swiper', {
       modules: [Navigation, Pagination, Autoplay],
       slidesPerView: 1,
-      spaceBetween: 20,
+      spaceBetween: 24,
       loop: false,
       autoplay: {
-        delay: 5000,
+        delay: 6000,
         disableOnInteraction: false,
       },
       pagination: {
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       breakpoints: {
         640: { slidesPerView: 2, spaceBetween: 24 },
-        1024: { slidesPerView: 3, spaceBetween: 28 },
+        1024: { slidesPerView: 3, spaceBetween: 30 },
       },
     });
   }
@@ -89,25 +89,44 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 3. GSAP Entrance & Scroll Animations
-  // Hero reveal animation
-  gsap.from('.hero-reveal', {
-    y: 40,
-    opacity: 0,
-    duration: 1,
-    stagger: 0.15,
-    ease: 'power3.out',
-  });
+  // 3. GSAP Animations & Entrance Timeline
+  const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
 
-  // Staggered reveal for cards & sections on scroll
-  const gsapCards = document.querySelectorAll('.gsap-card');
-  if (gsapCards.length > 0) {
-    gsap.from(gsapCards, {
+  tl.from('.apple-nav', {
+    y: -30,
+    opacity: 0,
+    duration: 0.8,
+  })
+  .from('.hero-badge', {
+    scale: 0.8,
+    opacity: 0,
+    duration: 0.6,
+  }, '-=0.4')
+  .from('.hero-title', {
+    y: 30,
+    opacity: 0,
+    duration: 0.8,
+  }, '-=0.4')
+  .from('.hero-sub', {
+    y: 20,
+    opacity: 0,
+    duration: 0.6,
+  }, '-=0.4')
+  .from('.hero-quote', {
+    y: 20,
+    opacity: 0,
+    duration: 0.6,
+  }, '-=0.4');
+
+  // GSAP ScrollTrigger for cards
+  const glassCards = document.querySelectorAll('.glass-card');
+  if (glassCards.length > 0) {
+    gsap.from(glassCards, {
       scrollTrigger: {
-        trigger: '.gsap-card-container',
+        trigger: '.cards-container',
         start: 'top 85%',
       },
-      y: 50,
+      y: 40,
       opacity: 0,
       duration: 0.8,
       stagger: 0.12,
@@ -115,19 +134,42 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Scroll triggers for chapter note sections
-  const headings = document.querySelectorAll('h2, .chapter-header');
-  headings.forEach((heading) => {
-    gsap.from(heading, {
+  // Section Headers Reveal
+  const sectionHeaders = document.querySelectorAll('.section-title-wrapper');
+  sectionHeaders.forEach((header) => {
+    gsap.from(header, {
       scrollTrigger: {
-        trigger: heading,
-        start: 'top 90%',
-        toggleActions: 'play none none reverse',
+        trigger: header,
+        start: 'top 88%',
       },
-      x: -25,
+      x: -30,
       opacity: 0,
-      duration: 0.6,
+      duration: 0.7,
       ease: 'power2.out',
+    });
+  });
+
+  // Magnetic 3D tilt effect on glass cards
+  glassCards.forEach((card) => {
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left - rect.width / 2;
+      const y = e.clientY - rect.top - rect.height / 2;
+      gsap.to(card, {
+        rotateX: -y * 0.03,
+        rotateY: x * 0.03,
+        duration: 0.4,
+        ease: 'power2.out',
+      });
+    });
+
+    card.addEventListener('mouseleave', () => {
+      gsap.to(card, {
+        rotateX: 0,
+        rotateY: 0,
+        duration: 0.6,
+        ease: 'power2.out',
+      });
     });
   });
 });

@@ -1,232 +1,380 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KHOSA Aspirant Hub - UPSC Study Vault</title>
+    <title>KHOSA Aspirant Hub - UPSC & State PCS Study Vault</title>
+    
+    <!-- Fonts: Inter + Kalam + Caveat -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@400;700&family=Patrick+Hand&family=JetBrains+Mono:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600;700;800&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Vite Main Entry Point (Tailwind, GSAP, Lenis, Swiper) -->
     <script type="module" src="/src/main.js"></script>
+
     <!-- Apple Home Screen / PWA support -->
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" href="apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Khosa Hub">
-
-    <style>
-        .section-header-title {
-            font-family: 'Kalam', cursive;
-            font-size: 26px;
-            color: var(--ink-blue);
-            margin-top: 36px;
-            margin-bottom: 16px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            border-bottom: 2px dashed rgba(30, 58, 138, 0.2);
-            padding-bottom: 8px;
-        }
-
-        .section-header-title span.section-tag {
-            font-size: 14px;
-            font-family: 'Patrick Hand', cursive;
-            background: rgba(30, 58, 138, 0.08);
-            color: var(--ink-blue);
-            padding: 2px 10px;
-            border-radius: 12px;
-            font-weight: normal;
-        }
-
-        .subjects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 20px;
-        }
-    </style>
 </head>
 
-<body>
-    <div class="notebook-container">
-        <div class="paper-page">
+<body class="bg-[#fbfbfd] text-[#1d1d1f] antialiased selection:bg-blue-500 selection:text-white min-h-screen flex flex-col">
 
-            <h1 class="hero-reveal">KHOSA Aspirant Hub</h1>
-            <div class="subtitle hero-reveal">Personal Study Vault & Practice Directory</div>
-
-            <!-- Swiper Carousel for Revision Quotes -->
-            <div class="quote-banner swiper quote-swiper hero-reveal overflow-hidden rounded-xl shadow-sm my-4 border border-amber-200 bg-amber-50/70 p-4">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <span class="font-bold text-amber-900">💡 Revision Quote: </span>
-                        <span class="italic text-slate-800">"The only limit to our realization of tomorrow will be our doubts of today." — Franklin D. Roosevelt</span>
-                    </div>
-                    <div class="swiper-slide">
-                        <span class="font-bold text-amber-900">⚡ Daily Motivation: </span>
-                        <span class="italic text-slate-800">"Success is not final, failure is not fatal: it is the courage to continue that counts." — Winston Churchill</span>
-                    </div>
-                    <div class="swiper-slide">
-                        <span class="font-bold text-amber-900">🎓 Ranker Strategy: </span>
-                        <span class="italic text-slate-800">"Revision is the magic key that turns temporary memory into permanent rank." — Civil Services Wisdom</span>
-                    </div>
+    <!-- Floating Apple-style Glass Header -->
+    <header class="apple-nav fixed top-0 left-0 right-0 z-50 glass-header px-4 sm:px-8 py-3.5 flex items-center justify-between transition-all duration-300">
+        <div class="flex items-center gap-3">
+            <a href="index.html" class="flex items-center gap-2.5 group">
+                <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white font-bold text-lg shadow-md shadow-blue-500/20 group-hover:scale-105 transition-transform">
+                    K
                 </div>
-                <div class="swiper-pagination mt-2"></div>
-            </div>
-
-            <!-- SECTION 1: CURRENT AFFAIRS VAULT -->
-            <div class="section-header-title">
-                📰 <span>Current Affairs </span>
-                <span class="section-tag">Monthly Magazines & News Archives</span>
-            </div>
-            <div class="subjects-grid">
-                <a href="current_affairs_index.html" class="subject-card active"
-                    style="background: rgba(243, 232, 255, 0.7); border-color: #9333ea; position: relative;">
-                    <span class="badge-new"
-                        style="position: absolute; top: 12px; right: 12px; font-family: 'Kalam', cursive; background: #9333ea; color: white; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; transform: rotate(-2deg);">JUNE
-                        EDITION</span>
-                    <h3>📰 Current Affairs</h3>
-                    <p>Interactive page-by-page PDF magazine directory featuring <strong>June Monthly CA Magazine by
-                            Fateh Sir</strong> (Polity, Punjab GK, IR, Economy & Schemes).</p>
-                </a>
-            </div>
-
-            <!-- SECTION 2: SUBJECT NOTES VAULT -->
-            <div class="section-header-title">
-                📚 <span> Notes</span>
-                <span class="section-tag">Comprehensive Syllabus Master Notes</span>
-            </div>
-            <div class="subjects-grid">
-                <a href="subjects/polity/index.html" class="subject-card active"
-                    style="background: rgba(239, 246, 255, 0.6); border-color: var(--ink-blue);">
-                    <h3>🏛️ Indian Polity</h3>
-                    <p>Sovereignty, Preamble, Articles 1-4, Reorganisation of States, Citizenship, Fundamental Rights,
-                        Union Executive, Judiciary & Panchayati Raj.</p>
-                </a>
-                <a href="mcq_tester.html?subject=history" class="subject-card active">
-                    <h3>📜 Modern Indian & World History</h3>
-                    <p>National movement, British constitutional acts, ancient philosophy, medieval Cholas, freedom
-                        struggle, and world revolutions.</p>
-                </a>
-                <a href="mcq_tester.html?subject=geography" class="subject-card active">
-                    <h3>🌍 Physical Geography & Environment</h3>
-                    <p>Physical geomorphology, population demography, climatology, El Niño / La Niña, earthquakes, and
-                        environment mapping.</p>
-                </a>
-                <a href="mcq_tester.html?subject=economy" class="subject-card active">
-                    <h3>📈 Indian Economy & Science & Tech</h3>
-                    <p>Planning models, microeconomics, monetary policy, physics mechanics, biology evolution, and
-                        disease vectors.</p>
-                </a>
-            </div>
-
-            <!-- SECTION 3: REVISION & PRACTICE TEST LABS -->
-            <div class="section-header-title">
-                ⚡ <span>Test Labs</span>
-                <span class="section-tag">MCQs & Mains Answer Writing</span>
-            </div>
-            <div class="subjects-grid">
-                <a href="mcq_tester.html" class="subject-card active"
-                    style="background: rgba(239, 246, 255, 0.7); border-color: var(--ink-blue); position: relative;">
-                    <span class="badge-new"
-                        style="position: absolute; top: 12px; right: 12px; font-family: 'Kalam', cursive; background: var(--ink-red); color: white; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; transform: rotate(3deg);">UPDATED</span>
-                    <h3>⚡ MCQ Revision Lab</h3>
-                    <p>Interactive practice room with 3,000+ MCQs across Polity, History, Geography, Economy, Science &
-                        Tech, Punjab GK & Full Tests.</p>
-                </a>
-                <a href="mains_tester.html" class="subject-card active"
-                    style="background: rgba(254, 243, 199, 0.7); border-color: var(--accent-gold); position: relative;">
-                    <span class="badge-new"
-                        style="position: absolute; top: 12px; right: 12px; font-family: 'Kalam', cursive; background: var(--ink-blue); color: white; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; transform: rotate(-2deg);">MAINS
-                        Q&A</span>
-                    <h3>✍️ Mains Q&A Practice Room</h3>
-                    <p>Comprehensive UPSC Mains Answer Writing vault with structured introductions, section breakdowns,
-                        and conclusions.</p>
-                </a>
-                <a href="mcq_tester.html?subject=fulltest" class="subject-card active"
-                    style="background: rgba(236, 253, 245, 0.8); border-color: #10b981; position: relative;">
-                    <span class="badge-new"
-                        style="position: absolute; top: 12px; right: 12px; font-family: 'Kalam', cursive; background: #059669; color: white; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; transform: rotate(2deg);">MOCK
-                        EXAMS</span>
-                    <h3>🎓 Full-Length GS Mock Tests</h3>
-                    <p>10 Complete 100-Question General Studies Mock Papers covering UPSC & State PCS Exam Patterns.</p>
-                </a>
-            </div>
-
-            <!-- Root Index Aspirant House Rules -->
-            <div class="sticky-note yellow-note" style="margin-top: 40px;">
-                <p><strong>Aspirant's Daily House Rules:</strong></p>
-                <p style="font-size: 18px; line-height: 28px;">1. 📅 <strong>Rule 1 (Productive Planning):</strong>
-                    Spend 3 hours creating the perfect study timetable. Begin studying tomorrow, because today was
-                    clearly reserved for planning.</p>
-                <p style="font-size: 18px; line-height: 28px;">2. 📖 <strong>Rule 2 (Knowledge Transfer):</strong> Place
-                    the textbook within 2 meters of your head and hope Bluetooth learning has finally been invented.</p>
-                <p style="font-size: 18px; line-height: 28px;">3. ☕ <strong>Rule 3 (Caffeine Protocol):</strong> Need a
-                    tea break? Click here to <span class="summon-chai-link" onclick="summonChai()">request virtual
-                        cutting chai break permit</span>. (Warning: Break may trigger intense daydreams of clearing the
-                    exam in the first attempt).</p>
-            </div>
-
+                <div class="flex flex-col">
+                    <span class="font-bold text-base tracking-tight text-slate-900 flex items-center gap-1.5">
+                        KHOSA <span class="text-xs font-semibold text-blue-600 bg-blue-50 border border-blue-200/60 px-2 py-0.5 rounded-full">HUB</span>
+                    </span>
+                    <span class="text-[10px] text-slate-500 font-medium tracking-wide uppercase">Civil Services Vault</span>
+                </div>
+            </a>
         </div>
-    </div>
+
+        <!-- Quick Nav Links -->
+        <nav class="hidden md:flex items-center gap-1 bg-slate-100/60 backdrop-blur-md p-1 rounded-full border border-slate-200/60 text-xs font-medium text-slate-700">
+            <a href="subjects/polity/index.html" class="px-3.5 py-1.5 rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm transition-all">🏛️ Polity Notes</a>
+            <a href="current_affairs_index.html" class="px-3.5 py-1.5 rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm transition-all">📰 Current Affairs</a>
+            <a href="mcq_tester.html" class="px-3.5 py-1.5 rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm transition-all">⚡ MCQ Lab</a>
+            <a href="mains_tester.html" class="px-3.5 py-1.5 rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm transition-all">✍️ Mains Vault</a>
+        </nav>
+
+        <!-- Live Status Pill -->
+        <div class="flex items-center gap-2">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 border border-emerald-200/60">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                UPSC 2026 Ready
+            </span>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="flex-grow pt-24 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full space-y-12">
+
+        <!-- Hero Section Showcase -->
+        <section class="text-center pt-6 sm:pt-10 pb-4 max-w-4xl mx-auto space-y-6">
+            <div class="hero-badge inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50/80 border border-blue-200/80 text-blue-700 text-xs font-semibold tracking-wide shadow-sm">
+                <span class="text-base">✨</span> Precision Knowledge System for Civil Services
+            </div>
+            
+            <h1 class="hero-title text-4xl sm:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.15]">
+                Master Civil Services With <span class="gradient-text-blue">Unmatched Precision.</span>
+            </h1>
+            
+            <p class="hero-sub text-lg sm:text-xl text-slate-600 font-normal max-w-2xl mx-auto leading-relaxed">
+                Comprehensive subject notes, 3,000+ topic-wise MCQs, Mains answer writing practice, and monthly current affairs—engineered for rankers.
+            </p>
+
+            <!-- Revision Quote Swiper Slider -->
+            <div class="hero-quote max-w-2xl mx-auto">
+                <div class="swiper quote-swiper glass-panel rounded-2xl p-4 sm:p-5 border border-slate-200/80 text-left shadow-apple-glass">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="flex items-start gap-3">
+                                <span class="text-2xl">💡</span>
+                                <div>
+                                    <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider block mb-0.5">Revision Wisdom</span>
+                                    <p class="text-sm font-medium text-slate-800 italic">"The only limit to our realization of tomorrow will be our doubts of today." — Franklin D. Roosevelt</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex items-start gap-3">
+                                <span class="text-2xl">⚡</span>
+                                <div>
+                                    <span class="text-xs font-semibold text-purple-600 uppercase tracking-wider block mb-0.5">Ranker Principle</span>
+                                    <p class="text-sm font-medium text-slate-800 italic">"Revision is the magic key that turns temporary memory into permanent rank." — IAS Strategy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex items-start gap-3">
+                                <span class="text-2xl">🎓</span>
+                                <div>
+                                    <span class="text-xs font-semibold text-emerald-600 uppercase tracking-wider block mb-0.5">Consistency Rule</span>
+                                    <p class="text-sm font-medium text-slate-800 italic">"Success is not final, failure is not fatal: it is the courage to continue that counts." — Winston Churchill</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quote-swiper-pagination text-center mt-3"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 1: CURRENT AFFAIRS VAULT -->
+        <section class="space-y-4 cards-container">
+            <div class="section-title-wrapper flex items-center justify-between border-b border-slate-200/80 pb-3">
+                <div class="flex items-center gap-2.5">
+                    <span class="text-2xl">📰</span>
+                    <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">Current Affairs Vault</h2>
+                </div>
+                <span class="text-xs font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Monthly Magazines & News Archives</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <a href="current_affairs_index.html" class="glass-card rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
+                    <div class="absolute top-4 right-4">
+                        <span class="badge-apple bg-purple-100 text-purple-700 border border-purple-200">June Edition</span>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="w-12 h-12 rounded-xl bg-purple-50 border border-purple-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                            📰
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors flex items-center gap-2">
+                            Current Affairs Magazine
+                        </h3>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                            Interactive page-by-page PDF magazine reader featuring <strong>June Monthly CA Magazine by Fateh Sir</strong> (Polity, Punjab GK, IR, Economy & Schemes).
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-blue-600">
+                        <span>Open PDF Vault</span>
+                        <span class="group-hover:translate-x-1 transition-transform">→</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- SECTION 2: SUBJECT MASTER NOTES -->
+        <section class="space-y-4 cards-container">
+            <div class="section-title-wrapper flex items-center justify-between border-b border-slate-200/80 pb-3">
+                <div class="flex items-center gap-2.5">
+                    <span class="text-2xl">📚</span>
+                    <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">Master Subject Notes</h2>
+                </div>
+                <span class="text-xs font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Syllabus Master Vault</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Indian Polity Card -->
+                <a href="subjects/polity/index.html" class="glass-card rounded-2xl p-6 flex flex-col justify-between group border-l-4 border-l-blue-600">
+                    <div class="space-y-3">
+                        <div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                            🏛️
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                            Indian Polity
+                        </h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Preamble, Fundamental Rights, Union Executive, Parliament, Judiciary & Panchayati Raj.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-blue-600">
+                        <span>20 Master Chapters</span>
+                        <span class="group-hover:translate-x-1 transition-transform">→</span>
+                    </div>
+                </a>
+
+                <!-- Modern History Card -->
+                <a href="mcq_tester.html?subject=history" class="glass-card rounded-2xl p-6 flex flex-col justify-between group border-l-4 border-l-amber-500">
+                    <div class="space-y-3">
+                        <div class="w-12 h-12 rounded-xl bg-amber-50 border border-amber-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                            📜
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-600 transition-colors">
+                            Indian & World History
+                        </h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Freedom movement, British constitutional acts, ancient philosophy & medieval Cholas.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-amber-600">
+                        <span>Practice Questions</span>
+                        <span class="group-hover:translate-x-1 transition-transform">→</span>
+                    </div>
+                </a>
+
+                <!-- Geography Card -->
+                <a href="mcq_tester.html?subject=geography" class="glass-card rounded-2xl p-6 flex flex-col justify-between group border-l-4 border-l-emerald-500">
+                    <div class="space-y-3">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-50 border border-emerald-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                            🌍
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
+                            Geography & Environment
+                        </h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Geomorphology, climatology, El Niño, demography, and biodiversity mapping.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-emerald-600">
+                        <span>Practice Questions</span>
+                        <span class="group-hover:translate-x-1 transition-transform">→</span>
+                    </div>
+                </a>
+
+                <!-- Economy Card -->
+                <a href="mcq_tester.html?subject=economy" class="glass-card rounded-2xl p-6 flex flex-col justify-between group border-l-4 border-l-purple-500">
+                    <div class="space-y-3">
+                        <div class="w-12 h-12 rounded-xl bg-purple-50 border border-purple-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                            📈
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-purple-600 transition-colors">
+                            Indian Economy & Sci-Tech
+                        </h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Planning models, monetary policy, physics mechanics, biology & disease vectors.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-purple-600">
+                        <span>Practice Questions</span>
+                        <span class="group-hover:translate-x-1 transition-transform">→</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- SECTION 3: REVISION & PRACTICE TEST LABS -->
+        <section class="space-y-4 cards-container">
+            <div class="section-title-wrapper flex items-center justify-between border-b border-slate-200/80 pb-3">
+                <div class="flex items-center gap-2.5">
+                    <span class="text-2xl">⚡</span>
+                    <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">Practice Test Labs</h2>
+                </div>
+                <span class="text-xs font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Interactive Simulators</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- MCQ Lab -->
+                <a href="mcq_tester.html" class="glass-card rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
+                    <div class="absolute top-4 right-4">
+                        <span class="badge-apple bg-red-100 text-red-700 border border-red-200">Updated</span>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                            ⚡
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                            MCQ Revision Lab
+                        </h3>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                            Interactive practice room with <strong>3,000+ MCQs</strong> across Polity, History, Geography, Economy, Science & Tech & Full Tests.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-blue-600">
+                        <span>Launch Simulator</span>
+                        <span class="group-hover:translate-x-1 transition-transform">→</span>
+                    </div>
+                </a>
+
+                <!-- Mains Room -->
+                <a href="mains_tester.html" class="glass-card rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
+                    <div class="absolute top-4 right-4">
+                        <span class="badge-apple bg-amber-100 text-amber-800 border border-amber-200">Mains Q&A</span>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="w-12 h-12 rounded-xl bg-amber-50 border border-amber-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                            ✍️
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-600 transition-colors">
+                            Mains Q&A Vault
+                        </h3>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                            Structured UPSC Mains answer writing vault with model introductions, section breakdowns, and conclusions.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-amber-600">
+                        <span>Explore Model Answers</span>
+                        <span class="group-hover:translate-x-1 transition-transform">→</span>
+                    </div>
+                </a>
+
+                <!-- Full Mock Exams -->
+                <a href="mcq_tester.html?subject=fulltest" class="glass-card rounded-2xl p-6 flex flex-col justify-between group relative overflow-hidden">
+                    <div class="absolute top-4 right-4">
+                        <span class="badge-apple bg-emerald-100 text-emerald-800 border border-emerald-200">Mock Exams</span>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-50 border border-emerald-100 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                            🎓
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
+                            GS Full Mock Papers
+                        </h3>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                            10 Complete 100-Question General Studies Mock Papers covering UPSC & State PCS Exam Patterns.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-emerald-600">
+                        <span>Start Mock Paper</span>
+                        <span class="group-hover:translate-x-1 transition-transform">→</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Aspirant House Rules (Tesla Glass Panel) -->
+        <section class="glass-panel rounded-2xl p-6 sm:p-8 space-y-4 border border-slate-200/80">
+            <div class="flex items-center gap-2">
+                <span class="text-xl">📜</span>
+                <h3 class="text-lg font-bold text-slate-900">Aspirant's Daily House Rules</h3>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs sm:text-sm text-slate-700">
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/60 space-y-1">
+                    <span class="font-bold text-slate-900 block">📅 Rule 1: Productive Planning</span>
+                    <p>Spend 3 hours creating the perfect timetable. Begin studying tomorrow, because today was for planning.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/60 space-y-1">
+                    <span class="font-bold text-slate-900 block">📖 Rule 2: Knowledge Transfer</span>
+                    <p>Place textbook within 2 meters of your head and hope Bluetooth learning gets invented soon.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/60 space-y-1">
+                    <span class="font-bold text-slate-900 block">☕ Rule 3: Caffeine Protocol</span>
+                    <p>Need a tea break? <button onclick="summonChai()" class="text-blue-600 font-semibold underline underline-offset-2 hover:text-blue-700">Request virtual cutting chai permit</button>.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-200/80 py-8 bg-white/50 backdrop-blur-md mt-auto">
+        <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500 space-y-2">
+            <p class="font-medium text-slate-700">KHOSA Aspirant Hub &copy; 2026 — Personal Civil Services Knowledge Directory</p>
+            <p>Engineered for high-yield revision & exam preparation.</p>
+        </div>
+    </footer>
 
     <!-- Steaming Chai Easter Egg Overlay -->
-    <div class="chai-overlay" id="chai-overlay" onclick="closeChai()">
-        <div class="chai-cup-card" onclick="event.stopPropagation()">
-            <div class="cup-container">
-                <div class="steam-lines">
-                    <div class="steam"></div>
-                    <div class="steam"></div>
-                    <div class="steam"></div>
-                </div>
-                <div class="cup"></div>
-                <div class="cup-handle"></div>
-                <div class="cup-saucer"></div>
+    <div id="chai-overlay" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-900/40 backdrop-blur-md p-4 transition-all" onclick="closeChai()">
+        <div class="glass-panel rounded-3xl p-6 sm:p-8 max-w-md w-full text-center space-y-4 shadow-2xl border border-white" onclick="event.stopPropagation()">
+            <div class="w-16 h-16 rounded-full bg-amber-100 border border-amber-200 flex items-center justify-center text-3xl mx-auto animate-bounce">
+                ☕
             </div>
-            <h3 style="font-size: 26px; color: var(--ink-blue); margin-bottom: 8px; font-family: 'Kalam', cursive;">Chai
-                Served! ☕</h3>
-            <p id="chai-wisdom"
-                style="font-size: 20px; line-height: 26px; margin-bottom: 12px; font-style: italic; color: var(--ink-black);">
+            <h3 class="text-2xl font-extrabold text-slate-900">Cutting Chai Served! ☕</h3>
+            <p class="text-sm font-medium text-slate-600 italic leading-relaxed">
                 "Laxmikanth size: 📚. Your brain right now: ☕. Take a 5-minute deep breath. You got this!"
             </p>
-            <button class="chai-btn-close" onclick="closeChai()">Back to study</button>
+            <button onclick="closeChai()" class="w-full py-2.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold tracking-wide transition-colors shadow-md shadow-blue-500/20">
+                Back to Study Room
+            </button>
         </div>
     </div>
 
     <script>
-        const quotes = [
-            '"The only limit to our realization of tomorrow will be our doubts of today." — Franklin D. Roosevelt',
-            '"Success is not final, failure is not fatal: it is the courage to continue that counts." — Winston Churchill',
-            '"It always seems impossible until it\'s done." — Nelson Mandela',
-            '"Believe you can and you\'re halfway there." — Theodore Roosevelt',
-            '"Future belongs to those who prepare for it today." — Malcolm X',
-            '"Revision is the magic key that turns temporary memory into permanent rank." — Civil Services Wisdom'
-        ];
-
-        // Randomize Quote on load
-        document.addEventListener('DOMContentLoaded', () => {
-            const display = document.getElementById('quote-display');
-            if (display) {
-                const randomIdx = Math.floor(Math.random() * quotes.length);
-                display.innerText = quotes[randomIdx];
-            }
-        });
-
-        // Chai Easter Egg
         function summonChai() {
             const overlay = document.getElementById('chai-overlay');
             if (overlay) {
-                overlay.style.display = 'flex';
+                overlay.classList.remove('hidden');
+                overlay.classList.add('flex');
             }
         }
 
         function closeChai() {
             const overlay = document.getElementById('chai-overlay');
             if (overlay) {
-                overlay.style.display = 'none';
+                overlay.classList.remove('flex');
+                overlay.classList.add('hidden');
             }
         }
     </script>
