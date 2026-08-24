@@ -1,169 +1,418 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Kalam:wght@400;700&display=swap');
 
-/* Liquid Glass System Tokens */
+/* Apple Liquid Glass System Tokens */
 :root {
-  --desk-bg: #f8fafc;
-  --paper-bg: rgba(255, 255, 255, 0.85);
-  --ink-blue: #0066cc;
-  --ink-black: #0f172a;
-  --ink-red: #ef4444;
+  --app-bg: #f5f5f7;
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.8);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+  
+  --text-primary: #1d1d1f;
+  --text-secondary: #515154;
+  --text-tertiary: #86868b;
+  
+  --accent-blue: #0071e3;
+  --accent-blue-bg: rgba(0, 113, 227, 0.08);
+  --accent-blue-border: rgba(0, 113, 227, 0.2);
 
-  /* Highlighter Accents */
-  --hl-yellow: linear-gradient(100deg, rgba(254, 240, 138, 0.6) 0%, rgba(253, 224, 71, 0.8) 70%, rgba(254, 240, 138, 0.3) 100%);
-  --hl-pink: linear-gradient(100deg, rgba(251, 207, 232, 0.6) 0%, rgba(244, 114, 182, 0.7) 70%, rgba(251, 207, 232, 0.3) 100%);
-  --hl-blue: linear-gradient(100deg, rgba(191, 219, 254, 0.6) 0%, rgba(96, 165, 250, 0.7) 70%, rgba(191, 219, 254, 0.3) 100%);
-  --hl-green: linear-gradient(100deg, rgba(187, 247, 208, 0.6) 0%, rgba(74, 222, 128, 0.7) 70%, rgba(187, 247, 208, 0.3) 100%);
+  --accent-purple: #bf4800; /* Reusing pink/purple for alerts */
+  
+  /* Highlighter Accents (Glass Badges now) */
+  --badge-yellow-bg: rgba(253, 224, 71, 0.2);
+  --badge-yellow-border: rgba(253, 224, 71, 0.5);
+  --badge-yellow-text: #854d0e;
+
+  --badge-pink-bg: rgba(244, 114, 182, 0.15);
+  --badge-pink-border: rgba(244, 114, 182, 0.4);
+  --badge-pink-text: #be185d;
+
+  --badge-blue-bg: rgba(96, 165, 250, 0.15);
+  --badge-blue-border: rgba(96, 165, 250, 0.4);
+  --badge-blue-text: #1d4ed8;
+
+  --badge-green-bg: rgba(74, 222, 128, 0.15);
+  --badge-green-border: rgba(74, 222, 128, 0.4);
+  --badge-green-text: #166534;
 }
 
+/* Global Reset & Body */
 html {
   width: 100%;
   max-width: 100vw;
   overflow-x: hidden;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-/* Desk Background with Ambient Radial Glow */
 body {
-  background-color: #f8fafc;
+  background-color: var(--app-bg);
   background-image: 
-    radial-gradient(at 10% 10%, rgba(219, 234, 254, 0.4) 0px, transparent 50%),
-    radial-gradient(at 90% 20%, rgba(237, 233, 254, 0.3) 0px, transparent 50%);
+    radial-gradient(circle at 15% 50%, rgba(0, 113, 227, 0.06), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(191, 72, 0, 0.04), transparent 25%);
   background-attachment: fixed;
   margin: 0;
   padding: 0;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
-  color: var(--ink-black);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+  color: var(--text-primary);
   width: 100%;
   max-width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
-  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Container */
 .notebook-container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 24px 16px;
+  padding: 100px 20px 40px; /* Top padding for floating header */
   box-sizing: border-box;
 }
 
-/* Liquid Glass Chapter Page (No notebook lines or binder holes!) */
+/* Liquid Glass Chapter Page (Canvas) */
 .paper-page {
   position: relative;
   width: 100%;
-  max-width: 100%;
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(24px) saturate(180%);
-  -webkit-backdrop-filter: blur(24px) saturate(180%);
-  border-radius: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.9);
-  box-shadow: 
-    0 10px 40px -10px rgba(0, 102, 204, 0.08),
-    0 2px 10px 0 rgba(31, 38, 135, 0.04);
-  padding: 40px 32px;
-  min-height: 100vh;
+  background: var(--glass-bg);
+  backdrop-filter: blur(40px) saturate(200%);
+  -webkit-backdrop-filter: blur(40px) saturate(200%);
+  border-radius: 32px;
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  padding: 50px 60px;
+  min-height: calc(100vh - 140px);
   box-sizing: border-box;
+  overflow: hidden;
 }
 
-.paper-page::before,
-.paper-page::after {
-  display: none !important;
-}
-
-/* Clean Typography for Notes */
+/* Apple Typography */
 h1 {
-  font-size: 32px;
+  font-size: 42px;
   font-weight: 800;
-  letter-spacing: -0.02em;
-  color: #0f172a;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+  margin-top: 0;
   margin-bottom: 8px;
+  line-height: 1.1;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 700;
-  letter-spacing: -0.01em;
-  color: #0066cc;
-  margin-top: 28px;
-  margin-bottom: 12px;
-  border-bottom: 2px solid rgba(0, 102, 204, 0.15);
-  padding-bottom: 6px;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin-top: 48px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
-  color: #1e293b;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  margin-top: 32px;
+  margin-bottom: 12px;
 }
 
 p, li {
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+}
+
+ul, ol {
+  margin-bottom: 20px;
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+strong {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Glass Highlight Badges (Replacing old marker highlights) */
+.hl-yellow, .hl-pink, .hl-blue, .hl-green {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 8px;
+  font-weight: 600;
   font-size: 15px;
-  line-height: 1.7;
-  color: #334155;
-}
-
-/* Glass Sticky Notes & Cards */
-.sticky-note {
-  background: rgba(254, 240, 138, 0.3);
+  margin: 0 2px;
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(253, 224, 71, 0.5);
-  border-radius: 16px;
-  padding: 20px 24px;
-  margin: 24px 0;
-  color: #1e293b;
-  transform: none !important;
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Clean Glass Tables */
+.hl-yellow:hover, .hl-pink:hover, .hl-blue:hover, .hl-green:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.hl-yellow {
+  background: var(--badge-yellow-bg);
+  border-color: var(--badge-yellow-border);
+  color: var(--badge-yellow-text);
+}
+
+.hl-pink {
+  background: var(--badge-pink-bg);
+  border-color: var(--badge-pink-border);
+  color: var(--badge-pink-text);
+}
+
+.hl-blue {
+  background: var(--badge-blue-bg);
+  border-color: var(--badge-blue-border);
+  color: var(--badge-blue-text);
+}
+
+.hl-green {
+  background: var(--badge-green-bg);
+  border-color: var(--badge-green-border);
+  color: var(--badge-green-text);
+}
+
+/* Redesigned Sticky Notes -> Liquid Glass Callout Cards */
+.sticky-note {
+  position: relative;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-left: 4px solid var(--accent-blue);
+  border-radius: 16px;
+  padding: 24px 32px;
+  margin: 32px 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  transform: none !important;
+  overflow: hidden;
+}
+
+.sticky-note.yellow-note {
+  border-left-color: #eab308;
+  background: linear-gradient(135deg, rgba(254, 240, 138, 0.15), rgba(255, 255, 255, 0.6));
+}
+
+.sticky-note.pink-note {
+  border-left-color: #ec4899;
+  background: linear-gradient(135deg, rgba(251, 207, 232, 0.15), rgba(255, 255, 255, 0.6));
+}
+
+.sticky-note p {
+  color: var(--text-primary);
+  margin-bottom: 0;
+}
+
+.sticky-note p:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+/* Q&A Blocks Redesign */
+.qa-block {
+  background: var(--app-bg);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 24px;
+  margin: 24px 0;
+  transition: all 0.3s ease;
+}
+
+.qa-block:hover {
+  background: #ffffff;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.04);
+  transform: translateY(-2px);
+}
+
+.q-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: var(--text-primary);
+  color: #fff;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Glass Tables */
 table {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  margin: 24px 0;
+  margin: 32px 0;
   border-radius: 16px;
   overflow: hidden;
-  border: 1px solid rgba(226, 232, 240, 0.8);
-  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px);
 }
 
 th {
-  background: rgba(241, 245, 249, 0.9);
-  color: #0f172a;
-  font-weight: 700;
-  font-size: 13.5px;
-  padding: 12px 14px;
+  background: rgba(0, 0, 0, 0.03);
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 16px;
   text-align: left;
-  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 td {
-  padding: 12px 14px;
-  font-size: 13.5px;
-  color: #334155;
-  border-bottom: 1px solid rgba(241, 245, 249, 0.8);
+  padding: 16px;
+  font-size: 15px;
+  color: var(--text-secondary);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
 }
 
 tr:last-child td {
   border-bottom: none;
 }
 
-@media (max-width: 600px) {
+/* Floating Navigation Header (Injected via Script) */
+.glass-nav {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 32px);
+  max-width: 1000px;
+  height: 56px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(24px) saturate(200%);
+  -webkit-backdrop-filter: blur(24px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 28px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.nav-back-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease;
+}
+
+.nav-back-btn:hover {
+  background: rgba(0, 0, 0, 0.08);
+  transform: scale(1.02);
+}
+
+.nav-back-btn svg {
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.nav-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 40%;
+}
+
+.nav-actions {
+  display: flex;
+  gap: 12px;
+}
+
+/* Reading Progress Bar */
+.reading-progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: transparent;
+  z-index: 101;
+}
+
+.reading-progress-bar {
+  height: 100%;
+  background: var(--accent-blue);
+  width: 0%;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0 0 10px rgba(0, 113, 227, 0.5);
+}
+
+/* Diagram Container */
+.diagram-container {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 24px;
+  margin: 32px 0;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.03);
+  text-align: center;
+}
+
+.diagram-image {
+  max-width: 100%;
+  border-radius: 12px;
+  height: auto;
+}
+
+/* GSAP Reveal Class */
+.reveal-item {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
   .notebook-container {
-    padding: 12px 8px;
+    padding: 80px 12px 24px;
   }
   .paper-page {
-    padding: 24px 16px;
-    border-radius: 16px;
+    padding: 32px 20px;
+    border-radius: 24px;
   }
-  table {
-    font-size: 11px;
+  h1 {
+    font-size: 32px;
   }
-  th, td {
-    padding: 6px 8px;
+  h2 {
+    font-size: 24px;
+    margin-top: 36px;
+  }
+  p, li {
+    font-size: 16px;
+  }
+  .nav-title {
+    display: none;
   }
 }

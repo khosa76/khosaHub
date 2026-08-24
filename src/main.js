@@ -210,4 +210,19 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+
+  // Apple Liquid Glass Notes Scroll Animations
+  const noteElements = document.querySelectorAll('.paper-page h2, .paper-page h3, .paper-page p, .paper-page ul, .paper-page .sticky-note, .paper-page .qa-block');
+  noteElements.forEach((el) => {
+    gsap.from(el, {
+      scrollTrigger: {
+        trigger: el,
+        start: 'top 95%',
+      },
+      y: 20,
+      opacity: 0,
+      duration: 0.8,
+      ease: 'power2.out',
+    });
+  });
 });

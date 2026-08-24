@@ -16,6 +16,20 @@
 </head>
 
 <body>
+    <div class="reading-progress-container">
+        <div class="reading-progress-bar" id="reading-progress"></div>
+    </div>
+    <nav class="glass-nav">
+        <a href="index.html" class="nav-back-btn">
+            <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+            Back to Chapters
+        </a>
+        <div class="nav-title">PREAMBLE</div>
+        <div class="nav-actions">
+            <!-- Space for future actions like Dark Mode toggle or TOC -->
+        </div>
+    </nav>
+    
     <div class="notebook-container">
         <div class="paper-page">
             <h1>THE CONSTITUTION OF INDIA</h1>
@@ -681,6 +695,19 @@
                 backBtn.classList.remove('hide');
             }
             lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+        });
+    </script>
+
+    <script>
+        // Reading Progress Bar Logic
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            const progressBar = document.getElementById('reading-progress');
+            if (progressBar) {
+                progressBar.style.width = scrolled + '%';
+            }
         });
     </script>
 </body>
