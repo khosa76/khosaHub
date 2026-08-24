@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
     
+    <!-- Prevent FOUC (Flash of Unstyled Content) during Vite load -->
+    <style>html { visibility: hidden; opacity: 0; }</style>
+
     <!-- Vite Main Entry Point (Tailwind, GSAP, Lenis, Swiper, Liquid Glass) -->
     <script type="module" src="/src/main.js"></script>
 

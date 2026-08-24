@@ -8,6 +8,11 @@ import { Navigation, Pagination, Autoplay, EffectCards } from 'swiper/modules';
 // Register GSAP plugins
 gsap.registerPlugin(ScrollTrigger);
 
+// Fix Vite FOUC (Flash of Unstyled Content) by revealing HTML after CSS load
+document.documentElement.style.visibility = 'visible';
+document.documentElement.style.opacity = '1';
+document.documentElement.style.transition = 'opacity 0.4s ease';
+
 // 1. Initialize Lenis Smooth Scroll
 const lenis = new Lenis({
   duration: 1.2,
