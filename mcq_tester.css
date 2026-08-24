@@ -83,56 +83,21 @@ body {
 
 .paper-page {
   position: relative;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-radius: 0;
-  border: none;
-  padding: 32px 36px;
-  min-height: 100vh;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(40px) saturate(200%);
+  -webkit-backdrop-filter: blur(40px) saturate(200%);
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+  padding: 40px 48px;
+  min-height: calc(100vh - 80px);
+  margin-top: 40px;
   box-sizing: border-box;
 }
 
-/* Spiral Binding Binder Holes */
-.paper-page::before {
-  content: '';
-  position: absolute;
-  top: 40px;
-  bottom: 40px;
-  left: 20px;
-  width: 14px;
-  background-image: radial-gradient(circle, #374151 55%, transparent 63%);
-  background-size: 14px 32px;
-  background-repeat: repeat-y;
-  background-position: 0 12px;
-  opacity: 0.8;
-  mix-blend-mode: multiply;
-  z-index: 10;
-}
-
-/* Metal Spiral Rings */
+.paper-page::before,
 .paper-page::after {
-  content: '';
-  position: absolute;
-  top: 36px;
-  bottom: 44px;
-  left: 6px;
-  width: 32px;
-  background-image: linear-gradient(180deg,
-      transparent 0px,
-      transparent 4px,
-      #9ca3af 4px,
-      #e5e7eb 8px,
-      #ffffff 10px,
-      #d1d5db 12px,
-      #4b5563 16px,
-      transparent 16px,
-      transparent 32px);
-  background-size: 32px 32px;
-  background-repeat: repeat-y;
-  background-position: 0 12px;
-  z-index: 11;
-  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.18));
+  display: none !important;
 }
 
 /* Clean Header Navbar */
@@ -190,24 +155,27 @@ body {
 }
 
 .mcq-subject-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border-light);
-  border-radius: var(--radius-md);
-  padding: 24px;
-  cursor: pointer;
-  transition: all 0.25s ease;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 180px;
-  box-shadow: var(--shadow-sm);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .mcq-subject-card:hover {
-  transform: translateY(-3px);
-  border-color: var(--primary-blue-border);
-  box-shadow: var(--shadow-lg);
-  background: #ffffff;
+  transform: translateY(-6px) scale(1.015);
+  background: rgba(255, 255, 255, 0.9);
+  border-color: rgba(0, 113, 227, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 113, 227, 0.12);
 }
 
 .card-subject-header {
